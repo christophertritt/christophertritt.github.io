@@ -48,4 +48,76 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
-
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #555;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .card {
+    width: 30%;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #999;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 1.2em;
+    line-height: 1.4;
+    margin-bottom: 10px;
+  }
+  
+  .footer {
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
