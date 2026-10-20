@@ -1,6 +1,17 @@
 /* Start page: a search window and a feed reader on the Aero desktop. Builds on home.css tokens and chrome. */
 .vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .start-page .taskbar{flex-wrap:nowrap}
+.start-page .taskbar.glass{
+  background:linear-gradient(135deg,rgba(255,255,255,.58),rgba(232,246,255,.24) 48%,rgba(201,231,252,.18));
+  border-color:rgba(255,255,255,.62);
+  -webkit-backdrop-filter:blur(22px) saturate(1.45);
+  backdrop-filter:blur(22px) saturate(1.45);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.82),inset 0 -10px 20px rgba(134,187,223,.16),0 18px 34px -24px rgba(11,22,48,.7);
+}
+.start-page .taskbar.glass::before{
+  opacity:.75;
+  background:linear-gradient(to bottom,rgba(255,255,255,.86),rgba(255,255,255,.26) 44%,transparent);
+}
 .hello{margin:0 auto 0 4px;font:700 18px/1.1 "Comic Sans MS","Comic Neue","Chalkboard SE",cursive;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
 .wx-chip{flex-shrink:0;display:inline-flex;align-items:center;gap:6px;padding:7px 12px;border-radius:999px;text-decoration:none;color:var(--ink);font:600 13px/1 var(--ui);
   background:radial-gradient(circle at 30% 20%,#fff,transparent 45%),linear-gradient(#e8f6ff,#bfe3f7);border:1px solid #fff;box-shadow:0 4px 10px -6px rgba(11,22,48,.5)}
