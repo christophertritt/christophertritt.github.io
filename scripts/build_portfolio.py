@@ -11,7 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = (ROOT / "portfolio/_source.html").read_text()
-VERSION = "20261020j"
+VERSION = "20261020n"
 
 PAGES = {  # section id -> (folder, page title, theme)
     "work": ("projects", "Projects", "airport"),
@@ -33,6 +33,15 @@ hero = cut('  <section class="hero"', "  </section>")
 desk = cut('  <nav class="desk"', "  </nav>")
 dock_footer = cut('  <nav class="dock glass"', "  </footer>")
 sections = {sid: cut(f'  <section class="block" id="{sid}">', "  </section>") for sid in PAGES}
+
+# The Projects intro count is computed from the case studies actually present
+# in the source (the .support entries), so it can never drift from the list.
+NUMWORDS = {0: "No", 1: "One", 2: "Two", 3: "Three", 4: "Four", 5: "Five",
+            6: "Six", 7: "Seven", 8: "Eight", 9: "Nine", 10: "Ten",
+            11: "Eleven", 12: "Twelve"}
+_case_n = len(re.findall(r"<div><h3>", sections["work"]))
+sections["work"] = sections["work"].replace(
+    "{{CASE_STUDY_COUNT}}", NUMWORDS.get(_case_n, str(_case_n)))
 
 def relink(html):
     """Point in-page section links at their own pages."""
@@ -101,8 +110,8 @@ def page(title, body_class, main_html, theme=None):
 
 # hub: the desktop with the two hero windows and the icons
 hub_desk = desk.replace('<nav class="desk" aria-label="Sections">', '<nav class="desk" aria-label="Open a window">')
-hub = page("Christopher A. Tritt", "portfolio-hub", hero + "\n\n" + hub_desk + "\n\n")
-hub = hub.replace('<a href="/portfolio/"><span>Desktop</span></a>', '<a href="/portfolio/" aria-current="page"><span>Desktop</span></a>', 1)
+hub = page("Portfolio · Christopher A. Tritt", "portfolio-hub", hero + "\n\n" + hub_desk + "\n\n")
+hub = hub.replace('<a href="/portfolio/"><span data-i18n="menu.desktop">Desktop</span></a>', '<a href="/portfolio/" aria-current="page"><span data-i18n="menu.desktop">Desktop</span></a>', 1)
 (ROOT / "portfolio/index.html").write_text(hub)
 
 for sid, (folder, name, theme) in PAGES.items():

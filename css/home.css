@@ -165,7 +165,7 @@ section.block{padding-block:40px}
 
 .support{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:0 44px;margin-top:56px}
 .support div{padding:14px 0;border-top:1px solid var(--line);min-width:0}
-.support b{display:block;font-weight:600}
+.support h3{display:block;font:600 16px/1.5 var(--body)}
 .support span{color:var(--muted);font-size:15px}
 
 .cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
@@ -1026,3 +1026,9 @@ body.canada .driver-popover.hieye-tour .driver-popover-next-btn{background:linea
 .wxb.place{font-size:10px;line-height:1.15}
 body[data-place="work"] .wxb.place{--tint:#c9b6ff!important}
 body[data-place="home"] .wxb.place{--tint:#ffc2a8!important}
+
+/* consistent site wayfinding, identical on every page */
+.site-nav{max-width:1080px;margin:0 auto;padding:10px 16px 0}
+.site-nav ul{display:flex;flex-wrap:wrap;gap:2px 4px;list-style:none;margin:0;padding:0}
+.site-nav a{display:inline-block;font:600 13px/1.4 var(--body);color:var(--muted);text-decoration:none;padding:5px 9px;border-radius:999px}
+.site-nav a:hover{color:var(--ink);background:var(--green-soft)}

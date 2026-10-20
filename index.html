@@ -6,10 +6,12 @@
   <meta name="robots" content="noindex">
   <meta name="description" content="Christopher Tritt's start page: search and the day's planning and transit news.">
   <title>Start · Christopher A. Tritt</title>
+  <script>try{var m=localStorage.getItem("ct-mode")||(localStorage.getItem("ct-canada")==="on"?"canada":"off");if(m==="canada"||m==="quebec")document.documentElement.dataset.mode=m}catch(e){}</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&family=Comic+Neue:wght@700&family=Dancing+Script:wght@600;700&display=swap">
   <link rel="stylesheet" href="/css/home.css?v=20261020k">
   <link rel="stylesheet" href="/css/start.css?v=20261020k">
+  <link rel="stylesheet" href="/css/site.css?v=20261020n">
 </head>
 <body class="start-page">
 <a class="skip" href="#q">Skip to search</a>
@@ -59,8 +61,8 @@
 <header class="top"><div class="wrap">
   <div class="taskbar glass">
     <span class="eye" id="eye" aria-hidden="true"><span class="sclera"></span><span class="iris" id="iris"><span class="pupil"></span></span><span class="lid"></span></span>
-    <p class="hello" id="hello">Hello, Christopher</p>
     <a class="btn blue to-portfolio" href="/portfolio/"><svg viewBox="0 0 64 56" aria-hidden="true"><path d="M5 9Q5 5.5 8.5 5.5H23.5L28.5 10.5H55.5Q59 10.5 59 14V46H5z" fill="#d7ecff"/><path d="M3 21Q3 18.5 5.5 18.5H58.5Q61 18.5 61 21L59.4 49.5Q59.2 52.5 56.2 52.5H7.8Q4.8 52.5 4.6 49.5z" fill="#fff"/></svg><span>Portfolio</span></a>
+    <p class="hello" id="hello">Hello, Christopher</p>
     <span class="clock" id="clock" role="img" aria-label="Pacific time">
       <svg viewBox="0 0 100 100" aria-hidden="true">
         <circle cx="50" cy="50" r="49" fill="#cfd5db"/><circle cx="50" cy="50" r="47" fill="#9aa3ab"/><circle cx="50" cy="50" r="45.5" fill="#fff"/>
@@ -75,34 +77,78 @@
   </div>
 </div></header>
 
+<nav class="site-nav pnav" aria-label="Site">
+  <button class="pnav-btn" id="pnavBtn" type="button" aria-expanded="false" aria-controls="pnavPanel"><svg viewBox="0 0 64 56" aria-hidden="true"><path d="M5 9Q5 5.5 8.5 5.5H23.5L28.5 10.5H55.5Q59 10.5 59 14V46H5z" fill="#d7ecff"/><path d="M3 21Q3 18.5 5.5 18.5H58.5Q61 18.5 61 21L59.4 49.5Q59.2 52.5 56.2 52.5H7.8Q4.8 52.5 4.6 49.5z" fill="#fff"/></svg><span data-i18n="nav.portfolio">Portfolio</span><span class="pnav-caret" aria-hidden="true">▾</span></button>
+  <div class="pnav-panel" id="pnavPanel" hidden>
+    <span class="pnav-sec" data-i18n="nav.portfolio">Portfolio</span>
+    <a href="/portfolio/projects/"><span data-i18n="nav.projects">Projects</span></a>
+    <a href="/portfolio/skills/"><span data-i18n="nav.skills">Skills</span></a>
+    <a href="/portfolio/about/"><span data-i18n="nav.about">About</span></a>
+    <a href="/portfolio/resume/"><span data-i18n="nav.resume">Resume</span></a>
+    <a href="/portfolio/contact/"><span data-i18n="nav.contact">Contact</span></a>
+    <span class="pnav-sec">Site</span>
+    <a href="/"><span data-i18n="nav.start">Start</span></a>
+    <a href="/portfolio/"><span data-i18n="nav.portfolio">Portfolio</span></a>
+    <a href="/reader/"><span data-i18n="nav.reader">Reader</span></a>
+  </div>
+</nav>
+
 <main class="wrap start start-grid" id="top">
   <h1 class="vh">Start page</h1>
   <section class="win glass search-win" aria-label="Search Google">
-    <div class="tb"><span class="lights inactive" aria-hidden="true"><i></i><i></i><i></i></span><span class="tb-t">google.com</span></div>
+    <div class="tb"><span class="lights inactive" aria-hidden="true"><i></i><i></i><i></i></span><span class="tb-t" id="gleTb">Christophergle</span></div>
     <div class="search-body">
-      <div class="portal" aria-hidden="true">
-        <svg class="portal-globe" viewBox="0 0 80 80"><defs><radialGradient id="pgG" cx=".35" cy=".3" r=".75"><stop offset="0" stop-color="#e8fbff"/><stop offset=".45" stop-color="#5fc3ea"/><stop offset="1" stop-color="#14508a"/></radialGradient><clipPath id="pgC"><circle cx="40" cy="40" r="30"/></clipPath></defs>
-          <circle cx="40" cy="40" r="30" fill="url(#pgG)"/><g clip-path="url(#pgC)" fill="none" stroke="#fff" stroke-opacity=".75" stroke-width="1.4"><g class="pg-spin"><ellipse cx="40" cy="40" rx="10" ry="30"/><ellipse cx="40" cy="40" rx="22" ry="30"/><ellipse cx="80" cy="40" rx="10" ry="30"/><ellipse cx="80" cy="40" rx="22" ry="30"/><line x1="40" y1="10" x2="40" y2="70"/><line x1="80" y1="10" x2="80" y2="70"/></g><path d="M10 40h60M14 25h52M14 55h52"/></g>
-          <ellipse cx="31" cy="27" rx="12" ry="7" fill="#fff" opacity=".6" transform="rotate(-25 31 27)"/><path class="pg-spark" d="M66 10l2 5 5 2-5 2-2 5-2-5-5-2 5-2z" fill="#fff38a"/></svg>
-        <div class="portal-word"><span class="pw-main">WebSearch</span><span class="pw-sub">your on-ramp to the information superhighway</span></div>
+      <div class="portal">
+        <svg class="portal-globe" viewBox="0 0 120 120" role="img" aria-label="Globe with a satellite and a UFO orbiting it"><defs><radialGradient id="pgG" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#e8fbff"/><stop offset=".45" stop-color="#5fc3ea"/><stop offset="1" stop-color="#14508a"/></radialGradient><clipPath id="pgC"><circle cx="60" cy="60" r="34"/></clipPath></defs>
+          <circle cx="60" cy="60" r="46" fill="none" stroke="#7fb8dd" stroke-opacity=".45" stroke-width="1" stroke-dasharray="3 5"/>
+          <circle cx="60" cy="60" r="55" fill="none" stroke="#7fb8dd" stroke-opacity=".3" stroke-width="1" stroke-dasharray="2 6"/>
+          <circle cx="60" cy="60" r="34" fill="url(#pgG)"/>
+          <g clip-path="url(#pgC)">
+            <g fill="none" stroke="#fff" stroke-opacity=".8" stroke-width="1.3">
+              <g>
+                <animateTransform attributeName="transform" type="translate" from="0 0" to="-68 0" dur="7s" repeatCount="indefinite"/>
+                <g fill="#8fd07a" stroke="none" opacity=".85"><path d="M38 38q10-6 16 2-2 8-10 8-8-2-6-10zM66 66q12-4 16 4-4 8-12 6-8-4-4-10zM106 38q10-6 16 2-2 8-10 8-8-2-6-10zM134 66q12-4 16 4-4 8-12 6-8-4-4-10z"/></g>
+                <ellipse cx="60" cy="60" rx="12" ry="34"/><ellipse cx="60" cy="60" rx="25" ry="34"/>
+                <ellipse cx="128" cy="60" rx="12" ry="34"/><ellipse cx="128" cy="60" rx="25" ry="34"/>
+                <line x1="60" y1="26" x2="60" y2="94"/><line x1="128" y1="26" x2="128" y2="94"/>
+              </g>
+              <path d="M26 60h68M31 42h58M31 78h58"/>
+            </g>
+          </g>
+          <ellipse cx="49" cy="44" rx="13" ry="7" fill="#fff" opacity=".55" transform="rotate(-25 49 44)"/>
+          <g><animateTransform attributeName="transform" type="rotate" from="0 60 60" to="360 60 60" dur="12s" repeatCount="indefinite"/>
+            <g transform="translate(106 60)"><rect x="-11" y="-2.2" width="7" height="4.4" fill="#3d6fb8" stroke="#fff" stroke-width=".6"/><rect x="4" y="-2.2" width="7" height="4.4" fill="#3d6fb8" stroke="#fff" stroke-width=".6"/><rect x="-3" y="-3.4" width="6" height="6.8" rx="1" fill="#cfd8e3" stroke="#5a6a7a" stroke-width=".7"/><circle cx="0" cy="0" r="1.2" fill="#eb0000"/></g></g>
+          <g><animateTransform attributeName="transform" type="rotate" from="360 60 60" to="0 60 60" dur="19s" repeatCount="indefinite"/>
+            <g transform="translate(60 5)"><ellipse cx="0" cy="2.4" rx="9.5" ry="3.1" fill="#b9c6d4" stroke="#5a6a7a" stroke-width=".7"/><path d="M-4.6 1.4a4.6 4.6 0 0 1 9.2 0z" fill="#bfe8ff" stroke="#5a6a7a" stroke-width=".7"/><circle cx="0" cy="-.6" r="1.9" fill="#57d977"/><circle cx="-5" cy="3" r=".9" fill="#ffd84a"/><circle cx="0" cy="3.8" r=".9" fill="#ffd84a"/><circle cx="5" cy="3" r=".9" fill="#ffd84a"/></g></g>
+          <path class="pg-spark" d="M100 12l1.8 4.4 4.4 1.8-4.4 1.8-1.8 4.4-1.8-4.4-4.4-1.8 4.4-1.8z" fill="#fff38a"/></svg>
+        <div class="gle">
+          <p class="gle-word" id="gleWord" role="img" aria-label="Christophergle"><span class="c-b">C</span><span class="c-r">h</span><span class="c-y">r</span><span class="c-b">i</span><span class="c-g">s</span><span class="c-r">t</span><span class="c-b">o</span><span class="c-r">p</span><span class="c-y">h</span><span class="c-b">e</span><span class="c-g">r</span><span class="c-r">g</span><span class="c-b">l</span><span class="c-y">e</span></p>
+          <p class="pw-sub" data-i18n="gle.tag">your on-ramp to the information superhighway</p>
+        </div>
+      </div>
+      <div class="gle-wx" id="gleWx" aria-hidden="true">
+        <span class="gwx main"><b id="gwxTemp">…°</b><small id="gwxCond">weather</small></span>
+        <span class="gwx feels"><b id="gwxFeels">…°</b><small data-i18n="gwx.feels">feels</small></span>
+        <span class="gwx wind"><b id="gwxWind">…</b><small id="gwxWindU">wind</small></span>
+        <span class="gwx place"><b id="gwxPlace">…</b></span>
       </div>
       <form id="search" class="search" action="https://www.google.com/search" method="get" role="search">
         <label for="q" class="vh">Search Google</label>
         <span class="q-orb" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="10" cy="10" r="6.5" fill="none" stroke="currentColor" stroke-width="2.6"/><path d="M15 15l5.5 5.5" stroke="currentColor" stroke-width="2.8" stroke-linecap="round"/></svg></span>
-        <input id="q" name="q" type="search" autocomplete="off" spellcheck="false" placeholder="Search Google" enterkeyhint="search" aria-describedby="searchHint">
+        <input id="q" name="q" type="search" autocomplete="off" spellcheck="false" placeholder="Search Google" data-i18n-ph="search.ph" enterkeyhint="search" aria-describedby="searchHint">
         <input type="hidden" name="tbm" id="tbm" disabled>
-        <button class="btn primary go" type="submit">Search</button>
+        <button class="btn primary go" type="submit" data-i18n="search.btn">Search</button>
       </form>
       <div class="modes" role="radiogroup" aria-label="What to search">
-        <button type="button" role="radio" aria-checked="true" data-mode="web">Web</button>
-        <button type="button" role="radio" aria-checked="false" data-mode="news">News</button>
-        <button type="button" role="radio" aria-checked="false" data-mode="images">Images</button>
-        <button type="button" role="radio" aria-checked="false" data-mode="scholar">Scholar</button>
-        <button type="button" role="radio" aria-checked="false" data-mode="maps">Maps</button>
-        <button type="button" role="radio" aria-checked="false" data-mode="mrsc">MRSC</button>
-        <button type="button" role="radio" aria-checked="false" data-mode="m365">SharePoint</button>
+        <button type="button" role="radio" aria-checked="true" data-mode="web" data-i18n="mode.web">Web</button>
+        <button type="button" role="radio" aria-checked="false" data-mode="news" data-i18n="mode.news">News</button>
+        <button type="button" role="radio" aria-checked="false" data-mode="images" data-i18n="mode.images">Images</button>
+        <button type="button" role="radio" aria-checked="false" data-mode="scholar" data-i18n="mode.scholar">Scholar</button>
+        <button type="button" role="radio" aria-checked="false" data-mode="maps" data-i18n="mode.maps">Maps</button>
+        <button type="button" role="radio" aria-checked="false" data-mode="mrsc" data-i18n="mode.mrsc">MRSC</button>
+        <button type="button" role="radio" aria-checked="false" data-mode="m365" data-i18n="mode.m365">SharePoint</button>
       </div>
-      <p class="hint" id="searchHint">Press <kbd>/</kbd> to search from anywhere. Web searches open on Google. SharePoint searches your Microsoft 365 files and sites.</p>
+      <p class="hint" id="searchHint"><span data-i18n="search.hint1">Press </span><kbd>/</kbd><span data-i18n="search.hint2"> to search from anywhere. Web searches open on Google. SharePoint searches your Microsoft 365 files and sites.</span></p>
     </div>
   </section>
 
@@ -112,68 +158,65 @@
         <circle cx="21" cy="39" r="4.6" fill="#fff"/>
         <path class="w1" d="M17 27a12 12 0 0 1 12 12" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/><path class="w2" d="M17 16a23 23 0 0 1 23 23" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
         <path d="M10 15Q10 6 19 6H45Q54 6 54 15V21Q32 27 10 21z" fill="url(#agGl)" opacity=".75"/></svg>
-      <span class="badge" id="feedBadge" hidden></span></span><span class="di-label">Feeds</span></a>
+      <span class="badge" id="feedBadge" hidden></span></span><span class="di-label" data-i18n="desk.feeds">Feeds</span></a>
     <a href="/portfolio/" class="di di-folio" data-window><span class="di-art">
       <svg viewBox="0 0 64 56" aria-hidden="true"><path d="M5 9Q5 5.5 8.5 5.5H23.5L28.5 10.5H55.5Q59 10.5 59 14V46H5z" fill="url(#agFb)" stroke="#2c6aa8" stroke-width="1.2" stroke-linejoin="round"/><path d="M6.3 9.2Q6.3 6.8 8.7 6.8H23L28 11.8H55.4Q57.7 11.8 57.7 14" fill="none" stroke="#fff" stroke-opacity=".55"/>
         <g class="f f1"><rect x="11" y="13" width="15" height="19" rx="1.5" fill="#fff" stroke="#3f74b2"/><path d="M14 18h9M14 21h9M14 24h7" stroke="#3f74b2" stroke-width="1.2"/></g>
         <g class="f f2"><rect x="24.5" y="11" width="16" height="13" rx="1.5" fill="#fff" stroke="#c2553f"/><rect x="24.5" y="11" width="16" height="3" fill="#e2733e"/></g>
         <g class="f f3"><rect x="38" y="13" width="15" height="19" rx="1.5" fill="#fff" stroke="#3e8a4f"/><path d="M38 18h15M38 23h15M43 13v19" stroke="#3e8a4f" stroke-width=".8"/></g>
         <path d="M3 21Q3 18.5 5.5 18.5H58.5Q61 18.5 61 21L59.4 49.5Q59.2 52.5 56.2 52.5H7.8Q4.8 52.5 4.6 49.5z" fill="url(#agFf)" stroke="#2c6aa8" stroke-width="1.2" stroke-linejoin="round"/><path d="M4.6 21.1Q4.6 19.9 5.8 19.9H58.2Q59.4 19.9 59.4 21.1L59 30.6Q32 34.4 5 30.6z" fill="url(#agGl)" opacity=".8"/><path d="M6.6 51H57.4" stroke="#fff" stroke-opacity=".5"/>
-        <g transform="translate(32 41)"><path d="M0-5.3a4.6 4.6 0 0 1 4.6 4.6c0 3.4-4.6 7.8-4.6 7.8s-4.6-4.4-4.6-7.8A4.6 4.6 0 0 1 0-5.3z" fill="#fff" opacity=".5"/><path d="M0-6.2a4.6 4.6 0 0 1 4.6 4.6c0 3.4-4.6 7.8-4.6 7.8s-4.6-4.4-4.6-7.8A4.6 4.6 0 0 1 0-6.2z" fill="#2c6aa8" opacity=".38"/><circle cy="-1.6" r="1.7" fill="#d7ecff" opacity=".9"/></g></svg></span><span class="di-label">Portfolio</span></a>
+        <g transform="translate(32 41)"><path d="M0-5.3a4.6 4.6 0 0 1 4.6 4.6c0 3.4-4.6 7.8-4.6 7.8s-4.6-4.4-4.6-7.8A4.6 4.6 0 0 1 0-5.3z" fill="#fff" opacity=".5"/><path d="M0-6.2a4.6 4.6 0 0 1 4.6 4.6c0 3.4-4.6 7.8-4.6 7.8s-4.6-4.4-4.6-7.8A4.6 4.6 0 0 1 0-6.2z" fill="#2c6aa8" opacity=".38"/><circle cy="-1.6" r="1.7" fill="#d7ecff" opacity=".9"/></g></svg></span><span class="di-label" data-i18n="nav.portfolio">Portfolio</span></a>
     <a href="https://pugetsound.onebusaway.org/" class="di di-bus" target="_blank" rel="noopener"><span class="di-art">
       <svg viewBox="0 0 64 56" aria-hidden="true"><ellipse cx="32" cy="50.5" rx="27" ry="3" fill="#0b1630" opacity=".18"/><g class="bus-bob"><rect x="5" y="7" width="54" height="36" rx="8" fill="url(#agBus)" stroke="#3a4b60" stroke-width="1.3"/><rect x="5" y="31" width="54" height="6" fill="url(#agStripe)"/>
         <rect x="9.5" y="12" width="13" height="13" rx="2.5" fill="url(#agWin)" stroke="#2b3d52" stroke-width="1"/><rect x="25" y="12" width="13" height="13" rx="2.5" fill="url(#agWin)" stroke="#2b3d52" stroke-width="1"/><rect x="40.5" y="12" width="14" height="18" rx="2.5" fill="url(#agWin)" stroke="#2b3d52" stroke-width="1"/>
         <path d="M10.5 13h7l-5 11h-2zM26 13h7l-5 11h-2zM41.5 13h7.5l-6.5 16h-1z" fill="#fff" opacity=".28"/>
         <rect x="39.5" y="2.5" width="16" height="6.5" rx="1.6" fill="#10151c" stroke="#3a4b60" stroke-width=".8"/><text x="47.5" y="7.9" text-anchor="middle" font-size="5.2" font-weight="700" font-family="monospace" fill="#ffbf3a">594</text>
         <path d="M7 10Q7 8.5 9.5 8.5H54.5Q57 8.5 57 10.5V11Q32 13 7 11z" fill="#fff" opacity=".7"/><circle cx="57" cy="39.5" r="1.4" fill="#ffd27a"/></g>
-        <circle class="wh" cx="17" cy="44" r="5.6" fill="#1b2430"/><circle class="wh" cx="47" cy="44" r="5.6" fill="#1b2430"/><circle cx="17" cy="44" r="2.6" fill="url(#agHub)"/><circle cx="47" cy="44" r="2.6" fill="url(#agHub)"/></svg></span><span class="di-label">OneBusAway</span></a>
+        <circle class="wh" cx="17" cy="44" r="5.6" fill="#1b2430"/><circle class="wh" cx="47" cy="44" r="5.6" fill="#1b2430"/><circle cx="17" cy="44" r="2.6" fill="url(#agHub)"/><circle cx="47" cy="44" r="2.6" fill="url(#agHub)"/></svg></span><span class="di-label" data-i18n="desk.bus">OneBusAway</span></a>
     <a href="https://wsdot.com/travel/real-time/map" class="di di-road" target="_blank" rel="noopener"><span class="di-art">
       <svg viewBox="0 0 64 56" aria-hidden="true"><path d="M2 52Q14 40 26 38L30 6H34L38 38Q50 40 62 52z" fill="url(#agGrass)" opacity=".85"/><path d="M18 52L29.2 6H34.8L46 52z" fill="url(#agRoad)" stroke="#2a313a" stroke-width=".8"/><path d="M19.5 52L29.6 7" stroke="#fff" stroke-width="1" opacity=".8"/><path d="M44.5 52L34.4 7" stroke="#fff" stroke-width="1" opacity=".8"/>
         <path class="lane" d="M32 8v5M32 19v6M32 31v7M32 44v8" stroke="#ffd84a" stroke-width="2.4"/>
         <rect x="47.5" y="38" width="3" height="14" fill="url(#agHousing)"/><rect x="42.5" y="4" width="13" height="34" rx="5" fill="url(#agHousing)" stroke="#0b0e12" stroke-width=".8"/>
         <circle class="tl r" cx="49" cy="12" r="4.2" fill="url(#agRed)"/><circle class="tl y" cx="49" cy="21" r="4.2" fill="url(#agAmb)"/><circle class="tl g" cx="49" cy="30" r="4.2" fill="url(#agGrn)"/>
-        <path d="M44 9Q44 5.5 47.5 5.5H50.5Q54 5.5 54 9V15Q49 13 44 15z" fill="#fff" opacity=".22"/></svg></span><span class="di-label">WSDOT traffic</span></a>
+        <path d="M44 9Q44 5.5 47.5 5.5H50.5Q54 5.5 54 9V15Q49 13 44 15z" fill="#fff" opacity=".22"/></svg></span><span class="di-label" data-i18n="desk.road">WSDOT traffic</span></a>
     <a href="https://www.microsoft365.com/" class="di di-m365" target="_blank" rel="noopener"><span class="di-art">
       <svg viewBox="0 0 64 56" aria-hidden="true"><g class="tiles"><rect x="10" y="5" width="21" height="21" rx="5" fill="url(#agT1)" stroke="#b6371a" stroke-width=".8"/><rect x="33" y="5" width="21" height="21" rx="5" fill="url(#agT2)" stroke="#3a8a1f" stroke-width=".8"/><rect x="10" y="29" width="21" height="21" rx="5" fill="url(#agT3)" stroke="#156aa8" stroke-width=".8"/><rect x="33" y="29" width="21" height="21" rx="5" fill="url(#agT4)" stroke="#b88a00" stroke-width=".8"/></g>
-        <path d="M11 9.5Q11 6 15 6H50Q53 6 53 9.5V12Q32 16 11 12z" fill="#fff" opacity=".35"/></svg></span><span class="di-label">Work apps</span></a>
+        <path d="M11 9.5Q11 6 15 6H50Q53 6 53 9.5V12Q32 16 11 12z" fill="#fff" opacity=".35"/></svg></span><span class="di-label" data-i18n="desk.m365">Work apps</span></a>
     <a href="https://scholar.google.com/" class="di di-scholar" target="_blank" rel="noopener"><span class="di-art">
       <svg viewBox="0 0 64 56" aria-hidden="true"><rect x="12" y="44" width="40" height="7" rx="1.5" fill="url(#agBook)" stroke="#5a170e" stroke-width=".8"/><rect x="14" y="45.5" width="36" height="3" fill="#f6f1e4"/><path d="M14 47h36" stroke="#cfc6b0" stroke-width=".5"/>
         <g class="cap"><path d="M16 28v11c8 6 24 6 32 0V28L32 35z" fill="url(#agCapBody)" stroke="#121a3a" stroke-width=".8"/><path d="M4 22L32 10l28 12-28 12z" fill="url(#agCapTop)" stroke="#121a3a" stroke-width="1.2" stroke-linejoin="round"/><path d="M9 21.6L32 12l23 9.6" fill="none" stroke="#fff" stroke-opacity=".35"/><ellipse cx="32" cy="22" rx="3" ry="1.5" fill="url(#agGold)"/></g>
-        <path d="M32 22L56 23" fill="none" stroke="#e8c24a" stroke-width="1.6"/><path class="tassel" d="M56 23v14" stroke="#e8c24a" stroke-width="2.2"/><circle class="tassel" cx="56" cy="39" r="3.2" fill="url(#agGold)" stroke="#8a6116" stroke-width=".6"/></svg></span><span class="di-label">Scholar</span></a>
+        <path d="M32 22L56 23" fill="none" stroke="#e8c24a" stroke-width="1.6"/><path class="tassel" d="M56 23v14" stroke="#e8c24a" stroke-width="2.2"/><circle class="tassel" cx="56" cy="39" r="3.2" fill="url(#agGold)" stroke="#8a6116" stroke-width=".6"/></svg></span><span class="di-label" data-i18n="desk.scholar">Scholar</span></a>
     <a href="https://mrsc.org/" class="di di-mrsc" target="_blank" rel="noopener"><span class="di-art">
       <svg viewBox="0 0 64 56" aria-hidden="true"><path class="flag" d="M32 6V-5l11 3.2-11 3.2" fill="url(#agFlag)" stroke="#14447f" stroke-width=".8"/><path d="M32 6V-5" stroke="#6c7886" stroke-width="1"/>
         <rect x="6" y="47" width="52" height="5" rx="1" fill="url(#agStone)" stroke="#8a7d68" stroke-width=".8"/><rect x="9" y="43.5" width="46" height="4" fill="url(#agStone)" stroke="#8a7d68" stroke-width=".8"/>
         <g fill="url(#agMarble)" stroke="#9a8f7c" stroke-width=".6"><rect x="12" y="27" width="6" height="16.5"/><rect x="23" y="27" width="6" height="16.5"/><rect x="35" y="27" width="6" height="16.5"/><rect x="46" y="27" width="6" height="16.5"/></g>
-        <rect x="9" y="23" width="46" height="4.5" fill="url(#agStone)" stroke="#8a7d68" stroke-width=".8"/><path d="M5 23.5L32 6l27 17.5z" fill="url(#agRoof)" stroke="#6b1533" stroke-width="1.2" stroke-linejoin="round"/><path d="M13 21.5L32 9.4l19 12.1" fill="none" stroke="#fff" stroke-opacity=".45"/><circle cx="32" cy="17" r="2.6" fill="#f6dc95" stroke="#8a6116" stroke-width=".6"/></svg></span><span class="di-label">MRSC</span></a>
-    <a href="/toys/" class="di di-toys" data-window><span class="di-art">
-      <svg viewBox="0 0 64 56" aria-hidden="true"><g class="toy-pop"><rect x="14" y="2" width="14" height="14" rx="3" fill="#ff7a5c" stroke="#a83a20" stroke-width="1.2"/><circle cx="40" cy="8" r="7" fill="#7fcdf0" stroke="#2c7fb8" stroke-width="1.2"/><path d="M30 18l6-10 6 10z" fill="#ffcf4a" stroke="#b88a10" stroke-width="1.2"/></g>
-        <path d="M6 22h52l-4 30H10z" fill="#d9a842" stroke="#8a6116" stroke-width="1.5"/><path d="M4 18h56v8H4z" fill="#f6dc95" stroke="#8a6116" stroke-width="1.5"/><path d="M8 30h48" stroke="#fff" stroke-opacity=".5" stroke-width="3"/><text x="32" y="45" text-anchor="middle" font-size="10" font-weight="800" font-family="Arial Black,sans-serif" fill="#7a4a08">TOYS</text></svg></span><span class="di-label">Toy box</span></a>
+        <rect x="9" y="23" width="46" height="4.5" fill="url(#agStone)" stroke="#8a7d68" stroke-width=".8"/><path d="M5 23.5L32 6l27 17.5z" fill="url(#agRoof)" stroke="#6b1533" stroke-width="1.2" stroke-linejoin="round"/><path d="M13 21.5L32 9.4l19 12.1" fill="none" stroke="#fff" stroke-opacity=".45"/><circle cx="32" cy="17" r="2.6" fill="#f6dc95" stroke="#8a6116" stroke-width=".6"/></svg></span><span class="di-label" data-i18n="desk.mrsc">MRSC</span></a>
     <a href="https://github.com/christophertritt/christophertritt.github.io" class="di di-repo" target="_blank" rel="noopener"><span class="di-art">
       <svg viewBox="0 0 64 56" aria-hidden="true"><rect x="6" y="4" width="52" height="44" rx="7" fill="url(#agBezel)" stroke="#59626c" stroke-width="1"/><rect x="10" y="8" width="44" height="34" rx="3" fill="url(#agScreen)" stroke="#2a3038" stroke-width=".8"/>
         <path d="M13 15h14M13 19h9M13 23h12" stroke="#7fd88a" stroke-opacity=".35" stroke-width="1.4" stroke-linecap="round"/><text class="caret" x="13" y="37" font-size="11" font-weight="700" font-family="Menlo,Monaco,monospace" fill="#7fd88a">&gt;_</text>
-        <path d="M10.5 8.5H53.5V22Q28 18 10.5 30z" fill="url(#agShine)"/><path d="M22 52H42L40 48H24z" fill="url(#agBezel)" stroke="#59626c" stroke-width=".8"/><circle cx="32" cy="45" r=".9" fill="#7fd88a"/></svg></span><span class="di-label">Site repo</span></a>
+        <path d="M10.5 8.5H53.5V22Q28 18 10.5 30z" fill="url(#agShine)"/><path d="M22 52H42L40 48H24z" fill="url(#agBezel)" stroke="#59626c" stroke-width=".8"/><circle cx="32" cy="45" r=".9" fill="#7fd88a"/></svg></span><span class="di-label" data-i18n="desk.repo">Site repo</span></a>
   </nav>
 
   <aside class="side side-l" aria-label="Headlines and notes">
     <section class="gadget glass g-heads" aria-labelledby="ghT">
-      <div class="tb"><span class="g-ic g-ic-rss" aria-hidden="true"></span><span class="tb-t" id="ghT">Headlines</span>
+      <div class="tb"><span class="g-ic g-ic-rss" aria-hidden="true"></span><span class="tb-t" id="ghT" data-i18n="gh.t">Headlines</span>
         <span class="g-pager"><button type="button" id="ghPrev" aria-label="Previous source">‹</button><button type="button" id="ghNext" aria-label="Next source">›</button></span></div>
       <p class="g-sub" id="ghSrc" aria-live="polite"><span class="dot"></span><span>All feeds</span></p>
       <ul class="gh-list" id="ghList"><li class="g-empty">Loading headlines…</li></ul>
-      <p class="g-foot"><span id="ghUpd"></span><a href="/reader/">Open Feeds</a></p>
+      <p class="g-foot"><span id="ghUpd"></span><a href="/reader/" data-i18n="gh.open">Open Feeds</a></p>
     </section>
     <section class="gadget glass g-notes" aria-labelledby="gnT">
-      <div class="tb"><span class="g-ic g-ic-note" aria-hidden="true"></span><span class="tb-t" id="gnT">Notes</span></div>
+      <div class="tb"><span class="g-ic g-ic-note" aria-hidden="true"></span><span class="tb-t" id="gnT" data-i18n="gn.t">Notes</span></div>
       <label class="vh" for="noteText">Notes</label>
-      <textarea id="noteText" spellcheck="true" placeholder="Jot something down. It stays in this browser."></textarea>
-      <p class="g-foot"><span id="noteSaved">Saved in this browser</span></p>
+      <textarea id="noteText" spellcheck="true" placeholder="Jot something down. It stays in this browser." data-i18n-ph="notes.ph"></textarea>
+      <p class="g-foot"><span id="noteSaved" data-i18n="notes.saved">Saved in this browser</span></p>
     </section>
   </aside>
 
   <aside class="side side-r" aria-label="Transit near you">
     <section class="gadget glass g-transit" aria-labelledby="gtT">
-      <div class="tb"><span class="g-ic g-ic-bus" aria-hidden="true"></span><span class="tb-t" id="gtT">Departures nearby</span><span class="g-live" id="gtLive" hidden>Live</span></div>
-      <div class="gt-places" role="group" aria-label="Show departures near"><button type="button" data-tp="auto" aria-pressed="true">Here</button><button type="button" data-tp="home" aria-pressed="false">Home</button><button type="button" data-tp="work" aria-pressed="false">Work</button></div>
+      <div class="tb"><span class="g-ic g-ic-bus" aria-hidden="true"></span><span class="tb-t" id="gtT" data-i18n="gt.t">Departures nearby</span><span class="g-live" id="gtLive" hidden>Live</span></div>
+      <div class="gt-places" role="group" aria-label="Show departures near"><button type="button" data-tp="auto" aria-pressed="true" data-i18n="gt.here">Here</button><button type="button" data-tp="home" aria-pressed="false" data-i18n="gt.home">Home</button><button type="button" data-tp="work" aria-pressed="false" data-i18n="gt.work">Work</button></div>
       <p class="g-sub" id="gtWhere">Finding stops near you…</p>
       <ol class="gt-list" id="gtList"></ol>
       <p class="g-foot"><span id="gtUpd"></span><a id="gtMore" href="https://pugetsound.onebusaway.org/" target="_blank" rel="noopener">OneBusAway ↗</a></p>
@@ -182,13 +225,13 @@
         <p>The shared TEST key gets rate-limited. A free key from Sound Transit (oba_api_key@soundtransit.org) keeps arrivals flowing. It's stored only in this browser.</p></details>
     </section>
     <section class="gadget glass g-alerts" aria-labelledby="gaT" hidden>
-      <div class="tb"><span class="g-ic g-ic-alert" aria-hidden="true"></span><span class="tb-t" id="gaT">Service alerts</span></div>
+      <div class="tb"><span class="g-ic g-ic-alert" aria-hidden="true"></span><span class="tb-t" id="gaT" data-i18n="ga.t">Service alerts</span></div>
       <ul class="ga-list" id="gaList"></ul>
     </section>
   </aside>
 
   <section class="win glass fp-win" aria-labelledby="fpT">
-    <div class="tb"><span class="lights inactive" aria-hidden="true"><i></i><i></i><i></i></span><span class="tb-t" id="fpT">Front page</span></div>
+    <div class="tb"><span class="lights inactive" aria-hidden="true"><i></i><i></i><i></i></span><span class="tb-t" id="fpT" data-i18n="fp.t">Front page</span></div>
     <div class="fp-body">
       <div class="fp-tabs" id="fpTabs" role="group" aria-label="Topic"></div>
       <ul class="fp-grid" id="fpGrid"></ul>
@@ -196,14 +239,31 @@
   </section>
 
   <footer class="statusbar glass">
-    <span>Feeds refresh every hour</span>
-    <a href="/portfolio/">Portfolio</a>
+    <span data-i18n="status.start">Feeds refresh every hour</span>
+    <a href="/portfolio/" data-i18n="nav.portfolio">Portfolio</a>
   </footer>
 </main>
 
 <aside class="wx" id="wx"></aside>
 
+<div class="eye-float" id="eyeFloat">
+  <div class="eye-prompt" id="eyePrompt"><span id="eyeLine">Hi, I'm Hieye. I float here now.</span></div>
+  <span class="eye" aria-hidden="true"><span class="sclera"></span><span class="iris"><span class="pupil"></span></span><span class="lid"></span></span>
+</div>
+
+<div class="flagbar" id="flagbar">
+  <div class="flag-unit">
+    <button class="flag-btn ca" id="flagCA" type="button" aria-pressed="false" aria-label="Canada mode"><svg viewBox="0 0 9600 4800" aria-hidden="true"><rect width="9600" height="4800" fill="#fff"/><rect width="2400" height="4800" fill="#d52b1e"/><rect x="7200" width="2400" height="4800" fill="#d52b1e"/><path fill="#d52b1e" d="m4890 4430-45-863a95 95 0 0 1 111-98l859 151-116-320a65 65 0 0 1 20-73l941-762-212-99a65 65 0 0 1-34-79l186-572-542 115a65 65 0 0 1-73-38l-105-247-423 454a65 65 0 0 1-111-57l204-1052-327 189a65 65 0 0 1-91-27l-332-652-332 652a65 65 0 0 1-91 27l-327-189 204 1052a65 65 0 0 1-111 57l-423-454-105 247a65 65 0 0 1-73 38l-542-115 186 572a65 65 0 0 1-34 79l-212 99 941 762a65 65 0 0 1 20 73l-116 320 859-151a95 95 0 0 1 111 98l-45 863z"/></svg></button>
+    <span class="flag-cap">Canada</span>
+  </div>
+  <div class="flag-unit" id="flagQCUnit" hidden>
+    <button class="flag-btn qc" id="flagQC" type="button" aria-pressed="false" aria-label="Quebec mode"><svg viewBox="0 0 60 40" aria-hidden="true"><rect width="60" height="40" fill="#003da5"/><rect x="25" width="10" height="40" fill="#fff"/><rect y="15" width="60" height="10" fill="#fff"/><defs><g id="qcFleur"><path fill="#fff" d="M0-10C2.6-7 2.8-3.8 0-.8C-2.8-3.8-2.6-7 0-10Z M-7.5-5C-4.8-5.4-2.4-3.4-1.9-.6C-4.8-.2-7.3-1.9-7.5-5Z M7.5-5C4.8-5.4 2.4-3.4 1.9-.6C4.8-.2 7.3-1.9 7.5-5Z M-5.5 1.2h11v2.6h-11Z M-2.8 3.8C-2.2 6.6.6 8.2 0 10.6C-.6 8.2 2.2 6.6 2.8 3.8C1.2 4.9-1.2 4.9-2.8 3.8Z"/></g></defs><use href="#qcFleur" transform="translate(12.5 7.5) scale(.62)"/><use href="#qcFleur" transform="translate(47.5 7.5) scale(.62)"/><use href="#qcFleur" transform="translate(12.5 32.5) scale(.62)"/><use href="#qcFleur" transform="translate(47.5 32.5) scale(.62)"/></svg></button>
+    <span class="flag-cap">Québec</span>
+  </div>
+</div>
+
 <script src="/js/weather.js?v=20261020k" defer></script>
+<script src="/js/site.js?v=20261020n" defer></script>
 <script src="/js/lens.js?v=20261020k" defer></script>
 <script src="/js/gadgets.js?v=20261020k" defer></script>
 <script src="/js/start.js?v=20261020k" defer></script>
