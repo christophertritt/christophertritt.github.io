@@ -113,3 +113,4 @@ h4 span.ax-flash{display:inline-block;animation:axflash .8s steps(2) infinite}
 @keyframes axflash{50%{opacity:.2}}
 
 @media (prefers-reduced-motion:reduce){.ax-home,.ax-btn,.ax-toast,.ax-lb figure,.ax-env,.ax-tip,tbody tr td img{animation:none!important;transition:none!important}}
+.ax-scroll{overflow-x:auto;max-width:100%;border-radius:8px}

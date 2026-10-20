@@ -512,7 +512,7 @@ fill("place","Bellevue");
 /* where the cluster lives: remembered per browser, kept on screen */
 let ax, ay, avx=0, avy=0;
 const small=()=>innerWidth<620, scale=()=>small()?.72:1;
-function homeSpot(){return small()?[innerWidth-110,innerHeight-150]:[innerWidth-150,innerHeight*.58]}
+function homeSpot(){return small()?[innerWidth-110,innerHeight-150]:[innerWidth-150,innerHeight-170]}
 try{const p=JSON.parse(localStorage.getItem("ct-wx")||"null");if(p){ax=p[0]*innerWidth;ay=p[1]*innerHeight}}catch(e){}
 if(ax==null){[ax,ay]=homeSpot()}
 function clampAnchor(bounce){
@@ -777,9 +777,10 @@ if(window.L&&routeMapEl){
     .addTo(map).bindTooltip(s[0],{direction:["bottom","top","left","right"][i],offset:[[0,10],[0,-10],[-10,0],[10,0]][i],className:"stop-tip",permanent:true}));
   const fit=()=>map.fitBounds(L.latLngBounds(ll),{paddingTopLeft:[70,30],paddingBottomRight:[70,30]});fit();
   new ResizeObserver(()=>{map.invalidateSize();fit()}).observe(routeMapEl);
-  document.querySelectorAll(".route li").forEach((li,i)=>{li.tabIndex=0;li.setAttribute("role","button");li.setAttribute("aria-label",`Show ${stops[i][0]} on the map`);
-    const go=()=>{map.flyTo([stops[i][1],stops[i][2]],11,{duration:reduce?0:1.2});document.querySelectorAll(".route li").forEach(x=>x.classList.toggle("sel",x===li));pop()};
-    li.addEventListener("click",go);li.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();go()}})});
+  document.querySelectorAll(".route li").forEach((li,i)=>{
+    const btn=document.createElement("button");btn.type="button";btn.className="stopbtn";btn.append(...li.childNodes);li.append(btn);
+    btn.setAttribute("aria-label",`${btn.textContent.trim()}. Show ${stops[i][0]} on the map.`);
+    btn.addEventListener("click",()=>{map.flyTo([stops[i][1],stops[i][2]],11,{duration:reduce?0:1.2});document.querySelectorAll(".route li").forEach(x=>x.classList.toggle("sel",x===li));pop()})});
   routeMapEl.addEventListener("dblclick",e=>{e.stopPropagation();fit()});
 }
 

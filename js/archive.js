@@ -115,6 +115,7 @@ const pages={
 
   "planets-table"(){
     const table=$("table");if(!table) return;
+    const wrap=document.createElement("div");wrap.className="ax-scroll";wrap.tabIndex=0;wrap.setAttribute("role","region");wrap.setAttribute("aria-label","Planet data table, scrolls sideways");table.before(wrap);wrap.appendChild(table);
     const head=$$("thead th",table).map(th=>th.textContent.trim());
     const col=name=>head.findIndex(h=>h.startsWith(name));
     const iG=col("Gravity"), iT=col("Mean temperature"), iD=col("Distance from Sun");
@@ -123,7 +124,7 @@ const pages={
     /* your weight on every world */
     const th=document.createElement("th");th.scope="col";th.textContent="Your weight";$("thead tr",table).appendChild(th);
     rows.forEach(r=>{const td=document.createElement("td");td.className="ax-weight";r.tr.appendChild(td);r.w=td});
-    const p=panel('<label>I weigh <input type="number" id="axw" min="1" max="2000" inputmode="decimal" style="width:6.5em"> on Earth</label>',table);
+    const p=panel('<label>I weigh <input type="number" id="axw" min="1" max="2000" inputmode="decimal" style="width:6.5em"> on Earth</label>',wrap);
     let unit=store.get("planet-unit","lb");
     const upd=()=>{const w=parseFloat($("#axw").value)||0;rows.forEach(r=>{r.w.textContent=w?`${(w*r.g/9.8).toFixed(1)} ${unit}`:"—"})};
     p.appendChild(seg("Weight unit",["lb","kg"],unit,v=>{unit=v;store.set("planet-unit",v);upd()}));

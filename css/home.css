@@ -991,3 +991,16 @@ body.canada .vanta-sky{display:none}
 .driver-popover.hieye-tour .driver-popover-next-btn{color:#fff!important;background:linear-gradient(#a9d6f7,#3d93dc 52%,#1d5fa3)!important;text-shadow:0 1px 1px rgba(0,0,0,.3)!important}
 body.canada .driver-popover.hieye-tour .driver-popover-next-btn{background:linear-gradient(#ffb4ab,#e2453a 52%,#a51d14)!important}
 .driver-popover.hieye-tour .driver-popover-close-btn{color:var(--muted)}
+
+/* ---------- audit fixes ---------- */
+.skip{position:fixed;left:16px;top:-60px;z-index:100;padding:10px 16px;border-radius:999px;background:var(--accent);color:var(--accent-ink);font:700 14px/1 var(--ui);text-decoration:none;transition:top .2s}
+.skip:focus{top:calc(10px + env(safe-area-inset-top,0px))}
+.l::before{content:"";position:absolute;inset:-5px;border-radius:50%}
+.winbox.aqua .wb-control>*{position:relative}
+.winbox.aqua .wb-control>*::before{content:"";position:absolute;inset:-5px;border-radius:50%}
+.stopbtn{all:unset;display:block;cursor:pointer;width:100%;border-radius:10px}
+.stopbtn:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.route li{cursor:default}
+.portrait-soon{display:grid;place-items:center;padding:24px}
+.portrait-soon svg{width:70%;height:auto;filter:drop-shadow(0 10px 16px rgba(11,22,48,.25))}
+.portrait-soon figcaption{text-align:center;font:600 13px/1.3 var(--ui)}

@@ -2,7 +2,6 @@
 
 ## Homepage
 
-- The portrait is a dynamically generated AI image provided by [This Person Does Not Exist](https://thispersondoesnotexist.com/). It is used as a clearly labeled placeholder and is not presented as Christopher Tritt.
 - Homepage project photographs are credited in the project cards and case studies. Their source links and licenses are stored in `js/home.js`.
 - The homepage loads Tinos, IBM Plex Mono, Silkscreen, Parisienne, Comic Neue, Caveat, Cabin Sketch, and Dancing Script from [Google Fonts](https://fonts.google.com/). Google Fonts distributes these families under their individual open-source licenses; see the family pages for the current license text.
 - The South Hill case study links to the publicly published [UW Livable City Year report](https://lcy.be.uw.edu/wp-content/uploads/sites/35/2026/06/2026-HIA-Report_FINAL_public.pdf). The site does not reproduce that report.
