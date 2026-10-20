@@ -212,9 +212,14 @@ wp.addEventListener("click",e=>{
   if(g==="ctr"){openCase("ctr");dismiss()}
   else if(g==="resume"){document.getElementById("resume").scrollIntoView();dismiss()}
   else if(g==="tip"){wpLine.textContent=tips[tipI++%tips.length]}
+  else if(g==="tour"){dismiss();setTimeout(startTour,450)}
   else{dismiss();clearTimeout(wpBack);wpBack=setTimeout(()=>summon(backLines[Math.floor(Math.random()*backLines.length)]),60000)}
 });
-setTimeout(()=>{if(wp.hidden&&!document.querySelector("dialog[open]"))summon("Welcome to my little corner. Click things. I will notice.");},5200);
+setTimeout(()=>{if(!wp.hidden||document.querySelector("dialog[open]")||document.querySelector(".driver-popover"))return;
+  let toured=false;try{toured=localStorage.getItem("ct-toured")==="yes"}catch(e){}
+  if(toured)summon("Welcome back. Click things. I will notice.");
+  else ask("Welcome to my little corner. First time here? I can show you around.","Show me around","Not now",yes=>{try{localStorage.setItem("ct-toured","yes")}catch(e){}if(yes)setTimeout(startTour,450)});
+},4200);
 setInterval(()=>{if(wp.hidden&&!document.querySelector("dialog[open]")&&!document.hidden)summon(tips[tipI++%tips.length])},42000);
 /* triple-tap the eye to summon Hieye */
 let eyeTaps=[];
@@ -265,7 +270,7 @@ addEventListener("dblclick",e=>{if(!e.target.closest("a,button,.card,input,dialo
 document.querySelectorAll("dialog.mini").forEach(d=>{d.addEventListener("click",e=>{if(e.target===d||e.target.closest("[data-close]"))d.close()})});
 
 /* unknown #route: show the discontinued-route window */
-const known=new Set(["","top","work","skills","about","resume","contact","credits","debug","terminal","environment",...Object.keys(T),...projects.map(p=>p.id)]);
+const known=new Set(["","top","tour","work","skills","about","resume","contact","credits","debug","terminal","environment",...Object.keys(T),...projects.map(p=>p.id)]);
 const routeWindows={credits:"credits",debug:"debug",terminal:"terminal",environment:"environment"};
 function positionHieye(){const r=eye.getBoundingClientRect();wp.style.left=Math.max(8,r.left+r.width+8)+"px";wp.style.top=Math.max(70,r.bottom+8)+"px"}
 addEventListener("scroll",positionHieye,{passive:true});addEventListener("resize",positionHieye);
@@ -274,7 +279,7 @@ checkRoute();addEventListener("hashchange",checkRoute);
 
 /* Keyboard-friendly navigation and a local terminal for the site's hidden routes. */
 const palette=document.getElementById("palette"), paletteInput=document.getElementById("palette-input"), paletteResults=document.getElementById("palette-results");
-const commands=[["Projects","Browse selected work","#work"],["Skills","Tools and methods","#skills"],["About","Read the route story","#about"],["Resume","Experience and education","#resume"],["Contact","Send a message","#contact"],["Terminal","Try route594 commands","#terminal"],["Credits","Sources and licenses","#credits"],["Debug page","Open the hidden vim route","#debug"]];
+const commands=[["Tour","Let Hieye show you around","#tour"],["Projects","Browse selected work","#work"],["Skills","Tools and methods","#skills"],["About","Read the route story","#about"],["Resume","Experience and education","#resume"],["Contact","Send a message","#contact"],["Terminal","Try route594 commands","#terminal"],["Credits","Sources and licenses","#credits"],["Debug page","Open the hidden vim route","#debug"]];
 function renderCommands(query=""){
   const q=query.trim().toLowerCase();
   paletteResults.innerHTML=commands.filter(([name,desc])=>!q||`${name} ${desc}`.toLowerCase().includes(q)).map(([name,desc,href])=>`<button type="button" data-command="${href}"><span>${name}</span><small>${desc}</small></button>`).join("")||"<small>No matching route.</small>";
@@ -282,7 +287,7 @@ function renderCommands(query=""){
 function openPalette(){if(!palette.open)palette.showModal();renderCommands();setTimeout(()=>paletteInput.focus(),0)}
 renderCommands();
 paletteInput.addEventListener("input",()=>renderCommands(paletteInput.value));
-paletteResults.addEventListener("click",e=>{const b=e.target.closest("[data-command]");if(!b)return;palette.close();location.hash=b.dataset.command.slice(1)});
+paletteResults.addEventListener("click",e=>{const b=e.target.closest("[data-command]");if(!b)return;palette.close();if(b.dataset.command==="#tour"){startTour();return}location.hash=b.dataset.command.slice(1)});
 document.addEventListener("keydown",e=>{if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==="k"){e.preventDefault();openPalette()}});
 
 const terminal=document.getElementById("terminal"), terminalOutput=document.getElementById("terminal-output"), terminalForm=document.getElementById("terminal-form"), terminalInput=document.getElementById("terminal-input");
@@ -806,3 +811,29 @@ new MutationObserver(syncVanta).observe(document.body,{attributes:true,attribute
 let vantaT;addEventListener("resize",()=>{clearTimeout(vantaT);vantaT=setTimeout(syncVanta,400)});
 const _renderWx=renderWx;renderWx=function(){_renderWx();if(vanta)vanta.setOptions(skyFor())};
 if("requestIdleCallback" in window)requestIdleCallback(syncVanta,{timeout:2500});else setTimeout(syncVanta,1200);
+
+/* Driver.js: Hieye's guided tour of the desktop */
+function startTour(){
+  if(!window.driver||!driver.js) return;
+  const vis=sel=>{const el=document.querySelector(sel);if(!el)return null;const r=el.getBoundingClientRect();return r.width&&r.height&&getComputedStyle(el).visibility!=="hidden"?el:null};
+  const steps=[
+    ["#eye","Hi, I'm Hieye","I'm the eye in the corner. I watch your clicks and pop up with tips. Click me for eye drops, or three times to call me."],
+    [".desk","Desktop icons","Each icon jumps to a window. On a big screen, clicking one opens it as a real floating window you can drag around."],
+    ["#routeMap","Route so far","A real map of where I've lived, studied and worked. Click a stop in the list to fly there."],
+    [".wxb.main","Live weather","Bellevue's weather right now, as glass bubbles. Hover to nudge them, drag to move them, throw them to bounce them, tap a small one to pop it."],
+    ["#clock","Station clock","A Swiss railway clock. The red hand pauses at the top of each minute. Click it for a cuckoo."],
+    ["#canada","Canada mode","Click the flag for the Rockies, Celsius and Canadian spelling."],
+    ["#snd","Sound","Sounds are off until you turn them on here."],
+    ["#menuBtn","Menu","On phones the menu hangs here like a bistro chalkboard."],
+    ["#nav","Menu","The bistro chalkboard menu. Every window is a dish."],
+    ["#work .win","Projects","Five case studies. Every card opens the full story. The CTR dashboard is a good first stop."]
+  ].map(([sel,title,description])=>{const el=vis(sel);return el?{element:el,popover:{title,description}}:null}).filter(Boolean);
+  steps.push({popover:{title:"That's the tour",description:"Press Ctrl-K or ⌘-K any time for the wayfinding kiosk. Have fun, and say hi from the contact window."}});
+  dismiss();
+  const d=driver.js.driver({showProgress:true,progressText:"{{current}} of {{total}}",nextBtnText:"Next",prevBtnText:"Back",doneBtnText:"Done",
+    popoverClass:"hieye-tour",stagePadding:8,stageRadius:14,smoothScroll:!reduce,animate:!reduce,steps,
+    onHighlighted:()=>{blink();pop()},onDestroyed:()=>{try{localStorage.setItem("ct-toured","yes")}catch(e){}}});
+  d.drive();
+}
+if(location.hash==="#tour")setTimeout(startTour,800);
+addEventListener("hashchange",()=>{if(location.hash==="#tour")startTour()});

@@ -979,3 +979,15 @@ body.canada .winbox.aqua .wb-title{color:#5a0f0a}
 .vanta-sky canvas{display:block}
 body.canada .vanta-sky{display:none}
 .routemap .leaflet-tile-pane{filter:saturate(.75) brightness(1.06) hue-rotate(-8deg)}
+
+/* ---------- Driver.js tour, in Hieye's voice ---------- */
+.driver-popover.hieye-tour{font-family:"Comic Sans MS","Comic Neue","Chalkboard SE",cursive;background:var(--menu-bg);color:var(--ink);border-radius:4px 18px 18px 18px;
+  border:1px solid var(--edge);box-shadow:0 24px 50px -18px rgba(11,22,48,.6);padding:16px 18px;max-width:320px}
+.driver-popover.hieye-tour .driver-popover-title{font:700 17px/1.3 "Comic Sans MS","Comic Neue","Chalkboard SE",cursive;color:var(--c-health)}
+.driver-popover.hieye-tour .driver-popover-description{font:15px/1.45 "Comic Sans MS","Comic Neue","Chalkboard SE",cursive;color:var(--ink)}
+.driver-popover.hieye-tour .driver-popover-progress-text{font:600 12px/1 var(--ui);color:var(--muted)}
+.driver-popover.hieye-tour .driver-popover-navigation-btns button{font:700 13px/1 var(--ui);text-shadow:none;border-radius:999px;padding:8px 14px;border:1px solid var(--edge);
+  background:linear-gradient(#fff,#e2eef8);color:var(--ink)}
+.driver-popover.hieye-tour .driver-popover-next-btn{color:#fff!important;background:linear-gradient(#a9d6f7,#3d93dc 52%,#1d5fa3)!important;text-shadow:0 1px 1px rgba(0,0,0,.3)!important}
+body.canada .driver-popover.hieye-tour .driver-popover-next-btn{background:linear-gradient(#ffb4ab,#e2453a 52%,#a51d14)!important}
+.driver-popover.hieye-tour .driver-popover-close-btn{color:var(--muted)}
