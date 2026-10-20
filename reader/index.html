@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <meta name="description" content="Christopher Tritt's start page: search and the day's planning and transit news.">
+  <title>Feeds · Christopher Tritt</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&family=Comic+Neue:wght@700&family=Dancing+Script:wght@600;700&display=swap">
+  <link rel="stylesheet" href="/css/home.css?v=20261020d">
+  <link rel="stylesheet" href="/css/start.css?v=20261020d">
+</head>
+<body class="start-page reader-page">
+<a class="skip" href="#items">Skip to stories</a>
+<div class="sky" aria-hidden="true">
+  <span class="bubble" style="width:120px;height:120px;left:6%;top:58%"></span>
+  <span class="bubble" style="width:54px;height:54px;left:18%;top:78%;animation-duration:14s"></span>
+  <span class="bubble" style="width:200px;height:200px;right:4%;top:14%;animation-duration:24s"></span>
+  <span class="bubble" style="width:70px;height:70px;right:22%;top:66%;animation-duration:16s"></span>
+  <span class="bubble" style="width:34px;height:34px;left:48%;top:86%;animation-duration:12s"></span>
+  <svg class="ripples" viewBox="0 0 600 120" preserveAspectRatio="none"><ellipse cx="300" cy="60" rx="80" ry="12"/><ellipse cx="300" cy="60" rx="170" ry="26"/><ellipse cx="300" cy="60" rx="280" ry="44"/></svg>
+</div>
+
+<header class="top"><div class="wrap">
+  <div class="taskbar glass">
+    <span class="eye" id="eye" aria-hidden="true"><span class="sclera"></span><span class="iris" id="iris"><span class="pupil"></span></span><span class="lid"></span></span>
+    <p class="hello" id="hello">Hello, Christopher</p>
+    <div class="place">
+      <button type="button" class="wx-chip" id="wxChip" aria-haspopup="true" aria-expanded="false" aria-controls="placeMenu">Finding you…</button>
+      <div class="place-menu glass" id="placeMenu" hidden>
+        <p class="pm-title">Where are you?</p>
+        <p class="pm-detected" id="pmDetected">Checking your network…</p>
+        <div class="pm-opts" role="radiogroup" aria-label="Location">
+          <label><input type="radio" name="place" value="auto"> Detect from my network</label>
+          <label><input type="radio" name="place" value="home"> 🏠 Home · Tacoma</label>
+          <label><input type="radio" name="place" value="work"> 🏢 Work · Bellevue</label>
+        </div>
+        <label class="pm-learn"><input type="checkbox" id="pmLearn" checked> Remember this network as Home or Work</label>
+        <a class="pm-forecast" id="pmForecast" href="https://forecast.weather.gov/" target="_blank" rel="noopener">Full forecast ↗</a>
+      </div>
+    </div>
+    <a class="btn blue to-portfolio" href="/portfolio/">Portfolio</a>
+    <span class="clock" id="clock" role="img" aria-label="Pacific time">
+      <svg viewBox="0 0 100 100" aria-hidden="true">
+        <circle cx="50" cy="50" r="49" fill="#cfd5db"/><circle cx="50" cy="50" r="47" fill="#9aa3ab"/><circle cx="50" cy="50" r="45.5" fill="#fff"/>
+        <g fill="#111" id="ticks"></g>
+        <g id="hh"><path d="M47.6 62h4.8l-.9-36h-3z" fill="#111"/></g>
+        <g id="mh"><path d="M48.3 62h3.4l-.6-50h-2.2z" fill="#111"/></g>
+        <g id="sh"><path d="M49.4 66h1.2V22h-1.2z" fill="#eb0000"/><circle cx="50" cy="20.5" r="5.2" fill="#eb0000"/></g>
+        <circle cx="50" cy="50" r="1.4" fill="#eb0000"/>
+        <ellipse cx="34" cy="22" rx="24" ry="11" fill="#fff" opacity=".45" transform="rotate(-28 34 22)"/>
+      </svg>
+    </span>
+  </div>
+</div></header>
+
+<main class="wrap start" id="top">
+  <section class="win glass reader fullwin" aria-labelledby="readerTitle">
+    <div class="tb"><span class="lights"><a class="lt close" href="/" data-close aria-label="Close and go back to the desktop">×</a><a class="lt min" href="/" data-close aria-label="Minimize to the desktop">−</a><button type="button" class="lt max" id="zoomBtn" aria-pressed="false" aria-label="Zoom: hide the taskbar">+</button></span><span class="tb-t" id="readerTitle">feeds.opml</span></div>
+    <div class="reader-body">
+      <aside class="feedlist" aria-label="Feeds">
+        <ul id="feedlist"></ul>
+        <p class="updated" id="updated" aria-live="polite">Loading feeds…</p>
+      </aside>
+      <div class="stream">
+        <div class="toolbar">
+          <label class="filter"><span class="vh">Search your feeds</span><input id="filter" type="search" placeholder="Search your feeds" autocomplete="off"></label>
+          <label class="tog"><input type="checkbox" id="unreadOnly"> Unread only</label>
+          <button type="button" class="tool" id="markAll">Mark all read</button>
+          <button type="button" class="tool" id="refresh" aria-label="Reload feeds">↻</button>
+        </div>
+        <h2 class="stream-title" id="streamTitle">All feeds</h2>
+        <ol class="items" id="items" aria-live="polite"></ol>
+        <p class="empty" id="empty" hidden>Nothing here. Try another feed or clear the search.</p>
+        <p class="keys">Keys: <kbd>j</kbd>/<kbd>k</kbd> next and previous, <kbd>o</kbd> open, <kbd>s</kbd> star, <kbd>m</kbd> read or unread.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<script src="/js/start.js?v=20261020d" defer></script>
+</body>
+</html>

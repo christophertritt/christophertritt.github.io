@@ -8,8 +8,8 @@
   <title>Start · Christopher Tritt</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&family=Comic+Neue:wght@700&family=Dancing+Script:wght@600;700&display=swap">
-  <link rel="stylesheet" href="/css/home.css?v=20261020c">
-  <link rel="stylesheet" href="/css/start.css?v=20261020c">
+  <link rel="stylesheet" href="/css/home.css?v=20261020d">
+  <link rel="stylesheet" href="/css/start.css?v=20261020d">
 </head>
 <body class="start-page">
 <a class="skip" href="#q">Skip to search</a>
@@ -26,7 +26,20 @@
   <div class="taskbar glass">
     <span class="eye" id="eye" aria-hidden="true"><span class="sclera"></span><span class="iris" id="iris"><span class="pupil"></span></span><span class="lid"></span></span>
     <p class="hello" id="hello">Hello, Christopher</p>
-    <a class="wx-chip" id="wxChip" href="https://forecast.weather.gov/MapClick.php?lat=47.2529&amp;lon=-122.4443" target="_blank" rel="noopener" aria-label="Tacoma weather forecast">Tacoma …</a>
+    <div class="place">
+      <button type="button" class="wx-chip" id="wxChip" aria-haspopup="true" aria-expanded="false" aria-controls="placeMenu">Finding you…</button>
+      <div class="place-menu glass" id="placeMenu" hidden>
+        <p class="pm-title">Where are you?</p>
+        <p class="pm-detected" id="pmDetected">Checking your network…</p>
+        <div class="pm-opts" role="radiogroup" aria-label="Location">
+          <label><input type="radio" name="place" value="auto"> Detect from my network</label>
+          <label><input type="radio" name="place" value="home"> 🏠 Home · Tacoma</label>
+          <label><input type="radio" name="place" value="work"> 🏢 Work · Bellevue</label>
+        </div>
+        <label class="pm-learn"><input type="checkbox" id="pmLearn" checked> Remember this network as Home or Work</label>
+        <a class="pm-forecast" id="pmForecast" href="https://forecast.weather.gov/" target="_blank" rel="noopener">Full forecast ↗</a>
+      </div>
+    </div>
     <a class="btn blue to-portfolio" href="/portfolio/">Portfolio</a>
     <span class="clock" id="clock" role="img" aria-label="Pacific time">
       <svg viewBox="0 0 100 100" aria-hidden="true">
@@ -46,6 +59,12 @@
   <section class="win glass search-win" aria-label="Search Google">
     <div class="tb"><span class="lights" aria-hidden="true"><i></i><i></i><i></i></span><span class="tb-t">google.com</span></div>
     <div class="search-body">
+      <div class="portal" aria-hidden="true">
+        <svg class="portal-globe" viewBox="0 0 80 80"><defs><radialGradient id="pgG" cx=".35" cy=".3" r=".75"><stop offset="0" stop-color="#e8fbff"/><stop offset=".45" stop-color="#5fc3ea"/><stop offset="1" stop-color="#14508a"/></radialGradient><clipPath id="pgC"><circle cx="40" cy="40" r="30"/></clipPath></defs>
+          <circle cx="40" cy="40" r="30" fill="url(#pgG)"/><g clip-path="url(#pgC)" fill="none" stroke="#fff" stroke-opacity=".75" stroke-width="1.4"><g class="pg-spin"><ellipse cx="40" cy="40" rx="10" ry="30"/><ellipse cx="40" cy="40" rx="22" ry="30"/><ellipse cx="80" cy="40" rx="10" ry="30"/><ellipse cx="80" cy="40" rx="22" ry="30"/><line x1="40" y1="10" x2="40" y2="70"/><line x1="80" y1="10" x2="80" y2="70"/></g><path d="M10 40h60M14 25h52M14 55h52"/></g>
+          <ellipse cx="31" cy="27" rx="12" ry="7" fill="#fff" opacity=".6" transform="rotate(-25 31 27)"/><path class="pg-spark" d="M66 10l2 5 5 2-5 2-2 5-2-5-5-2 5-2z" fill="#fff38a"/></svg>
+        <div class="portal-word"><span class="pw-main">WebSearch</span><span class="pw-sub">your on-ramp to the information superhighway</span></div>
+      </div>
       <form id="search" class="search" action="https://www.google.com/search" method="get" role="search">
         <label for="q" class="vh">Search Google</label>
         <span class="q-orb" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="10" cy="10" r="6.5" fill="none" stroke="currentColor" stroke-width="2.6"/><path d="M15 15l5.5 5.5" stroke="currentColor" stroke-width="2.8" stroke-linecap="round"/></svg></span>
@@ -60,41 +79,46 @@
         <button type="button" role="radio" aria-checked="false" data-mode="scholar">Scholar</button>
         <button type="button" role="radio" aria-checked="false" data-mode="maps">Maps</button>
         <button type="button" role="radio" aria-checked="false" data-mode="mrsc">MRSC</button>
+        <button type="button" role="radio" aria-checked="false" data-mode="m365">SharePoint</button>
       </div>
-      <p class="hint" id="searchHint">Press <kbd>/</kbd> to search from anywhere. Searches open on google.com.</p>
+      <p class="hint" id="searchHint">Press <kbd>/</kbd> to search from anywhere. Web searches open on Google. SharePoint searches your Microsoft 365 files and sites.</p>
     </div>
   </section>
 
-  <nav class="shortcuts" aria-label="Shortcuts">
-    <a href="/portfolio/"><span class="sc-orb" style="--c:#2f86d6">CT</span>Portfolio</a>
-    <a href="https://pugetsound.onebusaway.org/" target="_blank" rel="noopener"><span class="sc-orb" style="--c:#4a9a3a">594</span>OneBusAway</a>
-    <a href="https://wsdot.com/travel/real-time/map" target="_blank" rel="noopener"><span class="sc-orb" style="--c:#e08a0c">I-5</span>WSDOT traffic</a>
-    <a href="https://scholar.google.com/" target="_blank" rel="noopener"><span class="sc-orb" style="--c:#7a4f96">Sc</span>Scholar</a>
-    <a href="https://mrsc.org/" target="_blank" rel="noopener"><span class="sc-orb" style="--c:#b23a62">MR</span>MRSC</a>
-    <a href="https://github.com/christophertritt/christophertritt.github.io" target="_blank" rel="noopener"><span class="sc-orb" style="--c:#14274e">GH</span>Site repo</a>
+  <nav class="desk start-desk" aria-label="Desktop">
+    <a href="/reader/" class="di di-feeds" data-window><span class="di-art">
+      <svg viewBox="0 0 64 56" aria-hidden="true"><defs><linearGradient id="diRss" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd59a"/><stop offset=".5" stop-color="#f39a2e"/><stop offset="1" stop-color="#b85f10"/></linearGradient></defs>
+        <rect x="8" y="4" width="48" height="48" rx="12" fill="url(#diRss)" stroke="#8a4a08" stroke-width="1.5"/><circle cx="21" cy="39" r="4.5" fill="#fff"/>
+        <path class="w1" d="M17 27a12 12 0 0 1 12 12" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/><path class="w2" d="M17 16a23 23 0 0 1 23 23" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+        <rect x="10" y="6" width="44" height="18" rx="9" fill="#fff" opacity=".35"/></svg>
+      <span class="badge" id="feedBadge" hidden></span></span><span class="di-label">Feeds</span></a>
+    <a href="/portfolio/" class="di di-folio" data-window><span class="di-art">
+      <svg viewBox="0 0 64 56" aria-hidden="true"><defs><linearGradient id="diFold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6dc95"/><stop offset=".5" stop-color="#d9a842"/><stop offset="1" stop-color="#a87618"/></linearGradient></defs>
+        <path d="M4 10Q4 6 8 6H24L30 12H56Q60 12 60 16V48Q60 52 56 52H8Q4 52 4 48z" fill="#c98f2a" stroke="#8a6116" stroke-width="1.5"/>
+        <g class="f f1"><rect x="11" y="13" width="15" height="19" rx="1.5" fill="#fff" stroke="#3f74b2"/><path d="M14 18h9M14 21h9M14 24h7" stroke="#3f74b2" stroke-width="1.2"/></g>
+        <g class="f f2"><rect x="24.5" y="11" width="16" height="13" rx="1.5" fill="#fff" stroke="#c2553f"/><rect x="24.5" y="11" width="16" height="3" fill="#e2733e"/></g>
+        <g class="f f3"><rect x="38" y="13" width="15" height="19" rx="1.5" fill="#fff" stroke="#3e8a4f"/><path d="M38 18h15M38 23h15M43 13v19" stroke="#3e8a4f" stroke-width=".8"/></g>
+        <path d="M4 20H60V48Q60 52 56 52H8Q4 52 4 48z" fill="url(#diFold)" stroke="#8a6116" stroke-width="1.5"/><path d="M6 22H58V29Q32 33 6 29z" fill="#fff" opacity=".4"/></svg></span><span class="di-label">Portfolio</span></a>
+    <a href="https://pugetsound.onebusaway.org/" class="di di-bus" target="_blank" rel="noopener"><span class="di-art">
+      <svg viewBox="0 0 64 56" aria-hidden="true"><g class="bus-bob"><rect x="6" y="8" width="52" height="34" rx="8" fill="#f5efe0" stroke="#14274e" stroke-width="2"/><rect x="6" y="30" width="52" height="5" fill="#3f9cb8"/>
+        <rect x="11" y="13" width="12" height="11" rx="2" fill="#bfe8ef" stroke="#14274e" stroke-width="1.4"/><rect x="26" y="13" width="12" height="11" rx="2" fill="#bfe8ef" stroke="#14274e" stroke-width="1.4"/><rect x="41" y="13" width="12" height="16" rx="2" fill="#bfe8ef" stroke="#14274e" stroke-width="1.4"/>
+        <rect x="40" y="4" width="14" height="6" rx="1.5" fill="#14274e"/><text x="47" y="9" text-anchor="middle" font-size="5" font-family="monospace" fill="#e2c27a">594</text></g>
+        <circle class="wh" cx="17" cy="44" r="5.5" fill="#14274e"/><circle class="wh" cx="47" cy="44" r="5.5" fill="#14274e"/><circle cx="17" cy="44" r="2" fill="#c9d3df"/><circle cx="47" cy="44" r="2" fill="#c9d3df"/></svg></span><span class="di-label">OneBusAway</span></a>
+    <a href="https://wsdot.com/travel/real-time/map" class="di di-road" target="_blank" rel="noopener"><span class="di-art">
+      <svg viewBox="0 0 64 56" aria-hidden="true"><path d="M22 52L28 6h8l6 46z" fill="#55606c"/><path class="lane" d="M32 8v6M32 20v6M32 32v6M32 44v6" stroke="#ffd84a" stroke-width="2.4"/>
+        <rect x="44" y="6" width="14" height="30" rx="5" fill="#2a2f36"/><circle class="tl r" cx="51" cy="13" r="4" fill="#ff5f57"/><circle class="tl y" cx="51" cy="21" r="4" fill="#5a4a1a"/><circle class="tl g" cx="51" cy="29" r="4" fill="#1d4a26"/></svg></span><span class="di-label">WSDOT traffic</span></a>
+    <a href="https://www.microsoft365.com/" class="di di-m365" target="_blank" rel="noopener"><span class="di-art">
+      <svg viewBox="0 0 64 56" aria-hidden="true"><g class="tiles"><rect x="10" y="6" width="20" height="20" rx="4" fill="#ff7a5c"/><rect x="34" y="6" width="20" height="20" rx="4" fill="#7ed36b"/><rect x="10" y="30" width="20" height="20" rx="4" fill="#4fb3e8"/><rect x="34" y="30" width="20" height="20" rx="4" fill="#ffcf4a"/></g>
+        <rect x="10" y="6" width="44" height="12" rx="4" fill="#fff" opacity=".35"/></svg></span><span class="di-label">Work apps</span></a>
+    <a href="https://scholar.google.com/" class="di di-scholar" target="_blank" rel="noopener"><span class="di-art">
+      <svg viewBox="0 0 64 56" aria-hidden="true"><g class="cap"><path d="M4 22L32 10l28 12-28 12z" fill="#2d3a6b" stroke="#14274e" stroke-width="1.5"/><path d="M16 28v12c8 6 24 6 32 0V28L32 35z" fill="#3e4c86"/></g>
+        <path class="tassel" d="M56 23v14" stroke="#ffd84a" stroke-width="2.5"/><circle class="tassel" cx="56" cy="39" r="3" fill="#ffd84a"/></svg></span><span class="di-label">Scholar</span></a>
+    <a href="https://mrsc.org/" class="di di-mrsc" target="_blank" rel="noopener"><span class="di-art">
+      <svg viewBox="0 0 64 56" aria-hidden="true"><path d="M8 50V24L32 8l24 16v26z" fill="#e8dfcf" stroke="#6b4a3a" stroke-width="1.5"/><path d="M4 26L32 6l28 20" fill="none" stroke="#b23a62" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        <g fill="#c9b79a"><rect x="14" y="30" width="5" height="18"/><rect x="24" y="30" width="5" height="18"/><rect x="35" y="30" width="5" height="18"/><rect x="45" y="30" width="5" height="18"/></g><path class="flag" d="M32 6V-4l10 3-10 3" fill="#2f86d6" stroke="#14274e"/></svg></span><span class="di-label">MRSC</span></a>
+    <a href="https://github.com/christophertritt/christophertritt.github.io" class="di di-repo" target="_blank" rel="noopener"><span class="di-art">
+      <svg viewBox="0 0 64 56" aria-hidden="true"><rect x="8" y="6" width="48" height="44" rx="8" fill="#14274e"/><text class="caret" x="16" y="34" font-size="16" font-family="monospace" fill="#7fd88a">&gt;_</text><rect x="8" y="6" width="48" height="12" rx="6" fill="#fff" opacity=".15"/></svg></span><span class="di-label">Site repo</span></a>
   </nav>
-
-  <section class="win glass reader" aria-labelledby="readerTitle">
-    <div class="tb"><span class="lights" aria-hidden="true"><i></i><i></i><i></i></span><span class="tb-t" id="readerTitle">feeds.opml</span></div>
-    <div class="reader-body">
-      <aside class="feedlist" aria-label="Feeds">
-        <ul id="feedlist"></ul>
-        <p class="updated" id="updated" aria-live="polite">Loading feeds…</p>
-      </aside>
-      <div class="stream">
-        <div class="toolbar">
-          <label class="filter"><span class="vh">Search your feeds</span><input id="filter" type="search" placeholder="Search your feeds" autocomplete="off"></label>
-          <label class="tog"><input type="checkbox" id="unreadOnly"> Unread only</label>
-          <button type="button" class="tool" id="markAll">Mark all read</button>
-          <button type="button" class="tool" id="refresh" aria-label="Reload feeds">↻</button>
-        </div>
-        <h2 class="stream-title" id="streamTitle">All feeds</h2>
-        <ol class="items" id="items" aria-live="polite"></ol>
-        <p class="empty" id="empty" hidden>Nothing here. Try another feed or clear the search.</p>
-        <p class="keys">Keys: <kbd>j</kbd>/<kbd>k</kbd> next and previous, <kbd>o</kbd> open, <kbd>s</kbd> star, <kbd>m</kbd> read or unread.</p>
-      </div>
-    </div>
-  </section>
 
   <footer class="statusbar glass">
     <span>Feeds refresh every hour</span>
@@ -102,6 +126,6 @@
   </footer>
 </main>
 
-<script src="/js/start.js?v=20261020c" defer></script>
+<script src="/js/start.js?v=20261020d" defer></script>
 </body>
 </html>

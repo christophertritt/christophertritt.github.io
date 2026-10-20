@@ -25,20 +25,72 @@ function tick(){const now=new Date(),p=Object.fromEntries(fmt.formatToParts(now)
   clock.setAttribute("aria-label",`${(h%12)||12}:${String(m).padStart(2,"0")} ${h<12?"AM":"PM"} Pacific`)}
 (function loop(){tick();setTimeout(()=>requestAnimationFrame(loop),reduce?1000:60)})();
 
-/* Tacoma weather chip */
-(async()=>{try{
-  const r=await fetch("https://api.open-meteo.com/v1/forecast?latitude=47.2529&longitude=-122.4443&current=temperature_2m,weather_code,is_day&temperature_unit=fahrenheit");
-  const c=(await r.json()).current, code=c.weather_code;
-  const icon=code<=1?(c.is_day?"☀️":"🌙"):code===2?"⛅":code===3?"☁️":code<=48?"🌫️":code>=95?"⛈️":(code>=71&&code<=86&&code!==80&&code!==81&&code!==82)?"❄️":"🌧️";
-  $("#wxChip").textContent=`${icon} Tacoma ${Math.round(c.temperature_2m)}°`;
-}catch(e){$("#wxChip").textContent="Tacoma forecast"}})();
+/* ---------- where am I: Home, Work, or wherever the network says ---------- */
+const PLACES={home:{key:"home",label:"Home",icon:"🏠",city:"Tacoma",lat:47.2529,lon:-122.4443},
+              work:{key:"work",label:"Work",icon:"🏢",city:"Bellevue",lat:47.6148,lon:-122.1925}};
+const chip=$("#wxChip"), menu=$("#placeMenu");
+const km=(a,b,c,d)=>{const R=6371,r=x=>x*Math.PI/180,dl=r(c-a),dn=r(d-b);return 2*R*Math.asin(Math.sqrt(Math.sin(dl/2)**2+Math.cos(r(a))*Math.cos(r(c))*Math.sin(dn/2)**2))};
+async function lookupIP(){
+  const cached=(()=>{try{return JSON.parse(sessionStorage.getItem("start-ip")||"null")}catch(e){return null}})();
+  if(cached&&Date.now()-cached.t<30*60*1000) return cached;
+  let g=null;
+  try{const j=await (await fetch("https://ipwho.is/?fields=ip,success,city,region,latitude,longitude,connection")).json();
+    if(j.success!==false)g={ip:j.ip,city:j.city,region:j.region,lat:j.latitude,lon:j.longitude,org:[j.connection?.org,j.connection?.isp,j.connection?.domain].filter(Boolean).join(" ")}}catch(e){}
+  if(!g){try{const j=await (await fetch("https://ipapi.co/json/")).json();if(!j.error)g={ip:j.ip,city:j.city,region:j.region_code,lat:j.latitude,lon:j.longitude,org:j.org||""}}catch(e){}}
+  if(g){g.t=Date.now();try{sessionStorage.setItem("start-ip",JSON.stringify(g))}catch(e){}}
+  return g;
+}
+function classify(g){
+  const learned=store.get("networks",{});
+  if(g.ip&&learned[g.ip]) return {...PLACES[learned[g.ip]],why:"a network you saved"};
+  if(/city of bellevue|bellevuewa/i.test(g.org||"")) return {...PLACES.work,why:"the City of Bellevue network"};
+  if(g.lat!=null&&km(g.lat,g.lon,PLACES.work.lat,PLACES.work.lon)<8) return {...PLACES.work,why:"a Bellevue network"};
+  if(g.lat!=null&&km(g.lat,g.lon,PLACES.home.lat,PLACES.home.lon)<14) return {...PLACES.home,why:"a Tacoma network"};
+  return {key:"away",label:g.city||"Away",icon:"📍",city:g.city||"",lat:g.lat,lon:g.lon,why:"your network"};
+}
+let here=null, ipInfo=null;
+async function locate(){
+  const choice=store.get("place","auto");
+  if(choice!=="auto"){here={...PLACES[choice],why:"your choice"};}
+  else{ipInfo=await lookupIP();here=ipInfo?classify(ipInfo):{...PLACES.home,why:"a guess, the network lookup didn't answer"};}
+  $("#pmDetected")&&($("#pmDetected").textContent=ipInfo?`Network: ${[ipInfo.city,ipInfo.region].filter(Boolean).join(", ")}${ipInfo.org?` · ${ipInfo.org.split(" ").slice(0,4).join(" ")}`:""}. Showing ${here.label} because of ${here.why}.`:`Showing ${here.label} (${here.why}).`);
+  document.body.dataset.place=here.key;
+  await weather();
+}
+async function weather(){
+  if(!chip) return;
+  chip.textContent=`${here.icon} ${here.label} …`;
+  const fc=$("#pmForecast");if(fc&&here.lat!=null)fc.href=`https://forecast.weather.gov/MapClick.php?lat=${here.lat.toFixed(4)}&lon=${here.lon.toFixed(4)}`;
+  if(here.lat==null){chip.textContent=`${here.icon} ${here.label}`;return}
+  try{
+    const c=(await (await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${here.lat}&longitude=${here.lon}&current=temperature_2m,weather_code,is_day&temperature_unit=fahrenheit`)).json()).current, code=c.weather_code;
+    const icon=code<=1?(c.is_day?"☀️":"🌙"):code===2?"⛅":code===3?"☁️":code<=48?"🌫️":code>=95?"⛈️":(code>=71&&code<=77)||code===85||code===86?"❄️":"🌧️";
+    chip.textContent=`${here.icon} ${here.label} · ${icon} ${Math.round(c.temperature_2m)}°`;
+    chip.setAttribute("aria-label",`${here.label}${here.city&&here.city!==here.label?`, ${here.city}`:""}: ${Math.round(c.temperature_2m)} degrees. Change location.`);
+  }catch(e){chip.textContent=`${here.icon} ${here.label}`}
+}
+if(chip){
+  const setOpen=o=>{menu.hidden=!o;chip.setAttribute("aria-expanded",String(o));if(o){const cur=store.get("place","auto");$$('input[name=place]',menu).forEach(r=>r.checked=r.value===cur);$('input[name=place]:checked',menu)?.focus()}};
+  chip.addEventListener("click",e=>{e.stopPropagation();setOpen(menu.hidden)});
+  document.addEventListener("click",e=>{if(!menu.hidden&&!e.target.closest(".place"))setOpen(false)});
+  document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!menu.hidden){setOpen(false);chip.focus()}});
+  menu.addEventListener("change",async e=>{
+    if(e.target.name!=="place") return;
+    const v=e.target.value;store.set("place",v);
+    /* picking Home or Work teaches this network, so Auto gets it right next time */
+    if(v!=="auto"&&$("#pmLearn").checked){const g=ipInfo||await lookupIP();if(g&&g.ip){const n=store.get("networks",{});n[g.ip]=v;store.set("networks",n);store.set("place","auto");}}
+    await locate();
+  });
+  locate();
+}
 
-/* ---------- Google search ---------- */
+/* ---------- search ---------- */
 const form=$("#search"), q=$("#q"), tbm=$("#tbm");
+if(form){
 let mode=store.get("mode","web");
 const modeBtns=$$(".modes [data-mode]");
 function setMode(m){mode=m;store.set("mode",m);modeBtns.forEach(b=>b.setAttribute("aria-checked",String(b.dataset.mode===m)));
-  q.placeholder={web:"Search Google",news:"Search Google News",images:"Search Google Images",scholar:"Search Google Scholar",maps:"Search Google Maps",mrsc:"Search MRSC with Google"}[m]}
+  q.placeholder={web:"Search Google",news:"Search Google News",images:"Search Google Images",scholar:"Search Google Scholar",maps:"Search Google Maps",mrsc:"Search MRSC with Google",m365:"Search SharePoint and your Microsoft 365 files"}[m]||"Search Google"}
 modeBtns.forEach(b=>b.addEventListener("click",()=>{setMode(b.dataset.mode);q.focus()}));
 /* arrow keys move between modes, like a real radio group */
 $(".modes").addEventListener("keydown",e=>{if(!/Arrow(Left|Right)/.test(e.key))return;const i=modeBtns.findIndex(b=>b.dataset.mode===mode),n=modeBtns[(i+(e.key==="ArrowRight"?1:-1)+modeBtns.length)%modeBtns.length];setMode(n.dataset.mode);n.focus()});
@@ -49,12 +101,15 @@ form.addEventListener("submit",e=>{
   e.preventDefault();
   const url=mode==="scholar"?"https://scholar.google.com/scholar?q="+encodeURIComponent(v)
     :mode==="maps"?"https://www.google.com/maps/search/"+encodeURIComponent(v)
+    :mode==="m365"?"https://www.microsoft365.com/search?q="+encodeURIComponent(v)
     :"https://www.google.com/search?q="+encodeURIComponent("site:mrsc.org "+v);
   location.href=url;
 });
 addEventListener("keydown",e=>{if(e.key==="/"&&!/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)&&!e.metaKey&&!e.ctrlKey){e.preventDefault();q.focus();q.select()}});
+}
 
-/* ---------- feed reader ---------- */
+/* ---------- feed reader (on /reader/) and the unread badge (on the desktop) ---------- */
+const isReader=!!$("#feedlist");
 let data={feeds:[],items:[]}, view=store.get("view","all"), cur=-1, shown=[];
 let read=new Set(store.get("read",[])), starred=new Map(store.get("starred",[]));
 const saveRead=()=>{store.set("read",[...read].slice(-3000))}, saveStar=()=>store.set("starred",[...starred]);
@@ -62,7 +117,7 @@ const feedsById=()=>Object.fromEntries(data.feeds.map(f=>[f.id,f]));
 const ago=iso=>{const s=(Date.now()-new Date(iso))/1000;if(s<60)return"just now";if(s<3600)return Math.round(s/60)+" min ago";if(s<86400)return Math.round(s/3600)+" h ago";if(s<86400*7)return Math.round(s/86400)+" d ago";
   return new Date(iso).toLocaleDateString("en-US",{month:"short",day:"numeric"})};
 const filterEl=$("#filter"), unreadEl=$("#unreadOnly");
-unreadEl.checked=store.get("unreadOnly",false);
+if(unreadEl)unreadEl.checked=store.get("unreadOnly",false);
 
 function pool(){const all=[...data.items];
   /* starred items stay even after they drop out of the feeds */
@@ -95,6 +150,7 @@ const renderAll=keep=>{renderFeeds();renderItems(keep)};
 function markRead(i,on=true){if(!i)return;on?read.add(i.id):read.delete(i.id);saveRead()}
 function toggleStar(i){if(!i)return;starred.has(i.id)?starred.delete(i.id):starred.set(i.id,i);saveStar()}
 
+if(isReader){
 $("#feedlist").addEventListener("click",e=>{const b=e.target.closest("[data-view]");if(!b)return;view=b.dataset.view;store.set("view",view);cur=-1;renderAll();$("#items").scrollIntoView({block:"nearest",behavior:reduce?"auto":"smooth"})});
 $("#items").addEventListener("click",e=>{
   const o=e.target.closest("[data-open]"),s=e.target.closest("[data-star]"),r=e.target.closest("[data-read]");
@@ -118,21 +174,42 @@ addEventListener("keydown",e=>{
   else if(e.key==="m"&&shown[cur]){markRead(shown[cur],!read.has(shown[cur].id));renderAll(true);focusCur()}
 });
 
+}
 async function load(){
-  $("#updated").textContent="Loading feeds…";
+  if(isReader)$("#updated").textContent="Loading feeds…";
   try{
     const r=await fetch("/feeds/items.json?t="+Math.floor(Date.now()/300000),{cache:"no-cache"});
     if(!r.ok)throw new Error("HTTP "+r.status);
     data=await r.json();
     if(view!=="all"&&view!=="starred"&&!data.feeds.some(f=>f.id===view))view="all";
+    if(!isReader){const live=new Set(data.items.map(i=>i.id)), n=data.items.filter(i=>!read.has(i.id)).length, b=$("#feedBadge");
+      if(b){b.hidden=!n;b.textContent=n>99?"99+":n;b.closest("a").setAttribute("aria-label",`Feeds, ${n} unread`)}return}
     const bad=data.feeds.filter(f=>f.ok===false).length;
     $("#updated").textContent=`Updated ${ago(data.updated)}${bad?` · ${bad} feed${bad>1?"s":""} couldn't refresh`:""}.`;
     /* forget read marks for items that have aged out */
     const live=new Set(data.items.map(i=>i.id));read=new Set([...read].filter(id=>live.has(id)));saveRead();
     renderAll();
-  }catch(e){$("#updated").textContent="Couldn't load feeds. Try ↻ in a minute.";console.warn(e)}
+  }catch(e){if(isReader)$("#updated").textContent="Couldn't load feeds. Try ↻ in a minute.";console.warn(e)}
 }
-$("#refresh").addEventListener("click",load);
-load();
-setInterval(()=>{if(!document.hidden)load()},15*60*1000);
+if(isReader)$("#refresh").addEventListener("click",load);
+if(isReader||$("#feedBadge")){if(isReader)load();else (window.requestIdleCallback||setTimeout)(load)}
+setInterval(()=>{if(!document.hidden&&(isReader||$("#feedBadge")))load()},15*60*1000);
+
+/* ---------- desktop icons open full-size windows (separate pages) ---------- */
+$$("a[data-window]").forEach(a=>a.addEventListener("click",e=>{
+  if(e.metaKey||e.ctrlKey||e.shiftKey||e.button!==0||reduce) return;
+  e.preventDefault();
+  const r=a.querySelector(".di-art").getBoundingClientRect(), w=document.createElement("div");
+  w.className="zoomwin glass";w.innerHTML=`<div class="tb"><span class="tb-t">${a.querySelector(".di-label").textContent}</span></div>`;
+  Object.assign(w.style,{left:r.left+"px",top:r.top+"px",width:r.width+"px",height:r.height+"px"});document.body.appendChild(w);
+  requestAnimationFrame(()=>{w.classList.add("open");Object.assign(w.style,{left:"12px",top:"12px",width:(innerWidth-24)+"px",height:(innerHeight-24)+"px"})});
+  setTimeout(()=>{location.href=a.href},300);
+}));
+addEventListener("pageshow",e=>{if(e.persisted)$$(".zoomwin").forEach(w=>w.remove())});
+
+/* ---------- full-size window page: red/yellow go back, green zooms ---------- */
+const zoomBtn=$("#zoomBtn");
+if(zoomBtn){const z=store.get("zoom",false);const set=on=>{document.body.classList.toggle("zoomed",on);zoomBtn.setAttribute("aria-pressed",String(on));store.set("zoom",on)};set(z);
+  zoomBtn.addEventListener("click",()=>set(!document.body.classList.contains("zoomed")));
+  addEventListener("keydown",e=>{if(e.key==="Escape"&&!/INPUT|TEXTAREA/.test(document.activeElement.tagName))location.href="/"});}
 })();
