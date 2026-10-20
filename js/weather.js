@@ -169,7 +169,7 @@ function render(){
   const short=here.label.length>9?here.label.split(/[ ,]/)[0].slice(0,9):here.label;
   fill("place",`${here.icon}<br>${short}`);B.place.el.title=here.label;
   $("#wpTitle",panel).textContent=`${here.icon} ${here.label}${here.city&&here.city!==here.label?` · ${here.city}`:""}`;
-  $("#wpWhy",panel).textContent=`Showing ${here.label} because of ${here.why}.${ipInfo&&ls.get("ct-place","auto")==="auto"?` Network: ${[ipInfo.city,ipInfo.region].filter(Boolean).join(", ")}${ipInfo.org?` (${ipInfo.org})`:""}.`:""}`;
+  $("#wpWhy",panel).textContent=`Showing ${here.label} because of ${here.why}.${ipInfo&&ls.get("ct-place","auto")==="auto"?` Network: ${[ipInfo.city,ipInfo.region].filter(Boolean).join(", ")}.`:""}`;
   if(here.lat!=null)$("#wpForecast",panel).href=`https://forecast.weather.gov/MapClick.php?lat=${here.lat.toFixed(4)}&lon=${here.lon.toFixed(4)}`;
   document.body.dataset.place=here.key;
   if(!last){return}
@@ -192,9 +192,20 @@ async function refresh(){
   here=await locate();render();
   if(here.lat==null){fill("main",`<span class="ic">${svg.cloud}</span><b>?</b><small>no location</small>`);return}
   try{
-    const [w,q]=await Promise.all([
-      fetch(`https://api.open-meteo.com/v1/forecast?latitude=${here.lat}&longitude=${here.lon}&current=temperature_2m,relative_humidity_2m,apparent_temperature,precipitation,weather_code,wind_speed_10m,is_day&temperature_unit=fahrenheit&wind_speed_unit=mph`).then(r=>r.json()),
-      fetch(`https://air-quality-api.open-meteo.com/v1/air-quality?latitude=${here.lat}&longitude=${here.lon}&current=us_aqi,pm2_5`).then(r=>r.json()).catch(()=>null)]);
+    /* one fetch per place every 15 minutes, shared across pages, so moving
+       between pages doesn't trip Open-Meteo's rate limit (it answers 429) */
+    const key=`ct-wx:${here.lat.toFixed(2)},${here.lon.toFixed(2)}`;
+    let cached=null;try{cached=JSON.parse(sessionStorage.getItem(key)||"null")}catch(e){}
+    let w,q;
+    if(cached&&Date.now()-cached.t<15*60*1000){w=cached.w;q=cached.q}
+    else{
+      const json=r=>{if(!r.ok)throw new Error("HTTP "+r.status);return r.json()};
+      [w,q]=await Promise.all([
+        fetch(`https://api.open-meteo.com/v1/forecast?latitude=${here.lat}&longitude=${here.lon}&current=temperature_2m,relative_humidity_2m,apparent_temperature,precipitation,weather_code,wind_speed_10m,is_day&temperature_unit=fahrenheit&wind_speed_unit=mph`).then(json),
+        fetch(`https://air-quality-api.open-meteo.com/v1/air-quality?latitude=${here.lat}&longitude=${here.lon}&current=us_aqi,pm2_5`).then(json).catch(()=>null)]);
+      if(!w||!w.current)throw new Error("no current conditions");
+      try{sessionStorage.setItem(key,JSON.stringify({t:Date.now(),w,q}))}catch(e){}
+    }
     last={c:w.current,a:q&&q.current,place:here};render();
     document.dispatchEvent(new CustomEvent("weather:update",{detail:last}));
   }catch(e){fill("main",`<span class="ic">${svg.cloud}</span><b>?</b><small>weather's napping</small>`);console.warn("Weather unavailable",e)}

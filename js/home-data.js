@@ -1,5 +1,8 @@
 const T = {transportation:"Transportation",environment:"Environment",housing:"Housing and design",data:"Data tools",health:"Public health"};
-const todo = s => `<em class="todo">${s}</em>`;
+/* Draft notes only show with ?draft in the URL. Unfinished case studies
+   (draft:true) are left out of the public list until they're written. */
+const DRAFT = (()=>{try{return new URLSearchParams(location.search).has("draft")}catch(e){return false}})();
+const todo = s => DRAFT ? `<em class="todo">${s}</em>` : "";
 
 const art = {
   ctr: `<svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="var(--map-land)"/>
@@ -30,7 +33,7 @@ const art = {
 
 const photos={"ctr": {"src": "/images/homepage/photo-1.jpg", "alt": "Buses under the canopy at Bellevue Transit Center", "credit": "Dweymouth, CC BY-SA 4.0", "href": "https://commons.wikimedia.org/wiki/File:Bellevue_Transit_Center_west_end.jpg"}, "roslyn": {"src": "/images/homepage/photo-2.jpg", "alt": "Historic storefronts along downtown Roslyn's main street", "credit": "Flytzjl93, CC BY-SA 4.0", "href": "https://commons.wikimedia.org/wiki/File:Downtown_Roslyn_2026.jpg"}, "grayland": {"src": "/images/homepage/photo-3.jpg", "alt": "Driftwood on the sand at Grayland Beach at sunset", "credit": "Steve Ginn, CC0", "href": "https://commons.wikimedia.org/wiki/File:Grayland_Beach_State_Park_(33475037010).jpg"}, "south-hill": {"src": "/images/homepage/photo-4.jpg", "alt": "USGS aerial view of Puyallup and South Hill", "credit": "USGS, public domain", "href": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Puyallup_and_South_Hill,_Washington,_August_16,_2023.jpg"}};
 const thumb=(id,big)=>photos[id]?`<img src="${photos[id].src}" alt="${photos[id].alt}" loading="lazy">`+(big?`<a class="credit" href="${photos[id].href}" target="_blank" rel="noopener">Photo: ${photos[id].credit}</a>`:`<span class="credit">${photos[id].credit}</span>`):(big?art[id]:art[id].replace("<svg ",'<svg preserveAspectRatio="xMidYMid slice" '));
-const projects = [
+const allProjects = [
   {id:"ctr", file:"ctr_dashboard.pbix", title:"Bellevue CTR dashboard", tags:["transportation","data"],
    blurb:"A multi-page Power BI dashboard and Python pipeline that lets employer transportation coordinators see their own commute results.",
    lede:"One clean data source and a Python pipeline now feed a dashboard that each employer coordinator can open to see their own site's commute trip reduction results.",
@@ -59,7 +62,7 @@ const projects = [
    approach:["Collected slope, soils, FEMA flood zone, and stream data.","Applied stream buffers and Grays Harbor County critical areas regulations.","Combined the layers into a single constraints picture.","Packaged the results as an Excel workbook and a QGIS-ready data package."],
    outcome:"A workbook and data package that show buildable and constrained areas with the regulation behind each one. Related work converted tsunami hazard layers into GeoJSON for web mapping.",
    reflect:todo("Add what you would change or test next.")},
-  {id:"south-hill", file:"south_hill_hia.pdf", title:"South Hill Health Impact Assessment", tags:["health","transportation"],
+  {id:"south-hill", draft:true, file:"south_hill_hia.pdf", title:"South Hill Health Impact Assessment", tags:["health","transportation"],
    blurb:"How incorporating South Hill as a city could affect residents' health, prepared with Pierce County.",
    lede:"A health impact assessment of South Hill's possible incorporation, completed for Pierce County through UW's Livable City Year program.",
    glance:{Role:"Team member",Context:"UW ENV H / URBAN 536 with Pierce County Planning and Public Works",Date:"2026",Tools:"Literature review, GIS, stakeholder input"},
@@ -68,7 +71,7 @@ const projects = [
    approach:["Scoped health pathways tied to governance and services.","Assessed existing conditions in the community.","Compared no-action and incorporation scenarios.","Wrote recommendations for the county."],
    outcome:`The final report is published by UW Livable City Year. <a href="https://lcy.be.uw.edu/wp-content/uploads/sites/35/2026/06/2026-HIA-Report_FINAL_public.pdf" target="_blank" rel="noopener">Read the report (PDF)</a>.`,
    reflect:todo("Add one lesson from working with a county client.")},
-  {id:"detroit", file:"joe_louis_greenway.pdf", title:"Joe Louis Greenway plan", tags:["housing"],
+  {id:"detroit", draft:true, file:"joe_louis_greenway.pdf", title:"Joe Louis Greenway plan", tags:["housing"],
    blurb:"A UW team entry for the 2026 APA Student Planning and Design Competition in Detroit.",
    lede:"A small-area plan for the Davison-Schoolcraft neighborhood along Detroit's Joe Louis Greenway, made for the 2026 APA Student Planning and Design Competition.",
    glance:{Role:"Team member",Context:"APA Student Planning and Design Competition",Date:"2026",Tools:todo("Add tools")},
@@ -78,4 +81,6 @@ const projects = [
    outcome:todo("Add the submission boards and how the entry placed."),
    reflect:todo("Add what you would do differently.")}
 ];
+const projects = allProjects.filter(p => DRAFT || !p.draft);
+
 

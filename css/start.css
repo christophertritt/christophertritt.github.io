@@ -51,8 +51,9 @@ kbd{font:600 11px/1 var(--ui);padding:2px 6px;border-radius:5px;border:1px solid
 
 /* reader */
 .reader-body{display:grid;grid-template-columns:240px minmax(0,1fr);min-height:520px}
-.feedlist{border-right:1px solid var(--line);padding:14px 10px;background:rgba(255,255,255,.25)}
-.feedlist ul{list-style:none;margin:0;padding:0;display:grid;gap:2px}
+.feedlist{min-width:0;overflow:hidden;border-right:1px solid var(--line);padding:14px 10px;background:rgba(255,255,255,.25)}
+.feedlist ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:minmax(0,1fr);gap:2px}
+.feedlist li{min-width:0}
 .feedlist button{all:unset;box-sizing:border-box;display:flex;align-items:center;gap:9px;width:100%;padding:8px 10px;border-radius:10px;cursor:pointer;font:600 14px/1.2 var(--ui);color:var(--ink)}
 .feedlist button:hover{background:rgba(61,147,220,.12)}
 .feedlist button[aria-current=true]{background:linear-gradient(#a9d6f7,#3d93dc 52%,#1d5fa3);color:#fff;text-shadow:0 1px 1px rgba(0,0,0,.3)}
