@@ -2,7 +2,7 @@
 
 ## Start page
 
-- The start page reads headlines and short excerpts from public RSS feeds listed in `feeds/feeds.json`. A GitHub Action (`.github/workflows/feeds.yml`) fetches them hourly with [fast-xml-parser](https://github.com/NaturalIntelligence/fast-xml-parser) (MIT) and saves `feeds/items.json`. Every item links back to the original article; the content belongs to each publisher.
+- The start page reads headlines and short excerpts from public RSS feeds listed in `feeds/feeds.json`. A GitHub Action (`.github/workflows/feeds.yml`) fetches them twice a day (7 AM and 5 PM Pacific) with [fast-xml-parser](https://github.com/NaturalIntelligence/fast-xml-parser) (MIT) and saves `feeds/items.json`. Every item links back to the original article; the content belongs to each publisher.
 - Search sends your query to Google, Google Scholar, Google Maps or Microsoft 365 search. The weather bubbles on every page use [Open-Meteo](https://open-meteo.com/). To tell Home from Work, the page looks up the visitor's approximate location from their IP address with [ipwho.is](https://ipwho.is/) (falling back to [ipapi.co](https://ipapi.co/)); the result stays in that browser for 30 minutes and saved networks stay in that browser only.
 - The WebSearch wordmark and globe are original artwork for this site.
 
