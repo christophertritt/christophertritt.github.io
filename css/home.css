@@ -422,9 +422,9 @@ dialog.mini{max-width:min(520px,calc(100vw - 32px))}
 .rt.lr{background:#7d9a77;color:#0e1a33}.rt.walk{background:#c25b7d;font-size:9px;color:#fff}
 .due{font:400 13px/1 var(--pixel);color:#e2c27a;white-space:nowrap;animation:blinkdue 1.2s steps(2) infinite}
 @keyframes blinkdue{50%{opacity:.55}}
-.wp{position:fixed;right:calc(16px + env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:45;display:flex;align-items:flex-end;gap:6px;max-width:calc(100vw - 32px)}
+.wp{position:fixed;left:80px;top:78px;z-index:45;display:block;max-width:min(360px,calc(100vw - 96px));pointer-events:none}
 .wp[hidden]{display:none!important}
-.wp .pin{width:74px;height:auto;flex-shrink:0;animation:pinbob 2.6s ease-in-out infinite;cursor:pointer;filter:drop-shadow(0 6px 8px rgba(11,22,48,.3))}
+.wp .balloon{pointer-events:auto;margin:0}
 @keyframes pinbob{50%{translate:0 -6px}}
 .wp.in{animation:wpin .6s cubic-bezier(.3,1.5,.5,1)}
 @keyframes wpin{from{transform:translateY(140%) scale(.6)}}
@@ -435,8 +435,6 @@ dialog.mini{max-width:min(520px,calc(100vw - 32px))}
 .wp-name{font:400 11px/1 var(--pixel)!important;color:var(--c-health)}
 .wp-acts{display:flex;flex-wrap:wrap;gap:6px}
 .wp-acts .btn{font-size:13px;padding:8px 12px}
-.wp-eyes{transition:transform .2s}
-.wp.blinky .wp-eyes{transform:scaleY(.1);transform-origin:35px 36px}
 
 /* smaller thumbnails in the grid */
 .card .screen svg{aspect-ratio:3/1}
@@ -655,10 +653,9 @@ nav.links .clock{border-left-color:rgba(242,239,230,.25)}
   nav.links a:hover::after{content:none}
 }
 
-/* Waypoint in Comic Sans */
+/* Hieye in Comic Sans */
 .wp .balloon,.wp .balloon p,.wp .balloon .btn,.wp .wp-name{font-family:"Comic Sans MS","Comic Neue","Chalkboard SE",cursive!important}
 .wp .wp-name{font-size:13px!important;font-weight:700;letter-spacing:0}
-.wp-glasses{pointer-events:none}
 
 /* ===== French ardoise menu (black slate, cursive chalk, no icons) ===== */
 nav.links{background:#141414!important;border:3px solid #2a1a10!important;outline:none!important;border-radius:3px!important;padding:2px 14px!important;
@@ -698,13 +695,7 @@ nav.links .clock{border-left-color:rgba(244,241,234,.2)!important}
   nav.links a:first-of-type{margin-top:10px;border-top:none}
 }
 
-/* Waypoint scene: notebook paper, bent paper clip, steadier eyes */
-.wp .pin{width:150px!important;animation:none!important;filter:drop-shadow(0 6px 8px rgba(11,22,48,.25))}
-.wp .pinbody{animation:pinbob 2.6s ease-in-out infinite;cursor:pointer}
-.wp .wpp{transition:transform .18s ease-out}
-.wp .notepaper{filter:drop-shadow(0 2px 2px rgba(0,0,0,.12))}
-.wp .balloon{margin-bottom:58px}
-@media (max-width:520px){.wp .pin{width:118px!important}.balloon{width:min(260px,calc(100vw - 150px))!important}}
+@media (max-width:520px){.wp{left:62px;max-width:calc(100vw - 74px)}.wp .balloon{width:min(300px,calc(100vw - 74px))!important}}
 
 /* eye drops */
 .dropper{position:fixed;width:24px;height:52px;transform-origin:50% 100%;pointer-events:none;z-index:41;filter:drop-shadow(0 3px 4px rgba(11,22,48,.3))}
