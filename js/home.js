@@ -253,19 +253,21 @@ nameEl.addEventListener("pointerenter",()=>{
 
 /* Waypoint, the site helper */
 const wp=document.getElementById("wp"), wpLine=document.getElementById("wp-line");
-const tips=["Tip: links ending in #transportation or #data open the projects already filtered.","Tip: tap the eye in the corner three times to call me back.","Christopher rides the 594 between Tacoma and Seattle. Ask him about it.","Tip: the copyright line has a secret. It likes to be tapped.","Tip: on a keyboard, try ↑ ↑ ↓ ↓ ← → ← → B A.","Every project card opens a full case study. The CTR dashboard is a good first stop."];
+const wpPin=wp.querySelector(".pin");
+wpPin.innerHTML='<g class="pinbody"><path d="M5 48C25 8 105 8 125 48C105 88 25 88 5 48Z" fill="#f5efe0" stroke="#6e1f3b" stroke-width="3"/><ellipse cx="65" cy="48" rx="25" ry="25" fill="#c25b7d" stroke="#3a0f20" stroke-width="2"/><circle class="wpp" cx="65" cy="48" r="11" fill="#0b1630"/><circle cx="61" cy="44" r="3" fill="#fff"/><path d="M24 36C38 20 56 16 65 16C75 16 93 20 107 36" fill="none" stroke="#fff" stroke-opacity=".7" stroke-width="3" stroke-linecap="round"/></g>';
+const tips=["I am Hieye. I watch the windows, notice your clicks, and know where the next stop is.","Click a ticker to ask me about live Puget Sound conditions.","Press Cmd-K or Ctrl-K to open the wayfinding kiosk.","Minimize a window and I will keep it orbiting nearby.","Try the terminal command `route 594`.","Every project card opens a full case study. The CTR dashboard is a good first stop."];
 let tipI=0;
 let wpBack=null;
 const backLines=["I'm back. Did you miss me?","Sixty seconds felt like a long layover.","Back on schedule. Where were we?"];
 function summon(line){
   clearTimeout(wpBack);
-  wpLine.textContent=line||"Hi, I'm Waypoint. I help people find their way around this site.";
+  wpLine.textContent=line||"I am Hieye. I watch the windows, notice your clicks, and know where the next stop is.";
   wp.hidden=false;wp.classList.remove("out");wp.classList.remove("in");void wp.offsetWidth;wp.classList.add("in");chime();
 }
 function dismiss(){wp.classList.add("out");setTimeout(()=>{wp.hidden=true;wp.classList.remove("out")},500)}
 wp.addEventListener("click",e=>{
   const b=e.target.closest("[data-go]");
-  if(e.target.closest(".pin")){wp.classList.add("blinky");setTimeout(()=>wp.classList.remove("blinky"),160);wpLine.textContent="Hey, that tickles.";return}
+  if(e.target.closest(".pin")){wp.classList.add("blinky");setTimeout(()=>wp.classList.remove("blinky"),160);wpLine.textContent="Hey, that tickles. I see everything.";return}
   if(!b) return;
   const g=b.dataset.go;
   if(g==="ctr"){openCase("ctr");dismiss()}
@@ -274,6 +276,8 @@ wp.addEventListener("click",e=>{
   else{dismiss();clearTimeout(wpBack);wpBack=setTimeout(()=>summon(backLines[Math.floor(Math.random()*backLines.length)]),60000)}
 });
 setInterval(()=>{if(!wp.hidden){wp.classList.add("blinky");setTimeout(()=>wp.classList.remove("blinky"),150)}},3800);
+setTimeout(()=>{if(wp.hidden&&!document.querySelector("dialog[open]"))summon("Welcome to my little corner. Click things. I will notice.");},5200);
+setInterval(()=>{if(wp.hidden&&!document.querySelector("dialog[open]")&&!document.hidden)summon(tips[tipI++%tips.length])},42000);
 addEventListener("pointermove",e=>{
   if(wp.hidden) return;
   const svg=wp.querySelector(".pin"), r=svg.getBoundingClientRect(), k=r.width/132;
@@ -320,8 +324,8 @@ addEventListener("dblclick",e=>{if(!e.target.closest("a,button,.card,input,dialo
 document.querySelectorAll("dialog.mini").forEach(d=>{d.addEventListener("click",e=>{if(e.target===d||e.target.closest("[data-close]"))d.close()})});
 
 /* unknown #route: show the discontinued-route window */
-const known=new Set(["","top","work","skills","about","resume","contact","credits","debug","terminal",...Object.keys(T),...projects.map(p=>p.id)]);
-const routeWindows={credits:"credits",debug:"debug",terminal:"terminal"};
+const known=new Set(["","top","work","skills","about","resume","contact","credits","debug","terminal","environment",...Object.keys(T),...projects.map(p=>p.id)]);
+const routeWindows={credits:"credits",debug:"debug",terminal:"terminal",environment:"environment"};
 function checkRoute(){const h=(location.hash||"").slice(1);if(routeWindows[h]){const w=document.getElementById(routeWindows[h]);if(!w.open)w.showModal()}else if(!known.has(h))document.getElementById("lost").showModal()}
 checkRoute();addEventListener("hashchange",checkRoute);
 
@@ -367,6 +371,14 @@ const dock=document.getElementById("dock");
 const iconFor={"index.html":"i-home","route.svg":"i-route","projects.html":"i-work","skills.md":"i-skills","about.md":"i-about","resume.pdf":"i-resume","contact.vcf":"i-contact"};
 function toDock(win,name){
   dock.hidden=false;
+  dock.classList.add("orbiting");
+  const positionDock=()=>{
+    const r=eye.getBoundingClientRect();
+    dock.style.left=Math.max(12,Math.min(window.innerWidth-180,r.left+r.width/2-70))+"px";
+    dock.style.top=Math.max(70,r.bottom+12)+"px";
+  };
+  positionDock();
+  addEventListener("resize",positionDock,{once:true});
   const item=document.createElement("button");item.type="button";item.className="dock-item";item.setAttribute("aria-label","Restore "+name);
   item.innerHTML=`<svg viewBox="0 0 64 56" aria-hidden="true"><use href="#${iconFor[name]||"i-work"}"/></svg><span class="dock-label">${name}</span>`;
   item.style.visibility="hidden";dock.appendChild(item);
@@ -378,7 +390,7 @@ function toDock(win,name){
     win.animate([{transform:"none",opacity:1},{transform:`translate(${dx*.5}px,${dy*.55}px) scale(.45,.3)`,opacity:.85,offset:.55},{transform:`translate(${dx}px,${dy}px) scale(.04,.03)`,opacity:.2}],{duration:520,easing:"cubic-bezier(.5,0,.75,.4)"}).onfinish=done;
   }
   item.addEventListener("click",()=>{
-    const ir2=item.getBoundingClientRect();item.remove();if(!dock.children.length)dock.hidden=true;
+    const ir2=item.getBoundingClientRect();item.remove();    if(!dock.children.length){dock.hidden=true;dock.classList.remove("orbiting");dock.style.left="";dock.style.top=""}
     win.hidden=false;const wr2=win.getBoundingClientRect();
     if(!reduce){win.style.transformOrigin="50% 100%";const dx=(ir2.left+ir2.width/2)-(wr2.left+wr2.width/2),dy=ir2.bottom-wr2.bottom;
       win.animate([{transform:`translate(${dx}px,${dy}px) scale(.04,.03)`,opacity:.2},{transform:`translate(${dx*.4}px,${dy*.45}px) scale(.55,.4)`,opacity:.85,offset:.45},{transform:"none",opacity:1}],{duration:480,easing:"cubic-bezier(.25,.6,.4,1)"}).onfinish=()=>{win.style.transformOrigin=""}}
@@ -424,6 +436,25 @@ document.addEventListener("click",e=>{
     wpLine.textContent=reactLines[h]||(t.classList.contains("card")?reactLines.card:t.matches(".l,.dock-item")?reactLines.win:reactLines.other);
   }
 });
+
+/* The ticker is a live, clickable environmental window rather than decoration. */
+const environment=document.getElementById("environment"), environmentStatus=document.getElementById("environment-status"), environmentData=document.getElementById("environment-data"), liveTicker=document.querySelector(".live-ticker");
+const weatherCode={0:"clear sky",1:"mostly clear",2:"partly cloudy",3:"overcast",45:"fog",48:"rime fog",51:"light drizzle",53:"drizzle",55:"heavy drizzle",61:"light rain",63:"rain",65:"heavy rain",71:"light snow",73:"snow",75:"heavy snow",80:"rain showers",81:"rain showers",82:"heavy showers",95:"thunderstorm"};
+function showEnvironment(){if(!environment.open)environment.showModal();loadEnvironment()}
+async function loadEnvironment(){
+  environmentStatus.textContent="Loading current conditions from Open-Meteo for Bellevue, Washington.";
+  try{
+    const r=await fetch("https://api.open-meteo.com/v1/forecast?latitude=47.6101&longitude=-122.2015&current=temperature_2m,relative_humidity_2m,apparent_temperature,precipitation,weather_code,wind_speed_10m&temperature_unit=fahrenheit&wind_speed_unit=mph");
+    if(!r.ok)throw new Error(`Weather service returned ${r.status}`);
+    const d=await r.json(), c=d.current;
+    const values=[["Temperature",`${Math.round(c.temperature_2m)}°F`],["Feels like",`${Math.round(c.apparent_temperature)}°F`],["Conditions",weatherCode[c.weather_code]||"changing"],["Humidity",`${c.relative_humidity_2m}%`],["Wind",`${Math.round(c.wind_speed_10m)} mph`],["Precipitation",`${c.precipitation} mm`]];
+    environmentData.innerHTML=values.map(([label,value])=>`<div><b>${label}</b><span>${value}</span></div>`).join("");
+    environmentStatus.textContent=`Updated ${new Date(c.time).toLocaleString("en-US",{hour:"numeric",minute:"2-digit"})} Pacific.`;
+    document.querySelectorAll(".live-condition").forEach(el=>{el.textContent=`PUGET SOUND: ${Math.round(c.temperature_2m)}°F · ${weatherCode[c.weather_code]||"changing"} · ${Math.round(c.wind_speed_10m)} MPH`});
+  }catch(error){environmentStatus.textContent="Live conditions are temporarily unavailable. Hieye is still watching.";environmentData.replaceChildren();console.warn("Could not load Open-Meteo conditions.",error)}
+}
+liveTicker.addEventListener("click",showEnvironment);
+liveTicker.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" ")showEnvironment()});
 
 const clock=document.getElementById("clock");
 const fmt=new Intl.DateTimeFormat("en-US",{hour:"numeric",minute:"numeric",second:"numeric",hour12:false,timeZone:"America/Los_Angeles"});

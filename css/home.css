@@ -403,6 +403,10 @@ dialog.mini{max-width:min(520px,calc(100vw - 32px))}
 .vim-screen{overflow:auto;margin:14px 0 0;padding:16px;background:#101b2d;color:#d8e4ef;border-radius:8px;font:13px/1.65 var(--mono)}
 .vim-comment{color:#7d9a77}.vim-key{color:#e2c27a}.vim-text{color:#bfe8ef}
 .credits a{color:inherit}
+.environment-data{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:16px}
+.environment-data div{padding:12px;border:1px solid var(--line);border-radius:8px;background:var(--glass)}
+.environment-data b{display:block;font:500 11px/1.3 var(--mono);text-transform:uppercase;color:var(--muted)}
+.environment-data span{display:block;margin-top:4px;font-size:18px}
 .board{display:grid;gap:2px;background:#0b1630;border-radius:10px;padding:8px;box-shadow:inset 0 2px 8px rgba(0,0,0,.6)}
 .board .row{display:grid;grid-template-columns:46px minmax(0,1fr) auto;gap:12px;align-items:center;padding:10px 8px;border-bottom:1px dashed rgba(226,194,122,.25);color:#f1e8d2}
 .board .row:last-child{border-bottom:none}
@@ -510,6 +514,8 @@ a.credit:hover{background:rgba(11,22,48,.85)}
 /* dock */
 .dock{position:fixed;left:50%;bottom:calc(14px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:55;display:flex;align-items:flex-end;gap:6px;
   padding:8px 12px 7px;border-radius:20px;background:color-mix(in srgb,var(--menu-bg) 70%,transparent)!important;max-width:calc(100vw - 32px)}
+.dock.orbiting{left:0;top:0;bottom:auto;transform:none;animation:dockorbit 5s ease-in-out infinite}
+@keyframes dockorbit{50%{filter:drop-shadow(0 0 12px color-mix(in srgb,var(--c-health) 45%,transparent))}}
 .dock[hidden]{display:none!important}
 .dock::after{content:"";position:absolute;left:10px;right:10px;bottom:3px;height:2px;border-radius:2px;background:var(--edge)}
 .dock-item{position:relative;width:52px;height:52px;padding:0;border:none;background:none;cursor:pointer;display:grid;place-items:center;

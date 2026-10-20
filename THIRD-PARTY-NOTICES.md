@@ -6,6 +6,8 @@
 - Homepage project photographs are credited in the project cards and case studies. Their source links and licenses are stored in `js/home.js`.
 - The homepage loads Tinos, IBM Plex Mono, Silkscreen, Parisienne, Comic Neue, Caveat, Cabin Sketch, and Dancing Script from [Google Fonts](https://fonts.google.com/). Google Fonts distributes these families under their individual open-source licenses; see the family pages for the current license text.
 - The South Hill case study links to the publicly published [UW Livable City Year report](https://lcy.be.uw.edu/wp-content/uploads/sites/35/2026/06/2026-HIA-Report_FINAL_public.pdf). The site does not reproduce that report.
+- The live environmental ticker uses the public [Open-Meteo API](https://open-meteo.com/), queried from the browser for Bellevue, Washington conditions. No API key is used.
+- The terminal, command palette, Hieye interactions, and hidden debug route are original implementations for this site, informed by common portfolio patterns; no third-party repository code is bundled.
 
 ## Legacy projects
 

@@ -169,7 +169,7 @@
         </div>
         <div class="tickerband" role="img" aria-label="Tools: ArcGIS Pro, QGIS, Python, SQL, R, Blender, Power BI, Power Apps, SharePoint, Tableau, Adobe Creative Cloud">
           <div class="trow orange" aria-hidden="true"><div class="ttrack"><span>ARCGIS PRO</span><span>QGIS</span><span>PYTHON</span><span>SQL</span><span>R</span><span>BLENDER</span><span>ARCGIS PRO</span><span>QGIS</span><span>PYTHON</span><span>SQL</span><span>R</span><span>BLENDER</span><span>ARCGIS PRO</span><span>QGIS</span><span>PYTHON</span><span>SQL</span><span>R</span><span>BLENDER</span><span>ARCGIS PRO</span><span>QGIS</span><span>PYTHON</span><span>SQL</span><span>R</span><span>BLENDER</span></div></div>
-          <div class="trow green" aria-hidden="true"><div class="ttrack rev"><span>POWER BI</span><span>POWER APPS</span><span>SHAREPOINT</span><span>TABLEAU</span><span>ADOBE CREATIVE CLOUD</span><span>POWER BI</span><span>POWER APPS</span><span>SHAREPOINT</span><span>TABLEAU</span><span>ADOBE CREATIVE CLOUD</span><span>POWER BI</span><span>POWER APPS</span><span>SHAREPOINT</span><span>TABLEAU</span><span>ADOBE CREATIVE CLOUD</span><span>POWER BI</span><span>POWER APPS</span><span>SHAREPOINT</span><span>TABLEAU</span><span>ADOBE CREATIVE CLOUD</span></div></div>
+          <div class="trow green live-ticker" role="button" tabindex="0" aria-label="Live Puget Sound environmental conditions. Select for details."><div class="ttrack rev"><span>POWER BI</span><span>POWER APPS</span><span>SHAREPOINT</span><span>TABLEAU</span><span>ADOBE CREATIVE CLOUD</span><span class="live-condition">PUGET SOUND: loading weather...</span><span>POWER BI</span><span>POWER APPS</span><span>SHAREPOINT</span><span>TABLEAU</span><span>ADOBE CREATIVE CLOUD</span><span class="live-condition">PUGET SOUND: loading weather...</span><span>POWER BI</span><span>POWER APPS</span><span>SHAREPOINT</span><span>TABLEAU</span><span>ADOBE CREATIVE CLOUD</span></div></div>
         </div>
       </div>
     </div>
@@ -328,6 +328,17 @@
   </div>
 </dialog>
 
+<dialog id="environment" class="mini" aria-labelledby="environment-title">
+  <div class="tb green"><span class="tb-t">puget_conditions.json</span><button class="x" type="button" data-close aria-label="Close">×</button></div>
+  <div class="mini-body">
+    <p class="eyebrow">Live environmental data</p>
+    <h2 id="environment-title">Puget Sound conditions</h2>
+    <p id="environment-status">Loading current conditions from Open-Meteo for Bellevue, Washington.</p>
+    <div id="environment-data" class="environment-data"></div>
+    <p class="note">Weather data is fetched in your browser from <a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer">Open-Meteo</a>; no API key is used.</p>
+  </div>
+</dialog>
+
 <div id="fx" aria-hidden="true"></div>
 
 <div class="bus" id="bus" aria-hidden="true">
@@ -341,8 +352,8 @@
 
 <div class="wp" id="wp" hidden>
   <div class="balloon glass" role="dialog" aria-label="Waypoint, site helper" aria-live="polite">
-    <p class="wp-name">Waypoint</p>
-    <p id="wp-line">Hi, I'm Waypoint. I help people find their way around this site.</p>
+    <p class="wp-name">Hieye</p>
+    <p id="wp-line">I am Hieye. I watch the windows, notice your clicks, and know where the next stop is.</p>
     <div class="wp-acts">
       <button type="button" class="btn primary" data-go="ctr">Show me a project</button>
       <button type="button" class="btn ghost" data-go="resume">Resume, please</button>
