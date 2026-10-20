@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T16:26:03.277Z",
+ "updated": "2026-10-20T16:28:34.228Z",
  "feeds": [
   {
    "id": "planetizen",
@@ -121,6 +121,33 @@
  ],
  "items": [
   {
+   "id": "wsj-business:WP-WSJ-0003990651",
+   "feed": "wsj-business",
+   "title": "Auto & Transport Roundup: Market Talk",
+   "link": "https://www.wsj.com/business/auto-transport-roundup-market-talk-5d98af7d?mod=pls_whats_news_us_business_f",
+   "date": "2026-10-20T16:27:00.000Z",
+   "summary": "Find insight on General Motors, Volvo, Porsche SE and more in the latest Market Talks covering Auto and Transport.",
+   "image": "https://images.wsj.net/im-58402079"
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0003990552",
+   "feed": "wsj-business",
+   "title": "Financial Services Roundup: Market Talk",
+   "link": "https://www.wsj.com/business/financial-services-roundup-market-talk-c6d7409e?mod=pls_whats_news_us_business_f",
+   "date": "2026-10-20T16:26:00.000Z",
+   "summary": "Find insight on Equifax, M&G, Sabre Insurance Group, National Australia Bank and more in the latest Market Talks covering Financial Services.",
+   "image": "https://images.wsj.net/im-74050837"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/10/20/travel/france-travel-riots.html",
+   "feed": "nytimes-business",
+   "title": "Heading to France? Amid Recent Unrest, Here’s What to Know",
+   "link": "https://www.nytimes.com/2026/10/20/travel/france-travel-riots.html",
+   "date": "2026-10-20T16:24:34.000Z",
+   "summary": "Rioting over affordability and public education has swept through Paris and other French cities, and there may be more to come.",
+   "image": "https://static01.nyt.com/images/2026/10/20/multimedia/20Trav-France-Riots-01-mpgj/20Trav-France-Riots-01-mpgj-mediumSquareAt3X.jpg"
+  },
+  {
    "id": "nytimes-business:https://www.nytimes.com/2026/10/20/business/knicks-tickets.html",
    "feed": "nytimes-business",
    "title": "Knicks Ticket Prices Are Soaring After Last Season’s Championship",
@@ -182,6 +209,15 @@
    "date": "2026-10-20T16:00:25.000Z",
    "summary": "Source: Bloomberg, 9:01",
    "image": ""
+  },
+  {
+   "id": "planetizen:138688 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "Will sprawl save California?",
+   "link": "https://www.planetizen.com/news/2026/10/138688-will-sprawl-save-california",
+   "date": "2026-10-20T16:00:00.000Z",
+   "summary": "While the California Environmental Quality Act rarely kills projects outright, the environmental review process it mandates can make developments take years longer than they would have otherwise. Come November, California residents may turn to sprawl to ease its housing shortage: voters will be asked to consider…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2728200239.jpg.webp?itok=EOa_Z6Qc"
   },
   {
    "id": "bloomberg-business:TN7R0KO2LL3A00",
@@ -697,15 +733,6 @@
    "image": "https://images.wsj.net/im-96422694"
   },
   {
-   "id": "wsj-business:WP-WSJ-0003990651",
-   "feed": "wsj-business",
-   "title": "Auto & Transport Roundup: Market Talk",
-   "link": "https://www.wsj.com/business/auto-transport-roundup-market-talk-5d98af7d?mod=pls_whats_news_us_business_f",
-   "date": "2026-10-20T11:06:00.000Z",
-   "summary": "Find insight on Porsche SE, DHL Group, Mullen Group and more in the latest Market Talks covering Auto and Transport.",
-   "image": "https://images.wsj.net/im-58402079"
-  },
-  {
    "id": "wsj-business:WP-WSJ-0003990588",
    "feed": "wsj-business",
    "title": "Basic Materials Roundup: Market Talk",
@@ -713,15 +740,6 @@
    "date": "2026-10-20T10:53:00.000Z",
    "summary": "Find insight on Anglo American, BHP, Press Metal Aluminium and more in the latest Market Talks covering Basic Materials.",
    "image": "https://images.wsj.net/im-12097522"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0003990552",
-   "feed": "wsj-business",
-   "title": "Financial Services Roundup: Market Talk",
-   "link": "https://www.wsj.com/business/financial-services-roundup-market-talk-c6d7409e?mod=pls_whats_news_us_business_f",
-   "date": "2026-10-20T10:44:00.000Z",
-   "summary": "Find insight on M&G, Sabre Insurance Group, National Australia Bank and more in the latest Market Talks covering Financial Services.",
-   "image": "https://images.wsj.net/im-74050837"
   },
   {
    "id": "semafor:https://www.semafor.com/article/10/20/2026/teslas-roadster-represents-a-feat-and-a-defeat",
@@ -1129,15 +1147,6 @@
    "image": "https://static01.nyt.com/images/2026/10/19/multimedia/19biz-china-gdp-01-hjlc/19biz-china-gdp-01-hjlc-mediumSquareAt3X.jpg"
   },
   {
-   "id": "planetizen:138677 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "Florida could lose billions in funding for infrastructure, parks",
-   "link": "https://www.planetizen.com/news/2026/10/138677-florida-could-lose-billions-funding-infrastructure-parks",
-   "date": "2026-10-19T16:00:00.000Z",
-   "summary": "Florida’s Measure 3 may negatively impact funding for Florida's parks and public infrastructure. Florida voters will vote on Amendment 3 in November, which would alter how much certain homeowners pay in property taxes. Currently, the maximum homestead exemption is $51,411, meaning that homeowners can subtract up to…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2530280327.jpg.webp?itok=ST_Hk850"
-  },
-  {
    "id": "smartcities:https://www.smartcitiesdive.com/news/housing-programs-cities-bloomberg-philanthropies/833368/",
    "feed": "smartcities",
    "title": "These 3 housing programs are showing results. A new initiative wants to bring them to other cities.",
@@ -1388,15 +1397,6 @@
    "date": "2026-10-17T13:00:00.000Z",
    "summary": "The City of Bremerton is debating how to use the newly completed, $4 million Quincy Square, located at the heart of downtown. As with Seattle’s Pike Place Market, Bremerton Public Works proposed closing the ‘Q Square’ about half the days of the year. At a Sept 3rd City Council meeting, councilors were split 3-to-3…",
    "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/data-src-image-524ad788-78e8-4211-87c4-3601ef945032-1.png"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/10/17/business/dealbook/state-antitrust-enforcement.html",
-   "feed": "nytimes-business",
-   "title": "States Are Stepping Up as the New Antitrust Enforcers",
-   "link": "https://www.nytimes.com/2026/10/17/business/dealbook/state-antitrust-enforcement.html",
-   "date": "2026-10-17T12:00:05.000Z",
-   "summary": "With the Trump administration taking a relaxed approach, attorneys general around the country have ramped up their scrutiny of mergers.",
-   "image": "https://static01.nyt.com/images/2026/10/19/multimedia/19DB-state-antitrust-kpbh/17DB-state-antitrust-kpbh-mediumSquareAt3X.jpg"
   },
   {
    "id": "wsj-business:WP-WSJ-0003983158",
