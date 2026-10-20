@@ -69,7 +69,7 @@ if(B.contains("theme-waterfront")){
   const first=$("#about .win-body > div");if(first)first.prepend(pill);
   (async()=>{try{
     const c=(await (await fetch("https://api.open-meteo.com/v1/forecast?latitude=47.2529&longitude=-122.4443&current=cloud_cover,is_day")).json()).current;
-    const out=c.cloud_cover<45;
+    if(typeof c.cloud_cover!=="number")throw new Error("no cloud cover");const out=c.cloud_cover<45;
     B.toggle("mountain-out",out);
     pill.textContent=out?(c.is_day?"🏔️ The mountain is out over Tacoma right now.":"🌙 Clear night over Tacoma. Rainier's out there."):`☁️ Rainier is hiding behind ${c.cloud_cover}% cloud cover today.`;
   }catch(e){pill.textContent="🏔️ Rainier is probably hiding. It usually is."}})();

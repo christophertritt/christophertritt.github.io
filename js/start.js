@@ -25,65 +25,6 @@ function tick(){const now=new Date(),p=Object.fromEntries(fmt.formatToParts(now)
   clock.setAttribute("aria-label",`${(h%12)||12}:${String(m).padStart(2,"0")} ${h<12?"AM":"PM"} Pacific`)}
 (function loop(){tick();setTimeout(()=>requestAnimationFrame(loop),reduce?1000:60)})();
 
-/* ---------- where am I: Home, Work, or wherever the network says ---------- */
-const PLACES={home:{key:"home",label:"Home",icon:"🏠",city:"Tacoma",lat:47.2529,lon:-122.4443},
-              work:{key:"work",label:"Work",icon:"🏢",city:"Bellevue",lat:47.6148,lon:-122.1925}};
-const chip=$("#wxChip"), menu=$("#placeMenu");
-const km=(a,b,c,d)=>{const R=6371,r=x=>x*Math.PI/180,dl=r(c-a),dn=r(d-b);return 2*R*Math.asin(Math.sqrt(Math.sin(dl/2)**2+Math.cos(r(a))*Math.cos(r(c))*Math.sin(dn/2)**2))};
-async function lookupIP(){
-  const cached=(()=>{try{return JSON.parse(sessionStorage.getItem("start-ip")||"null")}catch(e){return null}})();
-  if(cached&&Date.now()-cached.t<30*60*1000) return cached;
-  let g=null;
-  try{const j=await (await fetch("https://ipwho.is/?fields=ip,success,city,region,latitude,longitude,connection")).json();
-    if(j.success!==false)g={ip:j.ip,city:j.city,region:j.region,lat:j.latitude,lon:j.longitude,org:[j.connection?.org,j.connection?.isp,j.connection?.domain].filter(Boolean).join(" ")}}catch(e){}
-  if(!g){try{const j=await (await fetch("https://ipapi.co/json/")).json();if(!j.error)g={ip:j.ip,city:j.city,region:j.region_code,lat:j.latitude,lon:j.longitude,org:j.org||""}}catch(e){}}
-  if(g){g.t=Date.now();try{sessionStorage.setItem("start-ip",JSON.stringify(g))}catch(e){}}
-  return g;
-}
-function classify(g){
-  const learned=store.get("networks",{});
-  if(g.ip&&learned[g.ip]) return {...PLACES[learned[g.ip]],why:"a network you saved"};
-  if(/city of bellevue|bellevuewa/i.test(g.org||"")) return {...PLACES.work,why:"the City of Bellevue network"};
-  if(g.lat!=null&&km(g.lat,g.lon,PLACES.work.lat,PLACES.work.lon)<8) return {...PLACES.work,why:"a Bellevue network"};
-  if(g.lat!=null&&km(g.lat,g.lon,PLACES.home.lat,PLACES.home.lon)<14) return {...PLACES.home,why:"a Tacoma network"};
-  return {key:"away",label:g.city||"Away",icon:"📍",city:g.city||"",lat:g.lat,lon:g.lon,why:"your network"};
-}
-let here=null, ipInfo=null;
-async function locate(){
-  const choice=store.get("place","auto");
-  if(choice!=="auto"){here={...PLACES[choice],why:"your choice"};}
-  else{ipInfo=await lookupIP();here=ipInfo?classify(ipInfo):{...PLACES.home,why:"a guess, the network lookup didn't answer"};}
-  $("#pmDetected")&&($("#pmDetected").textContent=ipInfo?`Network: ${[ipInfo.city,ipInfo.region].filter(Boolean).join(", ")}${ipInfo.org?` · ${ipInfo.org.split(" ").slice(0,4).join(" ")}`:""}. Showing ${here.label} because of ${here.why}.`:`Showing ${here.label} (${here.why}).`);
-  document.body.dataset.place=here.key;
-  await weather();
-}
-async function weather(){
-  if(!chip) return;
-  chip.textContent=`${here.icon} ${here.label} …`;
-  const fc=$("#pmForecast");if(fc&&here.lat!=null)fc.href=`https://forecast.weather.gov/MapClick.php?lat=${here.lat.toFixed(4)}&lon=${here.lon.toFixed(4)}`;
-  if(here.lat==null){chip.textContent=`${here.icon} ${here.label}`;return}
-  try{
-    const c=(await (await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${here.lat}&longitude=${here.lon}&current=temperature_2m,weather_code,is_day&temperature_unit=fahrenheit`)).json()).current, code=c.weather_code;
-    const icon=code<=1?(c.is_day?"☀️":"🌙"):code===2?"⛅":code===3?"☁️":code<=48?"🌫️":code>=95?"⛈️":(code>=71&&code<=77)||code===85||code===86?"❄️":"🌧️";
-    chip.textContent=`${here.icon} ${here.label} · ${icon} ${Math.round(c.temperature_2m)}°`;
-    chip.setAttribute("aria-label",`${here.label}${here.city&&here.city!==here.label?`, ${here.city}`:""}: ${Math.round(c.temperature_2m)} degrees. Change location.`);
-  }catch(e){chip.textContent=`${here.icon} ${here.label}`}
-}
-if(chip){
-  const setOpen=o=>{menu.hidden=!o;chip.setAttribute("aria-expanded",String(o));if(o){const cur=store.get("place","auto");$$('input[name=place]',menu).forEach(r=>r.checked=r.value===cur);$('input[name=place]:checked',menu)?.focus()}};
-  chip.addEventListener("click",e=>{e.stopPropagation();setOpen(menu.hidden)});
-  document.addEventListener("click",e=>{if(!menu.hidden&&!e.target.closest(".place"))setOpen(false)});
-  document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!menu.hidden){setOpen(false);chip.focus()}});
-  menu.addEventListener("change",async e=>{
-    if(e.target.name!=="place") return;
-    const v=e.target.value;store.set("place",v);
-    /* picking Home or Work teaches this network, so Auto gets it right next time */
-    if(v!=="auto"&&$("#pmLearn").checked){const g=ipInfo||await lookupIP();if(g&&g.ip){const n=store.get("networks",{});n[g.ip]=v;store.set("networks",n);store.set("place","auto");}}
-    await locate();
-  });
-  locate();
-}
-
 /* ---------- search ---------- */
 const form=$("#search"), q=$("#q"), tbm=$("#tbm");
 if(form){

@@ -8,8 +8,8 @@
   <title>Start · Christopher A. Tritt</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&family=Comic+Neue:wght@700&family=Dancing+Script:wght@600;700&display=swap">
-  <link rel="stylesheet" href="/css/home.css?v=20261020i">
-  <link rel="stylesheet" href="/css/start.css?v=20261020i">
+  <link rel="stylesheet" href="/css/home.css?v=20261020j">
+  <link rel="stylesheet" href="/css/start.css?v=20261020j">
 </head>
 <body class="start-page">
 <a class="skip" href="#q">Skip to search</a>
@@ -26,19 +26,6 @@
   <div class="taskbar glass">
     <span class="eye" id="eye" aria-hidden="true"><span class="sclera"></span><span class="iris" id="iris"><span class="pupil"></span></span><span class="lid"></span></span>
     <p class="hello" id="hello">Hello, Christopher</p>
-    <div class="place">
-      <button type="button" class="wx-chip" id="wxChip" aria-haspopup="true" aria-expanded="false" aria-controls="placeMenu">Finding you…</button>
-      <div class="place-menu glass" id="placeMenu" hidden>
-        <p class="pm-title">Where are you?</p>
-        <p class="pm-detected" id="pmDetected">Checking your network…</p>
-        <div class="pm-opts" role="radiogroup" aria-label="Location">
-          <label><input type="radio" name="place" value="auto"> Detect from my network</label>
-          <label><input type="radio" name="place" value="home"> 🏠 Home · Tacoma</label>
-          <label><input type="radio" name="place" value="work"> 🏢 Work · Bellevue</label>
-        </div>
-        <label class="pm-learn"><input type="checkbox" id="pmLearn" checked> Remember this network as Home or Work</label>
-        <a class="pm-forecast" id="pmForecast" href="https://forecast.weather.gov/" target="_blank" rel="noopener">Full forecast ↗</a>
-      </div>
     </div>
     <a class="btn blue to-portfolio" href="/portfolio/">Portfolio</a>
     <span class="clock" id="clock" role="img" aria-label="Pacific time">
@@ -127,6 +114,9 @@
   </footer>
 </main>
 
-<script src="/js/start.js?v=20261020i" defer></script>
+<aside class="wx" id="wx"></aside>
+
+<script src="/js/weather.js?v=20261020j" defer></script>
+<script src="/js/start.js?v=20261020j" defer></script>
 </body>
 </html>

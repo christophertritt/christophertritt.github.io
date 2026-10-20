@@ -277,8 +277,8 @@ addEventListener("dblclick",e=>{if(!e.target.closest("a,button,.card,input,dialo
 document.querySelectorAll("dialog.mini").forEach(d=>{d.addEventListener("click",e=>{if(e.target===d||e.target.closest("[data-close]"))d.close()})});
 
 /* unknown #route: show the discontinued-route window */
-const known=new Set(["","top","tour","work","skills","about","resume","contact","credits","debug","terminal","environment",...Object.keys(T),...projects.map(p=>p.id)]);
-const routeWindows={credits:"credits",debug:"debug",terminal:"terminal",environment:"environment"};
+const known=new Set(["","top","tour","work","skills","about","resume","contact","credits","debug","terminal",...Object.keys(T),...projects.map(p=>p.id)]);
+const routeWindows={credits:"credits",debug:"debug",terminal:"terminal"};
 function positionHieye(){const r=eye.getBoundingClientRect();wp.style.left=Math.max(8,r.left+r.width+8)+"px";wp.style.top=Math.max(70,r.bottom+8)+"px"}
 addEventListener("scroll",positionHieye,{passive:true});addEventListener("resize",positionHieye);
 function checkRoute(){const h=(location.hash||"").slice(1);if(routeWindows[h]){const w=document.getElementById(routeWindows[h]);if(!w.open)w.showModal()}else if(!known.has(h))document.getElementById("lost").showModal()}
@@ -464,189 +464,10 @@ document.addEventListener("click",e=>{
   }
 });
 
-/* ===== weather: a floating cluster of glass bubbles you can hover, grab, fling, and pop ===== */
-const environment=document.getElementById("environment"), environmentStatus=document.getElementById("environment-status"), environmentData=document.getElementById("environment-data");
-const weatherCode={0:"clear sky",1:"mostly clear",2:"partly cloudy",3:"overcast",45:"fog",48:"rime fog",51:"light drizzle",53:"drizzle",55:"heavy drizzle",56:"freezing drizzle",57:"freezing drizzle",61:"light rain",63:"rain",65:"heavy rain",66:"freezing rain",67:"freezing rain",71:"light snow",73:"snow",75:"heavy snow",77:"snow grains",80:"rain showers",81:"rain showers",82:"heavy showers",85:"snow showers",86:"snow showers",95:"thunderstorm",96:"thunderstorm",99:"thunderstorm"};
-const wxSVG={
-  sun:`<svg width="40" height="40" viewBox="0 0 40 40"><g class="sunrays" stroke="#f4a51c" stroke-width="3" stroke-linecap="round">${[0,45,90,135,180,225,270,315].map(a=>`<path d="M20 3v5" transform="rotate(${a} 20 20)"/>`).join("")}</g><circle cx="20" cy="20" r="9" fill="url(#wxSun)" stroke="#e08a0c" stroke-width="1.2"/><ellipse cx="17" cy="16.5" rx="4" ry="2.4" fill="#fff" opacity=".7"/></svg>`,
-  moon:`<svg width="40" height="40" viewBox="0 0 40 40"><g class="moonbit"><path d="M25 6a14 14 0 1 0 9 22A11 11 0 0 1 25 6z" fill="#fff3b8" stroke="#d9b74a" stroke-width="1.2"/><circle cx="17" cy="22" r="1.8" fill="#e8d48a"/><circle cx="22" cy="28" r="1.2" fill="#e8d48a"/></g><path d="M31 9l1 2 2 1-2 1-1 2-1-2-2-1 2-1z" fill="#fff"/></svg>`,
-  cloud:`<svg width="44" height="36" viewBox="0 0 44 36"><g class="cloudbit"><path d="M12 30a8 8 0 0 1-.6-16A11 11 0 0 1 32 12a8 8 0 0 1 1 18z" fill="url(#wxCloud)" stroke="#8fa9c4" stroke-width="1.2"/><ellipse cx="18" cy="15" rx="6" ry="2.6" fill="#fff" opacity=".85"/></g></svg>`,
-  partly:`<svg width="44" height="40" viewBox="0 0 44 40"><g class="sunrays" stroke="#f4a51c" stroke-width="2.6" stroke-linecap="round">${[0,60,120,180,240,300].map(a=>`<path d="M15 2v4" transform="rotate(${a} 15 14)"/>`).join("")}</g><circle cx="15" cy="14" r="7" fill="url(#wxSun)" stroke="#e08a0c"/><g class="cloudbit"><path d="M14 36a7 7 0 0 1-.5-14A10 10 0 0 1 33 20a7 7 0 0 1 1 16z" fill="url(#wxCloud)" stroke="#8fa9c4" stroke-width="1.2"/><ellipse cx="20" cy="23" rx="5" ry="2.2" fill="#fff" opacity=".85"/></g></svg>`,
-  rain:`<svg width="44" height="42" viewBox="0 0 44 42"><g class="cloudbit"><path d="M12 26a8 8 0 0 1-.6-16A11 11 0 0 1 32 8a8 8 0 0 1 1 18z" fill="url(#wxCloud)" stroke="#7f98b4" stroke-width="1.2"/><ellipse cx="18" cy="11" rx="6" ry="2.4" fill="#fff" opacity=".85"/></g><g class="raindrops" fill="#3f9cd9">${[[13,31],[21,35],[29,31],[17,39],[25,40]].map(([x,y])=>`<path d="M${x} ${y-4}q2.4 3 0 4.6q-2.4-1.6 0-4.6z"/>`).join("")}</g></svg>`,
-  snow:`<svg width="44" height="42" viewBox="0 0 44 42"><g class="cloudbit"><path d="M12 26a8 8 0 0 1-.6-16A11 11 0 0 1 32 8a8 8 0 0 1 1 18z" fill="url(#wxCloud)" stroke="#8fa9c4" stroke-width="1.2"/></g><g class="raindrops" fill="#fff" stroke="#8fb3d6" stroke-width=".8">${[[13,32],[22,36],[30,32]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r="2.4"/>`).join("")}</g></svg>`,
-  fog:`<svg width="44" height="36" viewBox="0 0 44 36"><g class="cloudbit" stroke="#8fa9c4" stroke-width="3.2" stroke-linecap="round"><path d="M6 10h28M10 18h28M6 26h26"/></g></svg>`,
-  storm:`<svg width="44" height="42" viewBox="0 0 44 42"><g class="cloudbit"><path d="M12 26a8 8 0 0 1-.6-16A11 11 0 0 1 32 8a8 8 0 0 1 1 18z" fill="#9fb2c8" stroke="#62788f" stroke-width="1.2"/></g><path class="raindrops" d="M22 24l-5 9h5l-3 8 9-11h-5l3-6z" fill="#ffd84a" stroke="#d99a0c"/></svg>`,
-  therm:`<svg width="22" height="30" viewBox="0 0 22 30"><rect x="7" y="2" width="8" height="20" rx="4" fill="#fff" stroke="#b4512a" stroke-width="1.4"/><rect class="thermbit" x="9.5" y="9" width="3" height="13" rx="1.5" fill="#e24a3b"/><circle cx="11" cy="23" r="5.4" fill="#e24a3b" stroke="#b4512a" stroke-width="1.4"/><circle cx="9.3" cy="21.5" r="1.4" fill="#fff" opacity=".8"/></svg>`,
-  wind:`<svg width="28" height="28" viewBox="0 0 28 28"><g class="pinwheel">${["#4fb3e8","#7ed36b","#ffcf4a","#ff7fb0"].map((c,i)=>`<path d="M14 14V3a7 7 0 0 1 0 11z" fill="${c}" stroke="#fff" stroke-width=".8" transform="rotate(${i*90} 14 14)"/>`).join("")}<circle cx="14" cy="14" r="2" fill="#fff"/></g></svg>`,
-  drop:`<svg width="22" height="28" viewBox="0 0 22 28"><path class="dropbit" d="M11 2C11 2 3 12 3 18a8 8 0 0 0 16 0C19 12 11 2 11 2z" fill="url(#wxDrop)" stroke="#2c7fb8" stroke-width="1.2"/><ellipse cx="8" cy="17" rx="2" ry="3.4" fill="#fff" opacity=".7"/></svg>`,
-  leaf:`<svg width="24" height="28" viewBox="0 0 24 28"><path class="leafbit" d="M12 2C21 8 22 19 12 26C2 19 3 8 12 2z" fill="currentColor" stroke="rgba(0,0,0,.25)" stroke-width="1"/><path d="M12 6v19" stroke="#fff" stroke-opacity=".7" stroke-width="1.4"/></svg>`
-};
-const wxDefs=`<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
-<radialGradient id="wxSun" cx=".4" cy=".35" r=".7"><stop offset="0" stop-color="#fff6b0"/><stop offset=".6" stop-color="#ffcf3a"/><stop offset="1" stop-color="#f29c12"/></radialGradient>
-<linearGradient id="wxCloud" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#d5e3f2"/></linearGradient>
-<linearGradient id="wxDrop" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bfe8ff"/><stop offset="1" stop-color="#3f9cd9"/></linearGradient></defs></svg>`;
-document.body.insertAdjacentHTML("beforeend",wxDefs);
-function skyIcon(code,day){
-  if(code===0||code===1) return day?"sun":"moon";
-  if(code===2) return day?"partly":"cloud";
-  if(code===3) return "cloud";
-  if(code===45||code===48) return "fog";
-  if((code>=71&&code<=77)||code===85||code===86) return "snow";
-  if(code>=95) return "storm";
-  return "rain";
-}
-const aqiInfo=a=>a<=50?["#5cc96b","good air"]:a<=100?["#f2c94c","ok air"]:a<=150?["#f2994a","meh air"]:["#e0523f","bad air"];
-
-const wx=document.getElementById("wx");
-/* offsets from the cluster's anchor (center of the big bubble), radius, tint, stiffness */
-const wxSpec=[
-  {k:"main",r:50,x:0,y:0,tint:"#7fcdf0",s:.16},
-  {k:"feels",r:30,x:72,y:-40,tint:"#ffb98a",s:.09},
-  {k:"wind",r:31,x:82,y:30,tint:"#9fe3a8",s:.07},
-  {k:"hum",r:28,x:-14,y:74,tint:"#8fd8f2",s:.08},
-  {k:"aqi",r:28,x:50,y:84,tint:"#5cc96b",s:.06},
-  {k:"place",r:22,x:-62,y:-28,tint:"#f4b8e4",s:.11}
-];
-const reduceWx=()=>reduce||document.body.classList.contains("quiet-mode");
-const bubbles=wxSpec.map((b,i)=>{
-  const el=document.createElement("div");el.className="wxb "+b.k;el.tabIndex=b.k==="main"?0:-1;
-  el.style.width=el.style.height=b.r*2+"px";el.style.setProperty("--tint",b.tint);
-  wx.appendChild(el);
-  return {...b,el,px:0,py:0,vx:0,vy:0,phase:i*1.7,popped:false};
-});
-const B=Object.fromEntries(bubbles.map(b=>[b.k,b]));
-B.main.el.setAttribute("role","button");B.main.el.setAttribute("aria-label","Current weather. Select for details.");
-function fill(k,html){B[k].el.innerHTML=html}
-fill("main",`<span class="ic">${wxSVG.cloud}</span><b>…</b><small>loading</small>`);
-fill("feels",`<span class="ic">${wxSVG.therm}</span><b>…</b><small>feels</small>`);
-fill("wind",`<span class="ic">${wxSVG.wind}</span><b>…</b><small>wind</small>`);
-fill("hum",`<span class="ic">${wxSVG.drop}</span><b>…</b>`);
-fill("aqi",`<span class="ic" style="color:#3e8a4f">${wxSVG.leaf}</span><b>…</b>`);
-fill("place","Bellevue");
-
-/* where the cluster lives: remembered per browser, kept on screen */
-let ax, ay, avx=0, avy=0;
-const small=()=>innerWidth<620, scale=()=>small()?.72:1;
-function homeSpot(){return small()?[innerWidth-110,innerHeight-150]:[innerWidth-150,innerHeight-170]}
-try{const p=JSON.parse(localStorage.getItem("ct-wx")||"null");if(p){ax=p[0]*innerWidth;ay=p[1]*innerHeight}}catch(e){}
-if(ax==null){[ax,ay]=homeSpot()}
-function clampAnchor(bounce){
-  const pad=60*scale(), minX=pad, maxX=innerWidth-pad-70*scale(), minY=small()?130:150, maxY=innerHeight-pad-80*scale();
-  if(ax<minX){ax=minX;if(bounce)avx=Math.abs(avx)*.6} if(ax>maxX){ax=maxX;if(bounce)avx=-Math.abs(avx)*.6}
-  if(ay<minY){ay=minY;if(bounce)avy=Math.abs(avy)*.6} if(ay>maxY){ay=maxY;if(bounce)avy=-Math.abs(avy)*.6}
-}
-clampAnchor();
-bubbles.forEach(b=>{b.px=ax+b.x*scale();b.py=ay+b.y*scale()});
-addEventListener("resize",()=>clampAnchor());
-const saveSpot=()=>{try{localStorage.setItem("ct-wx",JSON.stringify([ax/innerWidth,ay/innerHeight]))}catch(e){}};
-
-/* drag the cluster by any bubble; a quick tap pops it instead */
-let drag=null;
-wx.addEventListener("pointerdown",e=>{
-  const el=e.target.closest(".wxb"); if(!el) return;
-  const b=bubbles.find(x=>x.el===el);
-  drag={b,id:e.pointerId,sx:e.clientX,sy:e.clientY,ox:e.clientX-ax,oy:e.clientY-ay,lx:e.clientX,ly:e.clientY,moved:false,t:Date.now()};
-  el.setPointerCapture(e.pointerId);avx=avy=0;
-});
-wx.addEventListener("pointermove",e=>{
-  if(!drag||e.pointerId!==drag.id) return;
-  if(Math.hypot(e.clientX-drag.sx,e.clientY-drag.sy)>6&&!drag.moved){drag.moved=true;wx.classList.add("dragging");tone(300,500,.12,"sine",.05)}
-  if(!drag.moved) return;
-  avx=(e.clientX-drag.lx);avy=(e.clientY-drag.ly);drag.lx=e.clientX;drag.ly=e.clientY;
-  ax=e.clientX-drag.ox;ay=e.clientY-drag.oy;clampAnchor();
-});
-function endDrag(e){
-  if(!drag||e.pointerId!==drag.id) return;
-  const d=drag;drag=null;wx.classList.remove("dragging");
-  if(!d.moved){tapBubble(d.b);return}
-  if(Math.hypot(avx,avy)>2){tone(500,900,.15,"triangle",.05)}else{avx=avy=0}
-  saveSpot();
-}
-wx.addEventListener("pointerup",endDrag);wx.addEventListener("pointercancel",endDrag);
-/* hovering nudges a bubble away from where the pointer came in, and its neighbors jiggle */
-bubbles.forEach(b=>b.el.addEventListener("pointerenter",e=>{
-  if(drag||reduceWx()) return;
-  const dx=b.px-e.clientX, dy=b.py-e.clientY, d=Math.hypot(dx,dy)||1;
-  b.vx+=dx/d*5;b.vy+=dy/d*5;
-  bubbles.forEach(o=>{if(o!==b){o.vx+=(Math.random()-.5)*2;o.vy+=(Math.random()-.5)*2}});
-  tone(700+b.r*8,900+b.r*8,.06,"sine",.03);
-}));
-B.main.el.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();showEnvironment()}});
-
-/* tap the big one for details; tap a little one and it pops, then blows back up */
-function tapBubble(b){
-  if(b.k==="main"){b.vy-=6;showEnvironment();return}
-  if(b.popped) return;
-  b.popped=true;b.el.classList.add("popping");
-  const r=b.el.getBoundingClientRect();burst(r.left+r.width/2,r.top+r.height/2,12);
-  tone(1200,300,.08,"square",.06);
-  if(reduce){b.el.style.opacity=0}else b.el.animate([{opacity:1,scale:"1"},{opacity:.9,scale:"1.35"},{opacity:0,scale:"1.6"}],{duration:180,fill:"forwards"});
-  setTimeout(()=>{
-    b.px=ax;b.py=ay;b.vx=(Math.random()-.5)*8;b.vy=-4;
-    b.el.getAnimations().forEach(a=>a.cancel());b.el.style.opacity="";
-    if(!reduce)b.el.animate([{scale:"0"},{scale:"1.2",offset:.6},{scale:"1"}],{duration:500,easing:"cubic-bezier(.3,1.6,.5,1)"});
-    b.el.classList.remove("popping");b.popped=false;tone(400,800,.2,"sine",.05);
-  },2200);
-}
-
-/* springs: each bubble chases its spot at its own stiffness, bobs, and shies away from the pointer */
-let wxT=0;
-function wxFrame(){
-  wxT+=1/60;
-  const calm=reduceWx(), sc=scale();
-  if(!drag&&(avx||avy)){ax+=avx;ay+=avy;avx*=.93;avy*=.93;clampAnchor(true);if(Math.abs(avx)<.05&&Math.abs(avy)<.05){avx=avy=0;saveSpot()}}
-  for(const b of bubbles){
-    const bob=calm?0:Math.sin(wxT*1.3+b.phase)*4, bobx=calm?0:Math.cos(wxT*.9+b.phase)*2.5;
-    const tx=ax+b.x*sc+bobx, ty=ay+b.y*sc+bob;
-    const k=drag&&drag.b===b?.5:b.s;
-    b.vx+=(tx-b.px)*k;b.vy+=(ty-b.py)*k;
-    b.vx*=calm?.6:.8;b.vy*=calm?.6:.8;
-    b.px+=b.vx;b.py+=b.vy;
-    const sq=calm?1:1+Math.min(.12,Math.hypot(b.vx,b.vy)*.012);
-    b.el.style.transform=`translate(${(b.px-b.r).toFixed(1)}px,${(b.py-b.r).toFixed(1)}px) scale(${(sc*sq).toFixed(3)},${(sc/sq).toFixed(3)})`;
-  }
-  requestAnimationFrame(wxFrame);
-}
-requestAnimationFrame(wxFrame);
-
-/* live data from Open-Meteo, refreshed every 15 minutes; shown in °F/mph or, in Canada mode, °C/km/h */
+/* weather bubbles live in /js/weather.js so every page has them; this keeps Canada mode and the sky in step */
 let wxLast=null;
-const metric=()=>document.body.classList.contains("canada");
-function renderWx(){
-  if(!wxLast) return;
-  const {c,a}=wxLast, m=metric();
-  const T=f=>Math.round(m?(f-32)*5/9:f), W=v=>Math.round(m?v*1.609344:v), tu=m?"°C":"°F", wu=m?"km/h":"mph";
-  const cond=weatherCode[c.weather_code]||"changing", aq=Math.round(a.us_aqi), [aqCol,aqWord]=aqiInfo(aq);
-  const values=[["Temperature",`${T(c.temperature_2m)}${tu}`],["Feels like",`${T(c.apparent_temperature)}${tu}`],["Conditions",cond],["Humidity",`${c.relative_humidity_2m}%`],["Wind",`${W(c.wind_speed_10m)} ${wu}`],["Air quality",`${aq} AQI`],["PM2.5",`${a.pm2_5} µg/m³`],["Precipitation",`${c.precipitation} mm`]];
-  environmentData.innerHTML=values.map(([label,value])=>`<div><b>${label}</b><span>${value}</span></div>`).join("");
-  environmentStatus.textContent=`Updated ${new Date(c.time).toLocaleString(m?"en-CA":"en-US",{hour:"numeric",minute:"2-digit"})} Pacific.`;
-  fill("main",`<span class="ic">${wxSVG[skyIcon(c.weather_code,c.is_day)]}</span><b>${T(c.temperature_2m)}°</b><small>${cond}</small>`);
-  fill("feels",`<span class="ic">${wxSVG.therm}</span><b>${T(c.apparent_temperature)}°</b><small>feels</small>`);
-  fill("wind",`<span class="ic">${wxSVG.wind}</span><b>${W(c.wind_speed_10m)}</b><small>${wu}</small>`);
-  fill("hum",`<span class="ic">${wxSVG.drop}</span><b>${c.relative_humidity_2m}%</b>`);
-  fill("aqi",`<span class="ic" style="color:${aqCol}">${wxSVG.leaf}</span><b>${aq}</b><small>${aqWord}</small>`);
-  B.aqi.el.style.setProperty("--tint",aqCol);
-  B.wind.el.querySelector(".pinwheel").style.animation=c.wind_speed_10m>3&&!reduce?`spinslow ${Math.max(.4,6/c.wind_speed_10m).toFixed(2)}s linear infinite`:"";
-  B.main.el.setAttribute("aria-label",`Bellevue weather: ${T(c.temperature_2m)} degrees ${m?"Celsius":"Fahrenheit"}, ${cond}. Select for details.`);
-}
-function showEnvironment(){if(!environment.open)environment.showModal();loadEnvironment()}
-async function loadEnvironment(){
-  environmentStatus.textContent="Loading current conditions from Open-Meteo for Bellevue, Washington.";
-  try{
-    const [weatherResponse,airResponse]=await Promise.all([
-      fetch("https://api.open-meteo.com/v1/forecast?latitude=47.6101&longitude=-122.2015&current=temperature_2m,relative_humidity_2m,apparent_temperature,precipitation,weather_code,wind_speed_10m,is_day&temperature_unit=fahrenheit&wind_speed_unit=mph"),
-      fetch("https://air-quality-api.open-meteo.com/v1/air-quality?latitude=47.6101&longitude=-122.2015&current=us_aqi,pm2_5")
-    ]);
-    if(!weatherResponse.ok||!airResponse.ok)throw new Error("Environmental data service unavailable");
-    const d=await weatherResponse.json(), air=await airResponse.json(), c=d.current, a=air.current;
-    wxLast={c,a};renderWx();
-  }catch(error){
-    environmentStatus.textContent="Live conditions are temporarily unavailable. Hieye is still watching.";environmentData.replaceChildren();
-    fill("main",`<span class="ic">${wxSVG.cloud}</span><b>?</b><small>weather's napping</small>`);
-    console.warn("Could not load Open-Meteo conditions.",error);
-  }
-}
-loadEnvironment();setInterval(()=>{if(!document.hidden)loadEnvironment()},15*60*1000);
+function renderWx(){if(window.Weather)Weather.render()}
+document.addEventListener("weather:update",e=>{wxLast=e.detail;if(typeof vanta!=="undefined"&&vanta)vanta.setOptions(skyFor())});
 
 
 const clock=document.getElementById("clock");
@@ -697,6 +518,7 @@ const caRe=new RegExp("\\b("+Object.keys(caWords).filter(k=>caWords[k]!==k).join
 const caOrig=new WeakMap();
 function caCase(src,rep){return src===src.toUpperCase()&&src.length>1?rep.toUpperCase():src[0]===src[0].toUpperCase()?rep[0].toUpperCase()+rep.slice(1):rep}
 function canadianize(root){
+  if(!root||!root.nodeType) return;
   const w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode:n=>n.parentElement&&!n.parentElement.closest("script,style,code,pre,input,textarea,.wxb")&&caRe.test(n.nodeValue)?NodeFilter.FILTER_ACCEPT:NodeFilter.FILTER_REJECT});
   const nodes=[];while(w.nextNode())nodes.push(w.currentNode);
   nodes.forEach(n=>{caRe.lastIndex=0;const v=n.nodeValue;
@@ -712,7 +534,7 @@ function setCanada(on,fromClick){
   canadaBtn.setAttribute("aria-pressed",String(on));canadaBtn.setAttribute("aria-label",on?"Canada mode on":"Canada mode off");
   document.querySelectorAll(".sky .leaf use").forEach(u=>u.setAttribute("href",on?"#mapleshape":"#leafshape"));
   if(on){
-    const track=root=>{const w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);while(w.nextNode())caTouched.add(w.currentNode)};
+    const track=root=>{if(!root||!root.nodeType)return;const w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);while(w.nextNode())caTouched.add(w.currentNode)};
     track(document.body);canadianize(document.body);
     caObs=caObs||new MutationObserver(ms=>{if(!document.body.classList.contains("canada"))return;caObs.disconnect();
       ms.forEach(m=>{m.addedNodes.forEach(n=>{if(n.nodeType===1||n.nodeType===3){track(n.nodeType===3?n.parentNode:n);canadianize(n.nodeType===3?n.parentNode:n)}});if(m.type==="characterData")canadianize(m.target.parentNode)});
@@ -825,7 +647,7 @@ async function syncVanta(){
 }
 new MutationObserver(syncVanta).observe(document.body,{attributes:true,attributeFilter:["class"]});
 let vantaT;addEventListener("resize",()=>{clearTimeout(vantaT);vantaT=setTimeout(syncVanta,400)});
-const _renderWx=renderWx;renderWx=function(){_renderWx();if(vanta)vanta.setOptions(skyFor())};
+
 if("requestIdleCallback" in window)requestIdleCallback(syncVanta,{timeout:2500});else setTimeout(syncVanta,1200);
 
 /* Driver.js: Hieye's guided tour of the desktop */

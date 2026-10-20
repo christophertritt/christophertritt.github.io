@@ -3,7 +3,7 @@
 ## Start page
 
 - The start page reads headlines and short excerpts from public RSS feeds listed in `feeds/feeds.json`. A GitHub Action (`.github/workflows/feeds.yml`) fetches them hourly with [fast-xml-parser](https://github.com/NaturalIntelligence/fast-xml-parser) (MIT) and saves `feeds/items.json`. Every item links back to the original article; the content belongs to each publisher.
-- Search sends your query to Google, Google Scholar, Google Maps or Microsoft 365 search. The weather chip uses [Open-Meteo](https://open-meteo.com/). To tell Home from Work, the page looks up the visitor's approximate location from their IP address with [ipwho.is](https://ipwho.is/) (falling back to [ipapi.co](https://ipapi.co/)); the result stays in that browser for 30 minutes and saved networks stay in that browser only.
+- Search sends your query to Google, Google Scholar, Google Maps or Microsoft 365 search. The weather bubbles on every page use [Open-Meteo](https://open-meteo.com/). To tell Home from Work, the page looks up the visitor's approximate location from their IP address with [ipwho.is](https://ipwho.is/) (falling back to [ipapi.co](https://ipapi.co/)); the result stays in that browser for 30 minutes and saved networks stay in that browser only.
 - The WebSearch wordmark and globe are original artwork for this site.
 
 ## Portfolio (`/portfolio/`)
@@ -11,7 +11,7 @@
 - Homepage project photographs are credited in the project cards and case studies. Their source links and licenses are stored in `js/home.js`.
 - The homepage loads Tinos, IBM Plex Mono, Silkscreen, Parisienne, Comic Neue, Caveat, Cabin Sketch, and Dancing Script from [Google Fonts](https://fonts.google.com/). Google Fonts distributes these families under their individual open-source licenses; see the family pages for the current license text.
 - The South Hill case study links to the publicly published [UW Livable City Year report](https://lcy.be.uw.edu/wp-content/uploads/sites/35/2026/06/2026-HIA-Report_FINAL_public.pdf). The site does not reproduce that report.
-- The floating weather bubbles use the public [Open-Meteo API](https://open-meteo.com/), queried from the browser for Bellevue, Washington conditions. No API key is used.
+
 - Floating desktop windows use [WinBox.js](https://github.com/nextapps-de/winbox) v0.2.82 by Thomas Wilkerling / Nextapps GmbH, licensed under the Apache License 2.0. The unmodified bundle is vendored at `js/vendor/winbox.bundle.min.js` with its license header intact.
 - Windows 7 progress bars and the crash box use [7.css](https://github.com/khang-nd/7.css) v0.21.1 by Khang Nguyen Duy, licensed under the MIT License. The unmodified scoped stylesheet is vendored at `css/vendor/7.scoped.css` with its header intact.
 - Other vendored libraries, all unmodified with their license headers where the authors include one, in `js/vendor/` and `css/vendor/`:
@@ -23,10 +23,3 @@
   - [Driver.js](https://github.com/kamranahmedse/driver.js) 1.8.0, MIT, Hieye's guided tour.
   - [Tone.js](https://github.com/Tonejs/Tone.js) 15.1.22, MIT, sound effects when sound is turned on.
 - The terminal, command palette, Hieye interactions, and hidden debug route are original implementations for this site, informed by common portfolio patterns; no third-party repository code is bundled.
-
-## Legacy projects
-
-- `blog/` credits Sasha Ann's photographs under CC BY-NC-SA 2.0 in `blog/index.html`.
-- `school-site/` credits Shari Thompson's Flickr photograph under CC BY-NC-SA 2.0 in `school-site/index.html`.
-- `wanted-poster/` credits Christopher's Flickr photograph under CC BY-SA 2.0 in `wanted-poster/index.html`.
-- `planets-table/` credits NASA's [Planetary Fact Sheet](https://nssdc.gsfc.nasa.gov/planetary/factsheet/) for factual data. Embedded metadata identifies these Wikimedia Commons sources: [Mercury](https://commons.wikimedia.org/wiki/File:Mercury_in_color_-_Prockter07-edit1.jpg), [Earth](https://commons.wikimedia.org/wiki/File:Africa_and_Europe_from_a_Million_Miles_Away_(cropped).png), [Mars](https://commons.wikimedia.org/wiki/File:Mars_23_aug_2003_hubble_(cropped).jpg), [Jupiter](https://commons.wikimedia.org/wiki/File:Jupiter_and_its_shrunken_Great_Red_Spot_(cropped).jpg), [Neptune](https://commons.wikimedia.org/wiki/File:Neptune_Full_(cropped).jpg), and [Pluto](https://commons.wikimedia.org/wiki/File:Nh-pluto-in-true-color_2x_JPEG-edit.jpg). The Venus, Saturn, and Uranus files contain no source metadata; do not reuse those three images outside this legacy page until their provenance and licenses are confirmed.
