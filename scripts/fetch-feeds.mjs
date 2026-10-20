@@ -18,6 +18,23 @@ const decode = s => s.replace(/&(#x?[0-9a-f]+|\w+);/gi, (m, e) => e[0] === "#" ?
 const plain = html => decode(text(html).replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/gi, " ").replace(/<[^>]+>/g, " ")).replace(/\s+/g, " ").trim();
 const clip = (s, n) => s.length > n ? s.slice(0, n - 1).replace(/\s+\S*$/, "") + "…" : s;
 const firstImg = html => { const m = /<img[^>]+src=["']([^"']+)["']/i.exec(text(html)); return m ? m[1] : ""; };
+const privateIpv4 = /^(10\.|127\.|169\.254\.|172\.(1[6-9]|2\d|3[01])\.|192\.168\.)/;
+const privateIpv6 = /^(::1|fc[0-9a-f]{2}:|fd[0-9a-f]{2}:|fe8[0-9a-f]:|fe9[0-9a-f]:|fea[0-9a-f]:|feb[0-9a-f]:)/i;
+const safeHost = host => {
+  if (!host) return false;
+  const h = host.toLowerCase();
+  if (h === "localhost" || h.endsWith(".local")) return false;
+  if (privateIpv4.test(h)) return false;
+  if (privateIpv6.test(h.replace(/^\[|\]$/g, ""))) return false;
+  return true;
+};
+const safeFeedUrl = (input, context) => {
+  const u = new URL(input, context);
+  if (!/^https?:$/.test(u.protocol)) throw new Error(`Unsupported protocol: ${u.protocol}`);
+  if (u.username || u.password) throw new Error("Credentials in URL are not allowed");
+  if (!safeHost(u.hostname)) throw new Error(`Blocked host: ${u.hostname}`);
+  return u;
+};
 const linkOf = l => {
   if (!l) return "";
   if (Array.isArray(l)) { const alt = l.find(x => typeof x === "object" && (!x["@rel"] || x["@rel"] === "alternate")); return linkOf(alt || l[0]); }
@@ -25,8 +42,24 @@ const linkOf = l => {
   return String(l);
 };
 
+async function fetchWithSafeRedirects(url, options, maxRedirects = 5) {
+  let current = safeFeedUrl(url);
+  for (let i = 0; i <= maxRedirects; i++) {
+    const res = await fetch(current, { ...options, redirect: "manual" });
+    if ([301, 302, 303, 307, 308].includes(res.status)) {
+      if (i === maxRedirects) throw new Error("Too many redirects");
+      const location = res.headers.get("location");
+      if (!location) throw new Error("Redirect missing Location header");
+      current = safeFeedUrl(location, current);
+      continue;
+    }
+    return res;
+  }
+  throw new Error("Redirect handling failed");
+}
+
 async function fetchFeed(f) {
-  const res = await fetch(f.url, { redirect: "follow", headers: { "user-agent": "christophertritt.github.io feed reader (+https://christophertritt.github.io)", accept: "application/rss+xml, application/atom+xml, application/xml, text/xml;q=0.9, */*;q=0.5" }, signal: AbortSignal.timeout(20000) });
+  const res = await fetchWithSafeRedirects(f.url, { headers: { "user-agent": "christophertritt.github.io feed reader (+https://christophertritt.github.io)", accept: "application/rss+xml, application/atom+xml, application/xml, text/xml;q=0.9, */*;q=0.5" }, signal: AbortSignal.timeout(20000) });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const doc = parser.parse(await res.text());
   const rss = doc.rss?.channel || doc["rdf:RDF"]?.channel;
