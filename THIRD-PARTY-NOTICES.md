@@ -15,6 +15,7 @@
   - [Rough Notation](https://github.com/rough-stuff/rough-notation) 0.5.1, MIT, hand-drawn circles around desktop icons.
   - [Leaflet](https://github.com/Leaflet/Leaflet) 1.9.4, BSD-2-Clause, the route map. Map tiles are © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors (ODbL) and are loaded from the OpenStreetMap tile servers with attribution shown on the map.
   - [Vanta.js](https://github.com/tengbao/vanta) 0.5.24 (clouds), MIT, and [three.js](https://github.com/mrdoob/three.js) r134, MIT, the animated sky on large screens.
+  - [Driver.js](https://github.com/kamranahmedse/driver.js) 1.8.0, MIT, Hieye's guided tour.
   - [Tone.js](https://github.com/Tonejs/Tone.js) 15.1.22, MIT, sound effects when sound is turned on.
 - The terminal, command palette, Hieye interactions, and hidden debug route are original implementations for this site, informed by common portfolio patterns; no third-party repository code is bundled.
 
