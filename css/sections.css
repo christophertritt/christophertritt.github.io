@@ -9,50 +9,69 @@
 nav.links a[aria-current=page]{text-decoration:underline 2px!important;text-underline-offset:6px!important}
 .portfolio-hub .desk{margin-top:6px}
 
-/* ===== Projects: transit center ===== */
-.theme-transit{--bg:#eef3f6}
-.tmap{position:absolute;inset:0;width:100%;height:100%;opacity:.22}
-.train{position:absolute;bottom:4vh;left:0;width:340px;transform:translateX(-380px);animation:train 22s linear 2s infinite;filter:drop-shadow(0 8px 8px rgba(11,22,48,.25))}
-@keyframes train{0%{transform:translateX(-380px)}45%,100%{transform:translateX(calc(100vw + 40px))}}
-.dboard{margin:-8px 0 30px;border-radius:12px;background:#10151c;color:#ffd27a;padding:10px 12px 12px;box-shadow:inset 0 2px 10px rgba(0,0,0,.7),0 12px 26px -16px rgba(0,0,0,.7);
-  font:600 15px/1 "IBM Plex Mono",ui-monospace,monospace;overflow-x:auto}
-.dboard-head{display:flex;justify-content:space-between;gap:12px;padding:4px 6px 10px;color:#9fb8d0;font-size:12px;letter-spacing:.12em;text-transform:uppercase;border-bottom:1px dashed rgba(255,210,122,.25)}
-.dboard table{width:100%;border-collapse:collapse;min-width:520px}
-.dboard th{font:600 11px/1 "IBM Plex Mono",monospace;color:#9fb8d0;text-align:left;padding:8px 6px;letter-spacing:.1em;text-transform:uppercase}
-.dboard td{padding:7px 6px;border-top:1px solid rgba(255,255,255,.06)}
-.dboard tr.row{cursor:pointer}
-.dboard tr.row:hover td,.dboard tr.row:focus-visible td{background:rgba(255,210,122,.08)}
-.dboard tr.row:focus-visible{outline:2px solid #ffd27a}
-.dboard .rt{display:inline-grid;place-items:center;min-width:34px;height:24px;border-radius:5px;color:#fff;font:700 12px/1 var(--ui)}
+/* ===== Projects: an airport terminal ===== */
+.apron{position:absolute;inset:0;width:100%;height:100%}
+.apron .taxi{animation:taxi 40s linear infinite}
+@keyframes taxi{from{transform:translate(-300px,640px)}to{transform:translate(1700px,640px)}}
+.apron .takeoff{animation:takeoff 26s cubic-bezier(.5,0,.8,.6) 4s infinite;transform:translate(-300px,700px)}
+@keyframes takeoff{0%{transform:translate(-300px,700px) rotate(0)}40%{transform:translate(500px,700px) rotate(0)}70%{transform:translate(1100px,520px) rotate(-12deg) scale(.8)}100%{transform:translate(1800px,120px) rotate(-14deg) scale(.4)}}
+.apron .beacon{animation:beacon 1.2s steps(2) infinite}
+@keyframes beacon{50%{opacity:.15}}
+.theme-airport .sky{display:none}
+.fids{margin:-8px 0 26px;border-radius:12px;overflow:hidden;background:#0d1520;color:#ffd200;box-shadow:inset 0 2px 10px rgba(0,0,0,.7),0 14px 30px -16px rgba(0,0,0,.7)}
+.fids-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 14px;background:linear-gradient(#ffd200,#e8b800);color:#0d1520;
+  font:800 15px/1 "Helvetica Neue",Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase}
+.fids-head .plane-ic{font-size:20px;letter-spacing:0}
+.fids-scroll{overflow-x:auto}
+.fids table{width:100%;border-collapse:collapse;min-width:620px;font:700 15px/1 "IBM Plex Mono",ui-monospace,monospace}
+.fids th{font:700 11px/1 "Helvetica Neue",Arial,sans-serif;color:#8fa3b8;text-align:left;padding:10px 10px 6px;letter-spacing:.14em;text-transform:uppercase}
+.fids td{padding:9px 10px;border-top:1px solid rgba(255,255,255,.07);white-space:nowrap}
+.fids tr.row{cursor:pointer}
+.fids tr.row:hover td,.fids tr.row:focus-visible td{background:rgba(255,210,0,.09)}
+.fids tr.row:focus-visible{outline:2px solid #ffd200;outline-offset:-2px}
 .flap{display:inline-block;white-space:pre}
-.dboard .ok{color:#7fe08a}.dboard .wip{color:#ffb347;animation:blinkdue 1.2s steps(2) infinite}
+.flap span{display:inline-block;min-width:.62em;text-align:center;background:linear-gradient(#1c2633 50%,#121b26 50%);margin-right:1px;border-radius:2px;padding:2px 0}
+.fids .boarding{color:#3ee07a;animation:blinkdue 1.1s steps(2) infinite}.fids .ontime{color:#e8f1ff}.fids .delayed{color:#ff9a3c}
+.fids-foot{padding:8px 14px;background:#141e2b;color:#8fa3b8;font:600 12px/1.3 "Helvetica Neue",Arial,sans-serif;overflow:hidden;white-space:nowrap}
+.fids-foot span{display:inline-block;padding-left:100%;animation:announce 26s linear infinite}
+@keyframes announce{to{transform:translateX(-100%)}}
+/* project cards become boarding passes */
+.theme-airport .card{border-radius:14px;padding:0;overflow:hidden;background:#fffdf8!important}
+.theme-airport .card .screen{border-radius:0;border-top:none!important}
+.theme-airport .card .body{padding:16px 18px 18px;border-top:2px dashed rgba(20,39,78,.25);position:relative}
+.theme-airport .card .body::before,.theme-airport .card .body::after{content:"";position:absolute;top:-11px;width:20px;height:20px;border-radius:50%;background:var(--bg)}
+.theme-airport .card .body::before{left:-10px}.theme-airport .card .body::after{right:-10px}
+.pass-top{display:flex;justify-content:space-between;align-items:center;padding:8px 14px;background:linear-gradient(90deg,#14274e,#2f86d6);color:#fff;font:800 11px/1 "Helvetica Neue",Arial,sans-serif;letter-spacing:.12em}
+.pass-top b{font:800 15px/1 "IBM Plex Mono",monospace;letter-spacing:.04em}
 
-/* ===== Skills: GeoCities '99 ===== */
-.theme-geocities{background:#0b0b2a}
-.theme-geocities .sky{display:none}
-.stars{position:absolute;inset:-50%;background-image:
-  radial-gradient(1.5px 1.5px at 20px 30px,#fff,transparent),radial-gradient(1px 1px at 120px 80px,#fff,transparent),radial-gradient(2px 2px at 200px 150px,#ffe68a,transparent),
-  radial-gradient(1px 1px at 60px 190px,#bfe8ff,transparent),radial-gradient(1.5px 1.5px at 170px 20px,#fff,transparent);background-size:240px 240px;animation:drift 120s linear infinite}
-.stars.s2{background-size:380px 380px;opacity:.6;animation-duration:200s}
-@keyframes drift{to{transform:translate(240px,120px)}}
-.geo-strip{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;margin:-14px 0 28px}
-.uc{flex:1;min-width:220px;padding:8px 12px;border-radius:6px;font:700 14px/1.2 "Comic Sans MS","Comic Neue",cursive;color:#111;text-align:center;
-  background:repeating-linear-gradient(-45deg,#ffd400 0 16px,#111 16px 32px);text-shadow:0 0 0 #000}
-.uc span{background:#ffd400;padding:2px 8px;border-radius:3px}
-.counter{display:inline-flex;align-items:center;gap:8px;font:700 12px/1 "Comic Sans MS","Comic Neue",cursive;color:var(--ink)}
-.counter b{display:inline-flex;gap:2px}
-.counter i{font:700 18px/1 "IBM Plex Mono",monospace;font-style:normal;color:#7fff7f;background:#000;padding:4px 4px;border-radius:2px;box-shadow:inset 0 0 0 1px #333;text-shadow:0 0 6px #3f3}
-.badge88{font:700 10px/1.1 "Silkscreen","IBM Plex Mono",monospace;color:#fff;background:linear-gradient(#5aa9e6,#123a7a);border:2px outset #9cc8f0;padding:4px 6px;text-align:center;width:88px}
-.wordart{display:inline-block;font:900 italic clamp(36px,6vw,58px)/1 "Arial Black",Impact,sans-serif;letter-spacing:-.01em;transform:perspective(300px) rotateX(18deg) skewX(-8deg);
-  background:linear-gradient(90deg,#ff3b3b,#ffb800,#4cd94c,#2fb7ff,#a35cff,#ff3b3b);background-size:200% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;
-  -webkit-text-stroke:1.5px #14274e;filter:drop-shadow(3px 4px 0 rgba(20,39,78,.35));animation:rainbow 4s linear infinite}
-@keyframes rainbow{to{background-position:200% 0}}
-.theme-geocities #skills h2{font:inherit}
-.newstar{display:inline-grid;place-items:center;width:46px;height:46px;margin-left:8px;vertical-align:middle;color:#fff;font:900 12px/1 "Arial Black",sans-serif;
-  background:#ff2f6e;clip-path:polygon(50% 0,61% 18%,82% 10%,80% 32%,100% 40%,84% 56%,96% 76%,74% 76%,68% 98%,50% 84%,32% 98%,26% 76%,4% 76%,16% 56%,0 40%,20% 32%,18% 10%,39% 18%);animation:spinstar 4s linear infinite}
-@keyframes spinstar{to{transform:rotate(360deg)}}
-.sparkle{position:fixed;z-index:80;pointer-events:none;font-size:14px;animation:sparkle .9s ease-out forwards}
-@keyframes sparkle{to{transform:translateY(24px) scale(.2) rotate(90deg);opacity:0}}
+/* ===== Skills: a Bloomberg-style terminal ===== */
+.theme-terminal{background:#000}
+.theme-terminal .sky{display:none}
+.scan{position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(255,140,0,.035) 0 1px,transparent 1px 3px)}
+.theme-terminal #skills .win{background:#000!important;border-color:#333!important;box-shadow:0 0 0 1px #222,0 30px 60px -20px rgba(255,140,0,.25)!important}
+.theme-terminal #skills .win::before{display:none}
+.theme-terminal #skills .tb{background:linear-gradient(#ffb347,#ff8c00 50%,#e07400)!important;color:#000!important;border-bottom-color:#000}
+.theme-terminal #skills .tb-t{color:#000!important;text-shadow:none!important;font-family:"IBM Plex Mono",monospace!important;letter-spacing:.06em!important}
+.theme-terminal #skills .win-body{color:#ffb000;font-family:"IBM Plex Mono",ui-monospace,monospace;padding-top:0}
+.fkeys{display:flex;flex-wrap:wrap;gap:4px;margin:0 calc(-1*clamp(22px,5vw,60px)) 18px;padding:6px 10px;background:#111;border-bottom:1px solid #333}
+.fkeys button{font:700 11px/1 "IBM Plex Mono",monospace;padding:5px 8px;border:none;border-radius:2px;cursor:pointer;color:#000;background:#ffd84a}
+.fkeys button.red{background:#e0372c;color:#fff}.fkeys button.grn{background:#2ec44a;color:#000}
+.fkeys button:hover,.fkeys button:focus-visible{outline:2px solid #fff;outline-offset:1px}
+.cmdline{display:flex;align-items:center;gap:10px;margin:0 0 16px;padding:8px 10px;background:#0a0a0a;border:1px solid #333;font:700 15px/1 "IBM Plex Mono",monospace;color:#fff}
+.cmdline .cur{display:inline-block;width:9px;height:16px;background:#ffb000;animation:caretb 1s steps(2) infinite;vertical-align:-2px}
+@keyframes caretb{50%{opacity:0}}
+.cmdline .go{margin-left:auto;padding:3px 7px;background:#2ec44a;color:#000;border-radius:2px;font-size:11px}
+.worldclock{display:flex;flex-wrap:wrap;gap:6px 18px;margin:0 0 18px;font:700 13px/1 "IBM Plex Mono",monospace;color:#8fa3b8}
+.worldclock b{color:#fff;font-weight:700;margin-left:6px}
+.theme-terminal #skills .eyebrow{color:#ff8c00!important;font-family:"IBM Plex Mono",monospace}
+.theme-terminal #skills h2{font:700 clamp(22px,3.4vw,32px)/1.1 "IBM Plex Mono",monospace;color:#fff;letter-spacing:.02em;text-transform:uppercase}
+.theme-terminal #skills .cols>div{background:#050505!important;border:1px solid #333!important;border-top:none!important;border-radius:0;padding:0 0 14px!important}
+.theme-terminal #skills .cols h3{margin:0 0 10px;padding:7px 12px;background:#ff8c00;color:#000!important;font:700 13px/1 "IBM Plex Mono",monospace!important;letter-spacing:.08em;text-transform:uppercase}
+.theme-terminal #skills .cols h3::before{content:attr(data-n) ") ";color:#000}
+.theme-terminal #skills .cols p{color:#ffb000!important;font:400 14px/1.6 "IBM Plex Mono",monospace!important;margin:0 12px!important}
+.theme-terminal #skills .tickerband{margin-top:24px}
+.newsline{margin:18px 0 0;padding:8px 10px;border:1px solid #333;background:#0a0a0a;font:13px/1.5 "IBM Plex Mono",monospace;color:#9fd2ff}
+.newsline b{color:#ff8c00}
 
 /* ===== About: Tacoma waterfront ===== */
 .bay{position:absolute;inset:0;width:100%;height:100%}

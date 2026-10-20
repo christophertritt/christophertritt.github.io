@@ -11,11 +11,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = (ROOT / "portfolio/_source.html").read_text()
-VERSION = "20261020f"
+VERSION = "20261020g"
 
 PAGES = {  # section id -> (folder, page title, theme)
-    "work": ("projects", "Projects", "transit"),
-    "skills": ("skills", "Skills", "geocities"),
+    "work": ("projects", "Projects", "airport"),
+    "skills": ("skills", "Skills", "terminal"),
     "about": ("about", "About", "waterfront"),
     "resume": ("resume", "Resume", "desk"),
     "contact": ("contact", "Contact", "messenger"),
@@ -44,26 +44,22 @@ def versioned(html):
     return re.sub(r'(\?v=)[0-9a-z]+', r'\g<1>' + VERSION, html)
 
 THEMES = {
-"transit": '''<div class="theme-art" aria-hidden="true">
-  <svg class="tmap" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
-    <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16">
-      <path d="M-40 640 H420 L560 500 H980 L1120 360 H1640" stroke="#2f86d6"/>
-      <path d="M200 -40 V300 L360 460 V940" stroke="#4a9a3a"/>
-      <path d="M-40 220 H620 L760 360 V760 L880 880 H1640" stroke="#e08a0c"/>
-      <path d="M1240 -40 V200 L1100 340 H700" stroke="#c25b7d"/>
-      <path d="M1400 940 V620 L1260 480 H1000" stroke="#7a4f96"/>
-    </g>
-    <g fill="#fff" stroke="#14274e" stroke-width="5">
-      <circle cx="420" cy="640" r="14"/><circle cx="560" cy="500" r="14"/><circle cx="980" cy="500" r="14"/><circle cx="1120" cy="360" r="14"/>
-      <circle cx="200" cy="300" r="14"/><circle cx="360" cy="460" r="14"/><circle cx="620" cy="220" r="14"/><circle cx="760" cy="360" r="20"/>
-      <circle cx="760" cy="760" r="14"/><circle cx="1240" cy="200" r="14"/><circle cx="1100" cy="340" r="14"/><circle cx="1260" cy="480" r="14"/>
-    </g>
+"airport": '''<div class="theme-art" aria-hidden="true">
+  <svg class="apron" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
+    <defs><linearGradient id="aSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7fc4ee"/><stop offset=".7" stop-color="#d9efff"/></linearGradient>
+      <linearGradient id="aGlass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".35"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity=".18"/></linearGradient></defs>
+    <rect width="1600" height="900" fill="url(#aSky)"/>
+    <g fill="#fff" opacity=".85"><ellipse cx="260" cy="160" rx="120" ry="24"/><ellipse cx="1180" cy="120" rx="160" ry="26"/></g>
+    <path d="M0 560 Q400 540 800 556 T1600 548 V600 H0Z" fill="#8fb39a"/><rect y="590" width="1600" height="310" fill="#9aa3ab"/>
+    <path d="M0 700 H1600" stroke="#fff" stroke-width="6" stroke-dasharray="60 40"/>
+    <g class="tower" transform="translate(1320 360)"><rect x="18" y="60" width="24" height="190" fill="#c9d3df" stroke="#56607a" stroke-width="3"/><path d="M0 60 L60 60 L52 20 L8 20Z" fill="#bfe8ef" stroke="#56607a" stroke-width="3"/><rect x="4" y="10" width="52" height="12" rx="3" fill="#56607a"/><circle class="beacon" cx="30" cy="4" r="6" fill="#ff5f57"/></g>
+    <g class="plane taxi" transform="translate(-300 640)"><path d="M0 20 Q10 4 40 4 H210 Q240 4 250 20 Q240 34 210 34 H40 Q10 34 0 20Z" fill="#fff" stroke="#14274e" stroke-width="3"/><path d="M90 20 L60 70 H86 L140 20Z M200 6 L230 -30 H244 L230 6Z" fill="#2f86d6" stroke="#14274e" stroke-width="3"/><g fill="#14274e"><circle cx="70" cy="14" r="3"/><circle cx="90" cy="14" r="3"/><circle cx="110" cy="14" r="3"/><circle cx="130" cy="14" r="3"/><circle cx="150" cy="14" r="3"/><circle cx="170" cy="14" r="3"/></g><path d="M236 14 Q246 18 248 22" stroke="#14274e" stroke-width="3" fill="none"/></g>
+    <g class="plane takeoff"><path d="M0 20 Q10 4 40 4 H210 Q240 4 250 20 Q240 34 210 34 H40 Q10 34 0 20Z" fill="#fff" stroke="#14274e" stroke-width="3"/><path d="M90 20 L60 70 H86 L140 20Z M200 6 L230 -30 H244 L230 6Z" fill="#e24a3b" stroke="#14274e" stroke-width="3"/></g>
+    <g stroke="#2a3644" stroke-width="18"><path d="M0 0V900M400 0V900M800 0V900M1200 0V900M1600 0V900"/></g><path d="M0 0H1600" stroke="#2a3644" stroke-width="40"/>
+    <rect width="1600" height="900" fill="url(#aGlass)"/>
   </svg>
-  <svg class="train" viewBox="0 0 360 60"><rect x="4" y="6" width="350" height="40" rx="14" fill="#f5efe0" stroke="#14274e" stroke-width="3"/><rect x="4" y="30" width="350" height="7" fill="#2f86d6"/>
-    <g fill="#bfe8ef" stroke="#14274e" stroke-width="2"><rect x="24" y="12" width="40" height="15" rx="3"/><rect x="74" y="12" width="40" height="15" rx="3"/><rect x="124" y="12" width="40" height="15" rx="3"/><rect x="194" y="12" width="40" height="15" rx="3"/><rect x="244" y="12" width="40" height="15" rx="3"/><rect x="300" y="12" width="44" height="15" rx="3"/></g>
-    <circle cx="60" cy="50" r="7" fill="#14274e"/><circle cx="110" cy="50" r="7" fill="#14274e"/><circle cx="240" cy="50" r="7" fill="#14274e"/><circle cx="290" cy="50" r="7" fill="#14274e"/></svg>
 </div>''',
-"geocities": '''<div class="theme-art" aria-hidden="true"><div class="stars"></div><div class="stars s2"></div></div>''',
+"terminal": '''<div class="theme-art" aria-hidden="true"><div class="scan"></div></div>''',
 "waterfront": '''<div class="theme-art" aria-hidden="true">
   <svg class="bay" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
     <defs><linearGradient id="bSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fc6ea"/><stop offset=".5" stop-color="#ffd6a8"/><stop offset=".72" stop-color="#ffb08a"/></linearGradient>

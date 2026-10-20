@@ -5,43 +5,62 @@ const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
 const beep=(...a)=>{if(typeof tone==="function")tone(...a)};
 const B=document.body.classList;
 
-/* ---------- Projects: a split-flap departure board of the case studies ---------- */
-if(B.contains("theme-transit")&&typeof projects!=="undefined"){
+/* ---------- Projects: airport departures board, boarding-pass cards, gate chime ---------- */
+if(B.contains("theme-airport")&&typeof projects!=="undefined"){
   const head=$("#work .head");
-  const lines={transportation:["#2f86d6","T"],environment:["#4a9a3a","E"],housing:["#7a4f96","H"],data:["#e08a0c","D"],health:["#c25b7d","PH"]};
-  const board=document.createElement("div");board.className="dboard";
-  board.innerHTML=`<div class="dboard-head"><span>Case study departures</span><span id="dbClock"></span></div>
-    <table><thead><tr><th>Line</th><th>Destination</th><th>Platform</th><th>Status</th></tr></thead><tbody>${projects.map((p,i)=>{const l=lines[p.tags[0]]||["#3d93dc","X"];
-      return `<tr class="row" tabindex="0" data-id="${p.id}" aria-label="Open the ${p.title} case study"><td><span class="rt" style="background:${l[0]}">${l[1]}</span></td><td><span class="flap" data-text="${p.title.toUpperCase()}"></span></td><td>${i+1}</td><td class="${p.status?"wip":"ok"}">${p.status?"DELAYED: IN PROGRESS":"ON TIME"}</td></tr>`}).join("")}</tbody></table>`;
+  const codes={ctr:"BEL",roslyn:"RSL",grayland:"GRY","south-hill":"SHL",detroit:"DTW"};
+  const fmtT=d=>d.toLocaleTimeString("en-US",{hour:"2-digit",minute:"2-digit",hour12:false,timeZone:"America/Los_Angeles"});
+  const now=new Date();
+  const rows=projects.map((p,i)=>{const dep=new Date(now.getTime()+(12+i*17)*60000);
+    const remark=p.status?["DELAYED","delayed"]:i===0?["BOARDING","boarding"]:["ON TIME","ontime"];
+    return {p,time:fmtT(dep),flight:"CT "+(101+i*7),gate:"A"+(i+1),remark}});
+  const board=document.createElement("div");board.className="fids";
+  board.innerHTML=`<div class="fids-head"><span><span class="plane-ic" aria-hidden="true">✈</span> Departures</span><span id="fidsClock"></span></div>
+    <div class="fids-scroll"><table><thead><tr><th>Time</th><th>Flight</th><th>Destination</th><th>Gate</th><th>Remarks</th></tr></thead><tbody>${rows.map(r=>
+      `<tr class="row" tabindex="0" data-id="${r.p.id}" aria-label="Open the ${r.p.title} case study"><td>${r.time}</td><td>${r.flight}</td><td><span class="flap" data-text="${r.p.title.toUpperCase()}"></span></td><td>${r.gate}</td><td class="${r.remark[1]}">${r.remark[0]}</td></tr>`).join("")}</tbody></table></div>
+    <div class="fids-foot"><span>Now boarding at gate A1: ${projects[0].title}. Passengers for ${projects.find(p=>p.status)?.title||"all destinations"}, please check the board for updates. Select any flight to read its case study.</span></div>`;
   head.after(board);
-  /* letters flip through the alphabet before landing */
+  /* split-flap letters: each tile flips through the alphabet before it lands */
   const A=" ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-";
-  $$(".flap",board).forEach((el,k)=>{const target=el.dataset.text;if(reduce){el.textContent=target;return}
-    let step=0;const iv=setInterval(()=>{step++;el.textContent=[...target].map((ch,i)=>step>i*.6+8+k*2?ch:(ch===" "?" ":A[Math.floor(Math.random()*A.length)])).join("");
-      if(el.textContent===target)clearInterval(iv)},45)});
-  board.addEventListener("click",e=>{const r=e.target.closest("tr.row");if(r&&typeof openCase==="function")openCase(r.dataset.id)});
-  board.addEventListener("keydown",e=>{const r=e.target.closest("tr.row");if(r&&(e.key==="Enter"||e.key===" ")){e.preventDefault();openCase(r.dataset.id)}});
-  const clk=$("#dbClock",board);const t=()=>clk.textContent=new Date().toLocaleTimeString("en-US",{hour:"numeric",minute:"2-digit",timeZone:"America/Los_Angeles"})+" PT";t();setInterval(t,15000);
-  /* a #transportation style link from the old single page still filters */
+  $$(".flap",board).forEach((el,k)=>{const target=el.dataset.text;
+    const paint=t=>el.innerHTML=[...t].map(c=>`<span>${c===" "?"&nbsp;":c}</span>`).join("");
+    if(reduce){paint(target);return}
+    let step=0;const iv=setInterval(()=>{step++;const t=[...target].map((ch,i)=>step>i*.5+6+k*3?ch:(ch===" "?" ":A[Math.floor(Math.random()*A.length)])).join("");paint(t);if(t===target)clearInterval(iv)},50)});
+  const open=r=>{beep(660,660,.25,"sine",.08);beep(523,523,.35,"sine",.08,.22);if(typeof openCase==="function")openCase(r.dataset.id)};
+  board.addEventListener("click",e=>{const r=e.target.closest("tr.row");if(r)open(r)});
+  board.addEventListener("keydown",e=>{const r=e.target.closest("tr.row");if(r&&(e.key==="Enter"||e.key===" ")){e.preventDefault();open(r)}});
+  const clk=$("#fidsClock",board);const t=()=>clk.textContent=fmtT(new Date())+" PT";t();setInterval(t,15000);
+  /* each project card gets a boarding-pass header */
+  const decorate=()=>$$("#grid .card").forEach((c,i)=>{if(c.querySelector(".pass-top"))return;const r=rows.find(x=>x.p.id===c.dataset.id)||rows[i];
+    c.insertAdjacentHTML("afterbegin",`<div class="pass-top"><span>BOARDING PASS · ${r.flight}</span><b>SEA → ${codes[c.dataset.id]||"XXX"}</b></div>`)});
+  decorate();addEventListener("DOMContentLoaded",decorate);
   const f=location.hash.slice(1);if(f&&typeof T!=="undefined"&&T[f])addEventListener("load",()=>typeof filter==="function"&&filter(f));
 }
 
-/* ---------- Skills: GeoCities, 1999 ---------- */
-if(B.contains("theme-geocities")){
-  const sec=$("#skills .win-body"), h2=$("#skills h2");
-  if(h2)h2.innerHTML=`<span class="wordart">${h2.textContent}</span>`;
-  let n=594;try{n=(+localStorage.getItem("ct-visits")||593)+1;localStorage.setItem("ct-visits",n)}catch(e){}
-  const strip=document.createElement("div");strip.className="geo-strip";
-  strip.innerHTML=`<div class="uc"><span>🚧 This page is always under construction 🚧</span></div>
-    <span class="counter">You are visitor <b>${String(n).padStart(6,"0").split("").map(d=>`<i>${d}</i>`).join("")}</b></span>
-    <span class="badge88">Best viewed at 800×600</span>`;
-  $("#skills .head").after(strip);
-  const dt=$$("#skills .cols h3").find(h=>/data/i.test(h.textContent));if(dt)dt.insertAdjacentHTML("beforeend",'<span class="newstar" aria-hidden="true">NEW!</span>');
-  /* a sparkle trail follows the cursor, like it's 1999 */
-  if(!reduce){let last=0;addEventListener("pointermove",e=>{const now=performance.now();if(now-last<40)return;last=now;
-    const s=document.createElement("span");s.className="sparkle";s.textContent=["✦","✧","★","✩"][Math.floor(Math.random()*4)];
-    s.style.left=e.clientX+"px";s.style.top=e.clientY+"px";s.style.color=["#ffe68a","#9fe8ff","#ff9fd2","#b9ff8a"][Math.floor(Math.random()*4)];
-    document.body.appendChild(s);setTimeout(()=>s.remove(),900)},{passive:true})}
+/* ---------- Skills: Bloomberg-style terminal ---------- */
+if(B.contains("theme-terminal")){
+  const body=$("#skills .win-body"), head=$("#skills .head");
+  const keys=document.createElement("div");keys.className="fkeys";
+  keys.innerHTML=`<button type="button" class="red" data-k="cancel">CANCEL</button><button type="button" data-k="help">HELP</button><button type="button" data-k="demand">1) DEMAND</button><button type="button" data-k="spatial">2) SPATIAL</button><button type="button" data-k="data">3) DATA</button><button type="button" class="grn" data-k="go">GO</button>`;
+  body.prepend(keys);
+  const cmd=document.createElement("div");cmd.className="cmdline";cmd.innerHTML=`<span>&gt;</span><span id="cmdText"></span><span class="cur" aria-hidden="true"></span><span class="go">&lt;GO&gt;</span>`;
+  head.before(cmd);
+  const clocks=document.createElement("div");clocks.className="worldclock";clocks.setAttribute("aria-label","World clocks");
+  const zones=[["SEA","America/Los_Angeles"],["NY","America/New_York"],["LDN","Europe/London"],["TYO","Asia/Tokyo"]];
+  const tickC=()=>clocks.innerHTML=zones.map(([n,z])=>`<span>${n}<b>${new Date().toLocaleTimeString("en-GB",{hour:"2-digit",minute:"2-digit",timeZone:z})}</b></span>`).join("");tickC();setInterval(tickC,20000);
+  head.before(clocks);
+  $$("#skills .cols h3").forEach((h,i)=>h.dataset.n=i+1);
+  const news=document.createElement("p");news.className="newsline";news.innerHTML=`<b>NEWS</b> Tools in use: ArcGIS Pro, QGIS, Python, SQL, R, Blender, Power BI, Power Apps, SharePoint, Tableau, Adobe Creative Cloud.`;
+  $("#skills .cols").after(news);
+  /* type a command, the way you'd pull up a function */
+  const type=(txt)=>{const el=$("#cmdText");el.textContent="";if(reduce){el.textContent=txt;return}let i=0;const iv=setInterval(()=>{el.textContent=txt.slice(0,++i);if(i>=txt.length)clearInterval(iv)},45)};
+  type("CTRITT SKILLS");
+  const cards=$$("#skills .cols>div");
+  const flash=n=>{cards.forEach((c,i)=>c.style.outline=i===n?"2px solid #ffd84a":"");cards[n]?.scrollIntoView({block:"nearest",behavior:reduce?"auto":"smooth"})};
+  keys.addEventListener("click",e=>{const k=e.target.closest("[data-k]")?.dataset.k;if(!k)return;beep(1200,1200,.04,"square",.04);
+    if(k==="demand"){type("CTRITT TDM <GO>");flash(0)}else if(k==="spatial"){type("CTRITT GIS <GO>");flash(1)}else if(k==="data"){type("CTRITT DATA <GO>");flash(2)}
+    else if(k==="help"){type("HELP: PRESS 1, 2 OR 3, THEN GO");flash(-1)}else if(k==="cancel"){type("");flash(-1)}else if(k==="go"){location.href="/portfolio/projects/"}});
+  addEventListener("keydown",e=>{if(/INPUT|TEXTAREA/.test(document.activeElement.tagName))return;const m={"1":"demand","2":"spatial","3":"data"}[e.key];if(m)keys.querySelector(`[data-k=${m}]`).click()});
 }
 
 /* ---------- About: is the mountain out? (real cloud cover over Tacoma) ---------- */
