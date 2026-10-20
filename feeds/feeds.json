@@ -9,6 +9,11 @@
     { "id": "humantransit", "name": "Human Transit", "url": "https://humantransit.org/feed", "site": "https://humantransit.org", "color": "#7a4f96", "topic": "Transit" },
     { "id": "strongtowns", "name": "Strong Towns", "url": "https://www.strongtowns.org/journal/rss.xml", "site": "https://www.strongtowns.org", "color": "#b23a62", "topic": "Planning" },
     { "id": "cascadepbs", "name": "Cascade PBS", "url": "https://www.cascadepbs.org/rss/", "site": "https://www.cascadepbs.org", "color": "#3e5a8a", "topic": "Northwest news" },
-    { "id": "smartcities", "name": "Smart Cities Dive", "url": "https://www.smartcitiesdive.com/feeds/news/", "site": "https://www.smartcitiesdive.com", "color": "#5d7a5a", "topic": "Data and cities" }
+    { "id": "smartcities", "name": "Smart Cities Dive", "url": "https://www.smartcitiesdive.com/feeds/news/", "site": "https://www.smartcitiesdive.com", "color": "#5d7a5a", "topic": "Data and cities" },
+    { "id": "nytimes-business", "name": "The New York Times — Business", "url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml", "site": "https://www.nytimes.com/section/business", "color": "#111111", "topic": "Business & finance" },
+    { "id": "wsj-business", "name": "The Wall Street Journal", "url": "https://feeds.content.dowjones.io/public/rss/WSJcomUSBusiness", "site": "https://www.wsj.com/business", "color": "#1f4e79", "topic": "Business & finance" },
+    { "id": "bloomberg-business", "name": "Bloomberg", "url": "https://feeds.bloomberg.com/business/news.rss", "site": "https://www.bloomberg.com/business", "color": "#1f1f1f", "topic": "Business & finance" },
+    { "id": "morning-brew", "name": "Morning Brew", "url": "https://www.morningbrew.com/feed.xml", "site": "https://www.morningbrew.com", "color": "#f4b400", "topic": "Business & finance" },
+    { "id": "semafor", "name": "Semafor", "url": "https://www.semafor.com/rss.xml", "site": "https://www.semafor.com", "color": "#e63946", "topic": "Business & finance" }
   ]
 }
