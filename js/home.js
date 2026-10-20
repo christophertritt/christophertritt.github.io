@@ -210,6 +210,12 @@ snd.addEventListener("click",()=>{
   snd.classList.remove("party");void snd.offsetWidth;snd.classList.add("party");
   if(soundOn){jingle();notes()}else bwomp();
 });
+const quiet=document.getElementById("quiet");
+let quietOn=false;
+try{quietOn=localStorage.getItem("ct-quiet")==="on"}catch(e){}
+function setQuiet(on){quietOn=on;document.body.classList.toggle("quiet-mode",on);quiet.setAttribute("aria-pressed",String(on));quiet.textContent=on?"Quiet on":"Quiet";quiet.setAttribute("aria-label",on?"Quiet mode on":"Quiet mode off");if(on)dismiss();try{localStorage.setItem("ct-quiet",on?"on":"off")}catch(e){}}
+setQuiet(quietOn);
+quiet.addEventListener("click",()=>setQuiet(!quietOn));
 const pop=()=>{tone(900+Math.random()*300,300,.09,"sine",.12);tone(1800,1800,.04,"triangle",.03,.02)};
 const chirp=()=>{tone(1400,2200,.07,"sine",.07);tone(1700,2600,.07,"sine",.06,.08)};
 const boing=()=>{tone(180,520,.25,"triangle",.1)};
@@ -444,10 +450,13 @@ function showEnvironment(){if(!environment.open)environment.showModal();loadEnvi
 async function loadEnvironment(){
   environmentStatus.textContent="Loading current conditions from Open-Meteo for Bellevue, Washington.";
   try{
-    const r=await fetch("https://api.open-meteo.com/v1/forecast?latitude=47.6101&longitude=-122.2015&current=temperature_2m,relative_humidity_2m,apparent_temperature,precipitation,weather_code,wind_speed_10m&temperature_unit=fahrenheit&wind_speed_unit=mph");
-    if(!r.ok)throw new Error(`Weather service returned ${r.status}`);
-    const d=await r.json(), c=d.current;
-    const values=[["Temperature",`${Math.round(c.temperature_2m)}°F`],["Feels like",`${Math.round(c.apparent_temperature)}°F`],["Conditions",weatherCode[c.weather_code]||"changing"],["Humidity",`${c.relative_humidity_2m}%`],["Wind",`${Math.round(c.wind_speed_10m)} mph`],["Precipitation",`${c.precipitation} mm`]];
+    const [weatherResponse,airResponse]=await Promise.all([
+      fetch("https://api.open-meteo.com/v1/forecast?latitude=47.6101&longitude=-122.2015&current=temperature_2m,relative_humidity_2m,apparent_temperature,precipitation,weather_code,wind_speed_10m&temperature_unit=fahrenheit&wind_speed_unit=mph"),
+      fetch("https://air-quality-api.open-meteo.com/v1/air-quality?latitude=47.6101&longitude=-122.2015&current=us_aqi,pm2_5")
+    ]);
+    if(!weatherResponse.ok||!airResponse.ok)throw new Error("Environmental data service unavailable");
+    const d=await weatherResponse.json(), air=await airResponse.json(), c=d.current, a=air.current;
+    const values=[["Temperature",`${Math.round(c.temperature_2m)}°F`],["Feels like",`${Math.round(c.apparent_temperature)}°F`],["Conditions",weatherCode[c.weather_code]||"changing"],["Humidity",`${c.relative_humidity_2m}%`],["Wind",`${Math.round(c.wind_speed_10m)} mph`],["Air quality",`${Math.round(a.us_aqi)} AQI`],["PM2.5",`${a.pm2_5} µg/m³`],["Precipitation",`${c.precipitation} mm`]];
     environmentData.innerHTML=values.map(([label,value])=>`<div><b>${label}</b><span>${value}</span></div>`).join("");
     environmentStatus.textContent=`Updated ${new Date(c.time).toLocaleString("en-US",{hour:"numeric",minute:"2-digit"})} Pacific.`;
     document.querySelectorAll(".live-condition").forEach(el=>{el.textContent=`PUGET SOUND: ${Math.round(c.temperature_2m)}°F · ${weatherCode[c.weather_code]||"changing"} · ${Math.round(c.wind_speed_10m)} MPH`});

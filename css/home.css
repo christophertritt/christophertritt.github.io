@@ -202,6 +202,7 @@ section.block{padding-block:40px}
 .statusbar{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-block:20px 36px;padding:8px 14px;border-radius:8px;font:400 12px/1.5 var(--mono);color:var(--muted)}
 .statusbar span:first-child{font-family:var(--pixel)}
 .statusbar a{color:inherit}
+.archive-links{color:var(--muted)}
 
 /* case study window */
 dialog{border:none;padding:0;max-width:min(860px,calc(100vw - 32px));width:100%;max-height:calc(100vh - 48px);border-radius:var(--r);
@@ -368,6 +369,11 @@ nav.links a:hover .ni{transform:translateY(-2px) rotate(-6deg) scale(1.12)}
 .snd .w{display:none}.snd[aria-pressed="true"] .w{display:inline}.snd[aria-pressed="true"] .m{display:none}
 .snd[aria-pressed="true"]{color:var(--accent-ink);background:var(--accent);border-color:var(--accent)}
 .snd:hover{color:var(--ink);border-color:var(--accent)}
+.quiet-btn{border:1px solid var(--edge);border-radius:999px;padding:7px 10px;background:var(--glass-strong);color:var(--muted);cursor:pointer;font:11px/1 var(--mono)}
+.quiet-btn[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.quiet-mode .wp,.quiet-mode #fx,.quiet-mode .dock.orbiting{display:none!important}
+.quiet-mode .ttrack{animation-play-state:paused!important}
+.quiet-mode *{animation-play-state:paused!important}
 #fx{position:fixed;inset:0;pointer-events:none;z-index:40;overflow:hidden}
 .pt{position:absolute;left:0;top:0;width:14px;height:14px;border-radius:50%;border:1px solid rgba(255,255,255,.8);
   background:radial-gradient(circle at 32% 28%,rgba(255,255,255,.95),transparent 38%),radial-gradient(circle,rgba(127,208,224,.35),rgba(127,208,224,.12) 70%)}
