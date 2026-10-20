@@ -40,7 +40,7 @@ Personal static site for https://christophertritt.github.io.
 
 3. Commit `feeds/items.json`.
 
-The same script also runs hourly in GitHub Actions (`.github/workflows/feeds.yml`) and on pushes that change `feeds/feeds.json` or `scripts/fetch-feeds.mjs`, so manual regeneration is only needed to preview changes locally.
+The same script also runs twice a day (7 AM and 5 PM Pacific) in GitHub Actions (`.github/workflows/feeds.yml`) and on pushes that change `feeds/feeds.json` or `scripts/fetch-feeds.mjs`, so manual regeneration is only needed to preview changes locally.
 
 ## Developer notes
 
