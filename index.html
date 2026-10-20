@@ -247,6 +247,7 @@
   <nav class="dock glass" id="dock" aria-label="Minimized windows" hidden></nav>
   <footer class="statusbar glass">
     <span id="done">© 2026 Christopher Tritt</span>
+    <a href="#credits">Credits &amp; sources</a>
   </footer>
 </main>
 
@@ -275,6 +276,55 @@
     <h2 id="lost-title">This route has been discontinued</h2>
     <p>The stop you were looking for isn't on the schedule anymore. Transfers are free, so try one of these.</p>
     <div class="ctas"><a class="btn primary" href="#work" data-close>Projects</a><a class="btn ghost" href="#about" data-close>About</a><a class="btn ghost" href="#resume" data-close>Resume</a></div>
+  </div>
+</dialog>
+
+<dialog id="palette" class="mini palette" aria-labelledby="palette-title">
+  <div class="tb aqua"><span class="tb-t">command_palette.exe</span><button class="x" type="button" data-close aria-label="Close">×</button></div>
+  <div class="mini-body">
+    <p class="eyebrow">Quick route</p>
+    <h2 id="palette-title">Where to next?</h2>
+    <input id="palette-input" class="palette-input" type="search" placeholder="Try “projects”, “terminal”, or “contact”" autocomplete="off">
+    <div id="palette-results" class="palette-results"></div>
+  </div>
+</dialog>
+
+<dialog id="terminal" class="mini terminal" aria-labelledby="terminal-title">
+  <div class="tb green"><span class="tb-t">route594 terminal</span><button class="x" type="button" data-close aria-label="Close">×</button></div>
+  <div class="mini-body">
+    <p class="eyebrow">Interactive route planner</p>
+    <h2 id="terminal-title">Terminal</h2>
+    <div id="terminal-output" class="terminal-output" aria-live="polite"><div>Type <b>help</b> for available commands.</div></div>
+    <form id="terminal-form" class="terminal-form">
+      <label for="terminal-input"><span>route594@christopher:~$</span></label>
+      <input id="terminal-input" type="text" autocomplete="off" spellcheck="false" aria-label="Terminal command">
+    </form>
+  </div>
+</dialog>
+
+<dialog id="debug" class="mini debug" aria-labelledby="debug-title">
+  <div class="tb plum"><span class="tb-t">debug.vim</span><button class="x" type="button" data-close aria-label="Close">×</button></div>
+  <div class="mini-body">
+    <p class="eyebrow">Hidden route</p>
+    <h2 id="debug-title">:help christopher</h2>
+    <pre class="vim-screen"><span class="vim-comment">" A tiny field guide to this site</span>
+    <span class="vim-key">g</span> <span class="vim-text">projects</span>     jump to selected work
+<span class="vim-key">g</span> <span class="vim-text">about</span>        read the route story
+<span class="vim-key">g</span> <span class="vim-text">resume</span>       open experience
+<span class="vim-key">:q</span>             close this window
+
+<span class="vim-comment">" Tip: press ⌘K or Ctrl-K for the command palette.</span></pre>
+  </div>
+</dialog>
+
+<dialog id="credits" class="mini credits" aria-labelledby="credits-title">
+  <div class="tb brass"><span class="tb-t">third_party_notices.txt</span><button class="x" type="button" data-close aria-label="Close">×</button></div>
+  <div class="mini-body">
+    <p class="eyebrow">Sources and licenses</p>
+    <h2 id="credits-title">Credits</h2>
+    <p>Homepage project photography is credited on each image. The portrait is an AI-generated placeholder from <a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">This Person Does Not Exist</a>.</p>
+    <p>The homepage uses <a href="https://fonts.google.com/" target="_blank" rel="noopener noreferrer">Google Fonts</a> families Tinos, IBM Plex Mono, Silkscreen, Parisienne, Comic Neue, Caveat, Cabin Sketch, and Dancing Script.</p>
+    <p>Legacy projects retain their original image attributions in their own pages. Planet image sources and public-domain status are documented in <a href="/THIRD-PARTY-NOTICES.md">THIRD-PARTY-NOTICES.md</a>.</p>
   </div>
 </dialog>
 

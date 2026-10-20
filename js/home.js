@@ -320,9 +320,46 @@ addEventListener("dblclick",e=>{if(!e.target.closest("a,button,.card,input,dialo
 document.querySelectorAll("dialog.mini").forEach(d=>{d.addEventListener("click",e=>{if(e.target===d||e.target.closest("[data-close]"))d.close()})});
 
 /* unknown #route: show the discontinued-route window */
-const known=new Set(["","top","work","skills","about","resume","contact",...Object.keys(T),...projects.map(p=>p.id)]);
-function checkRoute(){const h=(location.hash||"").slice(1);if(!known.has(h))document.getElementById("lost").showModal()}
+const known=new Set(["","top","work","skills","about","resume","contact","credits","debug","terminal",...Object.keys(T),...projects.map(p=>p.id)]);
+const routeWindows={credits:"credits",debug:"debug",terminal:"terminal"};
+function checkRoute(){const h=(location.hash||"").slice(1);if(routeWindows[h]){const w=document.getElementById(routeWindows[h]);if(!w.open)w.showModal()}else if(!known.has(h))document.getElementById("lost").showModal()}
 checkRoute();addEventListener("hashchange",checkRoute);
+
+/* Keyboard-friendly navigation and a local terminal for the site's hidden routes. */
+const palette=document.getElementById("palette"), paletteInput=document.getElementById("palette-input"), paletteResults=document.getElementById("palette-results");
+const commands=[["Projects","Browse selected work","#work"],["Skills","Tools and methods","#skills"],["About","Read the route story","#about"],["Resume","Experience and education","#resume"],["Contact","Send a message","#contact"],["Terminal","Try route594 commands","#terminal"],["Credits","Sources and licenses","#credits"],["Debug page","Open the hidden vim route","#debug"]];
+function renderCommands(query=""){
+  const q=query.trim().toLowerCase();
+  paletteResults.innerHTML=commands.filter(([name,desc])=>!q||`${name} ${desc}`.toLowerCase().includes(q)).map(([name,desc,href])=>`<button type="button" data-command="${href}"><span>${name}</span><small>${desc}</small></button>`).join("")||"<small>No matching route.</small>";
+}
+function openPalette(){if(!palette.open)palette.showModal();renderCommands();setTimeout(()=>paletteInput.focus(),0)}
+renderCommands();
+paletteInput.addEventListener("input",()=>renderCommands(paletteInput.value));
+paletteResults.addEventListener("click",e=>{const b=e.target.closest("[data-command]");if(!b)return;palette.close();location.hash=b.dataset.command.slice(1)});
+document.addEventListener("keydown",e=>{if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==="k"){e.preventDefault();openPalette()}});
+
+const terminal=document.getElementById("terminal"), terminalOutput=document.getElementById("terminal-output"), terminalForm=document.getElementById("terminal-form"), terminalInput=document.getElementById("terminal-input");
+const terminalWrite=(text,error=false)=>{const line=document.createElement("div");line.textContent=text;line.className=error?"terminal-error":"";terminalOutput.appendChild(line);terminalOutput.scrollTop=terminalOutput.scrollHeight};
+function runCommand(raw){
+  const command=raw.trim().toLowerCase();
+  if(!command)return;
+  terminalWrite(`route594@christopher:~$ ${raw}`);
+  if(command==="help")terminalWrite("help  projects  route 594  about  resume  contact  credits  vim  clear  exit");
+  else if(command==="projects"){terminalWrite("Opening selected work…");terminal.close();location.hash="work"}
+  else if(command==="route 594"){terminalWrite("Next stop: Seattle via Tacoma. The bus says hi.");summon("The terminal found the 594. It is running on schedule.")}
+  else if(command==="about"){terminal.close();location.hash="about"}
+  else if(command==="resume"){terminal.close();location.hash="resume"}
+  else if(command==="contact"){terminal.close();location.hash="contact"}
+  else if(command==="credits"){terminal.close();location.hash="credits"}
+  else if(command==="vim"){terminal.close();location.hash="debug"}
+  else if(command==="clear"){terminalOutput.replaceChildren()}
+  else if(command==="exit")terminal.close();
+  else terminalWrite(`command not found: ${raw}`,true);
+  terminalInput.value="";
+}
+terminalForm.addEventListener("submit",e=>{e.preventDefault();runCommand(terminalInput.value)});
+console.log("%cWelcome aboard route594.%c Try Ctrl-K, type `terminal`, or run `window.route594()` for a hidden route.","color:#3f9cb8;font-weight:bold","color:inherit");
+window.route594=()=>{location.hash="terminal"};
 
 
 /* minimized windows collapse into an OS X style dock */
