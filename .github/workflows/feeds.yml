@@ -24,7 +24,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm install --no-save --no-package-lock fast-xml-parser@4.5.0
+      - run: npm install --no-save --no-package-lock --ignore-scripts fast-xml-parser@4.5.0
       - run: node scripts/fetch-feeds.mjs
       - name: Commit if anything changed
         run: |
