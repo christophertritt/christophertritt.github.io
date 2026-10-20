@@ -182,12 +182,13 @@ if(eyeFloat){
 }
 
 /* ================= SBB platform sign (expanded clock) ================= */
+/* the portfolio clock is a cuckoo (js/home.js); only the start page and reader clocks open the sign */
 const clockEl=$("#clock");
-if(clockEl){
+if(clockEl&&!clockEl.querySelector("#cuckoo")){
   const sign=document.createElement("div");
   sign.className="sbb"; sign.id="sbbSign"; sign.hidden=true; sign.setAttribute("role","dialog"); sign.setAttribute("aria-label","Clock and calendar");
   sign.innerHTML=`<div class="sbb-bar"></div>
-    <div class="sbb-head"><span class="sbb-logo">SBB CFF FFS</span><span class="sbb-place" id="sbbPlace">Pacific Time</span><button type="button" class="sbb-x" aria-label="Close clock and calendar">×</button></div>
+    <div class="sbb-head"><span class="sbb-place" id="sbbPlace">Pacific Time</span><button type="button" class="sbb-x" aria-label="Close clock and calendar">×</button></div>
     <div class="sbb-time" id="sbbTime">--:--:--</div>
     <div class="sbb-date" id="sbbDate"></div>
     <div class="sbb-cal"><div class="sbb-cal-t" id="sbbCalT"></div><div id="sbbCalGrid"></div></div>`;

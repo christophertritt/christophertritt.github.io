@@ -21,18 +21,21 @@ document.querySelectorAll(".chip").forEach(c=>c.addEventListener("click",()=>fil
 
 const dlg=document.getElementById("case"), cs=document.getElementById("cs");
 document.getElementById("cs-close").onclick=()=>dlg.close();
+/* a case-study section with no text yet (draft notes are hidden) is left out entirely */
+const filled=v=>typeof v==="string"&&v.replace(/<[^>]*>/g,"").trim()!=="";
+const part=(h,v)=>filled(v)?`<h3>${h}</h3><p>${v}</p>`:"";
 function openCase(id){
   const p=projects.find(x=>x.id===id); if(!p) return;
   document.getElementById("cs-file").textContent=p.file;
   cs.innerHTML=`<p class="eyebrow">Case study${p.status?" · "+p.status:""}</p><h2 id="cs-title">${p.title}</h2>
   <p class="lede">${p.lede}</p>
-  <dl class="glance">${Object.entries(p.glance).map(([k,v])=>`<div><dt>${k}</dt><dd>${v}</dd></div>`).join("")}</dl>
+  <dl class="glance">${Object.entries(p.glance).filter(([k,v])=>filled(v)).map(([k,v])=>`<div><dt>${k}</dt><dd>${v}</dd></div>`).join("")}</dl>
   <div class="screen big">${thumb(p.id,true)}</div>
-  <h3>The problem</h3><p>${p.problem}</p>
-  <h3>My role</h3><p>${p.role}</p>
-  <h3>Approach</h3><ol>${p.approach.map(a=>`<li>${a}</li>`).join("")}</ol>
-  <h3>Outcome</h3><p>${p.outcome}</p>
-  <h3>Reflection</h3><p>${p.reflect}</p>
+  ${part("The problem",p.problem)}
+  ${part("My role",p.role)}
+  ${(p.approach||[]).filter(filled).length?`<h3>Approach</h3><ol>${p.approach.filter(filled).map(a=>`<li>${a}</li>`).join("")}</ol>`:""}
+  ${part("Outcome",p.outcome)}
+  ${part("Reflection",p.reflect)}
   ${p.note?`<p class="note">${p.note}</p>`:""}`;
   if(!dlg.open) dlg.showModal();
   dlg.scrollTop=0;csProg.style.width="0%";
@@ -188,13 +191,15 @@ nameEl.addEventListener("pointerenter",()=>{
 /* Hieye, the site helper: the eye's speech bubble */
 const wp=document.getElementById("wp"), wpLine=document.getElementById("wp-line"), wpActs=wp.querySelector(".wp-acts");
 const wpActsHTML=wpActs.innerHTML;
-const tips=["I am Hieye. I watch the windows, notice your clicks, and know where the next stop is.","Grab the weather bubbles and fling them around. They bounce.","Press Cmd-K or Ctrl-K to open the wayfinding kiosk.","Minimize a window and I will keep it orbiting nearby.","Try the terminal command `route 594`.","Every project card opens a full case study. The CTR dashboard is a good first stop.","The station clock pauses at the top of every minute. Real Swiss trains do that too."];
+const tips=["I am Hieye. I watch the windows, notice your clicks, and know where the next stop is.","Press Cmd-K or Ctrl-K to open the wayfinding kiosk.","Minimize a window and I will keep it orbiting nearby.","Try the terminal command `route 594`.","Every project card opens a full case study. The CTR dashboard is a good first stop.","The station clock pauses at the top of every minute. Real Swiss trains do that too."];
 let tipI=0;
 let wpBack=null, askCb=null;
 const backLines=["I'm back. Did you miss me?","Sixty seconds felt like a long layover.","Back on schedule. Where were we?"];
 function positionHieye(){
   const r=eye.getBoundingClientRect(), w=wp.offsetWidth||300;
-  wp.style.left=Math.max(8,Math.min(innerWidth-w-8,r.left+r.width*.55))+"px";
+  /* keep the balloon clear of the Portfolio menu button below the taskbar */
+  const pn=document.getElementById("pnavBtn"), clear=pn?pn.getBoundingClientRect().right+12:8;
+  wp.style.left=Math.max(8,Math.min(innerWidth-w-8,Math.max(clear,r.left+r.width*.55)))+"px";
   wp.style.top=Math.max(64,r.bottom+14)+"px";
 }
 function resetActs(){if(askCb){askCb=null;wpActs.innerHTML=wpActsHTML}}
@@ -221,13 +226,12 @@ wp.addEventListener("click",e=>{
   else if(g==="tour"){dismiss();setTimeout(startTour,450)}
   else{dismiss();clearTimeout(wpBack);wpBack=setTimeout(()=>summon(backLines[Math.floor(Math.random()*backLines.length)]),60000)}
 });
-setTimeout(()=>{if(!wp.hidden||document.querySelector("dialog[open]")||document.querySelector(".driver-popover"))return;
-  try{if(sessionStorage.getItem("ct-greeted"))return;sessionStorage.setItem("ct-greeted","1")}catch(e){}
-  let toured=false;try{toured=localStorage.getItem("ct-toured")==="yes"}catch(e){}
-  if(toured)summon("Welcome back. Click things. I will notice.");
-  else ask("Welcome to my little corner. First time here? I can show you around.","Show me around","Not now",yes=>{try{localStorage.setItem("ct-toured","yes")}catch(e){}if(yes)setTimeout(startTour,450)});
+/* Hieye greets once per browser, on the hub only, and never on a timer:
+   it used to reappear in every new tab and every 42 seconds, covering the menu. */
+if(!isSectionPage)setTimeout(()=>{if(!wp.hidden||document.querySelector("dialog[open]")||document.querySelector(".driver-popover"))return;
+  try{if(localStorage.getItem("ct-greeted"))return;localStorage.setItem("ct-greeted","1")}catch(e){return}
+  ask("Welcome to my little corner. First time here? I can show you around.","Show me around","Not now",yes=>{try{localStorage.setItem("ct-toured","yes")}catch(e){}if(yes)setTimeout(startTour,450)});
 },4200);
-setInterval(()=>{if(wp.hidden&&!document.querySelector("dialog[open]")&&!document.hidden)summon(tips[tipI++%tips.length])},42000);
 /* triple-tap the eye to summon Hieye */
 let eyeTaps=[];
 eye.addEventListener("click",()=>{const now=Date.now();eyeTaps=eyeTaps.filter(t=>now-t<900);eyeTaps.push(now);if(eyeTaps.length>=3){eyeTaps=[];summon()}});
@@ -279,7 +283,7 @@ document.querySelectorAll("dialog.mini").forEach(d=>{d.addEventListener("click",
 /* unknown #route: show the discontinued-route window */
 const known=new Set(["","top","tour","work","skills","about","resume","contact","credits","debug","terminal",...Object.keys(T),...projects.map(p=>p.id)]);
 const routeWindows={credits:"credits",debug:"debug",terminal:"terminal"};
-function positionHieye(){const r=eye.getBoundingClientRect();wp.style.left=Math.max(8,r.left+r.width+8)+"px";wp.style.top=Math.max(70,r.bottom+8)+"px"}
+/* (a second positionHieye used to be declared here and silently replaced the one above) */
 addEventListener("scroll",positionHieye,{passive:true});addEventListener("resize",positionHieye);
 function checkRoute(){const h=(location.hash||"").slice(1);if(routeWindows[h]){const w=document.getElementById(routeWindows[h]);if(!w.open)w.showModal()}else if(!known.has(h))document.getElementById("lost").showModal()}
 checkRoute();addEventListener("hashchange",checkRoute);
@@ -294,6 +298,8 @@ function renderCommands(query=""){
 function openPalette(){if(!palette.open)palette.showModal();renderCommands();setTimeout(()=>paletteInput.focus(),0)}
 renderCommands();
 paletteInput.addEventListener("input",()=>renderCommands(paletteInput.value));
+/* a search field eats the first Escape to clear itself; close the palette on the first press instead */
+paletteInput.addEventListener("keydown",e=>{if(e.key==="Escape"){e.preventDefault();palette.close()}});
 paletteResults.addEventListener("click",e=>{const b=e.target.closest("[data-command]");if(!b)return;palette.close();const c=b.dataset.command.slice(1);if(c==="tour"){startTour();return}if(PAGES[c]){goSection(c);return}location.hash=c});
 document.addEventListener("keydown",e=>{if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==="k"){e.preventDefault();openPalette()}});
 
@@ -613,7 +619,7 @@ if(window.L&&routeMapEl){
   L.polyline(ll,{color:"#2f86d6",weight:9,opacity:.28,className:"route-glow"}).addTo(map);
   L.polyline(ll,{color:"#ffffff",weight:2.5,dashArray:"6 8",className:"route-dash"}).addTo(map);
   const markers=stops.map((s,i)=>L.marker([s[1],s[2]],{keyboard:false,title:s[0],icon:L.divIcon({className:"stop-pin"+(i===3?" now":""),iconSize:[22,22],iconAnchor:[11,11]})})
-    .addTo(map).bindTooltip(s[0],{direction:["bottom","top","left","right"][i],offset:[[0,10],[0,-10],[-10,0],[10,0]][i],className:"stop-tip",permanent:true}));
+    .addTo(map).bindTooltip(s[0],{direction:["bottom","top","left","right"][i],offset:[[0,10],[0,-10],[-10,0],[10,0]][i],className:"stop-tip",permanent:false}));
   const fit=()=>map.fitBounds(L.latLngBounds(ll),{paddingTopLeft:[70,30],paddingBottomRight:[70,30]});fit();
   new ResizeObserver(()=>{map.invalidateSize();fit()}).observe(routeMapEl);
   document.querySelectorAll(".route li").forEach((li,i)=>{
@@ -633,7 +639,8 @@ function skyFor(){
   if(code===3) return {skyColor:0xa9c3d9,cloudColor:0xd0dbe5,cloudShadowColor:0x6d8197,sunColor:0xf0d9a8,sunGlareColor:0xe0b080,sunlightColor:0xf2e6cc,speed:.7};
   return {skyColor:0x7cc6ee,cloudColor:0xd6e6f4,cloudShadowColor:0x5f87ad,sunColor:0xffc466,sunGlareColor:0xff8a4a,sunlightColor:0xffe0a8,speed:.6};
 }
-const vantaWanted=()=>innerWidth>=900&&!reduce&&!document.body.classList.contains("quiet-mode")&&!document.body.classList.contains("canada");
+/* themed section pages paint their own art over the sky, so the 630 KB WebGL sky only loads on the hub */
+const vantaWanted=()=>!isSectionPage&&innerWidth>=900&&!reduce&&!document.body.classList.contains("quiet-mode")&&!document.body.classList.contains("canada");
 async function syncVanta(){
   if(vantaBusy) return;
   if(!vantaWanted()){if(vanta){vanta.destroy();vanta=null;document.querySelector(".vanta-sky")?.remove()}return}
@@ -660,7 +667,6 @@ function startTour(){
     ["#eye","Hi, I'm Hieye","I'm the eye in the corner. I watch your clicks and pop up with tips. Click me for eye drops, or three times to call me."],
     [".desk","Desktop icons","Each icon opens its window as a page of its own, each with its own theme. Red or yellow on any window brings you back here."],
     ["#routeMap","Route so far","A real map of where I've lived, studied and worked. Click a stop in the list to fly there."],
-    [".wxb.main","Live weather","Bellevue's weather right now, as glass bubbles. Hover to nudge them, drag to move them, throw them to bounce them, tap a small one to pop it."],
     ["#clock","Station clock","A Swiss railway clock. The red hand pauses at the top of each minute. Click it for a cuckoo."],
     ["#canada","Canada mode","Click the flag for the Rockies, Celsius and Canadian spelling."],
     ["#snd","Sound","Sounds are off until you turn them on here."],

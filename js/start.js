@@ -124,7 +124,8 @@ async function load(){
     data=await r.json();
     if(view!=="all"&&view!=="starred"&&!data.feeds.some(f=>f.id===view))view="all";
     if(!isReader){const live=new Set(data.items.map(i=>i.id)), n=data.items.filter(i=>!read.has(i.id)).length, b=$("#feedBadge");
-      if(b){b.hidden=!n;b.textContent=n>99?"99+":n;b.closest("a").setAttribute("aria-label",`Feeds, ${n} unread`)}return}
+      /* the count is read as part of the link text, so the accessible name matches what is on screen */
+      if(b){b.hidden=!n;b.innerHTML=`${n>99?"99+":n}<span class="vh"> unread</span>`}return}
     const bad=data.feeds.filter(f=>f.ok===false).length;
     $("#updated").textContent=`Updated ${ago(data.updated)}${bad?` · ${bad} feed${bad>1?"s":""} couldn't refresh`:""}.`;
     /* forget read marks for items that have aged out */

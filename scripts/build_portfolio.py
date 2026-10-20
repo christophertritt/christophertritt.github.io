@@ -11,7 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = (ROOT / "portfolio/_source.html").read_text()
-VERSION = "20261020n"
+VERSION = "20261020r"
 
 PAGES = {  # section id -> (folder, page title, theme)
     "work": ("projects", "Projects", "airport"),
@@ -34,12 +34,14 @@ desk = cut('  <nav class="desk"', "  </nav>")
 dock_footer = cut('  <nav class="dock glass"', "  </footer>")
 sections = {sid: cut(f'  <section class="block" id="{sid}">', "  </section>") for sid in PAGES}
 
-# The Projects intro count is computed from the case studies actually present
-# in the source (the .support entries), so it can never drift from the list.
+# The Projects intro count comes from the published case studies in
+# js/home-data.js (entries without draft:true), so it can't drift from what
+# a visitor can actually open. The "More projects" one-liners don't count.
 NUMWORDS = {0: "No", 1: "One", 2: "Two", 3: "Three", 4: "Four", 5: "Five",
             6: "Six", 7: "Seven", 8: "Eight", 9: "Nine", 10: "Ten",
             11: "Eleven", 12: "Twelve"}
-_case_n = len(re.findall(r"<div><h3>", sections["work"]))
+_data = (ROOT / "js/home-data.js").read_text()
+_case_n = sum(1 for line in re.findall(r'^\s*\{id:"[^\n]*', _data, flags=re.M) if "draft:true" not in line)
 sections["work"] = sections["work"].replace(
     "{{CASE_STUDY_COUNT}}", NUMWORDS.get(_case_n, str(_case_n)))
 
@@ -108,6 +110,24 @@ def page(title, body_class, main_html, theme=None):
     t = tail.replace('<script src="/js/home.js', '<script src="/js/sections.js?v=x" defer></script>\n  <script src="/js/home.js', 1)
     return versioned(relink(h + '<main class="wrap" id="top">\n' + main_html + dock_footer + "\n</main>" + t))
 
+
+def page_heading(sec, name):
+    """Give each page an h1 that names the page.
+    If the section's first h2 already is the page name, promote it. Otherwise
+    the eyebrow line becomes the h1 (with the page name for screen readers),
+    or a hidden h1 is added before the h2, so the visible design is unchanged."""
+    m = re.search(r"<h2(\b[^>]*)>(.*?)</h2>", sec, flags=re.S)
+    if m and re.sub(r"<[^>]+>", "", m.group(2)).strip() == name:
+        return sec[:m.start()] + f"<h1{m.group(1)}>{m.group(2)}</h1>" + sec[m.end():]
+    e = re.search(r'<p class="eyebrow"((?: data-i18n="[^"]+")?)>(.*?)</p>', sec, flags=re.S)
+    if e and (not m or e.start() < m.start()):
+        prefix = "" if re.sub(r"<[^>]+>", "", e.group(2)).strip() == name else f'<span class="vh">{name}: </span>'
+        return (sec[:e.start()] + f'<h1 class="eyebrow">{prefix}<span{e.group(1)}>{e.group(2)}</span></h1>'
+                + sec[e.end():])
+    if m:
+        return sec[:m.start()] + f'<h1 class="vh">{name}</h1>' + sec[m.start():]
+    return sec
+
 # hub: the desktop with the two hero windows and the icons
 hub_desk = desk.replace('<nav class="desk" aria-label="Sections">', '<nav class="desk" aria-label="Open a window">')
 hub = page("Portfolio · Christopher A. Tritt", "portfolio-hub", hero + "\n\n" + hub_desk + "\n\n")
@@ -117,7 +137,7 @@ hub = hub.replace('<a href="/portfolio/"><span data-i18n="menu.desktop">Desktop<
 for sid, (folder, name, theme) in PAGES.items():
     sec = sections[sid]
     sec = sec.replace('<div class="win glass', '<div id="main-win" class="win fullwin glass', 1)
-    sec = re.sub(r"<h2(\b[^>]*)>(.*?)</h2>", r"<h1\1>\2</h1>", sec, count=1, flags=re.S)
+    sec = page_heading(sec, name)
     html = page(f"{name} · Christopher A. Tritt", f"section-page theme-{theme}", sec + "\n\n", theme)
     # mark the current page in the menu
     html = html.replace(f'<a href="{URL[sid]}">', f'<a href="{URL[sid]}" aria-current="page">', 1)
@@ -126,3 +146,31 @@ for sid, (folder, name, theme) in PAGES.items():
     out.write_text(html)
     print("wrote", out.relative_to(ROOT))
 print("wrote portfolio/index.html")
+
+# 404: GitHub Pages serves /404.html for any missing URL. Asset paths are
+# absolute, so it works at any depth.
+NOT_FOUND = '''  <section class="block" id="notfound">
+    <div id="main-win" class="win fullwin glass">
+      <div class="tb rose"><span class="tb-t">404.html</span></div>
+      <div class="win-body">
+        <p class="eyebrow">Error 404</p>
+        <h1>This route has been discontinued</h1>
+        <p>The stop you were looking for isn't on the schedule anymore. Transfers are free, so try one of these.</p>
+        <div class="ctas"><a class="btn primary" href="/portfolio/projects/">Projects</a><a class="btn ghost" href="/portfolio/">Portfolio home</a><a class="btn ghost" href="/portfolio/contact/">Contact</a></div>
+      </div>
+    </div>
+  </section>
+
+'''
+nf = page("Page not found · Christopher A. Tritt", "section-page theme-notfound", NOT_FOUND)
+nf = nf.replace('<a class="skip" href="#hero">Skip to content</a>', '<a class="skip" href="#main-win">Skip to content</a>', 1)
+nf = nf.replace("<head>", '<head>\n  <meta name="robots" content="noindex">', 1)
+(ROOT / "404.html").write_text(nf)
+print("wrote 404.html")
+
+# The start page and reader are written by hand; stamp them with the same
+# cache version so every page loads the same CSS and JS.
+for hand in ("index.html", "reader/index.html"):
+    f = ROOT / hand
+    f.write_text(versioned(f.read_text()))
+    print("stamped", hand)

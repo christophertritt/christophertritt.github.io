@@ -175,3 +175,12 @@ html[data-mode="quebec"] body.theme-terminal .pnav-panel{border-color:#003da5}
 html[data-mode="quebec"] body.theme-terminal .pnav-panel a{color:#9cc2ff}
 
 @media (prefers-reduced-motion:reduce){.pnav-panel.open,.sbb.open,.eye-prompt,.gwx,.eye-prompt.pop{animation:none!important}}
+
+/* ---------- weather lives inside the start page search box only; the floating cluster stays hidden ---------- */
+.start-page #wx{display:none!important}
+
+/* ---------- visually hidden text, available on every page ---------- */
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* page-name h1s that sit in the eyebrow line keep the eyebrow look (build_portfolio.py page_heading) */
+.section-page h1.eyebrow{font:500 12px/1.4 var(--mono,"IBM Plex Mono",monospace)!important;letter-spacing:.08em!important;text-transform:uppercase;margin:0!important;text-shadow:none!important}
