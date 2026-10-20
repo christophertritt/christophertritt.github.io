@@ -1,0 +1,115 @@
+/* Shared whimsy for the archive pages: Frutiger Aero glass, gel buttons, bubbles.
+   Everything is namespaced .ax- so the original coursework styles stay untouched. */
+:root{--ax-ui:"Lucida Grande","Lucida Sans Unicode","Segoe UI",-apple-system,BlinkMacSystemFont,Tahoma,Verdana,sans-serif;--ax-ink:#14274e}
+
+/* back-to-desktop bubble with a little eye */
+.ax-home{position:fixed;left:16px;bottom:16px;z-index:9000;display:flex;align-items:center;gap:8px;padding:6px 14px 6px 6px;border-radius:999px;
+  text-decoration:none;color:var(--ax-ink);font:700 13px/1 var(--ax-ui);
+  background:linear-gradient(#ffffffee,#dcebf8e6);border:1px solid #fff;
+  box-shadow:0 10px 24px -10px rgba(11,22,48,.5),inset 0 1px 0 #fff;-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);
+  transition:transform .25s cubic-bezier(.3,1.7,.5,1)}
+.ax-home:hover{transform:translateY(-3px) rotate(-2deg) scale(1.05)}
+.ax-eye{position:relative;width:30px;height:30px;border-radius:50%;overflow:hidden;flex-shrink:0;
+  background:radial-gradient(circle at 42% 34%,#fffdf9,#f1e9e0 60%,#cdb9ab);box-shadow:inset 0 -3px 5px rgba(0,0,0,.18),0 0 0 1.5px #fff}
+.ax-iris{position:absolute;left:50%;top:50%;width:15px;height:15px;margin:-7.5px;border-radius:50%;transition:transform .08s linear;
+  background:radial-gradient(circle,#05080f 0 30%,#c69a5a 33%,#6f9fd0 45%,#3f74b2 70%,#0f2346 100%)}
+.ax-eye::after{content:"";position:absolute;right:6px;top:6px;width:5px;height:5px;border-radius:50%;background:#fff}
+.ax-lid{position:absolute;inset:-1px;background:linear-gradient(#fbeee0,#e2c3a8);transform:translateY(-102%);transition:transform .1s ease-in;z-index:2}
+.ax-eye.blink .ax-lid{transform:none}
+
+/* toast */
+.ax-toast{position:fixed;left:50%;bottom:24px;z-index:9001;transform:translate(-50%,40px);opacity:0;pointer-events:none;
+  padding:12px 18px;border-radius:16px;font:600 14px/1.35 var(--ax-ui);color:var(--ax-ink);max-width:min(420px,calc(100vw - 32px));text-align:center;
+  background:linear-gradient(#fffffff2,#e3f1fbf0);border:1px solid #fff;box-shadow:0 18px 40px -16px rgba(11,22,48,.55);
+  transition:transform .4s cubic-bezier(.3,1.6,.5,1),opacity .25s}
+.ax-toast.on{transform:translate(-50%,0);opacity:1}
+
+/* gel button */
+.ax-btn{display:inline-flex;align-items:center;gap:6px;font:700 14px/1 var(--ax-ui);padding:11px 18px;border-radius:999px;cursor:pointer;position:relative;
+  color:#fff;border:1px solid rgba(255,255,255,.8);text-shadow:0 1px 1px rgba(0,0,0,.3);
+  background:linear-gradient(#a9d6f7,#3d93dc 52%,#1d5fa3);box-shadow:0 8px 16px -8px rgba(29,95,163,.8);transition:transform .15s}
+.ax-btn::after{content:"";position:absolute;inset:2px 12px 52%;border-radius:999px;background:linear-gradient(rgba(255,255,255,.75),rgba(255,255,255,.05));pointer-events:none}
+.ax-btn:hover{transform:translateY(-2px)}
+.ax-btn:active{transform:translateY(1px) scale(.97)}
+.ax-btn.green{background:linear-gradient(#c9f0a8,#5fb84a 52%,#2f7d2a);box-shadow:0 8px 16px -8px rgba(47,125,42,.8)}
+.ax-btn.pink{background:linear-gradient(#ffc6e4,#ef6fae 52%,#b8336f);box-shadow:0 8px 16px -8px rgba(184,51,111,.8)}
+.ax-btn.orange{background:linear-gradient(#ffd9a6,#f39a2e 52%,#b85f10);box-shadow:0 8px 16px -8px rgba(184,95,16,.8)}
+
+/* glass panel for injected controls */
+.ax-panel{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;margin:16px 0;padding:12px 14px;border-radius:16px;font:600 14px/1.3 var(--ax-ui);color:var(--ax-ink);
+  background:linear-gradient(#ffffffd9,#e6f2fbcc);border:1px solid #fff;box-shadow:0 10px 24px -14px rgba(11,22,48,.45),inset 0 1px 0 #fff}
+.ax-panel input[type=number],.ax-panel input[type=search]{font:600 14px/1 var(--ax-ui);padding:9px 12px;border-radius:999px;border:1px solid #9cc0e0;background:#fff;color:var(--ax-ink);
+  box-shadow:inset 0 2px 4px rgba(11,22,48,.15);min-width:0}
+.ax-panel label{display:inline-flex;align-items:center;gap:8px}
+.ax-seg{display:inline-flex;border-radius:999px;overflow:hidden;border:1px solid #9cc0e0}
+.ax-seg button{font:700 13px/1 var(--ax-ui);padding:8px 12px;border:none;background:linear-gradient(#fff,#e2eef8);color:var(--ax-ink);cursor:pointer}
+.ax-seg button[aria-pressed=true]{color:#fff;background:linear-gradient(#a9d6f7,#3d93dc 52%,#1d5fa3);text-shadow:0 1px 1px rgba(0,0,0,.3)}
+
+/* bubbles that fly out of things */
+.ax-pt{position:fixed;left:0;top:0;width:14px;height:14px;border-radius:50%;pointer-events:none;z-index:9002;border:1px solid rgba(255,255,255,.9);
+  background:radial-gradient(circle at 32% 28%,#fff,transparent 40%),radial-gradient(circle,rgba(127,208,224,.45),rgba(127,208,224,.15) 70%)}
+
+/* lightbox */
+.ax-lb{position:fixed;inset:0;z-index:9500;display:grid;place-items:center;padding:24px;background:rgba(8,16,36,.55);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+.ax-lb[hidden]{display:none}
+.ax-lb figure{margin:0;max-width:min(900px,100%);padding:10px;border-radius:18px;background:linear-gradient(#fffffff2,#e3f1fbf0);box-shadow:0 30px 60px -20px rgba(0,0,0,.6);
+  animation:axpop .35s cubic-bezier(.3,1.5,.5,1)}
+.ax-lb img{display:block;max-width:100%;max-height:72vh;border-radius:10px;margin:0 auto}
+.ax-lb figcaption{font:600 14px/1.4 var(--ax-ui);color:var(--ax-ink);padding:10px 6px 2px;text-align:center}
+.ax-lb .ax-nav{display:flex;justify-content:center;gap:10px;margin-top:10px}
+@keyframes axpop{from{transform:scale(.85);opacity:0}}
+
+/* reading progress gel bar */
+.ax-progress{position:fixed;left:0;top:0;height:6px;width:0;z-index:9000;border-radius:0 6px 6px 0;
+  background:linear-gradient(#c9f0a8,#5fb84a 50%,#2f7d2a);box-shadow:0 2px 8px rgba(47,125,42,.5)}
+
+/* ---- blog ---- */
+.ax-clamp{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+a.expand{display:inline-block;margin-left:6px;text-decoration:none;transition:transform .3s cubic-bezier(.3,1.7,.5,1)}
+a.expand[aria-expanded=true]{transform:rotate(90deg)}
+img.ax-zoom{cursor:zoom-in;transition:transform .25s cubic-bezier(.3,1.6,.5,1)}
+img.ax-zoom:hover{transform:scale(1.03) rotate(-.6deg)}
+
+/* ---- letter ---- */
+abbr[title]{text-decoration:underline dotted #3d93dc 2px;text-underline-offset:3px;cursor:help;position:relative}
+.ax-tip{position:absolute;z-index:9100;pointer-events:none;padding:7px 11px;border-radius:12px;font:600 13px/1.2 var(--ax-ui);color:var(--ax-ink);white-space:nowrap;
+  background:linear-gradient(#fffffff5,#dff0fbf2);border:1px solid #fff;box-shadow:0 10px 20px -10px rgba(11,22,48,.55);animation:axpop .25s cubic-bezier(.3,1.6,.5,1)}
+.ax-ago{display:inline-block;margin-left:6px;padding:2px 8px;border-radius:999px;font:700 11px/1.4 var(--ax-ui);color:#2f7d2a;background:#e4f6da;border:1px solid #bfe3ab;vertical-align:1px}
+body.ax-sealed>*:not(.ax-home):not(.ax-env):not(.ax-toast):not(.ax-pt){display:none}
+.ax-env{display:none;margin:12vh auto 0;width:min(420px,90vw);aspect-ratio:1.6;position:relative;border-radius:10px;
+  background:linear-gradient(#fdf8ec,#efe4cc);box-shadow:0 30px 50px -24px rgba(11,22,48,.6),inset 0 0 0 1px #d9c9a6;animation:axpop .5s cubic-bezier(.3,1.5,.5,1)}
+body.ax-sealed .ax-env{display:block}
+.ax-env::before{content:"";position:absolute;inset:0;border-radius:10px;background:linear-gradient(to bottom right,transparent 49.5%,#e2d3b2 50%) left/50% 100% no-repeat,linear-gradient(to bottom left,transparent 49.5%,#e2d3b2 50%) right/50% 100% no-repeat}
+.ax-env::after{content:"";position:absolute;left:0;right:0;top:0;height:58%;background:linear-gradient(#f6eedb,#eadbb9);clip-path:polygon(0 0,100% 0,50% 100%);filter:drop-shadow(0 2px 2px rgba(0,0,0,.15))}
+.ax-seal{position:absolute;left:50%;top:58%;width:58px;height:58px;margin:-29px;border-radius:50%;z-index:2;cursor:pointer;border:none;display:grid;place-items:center;
+  font:700 22px/1 Georgia,serif;color:#ffd9d4;background:radial-gradient(circle at 38% 32%,#ff8f87,#c8352c 55%,#7d1610);box-shadow:0 4px 8px rgba(0,0,0,.35),inset 0 -3px 6px rgba(0,0,0,.3)}
+.ax-stamp{position:absolute;right:14px;top:12px;width:54px;height:64px;z-index:2;border:3px dotted #fff;border-radius:4px;display:grid;place-items:center;
+  background:linear-gradient(160deg,#7fcdf0,#3d93dc);color:#fff;font:700 10px/1.1 var(--ax-ui);text-align:center;box-shadow:0 2px 4px rgba(0,0,0,.25);transform:rotate(4deg)}
+.ax-env p{position:absolute;left:0;right:0;bottom:12%;margin:0;text-align:center;font:italic 600 15px/1.3 Georgia,serif;color:#5a4a2a;z-index:2}
+.ax-fly{animation:axfly 1.2s cubic-bezier(.5,-0.3,.7,.4) forwards}
+@keyframes axfly{to{transform:translate(60vw,-80vh) rotate(25deg) scale(.3);opacity:0}}
+
+/* ---- planets ---- */
+td.ax-weight{font-weight:700;color:#1d5fa3;background:#eaf5ff!important}
+tbody tr{transition:background .15s}
+tbody tr:hover td{background:#fff7d6!important}
+tbody tr td img{transition:transform .5s cubic-bezier(.3,1.5,.5,1);cursor:pointer;border-radius:50%}
+tbody tr td img.spin{animation:axspin 2.4s linear infinite;transform:scale(1.5)}
+@keyframes axspin{to{rotate:360deg}}
+.ax-light{display:block;font:600 10px/1.2 var(--ax-ui);color:#b85f10;margin-top:3px;letter-spacing:0}
+
+/* ---- school ---- */
+.long-list li.ax-hide{display:none}
+.ax-count{font:700 12px/1 var(--ax-ui);color:#2f7d2a}
+.ax-course{flex-basis:100%;font:700 18px/1.3 "Comic Sans MS","Comic Neue","Chalkboard SE",cursive;color:#7a3a9a;min-height:1.3em}
+
+/* ---- wanted ---- */
+.ax-reward{display:inline-block;font-variant-numeric:tabular-nums}
+.ax-paw{position:fixed;z-index:8000;pointer-events:none;font-size:28px;opacity:.75;animation:axpaw 2.6s ease forwards}
+@keyframes axpaw{0%{transform:scale(0) rotate(var(--r))}15%{transform:scale(1.2) rotate(var(--r))}25%,80%{transform:scale(1) rotate(var(--r));opacity:.75}100%{opacity:0;transform:scale(1) rotate(var(--r))}}
+figure img.ax-boop{cursor:pointer;transition:transform .2s cubic-bezier(.3,1.7,.5,1)}
+figure img.ax-boop:active{transform:scale(.94) rotate(-2deg)}
+h4 span.ax-flash{display:inline-block;animation:axflash .8s steps(2) infinite}
+@keyframes axflash{50%{opacity:.2}}
+
+@media (prefers-reduced-motion:reduce){.ax-home,.ax-btn,.ax-toast,.ax-lb figure,.ax-env,.ax-tip,tbody tr td img{animation:none!important;transition:none!important}}
