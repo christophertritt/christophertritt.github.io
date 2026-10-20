@@ -1,0 +1,1024 @@
+{
+ "updated": "2026-10-20T14:25:28.054Z",
+ "feeds": [
+  {
+   "id": "planetizen",
+   "name": "Planetizen",
+   "site": "https://www.planetizen.com",
+   "color": "#2f86d6",
+   "topic": "Planning",
+   "ok": true,
+   "count": 10
+  },
+  {
+   "id": "urbanist",
+   "name": "The Urbanist",
+   "site": "https://www.theurbanist.org",
+   "color": "#4a9a3a",
+   "topic": "Seattle",
+   "ok": true,
+   "count": 15
+  },
+  {
+   "id": "stb",
+   "name": "Seattle Transit Blog",
+   "site": "https://seattletransitblog.com",
+   "color": "#1f7a99",
+   "topic": "Transit",
+   "ok": true,
+   "count": 10
+  },
+  {
+   "id": "streetsblog",
+   "name": "Streetsblog USA",
+   "site": "https://usa.streetsblog.org",
+   "color": "#e08a0c",
+   "topic": "Transportation",
+   "ok": true,
+   "count": 10
+  },
+  {
+   "id": "humantransit",
+   "name": "Human Transit",
+   "site": "https://humantransit.org",
+   "color": "#7a4f96",
+   "topic": "Transit",
+   "ok": true,
+   "count": 10
+  },
+  {
+   "id": "strongtowns",
+   "name": "Strong Towns",
+   "site": "https://www.strongtowns.org",
+   "color": "#b23a62",
+   "topic": "Planning",
+   "ok": true,
+   "count": 25
+  },
+  {
+   "id": "cascadepbs",
+   "name": "Cascade PBS",
+   "site": "https://www.cascadepbs.org",
+   "color": "#3e5a8a",
+   "topic": "Northwest news",
+   "ok": true,
+   "count": 15
+  },
+  {
+   "id": "smartcities",
+   "name": "Smart Cities Dive",
+   "site": "https://www.smartcitiesdive.com",
+   "color": "#5d7a5a",
+   "topic": "Data and cities",
+   "ok": true,
+   "count": 10
+  }
+ ],
+ "items": [
+  {
+   "id": "planetizen:138686 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "This Chicago neighborhood is using planning to increase life expectancy",
+   "link": "https://www.planetizen.com/news/2026/10/138686-chicago-neighborhood-using-planning-increase-life-expectancy",
+   "date": "2026-10-20T14:00:00.000Z",
+   "summary": "The Garfield Park Quality-Of-Life Plan looks to revitalize Madison and Pulaski corridors — the city has already revitalized a roller rink in the area. Chicago officials have revealed the Garfield Park Quality-Of-Life Plan, the first such plan to target the Garfield Park area. The plan aims to extend the life…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/Screenshot%202026-10-19%20at%202.11.19%E2%80%AFPM.png.webp?itok=hrAT3XtP"
+  },
+  {
+   "id": "planetizen:138685 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "Boston connects suburbs to the city with 5 free bus routes",
+   "link": "https://www.planetizen.com/news/2026/10/138685-boston-connects-suburbs-city-5-free-bus-routes",
+   "date": "2026-10-20T13:00:00.000Z",
+   "summary": "The free buses will help connect people living in residential neighborhoods to jobs, healthcare and schools. Mayor Michelle Wu is pictured above at a Labor Day rally. Boston is set to launch five free Link Bus routes to help people living in residential neighborhoods connect to jobs, schools, healthcare and…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2675002827.jpg.webp?itok=-Yrc84we"
+  },
+  {
+   "id": "urbanist:6ad395cd7a838000019a6688",
+   "feed": "urbanist",
+   "title": "State Lawmaker, SDOT Director Clash Over Aurora Avenue Overhaul",
+   "link": "https://www.theurbanist.org/state-lawmaker-sdot-director-clash-over-aurora-avenue-overhaul/",
+   "date": "2026-10-20T13:00:00.000Z",
+   "summary": "Slow progress in advancing plans for the future of Aurora Avenue appears to be leading to mounting tensions between state legislators and the Seattle Department of Transportation (SDOT). Those tensions came to a head in an email exchange just this month between Representative Julia Reed (D-36th LD, Queen Anne) and…",
+   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/IMG_9249.JPG"
+  },
+  {
+   "id": "cascadepbs:6ad765e01eb00a000171223f",
+   "feed": "cascadepbs",
+   "title": "October 19, 2026",
+   "link": "https://www.cascadepbs.org/show/amanpour-co/episode/october-19-2026-eauwrb/",
+   "date": "2026-10-20T12:30:28.000Z",
+   "summary": "NYT International Correspondent Catherine Porter reports on protests in France ahead of elections. World Food Programme Acting Director Carl Skau discusses Gaza’s humanitarian crisis. Israeli political analyst Dahlia Scheindlin reports on Israel’s election and West Bank violence. UC Berkeley Professor and Hammer &…",
+   "image": "https://www.cascadepbs.org/content/images/2026/10/692a24ba-bbc2-47c5-a6aa-eb2a60087dfb.jpg"
+  },
+  {
+   "id": "cascadepbs:6ad765df1eb00a0001712233",
+   "feed": "cascadepbs",
+   "title": "4 Dead in 3 Months: Inside the Deadly Toll of Trump’s Memphis Safe Task Force",
+   "link": "https://www.cascadepbs.org/show/amanpour-co/extras/4-dead-in-3-months-inside-the-deadly-toll-of-trumps-memphis-safe-task-force-p6rwnf/",
+   "date": "2026-10-20T12:30:28.000Z",
+   "summary": "In Memphis, four men have been killed by agents working with President Trump’s Memphis Safe Task Force. The initiative was created to end “street and violent crime...to the greatest possible extent.” But this year, the force has been involved in multiple violent incidents. Professor Lisa Armstrong of the UC Berkeley…",
+   "image": "https://www.cascadepbs.org/content/images/2026/10/926200e5-9666-4247-8d95-c7d9be072aaa.jpg"
+  },
+  {
+   "id": "planetizen:138683 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "Who pays when a remote Alaska village can no longer stay?",
+   "link": "https://www.planetizen.com/news/2026/10/138683-who-pays-when-remote-alaska-village-can-no-longer-stay",
+   "date": "2026-10-20T12:00:00.000Z",
+   "summary": "Across Alaska, two tight-knit communities have scattered like marbles to cities where costs are high and traditional subsistence is next to impossible. In Kipnuk and Kwigillingok, schools in the flood zone remained closed. Homes swept away are still scattered across the tundra. Where crushing waves snapped essential…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2601443109.jpg.webp?itok=YuSJFPGW"
+  },
+  {
+   "id": "planetizen:138684 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "A new platform for New Yorkers is making ADU development a breeze",
+   "link": "https://www.planetizen.com/features/138684-new-platform-new-yorkers-making-adu-development-breeze",
+   "date": "2026-10-20T12:00:00.000Z",
+   "summary": "6 minutes",
+   "image": ""
+  },
+  {
+   "id": "stb:https://seattletransitblog.com/?p=143652",
+   "feed": "stb",
+   "title": "Changing the Zoning for most of Seattle",
+   "link": "https://seattletransitblog.com/2026/10/20/changing-the-zoning-for-most-of-seattle/",
+   "date": "2026-10-20T10:00:00.000Z",
+   "summary": "“ Neighborhood Residential ” (previously called “Single-Family”) is the most common zoning type in Seattle. It makes up about 2/3 of the land zoned for development in the city. This is where we have the greatest potential for improving population density and affordability in Seattle. Here is a proposal for simple…",
+   "image": ""
+  },
+  {
+   "id": "streetsblog:https://usa.streetsblog.org/?p=295167",
+   "feed": "streetsblog",
+   "title": "When Are Parking Debates Just A Smokescreen for Hate?",
+   "link": "https://usa.streetsblog.org/2026/10/20/when-are-parking-debates-just-a-smokescreen-for-hate",
+   "date": "2026-10-20T04:13:40.000Z",
+   "summary": "Drivers love to shut down new housing and development proposals if they think they’ll lead to a shortage of parking. In a new paper, though, researchers found that proposed mosques draw substantailly more public pushback over car traffic than other houses of worship – and that might not be a coincidence. Today on the…",
+   "image": "https://usa.streetsblog.org/wp-content/uploads/sites/10/2026/10/14047706145_ee2df2a8b3_k.jpg?w=1024"
+  },
+  {
+   "id": "streetsblog:https://usa.streetsblog.org/?p=295176",
+   "feed": "streetsblog",
+   "title": "Tuesday’s Headlines Do the Robot",
+   "link": "https://usa.streetsblog.org/2026/10/20/tuesdays-headlines-do-the-robot",
+   "date": "2026-10-20T04:03:00.000Z",
+   "summary": "Since the federal government is reluctant to regulate robotaxis, cities and states have been left to their own devices. They’re stepping up on one of the few issues that crosses party lines, but a patchwork of regulations isn’t ideal for anyone, including the autonomous vehicle industry itself. ( The Verge ) In…",
+   "image": "https://usa.streetsblog.org/wp-content/uploads/sites/10/2023/11/Hyundai_Ioniq_5_Robotaxi_IAA_2021_1X7A0002.jpg?w=1024"
+  },
+  {
+   "id": "streetsblog:https://usa.streetsblog.org/?p=295032",
+   "feed": "streetsblog",
+   "title": "The Math On Car Ownership For New Parents Doesn’t Add Up",
+   "link": "https://usa.streetsblog.org/2026/10/20/the-math-on-car-ownership-for-new-parents-doesnt-add-up",
+   "date": "2026-10-20T04:03:00.000Z",
+   "summary": "The question is always the same: “Now that you are having a baby, when are you getting a car?” It comes from coworkers, friends, parents — people who trust us. And when we tell them we don’t plan on getting one, they react with bewilderment. “Raising a child without a car? What are you, nuts?” When we first found out…",
+   "image": "https://usa.streetsblog.org/wp-content/uploads/sites/10/2026/10/Family-biking.jpg?w=1024"
+  },
+  {
+   "id": "cascadepbs:6ad6bd1f1eb00a000171089b",
+   "feed": "cascadepbs",
+   "title": "News Wrap: Judge clashes with DOJ over D.C. golf course",
+   "link": "https://www.cascadepbs.org/show/newshour/extras/news-wrap-judge-clashes-with-doj-over-d-c-golf-course-1792449052/",
+   "date": "2026-10-20T00:45:53.000Z",
+   "summary": "In our news wrap Monday, a federal judge clashed with Justice Department lawyers in the latest legal standoff over the fate of a Washington, D.C. golf course, the Supreme Court will review a Reconstruction-era ban on home distilleries and Israeli authorities say they've arrested at least ten people in connection with…",
+   "image": "https://www.cascadepbs.org/content/images/2026/10/f7931c11-3e3d-49d3-9234-0c675e7e58f0.jpg"
+  },
+  {
+   "id": "cascadepbs:6ad6bd301eb00a00017108e6",
+   "feed": "cascadepbs",
+   "title": "French authorities impose curfews after weekend rioting",
+   "link": "https://www.cascadepbs.org/show/newshour/extras/france-unrest-1792443317/",
+   "date": "2026-10-20T00:30:37.000Z",
+   "summary": "Curfews are in effect in parts of Paris and other French cities as authorities try to restore order following widespread rioting this weekend. Government officials have acknowledged \"failures\" in their handling of the unrest and say an investigation is underway to track down those responsible. Special correspondent…",
+   "image": "https://www.cascadepbs.org/content/images/2026/10/1655f647-6be7-4633-ac42-063790545b76.jpg"
+  },
+  {
+   "id": "cascadepbs:6ad6bd2d1eb00a00017108d4",
+   "feed": "cascadepbs",
+   "title": "Trump escalates Zelenskyy feud as Russia continues attacks",
+   "link": "https://www.cascadepbs.org/show/newshour/extras/russian-invasion-pkg-1792443250/",
+   "date": "2026-10-20T00:30:37.000Z",
+   "summary": "The war of words between President Trump and Ukraine's Volodymyr Zelenskyy reached another fever pitch on Monday. Trump again excoriated the embattled Ukrainian leader, putting more pressure on Zelenskyy than on the man in Moscow who started this war, Vladimir Putin. The president's comments come after the U.S. has…",
+   "image": "https://www.cascadepbs.org/content/images/2026/10/6094f844-4b49-4a3f-b6a9-0ca31c7b9139.jpg"
+  },
+  {
+   "id": "cascadepbs:6ad6bd291eb00a00017108c2",
+   "feed": "cascadepbs",
+   "title": "U.S. must pressure Putin to end war, Ukrainian official says",
+   "link": "https://www.cascadepbs.org/show/newshour/extras/russian-invasion-dis-1792443288/",
+   "date": "2026-10-20T00:30:37.000Z",
+   "summary": "As Ukraine and Russia trade attacks, President Trump has exempted Russia from sanctions, widening his rift with Ukrainian President Zelenskyy. To discuss the latest developments, Geoff Bennett spoke with Denys Sienik, Ukraine's Deputy Ambassador to the U.S.",
+   "image": "https://www.cascadepbs.org/content/images/2026/10/2f4795dc-b97e-4a12-9df5-209c08ce40d6.jpg"
+  },
+  {
+   "id": "cascadepbs:6ad6bd261eb00a00017108b1",
+   "feed": "cascadepbs",
+   "title": "Ohio becomes midterm battleground after years of GOP wins",
+   "link": "https://www.cascadepbs.org/show/newshour/extras/vote-2026-1792443490/",
+   "date": "2026-10-20T00:30:37.000Z",
+   "summary": "In recent presidential elections, Ohio has become a reliably Republican state. But in this year's midterms, it's once again a battleground. The races for governor and U.S. Senate are both seen as toss-ups by The Cook Political Report, and there are a handful of competitive House districts. Liz Landers reports on how…",
+   "image": "https://www.cascadepbs.org/content/images/2026/10/6899b4c2-8920-4f9e-b19e-bc8786b221d9.jpg"
+  },
+  {
+   "id": "cascadepbs:6ad6bd441eb00a0001710958",
+   "feed": "cascadepbs",
+   "title": "E-aviation takes off as companies seek new era of flight",
+   "link": "https://www.cascadepbs.org/show/newshour/extras/e-aviation-1792434711-2/",
+   "date": "2026-10-20T00:15:24.000Z",
+   "summary": "Electric aviation is still in the very early stages of its development. But a number of companies are moving forward with more ambitious plans. In contrast to its approach with other forms of electric transportation, the Trump administration seems willing to embrace a bigger rollout. Aviation correspondent Miles…",
+   "image": "https://www.cascadepbs.org/content/images/2026/10/7f9cc700-f4eb-408a-b967-fbccd497e6d1.jpg"
+  },
+  {
+   "id": "cascadepbs:6ad6bd431eb00a000171094c",
+   "feed": "cascadepbs",
+   "title": "E-aviation takes off as companies seek new era of flight",
+   "link": "https://www.cascadepbs.org/show/newshour/extras/e-aviation-1792434711/",
+   "date": "2026-10-20T00:15:24.000Z",
+   "summary": "Electric aviation is still in the very early stages of its development. But a number of companies are moving forward with more ambitious plans. In contrast to its approach with other forms of electric transportation, the Trump administration seems willing to embrace a bigger rollout. Aviation correspondent Miles…",
+   "image": "https://www.cascadepbs.org/content/images/2026/10/8156bdbe-2ede-44c3-93e1-99f296be651b.jpg"
+  },
+  {
+   "id": "cascadepbs:6ad6bd411eb00a000171093a",
+   "feed": "cascadepbs",
+   "title": "Arthur Jafa explores complexities of Black American life",
+   "link": "https://www.cascadepbs.org/show/newshour/extras/black-life-in-america-1792443425/",
+   "date": "2026-10-20T00:15:24.000Z",
+   "summary": "As cultural institutions across the country face growing pressure to avoid issues of race, a major new exhibition is confronting them head-on. The work of artist Arthur Jafa spans two floors of New York’s New Museum in his largest exhibition to date. Senior arts correspondent Jeffrey Brown met with Jafa for our arts…",
+   "image": "https://www.cascadepbs.org/content/images/2026/10/b9e53122-478b-4542-832f-fc47e3c40ae3.jpg"
+  },
+  {
+   "id": "cascadepbs:6ad6bd3e1eb00a0001710929",
+   "feed": "cascadepbs",
+   "title": "Tamara Keith and Carrie Dann on Trump's record-low approval",
+   "link": "https://www.cascadepbs.org/show/newshour/extras/tamara-keith-and-carrie-dann-on-trump-s-record-low-approval-1792450280/",
+   "date": "2026-10-20T00:15:24.000Z",
+   "summary": "NPR’s Tamara Keith and Carrie Dann of the Cook Political Report with Amy Walter join Geoff Bennett to discuss the latest political news, including a new poll putting President Trump's approval rating at a record low, the amount of money being spent on Senate races, Trump escalating his feud with Ukraine's president…",
+   "image": "https://www.cascadepbs.org/content/images/2026/10/ea04fdd0-c8ed-40f9-8db1-be15aa35db7e.jpg"
+  },
+  {
+   "id": "cascadepbs:6ad6bd3c1eb00a0001710916",
+   "feed": "cascadepbs",
+   "title": "Kathryn Jezer-Morton joins Geoff Bennett on On 'Settle In'",
+   "link": "https://www.cascadepbs.org/show/newshour/extras/settle-in-1792451091/",
+   "date": "2026-10-20T00:15:24.000Z",
+   "summary": "Social media lets us share our lives with family, friends, and strangers. But how do people decide what to post, what to leave out, and what do those decisions say about them? On \"Settle In,\" Geoff Bennett discusses that with Kathryn Jezer-Morton, author of \"The Story of Your Life,\" a new book about how the…",
+   "image": "https://www.cascadepbs.org/content/images/2026/10/7fef08ce-18f0-47e2-93e7-bcde39cb4c74.jpg"
+  },
+  {
+   "id": "cascadepbs:6ad6bd3c1eb00a000171090a",
+   "feed": "cascadepbs",
+   "title": "Remembering film critic and News Hour regular Ann Hornaday",
+   "link": "https://www.cascadepbs.org/show/newshour/extras/ann-hornaday-1960-2026-1792442253/",
+   "date": "2026-10-20T00:15:24.000Z",
+   "summary": "Film critic Ann Hornaday has died. As chief film critic for The Washington Post, she was a respected and passionate voice in the world of cinema. She was also a longtime regular on the News Hour, sharing her love of film with our viewers. Senior arts correspondent Jeffrey Brown has our remembrance.",
+   "image": "https://www.cascadepbs.org/content/images/2026/10/9da26abe-aee1-4733-af36-fb65b9026c8b.jpg"
+  },
+  {
+   "id": "cascadepbs:6ad6a2ed1eb00a000171055c",
+   "feed": "cascadepbs",
+   "title": "October 19, 2026 - PBS News Hour full episode",
+   "link": "https://www.cascadepbs.org/show/newshour/episode/october-19-2026-pbs-news-hour-full-episode-1792382458/",
+   "date": "2026-10-19T23:01:00.000Z",
+   "summary": "",
+   "image": "https://www.cascadepbs.org/content/images/2026/10/b9eec113-230c-48f4-898b-7e8e9974f5d1.jpg"
+  },
+  {
+   "id": "cascadepbs:6ad765de1eb00a0001712222",
+   "feed": "cascadepbs",
+   "title": "Hanford workers face illnesses from ‘one of the most toxic places’",
+   "link": "https://www.cascadepbs.org/show/the-newsfeed-2/episode/hanford-workers-face-illnesses-from-one-of-the-most-toxic-places-6n1n5u/",
+   "date": "2026-10-19T21:16:05.000Z",
+   "summary": "In part two of our five-part series, a doctor tells us what he saw treating former Hanford workers.",
+   "image": "https://www.cascadepbs.org/content/images/2026/10/bae86328-9355-409a-a73a-7c5b15384bd5.jpeg"
+  },
+  {
+   "id": "planetizen:138677 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "Florida could lose billions in funding for infrastructure, parks",
+   "link": "https://www.planetizen.com/news/2026/10/138677-florida-could-lose-billions-funding-infrastructure-parks",
+   "date": "2026-10-19T16:00:00.000Z",
+   "summary": "Florida’s Measure 3 may negatively impact funding for Florida's parks and public infrastructure. Florida voters will vote on Amendment 3 in November, which would alter how much certain homeowners pay in property taxes. Currently, the maximum homestead exemption is $51,411, meaning that homeowners can subtract up to…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2530280327.jpg.webp?itok=ST_Hk850"
+  },
+  {
+   "id": "smartcities:https://www.smartcitiesdive.com/news/housing-programs-cities-bloomberg-philanthropies/833368/",
+   "feed": "smartcities",
+   "title": "These 3 housing programs are showing results. A new initiative wants to bring them to other cities.",
+   "link": "https://www.smartcitiesdive.com/news/housing-programs-cities-bloomberg-philanthropies/833368/",
+   "date": "2026-10-19T15:55:45.000Z",
+   "summary": "With investments of $450,000 to $750,000 in 14 cities, Bloomberg Philanthropies wants to replicate housing programs from Atlanta, San Diego and Austin, Texas.",
+   "image": "https://imgproxy.divecdn.com/3ejVHbT28S5ioh_xkvPbv5rt-KI2XFa8cT_x5klYQvU/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy05NjE5MDE5MDAuanBn.webp"
+  },
+  {
+   "id": "smartcities:https://www.smartcitiesdive.com/news/apta-public-transit-coneference-expo-2026/833242/",
+   "feed": "smartcities",
+   "title": "AI, battery-powered trains, transit funding among the highlights of APTA Transform 2026",
+   "link": "https://www.smartcitiesdive.com/news/apta-public-transit-coneference-expo-2026/833242/",
+   "date": "2026-10-19T15:55:00.000Z",
+   "summary": "The American Public Transportation Association event showcased new products and shared transit leaders' knowledge from keynote speakers and educational sessions.",
+   "image": "https://imgproxy.divecdn.com/-50aibq3Mjf0laav_Si_qaaj46p1mfhpjI8KNejqYaw/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS8xMDA1MjAyNl9BUFRBMjAyNl81NzUyMC5qcGc=.webp"
+  },
+  {
+   "id": "smartcities:https://www.smartcitiesdive.com/news/recent-office-to-residential-conversions-dc/833355/",
+   "feed": "smartcities",
+   "title": "3 notable office-to-residential conversions in DC",
+   "link": "https://www.smartcitiesdive.com/news/recent-office-to-residential-conversions-dc/833355/",
+   "date": "2026-10-19T15:33:00.000Z",
+   "summary": "Washington is seeing a boom in adaptive reuse downtown, but for a conversion to be successful, “You need the good fundamentals. You need a good location,” National Real Estate Development’s Peter Epstein said.",
+   "image": "https://imgproxy.divecdn.com/Iu5ddWNZO6oQz0mgEjxsxfPfghLrbYMr_Wg3R4qs50o/g:nowe:0:311/c:1920:1084/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9kMzRlODI0OS0zY2U0LTRmYTQtYmJiMi02YTM4MDljNTllOGYuanBn.webp"
+  },
+  {
+   "id": "planetizen:138667 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "New Mexico spent millions drafting climate goals. Data centers are unraveling them",
+   "link": "https://www.planetizen.com/news/2026/10/138667-new-mexico-spent-millions-drafting-climate-goals-data-centers-are-unraveling",
+   "date": "2026-10-19T15:00:00.000Z",
+   "summary": "A rendering of Meta’s planned data center in El Paso. Data centers release nitrogen oxides and particular matter, which are harmful to people. Months ago, New Mexico and El Paso spent millions to draft reports on how their respective regions could address climate change and lower greenhouse gas emissions. Neither…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/01_-El-Paso_Carousel-03.jpg.webp?itok=yh8zSRTr"
+  },
+  {
+   "id": "urbanist:6ac96ab4b1b0ef0001aab4d1",
+   "feed": "urbanist",
+   "title": "Housing Accountability Act Puts Tiny Beaux Arts Village in the Spotlight",
+   "link": "https://www.theurbanist.org/housing-accountability-act-puts-tiny-beaux-arts-village-in-the-spotlight/",
+   "date": "2026-10-19T13:00:00.000Z",
+   "summary": "Changes to state law intended to broaden access to more affordable types of housing are reverberating in some unexpected places, including within Puget Sound's smallest jurisdictions. Last week, the town council in Beaux Arts Village – population 310 – met to approve a slate of temporary zoning changes, under threat…",
+   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/IMG_20230715_144551195-EDIT.jpg"
+  },
+  {
+   "id": "smartcities:https://www.smartcitiesdive.com/spons/facilities-condition-assessments-a-framework-for-evaluating-infrastructure/833069/",
+   "feed": "smartcities",
+   "title": "Facilities condition assessments: A framework for evaluating infrastructure priorities",
+   "link": "https://www.smartcitiesdive.com/spons/facilities-condition-assessments-a-framework-for-evaluating-infrastructure/833069/",
+   "date": "2026-10-19T09:00:00.000Z",
+   "summary": "FCAs allow agencies to prioritize investments, maintenance decisions and long-term capital planning.",
+   "image": ""
+  },
+  {
+   "id": "smartcities:https://www.smartcitiesdive.com/spons/3-ways-communities-can-prepare-for-growing-water-scarcity/833054/",
+   "feed": "smartcities",
+   "title": "3 ways communities can prepare for growing water scarcity",
+   "link": "https://www.smartcitiesdive.com/spons/3-ways-communities-can-prepare-for-growing-water-scarcity/833054/",
+   "date": "2026-10-19T09:00:00.000Z",
+   "summary": "Water scarcity is growing. See how communities are staying ahead of the challenge.",
+   "image": ""
+  },
+  {
+   "id": "streetsblog:https://usa.streetsblog.org/?p=295082",
+   "feed": "streetsblog",
+   "title": "Why US Roads Are Full of SUVs and Trucks, Part I",
+   "link": "https://usa.streetsblog.org/2026/10/19/why-us-roads-are-full-of-suvs-and-trucks-part-i",
+   "date": "2026-10-19T04:03:00.000Z",
+   "summary": "This is the first in a two-part series. Check back soon for part two. The Trump administration just quietly re-classified virtually every SUV and pick-up on the road as a passenger car rather than a “light truck” — but how did US roads get so dominated by huge vehicles in the first place, and what will it take to…",
+   "image": "https://usa.streetsblog.org/wp-content/uploads/sites/10/2026/10/Big-pick-up.jpg?w=1024"
+  },
+  {
+   "id": "streetsblog:https://usa.streetsblog.org/?p=295035",
+   "feed": "streetsblog",
+   "title": "Aging in Place Is a Mobility Problem, Too",
+   "link": "https://usa.streetsblog.org/2026/10/19/aging-in-place-is-a-mobility-problem-too",
+   "date": "2026-10-19T04:02:00.000Z",
+   "summary": "A version of this article originally appeared on City of Yes and is republished with permission. Among the horrors inflicted on Spain during Francisco Franco’s rise to power, perhaps none was more vividly memorialized than the bombing of the Basque city of Guernica in 1937. The destruction of the city was famously…",
+   "image": "https://usa.streetsblog.org/wp-content/uploads/sites/10/2026/10/Screenshot-2026-10-14-at-2.53.41-PM.png?w=1024"
+  },
+  {
+   "id": "streetsblog:https://usa.streetsblog.org/?p=295132",
+   "feed": "streetsblog",
+   "title": "Monday’s Headlines Are On the Ballot",
+   "link": "https://usa.streetsblog.org/2026/10/19/mondays-headlines-are-on-the-ballot",
+   "date": "2026-10-19T04:01:00.000Z",
+   "summary": "Transit referendums are on the ballot all over the place, and the Rail Passengers Association has you covered on how you should vote. In addition, Bolt has a cheat sheet for all local elections, including said transit referendums. Memphis’ Union Avenue is the stroad to end all stroads. ( Wall Street Journal; paywall…",
+   "image": "https://usa.streetsblog.org/wp-content/uploads/sites/10/2022/11/Voted-sticker-e1667845377677.png?w=1024"
+  },
+  {
+   "id": "urbanist:6ad4ff0d7a838000019a6abb",
+   "feed": "urbanist",
+   "title": "Sunday Video: Get Outside With Light Rail's Help",
+   "link": "https://www.theurbanist.org/sunday-video-get-outside-with-light-rails-help/",
+   "date": "2026-10-18T17:46:22.000Z",
+   "summary": "The temperatures are dropping across Puget Sound this week but the weather is still great for getting outside, especially in the weeks before the time change and the full arrival of the Big Dark. Bob Svercl's regional video tours have been featuring light rail to park connections, providing a comprehensive look at…",
+   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/20260912_133605.jpg"
+  },
+  {
+   "id": "stb:https://seattletransitblog.com/?p=149684",
+   "feed": "stb",
+   "title": "Sunday Movie: Service-Led Planning in California Rail",
+   "link": "https://seattletransitblog.com/2026/10/18/sunday-movie-service-led-planning-in-california-rail/",
+   "date": "2026-10-18T10:00:00.000Z",
+   "summary": "In 2004 California released an excellent service-led plan to expand its state rail network, both the high-speed rail projects and other corridors and a few BRT connectors. This video by nandert goes in-depth on why service-led planning is an important paradigm all agencies should use (5:33), the benefits of…",
+   "image": ""
+  },
+  {
+   "id": "urbanist:6acd2a31e4bf010001f417c2",
+   "feed": "urbanist",
+   "title": "Op-Ed: Bremerton Should Fully Pedestrianize Quincy Square",
+   "link": "https://www.theurbanist.org/op-ed-bremerton-should-fully-pedestrianize-quincy-square/",
+   "date": "2026-10-17T13:00:00.000Z",
+   "summary": "The City of Bremerton is debating how to use the newly completed, $4 million Quincy Square, located at the heart of downtown. As with Seattle’s Pike Place Market, Bremerton Public Works proposed closing the ‘Q Square’ about half the days of the year. At a Sept 3rd City Council meeting, councilors were split 3-to-3…",
+   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/data-src-image-524ad788-78e8-4211-87c4-3601ef945032-1.png"
+  },
+  {
+   "id": "stb:https://seattletransitblog.com/?p=149660",
+   "feed": "stb",
+   "title": "Link Reduction This Weekend",
+   "link": "https://seattletransitblog.com/2026/10/16/link-reduction-this-weekend/",
+   "date": "2026-10-17T00:00:00.000Z",
+   "summary": "The 2 Line will be replaced by shuttle buses Saturday and Sunday between South Bellevue and Chinatown/International District. The shuttles will run every 10-15 minutes and serve every station. The link has the bus stop locations; the Judkins Park stops are on Rainier Avenue under I-90. The 1 Line will increase to…",
+   "image": ""
+  },
+  {
+   "id": "urbanist:6ad134d67a838000019a5274",
+   "feed": "urbanist",
+   "title": "How ICE Continues to Wield Washington's Own Data",
+   "link": "https://www.theurbanist.org/how-ice-continues-to-wield-washingtons-own-data/",
+   "date": "2026-10-16T17:45:25.000Z",
+   "summary": "In the wake of accelerated immigration enforcement by U.S. Immigration and Customs Enforcement (ICE) across the country this summer and into fall, new data shows that Washington state driver data is still being used to enable and assist in these arrests. The update comes from the University of Washington Center of…",
+   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/data-src-image-20e69616-a22e-4681-aed5-74db1dfd3970-1.jpeg"
+  },
+  {
+   "id": "smartcities:https://www.smartcitiesdive.com/news/usdot-north-carolina-550m-passenger-rail-s-line/833204/",
+   "feed": "smartcities",
+   "title": "North Carolina passenger rail line to get $550M from US DOT",
+   "link": "https://www.smartcitiesdive.com/news/usdot-north-carolina-550m-passenger-rail-s-line/833204/",
+   "date": "2026-10-16T14:50:00.000Z",
+   "summary": "The project will relieve train congestion and allow North Carolina and Virginia to schedule more frequent passenger trains, according to the North Carolina transportation department.",
+   "image": ""
+  },
+  {
+   "id": "smartcities:https://www.smartcitiesdive.com/news/landfill-methane-threatens-storm-sewer-harris-county-texas-lawsuit/833210/",
+   "feed": "smartcities",
+   "title": "Landfill methane threatens planned storm sewer, Harris County, Texas, lawsuit alleges",
+   "link": "https://www.smartcitiesdive.com/news/landfill-methane-threatens-storm-sewer-harris-county-texas-lawsuit/833210/",
+   "date": "2026-10-16T14:31:09.000Z",
+   "summary": "Excessive methane emissions and contaminated soil and water could threaten public safety, according to the lawsuit seeking closure and permanent capping of Hawthorn Park Landfill.",
+   "image": "https://imgproxy.divecdn.com/bvR1u28zzGfEOgz1gWdjx63_0iEfBhJj1a7x38wS8nQ/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xNDg1NTcxMzQ5LmpwZw==.webp"
+  },
+  {
+   "id": "smartcities:https://www.smartcitiesdive.com/news/what-it-takes-to-become-a-climate-haven/833228/",
+   "feed": "smartcities",
+   "title": "What it takes to become a climate haven",
+   "link": "https://www.smartcitiesdive.com/news/what-it-takes-to-become-a-climate-haven/833228/",
+   "date": "2026-10-16T14:27:21.000Z",
+   "summary": "An emerging framework helps local leaders assess their climate advantages, shore up vulnerabilities and prepare for population growth. One of its creators explains how it works.",
+   "image": "https://imgproxy.divecdn.com/RvDTkZIPxyKYqpEXvgIbuovQ8BmdDinXehIDo-F8eUM/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjk0MzQyMTQ5LmpwZw==.webp"
+  },
+  {
+   "id": "urbanist:6acfd6948fcafc0001bf75be",
+   "feed": "urbanist",
+   "title": "Seattle Social Housing Developer Advances First Construction Project",
+   "link": "https://www.theurbanist.org/seattle-social-housing-developer-advances-first-construction-project/",
+   "date": "2026-10-16T13:00:00.000Z",
+   "summary": "A new 20-unit apartment building in the Central District is set to make history as the first new development constructed by Seattle's three-year-old Social Housing Developer (SSHD). With a unanimous vote of the SSHD board to acquire a 7,800-square-foot property on E Yesler Way Thursday night, the vision of growing…",
+   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/IMG_9169.JPG"
+  },
+  {
+   "id": "stb:https://seattletransitblog.com/?p=149609",
+   "feed": "stb",
+   "title": "Friday Roundtable: Two RapidRide R Line Stops Restored",
+   "link": "https://seattletransitblog.com/2026/10/16/friday-roundtable-two-rapidride-r-line-stops-restored/",
+   "date": "2026-10-16T13:00:00.000Z",
+   "summary": "A RapidRide bus on Route 7 in Columbia City. On Wednesday, King County Executive Girmay Zahilay transmitted RapidRide R Line alignment legislation to the King County Council. The R Line will travel between Rainier Beach station and downtown Seattle on Rainier Ave when it opens in 2032. In August, Metro asked the…",
+   "image": "https://i0.wp.com/seattletransitblog.com/wp-content/uploads/2026/10/IMG_8065.jpg?resize=525%2C394&#038;ssl=1"
+  },
+  {
+   "id": "streetsblog:https://usa.streetsblog.org/?p=295083",
+   "feed": "streetsblog",
+   "title": "Every Friday’s Headline Is Sacred",
+   "link": "https://usa.streetsblog.org/2026/10/16/every-fridays-headline-is-sacred",
+   "date": "2026-10-16T04:05:39.000Z",
+   "summary": "Transportation Secretary Sean Duffy may have nine kids, but the self-described “fertility president” tying transit funding to birth rates is not going to help families that fled cities for car-centric suburbs — nor will it help struggling parents who can barely afford a metro card, let alone a car. ( Vox ) Another of…",
+   "image": "https://usa.streetsblog.org/wp-content/uploads/sites/10/2026/10/Monty_Pythons_The_Meaning_of_Life_Every_Is_Sacred.png?w=1024"
+  },
+  {
+   "id": "streetsblog:https://usa.streetsblog.org/?p=295074",
+   "feed": "streetsblog",
+   "title": "Friday Video: When Walkability Isn’t Enough … Even in the Great Cities of Europe",
+   "link": "https://usa.streetsblog.org/2026/10/16/friday-video-when-walkability-isnt-enough-even-in-the-great-cities-of-europe",
+   "date": "2026-10-16T04:02:00.000Z",
+   "summary": "What good is a “walkable” city if average people can’t afford to live in it? That’s just one of the questions asked by this provocative new video from Safe By Design, which argues that even the urbanist darlings of Europe can fall short of their potential when “design, governance, and affordability failures” get…",
+   "image": "https://usa.streetsblog.org/wp-content/uploads/sites/10/2026/10/SUO-Paris.png?w=1024"
+  },
+  {
+   "id": "strongtowns:https://www.strongtowns.org/journal/2026-10-16-the-best-time-to-change-city-policy-is-before-its-written",
+   "feed": "strongtowns",
+   "title": "The Best Time To Change City Policy Is Before It’s Written",
+   "link": "https://www.strongtowns.org/journal/2026-10-16-the-best-time-to-change-city-policy-is-before-its-written",
+   "date": "2026-10-16T00:00:00.000Z",
+   "summary": "By getting involved early, members of Stronger Denton helped bring a new approach to crash response into their city's Vision Zero plan.",
+   "image": "https://cdn.prod.website-files.com/6800fb077920f4ca34c37030/6ad12017bf3c55fa470f10f1_amari-shutters-I-YvZzFmxVk-unsplash%20(1).avif"
+  },
+  {
+   "id": "streetsblog:https://cal.streetsblog.org/?p=78520",
+   "feed": "streetsblog",
+   "title": "Newsom Signs Bill to Better Align California Transportation Spending With Climate Goals",
+   "link": "https://cal.streetsblog.org/2026/10/15/newsom-signs-bill-to-better-align-california-transportation-spending-with-climate-goals",
+   "date": "2026-10-15T23:01:35.000Z",
+   "summary": "Caltrans will have to measure its highway projects against regional climate goals, and the state’s metropolitan planning agencies will update those plans every eight years instead of four, under a bill Gov. Gavin Newsom signed last month. Senate Bill 1087 , authored by Sen. Christopher Cabaldon (D-West Sacramento),…",
+   "image": "https://usa.streetsblog.org/wp-content/uploads/sites/10/2026/10/6W2aKUM295sdWHwkOQ0i91a_fHGPU6L7Oqh1MbCWuLhupx8yLiobhTCsXy1J7L9Hu0cIugx2TwzSx_bSQwrwCoToUVPwE-mui72N8bctOn4C2fkrdOauyasrKj1D96T8sA-lLwCowsbJJ2YB_6TzilHzEFEf9e5M0cJ-vV10uoUW0sNHKG1VxEBlbqUJyVBC.jpeg?w=1024"
+  },
+  {
+   "id": "streetsblog:https://usa.streetsblog.org/?p=295066",
+   "feed": "streetsblog",
+   "title": "Talking Headways Podcast: The Passion Problem in Public Transit",
+   "link": "https://usa.streetsblog.org/2026/10/15/talking-headways-podcast-the-passion-problem-in-public-transit",
+   "date": "2026-10-15T16:19:30.000Z",
+   "summary": "This week on Talking Headways is Part 2 of our discussion with Reece Martin in Toronto at the Mpact Transit + Community Conference. We discuss the media picking projects apart, the gap between talent and passion in transit agencies, high speed rail and the threat of AVs to bad transit. Listeners can hit play on the…",
+   "image": "https://usa.streetsblog.org/wp-content/uploads/sites/10/2026/10/mta.png?w=1024"
+  },
+  {
+   "id": "urbanist:6acf104fddfd4f0001a9754a",
+   "feed": "urbanist",
+   "title": "Despite Pushback, Updated RapidRide R Plans Include Scant Changes",
+   "link": "https://www.theurbanist.org/despite-pushback-updated-rapidride-r-plans-include-scant-changes/",
+   "date": "2026-10-15T16:02:47.000Z",
+   "summary": "Updated plans for the future RapidRide R bus line between Downtown Seattle and Rainier Beach released this week include only a few changes to previous iterations of the project, with significant stop consolidation still planned along much of the eight-mile route despite community concerns. The next RapidRide line to…",
+   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/20261013_175000-EDIT-1.jpg"
+  },
+  {
+   "id": "smartcities:https://www.smartcitiesdive.com/news/dot-funding-construction-marriage-birth-rates/832979/",
+   "feed": "smartcities",
+   "title": "DOT proposal tying grants to birth, marriage rates could disrupt projects, senator says",
+   "link": "https://www.smartcitiesdive.com/news/dot-funding-construction-marriage-birth-rates/832979/",
+   "date": "2026-10-15T15:44:00.000Z",
+   "summary": "The change could affect transit project funding and trigger new reviews and requirements. Sen. Patty Murray called it \"bizarre and dystopian.\"",
+   "image": "https://imgproxy.divecdn.com/St8GXMReOY1mKgeHL4YQDQUqfSM62Q453CUcQQFNjLw/g:nowe:0:0/c:3200:1807/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjkyNDAxNzczLmpwZw==.webp"
+  },
+  {
+   "id": "smartcities:https://www.smartcitiesdive.com/news/apta-transportation-conference-expo-chicago/833088/",
+   "feed": "smartcities",
+   "title": "AI, rider communications and accessibility innovations showcased at Chicago APTA Expo",
+   "link": "https://www.smartcitiesdive.com/news/apta-transportation-conference-expo-chicago/833088/",
+   "date": "2026-10-15T15:33:00.000Z",
+   "summary": "One rail car company plans to launch an innovation hub in the U.S., it announced at the event.",
+   "image": "https://imgproxy.divecdn.com/1FKoqokE9xRavZyZDCuhkPZNdPva-diDoUa4NJjn5Eo/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS8xMDA1MjAyNl9BUFRBMjAyNl81ODIyNi5qcGc=.webp"
+  },
+  {
+   "id": "urbanist:6acdbc95e4bf010001f41d5a",
+   "feed": "urbanist",
+   "title": "'Unfathomable Disaster' Looms Following Public Defender Pay Dispute",
+   "link": "https://www.theurbanist.org/unfathomable-disaster-looms-following-public-defender-pay-dispute/",
+   "date": "2026-10-15T13:00:00.000Z",
+   "summary": "After being unable to reach a contract agreement with the Washington State Department of Public Defense (OPD), the venerable Washington Appellate Project (WAP) may have to close its doors at the end of the year. Should this happen, the state’s court system could be disrupted due to the loss of experienced attorneys,…",
+   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/WashingtonCapitolTOJI-1.jpg"
+  },
+  {
+   "id": "urbanist:6ac95d28b1b0ef0001aab379",
+   "feed": "urbanist",
+   "title": "2026 General Election Endorsements",
+   "link": "https://www.theurbanist.org/2026-general-election-endorsements/",
+   "date": "2026-10-14T13:00:00.000Z",
+   "summary": "This midterm election will be a big deal, and not just because Democrats could retake Congress from Republicans and provide a check on Trump’s power at the federal level. A ton of interesting races and measures are also brewing at the local level. Ballots should be arriving in mailboxes by October 16 across…",
+   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/20260619_124817--1-.jpg"
+  },
+  {
+   "id": "stb:https://seattletransitblog.com/?p=149552",
+   "feed": "stb",
+   "title": "Midweek Roundup: every bus rapid",
+   "link": "https://seattletransitblog.com/2026/10/14/midweek-roundup-every-bus-rapid/",
+   "date": "2026-10-14T10:00:00.000Z",
+   "summary": "News and commentary from the past week or so. News: Tug-of-War Over New Transportation Funding Heats Up in Bellevue (The Urbanist). Building I-5 left many scars in the Pinehurst neighborhood, new walking and biking projects hope to heal some of them (Seattle Bike Blog). Mukilteo’s Plans for ‘Vibrant Waterfront…",
+   "image": ""
+  },
+  {
+   "id": "strongtowns:https://www.strongtowns.org/journal/2026-10-14-should-i-vote-for-a-transit-tax",
+   "feed": "strongtowns",
+   "title": "\"Should I Vote for a Transit Tax?\"",
+   "link": "https://www.strongtowns.org/journal/2026-10-14-should-i-vote-for-a-transit-tax",
+   "date": "2026-10-14T00:00:00.000Z",
+   "summary": "10 points to consider when navigating these noisy debates at election time.",
+   "image": "https://cdn.prod.website-files.com/6800fb077920f4ca34c37030/6ace9220b6297ef9f7c5d4e4_cover%20photo%20(49)%20(1).avif"
+  },
+  {
+   "id": "urbanist:6acb0c47b1b0ef0001aabc26",
+   "feed": "urbanist",
+   "title": "'The Ave for All' Transforms U District's Main Thoroughfare",
+   "link": "https://www.theurbanist.org/the-ave-for-all-transforms-u-districts-main-thoroughfare/",
+   "date": "2026-10-13T20:35:31.000Z",
+   "summary": "Seeing a street festival take over University Way NE through the heart of the U District is a common sight throughout most of the year. But this past Saturday, the attraction wasn't food vendors or craftspeople – it was the street itself. Visitors to one of the city's most beloved shopping districts were treated to a…",
+   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/IMG_9091.JPG"
+  },
+  {
+   "id": "humantransit:https://humantransit.org/?p=33758",
+   "feed": "humantransit",
+   "title": "Signing “The Planner’s Pledge”",
+   "link": "https://humantransit.org/2026/10/signing-the-planners-pledge.html",
+   "date": "2026-10-13T19:26:44.000Z",
+   "summary": "I’ve just signed The Planner’s Pledge , a statement assembled by a team of leading US urban designers including my friend Jeff Speck, author of the Walkable City books . It’s an attempt to create a clear statement of principles, from the planning professions, about the past harms done by the profession and the things…",
+   "image": "https://humantransit.org/wp-content/uploads/Screenshot-2026-10-13-at-12.26.52-1080x194.png"
+  },
+  {
+   "id": "urbanist:6ac95f74b1b0ef0001aab45e",
+   "feed": "urbanist",
+   "title": "Tacoma Pushes to Reimagine Crash-Prone Portland Avenue",
+   "link": "https://www.theurbanist.org/tacoma-pushes-to-reimagine-crash-prone-portland-avenue/",
+   "date": "2026-10-13T13:00:00.000Z",
+   "summary": "Anthony E. Jackson moved from Seattle to a home in the mixed-income Salishan development in Tacoma 13 years ago. Since then, the retired 63-year-old Army veteran has been actively involved in life in the Tacoma Housing Authority development, and serves on the neighborhood’s homeowners association board. In that time,…",
+   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/Portland_Ave_Project-via-City-of-Tacoma.jpg"
+  },
+  {
+   "id": "urbanist:6acd2dd0e4bf010001f417df",
+   "feed": "urbanist",
+   "title": "Relaunched Community Court Gets Paired With Punitive Repeat Offender System",
+   "link": "https://www.theurbanist.org/relaunched-community-court-gets-paired-with-punitive-repeat-offender-system/",
+   "date": "2026-10-12T22:28:35.000Z",
+   "summary": "The Seattle City Attorney’s Office (CAO) has announced two new programs affecting its handling of misdemeanor criminal cases in Seattle: a new community court called Connections Court and a new repeat offender system called the High-Priority Repeat Offenses (HiPRO) program. Both programs are being launched despite…",
+   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/Seattle-Municipal-Court-photo.jpg"
+  },
+  {
+   "id": "urbanist:6ac6cd64a2eefb0001f0ba9d",
+   "feed": "urbanist",
+   "title": "Seattle's 'Centers & Corridors' Zoning Update Delayed Another Year",
+   "link": "https://www.theurbanist.org/seattles-centers-corridors-zoning-update-delayed-another-year/",
+   "date": "2026-10-12T15:52:37.000Z",
+   "summary": "The next phase of zoning changes planned to implement Seattle's twenty-year housing and job growth plan are on track to be delayed another year, according to a city briefing provided last week to the city's planning commission. A holdover from the Bruce Harrell administration, the \" Centers & Corridors \" zoning…",
+   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/53697003829_f14547316c_k--2-.jpg"
+  },
+  {
+   "id": "urbanist:6aab283790b8730001adbd7a",
+   "feed": "urbanist",
+   "title": "Sunday Video: Pierce Transit Goes to the Ballot",
+   "link": "https://www.theurbanist.org/sunday-video-pierce-transit-goes-to-the-ballot/",
+   "date": "2026-10-11T17:20:36.000Z",
+   "summary": "Pierce County voters have a big decision to make this November. Bus funding is on the ballot , with Pierce Transit seeking a 50% boost in funding that would boost local bus service by more than 40% by the early 2030s. Tacoma transit advocate Cameron Johnson breaks down what the measure entails and what it could mean…",
+   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/3.31.24-Stream-photos096--1-.webp"
+  },
+  {
+   "id": "stb:https://seattletransitblog.com/?p=149535",
+   "feed": "stb",
+   "title": "Sunday Movie: West Seattle Link & Conservative Urbanism",
+   "link": "https://seattletransitblog.com/2026/10/11/sunday-movie-west-seattle-link-conservative-urbanism/",
+   "date": "2026-10-11T10:00:00.000Z",
+   "summary": "An animated rendering of West Seattle Link. (Sound Transit) A conservative vision for urbanism. (The Atlantic) David From interviews Reihan Salam. I’ve been following Frum since he was on Left, Right, and Center in the 2000s; I consider him the most thoughtful conservative analysist nowadays. They discuss housing,…",
+   "image": ""
+  },
+  {
+   "id": "urbanist:6ac9865ab1b0ef0001aab5e4",
+   "feed": "urbanist",
+   "title": "New Flyover Video Shows Latest West Seattle Link Design",
+   "link": "https://www.theurbanist.org/new-flyover-video-shows-latest-west-seattle-link-design/",
+   "date": "2026-10-10T19:13:18.000Z",
+   "summary": "Sound Transit has officially reached the 30% design milestone on the West Seattle Link project, celebrating the occasion by releasing a new flyover video that shows renderings of the entire 3.9 mile planned light rail line between SoDo and Alaska Junction. Set to open by 2035 , the 3 Line is the next light rail…",
+   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/Screenshot-2026-10-09-5.27.40-PM.png"
+  },
+  {
+   "id": "stb:https://seattletransitblog.com/?p=149522",
+   "feed": "stb",
+   "title": "Friday Roundtable: Fall Foliage",
+   "link": "https://seattletransitblog.com/2026/10/09/friday-roundtable-fall-foliage/",
+   "date": "2026-10-09T12:24:00.000Z",
+   "summary": "A Breda DuoBus 350 on Renton Maple Valley Rd SE during the Fall Foliage Tour last year. The leaves are finally starting to fall and there is no better place to admire King County’s incredible scenery than from a historic Metro bus. The annual Metro Employees Historic Vehicle Association (MEHVA) Fall Foliage Tour is…",
+   "image": "https://i0.wp.com/seattletransitblog.com/wp-content/uploads/2026/10/IMG_2077-2-edited.jpg?resize=525%2C325&#038;ssl=1"
+  },
+  {
+   "id": "strongtowns:https://www.strongtowns.org/journal/2026-10-9-the-democracy-of-doing",
+   "feed": "strongtowns",
+   "title": "The Democracy of Doing",
+   "link": "https://www.strongtowns.org/journal/2026-10-9-the-democracy-of-doing",
+   "date": "2026-10-09T00:00:00.000Z",
+   "summary": "Cities say they want public participation, but too often, they crush the ability of citizens to actually participate in neighborhoods.",
+   "image": "https://cdn.prod.website-files.com/6800fb077920f4ca34c37030/6ac7e5d0d22efcefd41d001a_unnamed%20(22)%20(1).avif"
+  },
+  {
+   "id": "humantransit:https://humantransit.org/?p=33741",
+   "feed": "humantransit",
+   "title": "Should I Vote for a Tax to Fund Public Transit?",
+   "link": "https://humantransit.org/2026/10/should-i-vote-for-a-tax-to-fund-public-transit.html",
+   "date": "2026-10-07T18:51:50.000Z",
+   "summary": "My new (October 2026) article on this question is here ! In it, I try to address the issues that come up over and over in campaigns. I hope it will be useful not just for this US election season, but for many in the future. Read it here . The post Should I Vote for a Tax to Fund Public Transit? appeared first on…",
+   "image": ""
+  },
+  {
+   "id": "stb:https://seattletransitblog.com/?p=149486",
+   "feed": "stb",
+   "title": "Midweek Roundup: Sick Out",
+   "link": "https://seattletransitblog.com/2026/10/07/midweek-roundup-sick-out/",
+   "date": "2026-10-07T10:00:00.000Z",
+   "summary": "Reminder: Buses replace Link trains between Westlake and Northgate after ~10pm from Oct. 6-8 as part of Sound Transit’s rotating monthly maintenance program. News and commentary from the past week. News: Puget Sound ferry service returns after 23 ferry engine room workers staged a “sick out” amid tensions over low…",
+   "image": ""
+  },
+  {
+   "id": "strongtowns:https://www.strongtowns.org/journal/2026-10-7-the-other-housing-crisis",
+   "feed": "strongtowns",
+   "title": "The Other Housing Crisis",
+   "link": "https://www.strongtowns.org/journal/2026-10-7-the-other-housing-crisis",
+   "date": "2026-10-07T00:00:00.000Z",
+   "summary": "A looming backlog of housing repairs threatens the “housing abundance” agenda just as much as NIMBYs, a new book argues.",
+   "image": "https://cdn.prod.website-files.com/6800fb077920f4ca34c37030/6ac425031849aaa9fbcbc376_cover%20photo%20(48)%20(1).avif"
+  },
+  {
+   "id": "stb:https://seattletransitblog.com/?p=149435",
+   "feed": "stb",
+   "title": "Duplicative services and commuter route truncation, again",
+   "link": "https://seattletransitblog.com/2026/10/06/duplicative-services-and-commuter-route-truncation-again/",
+   "date": "2026-10-06T10:48:00.000Z",
+   "summary": "We’re about a month into the Fall shakeup, where a substantial number of service changes were implemented to improve connections to Link. This is a recurring playbook that Metro has used ever since light rail service began: identify duplicative services and restructure existing bus routes to connect to Link stations…",
+   "image": "https://i0.wp.com/seattletransitblog.com/wp-content/uploads/2026/10/Screenshot-2026-10-04-at-3.26.14-PM.png?resize=525%2C400&#038;ssl=1"
+  },
+  {
+   "id": "stb:https://seattletransitblog.com/?p=149441",
+   "feed": "stb",
+   "title": "Ballard Link Community Forum on October 19",
+   "link": "https://seattletransitblog.com/2026/10/05/ballard-link-community-forum-on-october-19/",
+   "date": "2026-10-05T10:00:34.000Z",
+   "summary": "An image included in Dan Strauss’ weekly newsletter lists nine elected officials and Sound Transit representatives expected to speak at the event. Seattle City Councilmember (District 6) and Sound Transit Boardmember Dan Strauss is hosting a community form discussing the Ballard Link Extension alongside several other…",
+   "image": "https://i0.wp.com/seattletransitblog.com/wp-content/uploads/2026/10/unnamed.png?resize=525%2C422&#038;ssl=1"
+  },
+  {
+   "id": "strongtowns:https://www.strongtowns.org/journal/2026-10-5-beyond-housing-booms-and-busts",
+   "feed": "strongtowns",
+   "title": "Beyond Housing Booms and Busts",
+   "link": "https://www.strongtowns.org/journal/2026-10-5-beyond-housing-booms-and-busts",
+   "date": "2026-10-05T00:00:00.000Z",
+   "summary": "We didn't lose housing production in 2008 by accident. The financial conditions supporting it were part of the problem.",
+   "image": "https://cdn.prod.website-files.com/6800fb077920f4ca34c37030/6ac018485adf1a3e6fa9387c_cover%20photo%20(47)%20(1).avif"
+  },
+  {
+   "id": "strongtowns:https://www.strongtowns.org/journal/2026-10-2-what-happens-after-the-zoning-code-says-yes",
+   "feed": "strongtowns",
+   "title": "What Happens After the Zoning Code Says \"Yes\"",
+   "link": "https://www.strongtowns.org/journal/2026-10-2-what-happens-after-the-zoning-code-says-yes",
+   "date": "2026-10-02T00:00:00.000Z",
+   "summary": "One extra home can change the rules, the costs, and who can afford to build.",
+   "image": "https://cdn.prod.website-files.com/6800fb077920f4ca34c37030/6abedcf37f9f88f796e71203_cover%20photo%20(46)%20(1).avif"
+  },
+  {
+   "id": "strongtowns:https://www.strongtowns.org/journal/2026-9-30-what-we-owe-the-place-we-call-home",
+   "feed": "strongtowns",
+   "title": "What We Owe the Place We Call Home",
+   "link": "https://www.strongtowns.org/journal/2026-9-30-what-we-owe-the-place-we-call-home",
+   "date": "2026-09-30T00:00:00.000Z",
+   "summary": "Loving a city means caring for what we inherit and sharing the work of leaving it better.",
+   "image": "https://cdn.prod.website-files.com/6800fb077920f4ca34c37030/6abc2defc83fe7b3f0802c8e_community-tree-planting-2%20(1).avif"
+  },
+  {
+   "id": "strongtowns:https://www.strongtowns.org/journal/2026-9-28-your-sewer-system-is-probably-not-full",
+   "feed": "strongtowns",
+   "title": "Your Sewer System Is Probably Not Full",
+   "link": "https://www.strongtowns.org/journal/2026-9-28-your-sewer-system-is-probably-not-full",
+   "date": "2026-09-28T00:00:00.000Z",
+   "summary": "What peak flow can teach us about building more housing with the infrastructure we already have.",
+   "image": "https://cdn.prod.website-files.com/6800fb077920f4ca34c37030/6ab6dc48cfe7220fd6088a27_cover%20photo%20(45)%20(1).avif"
+  },
+  {
+   "id": "humantransit:https://humantransit.org/?p=33710",
+   "feed": "humantransit",
+   "title": "Milwaukee: Transit Options for the “Fiscal Cliff”",
+   "link": "https://humantransit.org/2026/09/milwaukee-smart-preparations-for-a-fiscal-cliff.html",
+   "date": "2026-09-27T21:40:18.000Z",
+   "summary": "It is a difficult year for transit agencies all over the US, as a range of converging problems is pushing budgets out of balance. I discussed the problems in more detail in this post on Portland , but they are common across the country: the expiration of Covid relief funding, rising costs of security, and…",
+   "image": "https://humantransit.org/wp-content/uploads/IMG_0198-1080x810.jpeg"
+  },
+  {
+   "id": "strongtowns:https://www.strongtowns.org/journal/2026-9-25-anyone-can-complain-but-fewer-show-up-with-paint",
+   "feed": "strongtowns",
+   "title": "Anyone Can Complain, but Fewer Show Up With Paint",
+   "link": "https://www.strongtowns.org/journal/2026-9-25-anyone-can-complain-but-fewer-show-up-with-paint",
+   "date": "2026-09-25T00:00:00.000Z",
+   "summary": "Showing up to city hall costs a few minutes and the adrenaline of speaking in public. Sweat equity is a different currency.",
+   "image": "https://cdn.prod.website-files.com/6800fb077920f4ca34c37030/6ab58626455b116f5f8e48e1_cover%20photo%20(44)%20(1).avif"
+  },
+  {
+   "id": "strongtowns:https://www.strongtowns.org/journal/2026-9-23-a-drop-in-the-housing-crisis-bucket",
+   "feed": "strongtowns",
+   "title": "A Drop in the Housing Crisis Bucket",
+   "link": "https://www.strongtowns.org/journal/2026-9-23-a-drop-in-the-housing-crisis-bucket",
+   "date": "2026-09-23T00:00:00.000Z",
+   "summary": "How can incremental development solve the housing crisis when each effort feels too small to make a difference?",
+   "image": "https://cdn.prod.website-files.com/6800fb077920f4ca34c37030/6ab2cc08619b16ffc588fa8c_cover%20photo%20(43)%20(1).avif"
+  },
+  {
+   "id": "strongtowns:https://www.strongtowns.org/journal/2026-9-21-filtering-is-not-a-housing-affordability-strategy",
+   "feed": "strongtowns",
+   "title": "Filtering Is Not a Housing Affordability Strategy",
+   "link": "https://www.strongtowns.org/journal/2026-9-21-filtering-is-not-a-housing-affordability-strategy",
+   "date": "2026-09-21T00:00:00.000Z",
+   "summary": "New housing can make rents lower than they otherwise would have been. That is not the same as producing homes people can afford.",
+   "image": "https://cdn.prod.website-files.com/6800fb077920f4ca34c37030/6aadadd2062943e22043c9bf_cover%20photo%20(42)%20(1).avif"
+  },
+  {
+   "id": "strongtowns:https://www.strongtowns.org/journal/2026-9-18-building-more-beautiful-places",
+   "feed": "strongtowns",
+   "title": "Building More Beautiful Places",
+   "link": "https://www.strongtowns.org/journal/2026-9-18-building-more-beautiful-places",
+   "date": "2026-09-18T00:00:00.000Z",
+   "summary": "Seeking out ways to build more beauty in our lives.",
+   "image": "https://cdn.prod.website-files.com/6800fb077920f4ca34c37030/6aac300f3d2bef6f565e0469_cover%20photo%20(41)%20(1).avif"
+  },
+  {
+   "id": "humantransit:https://humantransit.org/?p=33698",
+   "feed": "humantransit",
+   "title": "The “Waymo Will Make Transit Obsolete” Argument",
+   "link": "https://humantransit.org/2026/09/the-waymo-will-make-transit-obsolete-argument.html",
+   "date": "2026-09-16T19:15:31.000Z",
+   "summary": "In the US and Canada we are seeing ever more explicit messaging that advocates letting public transit wither into irrelevance. I’m growing more concerned about this angle in particular: (The author of this post appears to work in optics for Tesla’s autonomous vehicle technology .) If you recoil from this idea, let me…",
+   "image": "https://humantransit.org/wp-content/uploads/Screenshot-2026-09-16-at-11.02.58-1080x362.png"
+  },
+  {
+   "id": "strongtowns:https://www.strongtowns.org/journal/2026-9-14-what-are-we-asking-the-flowers-to-do",
+   "feed": "strongtowns",
+   "title": "What Are We Asking the Flowers To Do?",
+   "link": "https://www.strongtowns.org/journal/2026-9-14-what-are-we-asking-the-flowers-to-do",
+   "date": "2026-09-14T00:00:00.000Z",
+   "summary": "The difference between landscaping that covers up our mistakes and landscaping that helps create a place.",
+   "image": "https://cdn.prod.website-files.com/6800fb077920f4ca34c37030/6aa41ed79399ea4d3d81a667_what-are-we-asking-the-flowers-to-do_thumbnail.avif"
+  },
+  {
+   "id": "strongtowns:https://www.strongtowns.org/journal/2026-9-11-the-missing-village-how-to-build-neighborhoods-where-kids-thrive",
+   "feed": "strongtowns",
+   "title": "The Missing Village: How to Build Neighborhoods Where Kids Thrive",
+   "link": "https://www.strongtowns.org/journal/2026-9-11-the-missing-village-how-to-build-neighborhoods-where-kids-thrive",
+   "date": "2026-09-11T00:00:00.000Z",
+   "summary": "What communities and families can do to give children more independence, stronger relationships, greater responsibility, and a place to belong.",
+   "image": "https://cdn.prod.website-files.com/6800fb077920f4ca34c37030/6aa0609c546fe7f226312b5f_cover%20photo%20(39)%20(1).avif"
+  },
+  {
+   "id": "strongtowns:https://www.strongtowns.org/journal/2026-9-9-my-kids-like-mexico-city-more-than-vancouver",
+   "feed": "strongtowns",
+   "title": "My Kids Like Mexico City More Than Vancouver",
+   "link": "https://www.strongtowns.org/journal/2026-9-9-my-kids-like-mexico-city-more-than-vancouver",
+   "date": "2026-09-09T00:00:00.000Z",
+   "summary": "But they’re wrong about why.",
+   "image": "https://cdn.prod.website-files.com/6800fb077920f4ca34c37030/6aa05df99d5319882a1f091a_cover%20photo%20(38)%20(1).avif"
+  },
+  {
+   "id": "strongtowns:https://www.strongtowns.org/journal/2026-9-4-the-road-decides-where-the-money-goes",
+   "feed": "strongtowns",
+   "title": "The Road Decides Where the Money Goes",
+   "link": "https://www.strongtowns.org/journal/2026-9-4-the-road-decides-where-the-money-goes",
+   "date": "2026-09-04T00:00:00.000Z",
+   "summary": "A new database shows how the design of a road decides whether travel money stays in a community or leaves it.",
+   "image": "https://cdn.prod.website-files.com/6800fb077920f4ca34c37030/6a9883767013f19ad2551032_cover%20photo%20(36)%20(1).avif"
+  },
+  {
+   "id": "strongtowns:https://www.strongtowns.org/journal/2026-9-2-an-interstate-highway-program-but-for-sidewalks",
+   "feed": "strongtowns",
+   "title": "An Interstate Highway Program — but for Sidewalks?",
+   "link": "https://www.strongtowns.org/journal/2026-9-2-an-interstate-highway-program-but-for-sidewalks",
+   "date": "2026-09-02T00:00:00.000Z",
+   "summary": "What if communities had more control over their transportation priorities?",
+   "image": "https://cdn.prod.website-files.com/6800fb077920f4ca34c37030/6a97358ae54bcda5a2669810_cover%20photo%20(34)%20(1).avif"
+  },
+  {
+   "id": "strongtowns:https://www.strongtowns.org/journal/2026-8-31-can-an-engineer-speak-out-for-reform",
+   "feed": "strongtowns",
+   "title": "Can an Engineer Speak Out for Reform?",
+   "link": "https://www.strongtowns.org/journal/2026-8-31-can-an-engineer-speak-out-for-reform",
+   "date": "2026-08-31T00:00:00.000Z",
+   "summary": "A federal court has answered a question that matters for every professional willing to challenge the practices of their own profession.",
+   "image": "https://cdn.prod.website-files.com/6800fb077920f4ca34c37030/6a91d9751a8f48d536fcfdd9_cover%20photo%20(35)%20(1).avif"
+  },
+  {
+   "id": "strongtowns:https://www.strongtowns.org/journal/2026-8-28-the-shape-sorter-test-for-housing-rules",
+   "feed": "strongtowns",
+   "title": "The Shape-Sorter Test for Housing Rules",
+   "link": "https://www.strongtowns.org/journal/2026-8-28-the-shape-sorter-test-for-housing-rules",
+   "date": "2026-08-28T00:00:00.000Z",
+   "summary": "A simple way for cities to see whether duplexes, fourplexes, and sixplexes actually fit through the regulations.",
+   "image": "https://cdn.prod.website-files.com/6800fb077920f4ca34c37030/6a90b19f845fa7ec495c008f_cover%20photo%20(33)%20(1).avif"
+  },
+  {
+   "id": "strongtowns:https://www.strongtowns.org/journal/2026-8-26-are-we-building-the-right-things-or-just-building-more",
+   "feed": "strongtowns",
+   "title": "Are We Building the Right Things or Just Building More?",
+   "link": "https://www.strongtowns.org/journal/2026-8-26-are-we-building-the-right-things-or-just-building-more",
+   "date": "2026-08-26T00:00:00.000Z",
+   "summary": "A highway can get wider without the underlying problem getting smaller.",
+   "image": "https://cdn.prod.website-files.com/6800fb077920f4ca34c37030/6a8dfe93843dcc3c4a0de7ec_cover%20photo%20(32)%20(1).avif"
+  },
+  {
+   "id": "strongtowns:https://www.strongtowns.org/journal/2026-8-24-a-mayor-willing-to-tell-his-city-the-truth",
+   "feed": "strongtowns",
+   "title": "A Mayor Willing to Tell His City the Truth",
+   "link": "https://www.strongtowns.org/journal/2026-8-24-a-mayor-willing-to-tell-his-city-the-truth",
+   "date": "2026-08-24T00:00:00.000Z",
+   "summary": "Post Falls is growing rapidly. Its mayor is asking whether that growth is making the city poorer.",
+   "image": "https://cdn.prod.website-files.com/6800fb077920f4ca34c37030/6a8878137a037742bbcb88b4_cover%20photo%20(31)%20(1).avif"
+  },
+  {
+   "id": "humantransit:https://humantransit.org/?p=33613",
+   "feed": "humantransit",
+   "title": "Does Portland Still Care about Transit?",
+   "link": "https://humantransit.org/2026/08/does-portland-still-care-about-transit.html",
+   "date": "2026-08-23T18:59:37.000Z",
+   "summary": "I’m in Portland’s Oregonian today on the topic of the budget crisis affecting TriMet, the region’s transit agency. If you’ve arrived from the link on that article, welcome! This blog’s resources to help you understand transit issues are organized here .) If you haven’t read the article, please read it first , and…",
+   "image": ""
+  },
+  {
+   "id": "strongtowns:https://www.strongtowns.org/journal/2026-8-21-gone-but-not-forgotten-houstons-world-class-experiment-in-public-transit",
+   "feed": "strongtowns",
+   "title": "Gone But Not Forgotten: Houston’s World-Class Experiment in Public Transit",
+   "link": "https://www.strongtowns.org/journal/2026-8-21-gone-but-not-forgotten-houstons-world-class-experiment-in-public-transit",
+   "date": "2026-08-21T00:00:00.000Z",
+   "summary": "Houston's public transit upgrades during the World Cup show how a city can take the next smallest step toward transportation improvements by using the infrastructure it already has.",
+   "image": "https://cdn.prod.website-files.com/6800fb077920f4ca34c37030/6a876c55665d1a2e8d5bdd2d_cover%20photo%20(30)%20(1).avif"
+  },
+  {
+   "id": "strongtowns:www.strongtowns.org/journal/2026-8-19-i-analyze-streets-for-a-living-and-i-still-didnt-see-what-was-right-in-front-of-me",
+   "feed": "strongtowns",
+   "title": "I Analyze Streets for a Living, and I Still Didn’t See What Was Right in Front of Me",
+   "link": "https://www.strongtowns.org/journal/2026-8-19-i-analyze-streets-for-a-living-and-i-still-didnt-see-what-was-right-in-front-of-me",
+   "date": "2026-08-19T00:00:00.000Z",
+   "summary": "Expertise gives us a lens, but every lens also filters. That's why we need multiple kinds of experts when addressing street safety.",
+   "image": "https://cdn.prod.website-files.com/6800fb077920f4ca34c37030/6a84c1d8207da56365dc9e65_cover%20photo%20(28)%20(1).avif"
+  },
+  {
+   "id": "strongtowns:https://www.strongtowns.org/journal/2026-8-17-state-preemption-should-help-cities-become-better-cities",
+   "feed": "strongtowns",
+   "title": "State Preemption Should Help Cities Become Better Cities",
+   "link": "https://www.strongtowns.org/journal/2026-8-17-state-preemption-should-help-cities-become-better-cities",
+   "date": "2026-08-17T00:00:00.000Z",
+   "summary": "We get to housing affordability when cities function like ecosystems, not algae in a food chain of governments.",
+   "image": "https://cdn.prod.website-files.com/6800fb077920f4ca34c37030/6a7f7b114d2c5ec26818e597_unnamed%20(19)%20(1).avif"
+  },
+  {
+   "id": "strongtowns:https://www.strongtowns.org/journal/2026-8-14-what-we-get-right-at-home-and-wrong-in-public",
+   "feed": "strongtowns",
+   "title": "What We Get Right at Home and Wrong in Public",
+   "link": "https://www.strongtowns.org/journal/2026-8-14-what-we-get-right-at-home-and-wrong-in-public",
+   "date": "2026-08-14T00:00:00.000Z",
+   "summary": "The three traps that keep us from building better places.",
+   "image": "https://cdn.prod.website-files.com/6800fb077920f4ca34c37030/6a7e38c26663f5910d635657_image%20(20)%20(1).avif"
+  },
+  {
+   "id": "humantransit:https://humantransit.org/?p=33597",
+   "feed": "humantransit",
+   "title": "An Instructive Win for Transit in Spokane",
+   "link": "https://humantransit.org/2026/08/an-instructive-win-for-transit-in-spokane.html",
+   "date": "2026-08-12T20:05:49.000Z",
+   "summary": "Downtown Spokane is really spectacular, by the way. Photo by William Jacobs vs Pexels.com In many US cities, voters will soon be asked to invest in public transit, if only to sustain services as operating costs rise. So it might be useful to look closely at the just-completed battle in a very “purple” place, i.e. a…",
+   "image": "https://humantransit.org/wp-content/uploads/Screenshot-2026-08-12-at-12.55.32-1080x705.png"
+  },
+  {
+   "id": "humantransit:https://humantransit.org/?p=33583",
+   "feed": "humantransit",
+   "title": "New Interview of Me on “War on Cars” Podcast",
+   "link": "https://humantransit.org/2026/08/new-interview-of-me-on-war-on-cars-podcast.html",
+   "date": "2026-08-05T20:30:18.000Z",
+   "summary": "“War on Cars” is certainly a provocative name for a group, since it’s something that pro-car advocates often accuse urbanists of waging. Certainly it’s not how I’d describe what I do, because cars are essential in rural areas, useful in suburbs, and at their most destructive only in cities. But it was great to do a…",
+   "image": "https://humantransit.org/wp-content/uploads/Screenshot-2026-08-05-at-13.25.24.png"
+  },
+  {
+   "id": "humantransit:https://humantransit.org/?p=33557",
+   "feed": "humantransit",
+   "title": "New Interview of Me on Strong Towns Podcast",
+   "link": "https://humantransit.org/2026/07/new-interview-of-me-on-strong-towns-podcast.html",
+   "date": "2026-07-14T23:53:41.000Z",
+   "summary": "Chuck Marohn, founder of Strong Towns , just released a new podcast interview of me , where we talk about how to have clearer conversations about public transit. The invitation was triggered by our recent work in Des Moines but the discussion is relevant to any North American city and more broadly overseas. It’s here…",
+   "image": "https://humantransit.org/wp-content/uploads/Screenshot-2026-07-14-at-16.51.42.png"
+  },
+  {
+   "id": "humantransit:https://humantransit.org/?p=33536",
+   "feed": "humantransit",
+   "title": "Public Transit Is Not “Coming Back” … It’s Doing Something Better",
+   "link": "https://humantransit.org/2026/06/transit-is-not-coming-back-its-doing-something-better.html",
+   "date": "2026-06-23T18:43:10.000Z",
+   "summary": "The history of transit ridership in the US is what it is: But it matters enormously how we talk about it. Many US transit agencies will be facing the voters in the next two years, seeking new funding to plug their structural deficits and forestall destructive service cuts. Many agencies are already involved in fights…",
+   "image": "https://humantransit.org/wp-content/uploads/Screenshot-2026-06-23-at-11.28.30.png"
+  },
+  {
+   "id": "humantransit:https://humantransit.org/?p=33512",
+   "feed": "humantransit",
+   "title": "Des Moines: Welcome to Your New Transit Network",
+   "link": "https://humantransit.org/2026/06/des-moines-welcome-to-your-new-network.html",
+   "date": "2026-06-15T12:15:06.000Z",
+   "summary": "Downtown Des Moines viewed from the Robert D Ray Asian garden, which celebrates the contributions of Asian immigrant groups to the region. Iowa’s capital and largest city, a place I knew well in my childhood, now has a new bus network, the result of our firm’s network design work with the Des Moines Area Regional…",
+   "image": "https://humantransit.org/wp-content/uploads/0EB96A15-6586-4F23-B4FC-17EF9D95A722_1_105_c-700x525.jpeg"
+  },
+  {
+   "id": "planetizen:59142 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "Jail the Planners for Not Preventing Sandy!",
+   "link": "https://www.planetizen.com/features/59142-jail-planners-not-preventing-sandy",
+   "date": "2012-11-05T23:00:00.000Z",
+   "summary": "5 minutes",
+   "image": ""
+  },
+  {
+   "id": "planetizen:59072 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "Planning Education: Striking a Better Balance",
+   "link": "https://www.planetizen.com/node/59072",
+   "date": "2012-10-31T23:00:00.000Z",
+   "summary": "18 minutes",
+   "image": ""
+  },
+  {
+   "id": "planetizen:58658 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "Are Amoeba-Shaped Cities More Likely To Go Bankrupt?",
+   "link": "https://www.planetizen.com/node/58658",
+   "date": "2012-10-02T00:00:00.000Z",
+   "summary": "6 minutes",
+   "image": ""
+  },
+  {
+   "id": "planetizen:58314 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "A Brave New World: How Apps Are Changing Planning",
+   "link": "https://www.planetizen.com/features/58314-brave-new-world-how-apps-are-changing-planning",
+   "date": "2012-09-04T23:00:00.000Z",
+   "summary": "9 minutes",
+   "image": ""
+  }
+ ]
+}

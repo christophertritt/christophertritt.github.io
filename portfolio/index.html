@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Christopher A. Tritt — transportation planning, spatial analysis, and data tools.">
+  <title>Christopher A. Tritt</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&family=Silkscreen&family=Parisienne&family=Comic+Neue:wght@700&family=Caveat:wght@500;700&family=Cabin+Sketch:wght@700&family=Dancing+Script:wght@500;600;700&display=swap">
+  <link rel="stylesheet" href="/css/vendor/7.scoped.css?v=20261020b">
+  <link rel="stylesheet" href="/css/vendor/leaflet.css?v=20261020b">
+  <link rel="stylesheet" href="/css/vendor/driver.css?v=20261020b">
+  <link rel="stylesheet" href="/css/home.css?v=20261020b">
+</head>
+<body>
+<a class="skip" href="#work">Skip to projects</a>
+<div class="sky" aria-hidden="true">
+  <span class="bubble" style="width:120px;height:120px;left:6%;top:58%"></span>
+  <span class="bubble" style="width:54px;height:54px;left:18%;top:78%;animation-duration:14s"></span>
+  <span class="bubble" style="width:200px;height:200px;right:4%;top:14%;animation-duration:24s"></span>
+  <span class="bubble" style="width:70px;height:70px;right:22%;top:66%;animation-duration:16s"></span>
+  <span class="bubble" style="width:34px;height:34px;left:48%;top:86%;animation-duration:12s"></span>
+  <svg class="leaf" style="left:-30px;top:18%;width:170px;transform:rotate(28deg)" viewBox="0 0 100 160"><use href="#leafshape"/></svg>
+  <svg class="leaf" style="right:-24px;top:52%;width:130px;transform:rotate(-140deg);animation-duration:11s" viewBox="0 0 100 160"><use href="#leafshape"/></svg>
+  <svg class="leaf" style="right:12%;bottom:-40px;width:110px;transform:rotate(-20deg);animation-duration:13s" viewBox="0 0 100 160"><use href="#leafshape"/></svg>
+  <svg class="rockies" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+<defs>
+<linearGradient id="rkSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5fb2e6"/><stop offset=".45" stop-color="#bfe4f6"/><stop offset=".72" stop-color="#f7eed6"/></linearGradient>
+<linearGradient id="rkFar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a9c4dd"/><stop offset="1" stop-color="#7d9cbb"/></linearGradient>
+<linearGradient id="rkMain" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7a8ea6"/><stop offset=".6" stop-color="#55677f"/><stop offset="1" stop-color="#3e5164"/></linearGradient>
+<linearGradient id="rkLake" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4fd0dc"/><stop offset=".5" stop-color="#26a9bf"/><stop offset="1" stop-color="#147d97"/></linearGradient>
+<radialGradient id="rkSun" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff9dc"/><stop offset=".35" stop-color="#ffe9a3" stop-opacity=".9"/><stop offset="1" stop-color="#ffe9a3" stop-opacity="0"/></radialGradient>
+<clipPath id="rkLakeClip"><rect x="0" y="652" width="1600" height="248"/></clipPath>
+</defs>
+<rect width="1600" height="900" fill="url(#rkSky)"/>
+<circle cx="1260" cy="170" r="190" fill="url(#rkSun)"/><circle cx="1260" cy="170" r="46" fill="#fffbe8"/>
+<defs><filter id="rkBlur" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="28"/></filter>
+<linearGradient id="rkMist" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".75"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="rkCanoe" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff8a7a"/><stop offset=".5" stop-color="#e0362a"/><stop offset="1" stop-color="#a51d14"/></linearGradient></defs>
+<g class="rk-aurora" filter="url(#rkBlur)" opacity=".55"><path d="M-50 210 C250 90 520 260 800 150 S1300 60 1650 190 L1650 260 C1300 140 1100 250 800 230 S300 190 -50 290Z" fill="#7dffc4"/><path d="M100 120 C400 40 700 170 1000 90 S1400 40 1650 110 L1650 150 C1400 90 1200 180 1000 150 S500 110 100 170Z" fill="#9fe8ff"/><path d="M600 60 C800 20 1000 90 1200 50 L1200 90 C1000 120 800 70 600 110Z" fill="#ffc2ea"/></g>
+<g class="rk-geese" fill="none" stroke="#2a3a4e" stroke-width="2.6" stroke-linecap="round" opacity=".7"><path d="M0 0l9 6 9-6M-22 -12l8 5 8-5M-22 12l8 5 8-5M-44 -24l8 5 8-5M-44 24l8 5 8-5M-66 -36l7 4 7-4"/></g>
+<g fill="#fff" opacity=".8"><ellipse cx="300" cy="150" rx="120" ry="26"/><ellipse cx="380" cy="135" rx="80" ry="28"/><ellipse cx="900" cy="110" rx="140" ry="22"/><ellipse cx="980" cy="98" rx="70" ry="22"/></g>
+<g id="rkMtns"><path d="M0,600 L0,470 L90,430 L160,470 L240,400 L320,455 L400,380 L470,430 L560,360 L640,420 L720,390 L800,440 L880,350 L960,410 L1040,370 L1120,430 L1200,380 L1280,440 L1360,400 L1440,450 L1520,410 L1600,440 L1600,600 Z" fill="url(#rkFar)"/><path d="M214,422 L233,429 L240,400 L249,431 L266,418 L253,428 L240,434 Z M374,404 L393,410 L400,380 L407,410 L422,396 L411,406 L400,416 Z M531,382 L552,389 L560,360 L569,392 L586,379 L573,389 L560,394 Z M694,400 L713,413 L720,390 L729,420 L746,406 L733,416 L720,412 Z M854,379 L873,382 L880,350 L889,382 L906,369 L893,379 L880,391 Z M1014,383 L1033,394 L1040,370 L1049,402 L1066,389 L1053,399 L1040,395 Z M1174,396 L1193,406 L1200,380 L1209,412 L1226,399 L1213,409 L1200,408 Z M1334,413 L1353,424 L1360,400 L1369,430 L1386,416 L1373,426 L1360,425 Z M1494,423 L1513,434 L1520,410 L1529,437 L1546,420 L1533,430 L1520,435 Z" fill="#f4f9ff" opacity=".75"/>
+<path d="M0,640 L0,520 L70,470 L130,500 L210,360 L260,420 L330,300 L380,380 L440,330 L500,410 L560,250 L640,370 L700,320 L760,400 L830,270 L900,360 L960,300 L1030,390 L1100,230 L1180,350 L1240,300 L1310,400 L1390,320 L1460,420 L1530,380 L1600,430 L1600,640 Z" fill="url(#rkMain)"/><path d="M184,405 L203,400 L210,360 L214,392 L226,379 L218,389 L210,417 Z M308,338 L325,337 L330,300 L334,335 L346,326 L338,336 L330,350 Z M421,346 L436,356 L440,330 L446,365 L459,356 L450,366 L440,358 Z M541,301 L556,294 L560,250 L569,291 L586,288 L573,298 L560,313 Z M681,336 L696,346 L700,320 L706,355 L719,346 L710,356 L700,348 Z M808,312 L825,309 L830,270 L837,306 L852,299 L841,309 L830,324 Z M941,319 L956,328 L960,300 L967,336 L982,329 L971,339 L960,331 Z M1078,281 L1095,274 L1100,230 L1109,271 L1126,268 L1113,278 L1100,293 Z M1221,316 L1236,326 L1240,300 L1247,338 L1262,332 L1251,342 L1240,328 Z M1364,346 L1383,351 L1390,320 L1397,358 L1412,352 L1401,362 L1390,358 Z M1508,393 L1525,404 L1530,380 L1537,410 L1552,396 L1541,406 L1530,405 Z" fill="#fff"/>
+<path d="M0,640 L0,600 Q400,570 800,600 T1600,590 L1600,640 Z" fill="#2f5a46"/>
+<path fill="#244a3a" d="M518,616 L529,650 L507,650 Z M1041,619 L1051,650 L1032,650 Z M857,607 L871,650 L844,650 Z M93,601 L109,650 L77,650 Z M60,604 L75,650 L45,650 Z M112,618 L122,650 L102,650 Z M679,587 L699,650 L659,650 Z M198,613 L210,650 L186,650 Z M1004,582 L1026,650 L982,650 Z M923,605 L938,650 L909,650 Z M1562,620 L1572,650 L1552,650 Z M1374,610 L1386,650 L1361,650 Z M231,617 L241,650 L220,650 Z M494,588 L513,650 L474,650 Z M289,598 L306,650 L272,650 Z M1022,606 L1036,650 L1008,650 Z M876,619 L886,650 L867,650 Z M95,613 L107,650 L84,650 Z M1089,604 L1103,650 L1074,650 Z M503,597 L519,650 L486,650 Z M725,609 L738,650 L712,650 Z M1271,593 L1289,650 L1253,650 Z M391,598 L407,650 L374,650 Z M840,585 L861,650 L820,650 Z M1167,610 L1180,650 L1154,650 Z M1568,617 L1579,650 L1558,650 Z M669,590 L688,650 L650,650 Z M243,601 L259,650 L228,650 Z M63,594 L81,650 L45,650 Z M1223,598 L1240,650 L1207,650 Z M1401,609 L1414,650 L1388,650 Z M1112,597 L1129,650 L1096,650 Z M928,603 L943,650 L913,650 Z M1344,582 L1366,650 L1322,650 Z M759,594 L776,650 L741,650 Z M97,593 L115,650 L79,650 Z M1035,580 L1058,650 L1013,650 Z M1315,610 L1328,650 L1302,650 Z M617,594 L635,650 L599,650 Z M36,603 L51,650 L21,650 Z M269,617 L279,650 L258,650 Z M94,590 L114,650 L75,650 Z M207,612 L219,650 L195,650 Z M626,585 L646,650 L605,650 Z M129,603 L144,650 L114,650 Z M879,585 L900,650 L858,650 Z M1311,586 L1331,650 L1290,650 Z M445,605 L460,650 L431,650 Z M574,585 L595,650 L553,650 Z M1532,616 L1543,650 L1521,650 Z M282,612 L294,650 L270,650 Z M373,602 L389,650 L358,650 Z M943,611 L955,650 L930,650 Z M7,604 L21,650 L-8,650 Z M591,598 L607,650 L574,650 Z M1525,593 L1543,650 L1507,650 Z M825,596 L842,650 L808,650 Z M1082,620 L1092,650 L1072,650 Z M1439,589 L1459,650 L1420,650 Z M1399,588 L1419,650 L1380,650 Z M628,605 L642,650 L613,650 Z M166,595 L183,650 L148,650 Z M100,619 L109,650 L90,650 Z M334,615 L345,650 L323,650 Z M544,620 L554,650 L534,650 Z M0,616 L11,650 L-11,650 Z M162,607 L176,650 L148,650 Z M41,585 L62,650 L20,650 Z M983,616 L993,650 L972,650 Z M404,607 L417,650 L390,650 Z M583,617 L593,650 L572,650 Z M1358,580 L1381,650 L1336,650 Z M746,602 L761,650 L730,650 Z M137,618 L148,650 L127,650 Z M548,611 L561,650 L536,650 Z M1326,615 L1337,650 L1315,650 Z M37,582 L59,650 L15,650 Z M845,616 L856,650 L834,650 Z M869,621 L878,650 L860,650 Z M845,581 L867,650 L823,650 Z M1381,593 L1400,650 L1363,650 Z M418,607 L432,650 L404,650 Z M267,590 L287,650 L248,650 Z M852,589 L872,650 L833,650 Z M527,613 L539,650 L516,650 Z M1298,581 L1321,650 L1276,650 Z M1364,588 L1384,650 L1344,650 Z M1309,591 L1328,650 L1290,650 Z M363,600 L379,650 L347,650 Z M569,621 L578,650 L560,650 Z"/><path fill="#1b3b2e" d="M45,606 L62,660 L27,660 Z M415,585 L439,660 L391,660 Z M1530,598 L1550,660 L1510,660 Z M1499,571 L1528,660 L1471,660 Z M1528,602 L1547,660 L1509,660 Z M353,609 L369,660 L336,660 Z M315,610 L331,660 L299,660 Z M999,575 L1026,660 L971,660 Z M1345,596 L1365,660 L1324,660 Z M1045,580 L1070,660 L1019,660 Z M136,587 L159,660 L112,660 Z M1456,581 L1481,660 L1430,660 Z M1200,596 L1221,660 L1180,660 Z M286,581 L311,660 L260,660 Z M532,580 L558,660 L506,660 Z M1555,600 L1574,660 L1536,660 Z M642,573 L670,660 L614,660 Z M1160,611 L1175,660 L1144,660 Z M203,612 L218,660 L188,660 Z M1448,580 L1473,660 L1422,660 Z M234,579 L260,660 L208,660 Z M1568,587 L1592,660 L1545,660 Z M561,593 L582,660 L539,660 Z M210,619 L223,660 L197,660 Z M1553,588 L1577,660 L1530,660 Z M843,573 L870,660 L815,660 Z M694,576 L721,660 L667,660 Z M1322,609 L1338,660 L1306,660 Z M403,605 L420,660 L385,660 Z M385,591 L407,660 L363,660 Z M415,599 L434,660 L395,660 Z M210,574 L237,660 L182,660 Z M566,597 L586,660 L546,660 Z M933,575 L961,660 L906,660 Z M673,574 L700,660 L646,660 Z M803,593 L824,660 L781,660 Z M838,619 L851,660 L825,660 Z M704,611 L720,660 L688,660 Z M6,580 L32,660 L-19,660 Z M276,596 L296,660 L255,660 Z M1160,592 L1182,660 L1139,660 Z M522,594 L543,660 L500,660 Z M889,581 L914,660 L863,660 Z M170,592 L192,660 L148,660 Z M398,606 L415,660 L380,660 Z M1236,595 L1257,660 L1215,660 Z M899,582 L924,660 L874,660 Z M1460,598 L1480,660 L1440,660 Z M980,595 L1001,660 L959,660 Z M819,585 L843,660 L796,660 Z M724,593 L745,660 L702,660 Z M765,573 L793,660 L737,660 Z M1119,576 L1146,660 L1092,660 Z M1507,607 L1524,660 L1491,660 Z M895,573 L923,660 L867,660 Z M1344,613 L1359,660 L1329,660 Z M195,598 L214,660 L175,660 Z M116,608 L133,660 L99,660 Z M117,587 L141,660 L93,660 Z M1254,575 L1281,660 L1227,660 Z"/></g>
+<rect x="0" y="652" width="1600" height="248" fill="url(#rkLake)"/>
+<g clip-path="url(#rkLakeClip)" opacity=".38"><use href="#rkMtns" transform="translate(0,1304) scale(1,-1)"/></g>
+<rect x="0" y="652" width="1600" height="248" fill="url(#rkLake)" opacity=".45"/>
+<rect x="0" y="630" width="1600" height="60" fill="url(#rkMist)"/>
+<g class="rk-inukshuk" transform="translate(1180 664)" fill="#8d99a6" stroke="#5e6b78" stroke-width="2"><rect x="-6" y="-70" width="20" height="14" rx="4"/><rect x="-30" y="-56" width="68" height="14" rx="5"/><rect x="-22" y="-42" width="16" height="26" rx="4"/><rect x="14" y="-42" width="16" height="26" rx="4"/><rect x="-26" y="-16" width="62" height="12" rx="5"/><rect x="-24" y="-4" width="18" height="10" rx="3"/><rect x="18" y="-4" width="18" height="10" rx="3"/></g>
+<g class="rk-moose" transform="translate(300 652)" fill="#1d2b22"><path d="M0 0v-26c0-10 8-18 22-20l30-2c12 0 18 6 20 14l12-4c4-2 8 0 9 4l1 10-10 2-4 12v10h-5v-10l-8-4-26 2v12h-5V-2l-14 2v8h-5V2c-6 0-10-3-12-6v10z"/><path d="M84-12c4-10 12-14 20-10-6 0-8 4-6 8 6-6 12-4 14 2-6-2-10 2-10 6l-12 2z"/></g>
+<g class="rk-canoe"><path d="M640 742 Q720 760 820 742 Q800 758 730 760 Q668 758 640 742Z" fill="url(#rkCanoe)" stroke="#7d1610" stroke-width="1.5"/><path d="M660 745 Q730 752 800 745" stroke="#fff" stroke-opacity=".7" stroke-width="2.5" fill="none"/><circle cx="742" cy="722" r="7" fill="#2a3a4e"/><path d="M736 744v-16q6-6 12 0v16z" fill="#2a3a4e"/><path d="M720 714 L770 760" stroke="#8a5a2b" stroke-width="3" stroke-linecap="round"/><ellipse cx="730" cy="768" rx="110" ry="6" fill="#fff" opacity=".35"/></g>
+<g stroke="#fff" stroke-linecap="round" opacity=".55" stroke-width="2.5"><path d="M180 700h90M520 730h140M900 712h80M1180 748h160M330 790h120M760 810h180M1300 830h110"/></g>
+<path fill="#14301f" d="M-11,647 L74,910 L-95,910 Z M151,721 L212,910 L91,910 Z M223,614 L317,910 L128,910 Z M10,616 L104,910 L-84,910 Z M67,677 L142,910 L-7,910 Z M257,632 L346,910 L168,910 Z M-8,684 L64,910 L-81,910 Z M105,696 L174,910 L36,910 Z M3,699 L70,910 L-65,910 Z"/><path fill="#14301f" d="M1591,737 L1646,910 L1536,910 Z M1537,674 L1613,910 L1462,910 Z M1366,690 L1436,910 L1295,910 Z M1560,663 L1639,910 L1481,910 Z M1381,592 L1482,910 L1279,910 Z M1612,594 L1713,910 L1511,910 Z M1394,700 L1461,910 L1326,910 Z M1373,623 L1464,910 L1281,910 Z M1447,721 L1507,910 L1386,910 Z"/>
+</svg>
+  <div class="maplebubs"><span class="maplebub" style="--x:8%;--s:70px;--d:26s;--dl:0s"><svg viewBox="2480 300 4640 4200"><use href="#mapleshape" x="2480" y="300" width="4640" height="4200"/></svg></span><span class="maplebub" style="--x:22%;--s:44px;--d:20s;--dl:-6s"><svg viewBox="2480 300 4640 4200"><use href="#mapleshape" x="2480" y="300" width="4640" height="4200"/></svg></span><span class="maplebub" style="--x:38%;--s:90px;--d:32s;--dl:-14s"><svg viewBox="2480 300 4640 4200"><use href="#mapleshape" x="2480" y="300" width="4640" height="4200"/></svg></span><span class="maplebub" style="--x:57%;--s:54px;--d:24s;--dl:-3s"><svg viewBox="2480 300 4640 4200"><use href="#mapleshape" x="2480" y="300" width="4640" height="4200"/></svg></span><span class="maplebub" style="--x:71%;--s:78px;--d:29s;--dl:-19s"><svg viewBox="2480 300 4640 4200"><use href="#mapleshape" x="2480" y="300" width="4640" height="4200"/></svg></span><span class="maplebub" style="--x:86%;--s:48px;--d:21s;--dl:-9s"><svg viewBox="2480 300 4640 4200"><use href="#mapleshape" x="2480" y="300" width="4640" height="4200"/></svg></span><span class="maplebub" style="--x:94%;--s:62px;--d:27s;--dl:-22s"><svg viewBox="2480 300 4640 4200"><use href="#mapleshape" x="2480" y="300" width="4640" height="4200"/></svg></span><span class="maplebub" style="--x:48%;--s:36px;--d:18s;--dl:-11s"><svg viewBox="2480 300 4640 4200"><use href="#mapleshape" x="2480" y="300" width="4640" height="4200"/></svg></span></div>
+  <svg class="ripples" viewBox="0 0 600 120" preserveAspectRatio="none"><ellipse cx="300" cy="60" rx="80" ry="12"/><ellipse cx="300" cy="60" rx="170" ry="26"/><ellipse cx="300" cy="60" rx="280" ry="44"/></svg>
+</div>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="gLeaf" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#cfe0b8"/><stop offset=".55" stop-color="#7f9d73"/><stop offset="1" stop-color="#4f6b4c"/></linearGradient>
+    <linearGradient id="gFolder" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6dc95"/><stop offset=".5" stop-color="#d9a842"/><stop offset="1" stop-color="#a87618"/></linearGradient>
+    <linearGradient id="gPaper" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#dfe6ee"/></linearGradient>
+    <linearGradient id="gAqua" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bfe8ef"/><stop offset=".5" stop-color="#5aa9bf"/><stop offset="1" stop-color="#2d6f86"/></linearGradient>
+    <linearGradient id="gGreen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d6e6c6"/><stop offset=".5" stop-color="#7f9d73"/><stop offset="1" stop-color="#4f6b4c"/></linearGradient>
+    <linearGradient id="gShine" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".85"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <symbol id="i-work" viewBox="0 0 64 56"><path d="M4 10 Q4 6 8 6 H24 L30 12 H56 Q60 12 60 16 V48 Q60 52 56 52 H8 Q4 52 4 48z" fill="url(#gFolder)" stroke="#8a6116" stroke-width="1.5"/><path d="M6 18 H58 V26 Q32 30 6 26z" fill="url(#gShine)"/></symbol>
+    <symbol id="i-skills" viewBox="0 0 64 56"><g transform="rotate(-20 32 24)"><circle cx="32" cy="24" r="17" fill="url(#gAqua)" stroke="#2d6f86" stroke-width="1.2"/><g clip-path="url(#globeClip)"><g class="spin" fill="#9fc78f" stroke="#4f6b4c" stroke-width=".6"><path transform="translate(14 0)" d="M3 14Q8 9 14 12Q17 18 11 21Q8 27 4 23z M18 26Q25 22 30 27Q27 35 20 36z M22 11Q27 9 31 13Q28 16 24 15z"/><path transform="translate(48 0)" d="M3 14Q8 9 14 12Q17 18 11 21Q8 27 4 23z M18 26Q25 22 30 27Q27 35 20 36z M22 11Q27 9 31 13Q28 16 24 15z"/><path transform="translate(82 0)" d="M3 14Q8 9 14 12Q17 18 11 21Q8 27 4 23z M18 26Q25 22 30 27Q27 35 20 36z M22 11Q27 9 31 13Q28 16 24 15z"/></g></g><ellipse cx="27" cy="15" rx="10" ry="5" fill="url(#gShine)"/></g><path d="M32 3A21 21 0 0 1 32 45" transform="rotate(-20 32 24)" fill="none" stroke="#b98c34" stroke-width="2.6" stroke-linecap="round"/><path d="M32 3A21 21 0 0 1 32 45" transform="rotate(-20 32 24)" fill="none" stroke="#f6dc95" stroke-width=".8" stroke-linecap="round"/><rect x="30.5" y="44" width="3" height="5" fill="#8a6116"/><ellipse cx="32" cy="51" rx="12" ry="3.5" fill="url(#gFolder)" stroke="#8a6116" stroke-width="1"/></symbol>
+    <symbol id="i-about" viewBox="0 0 64 56"><rect x="10" y="4" width="44" height="48" rx="6" fill="url(#gGreen)" stroke="#4f6b4c" stroke-width="1.5"/><circle cx="32" cy="22" r="8" fill="#f5efe0"/><path d="M18 44 Q32 28 46 44z" fill="#f5efe0"/><rect x="12" y="6" width="40" height="14" rx="5" fill="url(#gShine)"/></symbol>
+    <symbol id="i-resume" viewBox="0 0 64 56"><path d="M14 2 H40 L52 14 V54 H14z" fill="url(#gPaper)" stroke="#56607a" stroke-width="1.5"/><path d="M40 2 V14 H52" fill="#c9d3df" stroke="#56607a" stroke-width="1.5"/><path d="M20 22 H46 M20 29 H46 M20 36 H40 M20 43 H44" stroke="#14274e" stroke-opacity=".55" stroke-width="2.5"/></symbol>
+    <symbol id="i-contact" viewBox="0 0 64 56"><rect x="4" y="10" width="56" height="38" rx="5" fill="url(#gPaper)" stroke="#56607a" stroke-width="1.5"/><path d="M6 13 L32 32 L58 13" fill="none" stroke="#56607a" stroke-width="2"/><circle cx="50" cy="40" r="8" fill="#b4512a"/><path d="M50 36 V44 M46 40 H54" stroke="#fff" stroke-width="2"/></symbol>
+    <symbol id="i-home" viewBox="0 0 64 56"><path d="M8 28 L32 6 L56 28 V52 H8z" fill="url(#gPaper)" stroke="#56607a" stroke-width="1.5"/><path d="M4 30 L32 4 L60 30" fill="none" stroke="#b4512a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><rect x="26" y="34" width="12" height="18" rx="2" fill="url(#gGreen)" stroke="#4f6b4c" stroke-width="1.2"/><rect x="12" y="32" width="9" height="8" rx="1.5" fill="#bfe8ef" stroke="#56607a"/><rect x="43" y="32" width="9" height="8" rx="1.5" fill="#bfe8ef" stroke="#56607a"/></symbol>
+    <symbol id="i-route" viewBox="0 0 64 56"><path d="M4 10 L22 4 L42 10 L60 4 V46 L42 52 L22 46 L4 52z" fill="url(#gPaper)" stroke="#56607a" stroke-width="1.5"/><path d="M22 4 V46 M42 10 V52" stroke="#c9d3df" stroke-width="1.5"/><path d="M10 42 C20 34 26 40 34 30 S48 18 52 14" fill="none" stroke="#5aa9bf" stroke-width="3.5" stroke-linecap="round"/><path d="M52 4 C57 4 60 8 60 12 C60 17 52 26 52 26 S44 17 44 12 C44 8 47 4 52 4z" fill="#c25b7d" stroke="#6e1f3b" stroke-width="1.2"/><circle cx="52" cy="12" r="3" fill="#fff"/></symbol>
+    <clipPath id="globeClip"><circle cx="32" cy="24" r="16.4"/></clipPath>
+    <symbol id="leafshape" viewBox="0 0 100 160"><path d="M50 4 C92 40 96 110 50 156 C4 110 8 40 50 4z" fill="url(#gLeaf)"/><path d="M50 14 V150" stroke="#f4f8ec" stroke-opacity=".7" stroke-width="2.5" fill="none"/><path d="M50 50 L30 34 M50 76 L24 58 M50 102 L28 86 M50 50 L70 34 M50 76 L76 58 M50 102 L72 86" stroke="#f4f8ec" stroke-opacity=".45" stroke-width="1.5" fill="none"/><path d="M50 8 C76 32 82 64 70 82 C58 60 48 36 50 8z" fill="#fff" opacity=".28"/></symbol>
+    <symbol id="mapleshape" viewBox="2480 300 4640 4200"><path fill="#d52b1e" d="m4890 4430-45-863a95 95 0 0 1 111-98l859 151-116-320a65 65 0 0 1 20-73l941-762-212-99a65 65 0 0 1-34-79l186-572-542 115a65 65 0 0 1-73-38l-105-247-423 454a65 65 0 0 1-111-57l204-1052-327 189a65 65 0 0 1-91-27l-332-652-332 652a65 65 0 0 1-91 27l-327-189 204 1052a65 65 0 0 1-111 57l-423-454-105 247a65 65 0 0 1-73 38l-542-115 186 572a65 65 0 0 1-34 79l-212 99 941 762a65 65 0 0 1 20 73l-116 320 859-151a95 95 0 0 1 111 98l-45 863z"/></symbol>
+  </defs>
+</svg>
+
+<header class="top"><div class="wrap">
+  <div class="taskbar glass">
+    <span class="halo" id="halo" aria-hidden="true"><i></i><i></i><i></i></span>
+    <span class="eye" id="eye" aria-hidden="true"><span class="sclera"></span><span class="iris" id="iris"><span class="pupil"></span></span><span class="lid"></span></span>
+    <a class="start" href="#top" id="name">Christopher Tritt</a>
+    <button class="snd" id="snd" type="button" aria-pressed="false" aria-label="Sound effects"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/><path class="w" d="M16 9.5a3.5 3.5 0 0 1 0 5M18.5 7a7 7 0 0 1 0 10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path class="m" d="M16 9l5 6M21 9l-5 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+    <button class="flag-btn" id="canada" type="button" aria-pressed="false" aria-label="Canada mode"><svg viewBox="0 0 9600 4800" aria-hidden="true"><rect width="9600" height="4800" fill="#d52b1e"/><rect x="2400" width="4800" height="4800" fill="#fff"/><use href="#mapleshape" x="2480" y="300" width="4640" height="4200"/></svg></button>
+    <button class="quiet-btn" id="quiet" type="button" aria-pressed="false" aria-label="Quiet mode">Quiet</button>
+    <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="nav" aria-label="Menu"><span class="case" aria-hidden="true"><span class="mpaper"><b>Menu</b><i></i><i></i><i></i><i></i><i></i></span><span class="pane"></span></span></button>
+    <nav class="links" id="nav" aria-label="Main">
+      <a href="#work"><svg class="ni" viewBox="0 0 64 56" aria-hidden="true"><use href="#i-work"/></svg><span>Work</span><small class="fr" lang="fr">le travail</small></a><a href="#skills"><svg class="ni" viewBox="0 0 64 56" aria-hidden="true"><use href="#i-skills"/></svg><span>Skills</span><small class="fr" lang="fr">les compétences</small></a><a href="#about"><svg class="ni" viewBox="0 0 64 56" aria-hidden="true"><use href="#i-about"/></svg><span>About</span><small class="fr" lang="fr">à propos</small></a><a href="#resume"><svg class="ni" viewBox="0 0 64 56" aria-hidden="true"><use href="#i-resume"/></svg><span>Resume</span><small class="fr" lang="fr">le CV</small></a><a href="#contact"><svg class="ni" viewBox="0 0 64 56" aria-hidden="true"><use href="#i-contact"/></svg><span>Contact</span><small class="fr" lang="fr">le contact</small></a>
+      <span class="chalkstick" aria-hidden="true"></span>
+    </nav>
+      <button class="clock" id="clock" type="button" aria-label="Clock. Select for a cuckoo.">
+        <svg viewBox="0 0 100 100" aria-hidden="true">
+          <circle cx="50" cy="50" r="49" fill="#cfd5db"/><circle cx="50" cy="50" r="47" fill="#9aa3ab"/>
+          <circle cx="50" cy="50" r="45.5" fill="#fff"/>
+          <g fill="#111"><rect x="48.2" y="6" width="3.6" height="11" transform="rotate(0 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(6 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(12 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(18 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(24 50 50)"/><rect x="48.2" y="6" width="3.6" height="11" transform="rotate(30 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(36 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(42 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(48 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(54 50 50)"/><rect x="48.2" y="6" width="3.6" height="11" transform="rotate(60 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(66 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(72 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(78 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(84 50 50)"/><rect x="48.2" y="6" width="3.6" height="11" transform="rotate(90 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(96 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(102 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(108 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(114 50 50)"/><rect x="48.2" y="6" width="3.6" height="11" transform="rotate(120 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(126 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(132 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(138 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(144 50 50)"/><rect x="48.2" y="6" width="3.6" height="11" transform="rotate(150 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(156 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(162 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(168 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(174 50 50)"/><rect x="48.2" y="6" width="3.6" height="11" transform="rotate(180 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(186 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(192 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(198 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(204 50 50)"/><rect x="48.2" y="6" width="3.6" height="11" transform="rotate(210 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(216 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(222 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(228 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(234 50 50)"/><rect x="48.2" y="6" width="3.6" height="11" transform="rotate(240 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(246 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(252 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(258 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(264 50 50)"/><rect x="48.2" y="6" width="3.6" height="11" transform="rotate(270 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(276 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(282 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(288 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(294 50 50)"/><rect x="48.2" y="6" width="3.6" height="11" transform="rotate(300 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(306 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(312 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(318 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(324 50 50)"/><rect x="48.2" y="6" width="3.6" height="11" transform="rotate(330 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(336 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(342 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(348 50 50)"/><rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(354 50 50)"/></g>
+          <g class="hand" id="hh"><path d="M47.6 62h4.8l-.9-36h-3z" fill="#111"/></g>
+          <g class="hand" id="mh"><path d="M48.3 62h3.4l-.6-50h-2.2z" fill="#111"/></g>
+          <g class="hand sec" id="sh"><path d="M49.4 66h1.2V22h-1.2z" fill="#eb0000"/><circle cx="50" cy="20.5" r="5.2" fill="#eb0000"/></g>
+          <circle cx="50" cy="50" r="1.4" fill="#eb0000"/>
+          <ellipse cx="34" cy="22" rx="24" ry="11" fill="#fff" opacity=".45" transform="rotate(-28 34 22)"/>
+        </svg>
+        <span class="cuckoo" id="cuckoo" aria-hidden="true">
+          <svg viewBox="0 0 44 38"><ellipse cx="20" cy="22" rx="14" ry="12" fill="#7d9a77" stroke="#3e5a3c" stroke-width="1.2"/><path d="M8 22c-6 2-8 8-6 10 4-1 7-4 8-7z" fill="#5d7a5a"/><circle cx="26" cy="14" r="9" fill="#9fbf95" stroke="#3e5a3c" stroke-width="1.2"/><path d="M34 13l8 2-8 3z" fill="#e2a33a" stroke="#8a6116" stroke-width=".8"/><circle cx="28.5" cy="12" r="2.4" fill="#fff"/><circle cx="29.2" cy="12" r="1.3" fill="#0b1630"/><path d="M14 20q6 6 12 2" fill="none" stroke="#3e5a3c" stroke-width="1.2"/><ellipse cx="22" cy="9" rx="5" ry="2.4" fill="#fff" opacity=".45"/><path d="M17 33v4M23 33v4" stroke="#8a6116" stroke-width="1.6" stroke-linecap="round"/></svg>
+          <span class="say" id="cuckooSay">Cuckoo!</span>
+        </span>
+      </button>
+  </div>
+</div></header>
+
+<main class="wrap" id="top">
+  <section class="hero">
+    <div class="win glass">
+      <div class="tb"><span class="tb-t">index.html</span></div>
+      <div class="win-body">
+        <h1>Christopher A. Tritt</h1>
+        <p class="role">Assistant Planner, City of Bellevue Transportation Demand Management</p>
+        <p class="pitch">I'm a transportation planner who builds the tools. I turn program data into dashboards, maps, and plain-language reports that agencies can act on.</p>
+        <div class="ctas">
+          <a class="btn primary" href="#work">View work</a>
+          <a class="btn blue" href="#resume">Resume</a>
+        </div>
+      </div>
+    </div>
+    <div class="win glass route" aria-label="Career route">
+      <div class="tb mac"><span class="tb-t">route.svg</span></div>
+      <div class="win-body">
+        <p class="eyebrow" style="margin-bottom:12px">Route so far</p>
+        <div class="routemap" id="routeMap" role="region" aria-label="Map of the route: Tacoma, Ellensburg, Seattle, Bellevue"></div>
+        <ol>
+          <li><b>Tacoma</b><small>Sixth-generation Pierce County local, Ruston and Proctor roots</small></li>
+          <li><b>Ellensburg</b><small>B.S. Information Technology and Administrative Management, Central Washington University, 2023</small></li>
+          <li><b>Seattle</b><small>Master of Urban Planning, University of Washington, 2026</small></li>
+          <li class="now"><b>Bellevue</b><small>Commute Trip Reduction and TDM, City of Bellevue. Current stop.</small></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <nav class="desk" aria-label="Sections">
+    <a href="#work" class="d-work"><svg viewBox="0 0 64 56" aria-hidden="true"><path d="M4 10Q4 6 8 6H24L30 12H56Q60 12 60 16V48Q60 52 56 52H8Q4 52 4 48z" fill="#c98f2a" stroke="#8a6116" stroke-width="1.5"/>
+<g class="f f1"><rect x="11" y="13" width="15" height="19" rx="1.5" fill="#fff" stroke="#3f74b2"/><path d="M14 18h9M14 21h9M14 24h7M14 27h8" stroke="#3f74b2" stroke-width="1.2"/></g>
+<g class="f f2"><rect x="24.5" y="11" width="16" height="13" rx="1.5" fill="#fff" stroke="#c2553f"/><rect x="24.5" y="11" width="16" height="3" fill="#e2733e"/><path d="M28 21v-3M31 21v-5M34 21v-2M37 21v-4" stroke="#e2733e" stroke-width="1.6"/></g>
+<g class="f f3"><rect x="38" y="13" width="15" height="19" rx="1.5" fill="#fff" stroke="#3e8a4f"/><path d="M38 18h15M38 23h15M38 28h15M43 13v19M48 13v19" stroke="#3e8a4f" stroke-width=".8"/><rect x="38" y="13" width="15" height="5" fill="#7cc58c" opacity=".7"/></g>
+<path d="M4 20H60V48Q60 52 56 52H8Q4 52 4 48z" fill="url(#gFolder)" stroke="#8a6116" stroke-width="1.5"/><path d="M6 22H58V29Q32 33 6 29z" fill="url(#gShine)"/></svg><span>Projects</span></a>
+    <a href="#skills" class="d-skills"><svg viewBox="0 0 64 56" aria-hidden="true"><g transform="rotate(-20 32 24)"><circle cx="32" cy="24" r="17" fill="url(#gAqua)" stroke="#2d6f86" stroke-width="1.2"/><g clip-path="url(#globeClip)"><g class="spin" fill="#9fc78f" stroke="#4f6b4c" stroke-width=".6"><path transform="translate(14 0)" d="M3 14Q8 9 14 12Q17 18 11 21Q8 27 4 23z M18 26Q25 22 30 27Q27 35 20 36z M22 11Q27 9 31 13Q28 16 24 15z"/><path transform="translate(48 0)" d="M3 14Q8 9 14 12Q17 18 11 21Q8 27 4 23z M18 26Q25 22 30 27Q27 35 20 36z M22 11Q27 9 31 13Q28 16 24 15z"/><path transform="translate(82 0)" d="M3 14Q8 9 14 12Q17 18 11 21Q8 27 4 23z M18 26Q25 22 30 27Q27 35 20 36z M22 11Q27 9 31 13Q28 16 24 15z"/></g></g><ellipse cx="27" cy="15" rx="10" ry="5" fill="url(#gShine)"/></g><path d="M32 3A21 21 0 0 1 32 45" transform="rotate(-20 32 24)" fill="none" stroke="#b98c34" stroke-width="2.6" stroke-linecap="round"/><path d="M32 3A21 21 0 0 1 32 45" transform="rotate(-20 32 24)" fill="none" stroke="#f6dc95" stroke-width=".8" stroke-linecap="round"/><rect x="30.5" y="44" width="3" height="5" fill="#8a6116"/><ellipse cx="32" cy="51" rx="12" ry="3.5" fill="url(#gFolder)" stroke="#8a6116" stroke-width="1"/></svg><span>Skills</span></a>
+    <a href="#about" class="d-about"><svg viewBox="0 0 64 56" aria-hidden="true"><rect x="10" y="4" width="44" height="48" rx="6" fill="url(#gGreen)" stroke="#4f6b4c" stroke-width="1.5"/><circle cx="32" cy="22" r="8" fill="#f5efe0"/><path d="M18 44Q32 28 46 44z" fill="#f5efe0"/><rect x="12" y="6" width="40" height="14" rx="5" fill="url(#gShine)"/>
+<g class="ci" style="--x:-25px;--y:-16px"><circle cx="32" cy="28" r="8" fill="#c25b7d" stroke="#fff" stroke-width="1.2"/><rect x="27.5" y="25" width="9" height="6.5" rx="1" fill="#fff"/><path d="M27.8 25.5l4.2 3.2 4.2-3.2" fill="none" stroke="#c25b7d" stroke-width="1"/></g>
+<g class="ci" style="--x:25px;--y:-16px"><circle cx="32" cy="28" r="8" fill="#5d7a5a" stroke="#fff" stroke-width="1.2"/><path d="M29 24.5c-.8 0-1.5.7-1.4 1.6.5 3.5 2.8 5.8 6.3 6.3.9.1 1.6-.6 1.6-1.4v-1.4l-2.2-.7-1 1c-1.3-.6-2.3-1.6-2.9-2.9l1-1-.7-2.2z" fill="#fff"/></g>
+<g class="ci" style="--x:-27px;--y:12px"><circle cx="32" cy="28" r="8" fill="#3f9cb8" stroke="#fff" stroke-width="1.2"/><path d="M27.5 24.5h9a1.5 1.5 0 0 1 1.5 1.5v3.5a1.5 1.5 0 0 1-1.5 1.5H31l-2.5 2v-2h-1a1.5 1.5 0 0 1-1.5-1.5V26a1.5 1.5 0 0 1 1.5-1.5z" fill="#fff"/></g>
+<g class="ci" style="--x:27px;--y:12px"><circle cx="32" cy="28" r="8" fill="#b98c34" stroke="#fff" stroke-width="1.2"/><rect x="26.5" y="26" width="7" height="4" rx="2" fill="none" stroke="#fff" stroke-width="1.4"/><rect x="30.5" y="26" width="7" height="4" rx="2" fill="none" stroke="#fff" stroke-width="1.4"/></g></svg><span>About me</span></a>
+    <a href="#resume" class="d-resume"><svg viewBox="0 0 64 56" aria-hidden="true"><path d="M14 2 H40 L52 14 V54 H14z" fill="url(#gPaper)" stroke="#56607a" stroke-width="1.5"/><path d="M40 2 V14 H52" fill="#c9d3df" stroke="#56607a" stroke-width="1.5"/><path d="M20 22 H46 M20 29 H46 M20 36 H40" stroke="#14274e" stroke-opacity=".55" stroke-width="2.5"/><path class="sig" d="M19 46c2-4 4 1 6-2s3-3 4 0 2 2 4-1 3 2 5 1 3-2 5 0" fill="none" stroke="#1f4fa8" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/><g class="pen" transform="translate(40 49) rotate(38)"><g class="penmove">
+<path d="M0 0l-1.6-5h3.2z" fill="#9aa3ab"/><circle cx="0" cy="-.4" r=".6" fill="#1f4fa8"/>
+<rect x="-2.6" y="-13" width="5.2" height="8" rx="1" fill="#cfe3f7" stroke="#7d9cc0" stroke-width=".5"/>
+<path d="M-2.6 -11h5.2M-2.6 -9h5.2M-2.6 -7h5.2" stroke="#7d9cc0" stroke-width=".4"/>
+<rect x="-3" y="-35" width="6" height="22.5" rx="1.4" fill="#fbfbf8" stroke="#a9b0b6" stroke-width=".6"/>
+<path d="M-1.6 -34v20" stroke="#fff" stroke-width="1.1" stroke-linecap="round"/>
+<rect class="plunger" x="-1.9" y="-39.5" width="3.8" height="5" rx="1" fill="#1f4fa8"/>
+<path d="M3 -33.5h1.6v12.5a1 1 0 0 1-1 1H3" fill="#1f4fa8"/>
+</g></g></svg><span>Resume</span></a>
+    <a href="#contact" class="d-contact"><svg viewBox="0 0 64 56" aria-hidden="true"><rect x="4" y="16" width="56" height="36" rx="4" fill="#cdd6e1" stroke="#56607a" stroke-width="1.5"/>
+<path class="flap-open" d="M4 16H60L32 -2z" fill="#e6ecf3" stroke="#56607a" stroke-width="1.5" stroke-linejoin="round"/>
+<g class="letter"><rect x="13" y="12" width="38" height="30" rx="2" fill="#fff" stroke="#b9c3cc"/><text x="32" y="33" text-anchor="middle" font-family="Georgia,serif" font-size="20" font-weight="700" fill="#2f6fb0">@</text></g>
+<path d="M4 22L32 38L60 22V48Q60 52 56 52H8Q4 52 4 48z" fill="url(#gPaper)" stroke="#56607a" stroke-width="1.5" stroke-linejoin="round"/>
+<path class="flap-closed" d="M4.5 16.5H59.5L32 35z" fill="url(#gPaper)" stroke="#56607a" stroke-width="1.5" stroke-linejoin="round"/>
+<circle cx="52" cy="44" r="7" fill="#b4512a"/><path d="M52 40.5V47.5M48.5 44H55.5" stroke="#fff" stroke-width="2"/></svg><span>Contact</span></a>
+  </nav>
+
+  <section class="block" id="work">
+    <div class="win glass">
+      <div class="tb aqua"><span class="tb-t">projects.html</span></div>
+      <div class="win-body">
+        <div class="head">
+          <div>
+            <p class="eyebrow">Selected work</p>
+            <h2>Projects</h2>
+            <p>Five case studies across transportation, environment, housing, and public health. Select a project to read how it was done.</p>
+          </div>
+        </div>
+        <div class="grid" id="grid"></div>
+        <p class="empty" id="empty" hidden>No projects with that tag yet.</p>
+
+        <div class="support" aria-label="More projects">
+          <div><b>TDM White Paper and Progress Report</b><span>Long-form policy writing for Bellevue, Section 508 and WCAG 2.1 compliant, Chicago citations</span></div>
+          <div><b>Program Activities Dashboard</b><span>Power Apps on SharePoint for tracking outreach and grant reporting</span></div>
+          <div><b>HUGs eligibility search tool</b><span>Public web tool for Choose Your Way Bellevue program eligibility</span></div>
+          <div><b>Permeable pavement and flood vulnerability</b><span>Seattle-Tacoma rail corridor pilot, co-authored with Yasmeen Sobaih</span></div>
+          <div><b>Seoul and Pacific Northwest nature-based solutions</b><span>Comparative policy research for Professor Chang-Hee Christine Bae</span></div>
+          <div><b>Grays Harbor tsunami and sea-level rise mapping</b><span>Hazard layers converted for web mapping</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="skills">
+    <div class="win glass">
+      <div class="tb green"><span class="tb-t">skills.md</span></div>
+      <div class="win-body">
+        <div class="head"><div><p class="eyebrow">What I do</p><h2>Three kinds of work</h2></div></div>
+        <div class="cols">
+          <div><h3>Demand management</h3><p>Commute Trip Reduction program support, employer outreach, ORCA sign-up events, and travel training, including a light rail trip for 20 seniors.</p></div>
+          <div><h3>Spatial analysis</h3><p>Geocoding, hazard and environmental constraints mapping, GTFS and network analysis, and 3D site modeling for housing infill.</p></div>
+          <div class="term">
+            <h3>Data tools</h3>
+            <p>Python pipelines, Power BI dashboards, and Power Platform apps that turn scattered spreadsheets into something a team can use every week.</p>
+          </div>
+        </div>
+        <div class="tickerband" role="img" aria-label="Tools: ArcGIS Pro, QGIS, Python, SQL, R, Blender, Power BI, Power Apps, SharePoint, Tableau, Adobe Creative Cloud">
+          <div class="trow orange" aria-hidden="true"><div class="ttrack"><span>ARCGIS PRO</span><span>QGIS</span><span>PYTHON</span><span>SQL</span><span>R</span><span>BLENDER</span><span>ARCGIS PRO</span><span>QGIS</span><span>PYTHON</span><span>SQL</span><span>R</span><span>BLENDER</span><span>ARCGIS PRO</span><span>QGIS</span><span>PYTHON</span><span>SQL</span><span>R</span><span>BLENDER</span><span>ARCGIS PRO</span><span>QGIS</span><span>PYTHON</span><span>SQL</span><span>R</span><span>BLENDER</span></div></div>
+          <div class="trow green" aria-hidden="true"><div class="ttrack rev"><span>POWER BI</span><span>POWER APPS</span><span>SHAREPOINT</span><span>TABLEAU</span><span>ADOBE CREATIVE CLOUD</span><span>POWER BI</span><span>POWER APPS</span><span>SHAREPOINT</span><span>TABLEAU</span><span>ADOBE CREATIVE CLOUD</span><span>POWER BI</span><span>POWER APPS</span><span>SHAREPOINT</span><span>TABLEAU</span><span>ADOBE CREATIVE CLOUD</span></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="about">
+    <div class="win glass">
+      <div class="tb brass"><span class="tb-t">about.md</span></div>
+      <div class="win-body about">
+        <figure class="portrait portrait-soon"><svg viewBox="0 0 200 250" role="img" aria-label="Portrait coming soon"><defs><radialGradient id="ptHead" cx=".4" cy=".35" r=".7"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#cfe5f8"/></radialGradient><linearGradient id="ptBody" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e9f5ff"/><stop offset="1" stop-color="#a9cdef"/></linearGradient></defs><circle cx="100" cy="96" r="44" fill="url(#ptHead)" stroke="#fff" stroke-width="3"/><path d="M30 250c0-52 32-86 70-86s70 34 70 86z" fill="url(#ptBody)" stroke="#fff" stroke-width="3"/><ellipse cx="86" cy="76" rx="16" ry="9" fill="#fff" opacity=".8" transform="rotate(-25 86 76)"/></svg><figcaption>Photo coming soon</figcaption></figure>
+        <div>
+          <p class="eyebrow">About</p>
+          <h2 style="font-size:clamp(28px,4.4vw,44px);margin:6px 0 18px">Why transportation</h2>
+          <p>I ride the 594 between Tacoma and Seattle, and that bus shapes my week more than any plan I've read. Ride Together Pierce featured my story about it in October 2025, and it's still the clearest answer I have for why I do this work.</p>
+          <p>My family has been in Pierce County for six generations, rooted in Ruston and Proctor. I came to planning through information technology and project management at Central Washington University, then finished a Master of Urban Planning at the University of Washington in 2026.</p>
+          <p>At the City of Bellevue I work on the Transportation Demand Management team, supporting Choose Your Way Bellevue and the Commute Trip Reduction program. I build the data tools the team relies on and spend a lot of time at tables, schools, and transit stations talking with people about how they get around.</p>
+          <ul class="facts">
+            <li>Hopelink Find a Ride Technical Advisors Committee</li>
+            <li>WSDOT and ODOT Network Analysis Tool pilot</li>
+            <li>Volunteer, Bellevue SchoolPool</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="resume">
+    <div class="win glass paper">
+      <div class="tb plum"><span class="tb-t">resume.pdf</span></div>
+      <div class="win-body">
+        <div class="head"><div><p class="eyebrow">Resume</p><h2>Experience and education</h2></div></div>
+        <div class="cv">
+          <div>
+            <h3>Experience</h3>
+            <dl>
+              <dt>Assistant Planner, City of Bellevue</dt>
+              <dd><span class="yr">2025 – present</span><br>Transportation Demand Management and Commute Trip Reduction</dd>
+              <dt>UW Climate Impacts Group</dt>
+              <dd>Climate adaptation research support</dd>
+              <dt>Metro Parks Tacoma</dt>
+              <dd>Daily public-facing community engagement</dd>
+              <dt>Amazon Go</dt>
+              <dd>Customer-facing operations</dd>
+            </dl>
+          </div>
+          <div>
+            <h3>Education</h3>
+            <dl>
+              <dt>Master of Urban Planning, University of Washington</dt>
+              <dd><span class="yr">2026</span><br>Transportation, green stormwater infrastructure, climate adaptation</dd>
+              <dt>B.S. Information Technology and Administrative Management, Central Washington University</dt>
+              <dd><span class="yr">2023</span><br>Project management, database design, programming</dd>
+            </dl>
+            <p class="note">The resume PDF will be added here when available. Add <code>docs/resume.pdf</code> to activate the preview.</p><object class="resume-embed" data="/docs/resume.pdf" type="application/pdf" aria-label="Resume PDF preview"><p>Resume preview will appear here once <code>/docs/resume.pdf</code> is added.</p></object>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="contact">
+    <div class="win glass">
+      <div class="tb rose"><span class="tb-t">contact.vcf</span></div>
+      <div class="win-body contact">
+        <div><h2>Let's talk</h2><p>Open to transportation, environmental, and data-focused planning roles.</p></div>
+        <div class="mail">
+          <a class="maillink" href="mailto:christopheratritt@gmail.com">christopheratritt@gmail.com</a>
+          <a class="btn primary" href="mailto:christopheratritt@gmail.com">Email me</a>
+          <a class="btn blue" id="linkedin" href="https://www.linkedin.com/in/christophertritt/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <nav class="dock glass" id="dock" aria-label="Minimized windows" hidden></nav>
+  <footer class="statusbar glass">
+    <span id="done">© 2026 Christopher Tritt</span>
+    <a href="#credits">Credits &amp; sources</a>
+    <span class="archive-links"><a href="/blog/">Blog</a> · <a href="/planets-table/">Experiments</a> · <a href="/wanted-poster/">Archive</a></span>
+  </footer>
+</main>
+
+<dialog id="case" aria-labelledby="cs-title">
+  <div class="tb"><span class="tb-t" id="cs-file">case_study.pdf</span><button class="x" type="button" id="cs-close" aria-label="Close case study">×</button></div>
+  <div class="win7 w7-read"><div role="progressbar" aria-label="Reading progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="csProg" style="width:0%"></div></div></div>
+  <div class="cs" id="cs"></div>
+</dialog>
+
+<dialog id="transit" class="mini" aria-labelledby="tr-title">
+  <div class="tb aqua"><span class="tb-t">stop_times.txt</span><button class="x" type="button" data-close aria-label="Close">×</button></div>
+  <div class="mini-body">
+    <p class="eyebrow">Secret unlocked</p>
+    <h2 id="tr-title">Departure board</h2>
+    <div class="board" role="table" aria-label="Favorite routes">
+      <div class="row" role="row"><span class="rt" role="cell">594</span><span role="cell"><b>Seattle</b><small>The bus from my Ride Together Pierce story</small></span><span class="due" role="cell" data-min="4">4 min</span></div>
+      <div class="row" role="row"><span class="rt lr" role="cell">2</span><span role="cell"><b>Bellevue to Seattle</b><small>Rode it with 20 seniors and their Try Transit cards</small></span><span class="due" role="cell" data-min="9">9 min</span></div>
+      <div class="row" role="row"><span class="rt walk" role="cell">WALK</span><span role="cell"><b>Ruston Way</b><small>Home turf, six generations deep</small></span><span class="due" role="cell">Always</span></div>
+    </div>
+  </div>
+</dialog>
+
+<dialog id="lost" class="mini" aria-labelledby="lost-title">
+  <div class="tb rose"><span class="tb-t">404.html</span><button class="x" type="button" data-close aria-label="Close">×</button></div>
+  <div class="mini-body">
+    <p class="eyebrow">Error 404</p>
+    <h2 id="lost-title">This route has been discontinued</h2>
+    <div class="win7 w7-err"><p class="w7-msg"><span class="w7-icon" aria-hidden="true">!</span>route594.exe has stopped working. Windows is checking for a new route.</p><div role="progressbar" class="marquee" aria-label="Looking for a new route"></div></div>
+    <p>The stop you were looking for isn't on the schedule anymore. Transfers are free, so try one of these.</p>
+    <div class="ctas"><a class="btn primary" href="#work" data-close>Projects</a><a class="btn ghost" href="#about" data-close>About</a><a class="btn ghost" href="#resume" data-close>Resume</a></div>
+  </div>
+</dialog>
+
+<dialog id="palette" class="mini palette" aria-labelledby="palette-title">
+  <div class="tb aqua"><span class="tb-t">command_palette.exe</span><button class="x" type="button" data-close aria-label="Close">×</button></div>
+  <div class="mini-body">
+    <p class="eyebrow">Quick route</p>
+    <h2 id="palette-title">Where to next?</h2>
+    <input id="palette-input" class="palette-input" type="search" placeholder="Try “projects”, “terminal”, or “contact”" autocomplete="off">
+    <div id="palette-results" class="palette-results"></div>
+  </div>
+</dialog>
+
+<dialog id="terminal" class="mini terminal" aria-labelledby="terminal-title">
+  <div class="tb green"><span class="tb-t">route594 terminal</span><button class="x" type="button" data-close aria-label="Close">×</button></div>
+  <div class="mini-body">
+    <p class="eyebrow">Interactive route planner</p>
+    <h2 id="terminal-title">Terminal</h2>
+    <div class="win7 w7-boot" id="termBoot"><p class="w7-msg">Connecting to route594…</p><div role="progressbar" class="animate" aria-label="Connecting"><div id="termProg" style="width:0%"></div></div></div>
+    <div id="terminal-output" class="terminal-output" aria-live="polite"><div>Type <b>help</b> for available commands.</div></div>
+    <form id="terminal-form" class="terminal-form">
+      <label for="terminal-input"><span>route594@christopher:~$</span></label>
+      <input id="terminal-input" type="text" autocomplete="off" spellcheck="false" aria-label="Terminal command">
+    </form>
+  </div>
+</dialog>
+
+<dialog id="debug" class="mini debug" aria-labelledby="debug-title">
+  <div class="tb plum"><span class="tb-t">debug.vim</span><button class="x" type="button" data-close aria-label="Close">×</button></div>
+  <div class="mini-body">
+    <p class="eyebrow">Hidden route</p>
+    <h2 id="debug-title">:help christopher</h2>
+    <pre class="vim-screen"><span class="vim-comment">" A tiny field guide to this site</span>
+    <span class="vim-key">g</span> <span class="vim-text">projects</span>     jump to selected work
+<span class="vim-key">g</span> <span class="vim-text">about</span>        read the route story
+<span class="vim-key">g</span> <span class="vim-text">resume</span>       open experience
+<span class="vim-key">:q</span>             close this window
+
+<span class="vim-comment">" Tip: press ⌘K or Ctrl-K for the command palette.</span></pre>
+  </div>
+</dialog>
+
+<dialog id="credits" class="mini credits" aria-labelledby="credits-title">
+  <div class="tb brass"><span class="tb-t">third_party_notices.txt</span><button class="x" type="button" data-close aria-label="Close">×</button></div>
+  <div class="mini-body">
+    <p class="eyebrow">Sources and licenses</p>
+    <h2 id="credits-title">Credits</h2>
+    <p>Homepage project photography is credited on each image.</p>
+    <p>The homepage uses <a href="https://fonts.google.com/" target="_blank" rel="noopener noreferrer">Google Fonts</a> families Tinos, IBM Plex Mono, Silkscreen, Parisienne, Comic Neue, Caveat, Cabin Sketch, and Dancing Script.</p>
+    <p>Legacy projects retain their original image attributions in their own pages. Planet image sources and public-domain status are documented in <a href="https://github.com/christophertritt/christophertritt.github.io/blob/main/THIRD-PARTY-NOTICES.md" target="_blank" rel="noopener noreferrer">THIRD-PARTY-NOTICES.md</a>.</p>
+  </div>
+</dialog>
+
+<dialog id="environment" class="mini" aria-labelledby="environment-title">
+  <div class="tb green"><span class="tb-t">puget_conditions.json</span><button class="x" type="button" data-close aria-label="Close">×</button></div>
+  <div class="mini-body">
+    <p class="eyebrow">Live conditions</p>
+    <h2 id="environment-title">Puget Sound conditions</h2>
+    <p id="environment-status">Loading current conditions from Open-Meteo for Bellevue, Washington.</p>
+    <div id="environment-data" class="environment-data"></div>
+    <p class="note">Weather data is fetched in your browser from <a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer">Open-Meteo</a>; no API key is used.</p>
+  </div>
+</dialog>
+
+<aside class="wx" id="wx" aria-label="Current weather in Bellevue. Drag the bubbles to move them."></aside>
+
+<div id="fx" aria-hidden="true"></div>
+
+<div class="bus" id="bus" aria-hidden="true">
+  <svg viewBox="0 0 220 90"><rect x="6" y="8" width="204" height="62" rx="12" fill="#f5efe0" stroke="#14274e" stroke-width="3"/><rect x="6" y="46" width="204" height="10" fill="#3f9cb8"/><rect x="6" y="56" width="204" height="6" fill="#7d9a77"/>
+  <g fill="#bfe8ef" stroke="#14274e" stroke-width="2"><rect x="18" y="18" width="30" height="22" rx="3"/><rect x="54" y="18" width="30" height="22" rx="3"/><rect x="90" y="18" width="30" height="22" rx="3"/><rect x="126" y="18" width="30" height="22" rx="3"/><rect x="164" y="18" width="36" height="36" rx="4"/></g>
+  <rect x="166" y="10" width="32" height="10" rx="2" fill="#14274e"/><text x="182" y="18" text-anchor="middle" font-family="Silkscreen,monospace" font-size="8" fill="#e2c27a">594</text>
+  <path d="M20 20h28" stroke="#fff" stroke-opacity=".7" stroke-width="2"/>
+  <g><circle cx="48" cy="72" r="13" fill="#14274e"/><circle cx="48" cy="72" r="5" fill="#c9d3df"/><circle cx="170" cy="72" r="13" fill="#14274e"/><circle cx="170" cy="72" r="5" fill="#c9d3df"/></g>
+  <circle cx="206" cy="60" r="3" fill="#e2c27a"/></svg>
+</div>
+
+<div class="wp" id="wp" hidden>
+  <div class="balloon glass" role="dialog" aria-label="Hieye site helper" aria-live="polite">
+    <p class="wp-name">Hieye</p>
+    <p id="wp-line">I am Hieye. I watch the windows, notice your clicks, and know where the next stop is.</p>
+    <div class="wp-acts">
+      <button type="button" class="btn primary" data-go="ctr">Show me a project</button>
+      <button type="button" class="btn ghost" data-go="resume">Resume, please</button>
+      <button type="button" class="btn ghost" data-go="tour">Give me the tour</button>
+      <button type="button" class="btn ghost" data-go="tip">Another tip</button>
+      <button type="button" class="btn ghost" data-go="bye">Go away</button>
+    </div>
+  </div>
+
+</div>
+
+  <script src="/js/vendor/winbox.bundle.min.js?v=20261020b" defer></script>
+  <script src="/js/vendor/vanilla-tilt.min.js?v=20261020b" defer></script>
+  <script src="/js/vendor/confetti.browser.js?v=20261020b" defer></script>
+  <script src="/js/vendor/rough-notation.iife.js?v=20261020b" defer></script>
+  <script src="/js/vendor/leaflet.js?v=20261020b" defer></script>
+  <script src="/js/vendor/driver.js.iife.js?v=20261020b" defer></script>
+  <script src="/js/home-data.js?v=20261020b" defer></script>
+  <script src="/js/home.js?v=20261020b" defer></script>
+
+</body></html>

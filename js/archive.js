@@ -34,8 +34,8 @@ function toast(msg){
 }
 
 /* back to the desktop, with a little eye that watches you */
-const home=document.createElement("a");home.className="ax-home";home.href="/";
-home.innerHTML='<span class="ax-eye" aria-hidden="true"><span class="ax-iris"></span><span class="ax-lid"></span></span><span>Back to desktop</span>';
+const home=document.createElement("a");home.className="ax-home";home.href="/portfolio/";
+home.innerHTML='<span class="ax-eye" aria-hidden="true"><span class="ax-iris"></span><span class="ax-lid"></span></span><span>Back to portfolio</span>';
 document.body.appendChild(home);
 const axEye=$(".ax-eye",home), axIris=$(".ax-iris",home);
 addEventListener("pointermove",e=>{const r=axEye.getBoundingClientRect(),dx=e.clientX-r.left-r.width/2,dy=e.clientY-r.top-r.height/2,d=Math.hypot(dx,dy)||1,m=Math.min(6,d/20);

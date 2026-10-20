@@ -1,0 +1,34 @@
+name: Refresh feeds
+
+on:
+  schedule:
+    - cron: "17 * * * *"   # every hour at :17
+  workflow_dispatch:
+  push:
+    paths:
+      - feeds/feeds.json
+      - scripts/fetch-feeds.mjs
+
+permissions:
+  contents: write
+
+concurrency:
+  group: feeds
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install --no-save --no-package-lock fast-xml-parser@4.5.0
+      - run: node scripts/fetch-feeds.mjs
+      - name: Commit if anything changed
+        run: |
+          git config user.name "feed-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add feeds/items.json
+          git diff --cached --quiet || (git commit -m "Refresh feeds" && git push)

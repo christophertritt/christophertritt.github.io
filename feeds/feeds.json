@@ -1,0 +1,14 @@
+{
+  "note": "Edit this list to change what the start page reads. The GitHub Action fetches these every hour and writes feeds/items.json.",
+  "perFeed": 25,
+  "feeds": [
+    { "id": "planetizen", "name": "Planetizen", "url": "https://www.planetizen.com/frontpage/feed", "site": "https://www.planetizen.com", "color": "#2f86d6", "topic": "Planning" },
+    { "id": "urbanist", "name": "The Urbanist", "url": "https://www.theurbanist.org/rss/", "site": "https://www.theurbanist.org", "color": "#4a9a3a", "topic": "Seattle" },
+    { "id": "stb", "name": "Seattle Transit Blog", "url": "https://seattletransitblog.com/feed/", "site": "https://seattletransitblog.com", "color": "#1f7a99", "topic": "Transit" },
+    { "id": "streetsblog", "name": "Streetsblog USA", "url": "https://usa.streetsblog.org/feed", "site": "https://usa.streetsblog.org", "color": "#e08a0c", "topic": "Transportation" },
+    { "id": "humantransit", "name": "Human Transit", "url": "https://humantransit.org/feed", "site": "https://humantransit.org", "color": "#7a4f96", "topic": "Transit" },
+    { "id": "strongtowns", "name": "Strong Towns", "url": "https://www.strongtowns.org/journal/rss.xml", "site": "https://www.strongtowns.org", "color": "#b23a62", "topic": "Planning" },
+    { "id": "cascadepbs", "name": "Cascade PBS", "url": "https://www.cascadepbs.org/rss/", "site": "https://www.cascadepbs.org", "color": "#3e5a8a", "topic": "Northwest news" },
+    { "id": "smartcities", "name": "Smart Cities Dive", "url": "https://www.smartcitiesdive.com/feeds/news/", "site": "https://www.smartcitiesdive.com", "color": "#5d7a5a", "topic": "Data and cities" }
+  ]
+}

@@ -1,6 +1,11 @@
 # Third-party notices
 
-## Homepage
+## Start page
+
+- The start page reads headlines and short excerpts from public RSS feeds listed in `feeds/feeds.json`. A GitHub Action (`.github/workflows/feeds.yml`) fetches them hourly with [fast-xml-parser](https://github.com/NaturalIntelligence/fast-xml-parser) (MIT) and saves `feeds/items.json`. Every item links back to the original article; the content belongs to each publisher.
+- Search sends your query to Google, Google Scholar or Google Maps. The Tacoma weather chip uses [Open-Meteo](https://open-meteo.com/).
+
+## Portfolio (`/portfolio/`)
 
 - Homepage project photographs are credited in the project cards and case studies. Their source links and licenses are stored in `js/home.js`.
 - The homepage loads Tinos, IBM Plex Mono, Silkscreen, Parisienne, Comic Neue, Caveat, Cabin Sketch, and Dancing Script from [Google Fonts](https://fonts.google.com/). Google Fonts distributes these families under their individual open-source licenses; see the family pages for the current license text.
