@@ -11,7 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = (ROOT / "portfolio/_source.html").read_text()
-VERSION = "20261020g"
+VERSION = "20261020h"
 
 PAGES = {  # section id -> (folder, page title, theme)
     "work": ("projects", "Projects", "airport"),
@@ -29,7 +29,7 @@ def cut(start, end, s=SRC):
 
 head = SRC[: SRC.index('<main class="wrap" id="top">')]
 tail = SRC[SRC.index("</main>") + len("</main>"):]
-hero = cut('  <section class="hero">', "  </section>")
+hero = cut('  <section class="hero"', "  </section>")
 desk = cut('  <nav class="desk"', "  </nav>")
 dock_footer = cut('  <nav class="dock glass"', "  </footer>")
 sections = {sid: cut(f'  <section class="block" id="{sid}">', "  </section>") for sid in PAGES}
@@ -95,17 +95,20 @@ def page(title, body_class, main_html, theme=None):
         h = h.replace('<div class="sky" aria-hidden="true">', THEMES[theme] + '\n<div class="sky" aria-hidden="true">', 1)
         h = h.replace('<a class="skip" href="#work">Skip to projects</a>', '<a class="skip" href="#main-win">Skip to content</a>')
     else:
-        h = h.replace('<a class="skip" href="#work">Skip to projects</a>', '<a class="skip" href="#top">Skip to content</a>')
+        h = h.replace('<a class="skip" href="#work">Skip to projects</a>', '<a class="skip" href="#hero">Skip to content</a>')
     t = tail.replace('<script src="/js/home.js', '<script src="/js/sections.js?v=x" defer></script>\n  <script src="/js/home.js', 1)
     return versioned(relink(h + '<main class="wrap" id="top">\n' + main_html + dock_footer + "\n</main>" + t))
 
 # hub: the desktop with the two hero windows and the icons
 hub_desk = desk.replace('<nav class="desk" aria-label="Sections">', '<nav class="desk" aria-label="Open a window">')
-(ROOT / "portfolio/index.html").write_text(page("Christopher A. Tritt", "portfolio-hub", hero + "\n\n" + hub_desk + "\n\n"))
+hub = page("Christopher A. Tritt", "portfolio-hub", hero + "\n\n" + hub_desk + "\n\n")
+hub = hub.replace('<a href="/portfolio/"><span>Desktop</span></a>', '<a href="/portfolio/" aria-current="page"><span>Desktop</span></a>', 1)
+(ROOT / "portfolio/index.html").write_text(hub)
 
 for sid, (folder, name, theme) in PAGES.items():
     sec = sections[sid]
     sec = sec.replace('<div class="win glass', '<div id="main-win" class="win fullwin glass', 1)
+    sec = re.sub(r"<h2(\b[^>]*)>(.*?)</h2>", r"<h1\1>\2</h1>", sec, count=1, flags=re.S)
     html = page(f"{name} · Christopher A. Tritt", f"section-page theme-{theme}", sec + "\n\n", theme)
     # mark the current page in the menu
     html = html.replace(f'<a href="{URL[sid]}">', f'<a href="{URL[sid]}" aria-current="page">', 1)

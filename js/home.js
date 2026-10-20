@@ -1,6 +1,8 @@
 /* the portfolio is a hub plus one page per window */
 const PAGES={work:"/portfolio/projects/",skills:"/portfolio/skills/",about:"/portfolio/about/",resume:"/portfolio/resume/",contact:"/portfolio/contact/"};
 const isSectionPage=document.body.classList.contains("section-page");
+/* links from the old single-page portfolio (#work, #about…) forward to their pages */
+(()=>{const h=location.hash.slice(1);if(!isSectionPage&&PAGES[h]&&!document.getElementById(h))location.replace(PAGES[h])})();
 function goSection(id){const el=document.getElementById(id);if(el&&!el.closest("[hidden]"))el.scrollIntoView();else if(PAGES[id])location.href=PAGES[id]}
 const grid = document.getElementById("grid") || document.createElement("div");
 grid.innerHTML = projects.map(p=>`<button class="card glass" type="button" data-c="${p.tags[0]}" data-id="${p.id}" data-tags="${p.tags.join(" ")}">
@@ -430,6 +432,7 @@ document.querySelectorAll("main .win > .tb").forEach(tb=>{
     const goHub=()=>{whoosh();win.classList.add("closing");setTimeout(()=>location.href="/portfolio/",reduce?0:240)};
     lights.querySelector(".close").addEventListener("click",goHub);lights.querySelector(".min").addEventListener("click",goHub);
     lights.querySelector(".close").setAttribute("aria-label",`Close ${name} and go back to the portfolio desktop`);
+    lights.querySelector(".min").setAttribute("aria-label",`Minimize ${name} to the portfolio desktop`);
     lights.querySelector(".max").addEventListener("click",()=>setMax(!win.classList.contains("maxed")));
     return;
   }

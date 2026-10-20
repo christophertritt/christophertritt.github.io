@@ -127,3 +127,7 @@ body.mountain-out .mtn-pill{background:radial-gradient(circle at 30% 20%,#fff,tr
 @media (prefers-reduced-motion:reduce){.theme-art *,.stars{animation:none!important}}
 .win>.stamped{position:absolute!important}
 .section-page .fullwin.glass{background:color-mix(in srgb,var(--glass) 80%,transparent)}
+/* section headings are the page h1 now; keep their old look */
+.head h1{font-size:clamp(28px,4.4vw,44px);margin-top:6px}
+.contact h1{font-size:clamp(26px,3.6vw,38px)}
+.theme-terminal #skills h1{font:700 clamp(22px,3.4vw,32px)/1.1 "IBM Plex Mono",monospace;color:#fff;letter-spacing:.02em;text-transform:uppercase}

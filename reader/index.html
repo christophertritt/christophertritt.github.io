@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex">
   <meta name="description" content="Christopher Tritt's start page: search and the day's planning and transit news.">
-  <title>Feeds · Christopher Tritt</title>
+  <title>Feeds · Christopher A. Tritt</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&family=Comic+Neue:wght@700&family=Dancing+Script:wght@600;700&display=swap">
-  <link rel="stylesheet" href="/css/home.css?v=20261020d">
-  <link rel="stylesheet" href="/css/start.css?v=20261020d">
+  <link rel="stylesheet" href="/css/home.css?v=20261020i">
+  <link rel="stylesheet" href="/css/start.css?v=20261020i">
 </head>
 <body class="start-page reader-page">
 <a class="skip" href="#items">Skip to stories</a>
@@ -40,6 +40,7 @@
         <a class="pm-forecast" id="pmForecast" href="https://forecast.weather.gov/" target="_blank" rel="noopener">Full forecast ↗</a>
       </div>
     </div>
+    <a class="btn ghost to-start" href="/">← Start</a>
     <a class="btn blue to-portfolio" href="/portfolio/">Portfolio</a>
     <span class="clock" id="clock" role="img" aria-label="Pacific time">
       <svg viewBox="0 0 100 100" aria-hidden="true">
@@ -56,13 +57,14 @@
 </div></header>
 
 <main class="wrap start" id="top">
+  <h1 class="vh">Feeds</h1>
   <section class="win glass reader fullwin" aria-labelledby="readerTitle">
-    <div class="tb"><span class="lights"><a class="lt close" href="/" data-close aria-label="Close and go back to the desktop">×</a><a class="lt min" href="/" data-close aria-label="Minimize to the desktop">−</a><button type="button" class="lt max" id="zoomBtn" aria-pressed="false" aria-label="Zoom: hide the taskbar">+</button></span><span class="tb-t" id="readerTitle">feeds.opml</span></div>
+    <div class="tb"><span class="lights"><a class="lt close" href="/" data-close aria-label="Close Feeds and go back to the start page">×</a><a class="lt min" href="/" data-close aria-label="Minimize Feeds to the start page">−</a><button type="button" class="lt max" id="zoomBtn" aria-pressed="false" aria-label="Maximize Feeds (hides the taskbar)">+</button></span><span class="tb-t" id="readerTitle">feeds.opml</span></div>
     <div class="reader-body">
-      <aside class="feedlist" aria-label="Feeds">
+      <nav class="feedlist" aria-label="Feeds">
         <ul id="feedlist"></ul>
         <p class="updated" id="updated" aria-live="polite">Loading feeds…</p>
-      </aside>
+      </nav>
       <div class="stream">
         <div class="toolbar">
           <label class="filter"><span class="vh">Search your feeds</span><input id="filter" type="search" placeholder="Search your feeds" autocomplete="off"></label>
@@ -80,6 +82,6 @@
 
 </main>
 
-<script src="/js/start.js?v=20261020d" defer></script>
+<script src="/js/start.js?v=20261020i" defer></script>
 </body>
 </html>

@@ -126,7 +126,7 @@ function pool(){const all=[...data.items];
 function renderFeeds(){
   const all=pool(), un=f=>all.filter(i=>(!f||i.feed===f)&&!read.has(i.id)).length;
   const rows=[["all","All feeds","#3d93dc",un()],["starred","Starred","#febc2e",starred.size],"sep",...data.feeds.map(f=>[f.id,f.name,f.color,un(f.id),f.ok===false?f.error:""])];
-  $("#feedlist").innerHTML=rows.map(r=>r==="sep"?'<li class="sep" role="presentation"></li>':
+  $("#feedlist").innerHTML=rows.map(r=>r==="sep"?'<li class="sep" aria-hidden="true"></li>':
     `<li class="${r[4]?"bad":""}"><button type="button" data-view="${esc(r[0])}" aria-current="${view===r[0]}" style="--c:${esc(r[2])}"${r[4]?` title="Couldn't refresh: ${esc(r[4])}"`:""}><span class="dot"></span><span class="nm">${esc(r[1])}</span>${r[3]?`<span class="ct">${r[3]}</span>`:""}</button></li>`).join("");
 }
 function renderItems(keepCur){
