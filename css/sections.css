@@ -1,0 +1,110 @@
+/* Portfolio pages: one full-size window per page, each with its own theme behind the glass. */
+.theme-art{position:fixed;inset:0;z-index:-2;overflow:hidden;pointer-events:none}
+.section-page .sky{opacity:.35}
+.section-page main{padding-top:22px}
+.fullwin{min-height:calc(100vh - 150px);animation:fullopen .4s cubic-bezier(.3,1.3,.5,1)}
+@keyframes fullopen{from{transform:scale(.94) translateY(14px);opacity:.4}}
+.fullwin.closing{animation:fullclose .24s ease-in forwards}
+@keyframes fullclose{to{transform:scale(.9);opacity:0}}
+nav.links a[aria-current=page]{text-decoration:underline 2px!important;text-underline-offset:6px!important}
+.portfolio-hub .desk{margin-top:6px}
+
+/* ===== Projects: transit center ===== */
+.theme-transit{--bg:#eef3f6}
+.tmap{position:absolute;inset:0;width:100%;height:100%;opacity:.22}
+.train{position:absolute;bottom:4vh;left:0;width:340px;transform:translateX(-380px);animation:train 22s linear 2s infinite;filter:drop-shadow(0 8px 8px rgba(11,22,48,.25))}
+@keyframes train{0%{transform:translateX(-380px)}45%,100%{transform:translateX(calc(100vw + 40px))}}
+.dboard{margin:-8px 0 30px;border-radius:12px;background:#10151c;color:#ffd27a;padding:10px 12px 12px;box-shadow:inset 0 2px 10px rgba(0,0,0,.7),0 12px 26px -16px rgba(0,0,0,.7);
+  font:600 15px/1 "IBM Plex Mono",ui-monospace,monospace;overflow-x:auto}
+.dboard-head{display:flex;justify-content:space-between;gap:12px;padding:4px 6px 10px;color:#9fb8d0;font-size:12px;letter-spacing:.12em;text-transform:uppercase;border-bottom:1px dashed rgba(255,210,122,.25)}
+.dboard table{width:100%;border-collapse:collapse;min-width:520px}
+.dboard th{font:600 11px/1 "IBM Plex Mono",monospace;color:#9fb8d0;text-align:left;padding:8px 6px;letter-spacing:.1em;text-transform:uppercase}
+.dboard td{padding:7px 6px;border-top:1px solid rgba(255,255,255,.06)}
+.dboard tr.row{cursor:pointer}
+.dboard tr.row:hover td,.dboard tr.row:focus-visible td{background:rgba(255,210,122,.08)}
+.dboard tr.row:focus-visible{outline:2px solid #ffd27a}
+.dboard .rt{display:inline-grid;place-items:center;min-width:34px;height:24px;border-radius:5px;color:#fff;font:700 12px/1 var(--ui)}
+.flap{display:inline-block;white-space:pre}
+.dboard .ok{color:#7fe08a}.dboard .wip{color:#ffb347;animation:blinkdue 1.2s steps(2) infinite}
+
+/* ===== Skills: GeoCities '99 ===== */
+.theme-geocities{background:#0b0b2a}
+.theme-geocities .sky{display:none}
+.stars{position:absolute;inset:-50%;background-image:
+  radial-gradient(1.5px 1.5px at 20px 30px,#fff,transparent),radial-gradient(1px 1px at 120px 80px,#fff,transparent),radial-gradient(2px 2px at 200px 150px,#ffe68a,transparent),
+  radial-gradient(1px 1px at 60px 190px,#bfe8ff,transparent),radial-gradient(1.5px 1.5px at 170px 20px,#fff,transparent);background-size:240px 240px;animation:drift 120s linear infinite}
+.stars.s2{background-size:380px 380px;opacity:.6;animation-duration:200s}
+@keyframes drift{to{transform:translate(240px,120px)}}
+.geo-strip{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;margin:-14px 0 28px}
+.uc{flex:1;min-width:220px;padding:8px 12px;border-radius:6px;font:700 14px/1.2 "Comic Sans MS","Comic Neue",cursive;color:#111;text-align:center;
+  background:repeating-linear-gradient(-45deg,#ffd400 0 16px,#111 16px 32px);text-shadow:0 0 0 #000}
+.uc span{background:#ffd400;padding:2px 8px;border-radius:3px}
+.counter{display:inline-flex;align-items:center;gap:8px;font:700 12px/1 "Comic Sans MS","Comic Neue",cursive;color:var(--ink)}
+.counter b{display:inline-flex;gap:2px}
+.counter i{font:700 18px/1 "IBM Plex Mono",monospace;font-style:normal;color:#7fff7f;background:#000;padding:4px 4px;border-radius:2px;box-shadow:inset 0 0 0 1px #333;text-shadow:0 0 6px #3f3}
+.badge88{font:700 10px/1.1 "Silkscreen","IBM Plex Mono",monospace;color:#fff;background:linear-gradient(#5aa9e6,#123a7a);border:2px outset #9cc8f0;padding:4px 6px;text-align:center;width:88px}
+.wordart{display:inline-block;font:900 italic clamp(36px,6vw,58px)/1 "Arial Black",Impact,sans-serif;letter-spacing:-.01em;transform:perspective(300px) rotateX(18deg) skewX(-8deg);
+  background:linear-gradient(90deg,#ff3b3b,#ffb800,#4cd94c,#2fb7ff,#a35cff,#ff3b3b);background-size:200% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;
+  -webkit-text-stroke:1.5px #14274e;filter:drop-shadow(3px 4px 0 rgba(20,39,78,.35));animation:rainbow 4s linear infinite}
+@keyframes rainbow{to{background-position:200% 0}}
+.theme-geocities #skills h2{font:inherit}
+.newstar{display:inline-grid;place-items:center;width:46px;height:46px;margin-left:8px;vertical-align:middle;color:#fff;font:900 12px/1 "Arial Black",sans-serif;
+  background:#ff2f6e;clip-path:polygon(50% 0,61% 18%,82% 10%,80% 32%,100% 40%,84% 56%,96% 76%,74% 76%,68% 98%,50% 84%,32% 98%,26% 76%,4% 76%,16% 56%,0 40%,20% 32%,18% 10%,39% 18%);animation:spinstar 4s linear infinite}
+@keyframes spinstar{to{transform:rotate(360deg)}}
+.sparkle{position:fixed;z-index:80;pointer-events:none;font-size:14px;animation:sparkle .9s ease-out forwards}
+@keyframes sparkle{to{transform:translateY(24px) scale(.2) rotate(90deg);opacity:0}}
+
+/* ===== About: Tacoma waterfront ===== */
+.bay{position:absolute;inset:0;width:100%;height:100%}
+.bay .ferry{animation:ferry 60s linear infinite}
+@keyframes ferry{from{transform:translate(-220px,700px)}to{transform:translate(1700px,690px)}}
+.bay .gulls{animation:gulls 30s linear infinite}
+@keyframes gulls{from{transform:translate(1700px,200px)}to{transform:translate(-120px,260px)}}
+.bay .shimmer{animation:shimmer 4s ease-in-out infinite alternate}
+@keyframes shimmer{to{transform:translateX(30px);opacity:.4}}
+.bay .clouds{transition:opacity 2s;opacity:.92}
+body.mountain-out .bay .clouds{opacity:0}
+.mtn-pill{display:inline-flex;align-items:center;gap:8px;margin:0 0 18px;padding:7px 14px;border-radius:999px;font:700 13px/1 var(--ui);color:#14274e;
+  background:radial-gradient(circle at 30% 20%,#fff,transparent 45%),linear-gradient(#e8f6ff,#bfe3f7);border:1px solid #fff;box-shadow:0 6px 12px -8px rgba(11,22,48,.5)}
+body.mountain-out .mtn-pill{background:radial-gradient(circle at 30% 20%,#fff,transparent 45%),linear-gradient(#fff3d6,#ffd27a)}
+
+/* ===== Resume: a desk ===== */
+.theme-desk{background:#8a5a33}
+.theme-desk .sky{display:none}
+.theme-desk .theme-art{background:repeating-linear-gradient(90deg,rgba(0,0,0,.05) 0 2px,transparent 2px 9px),repeating-linear-gradient(0deg,rgba(255,255,255,.04) 0 40px,rgba(0,0,0,.04) 40px 80px),linear-gradient(160deg,#b07a4a,#7a4a26)}
+.mug{position:absolute;right:3vw;bottom:6vh;width:120px}
+.steam path{animation:steam 3s ease-in-out infinite}.steam path:nth-child(2){animation-delay:.6s}.steam path:nth-child(3){animation-delay:1.2s}
+@keyframes steam{0%{transform:translateY(8px);opacity:0}40%{opacity:.8}100%{transform:translateY(-14px);opacity:0}}
+.sticky{position:absolute;left:3vw;top:24vh;width:160px;padding:16px 14px;transform:rotate(-6deg);font:700 16px/1.3 "Comic Sans MS","Comic Neue",cursive;color:#3a2a00;
+  background:linear-gradient(#fff6a8,#ffe866);box-shadow:0 12px 18px -10px rgba(0,0,0,.6)}
+.pencil{position:absolute;left:4vw;bottom:10vh;width:220px;transform:rotate(14deg);filter:drop-shadow(0 6px 6px rgba(0,0,0,.35))}
+@media (max-width:1180px){.sticky,.pencil{display:none}}
+.theme-desk .fullwin{box-shadow:0 30px 60px -20px rgba(0,0,0,.65)!important}
+.stamp-btn{float:right;margin:-8px 0 12px 12px}
+.stamped{position:absolute;right:8%;top:120px;z-index:5;padding:10px 18px;border:5px solid #c4231a;border-radius:10px;color:#c4231a;font:900 34px/1 "Arial Black",Impact,sans-serif;letter-spacing:.06em;
+  transform:rotate(-14deg);opacity:.82;mix-blend-mode:multiply;pointer-events:none;animation:thump .35s cubic-bezier(.3,1.6,.5,1)}
+@keyframes thump{from{transform:rotate(-14deg) scale(2.4);opacity:0}}
+
+/* ===== Contact: Y2K messenger ===== */
+.theme-messenger .theme-art{background:radial-gradient(70% 60% at 20% 20%,#c9f0ff,transparent),radial-gradient(60% 60% at 80% 70%,#ffe08a,transparent),linear-gradient(160deg,#9fd8f5,#f7f1c8)}
+.theme-messenger .sky{opacity:.2}
+.env{position:absolute;bottom:-60px;font-size:42px;color:#2f86d6;opacity:.35;animation:envfly 18s linear infinite}
+.env.e1{left:8%}.env.e2{left:30%;animation-delay:-5s;font-size:30px}.env.e3{left:55%;animation-delay:-9s}.env.e4{left:75%;animation-delay:-13s;font-size:28px}.env.e5{left:90%;animation-delay:-3s}
+@keyframes envfly{to{transform:translateY(-115vh) rotate(25deg)}}
+.buddy{margin-top:30px;max-width:340px;border-radius:12px;overflow:hidden;border:1px solid #fff;box-shadow:0 18px 34px -18px rgba(11,22,48,.6);background:#fffdf4;font:14px/1.4 var(--ui);color:#14274e}
+.buddy-head{display:flex;align-items:center;gap:8px;padding:8px 12px;color:#14274e;font:700 13px/1 var(--ui);background:linear-gradient(#fff3c4,#ffd76a 50%,#f4c13c);border-bottom:1px solid #d6a21a}
+.buddy-head .runner{font-size:18px}
+.buddy-body{padding:10px 12px;display:grid;gap:8px}
+.buddy-group{font:700 12px/1 var(--ui);color:#4f5a74}
+.buddy-row{display:flex;align-items:center;gap:8px;padding:6px 8px;border-radius:8px;background:rgba(61,147,220,.08)}
+.buddy-row .on{width:10px;height:10px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff 0 20%,#28c840 45%,#18972b);box-shadow:0 0 6px #28c840}
+.buddy-row b{flex:1}
+.away{margin:0;font-style:italic;color:#4f5a74}
+.typing{font:12px/1 var(--ui);color:#7a4f96;min-height:14px}
+.typing i{display:inline-block;width:5px;height:5px;margin-left:2px;border-radius:50%;background:#7a4f96;animation:typedot 1s infinite}
+.typing i:nth-child(2){animation-delay:.15s}.typing i:nth-child(3){animation-delay:.3s}
+@keyframes typedot{50%{transform:translateY(-4px);opacity:.4}}
+
+@media (prefers-reduced-motion:reduce){.theme-art *,.stars{animation:none!important}}
+.win>.stamped{position:absolute!important}
+.section-page .fullwin.glass{background:color-mix(in srgb,var(--glass) 80%,transparent)}

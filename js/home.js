@@ -1,4 +1,8 @@
-const grid = document.getElementById("grid");
+/* the portfolio is a hub plus one page per window */
+const PAGES={work:"/portfolio/projects/",skills:"/portfolio/skills/",about:"/portfolio/about/",resume:"/portfolio/resume/",contact:"/portfolio/contact/"};
+const isSectionPage=document.body.classList.contains("section-page");
+function goSection(id){const el=document.getElementById(id);if(el&&!el.closest("[hidden]"))el.scrollIntoView();else if(PAGES[id])location.href=PAGES[id]}
+const grid = document.getElementById("grid") || document.createElement("div");
 grid.innerHTML = projects.map(p=>`<button class="card glass" type="button" data-c="${p.tags[0]}" data-id="${p.id}" data-tags="${p.tags.join(" ")}">
   <div class="screen">${thumb(p.id,false)}</div>
   <div class="body">${p.status?`<span class="status">${p.status}</span>`:""}<h3>${p.title}</h3><p>${p.blurb}</p>
@@ -9,7 +13,7 @@ function filter(f){
   document.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",String(c.dataset.f===f)));
   grid.querySelectorAll(".card").forEach(c=>{const on=f==="all"||c.dataset.tags.split(" ").includes(f);c.hidden=!on;if(on)shown++});
   grid.classList.toggle("filtered",f!=="all");
-  document.getElementById("empty").hidden=shown>0;
+  const em=document.getElementById("empty");if(em)em.hidden=shown>0;
 }
 document.querySelectorAll(".chip").forEach(c=>c.addEventListener("click",()=>filter(c.dataset.f)));
 
@@ -39,7 +43,7 @@ dlg.addEventListener("scroll",()=>{const max=dlg.scrollHeight-dlg.clientHeight, 
 
 const h=(location.hash||"").slice(1);
 if(projects.some(p=>p.id===h)) openCase(h);
-else if(T[h]){filter(h);document.getElementById("work").scrollIntoView()}
+else if(T[h]){if(document.getElementById("work")){filter(h);document.getElementById("work").scrollIntoView()}else location.href=PAGES.work+"#"+h}
 
 const menuBtn=document.getElementById("menuBtn"), nav=document.getElementById("nav");
 const setMenu=open=>{nav.classList.toggle("open",open);menuBtn.setAttribute("aria-expanded",String(open));if(open&&typeof dismiss==="function"&&!askCb)dismiss()};
@@ -210,12 +214,13 @@ wp.addEventListener("click",e=>{
   const g=b.dataset.go;
   if(g==="yes"||g==="no"){const cb=askCb;askCb=null;dismiss();if(cb)cb(g==="yes");return}
   if(g==="ctr"){openCase("ctr");dismiss()}
-  else if(g==="resume"){document.getElementById("resume").scrollIntoView();dismiss()}
+  else if(g==="resume"){dismiss();goSection("resume")}
   else if(g==="tip"){wpLine.textContent=tips[tipI++%tips.length]}
   else if(g==="tour"){dismiss();setTimeout(startTour,450)}
   else{dismiss();clearTimeout(wpBack);wpBack=setTimeout(()=>summon(backLines[Math.floor(Math.random()*backLines.length)]),60000)}
 });
 setTimeout(()=>{if(!wp.hidden||document.querySelector("dialog[open]")||document.querySelector(".driver-popover"))return;
+  try{if(sessionStorage.getItem("ct-greeted"))return;sessionStorage.setItem("ct-greeted","1")}catch(e){}
   let toured=false;try{toured=localStorage.getItem("ct-toured")==="yes"}catch(e){}
   if(toured)summon("Welcome back. Click things. I will notice.");
   else ask("Welcome to my little corner. First time here? I can show you around.","Show me around","Not now",yes=>{try{localStorage.setItem("ct-toured","yes")}catch(e){}if(yes)setTimeout(startTour,450)});
@@ -287,7 +292,7 @@ function renderCommands(query=""){
 function openPalette(){if(!palette.open)palette.showModal();renderCommands();setTimeout(()=>paletteInput.focus(),0)}
 renderCommands();
 paletteInput.addEventListener("input",()=>renderCommands(paletteInput.value));
-paletteResults.addEventListener("click",e=>{const b=e.target.closest("[data-command]");if(!b)return;palette.close();if(b.dataset.command==="#tour"){startTour();return}location.hash=b.dataset.command.slice(1)});
+paletteResults.addEventListener("click",e=>{const b=e.target.closest("[data-command]");if(!b)return;palette.close();const c=b.dataset.command.slice(1);if(c==="tour"){startTour();return}if(PAGES[c]){goSection(c);return}location.hash=c});
 document.addEventListener("keydown",e=>{if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==="k"){e.preventDefault();openPalette()}});
 
 const terminal=document.getElementById("terminal"), terminalOutput=document.getElementById("terminal-output"), terminalForm=document.getElementById("terminal-form"), terminalInput=document.getElementById("terminal-input");
@@ -297,11 +302,11 @@ function runCommand(raw){
   if(!command)return;
   terminalWrite(`route594@christopher:~$ ${raw}`);
   if(command==="help")terminalWrite("help  projects  route 594  about  resume  contact  credits  vim  clear  exit");
-  else if(command==="projects"){terminalWrite("Opening selected work…");terminal.close();location.hash="work"}
+  else if(command==="projects"){terminalWrite("Opening selected work…");terminal.close();goSection("work")}
   else if(command==="route 594"){terminalWrite("Next stop: Seattle via Tacoma. The bus says hi.");summon("The terminal found the 594. It is running on schedule.")}
-  else if(command==="about"){terminal.close();location.hash="about"}
-  else if(command==="resume"){terminal.close();location.hash="resume"}
-  else if(command==="contact"){terminal.close();location.hash="contact"}
+  else if(command==="about"){terminal.close();goSection("about")}
+  else if(command==="resume"){terminal.close();goSection("resume")}
+  else if(command==="contact"){terminal.close();goSection("contact")}
   else if(command==="credits"){terminal.close();location.hash="credits"}
   else if(command==="vim"){terminal.close();location.hash="debug"}
   else if(command==="clear"){terminalOutput.replaceChildren()}
@@ -389,7 +394,7 @@ document.addEventListener("click",e=>{
 
 /* WinBox: real draggable, resizable windows. The window's contents move into the floating window and go back when it closes. */
 const floating=new Map();
-const canFloat=()=>!!window.WinBox&&innerWidth>=900&&!reduce;
+const canFloat=()=>!!window.WinBox&&innerWidth>=900&&!reduce&&!isSectionPage;
 function popOut(id){
   if(!canFloat()) return false;
   if(floating.has(id)){const w=floating.get(id);if(w.min)w.restore();w.focus();return true}
@@ -421,6 +426,13 @@ document.querySelectorAll("main .win > .tb").forEach(tb=>{
   lights.innerHTML=`<button type="button" class="l close" aria-label="Close ${name}">×</button><button type="button" class="l min" aria-label="Minimize ${name}" aria-expanded="true">−</button><button type="button" class="l max" aria-label="Maximize ${name}" aria-pressed="false">+</button>`;
   tb.prepend(lights);
   const setMax=on=>{win.classList.toggle("maxed",on);document.body.classList.toggle("has-max",!!document.querySelector(".win.maxed"));lights.querySelector(".max").setAttribute("aria-pressed",String(on))};
+  if(isSectionPage&&win.classList.contains("fullwin")){
+    const goHub=()=>{whoosh();win.classList.add("closing");setTimeout(()=>location.href="/portfolio/",reduce?0:240)};
+    lights.querySelector(".close").addEventListener("click",goHub);lights.querySelector(".min").addEventListener("click",goHub);
+    lights.querySelector(".close").setAttribute("aria-label",`Close ${name} and go back to the portfolio desktop`);
+    lights.querySelector(".max").addEventListener("click",()=>setMax(!win.classList.contains("maxed")));
+    return;
+  }
   lights.querySelector(".min").addEventListener("click",()=>{setMax(false);toDock(win,name)});
   lights.querySelector(".max").addEventListener("click",()=>{win.classList.remove("minimized");setMax(!win.classList.contains("maxed"))});
   lights.querySelector(".close").addEventListener("click",()=>{
@@ -444,7 +456,7 @@ document.addEventListener("click",e=>{
   eye.animate([{transform:"scale(1)"},{transform:"scale(1.2) translateY(-3px)"},{transform:"scale(.96)"},{transform:"scale(1)"}],{duration:420,easing:"cubic-bezier(.3,1.6,.5,1)"});
   setTimeout(()=>{blink();eye.classList.remove("curious")},380);
   if(!wp.hidden && !wp.classList.contains("out") && !askCb){
-    const h=(t.getAttribute("href")||"").slice(1);
+    const hr=(t.getAttribute("href")||"").replace(/^#/,""), h=Object.keys(PAGES).find(k=>PAGES[k]===hr)||hr;
     wpLine.textContent=reactLines[h]||(t.classList.contains("card")?reactLines.card:t.matches(".l,.dock-item")?reactLines.win:reactLines.other);
   }
 });
@@ -819,7 +831,7 @@ function startTour(){
   const vis=sel=>{const el=document.querySelector(sel);if(!el)return null;const r=el.getBoundingClientRect();return r.width&&r.height&&getComputedStyle(el).visibility!=="hidden"?el:null};
   const steps=[
     ["#eye","Hi, I'm Hieye","I'm the eye in the corner. I watch your clicks and pop up with tips. Click me for eye drops, or three times to call me."],
-    [".desk","Desktop icons","Each icon jumps to a window. On a big screen, clicking one opens it as a real floating window you can drag around."],
+    [".desk","Desktop icons","Each icon opens its window as a page of its own, each with its own theme. Red or yellow on any window brings you back here."],
     ["#routeMap","Route so far","A real map of where I've lived, studied and worked. Click a stop in the list to fly there."],
     [".wxb.main","Live weather","Bellevue's weather right now, as glass bubbles. Hover to nudge them, drag to move them, throw them to bounce them, tap a small one to pop it."],
     ["#clock","Station clock","A Swiss railway clock. The red hand pauses at the top of each minute. Click it for a cuckoo."],
