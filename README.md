@@ -4,41 +4,43 @@ Personal static site for https://christophertritt.github.io.
 
 ## Repository layout
 
-- `index.html`: start page
-- `portfolio/`: portfolio desktop and section pages
-- `reader/`: feed reader page
+- `index.html`: personal start page with the "Christophergle" search (weather integrated as floating bubbles), a floating eye assistant, and an animated globe with orbiting satellite and UFO
+- `portfolio/`: portfolio desktop hub and themed section pages (projects, skills, about, resume, contact), generated from `portfolio/_source.html`. The skills page is styled as a Bloomberg terminal.
+- `reader/`: RSS feed reader page
+- `contact.vcf`: downloadable vCard linked from the contact page
 - `feeds/feeds.json`: feed source configuration
-- `feeds/items.json`: generated feed items consumed by the site
-- `scripts/build_portfolio.py`: builds published portfolio pages from `portfolio/_source.html`
+- `feeds/items.json`: generated feed items consumed by the reader (do not edit by hand)
+- `scripts/build_portfolio.py`: rebuilds the published portfolio pages from `portfolio/_source.html`
 - `scripts/fetch-feeds.mjs`: fetches configured RSS/Atom feeds and regenerates `feeds/items.json`
+- `css/`, `js/`, `images/`: shared styles, scripts, and image assets. `css/site.css` and `js/site.js` are loaded by every page and provide the shared chrome: the Portfolio pop-out menu, the SBB-style clock sign with calendar outlook, and the Canada mode / Quebec mode system (flag buttons at the bottom of each page; Canada mode switches accents to red and Christophergle to christophergle.ca/en, Quebec mode switches accents to blue, adds a fleur-de-lis background, and translates titles and UI labels to French at christophergle.ca/fr).
 
 ## Content workflows
 
 ### Portfolio pages
 
-1. Edit `/home/runner/work/christophertritt.github.io/christophertritt.github.io/portfolio/_source.html`.
-2. Run:
+1. Edit `portfolio/_source.html`.
+2. From the repository root, run:
 
    ```bash
-   python3 /home/runner/work/christophertritt.github.io/christophertritt.github.io/scripts/build_portfolio.py
+   python3 scripts/build_portfolio.py
    ```
 
-3. Commit updated files under `portfolio/`.
+3. Commit the regenerated files under `portfolio/` together with the source change.
 
 ### Feed data
 
-1. Edit `/home/runner/work/christophertritt.github.io/christophertritt.github.io/feeds/feeds.json`.
-2. Regenerate feed items locally:
+1. Edit `feeds/feeds.json`.
+2. To regenerate feed items locally, from the repository root:
 
    ```bash
    npm install --no-save --no-package-lock --ignore-scripts fast-xml-parser@4.5.0
-   node /home/runner/work/christophertritt.github.io/christophertritt.github.io/scripts/fetch-feeds.mjs
+   node scripts/fetch-feeds.mjs
    ```
 
 3. Commit `feeds/items.json`.
 
-The same script runs hourly in `.github/workflows/feeds.yml`.
+The same script also runs hourly in GitHub Actions (`.github/workflows/feeds.yml`) and on pushes that change `feeds/feeds.json` or `scripts/fetch-feeds.mjs`, so manual regeneration is only needed to preview changes locally.
 
 ## Developer notes
 
-See `DEVELOPMENT.md` for implementation and security details.
+See `DEVELOPMENT.md` for implementation and security details, including the feed fetch guardrails.

@@ -368,5 +368,3 @@ main.start{white-space:normal;overflow:visible;text-overflow:clip}
 .start-desk .di-label{white-space:nowrap;padding:2px 7px}
 .gt-dest b{white-space:normal;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
 .ga-list span{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.di-toys .toy-pop{transform-box:view-box;transition:transform .35s cubic-bezier(.3,1.8,.5,1)}
-.di-toys:hover .toy-pop{transform:translateY(-8px)}

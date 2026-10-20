@@ -4,14 +4,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Christopher A. Tritt — transportation planning, spatial analysis, and data tools.">
-  <title>Christopher A. Tritt</title>
+  <title>Portfolio · Christopher A. Tritt</title>
+  <script>try{var m=localStorage.getItem("ct-mode")||(localStorage.getItem("ct-canada")==="on"?"canada":"off");if(m==="canada"||m==="quebec")document.documentElement.dataset.mode=m}catch(e){}</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&family=Silkscreen&family=Parisienne&family=Comic+Neue:wght@700&family=Caveat:wght@500;700&family=Cabin+Sketch:wght@700&family=Dancing+Script:wght@500;600;700&display=swap">
-  <link rel="stylesheet" href="/css/vendor/7.scoped.css?v=20261020j">
-  <link rel="stylesheet" href="/css/vendor/leaflet.css?v=20261020j">
-  <link rel="stylesheet" href="/css/vendor/driver.css?v=20261020j">
-  <link rel="stylesheet" href="/css/sections.css?v=20261020j">
-  <link rel="stylesheet" href="/css/home.css?v=20261020j">
+  <link rel="stylesheet" href="/css/vendor/7.scoped.css?v=20261020n">
+  <link rel="stylesheet" href="/css/vendor/leaflet.css?v=20261020n">
+  <link rel="stylesheet" href="/css/vendor/driver.css?v=20261020n">
+  <link rel="stylesheet" href="/css/sections.css?v=20261020n">
+  <link rel="stylesheet" href="/css/home.css?v=20261020n">
+  <link rel="stylesheet" href="/css/site.css?v=20261020n">
 </head>
 <body class="portfolio-hub">
 <a class="skip" href="#hero">Skip to content</a>
@@ -90,7 +92,7 @@
     <button class="quiet-btn" id="quiet" type="button" aria-pressed="false" aria-label="Quiet mode">Quiet</button>
     <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="nav" aria-label="Menu"><span class="case" aria-hidden="true"><span class="mpaper"><b>Menu</b><i></i><i></i><i></i><i></i><i></i></span><span class="pane"></span></span></button>
     <nav class="links" id="nav" aria-label="Main">
-      <a href="/portfolio/" aria-current="page"><span>Desktop</span></a><a href="/portfolio/projects/"><svg class="ni" viewBox="0 0 64 56" aria-hidden="true"><use href="#i-work"/></svg><span>Projects</span></a><a href="/portfolio/skills/"><svg class="ni" viewBox="0 0 64 56" aria-hidden="true"><use href="#i-skills"/></svg><span>Skills</span></a><a href="/portfolio/about/"><svg class="ni" viewBox="0 0 64 56" aria-hidden="true"><use href="#i-about"/></svg><span>About</span></a><a href="/portfolio/resume/"><svg class="ni" viewBox="0 0 64 56" aria-hidden="true"><use href="#i-resume"/></svg><span>Resume</span></a><a href="/portfolio/contact/"><svg class="ni" viewBox="0 0 64 56" aria-hidden="true"><use href="#i-contact"/></svg><span>Contact</span></a>
+      <a href="/portfolio/" aria-current="page"><span data-i18n="menu.desktop">Desktop</span></a><a href="/portfolio/projects/"><svg class="ni" viewBox="0 0 64 56" aria-hidden="true"><use href="#i-work"/></svg><span data-i18n="nav.projects">Projects</span></a><a href="/portfolio/skills/"><svg class="ni" viewBox="0 0 64 56" aria-hidden="true"><use href="#i-skills"/></svg><span data-i18n="nav.skills">Skills</span></a><a href="/portfolio/about/"><svg class="ni" viewBox="0 0 64 56" aria-hidden="true"><use href="#i-about"/></svg><span data-i18n="nav.about">About</span></a><a href="/portfolio/resume/"><svg class="ni" viewBox="0 0 64 56" aria-hidden="true"><use href="#i-resume"/></svg><span data-i18n="nav.resume">Resume</span></a><a href="/portfolio/contact/"><svg class="ni" viewBox="0 0 64 56" aria-hidden="true"><use href="#i-contact"/></svg><span data-i18n="nav.contact">Contact</span></a>
       <span class="chalkstick" aria-hidden="true"></span>
     </nav>
       <button class="clock" id="clock" type="button" aria-label="Clock. Select for a cuckoo.">
@@ -112,24 +114,40 @@
   </div>
 </div></header>
 
+<nav class="site-nav pnav" aria-label="Site">
+  <button class="pnav-btn" id="pnavBtn" type="button" aria-expanded="false" aria-controls="pnavPanel"><svg viewBox="0 0 64 56" aria-hidden="true"><path d="M5 9Q5 5.5 8.5 5.5H23.5L28.5 10.5H55.5Q59 10.5 59 14V46H5z" fill="#d7ecff"/><path d="M3 21Q3 18.5 5.5 18.5H58.5Q61 18.5 61 21L59.4 49.5Q59.2 52.5 56.2 52.5H7.8Q4.8 52.5 4.6 49.5z" fill="#fff"/></svg><span data-i18n="nav.portfolio">Portfolio</span><span class="pnav-caret" aria-hidden="true">▾</span></button>
+  <div class="pnav-panel" id="pnavPanel" hidden>
+    <span class="pnav-sec" data-i18n="nav.portfolio">Portfolio</span>
+    <a href="/portfolio/projects/"><span data-i18n="nav.projects">Projects</span></a>
+    <a href="/portfolio/skills/"><span data-i18n="nav.skills">Skills</span></a>
+    <a href="/portfolio/about/"><span data-i18n="nav.about">About</span></a>
+    <a href="/portfolio/resume/"><span data-i18n="nav.resume">Resume</span></a>
+    <a href="/portfolio/contact/"><span data-i18n="nav.contact">Contact</span></a>
+    <span class="pnav-sec">Site</span>
+    <a href="/"><span data-i18n="nav.start">Start</span></a>
+    <a href="/portfolio/"><span data-i18n="nav.portfolio">Portfolio</span></a>
+    <a href="/reader/"><span data-i18n="nav.reader">Reader</span></a>
+  </div>
+</nav>
+
 <main class="wrap" id="top">
   <section class="hero" id="hero">
     <div class="win glass">
-      <div class="tb"><span class="tb-t">index.html</span></div>
+      <div class="tb"><span class="tb-t" data-i18n="tb.home">Home</span></div>
       <div class="win-body">
         <h1>Christopher A. Tritt</h1>
         <p class="role">Assistant Planner, City of Bellevue Transportation Demand Management</p>
         <p class="pitch">I'm a transportation planner who builds the tools. I turn program data into dashboards, maps, and plain-language reports that agencies can act on.</p>
         <div class="ctas">
-          <a class="btn primary" href="/portfolio/projects/">View work</a>
-          <a class="btn blue" href="/portfolio/resume/">Resume</a>
+          <a class="btn primary" href="/portfolio/projects/" data-i18n="hero.view">View work</a>
+          <a class="btn blue" href="/portfolio/resume/" data-i18n="nav.resume">Resume</a>
         </div>
       </div>
     </div>
     <div class="win glass route" aria-label="Career route">
-      <div class="tb mac"><span class="tb-t">route.svg</span></div>
+      <div class="tb mac"><span class="tb-t" data-i18n="tb.route">Route</span></div>
       <div class="win-body">
-        <p class="eyebrow" style="margin-bottom:12px">Route so far</p>
+        <h2 class="eyebrow" style="margin-bottom:12px" data-i18n="route.h">Route so far</h2>
         <div class="routemap" id="routeMap" role="region" aria-label="Map of the route: Tacoma, Ellensburg, Seattle, Bellevue"></div>
         <ol>
           <li><b>Tacoma</b><small>Sixth-generation Pierce County local, Ruston and Proctor roots</small></li>
@@ -146,13 +164,13 @@
 <g class="f f1"><rect x="11" y="13" width="15" height="19" rx="1.5" fill="#fff" stroke="#3f74b2"/><path d="M14 18h9M14 21h9M14 24h7M14 27h8" stroke="#3f74b2" stroke-width="1.2"/></g>
 <g class="f f2"><rect x="24.5" y="11" width="16" height="13" rx="1.5" fill="#fff" stroke="#c2553f"/><rect x="24.5" y="11" width="16" height="3" fill="#e2733e"/><path d="M28 21v-3M31 21v-5M34 21v-2M37 21v-4" stroke="#e2733e" stroke-width="1.6"/></g>
 <g class="f f3"><rect x="38" y="13" width="15" height="19" rx="1.5" fill="#fff" stroke="#3e8a4f"/><path d="M38 18h15M38 23h15M38 28h15M43 13v19M48 13v19" stroke="#3e8a4f" stroke-width=".8"/><rect x="38" y="13" width="15" height="5" fill="#7cc58c" opacity=".7"/></g>
-<path d="M4 20H60V48Q60 52 56 52H8Q4 52 4 48z" fill="url(#gFolder)" stroke="#8a6116" stroke-width="1.5"/><path d="M6 22H58V29Q32 33 6 29z" fill="url(#gShine)"/></svg><span>Projects</span></a>
-    <a href="/portfolio/skills/" class="d-skills"><svg viewBox="0 0 64 56" aria-hidden="true"><g transform="rotate(-20 32 24)"><circle cx="32" cy="24" r="17" fill="url(#gAqua)" stroke="#2d6f86" stroke-width="1.2"/><g clip-path="url(#globeClip)"><g class="spin" fill="#9fc78f" stroke="#4f6b4c" stroke-width=".6"><path transform="translate(14 0)" d="M3 14Q8 9 14 12Q17 18 11 21Q8 27 4 23z M18 26Q25 22 30 27Q27 35 20 36z M22 11Q27 9 31 13Q28 16 24 15z"/><path transform="translate(48 0)" d="M3 14Q8 9 14 12Q17 18 11 21Q8 27 4 23z M18 26Q25 22 30 27Q27 35 20 36z M22 11Q27 9 31 13Q28 16 24 15z"/><path transform="translate(82 0)" d="M3 14Q8 9 14 12Q17 18 11 21Q8 27 4 23z M18 26Q25 22 30 27Q27 35 20 36z M22 11Q27 9 31 13Q28 16 24 15z"/></g></g><ellipse cx="27" cy="15" rx="10" ry="5" fill="url(#gShine)"/></g><path d="M32 3A21 21 0 0 1 32 45" transform="rotate(-20 32 24)" fill="none" stroke="#b98c34" stroke-width="2.6" stroke-linecap="round"/><path d="M32 3A21 21 0 0 1 32 45" transform="rotate(-20 32 24)" fill="none" stroke="#f6dc95" stroke-width=".8" stroke-linecap="round"/><rect x="30.5" y="44" width="3" height="5" fill="#8a6116"/><ellipse cx="32" cy="51" rx="12" ry="3.5" fill="url(#gFolder)" stroke="#8a6116" stroke-width="1"/></svg><span>Skills</span></a>
+<path d="M4 20H60V48Q60 52 56 52H8Q4 52 4 48z" fill="url(#gFolder)" stroke="#8a6116" stroke-width="1.5"/><path d="M6 22H58V29Q32 33 6 29z" fill="url(#gShine)"/></svg><span data-i18n="nav.projects">Projects</span></a>
+    <a href="/portfolio/skills/" class="d-skills"><svg viewBox="0 0 64 56" aria-hidden="true"><g transform="rotate(-20 32 24)"><circle cx="32" cy="24" r="17" fill="url(#gAqua)" stroke="#2d6f86" stroke-width="1.2"/><g clip-path="url(#globeClip)"><g class="spin" fill="#9fc78f" stroke="#4f6b4c" stroke-width=".6"><path transform="translate(14 0)" d="M3 14Q8 9 14 12Q17 18 11 21Q8 27 4 23z M18 26Q25 22 30 27Q27 35 20 36z M22 11Q27 9 31 13Q28 16 24 15z"/><path transform="translate(48 0)" d="M3 14Q8 9 14 12Q17 18 11 21Q8 27 4 23z M18 26Q25 22 30 27Q27 35 20 36z M22 11Q27 9 31 13Q28 16 24 15z"/><path transform="translate(82 0)" d="M3 14Q8 9 14 12Q17 18 11 21Q8 27 4 23z M18 26Q25 22 30 27Q27 35 20 36z M22 11Q27 9 31 13Q28 16 24 15z"/></g></g><ellipse cx="27" cy="15" rx="10" ry="5" fill="url(#gShine)"/></g><path d="M32 3A21 21 0 0 1 32 45" transform="rotate(-20 32 24)" fill="none" stroke="#b98c34" stroke-width="2.6" stroke-linecap="round"/><path d="M32 3A21 21 0 0 1 32 45" transform="rotate(-20 32 24)" fill="none" stroke="#f6dc95" stroke-width=".8" stroke-linecap="round"/><rect x="30.5" y="44" width="3" height="5" fill="#8a6116"/><ellipse cx="32" cy="51" rx="12" ry="3.5" fill="url(#gFolder)" stroke="#8a6116" stroke-width="1"/></svg><span data-i18n="nav.skills">Skills</span></a>
     <a href="/portfolio/about/" class="d-about"><svg viewBox="0 0 64 56" aria-hidden="true"><rect x="10" y="4" width="44" height="48" rx="6" fill="url(#gGreen)" stroke="#4f6b4c" stroke-width="1.5"/><circle cx="32" cy="22" r="8" fill="#f5efe0"/><path d="M18 44Q32 28 46 44z" fill="#f5efe0"/><rect x="12" y="6" width="40" height="14" rx="5" fill="url(#gShine)"/>
 <g class="ci" style="--x:-25px;--y:-16px"><circle cx="32" cy="28" r="8" fill="#c25b7d" stroke="#fff" stroke-width="1.2"/><rect x="27.5" y="25" width="9" height="6.5" rx="1" fill="#fff"/><path d="M27.8 25.5l4.2 3.2 4.2-3.2" fill="none" stroke="#c25b7d" stroke-width="1"/></g>
 <g class="ci" style="--x:25px;--y:-16px"><circle cx="32" cy="28" r="8" fill="#5d7a5a" stroke="#fff" stroke-width="1.2"/><path d="M29 24.5c-.8 0-1.5.7-1.4 1.6.5 3.5 2.8 5.8 6.3 6.3.9.1 1.6-.6 1.6-1.4v-1.4l-2.2-.7-1 1c-1.3-.6-2.3-1.6-2.9-2.9l1-1-.7-2.2z" fill="#fff"/></g>
 <g class="ci" style="--x:-27px;--y:12px"><circle cx="32" cy="28" r="8" fill="#3f9cb8" stroke="#fff" stroke-width="1.2"/><path d="M27.5 24.5h9a1.5 1.5 0 0 1 1.5 1.5v3.5a1.5 1.5 0 0 1-1.5 1.5H31l-2.5 2v-2h-1a1.5 1.5 0 0 1-1.5-1.5V26a1.5 1.5 0 0 1 1.5-1.5z" fill="#fff"/></g>
-<g class="ci" style="--x:27px;--y:12px"><circle cx="32" cy="28" r="8" fill="#b98c34" stroke="#fff" stroke-width="1.2"/><rect x="26.5" y="26" width="7" height="4" rx="2" fill="none" stroke="#fff" stroke-width="1.4"/><rect x="30.5" y="26" width="7" height="4" rx="2" fill="none" stroke="#fff" stroke-width="1.4"/></g></svg><span>About</span></a>
+<g class="ci" style="--x:27px;--y:12px"><circle cx="32" cy="28" r="8" fill="#b98c34" stroke="#fff" stroke-width="1.2"/><rect x="26.5" y="26" width="7" height="4" rx="2" fill="none" stroke="#fff" stroke-width="1.4"/><rect x="30.5" y="26" width="7" height="4" rx="2" fill="none" stroke="#fff" stroke-width="1.4"/></g></svg><span data-i18n="nav.about">About</span></a>
     <a href="/portfolio/resume/" class="d-resume"><svg viewBox="0 0 64 56" aria-hidden="true"><path d="M14 2 H40 L52 14 V54 H14z" fill="url(#gPaper)" stroke="#56607a" stroke-width="1.5"/><path d="M40 2 V14 H52" fill="#c9d3df" stroke="#56607a" stroke-width="1.5"/><path d="M20 22 H46 M20 29 H46 M20 36 H40" stroke="#14274e" stroke-opacity=".55" stroke-width="2.5"/><path class="sig" d="M19 46c2-4 4 1 6-2s3-3 4 0 2 2 4-1 3 2 5 1 3-2 5 0" fill="none" stroke="#1f4fa8" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/><g class="pen" transform="translate(40 49) rotate(38)"><g class="penmove">
 <path d="M0 0l-1.6-5h3.2z" fill="#9aa3ab"/><circle cx="0" cy="-.4" r=".6" fill="#1f4fa8"/>
 <rect x="-2.6" y="-13" width="5.2" height="8" rx="1" fill="#cfe3f7" stroke="#7d9cc0" stroke-width=".5"/>
@@ -161,19 +179,19 @@
 <path d="M-1.6 -34v20" stroke="#fff" stroke-width="1.1" stroke-linecap="round"/>
 <rect class="plunger" x="-1.9" y="-39.5" width="3.8" height="5" rx="1" fill="#1f4fa8"/>
 <path d="M3 -33.5h1.6v12.5a1 1 0 0 1-1 1H3" fill="#1f4fa8"/>
-</g></g></svg><span>Resume</span></a>
+</g></g></svg><span data-i18n="nav.resume">Resume</span></a>
     <a href="/portfolio/contact/" class="d-contact"><svg viewBox="0 0 64 56" aria-hidden="true"><rect x="4" y="16" width="56" height="36" rx="4" fill="#cdd6e1" stroke="#56607a" stroke-width="1.5"/>
 <path class="flap-open" d="M4 16H60L32 -2z" fill="#e6ecf3" stroke="#56607a" stroke-width="1.5" stroke-linejoin="round"/>
 <g class="letter"><rect x="13" y="12" width="38" height="30" rx="2" fill="#fff" stroke="#b9c3cc"/><text x="32" y="33" text-anchor="middle" font-family="Georgia,serif" font-size="20" font-weight="700" fill="#2f6fb0">@</text></g>
 <path d="M4 22L32 38L60 22V48Q60 52 56 52H8Q4 52 4 48z" fill="url(#gPaper)" stroke="#56607a" stroke-width="1.5" stroke-linejoin="round"/>
 <path class="flap-closed" d="M4.5 16.5H59.5L32 35z" fill="url(#gPaper)" stroke="#56607a" stroke-width="1.5" stroke-linejoin="round"/>
-<circle cx="52" cy="44" r="7" fill="#b4512a"/><path d="M52 40.5V47.5M48.5 44H55.5" stroke="#fff" stroke-width="2"/></svg><span>Contact</span></a>
+<circle cx="52" cy="44" r="7" fill="#b4512a"/><path d="M52 40.5V47.5M48.5 44H55.5" stroke="#fff" stroke-width="2"/></svg><span data-i18n="nav.contact">Contact</span></a>
   </nav>
 
   <nav class="dock glass" id="dock" aria-label="Minimized windows" hidden></nav>
   <footer class="statusbar glass">
     <span id="done">© 2026 Christopher Tritt</span>
-    <a href="#credits">Credits &amp; sources</a>
+    <a href="#credits" data-i18n="status.credits">Credits &amp; sources</a>
   </footer>
 </main>
 
@@ -284,15 +302,27 @@
 
 </div>
 
-  <script src="/js/vendor/winbox.bundle.min.js?v=20261020j" defer></script>
-  <script src="/js/vendor/vanilla-tilt.min.js?v=20261020j" defer></script>
-  <script src="/js/vendor/confetti.browser.js?v=20261020j" defer></script>
-  <script src="/js/vendor/rough-notation.iife.js?v=20261020j" defer></script>
-  <script src="/js/vendor/leaflet.js?v=20261020j" defer></script>
-  <script src="/js/vendor/driver.js.iife.js?v=20261020j" defer></script>
-  <script src="/js/home-data.js?v=20261020j" defer></script>
-  <script src="/js/weather.js?v=20261020j" defer></script>
-  <script src="/js/sections.js?v=20261020j" defer></script>
-  <script src="/js/home.js?v=20261020j" defer></script>
+<div class="flagbar" id="flagbar">
+  <div class="flag-unit">
+    <button class="flag-btn ca" id="flagCA" type="button" aria-pressed="false" aria-label="Canada mode"><svg viewBox="0 0 9600 4800" aria-hidden="true"><rect width="9600" height="4800" fill="#fff"/><rect width="2400" height="4800" fill="#d52b1e"/><rect x="7200" width="2400" height="4800" fill="#d52b1e"/><path fill="#d52b1e" d="m4890 4430-45-863a95 95 0 0 1 111-98l859 151-116-320a65 65 0 0 1 20-73l941-762-212-99a65 65 0 0 1-34-79l186-572-542 115a65 65 0 0 1-73-38l-105-247-423 454a65 65 0 0 1-111-57l204-1052-327 189a65 65 0 0 1-91-27l-332-652-332 652a65 65 0 0 1-91 27l-327-189 204 1052a65 65 0 0 1-111 57l-423-454-105 247a65 65 0 0 1-73 38l-542-115 186 572a65 65 0 0 1-34 79l-212 99 941 762a65 65 0 0 1 20 73l-116 320 859-151a95 95 0 0 1 111 98l-45 863z"/></svg></button>
+    <span class="flag-cap">Canada</span>
+  </div>
+  <div class="flag-unit" id="flagQCUnit" hidden>
+    <button class="flag-btn qc" id="flagQC" type="button" aria-pressed="false" aria-label="Quebec mode"><svg viewBox="0 0 60 40" aria-hidden="true"><rect width="60" height="40" fill="#003da5"/><rect x="25" width="10" height="40" fill="#fff"/><rect y="15" width="60" height="10" fill="#fff"/><defs><g id="qcFleur"><path fill="#fff" d="M0-10C2.6-7 2.8-3.8 0-.8C-2.8-3.8-2.6-7 0-10Z M-7.5-5C-4.8-5.4-2.4-3.4-1.9-.6C-4.8-.2-7.3-1.9-7.5-5Z M7.5-5C4.8-5.4 2.4-3.4 1.9-.6C4.8-.2 7.3-1.9 7.5-5Z M-5.5 1.2h11v2.6h-11Z M-2.8 3.8C-2.2 6.6.6 8.2 0 10.6C-.6 8.2 2.2 6.6 2.8 3.8C1.2 4.9-1.2 4.9-2.8 3.8Z"/></g></defs><use href="#qcFleur" transform="translate(12.5 7.5) scale(.62)"/><use href="#qcFleur" transform="translate(47.5 7.5) scale(.62)"/><use href="#qcFleur" transform="translate(12.5 32.5) scale(.62)"/><use href="#qcFleur" transform="translate(47.5 32.5) scale(.62)"/></svg></button>
+    <span class="flag-cap">Québec</span>
+  </div>
+</div>
+
+  <script src="/js/vendor/winbox.bundle.min.js?v=20261020n" defer></script>
+  <script src="/js/vendor/vanilla-tilt.min.js?v=20261020n" defer></script>
+  <script src="/js/vendor/confetti.browser.js?v=20261020n" defer></script>
+  <script src="/js/vendor/rough-notation.iife.js?v=20261020n" defer></script>
+  <script src="/js/vendor/leaflet.js?v=20261020n" defer></script>
+  <script src="/js/vendor/driver.js.iife.js?v=20261020n" defer></script>
+  <script src="/js/home-data.js?v=20261020n" defer></script>
+  <script src="/js/weather.js?v=20261020n" defer></script>
+  <script src="/js/site.js?v=20261020n" defer></script>
+  <script src="/js/sections.js?v=20261020n" defer></script>
+  <script src="/js/home.js?v=20261020n" defer></script>
 
 </body></html>

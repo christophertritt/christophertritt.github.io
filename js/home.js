@@ -328,6 +328,8 @@ new MutationObserver(()=>{if(!terminal.open)return;termBoot.hidden=false;termPro
 /* minimized windows collapse into an OS X style dock */
 const dock=document.getElementById("dock");
 const iconFor={"index.html":"i-home","route.svg":"i-route","projects.html":"i-work","skills.md":"i-skills","about.md":"i-about","resume.pdf":"i-resume","contact.vcf":"i-contact"};
+/* window title bars show proper names; this maps them back to the iconFor keys */
+const fileFor={"Home":"index.html","Route":"route.svg","Projects":"projects.html","Skills":"skills.md","About":"about.md","Resume":"resume.pdf","Contact":"contact.vcf"};
 function toDock(win,name){
   dock.hidden=false;
   dock.classList.add("orbiting");
@@ -339,7 +341,7 @@ function toDock(win,name){
   positionDock();
   addEventListener("resize",positionDock,{once:true});
   const item=document.createElement("button");item.type="button";item.className="dock-item";item._win=win;item.setAttribute("aria-label","Restore "+name);
-  item.innerHTML=`<svg viewBox="0 0 64 56" aria-hidden="true"><use href="#${iconFor[name]||"i-work"}"/></svg><span class="dock-label">${name}</span>`;
+  item.innerHTML=`<svg viewBox="0 0 64 56" aria-hidden="true"><use href="#${iconFor[fileFor[name]||name]||"i-work"}"/></svg><span class="dock-label">${name}</span>`;
   item.style.visibility="hidden";dock.appendChild(item);
   const wr=win.getBoundingClientRect(), ir=item.getBoundingClientRect();
   const done=()=>{win.hidden=true;win.style.transformOrigin="";item.style.visibility="";if(!reduce)item.animate([{transform:"translateY(-18px) scale(1.2)"},{transform:"translateY(4px) scale(.95)"},{transform:"none"}],{duration:450,easing:"ease-out"});item.focus()};
@@ -558,7 +560,7 @@ function setCanada(on,fromClick){
 canadaBtn.addEventListener("click",()=>setCanada(!document.body.classList.contains("canada"),true));
 try{if(localStorage.getItem("ct-canada")==="on")setCanada(true,false)}catch(e){}
 
-/* ===================== libraries picked from the toy box ===================== */
+/* ===================== bundled third-party libraries ===================== */
 function loadScript(src){return new Promise((res,rej)=>{const s=document.createElement("script");s.src=src;s.onload=res;s.onerror=rej;document.head.appendChild(s)})}
 
 /* Tone.js: warmer, glassier sounds, loaded only once sound is switched on */
