@@ -22,7 +22,7 @@ const FR={
   "mode.web":"Web","mode.news":"Actualités","mode.images":"Images","mode.scholar":"Universitaire","mode.maps":"Cartes","mode.mrsc":"MRSC","mode.m365":"SharePoint",
   "desk.feeds":"Flux","desk.bus":"OneBusAway","desk.road":"Trafic WSDOT","desk.m365":"Applis de travail","desk.scholar":"Universitaire","desk.mrsc":"MRSC","desk.repo":"Dépôt du site",
   "gh.t":"Titres","gn.t":"Notes","gt.t":"Départs près d'ici","ga.t":"Alertes de service","fp.t":"Première page",
-  "gh.open":"Ouvrir les flux","status.start":"Les flux se rafraîchissent chaque heure",
+  "gh.open":"Ouvrir les flux","status.start":"Les flux se rafraîchissent à 7 h et à 17 h",
   "notes.ph":"Notez quelque chose. Ça reste dans ce navigateur.","notes.saved":"Enregistré dans ce navigateur",
   "gt.here":"Ici","gt.home":"Maison","gt.work":"Travail",
   "rd.unread":"Non lus seulement","rd.markall":"Tout marquer comme lu","rd.ph":"Rechercher dans vos flux",

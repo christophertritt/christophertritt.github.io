@@ -11,7 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = (ROOT / "portfolio/_source.html").read_text()
-VERSION = "20261020r"
+VERSION = "20261020s"
 
 PAGES = {  # section id -> (folder, page title, theme)
     "work": ("projects", "Projects", "airport"),
