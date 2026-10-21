@@ -2,7 +2,7 @@
 
 ## Feed refresh automation
 
-The `Refresh feeds` workflow (`.github/workflows/feeds.yml`) runs hourly and on manual dispatch, and also on pushes that modify:
+The `Refresh feeds` workflow (`.github/workflows/feeds.yml`) runs at 7 AM and 5 PM Pacific and on manual dispatch, and also on pushes that modify:
 
 - `feeds/feeds.json`
 - `scripts/fetch-feeds.mjs`

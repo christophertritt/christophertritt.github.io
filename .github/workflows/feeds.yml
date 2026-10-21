@@ -1,8 +1,14 @@
 name: Refresh feeds
 
+# Runs at 7:00 AM and 5:00 PM Pacific. GitHub cron is UTC-only, so each time
+# has two triggers (one for daylight time, one for standard time) and the gate
+# step keeps only the one that matches the current Pacific offset.
 on:
   schedule:
-    - cron: "17 * * * *"   # every hour at :17
+    - cron: "0 14 * * *"   # 7 AM PDT
+    - cron: "0 0 * * *"    # 5 PM PDT
+    - cron: "0 15 * * *"   # 7 AM PST
+    - cron: "0 1 * * *"    # 5 PM PST
   workflow_dispatch:
   push:
     paths:
@@ -20,13 +26,33 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Keep only the trigger for the current Pacific offset
+        id: gate
+        env:
+          SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          run=true
+          if [ -n "$SCHEDULE" ]; then
+            offset=$(TZ=America/Los_Angeles date +%z)
+            case "$SCHEDULE" in
+              "0 14 * * *"|"0 0 * * *") [ "$offset" = "-0700" ] || run=false ;;
+              "0 15 * * *"|"0 1 * * *") [ "$offset" = "-0800" ] || run=false ;;
+            esac
+          fi
+          echo "Pacific offset: $(TZ=America/Los_Angeles date +%z), run=$run"
+          echo "run=$run" >> "$GITHUB_OUTPUT"
+      - if: steps.gate.outputs.run == 'true'
+        uses: actions/checkout@v4
+      - if: steps.gate.outputs.run == 'true'
+        uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm install --no-save --no-package-lock --ignore-scripts fast-xml-parser@4.5.0
-      - run: node scripts/fetch-feeds.mjs
+      - if: steps.gate.outputs.run == 'true'
+        run: npm install --no-save --no-package-lock --ignore-scripts fast-xml-parser@4.5.0
+      - if: steps.gate.outputs.run == 'true'
+        run: node scripts/fetch-feeds.mjs
       - name: Commit if anything changed
+        if: steps.gate.outputs.run == 'true'
         run: |
           git config user.name "feed-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
