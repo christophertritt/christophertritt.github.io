@@ -1,0 +1,22 @@
+  <h1 class="vh">Reader</h1>
+  <section class="win glass reader" aria-labelledby="streamTitle">
+    <div class="aquatb"><span class="lights" aria-hidden="true"><i></i><i></i><i></i></span><span data-i18n="nav.reader">Reader</span></div>
+    <div class="reader-body">
+      <nav class="feedlist" aria-label="Feeds">
+        <ul id="feedlist"></ul>
+        <p class="updated" id="updated" aria-live="polite">Loading feeds…</p>
+      </nav>
+      <div class="stream">
+        <div class="toolbar">
+          <label class="filter"><span class="vh">Search your feeds</span><input id="filter" type="search" placeholder="Search your feeds…" data-i18n-ph="rd.ph" autocomplete="off"></label>
+          <label class="tog"><input type="checkbox" id="unreadOnly"> <span data-i18n="rd.unread">Unread only</span></label>
+          <button type="button" class="jelly clear sm" id="markAll" data-i18n="rd.markall">Mark all read</button>
+          <button type="button" class="jelly sm" id="refresh">Reload</button>
+        </div>
+        <h2 class="stream-title" id="streamTitle">All feeds</h2>
+        <ol class="items" id="items" aria-live="polite"></ol>
+        <p class="empty" id="empty" hidden>Nothing here. Try another feed or clear the search.</p>
+        <p class="keys"><span data-i18n="rd.keys1">Keys: </span><kbd>j</kbd>/<kbd>k</kbd><span data-i18n="rd.keys2"> next and previous, </span><kbd>o</kbd><span data-i18n="rd.keys3"> open, </span><kbd>s</kbd><span data-i18n="rd.keys4"> star, </span><kbd>m</kbd><span data-i18n="rd.keys5"> read or unread.</span></p>
+      </div>
+    </div>
+  </section>

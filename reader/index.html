@@ -4,65 +4,24 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex">
-  <meta name="description" content="Christopher Tritt's start page: search and the day's planning and transit news.">
+  <meta name="description" content="A feed reader for planning, transit and Northwest news.">
   <title>Reader · Christopher A. Tritt</title>
   <script>try{var m=localStorage.getItem("ct-mode")||(localStorage.getItem("ct-canada")==="on"?"canada":"off");if(m==="canada"||m==="quebec")document.documentElement.dataset.mode=m}catch(e){}</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&family=Comic+Neue:wght@700&family=Dancing+Script:wght@600;700&display=swap">
-  <link rel="stylesheet" href="/css/home.css?v=20261020r">
-  <link rel="stylesheet" href="/css/start.css?v=20261020r">
-  <link rel="stylesheet" href="/css/site.css?v=20261020r">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,400;1,700&amp;family=IBM+Plex+Mono:wght@400;600;700&amp;family=Tinos:ital,wght@0,400;0,700;1,400&amp;display=swap">
+  <link rel="stylesheet" href="/css/aero.css?v=20261020g">
+  <link rel="stylesheet" href="/css/pages.css?v=20261020g">
 </head>
-<body class="start-page reader-page">
+<body class="page-reader theme-aero site">
 <a class="skip" href="#items">Skip to stories</a>
-<div class="sky" aria-hidden="true">
-  <span class="bubble" style="width:120px;height:120px;left:6%;top:58%"></span>
-  <span class="bubble" style="width:54px;height:54px;left:18%;top:78%;animation-duration:14s"></span>
-  <span class="bubble" style="width:200px;height:200px;right:4%;top:14%;animation-duration:24s"></span>
-  <span class="bubble" style="width:70px;height:70px;right:22%;top:66%;animation-duration:16s"></span>
-  <span class="bubble" style="width:34px;height:34px;left:48%;top:86%;animation-duration:12s"></span>
-  <svg class="ripples" viewBox="0 0 600 120" preserveAspectRatio="none"><ellipse cx="300" cy="60" rx="80" ry="12"/><ellipse cx="300" cy="60" rx="170" ry="26"/><ellipse cx="300" cy="60" rx="280" ry="44"/></svg>
-</div>
-
-<header class="top"><div class="wrap">
-  <div class="taskbar glass">
-    <span class="eye" id="eye" aria-hidden="true"><span class="sclera"></span><span class="iris" id="iris"><span class="pupil"></span></span><span class="lid"></span></span>
-    <a class="btn blue to-portfolio" href="/portfolio/"><svg viewBox="0 0 64 56" aria-hidden="true"><path d="M5 9Q5 5.5 8.5 5.5H23.5L28.5 10.5H55.5Q59 10.5 59 14V46H5z" fill="#d7ecff"/><path d="M3 21Q3 18.5 5.5 18.5H58.5Q61 18.5 61 21L59.4 49.5Q59.2 52.5 56.2 52.5H7.8Q4.8 52.5 4.6 49.5z" fill="#fff"/></svg><span>Portfolio</span></a>
-    <p class="hello" id="hello">Hello, Christopher</p>
-    <span class="clock" id="clock" role="img" aria-label="Pacific time">
-      <svg viewBox="0 0 100 100" aria-hidden="true">
-        <circle cx="50" cy="50" r="49" fill="#cfd5db"/><circle cx="50" cy="50" r="47" fill="#9aa3ab"/><circle cx="50" cy="50" r="45.5" fill="#fff"/>
-        <g fill="#111" id="ticks"></g>
-        <g id="hh"><path d="M47.6 62h4.8l-.9-36h-3z" fill="#111"/></g>
-        <g id="mh"><path d="M48.3 62h3.4l-.6-50h-2.2z" fill="#111"/></g>
-        <g id="sh"><path d="M49.4 66h1.2V22h-1.2z" fill="#eb0000"/><circle cx="50" cy="20.5" r="5.2" fill="#eb0000"/></g>
-        <circle cx="50" cy="50" r="1.4" fill="#eb0000"/>
-        <ellipse cx="34" cy="22" rx="24" ry="11" fill="#fff" opacity=".45" transform="rotate(-28 34 22)"/>
-      </svg>
-    </span>
-  </div>
-</div></header>
-
-<nav class="site-nav pnav" aria-label="Site">
-  <button class="pnav-btn" id="pnavBtn" type="button" aria-expanded="false" aria-controls="pnavPanel"><svg viewBox="0 0 64 56" aria-hidden="true"><path d="M5 9Q5 5.5 8.5 5.5H23.5L28.5 10.5H55.5Q59 10.5 59 14V46H5z" fill="#d7ecff"/><path d="M3 21Q3 18.5 5.5 18.5H58.5Q61 18.5 61 21L59.4 49.5Q59.2 52.5 56.2 52.5H7.8Q4.8 52.5 4.6 49.5z" fill="#fff"/></svg><span data-i18n="nav.portfolio">Portfolio</span><span class="pnav-caret" aria-hidden="true">▾</span></button>
-  <div class="pnav-panel" id="pnavPanel" hidden>
-    <span class="pnav-sec" data-i18n="nav.portfolio">Portfolio</span>
-    <a href="/portfolio/projects/"><span data-i18n="nav.projects">Projects</span></a>
-    <a href="/portfolio/skills/"><span data-i18n="nav.skills">Skills</span></a>
-    <a href="/portfolio/about/"><span data-i18n="nav.about">About</span></a>
-    <a href="/portfolio/resume/"><span data-i18n="nav.resume">Resume</span></a>
-    <a href="/portfolio/contact/"><span data-i18n="nav.contact">Contact</span></a>
-    <span class="pnav-sec">Site</span>
-    <a href="/"><span data-i18n="nav.start">Start</span></a>
-    <a href="/portfolio/"><span data-i18n="nav.portfolio">Portfolio</span></a>
-    <a href="/reader/"><span data-i18n="nav.reader">Reader</span></a>
-  </div>
-</nav>
-
-<main class="wrap start" id="top">
+<div class="fleur" aria-hidden="true"></div>
+<div class="scene scene-aero" aria-hidden="true"><div class="rays"></div><div class="sun"></div><svg class="swoosh" viewBox="0 0 1280 300" preserveAspectRatio="none"><defs><linearGradient id="swooshG" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".75"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs><path d="M-20 200C200 80 420 260 680 150S1100 40 1300 120" fill="none" stroke="url(#swooshG)" stroke-width="26" stroke-linecap="round"/><path d="M-20 236C220 120 460 290 720 186S1120 86 1300 160" fill="none" stroke="url(#swooshG)" stroke-width="8" stroke-linecap="round"/></svg><span class="bub" style="left:3%;top:470px;width:130px;height:130px"></span><span class="bub" style="right:2%;top:820px;width:90px;height:90px;animation-delay:-6s"></span><span class="bub" style="left:47%;top:1290px;width:54px;height:54px;animation-delay:-3s"></span><span class="bub" style="right:30%;top:210px;width:46px;height:46px;animation-delay:-9s"></span><svg class="spark" viewBox="0 0 20 20" style="left:12%;top:150px;width:26px"><path d="M10 0l2.2 7.8L20 10l-7.8 2.2L10 20l-2.2-7.8L0 10l7.8-2.2z" fill="#fff"/></svg><svg class="spark" viewBox="0 0 20 20" style="right:16%;top:420px;width:18px;animation-delay:-1.5s"><path d="M10 0l2.2 7.8L20 10l-7.8 2.2L10 20l-2.2-7.8L0 10l7.8-2.2z" fill="#fff"/></svg></div>
+<header class="top"><div class="wrap"><div class="bar glass" id="taskbar"><button class="eye" id="eye" type="button" aria-label="Hieye, the eye. Poke him."><span class="iris" id="iris"><span class="pupil"></span></span><span class="lid"></span></button><div class="who" id="name"><b data-i18n="nav.reader">Reader</b><small id="readerSub">planning, transit and Northwest news</small></div><nav class="nav" id="nav" aria-label="Site"><a href="/"><span data-i18n="nav.start">Start</span></a><a href="/reader/" aria-current="page"><span data-i18n="nav.reader">Reader</span></a><button class="menu-btn inline" id="menuBtn2" type="button" aria-expanded="false" aria-controls="menu"><span data-i18n="nav.portfolio">Portfolio</span>&nbsp;<span class="caret" aria-hidden="true">▾</span></button></nav><button class="jelly sm menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="menu"><span>Menu</span> <span class="caret" aria-hidden="true">▾</span></button><a class="wxchip wx-aero" id="wxChip" href="/" data-state="loading"><span class="wx-ic" aria-hidden="true"></span><span class="wx-t">Weather</span><span class="vh"> (weather; opens the start page)</span></a><button class="clock" id="clock" type="button" aria-expanded="false" aria-controls="sbbSign" aria-label="Clock, Pacific time. Shows the platform sign."><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="49" fill="#cfd5db"/><circle cx="50" cy="50" r="46" fill="#fff"/><circle cx="50" cy="50" r="40" fill="none" stroke="#111" stroke-width="5" stroke-dasharray=".9 3.289" transform="rotate(-90.64 50 50)"/><circle cx="50" cy="50" r="38.5" fill="none" stroke="#111" stroke-width="8" stroke-dasharray="3 17.16" transform="rotate(-92.23 50 50)"/><g class="hand hh"><path d="M48 58h4l-.6-34h-2.8z" fill="#111"/></g><g class="hand mh"><path d="M48.6 60h2.8l-.4-46h-2z" fill="#111"/></g><g class="hand sh"><path d="M49.4 66h1.2V24h-1.2z" fill="#eb0000"/><circle class="disc" cx="50" cy="23" r="5.4" fill="#eb0000"/></g><circle cx="50" cy="50" r="1.4" fill="#111"/><ellipse cx="34" cy="24" rx="22" ry="10" fill="#fff" opacity=".4" transform="rotate(-28 34 24)"/></svg></button></div><nav class="menu glass" id="menu" aria-label="Site menu" hidden><span class="sec" data-i18n="nav.portfolio">Portfolio</span><a href="/portfolio/"><span data-i18n="menu.desktop">Overview</span></a><a href="/portfolio/projects/"><span data-i18n="nav.projects">Projects</span></a><a href="/portfolio/skills/"><span data-i18n="nav.skills">Skills</span></a><a href="/portfolio/about/"><span data-i18n="nav.about">About</span></a><a href="/portfolio/resume/"><span data-i18n="nav.resume">Resume</span></a><a href="/portfolio/contact/"><span data-i18n="nav.contact">Contact</span></a><span class="sec">Site</span><a href="/"><span data-i18n="nav.start">Start</span></a><a href="/reader/" aria-current="page"><span data-i18n="nav.reader">Reader</span></a><span class="sec">More</span><button type="button" data-tour>Take the tour</button><button type="button" data-palette>Search the site (Ctrl K)</button></nav><div class="sbb" id="sbbSign" hidden role="region" aria-label="Platform sign: time and date"></div></div></header>
+<main class="wrap" id="main">
   <h1 class="vh">Reader</h1>
-  <section class="win glass reader fullwin" aria-labelledby="readerTitle">
-    <div class="tb"><span class="lights"><a class="lt close" href="/" data-close aria-label="Close Reader and go back to the start page">×</a><a class="lt min" href="/" data-close aria-label="Minimize Reader to the start page">−</a><button type="button" class="lt max" id="zoomBtn" aria-pressed="false" aria-label="Maximize Reader (hides the taskbar)">+</button></span><span class="tb-t" id="readerTitle" data-i18n="nav.reader">Reader</span></div>
+  <section class="win glass reader" aria-labelledby="streamTitle">
+    <div class="aquatb"><span class="lights" aria-hidden="true"><i></i><i></i><i></i></span><span data-i18n="nav.reader">Reader</span></div>
     <div class="reader-body">
       <nav class="feedlist" aria-label="Feeds">
         <ul id="feedlist"></ul>
@@ -70,10 +29,10 @@
       </nav>
       <div class="stream">
         <div class="toolbar">
-          <label class="filter"><span class="vh">Search your feeds</span><input id="filter" type="search" placeholder="Search your feeds" data-i18n-ph="rd.ph" autocomplete="off"></label>
+          <label class="filter"><span class="vh">Search your feeds</span><input id="filter" type="search" placeholder="Search your feeds…" data-i18n-ph="rd.ph" autocomplete="off"></label>
           <label class="tog"><input type="checkbox" id="unreadOnly"> <span data-i18n="rd.unread">Unread only</span></label>
-          <button type="button" class="tool" id="markAll" data-i18n="rd.markall">Mark all read</button>
-          <button type="button" class="tool" id="refresh" aria-label="Reload feeds">↻</button>
+          <button type="button" class="jelly clear sm" id="markAll" data-i18n="rd.markall">Mark all read</button>
+          <button type="button" class="jelly sm" id="refresh">Reload</button>
         </div>
         <h2 class="stream-title" id="streamTitle">All feeds</h2>
         <ol class="items" id="items" aria-live="polite"></ol>
@@ -82,22 +41,33 @@
       </div>
     </div>
   </section>
-
 </main>
-
-
-<aside class="flagbar" id="flagbar" aria-label="Site modes">
-  <div class="flag-unit">
-    <button class="flag-btn ca" id="flagCA" type="button" aria-pressed="false" aria-label="Canada mode"><svg viewBox="0 0 9600 4800" aria-hidden="true"><rect width="9600" height="4800" fill="#fff"/><rect width="2400" height="4800" fill="#d52b1e"/><rect x="7200" width="2400" height="4800" fill="#d52b1e"/><path fill="#d52b1e" d="m4890 4430-45-863a95 95 0 0 1 111-98l859 151-116-320a65 65 0 0 1 20-73l941-762-212-99a65 65 0 0 1-34-79l186-572-542 115a65 65 0 0 1-73-38l-105-247-423 454a65 65 0 0 1-111-57l204-1052-327 189a65 65 0 0 1-91-27l-332-652-332 652a65 65 0 0 1-91 27l-327-189 204 1052a65 65 0 0 1-111 57l-423-454-105 247a65 65 0 0 1-73 38l-542-115 186 572a65 65 0 0 1-34 79l-212 99 941 762a65 65 0 0 1 20 73l-116 320 859-151a95 95 0 0 1 111 98l-45 863z"/></svg></button>
-    <span class="flag-cap">Canada</span>
+<div class="wrap"><footer class="foot glass"><span id="done">© 2026 Christopher Tritt</span><a href="#credits" data-credits><span data-i18n="status.credits">Credits and sources</span></a><a href="/portfolio/" data-i18n="nav.portfolio">Portfolio</a><span class="grow"></span><button class="leaf" id="modeOff" type="button" hidden aria-label="Turn off Canada mode"><svg viewBox="2480 300 4640 4200" aria-hidden="true"><path fill="#d52b1e" d="m4890 4430-45-863a95 95 0 0 1 111-98l859 151-116-320a65 65 0 0 1 20-73l941-762-212-99a65 65 0 0 1-34-79l186-572-542 115a65 65 0 0 1-73-38l-105-247-423 454a65 65 0 0 1-111-57l204-1052-327 189a65 65 0 0 1-91-27l-332-652-332 652a65 65 0 0 1-91 27l-327-189 204 1052a65 65 0 0 1-111 57l-423-454-105 247a65 65 0 0 1-73 38l-542-115 186 572a65 65 0 0 1-34 79l-212 99 941 762a65 65 0 0 1 20 73l-116 320 859-151a95 95 0 0 1 111 98l-45 863z"/></svg></button><button class="jelly clear sm" id="quiet" type="button" aria-pressed="false">Quiet</button></footer></div>
+<dialog class="glass-dlg" id="credits" aria-labelledby="crH">
+  <div class="aquatb"><span class="lights" aria-hidden="true"><i></i><i></i><i></i></span>third_party_notices.txt<button class="dlg-x" type="button" data-close aria-label="Close credits">×</button></div>
+  <div class="dlg-body">
+    <h2 id="crH">Credits and sources</h2>
+    <h3>Photos</h3>
+    <ul><li>Buses under the canopy at Bellevue Transit Center: <a href="https://commons.wikimedia.org/wiki/File:Bellevue_Transit_Center_west_end.jpg" target="_blank" rel="noopener">Dweymouth, CC BY-SA 4.0</a></li><li>Historic storefronts along downtown Roslyn&#x27;s main street: <a href="https://commons.wikimedia.org/wiki/File:Downtown_Roslyn_2026.jpg" target="_blank" rel="noopener">Flytzjl93, CC BY-SA 4.0</a></li><li>Driftwood on the sand at Grayland Beach at sunset: <a href="https://commons.wikimedia.org/wiki/File:Grayland_Beach_State_Park_(33475037010).jpg" target="_blank" rel="noopener">Steve Ginn, CC0</a></li></ul>
+    <h3>Data</h3>
+    <ul>
+      <li>Weather and air quality from <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a>. Approximate location from <a href="https://ipwho.is/" target="_blank" rel="noopener">ipwho.is</a> (or <a href="https://ipapi.co/" target="_blank" rel="noopener">ipapi.co</a>), kept in your browser for 30 minutes.</li>
+      <li>Transit departures from <a href="https://pugetsound.onebusaway.org/" target="_blank" rel="noopener">OneBusAway Puget Sound</a>.</li>
+      <li>Headlines link back to each publisher; the stories belong to them.</li>
+      <li>Map tiles © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors.</li>
+    </ul>
+    <h3>Code and type</h3>
+    <ul>
+      <li><a href="https://leafletjs.com/" target="_blank" rel="noopener">Leaflet</a> (BSD-2-Clause), <a href="https://driverjs.com/" target="_blank" rel="noopener">Driver.js</a> (MIT) and <a href="https://github.com/catdad/canvas-confetti" target="_blank" rel="noopener">canvas-confetti</a> (ISC), vendored unmodified.</li>
+      <li>Tinos, Comic Neue, IBM Plex Mono and EB Garamond from <a href="https://fonts.google.com/" target="_blank" rel="noopener">Google Fonts</a>, under their open-source licenses.</li>
+      <li>The eye, the icons, the SBB-style clock and every page theme are original artwork for this site. The station clock and platform sign are a tribute to the Swiss railways' designs, not their files.</li>
+    </ul>
   </div>
-  <div class="flag-unit" id="flagQCUnit" hidden>
-    <button class="flag-btn qc" id="flagQC" type="button" aria-pressed="false" aria-label="Quebec mode"><svg viewBox="0 0 60 40" aria-hidden="true"><rect width="60" height="40" fill="#003da5"/><rect x="25" width="10" height="40" fill="#fff"/><rect y="15" width="60" height="10" fill="#fff"/><defs><g id="qcFleur"><path fill="#fff" d="M0-10C2.6-7 2.8-3.8 0-.8C-2.8-3.8-2.6-7 0-10Z M-7.5-5C-4.8-5.4-2.4-3.4-1.9-.6C-4.8-.2-7.3-1.9-7.5-5Z M7.5-5C4.8-5.4 2.4-3.4 1.9-.6C4.8-.2 7.3-1.9 7.5-5Z M-5.5 1.2h11v2.6h-11Z M-2.8 3.8C-2.2 6.6.6 8.2 0 10.6C-.6 8.2 2.2 6.6 2.8 3.8C1.2 4.9-1.2 4.9-2.8 3.8Z"/></g></defs><use href="#qcFleur" transform="translate(12.5 7.5) scale(.62)"/><use href="#qcFleur" transform="translate(47.5 7.5) scale(.62)"/><use href="#qcFleur" transform="translate(12.5 32.5) scale(.62)"/><use href="#qcFleur" transform="translate(47.5 32.5) scale(.62)"/></svg></button>
-    <span class="flag-cap">Québec</span>
-  </div>
-</aside>
+</dialog>
 
-<script src="/js/site.js?v=20261020r" defer></script>
-<script src="/js/start.js?v=20261020r" defer></script>
+<div class="wp" id="wp" hidden role="status" aria-live="polite"><b class="wp-name">Hieye</b><p id="wpLine"></p><div class="wp-acts" id="wpActs"></div><button class="wp-x" type="button" id="wpX" aria-label="Dismiss Hieye">×</button></div>
+<script src="/js/weather.js?v=20261020g" defer></script>
+<script src="/js/shell.js?v=20261020g" defer></script>
+<script src="/js/start.js?v=20261020g" defer></script>
 </body>
 </html>

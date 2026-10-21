@@ -1,0 +1,45 @@
+  <section class="cab" aria-labelledby="depH">
+    <span class="rivet" style="left:6px;top:6px"></span><span class="rivet" style="right:6px;top:6px"></span><span class="rivet" style="left:6px;bottom:6px"></span><span class="rivet" style="right:6px;bottom:6px"></span>
+    <div class="cab-head">
+      <div class="cab-title">
+        <svg width="40" height="40" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 14l20-6-2 4-8 3 2 6-2 1-4-6-4 1z" fill="#f4f4ee"/></svg>
+        <div><h1 id="depH"><span class="vh">Projects: </span>Departures</h1><p aria-hidden="true">Projects · Départs · Selected work</p></div>
+      </div>
+      <span class="f clockflap" id="fidsClock" aria-hidden="true">{{CLOCK_TILES}}</span>
+    </div>
+    <div class="board">
+      <div class="row headrow" aria-hidden="true"><span>Time</span><span>Flight</span><span>Destination</span><span>Gate</span><span>Remarks</span></div>
+      <ul class="rows" aria-label="Case studies">
+{{BOARD_ROWS}}
+      </ul>
+    </div>
+    <p class="cab-note">{{CASE_STUDY_COUNT}} case studies. Now boarding at gate A1. Select a flight to read its case study.{{DELAY_NOTE}}</p>
+  </section>
+
+  <h2 class="vh">Case studies</h2>
+  <div class="passes">
+{{PASSES}}
+  </div>
+
+  <div class="pj-lower">
+    <section class="cab mini-cab" aria-labelledby="arrH">
+      <h2 id="arrH" class="colh">Arrivals · Case studies being written</h2>
+      <div class="board">
+        <ul class="rows">
+{{ARRIVALS}}
+        </ul>
+      </div>
+    </section>
+    <section class="glass connect" id="connect" aria-labelledby="cnH">
+      <h2 id="cnH">Connecting flights</h2>
+      <ul>
+        <li><b>TDM White Paper and Progress Report</b><span>Section 508 and WCAG 2.1 compliant, Chicago citations</span></li>
+        <li><b>Program Activities Dashboard</b><span>Power Apps on SharePoint for outreach and grant reporting</span></li>
+        <li><b>HUGs eligibility search tool</b><span>Public web tool for Choose Your Way Bellevue</span></li>
+        <li><b>Permeable pavement and flood vulnerability</b><span>Seattle-Tacoma rail corridor pilot, with Yasmeen Sobaih</span></li>
+        <li><b>Seoul and Pacific Northwest nature-based solutions</b><span>Comparative policy research for Professor Chang-Hee Christine Bae</span></li>
+        <li><b>Grays Harbor tsunami and sea-level rise mapping</b><span>Hazard layers converted for web mapping</span></li>
+      </ul>
+    </section>
+  </div>
+  <p class="photo-credits">{{PHOTO_CREDITS}}</p>
