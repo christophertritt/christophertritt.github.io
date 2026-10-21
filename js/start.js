@@ -1,29 +1,21 @@
-/* Start page: Google search box, SBB clock, Tacoma weather chip, and a feed reader over feeds/items.json. */
+/* Start page and reader: the Christophergle search, the weather orbs, and a feed reader over feeds/items.json (plus the unread badge on the Feeds icon). */
 (()=>{
 const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
 const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
 const store={get(k,d){try{const v=localStorage.getItem("start-"+k);return v==null?d:JSON.parse(v)}catch(e){return d}},set(k,v){try{localStorage.setItem("start-"+k,JSON.stringify(v))}catch(e){}}};
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
-/* greeting by time of day */
-const hr=+new Intl.DateTimeFormat("en-US",{hour:"numeric",hour12:false,timeZone:"America/Los_Angeles"}).format(new Date())%24;
-$("#hello").textContent=(hr<5?"Up late":hr<12?"Good morning":hr<17?"Good afternoon":"Good evening")+", Christopher";
-
-/* the eye follows the pointer and blinks */
-const eye=$("#eye"), iris=$("#iris");
-addEventListener("pointermove",e=>{const r=eye.getBoundingClientRect(),dx=e.clientX-r.left-r.width/2,dy=e.clientY-r.top-r.height/2,d=Math.hypot(dx,dy)||1,m=Math.min(r.width*.22,d/18);
-  iris.style.transform=`translate(${(dx/d*m).toFixed(1)}px,${(dy/d*m).toFixed(1)}px)`},{passive:true});
-(function blink(){setTimeout(()=>{eye.classList.add("blink");setTimeout(()=>eye.classList.remove("blink"),150);blink()},2600+Math.random()*4200)})();
-
-/* SBB clock: second hand sweeps in 58.5 s and waits at 12 */
-const ticks=$("#ticks");ticks.innerHTML=Array.from({length:60},(_,i)=>i%5?`<rect x="49.4" y="6" width="1.2" height="3.6" transform="rotate(${i*6} 50 50)"/>`:`<rect x="48.2" y="6" width="3.6" height="11" transform="rotate(${i*6} 50 50)"/>`).join("");
-const fmt=new Intl.DateTimeFormat("en-US",{hour:"numeric",minute:"numeric",second:"numeric",hour12:false,timeZone:"America/Los_Angeles"});
-const hh=$("#hh"),mh=$("#mh"),sh=$("#sh"),clock=$("#clock");
-[hh,mh,sh].forEach(g=>{g.style.transformOrigin="50px 50px";g.style.transformBox="view-box"});
-function tick(){const now=new Date(),p=Object.fromEntries(fmt.formatToParts(now).map(x=>[x.type,x.value]));const h=+p.hour%24,m=+p.minute,s=+p.second+now.getMilliseconds()/1000;
-  sh.style.transform=`rotate(${Math.min(s/58.5,1)*360}deg)`;mh.style.transform=`rotate(${(h*60+m)*6}deg)`;hh.style.transform=`rotate(${(h+m/60)*30}deg)`;
-  clock.setAttribute("aria-label",`${(h%12)||12}:${String(m).padStart(2,"0")} ${h<12?"AM":"PM"} Pacific`)}
-(function loop(){tick();setTimeout(()=>requestAnimationFrame(loop),reduce?1000:60)})();
+/* weather orbs in the search window: weather.js has the data, select the big one for details */
+const orb=id=>$("#"+id);
+function renderOrbs(){
+  const s=window.Weather?.summary?.(); if(!s||!orb("wxoTemp"))return;
+  orb("wxoIc").innerHTML=s.icon; orb("wxoTemp").textContent=s.temp+"°"; orb("wxoCond").textContent=s.cond;
+  orb("wxoFeels").textContent=s.feels+"°"; orb("wxoWind").textContent=s.wind; orb("wxoWindU").textContent=s.windUnit;
+  orb("wxoPlace").textContent=s.city; orb("wxoAqi").textContent=s.aqi??"—";
+}
+document.addEventListener("weather:update",renderOrbs);renderOrbs();
+document.addEventListener("weather:error",()=>{if(orb("wxoCond")&&!window.Weather?.summary?.()){orb("wxoTemp").textContent="?";orb("wxoCond").textContent="weather's napping"}});
+orb("wxoMain")?.addEventListener("click",e=>window.Weather?.openPanel(e.currentTarget));
 
 /* ---------- search ---------- */
 const form=$("#search"), q=$("#q"), tbm=$("#tbm");
@@ -31,7 +23,7 @@ if(form){
 let mode=store.get("mode","web");
 const modeBtns=$$(".modes [data-mode]");
 function setMode(m){mode=m;store.set("mode",m);modeBtns.forEach(b=>b.setAttribute("aria-checked",String(b.dataset.mode===m)));
-  q.placeholder={web:"Search Google",news:"Search Google News",images:"Search Google Images",scholar:"Search Google Scholar",maps:"Search Google Maps",mrsc:"Search MRSC with Google",m365:"Search SharePoint and your Microsoft 365 files"}[m]||"Search Google"}
+  q.placeholder={web:"Search the World Wide Web…",news:"Search the news…",images:"Search for pictures…",scholar:"Search Google Scholar…",maps:"Search the map…",mrsc:"Search MRSC…",m365:"Search SharePoint and your Microsoft 365 files…"}[m]||"Search the World Wide Web…";q.dataset.enPh=q.placeholder}
 modeBtns.forEach(b=>b.addEventListener("click",()=>{setMode(b.dataset.mode);q.focus()}));
 /* arrow keys move between modes, like a real radio group */
 $(".modes").addEventListener("keydown",e=>{if(!/Arrow(Left|Right)/.test(e.key))return;const i=modeBtns.findIndex(b=>b.dataset.mode===mode),n=modeBtns[(i+(e.key==="ArrowRight"?1:-1)+modeBtns.length)%modeBtns.length];setMode(n.dataset.mode);n.focus()});
@@ -126,7 +118,8 @@ async function load(){
     if(!isReader){const live=new Set(data.items.map(i=>i.id)), n=data.items.filter(i=>!read.has(i.id)).length, b=$("#feedBadge");
       /* the count is read as part of the link text, so the accessible name matches what is on screen */
       if(b){b.hidden=!n;b.innerHTML=`${n>99?"99+":n}<span class="vh"> unread</span>`}return}
-    const bad=data.feeds.filter(f=>f.ok===false).length;
+    const bad=data.feeds.filter(f=>f.ok===false).length, sub=$("#readerSub");
+    if(sub)sub.textContent=`${data.items.length} stories from ${data.feeds.filter(f=>f.ok!==false).length} feeds`;
     $("#updated").textContent=`Updated ${ago(data.updated)}${bad?` · ${bad} feed${bad>1?"s":""} couldn't refresh`:""}.`;
     /* forget read marks for items that have aged out */
     const live=new Set(data.items.map(i=>i.id));read=new Set([...read].filter(id=>live.has(id)));saveRead();
@@ -137,21 +130,4 @@ if(isReader)$("#refresh").addEventListener("click",load);
 if(isReader||$("#feedBadge")){if(isReader)load();else (window.requestIdleCallback||setTimeout)(load)}
 setInterval(()=>{if(!document.hidden&&(isReader||$("#feedBadge")))load()},15*60*1000);
 
-/* ---------- desktop icons open full-size windows (separate pages) ---------- */
-$$("a[data-window]").forEach(a=>a.addEventListener("click",e=>{
-  if(e.metaKey||e.ctrlKey||e.shiftKey||e.button!==0||reduce) return;
-  e.preventDefault();
-  const r=a.querySelector(".di-art").getBoundingClientRect(), w=document.createElement("div");
-  w.className="zoomwin glass";w.innerHTML=`<div class="tb"><span class="tb-t">${a.querySelector(".di-label").textContent}</span></div>`;
-  Object.assign(w.style,{left:r.left+"px",top:r.top+"px",width:r.width+"px",height:r.height+"px"});document.body.appendChild(w);
-  requestAnimationFrame(()=>{w.classList.add("open");Object.assign(w.style,{left:"12px",top:"12px",width:(innerWidth-24)+"px",height:(innerHeight-24)+"px"})});
-  setTimeout(()=>{location.href=a.href},300);
-}));
-addEventListener("pageshow",e=>{if(e.persisted)$$(".zoomwin").forEach(w=>w.remove())});
-
-/* ---------- full-size window page: red/yellow go back, green zooms ---------- */
-const zoomBtn=$("#zoomBtn");
-if(zoomBtn){const z=store.get("zoom",false);const set=on=>{document.body.classList.toggle("zoomed",on);zoomBtn.setAttribute("aria-pressed",String(on));store.set("zoom",on)};set(z);
-  zoomBtn.addEventListener("click",()=>set(!document.body.classList.contains("zoomed")));
-  addEventListener("keydown",e=>{if(e.key==="Escape"&&!/INPUT|TEXTAREA/.test(document.activeElement.tagName))location.href="/"});}
 })();

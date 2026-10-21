@@ -2,7 +2,7 @@
    near wherever weather.js thinks you are, and a front page of feed stories with pictures. */
 (() => {
 const $ = (s, r = document) => r.querySelector(s);
-if (!$(".start-grid")) return;
+if (!$("#ghList")) return;
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const ls = {
   get(k, d) { try { const v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
@@ -35,17 +35,16 @@ function renderFront() {
   const F = Object.fromEntries(feedData.feeds.map(f => [f.id, f]));
   const topics = ["All", ...new Set(feedData.feeds.filter(f => f.ok !== false).map(f => f.topic))];
   if (!topics.includes(topic)) topic = "All";
-  $("#fpTabs").innerHTML = topics.map(t => `<button type="button" aria-pressed="${t === topic}" data-topic="${esc(t)}">${esc(t)}</button>`).join("");
+  $("#fpTabs").innerHTML = topics.map(t => `<button class="jelly sm" type="button" aria-pressed="${t === topic}" data-topic="${esc(t)}">${esc(t)}</button>`).join("");
   const perFeed = {}, read = readSet();
-  const items = feedData.items.filter(i => i.image && (topic === "All" || F[i.feed]?.topic === topic))
+  const items = feedData.items.filter(i => (topic === "All" || F[i.feed]?.topic === topic))
     .sort((a, b) => b.date.localeCompare(a.date))
-    .filter(i => (perFeed[i.feed] = (perFeed[i.feed] || 0) + 1) <= (topic === "All" ? 2 : 4)).slice(0, 8);
+    .filter(i => (perFeed[i.feed] = (perFeed[i.feed] || 0) + 1) <= (topic === "All" ? 1 : 4)).slice(0, 8);
   grid.innerHTML = items.length ? items.map(i => { const f = F[i.feed] || {};
     return `<li class="fp-card${read.has(i.id) ? " read" : ""}"><a href="${esc(i.link)}" target="_blank" rel="noopener" data-id="${esc(i.id)}">
-      <span class="fp-img"><img src="${esc(i.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('noimg');this.remove()"></span>
       <span class="fp-meta"><span class="dot" style="--c:${esc(f.color || "#3d93dc")}"></span>${esc(f.name || i.feed)} · ${ago(i.date)}</span>
       <span class="fp-t">${esc(i.title)}</span></a></li>`; }).join("")
-    : `<li class="g-empty">No picture stories in ${esc(topic)} right now.</li>`;
+    : `<li class="g-empty">No stories in ${esc(topic)} right now.</li>`;
 }
 async function loadFeeds() {
   try {

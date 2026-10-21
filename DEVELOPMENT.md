@@ -20,15 +20,6 @@ It runs `scripts/fetch-feeds.mjs`, then commits `feeds/items.json` when feed con
 
 These checks reduce SSRF risk if feed configuration is accidentally changed to an unsafe endpoint.
 
-## Portfolio build script
+## Site build script
 
-`scripts/build_portfolio.py` reads from `portfolio/_source.html` and regenerates:
-
-- `portfolio/index.html`
-- `portfolio/projects/index.html`
-- `portfolio/skills/index.html`
-- `portfolio/about/index.html`
-- `portfolio/resume/index.html`
-- `portfolio/contact/index.html`
-
-Run this script after editing `_source.html` so published section pages stay in sync.
+`scripts/build_site.py` builds every page from `src/` and the shared shell, and builds the Projects departures board and boarding passes from `js/home-data.js` (it runs Node to read the data). Run it after any change to `src/`, the shell, or the case studies.
