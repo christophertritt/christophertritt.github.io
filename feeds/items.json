@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T04:23:53.138Z",
+ "updated": "2026-10-25T17:24:18.128Z",
  "feeds": [
   {
    "id": "planetizen",
@@ -121,13 +121,283 @@
  ],
  "items": [
   {
+   "id": "nytimes-business:https://www.nytimes.com/2026/10/25/business/media/elizabeth-holmes-clayface-box-office.html",
+   "feed": "nytimes-business",
+   "title": "Elizabeth Holmes Gives a Batman Villain a Run for His Money",
+   "link": "https://www.nytimes.com/2026/10/25/business/media/elizabeth-holmes-clayface-box-office.html",
+   "date": "2026-10-25T17:16:13.000Z",
+   "summary": "“Clayface” was No. 1 at the box office, but “You Can See Everything,” a documentary about the disgraced Theranos founder, surged in its second weekend.",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/10/25/business/how-to-straddle-the-maga-divide.html",
+   "feed": "nytimes-business",
+   "title": "How to Straddle the MAGA Divide",
+   "link": "https://www.nytimes.com/2026/10/25/business/how-to-straddle-the-maga-divide.html",
+   "date": "2026-10-25T17:00:21.000Z",
+   "summary": "Beth Wilkinson is a Washington lawyer who has thrived representing the Trump administration’s enemies and allies alike. Does she represent a vanishing type?",
+   "image": "https://static01.nyt.com/images/2026/10/25/business/25wilkinson-illo/25wilkinson-illo-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/10/25/business/media/caryle-murphy-dead.html",
+   "feed": "nytimes-business",
+   "title": "Caryle Murphy Has Died. She Earned a Pulitzer for Reporting in Kuwait.",
+   "link": "https://www.nytimes.com/2026/10/25/business/media/caryle-murphy-dead.html",
+   "date": "2026-10-25T16:53:43.000Z",
+   "summary": "A Washington Post journalist, she was one of the few Western reporters in Kuwait in 1990 when Saddam Hussein’s forces invaded.",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TNH1WEWWD62O00",
+   "feed": "bloomberg-business",
+   "title": "Merryn Talks Money: The AI Boom's Margin Squeeze (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-10-25/merryn-talks-money-the-ai-boom-s-margin-squeeze-podcast",
+   "date": "2026-10-25T16:31:26.000Z",
+   "summary": "Source: Bloomberg, 37:52",
+   "image": ""
+  },
+  {
+   "id": "planetizen:138727 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "MTA kicks off six-year, $1 billion transit upgrade project",
+   "link": "https://www.planetizen.com/news/2026/10/138727-mta-kicks-six-year-1-billion-transit-upgrade-project",
+   "date": "2026-10-25T16:00:00.000Z",
+   "summary": "The MTA has already added modern signals to several of its lines, which are some of the most reliable in the city. The Metropolitan Transit Authority is kicking off a six-year project to replace the A and C line’s roughly 90-year-old train signals. The $1.9 billion project will install communications-based train…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2722018913.jpg.webp?itok=4KjeoCRW"
+  },
+  {
+   "id": "bloomberg-business:TNH0E6O32FWG00",
+   "feed": "bloomberg-business",
+   "title": "US Weighs Iran Escalation, Crenshaw Presses Musk on Starlink",
+   "link": "https://www.bloomberg.com/news/audio/2026-10-25/us-weighs-iran-escalation-crenshaw-presses-musk-on-starlink",
+   "date": "2026-10-25T15:58:54.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "urbanist:6ade1b40f244b90001da4a34",
+   "feed": "urbanist",
+   "title": "Op-Ed: Stop MAGA from Taking Over Washington, Vote No on I-645, I-001, and I-638",
+   "link": "https://www.theurbanist.org/op-ed-stop-maga-from-taking-over-washington-vote-no-on-i-645-i-001-and-i-638/",
+   "date": "2026-10-25T15:48:15.000Z",
+   "summary": "I was born and raised in Baton Rouge, Louisiana to immigrant parents. I moved to Seattle in 1999 to work as a software engineer in large part due to the progressive values cultivated by Washington State. My wife and I are grateful to the communities and culture here, where we’ve been able to raise three children who…",
+   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/JUL26-Brian-Heywood-Adjusts-Mic-by-Andrew-Villeneuve-NPI.jpg"
+  },
+  {
+   "id": "nytimes-business:tps://www.nytimes.com/2026/10/24/business/dealbook/ceos-say-the-ai-rollout-is-going-well-employees-feel-differently.html",
+   "feed": "nytimes-business",
+   "title": "C.E.O.s Say the A.I. Rollout Is Going Well. Employees Feel Differently.",
+   "link": "https://www.nytimes.com/2026/10/24/business/dealbook/ceos-say-the-ai-rollout-is-going-well-employees-feel-differently.html",
+   "date": "2026-10-25T15:33:31.000Z",
+   "summary": "Surveys show workers and executives have different views on A.I.",
+   "image": "https://static01.nyt.com/images/2026/10/23/business/00db-ai-disconnect/00db-ai-disconnect-mediumSquareAt3X.jpg"
+  },
+  {
    "id": "nytimes-business:https://www.nytimes.com/2026/10/24/business/audi-factory-georgia-trump.html",
    "feed": "nytimes-business",
    "title": "Audi to Build Factory in Georgia, Trump Says",
    "link": "https://www.nytimes.com/2026/10/24/business/audi-factory-georgia-trump.html",
-   "date": "2026-10-25T02:17:33.000Z",
+   "date": "2026-10-25T15:30:20.000Z",
    "summary": "The Volkswagen division, which imports all its cars from Europe or Mexico, has been hit hard by U.S. tariffs.",
    "image": "https://static01.nyt.com/images/2026/10/24/multimedia/24biz-audi-factory-wmtq/24biz-audi-factory-wmtq-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "bloomberg-business:TNB2NHT9NJLS00",
+   "feed": "bloomberg-business",
+   "title": "Astra’s Experimental Stomach Cancer Drug Doubled Survival Time",
+   "link": "https://www.bloomberg.com/news/articles/2026-10-25/astra-s-experimental-stomach-cancer-drug-doubled-survival-time",
+   "date": "2026-10-25T15:30:00.000Z",
+   "summary": "AstraZeneca Plc’s experimental stomach cancer drug doubled the time patients survived in a late-stage trial, boosting prospects for a potential new blockbuster.",
+   "image": ""
+  },
+  {
+   "id": "planetizen:138722 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "Developers may expand largest gas pipeline network in Northwest",
+   "link": "https://www.planetizen.com/news/2026/10/138722-developers-may-expand-largest-gas-pipeline-network-northwest",
+   "date": "2026-10-25T15:00:00.000Z",
+   "summary": "Two analyses from Columbia Riverkeeper and the Seattle-based think tank Sightline Institute show that a growing number of Northwest utility companies are spending on new gas-powered energy infrastructure or buying gas-powered energy from other states to p The Oklahoma-based company that owns one of the largest gas…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/Header-image.jpg.webp?itok=HG1nfRQ7"
+  },
+  {
+   "id": "bloomberg-business:TNGXHHUT4Z5S00",
+   "feed": "bloomberg-business",
+   "title": "Bloomberg This Weekend: Israel Election; Candy Prices (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-10-25/bloomberg-this-weekend-israel-election-candy-prices-podcast",
+   "date": "2026-10-25T14:56:05.000Z",
+   "summary": "Source: Bloomberg, 40:34",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TNGXERUT4Z5S00",
+   "feed": "bloomberg-business",
+   "title": "US Preparing Iran Escalation, Trilateral Talks on Ukraine, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-10-25/us-preparing-iran-escalation-trilateral-talks-on-ukraine-more",
+   "date": "2026-10-25T14:54:27.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "planetizen:138715 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "MBTA is using AI to catch drivers who park illegally",
+   "link": "https://www.planetizen.com/news/2026/10/138715-mbta-using-ai-catch-drivers-who-park-illegally",
+   "date": "2026-10-25T14:00:00.000Z",
+   "summary": "The MBTA says vehicles that illegally park in bus zones are one of the most persistent causes of transit delays. The Massachusetts Bay Transit Authority is using artificial intelligence to automatically issue warnings to vehicles parked illegally in bus lanes and bus stops. The transit authority hopes the new…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_1728549571.jpg.webp?itok=WbvF-5FO"
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0003928798",
+   "feed": "wsj-business",
+   "title": "These Mini Power Plants Aim to Make Green Fuel, Using the Air Around Them",
+   "link": "https://www.wsj.com/business/energy-oil/green-power-plants-synthetic-natural-gas-3b572b1c?mod=pls_whats_news_us_business_f",
+   "date": "2026-10-25T14:00:00.000Z",
+   "summary": "Rivan Industries and other startups are betting they can make green fuel cost-competitive.",
+   "image": "https://images.wsj.net/im-16807517"
+  },
+  {
+   "id": "bloomberg-business:TNGT5VO32FWG00",
+   "feed": "bloomberg-business",
+   "title": "US Weighs Iran Escalation, Trump, Obama Hit Campaign Trail, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-10-25/us-weighs-iran-escalation-trump-obama-hit-campaign-trail-more",
+   "date": "2026-10-25T13:22:43.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "planetizen:138713 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "LA to bring bus rapid transit to its busiest corridor",
+   "link": "https://www.planetizen.com/news/2026/10/138713-la-bring-bus-rapid-transit-its-busiest-corridor",
+   "date": "2026-10-25T13:00:00.000Z",
+   "summary": "The Vermont BRT line secured local funding in 2016, and recently gained another $150 million in federal funding. Kicking off its second project in one week, on Oct. 21 LA Metro officials broke ground a bus rapid transit line along “one of the region's busiest north-south corridors,” LA Urbanize reports. The Vermont…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/vermont%20brt%20south%20subarea%20rendering.jpg.webp?itok=V3XfY1x_"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/10/25/business/media/bill-owens-60-minutes-emerson-collective.html",
+   "feed": "nytimes-business",
+   "title": "Former ‘60 Minutes’ Boss to Join Video Journalism Start-Up",
+   "link": "https://www.nytimes.com/2026/10/25/business/media/bill-owens-60-minutes-emerson-collective.html",
+   "date": "2026-10-25T12:56:27.000Z",
+   "summary": "Bill Owens, who left the show after clashing with CBS executives, is joining Newpress, which publishes work from creators on YouTube.",
+   "image": "https://static01.nyt.com/images/2026/10/22/multimedia/22BIZ-NEWPRESS-czkv/22BIZ-NEWPRESS-czkv-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "bloomberg-business:TLI0CHT96OSJ00",
+   "feed": "bloomberg-business",
+   "title": "MicroPort Appoints Jonathan Chen CEO After Chairman Resigns",
+   "link": "https://www.bloomberg.com/news/articles/2026-10-25/microport-appoints-jonathan-chen-ceo-after-chairman-resigns",
+   "date": "2026-10-25T12:27:10.000Z",
+   "summary": "MicroPort Scientific Corp. appointed Jonathan W. Chen as chief executive officer after the company’s chairman stepped down from the board.",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TNGPGTO32FWG00",
+   "feed": "bloomberg-business",
+   "title": "Trump, Obama Rally Voters, US Prepares for Iran Escalation, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-10-25/trump-obama-rally-voters-us-prepares-for-iran-escalation-more",
+   "date": "2026-10-25T12:02:53.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TNGPCJUT4Z5S00",
+   "feed": "bloomberg-business",
+   "title": "Riyadh Airport Reopens After Houthi Attacks, France Dodges Riots",
+   "link": "https://www.bloomberg.com/news/audio/2026-10-25/riyadh-airport-reopens-after-houthi-attacks-france-dodges-riots",
+   "date": "2026-10-25T12:00:19.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "planetizen:138716 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "The road design trend that's killing Americans",
+   "link": "https://www.planetizen.com/news/2026/10/138716-road-design-trend-thats-killing-americans",
+   "date": "2026-10-25T12:00:00.000Z",
+   "summary": "Union Ave in Memphis, Tennassee. The width of the road results in it being poorly lit at night, which can be dangerous for pedestrians. The death of a 16-year-old who was struck by a car on Union Avenue in Memphis, Tennessee highlights “the fatal flaw in America’s road design system,” write Rebecca Cadenhead and…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/Screenshot%202026-10-22%20at%2010.29.06%E2%80%AFAM.png.webp?itok=mYdxHQV_"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/10/25/business/california-colleges-costs.html",
+   "feed": "nytimes-business",
+   "title": "Public Colleges Are Passing the $50,000-a-Year Mark. For Locals.",
+   "link": "https://www.nytimes.com/2026/10/25/business/california-colleges-costs.html",
+   "date": "2026-10-25T11:11:21.000Z",
+   "summary": "At the University of California campuses in Berkeley, Irvine and Santa Barbara, students get an unwitting education in navigating the housing market.",
+   "image": "https://static01.nyt.com/images/2026/10/24/multimedia/24Biz-UC-50-lede-lkcm/24Biz-UC-50-lede-lkcm-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004005219",
+   "feed": "wsj-business",
+   "title": "The Growing Battle Between Credit-Card Firms and Points Junkies",
+   "link": "https://www.wsj.com/articles/the-growing-battle-between-credit-card-firms-and-points-junkies-e840b792?mod=pls_whats_news_us_business_f",
+   "date": "2026-10-25T11:04:00.000Z",
+   "summary": "Plus, American executives quit an Alaska gas startup over alleged secret Russian backing, and an online romance turns out to be a financial trap",
+   "image": "https://images.wsj.net/im-61989903"
+  },
+  {
+   "id": "stb:https://seattletransitblog.com/?p=150152",
+   "feed": "stb",
+   "title": "Sunday Movie: Ballard Link Controversy",
+   "link": "https://seattletransitblog.com/2026/10/25/sunday-movie-ballard-link-controversy/",
+   "date": "2026-10-25T10:00:00.000Z",
+   "summary": "A recap of the Ballard Link controversy that boiled over at the forum Monday . These videos are from three months ago. Light rail to Ballard shouldn’t be this hard. (The House of Transit) Why is building transit so expensive anyway? (Yet Another Urbanist) I’m reaching the end of the video backlog again. Do you have…",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TNF1WJT96OSG00",
+   "feed": "bloomberg-business",
+   "title": "Pfizer Sees Path Forward for Cancer Drug Despite Trial Failure",
+   "link": "https://www.bloomberg.com/news/articles/2026-10-25/pfizer-sees-path-forward-for-cancer-drug-despite-trial-failure",
+   "date": "2026-10-25T09:30:00.000Z",
+   "summary": "Pfizer Inc. sees a path forward for an experimental lung cancer drug in combination with other medicines, despite it failing a key clinical trial.",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/10/25/business/my-co-worker-is-losing-it-over-my-religion.html",
+   "feed": "nytimes-business",
+   "title": "My Co-Worker Is Losing It Over My Religion",
+   "link": "https://www.nytimes.com/2026/10/25/business/my-co-worker-is-losing-it-over-my-religion.html",
+   "date": "2026-10-25T09:01:59.000Z",
+   "summary": "Plus: Reader responses to a woman returning to the office after two decades of self-employment.",
+   "image": "https://static01.nyt.com/images/2026/10/25/multimedia/25bizsun-workfriend-illo-vgpc/25bizsun-workfriend-illo-vgpc-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/10/25/business/the-long-life-of-the-snacking-occasiong-glp1.html",
+   "feed": "nytimes-business",
+   "title": "The Long Life of the ‘Snacking Occasion’",
+   "link": "https://www.nytimes.com/2026/10/25/business/the-long-life-of-the-snacking-occasiong-glp1.html",
+   "date": "2026-10-25T09:01:30.000Z",
+   "summary": "As eating habits shift, the food industry is promoting any opportunity to nibble.",
+   "image": "https://static01.nyt.com/images/2026/10/25/business/25shoptalk-snack-illo/25shoptalk-snack-illo-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "morning-brew:https://www.morningbrew.com/stories/halloween-shopping-starts-during-beach-season-now",
+   "feed": "morning-brew",
+   "title": "Halloween shopping starts during beach season now",
+   "link": "https://www.morningbrew.com/stories/halloween-shopping-starts-during-beach-season-now?utm_source=&utm_medium=syndication&utm_campaign=feed",
+   "date": "2026-10-25T05:21:00.000Z",
+   "summary": "Jim Watson/Getty Images The spookiest thing about Halloween this year might be how long the candy was sitting in your neighbor’s basement. The haunted shopping season is no longer confined to October (or even the fall), with more Americans beginning to stock up on sweets, graveyard decor, and costumes as early as…",
+   "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-10-22/image-d8ed1abf3f874a5b4f75ddd5df726f8940533914-8256x5504-jpg/GettyImages-2299345436.jpg"
+  },
+  {
+   "id": "morning-brew:https://www.morningbrew.com/stories/these-go-getters-are-gourd-getters",
+   "feed": "morning-brew",
+   "title": "These go-getters are gourd-getters",
+   "link": "https://www.morningbrew.com/stories/these-go-getters-are-gourd-getters?utm_source=&utm_medium=syndication&utm_campaign=feed",
+   "date": "2026-10-25T05:21:00.000Z",
+   "summary": "Porch Pumpkins Pumpkin patches can be fun, but what if you don’t have time, you’re allergic to hay, or you accidentally snap the stem off every pumpkin you try to pick up? Well, capitalism’s got you covered. Porch decorating businesses are popping up all over the country, ready to bring the pumpkin patch to your…",
+   "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-10-22/image-6d9bd9df4a213470ee4ca13746728245cd701c20-2000x1333-jpg/MBD-SundaySpecial-MorningBoo-PorchPumpkins-1026.jpg"
+  },
+  {
+   "id": "morning-brew:https://www.morningbrew.com/stories/monster-mash-still-makes-a-bunch-of-usd-each-year",
+   "feed": "morning-brew",
+   "title": "‘Monster Mash’ still makes a bunch of $ each year",
+   "link": "https://www.morningbrew.com/stories/monster-mash-still-makes-a-bunch-of-usd-each-year?utm_source=&utm_medium=syndication&utm_campaign=feed",
+   "date": "2026-10-25T05:01:00.000Z",
+   "summary": "Dick Clark Productions Forget about alternative investments and get in the studio. All you need to do is create something like “Monster Mash,” which still rakes in a steady revenue stream, decades after its 1962 release. “I have been paying the rent for 36 years with this one song,” co-writer and performer Bobby…",
+   "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-10-22/image-34b8fbf4c4934db7d311c8a01314b1033bae621a-2154x1436-png/MBD-SundaySpecial-MorningBoo-MonsterMash-1026.png"
   },
   {
    "id": "nytimes-business:https://www.nytimes.com/2026/10/24/climate/trump-epa-chemical-air-pollution.html",
@@ -170,7 +440,7 @@
    "feed": "nytimes-business",
    "title": "Noah Adams, Longtime Host of ‘All Things Considered,’ Has Died at 84",
    "link": "https://www.nytimes.com/2026/10/24/business/media/noah-adams-dead.html",
-   "date": "2026-10-24T23:18:15.000Z",
+   "date": "2026-10-24T23:18:16.000Z",
    "summary": "A postman’s son from Kentucky, he worked hard to lose his accent but never forgot his Appalachian roots. “The best stories come from west of the Potomac,” he said.",
    "image": "https://static01.nyt.com/images/2026/10/24/obituaries/24obit-adams/24obit-adams-mediumSquareAt3X.jpg"
   },
@@ -186,7 +456,7 @@
   {
    "id": "bloomberg-business:TNFFVQKK3NY800",
    "feed": "bloomberg-business",
-   "title": "Braskem Creditors, Shareholders Said to Move Closer to Agreement",
+   "title": "Braskem Creditors, Shareholders Said to Move Closer to Deal",
    "link": "https://www.bloomberg.com/news/articles/2026-10-24/braskem-creditors-shareholders-said-to-move-closer-to-agreement",
    "date": "2026-10-24T22:25:05.000Z",
    "summary": "Braskem’s creditors and shareholders are moving closer to a deal to rework some $11 billion of debt, according to people familiar to the matter.",
@@ -283,69 +553,6 @@
    "image": ""
   },
   {
-   "id": "bloomberg-business:TNF70HUT4Z5S00",
-   "feed": "bloomberg-business",
-   "title": "Extra Police Deployed in France, US-Iran Escalation Preps, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-24/extra-police-deployed-in-france-us-iran-escalation-preps-more",
-   "date": "2026-10-24T16:26:42.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0003992035",
-   "feed": "wsj-business",
-   "title": "The Rare-Earth Vultures Harvesting Metals From America’s Old Wind Turbines",
-   "link": "https://www.wsj.com/business/energy-oil/the-rare-earth-vultures-harvesting-metals-from-americas-old-wind-turbines-a22b78db?mod=pls_whats_news_us_business_f",
-   "date": "2026-10-24T16:00:00.000Z",
-   "summary": "Recycling ventures are part of a drive to loosen China’s chokehold on the critical minerals.",
-   "image": "https://images.wsj.net/im-08520518"
-  },
-  {
-   "id": "bloomberg-business:TNF3A7WWD62O00",
-   "feed": "bloomberg-business",
-   "title": "Bloomberg This Weekend: 16 Months in a Russian Prison (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-24/bloomberg-this-weekend-16-months-in-a-russian-prison-podcast",
-   "date": "2026-10-24T15:06:07.000Z",
-   "summary": "Source: Bloomberg, 37:29",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TNF301R24U9I00",
-   "feed": "bloomberg-business",
-   "title": "Lenders Are Mystified by Virgin Media’s Vendor Financing Notes",
-   "link": "https://www.bloomberg.com/news/newsletters/2026-10-24/lenders-are-mystified-by-virgin-media-s-vendor-financing-notes",
-   "date": "2026-10-24T15:00:02.000Z",
-   "summary": "Market watchers wonder: are these unusual instruments more attractive than meets the eye?",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TNF274UT4Z5S00",
-   "feed": "bloomberg-business",
-   "title": "Trump Prepares for Iran Escalation, French Protests Begin, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-24/trump-prepares-for-iran-escalation-french-protests-begin-more",
-   "date": "2026-10-24T14:42:40.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TNATI3T9NJLT00",
-   "feed": "bloomberg-business",
-   "title": "Amgen, Astra Drug Duo Boosts Survival for Deadly Lung Cancer",
-   "link": "https://www.bloomberg.com/news/articles/2026-10-24/amgen-astra-drug-duo-boosts-survival-for-deadly-lung-cancer",
-   "date": "2026-10-24T14:30:00.000Z",
-   "summary": "Doctors combined powerful medicines from Amgen Inc. and AstraZeneca Plc and found they allowed patients with an aggressive form of lung cancer to live eight months longer.",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TNEX8AWWD62O00",
-   "feed": "bloomberg-business",
-   "title": "France Braces for New Protests, Starlink Limits Lifted, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-24/france-braces-for-new-protests-starlink-limits-lifted-more",
-   "date": "2026-10-24T12:55:22.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
    "id": "nytimes-business:https://www.nytimes.com/2026/10/24/business/airlines-ticket-prices.html",
    "feed": "nytimes-business",
    "title": "Attention, Passengers: High Airfares May Be Here to Stay",
@@ -364,15 +571,6 @@
    "image": "https://static01.nyt.com/images/2026/10/22/multimedia/00CLI-POLLUTION-EPA-TAKEAWAYS-glzb/00CLI-POLLUTION-EPA-TAKEAWAYS-glzb-mediumSquareAt3X.jpg"
   },
   {
-   "id": "nytimes-business:tps://www.nytimes.com/2026/10/24/business/dealbook/ceos-say-the-ai-rollout-is-going-well-employees-feel-differently.html",
-   "feed": "nytimes-business",
-   "title": "C.E.O.s Say the A.I. Rollout Is Going Well. Employees Feel Differently.",
-   "link": "https://www.nytimes.com/2026/10/24/business/dealbook/ceos-say-the-ai-rollout-is-going-well-employees-feel-differently.html",
-   "date": "2026-10-24T12:00:03.000Z",
-   "summary": "Surveys show workers and executives have different views on A.I.",
-   "image": "https://static01.nyt.com/images/2026/10/23/business/00db-ai-disconnect/00db-ai-disconnect-mediumSquareAt3X.jpg"
-  },
-  {
    "id": "planetizen:138712 at https://www.planetizen.com",
    "feed": "planetizen",
    "title": "Chicago's streets are littered with dead birds. Will the city protect them?",
@@ -380,51 +578,6 @@
    "date": "2026-10-24T12:00:00.000Z",
    "summary": "Chicago is widely considered the most dangerous city in the United States for migratory birds. As winter approaches, migratory birds’ fall journeys are in full swing: and some cities are proving deadly. Last weekend, over 1,000 birds were killed or injured after colliding with buildings in Chicago and Evanston. The…",
    "image": "https://www.planetizen.com/files/styles/large/public/images/Screenshot%202026-10-22%20at%2011.19.26%E2%80%AFAM.png.webp?itok=K14PCRq7"
-  },
-  {
-   "id": "bloomberg-business:TNET4DO32FWG00",
-   "feed": "bloomberg-business",
-   "title": "Starlink Back Up to Speed in Ukraine, France Ready for Riots",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-24/starlink-back-up-to-speed-in-ukraine-france-ready-for-riots",
-   "date": "2026-10-24T11:26:37.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004004630",
-   "feed": "wsj-business",
-   "title": "Six Flags to Add Seat Belts to Rides Following Death",
-   "link": "https://www.wsj.com/business/hospitality/six-flags-to-add-seat-belts-to-rides-following-death-1c1fa20d?mod=pls_whats_news_us_business_f",
-   "date": "2026-10-24T10:37:00.000Z",
-   "summary": "The decision to install additional restraints on some roller coasters comes after a fatal incident in Georgia.",
-   "image": "https://images.wsj.net/im-22863212"
-  },
-  {
-   "id": "bloomberg-business:TNEPQ3O32FWG00",
-   "feed": "bloomberg-business",
-   "title": "Starlink Lifts Ukraine Restrictions, France Braces for Protests",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-24/starlink-lifts-ukraine-restrictions-france-braces-for-protests",
-   "date": "2026-10-24T10:13:15.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TNEIJTKIP3IA00",
-   "feed": "bloomberg-business",
-   "title": "KenGen Names Ronoh Kibet Charles as Next Chief Executive Officer",
-   "link": "https://www.bloomberg.com/news/articles/2026-10-24/kengen-names-ronoh-kibet-charles-as-next-chief-executive-officer",
-   "date": "2026-10-24T08:16:06.000Z",
-   "summary": "Kenya Electricity Generating Company Plc tapped Ronoh Kibet Charles as its chief executive officer.",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TNCQFOT9NJLV00",
-   "feed": "bloomberg-business",
-   "title": "Top Landlord Says Germany ‘Uninvestable’ on Berlin Seizure Plan",
-   "link": "https://www.bloomberg.com/news/articles/2026-10-24/top-landlord-says-germany-uninvestable-on-berlin-seizure-plan",
-   "date": "2026-10-24T06:00:00.000Z",
-   "summary": "One of Europe’s biggest real estate companies argues that Germany has become “uninvestable” over proposals to seize privately owned apartments in the city of Berlin.",
-   "image": ""
   },
   {
    "id": "morning-brew:https://www.morningbrew.com/stories/msg-sent-workers-a-cruel-phishing-test",
@@ -443,15 +596,6 @@
    "date": "2026-10-24T04:01:00.000Z",
    "summary": "Warhound In what feels like the beginning of a werewolf movie, two billionaires are teaming up to genetically engineer a better breed of military dog. Texas-based startup Warhound was publicly revealed on Thursday and has already secured $200 million in seed funding. Who’s behind it? The startup was launched by…",
    "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-10-23/image-6c5a135f7bde54515d414449a7b985023bdeed58-1500x1000-jpg/MBD-Warhound-1026.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/10/23/business/ai-jobs-layoffs-congress.html",
-   "feed": "nytimes-business",
-   "title": "Fearing Mass A.I. Layoffs, Some in Congress Eye Ways to Aid Workers",
-   "link": "https://www.nytimes.com/2026/10/23/business/ai-jobs-layoffs-congress.html",
-   "date": "2026-10-24T01:51:01.000Z",
-   "summary": "A bill to bolster the nation’s unemployment insurance program reflects the concern — and the risks — in Washington.",
-   "image": "https://static01.nyt.com/images/2026/10/23/multimedia/23dc-ai-jobs-01-hmcb/23dc-ai-jobs-01-hmcb-mediumSquareAt3X.jpg"
   },
   {
    "id": "cascadepbs:6adc11351eb00a00017200dd",
@@ -589,15 +733,6 @@
    "image": "https://images.wsj.net/im-85940841"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/10/23/business/interest-rates-money-market-funds-stocks-bonds.html",
-   "feed": "nytimes-business",
-   "title": "A Simple Way to Benefit From Rising Rates: Buy Money Market Funds",
-   "link": "https://www.nytimes.com/2026/10/23/business/interest-rates-money-market-funds-stocks-bonds.html",
-   "date": "2026-10-23T20:49:09.000Z",
-   "summary": "While higher interest rates are a complication for stocks and bonds, they are an unequivocal boon if you just want to park some cash and make a little money, our columnist says.",
-   "image": "https://static01.nyt.com/images/2026/10/25/business/23strategies-illo/23strategies-illo-mediumSquareAt3X.jpg"
-  },
-  {
    "id": "nytimes-business:https://www.nytimes.com/2026/10/23/business/trump-susan-collins-canada-tariffs.html",
    "feed": "nytimes-business",
    "title": "Ahead of Tight Race, Trump Swaps Tariffs on Some Canadian Goods",
@@ -668,15 +803,6 @@
    "date": "2026-10-23T17:57:09.000Z",
    "summary": "The News Casino operators and sports betting companies have spent record amounts on campaign donations and on lobbying in Washington thus far this year, hoping it will help win back millions of bettors and gambling dollars that prediction markets have lured away. Sportsbook operators, including FanDuel and…",
    "image": "https://img.semafor.com/a6e5836e6895450a8d6c3ec5ece42099d9e882eb-3500x2333.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/10/23/well/cancer-vaccine-melanoma-study.html",
-   "feed": "nytimes-business",
-   "title": "Melanoma Vaccine Ushers in New Hope for Cancer Patients",
-   "link": "https://www.nytimes.com/2026/10/23/well/cancer-vaccine-melanoma-study.html",
-   "date": "2026-10-23T17:43:06.000Z",
-   "summary": "Beyond melanoma, scientists are studying cancer vaccines for glioblastoma, pancreatic cancer and more.",
-   "image": "https://static01.nyt.com/images/2026/10/23/well/23Well-CANCER-VAX/23Well-CANCER-VAX-mediumSquareAt3X.jpg"
   },
   {
    "id": "semafor:https://www.semafor.com/article/10/23/2026/el-sayeds-new-campaign-ad-pitch-republicans-love-me",
@@ -787,15 +913,6 @@
    "image": "https://img.semafor.com/8974fadff766b69cd7d8ac0b0d2eab251b86bed4-4159x2772.jpg"
   },
   {
-   "id": "planetizen:138701 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "CA city to shut down airport, transform it into utopian park",
-   "link": "https://www.planetizen.com/news/2026/10/138701-ca-city-shut-down-airport-transform-it-utopian-park",
-   "date": "2026-10-23T15:00:00.000Z",
-   "summary": "The city will develop plans for the park through the early 2030s, and implement them depending on available funding. At the end of 2028, Santa Monica Airport will permanently close. In its footprint, the city plans to build a 200-acre park that will include a rock climbing wall, space for cultural events and a…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/1owDCNnQedlEav5JV1Gg8320eBw.jpg.webp?itok=nCiyhZd6"
-  },
-  {
    "id": "smartcities:https://www.smartcitiesdive.com/news/la-metro-bus-rapid-transit-corridor/833818/",
    "feed": "smartcities",
    "title": "LA Metro breaks ground on 12-mile bus rapid transit corridor",
@@ -821,15 +938,6 @@
    "date": "2026-10-23T14:24:54.000Z",
    "summary": "Among the stakes in next month’s election is the long-running question of whether tax cuts can shape how people vote.",
    "image": "https://static01.nyt.com/images/2026/10/23/multimedia/23dc-tax-election-01-thpm/23dc-tax-election-01-thpm-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/10/23/dining/canada-cheese-trump-tariffs.html",
-   "feed": "nytimes-business",
-   "title": "Trump’s Tariffs Slow America’s Access to Canada’s Cheese",
-   "link": "https://www.nytimes.com/2026/10/23/dining/canada-cheese-trump-tariffs.html",
-   "date": "2026-10-23T14:09:33.000Z",
-   "summary": "Just as they were finding a toehold stateside, artisanal producers got caught in a trade war.",
-   "image": ""
   },
   {
    "id": "smartcities:https://www.smartcitiesdive.com/news/seattle-social-housing-hits-milestone-with-land-acquisition-for-first-const/833833/",
@@ -859,15 +967,6 @@
    "image": "https://images.wsj.net/im-80605797"
   },
   {
-   "id": "planetizen:138711 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "NYC to vote on supporting outdoor dining, streamlining bus and bike lane creation",
-   "link": "https://www.planetizen.com/news/2026/10/138711-nyc-vote-supporting-outdoor-dining-streamlining-bus-and-bike-lane-creation",
-   "date": "2026-10-23T14:00:00.000Z",
-   "summary": "If Question Three passed in New York City it would speed up the development of bus and bike lanes by 33%, commissioners say. This November, New York City residents will have the chance to vote on five proposed amendments to the city’s municipal constitution. Potential changes include making it easier for the city to…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2639547203.jpg.webp?itok=wDE4wSSc"
-  },
-  {
    "id": "semafor:https://www.semafor.com/article/10/23/2026/dangote-plans-15-billion-kenya-pipeline-investment",
    "feed": "semafor",
    "title": "Dangote plans $1.5B Kenya pipeline investment",
@@ -886,15 +985,6 @@
    "image": "https://img.semafor.com/cf2a05b36792abfe6d45e17b69a1b04842ce9dde-5500x3396.jpg"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/10/23/business/dealbook/pennylane-ai-accounting-france.html",
-   "feed": "nytimes-business",
-   "title": "A.I. and New Rules for Accounting Are an Opportunity for Start-Ups",
-   "link": "https://www.nytimes.com/2026/10/23/business/dealbook/pennylane-ai-accounting-france.html",
-   "date": "2026-10-23T13:12:52.000Z",
-   "summary": "Pennylane, a French company, has gained market share in its home country by helping accountants work with clients. It’s aiming to expand internationally.",
-   "image": "https://static01.nyt.com/images/2026/10/23/multimedia/23db-pennylane-wpqc/23db-pennylane-wpqc-mediumSquareAt3X.jpg"
-  },
-  {
    "id": "nytimes-business:https://www.nytimes.com/2026/10/23/business/volvo-china-2500-job-cuts.html",
    "feed": "nytimes-business",
    "title": "Volvo Shares Plunge as China Ambitions Fade for Western Carmakers",
@@ -911,15 +1001,6 @@
    "date": "2026-10-23T13:00:17.000Z",
    "summary": "Much of the debt stems from hospital bills, researchers say. Even people with insurance are falling behind. But there are ways to get help.",
    "image": ""
-  },
-  {
-   "id": "planetizen:138710 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "Chicago breaks ground on $3 billion megadevelopment",
-   "link": "https://www.planetizen.com/news/2026/10/138710-chicago-breaks-ground-3-billion-megadevelopment",
-   "date": "2026-10-23T13:00:00.000Z",
-   "summary": "The 53 acres of empty land will soon hold buildings made of traditional limestone and brick. In a few years, Chicago will gain a new neighborhood: Developers have started building a $3 billion megadevelopment, titled Foundry Park, only 10 months after the Chicago Plan Commission first approved the plan in January.…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/eyJidWNrZXQiOiJqZGwtd2Vic2l0ZS1hc3NldHMiLCJrZXkiOiJwcm9qZWN0cy9IUEFfRm91bmRyeV9IaWdoQWVyaWFsX0NoaWNhZ29Ta3lsaW5lXzAxLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciJ9LCJ0b0Zvcm1hdCI6IndlYnAiLCJ3ZWJwIjp7InF1YWxpdHkiOjgwfX19.webp?itok=f7CaAUXV"
   },
   {
    "id": "urbanist:6ad8fd7f0ff2c70001aa36de",
@@ -965,24 +1046,6 @@
    "date": "2026-10-23T12:11:00.000Z",
    "summary": "Rogers Communications reported a decline in third-quarter profit, due to a large prior-year accounting gain, but adjusted profit topped expectations on higher revenue.",
    "image": "https://images.wsj.net/im-311754"
-  },
-  {
-   "id": "planetizen:138718 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "Learning loss and urban schools, part 2",
-   "link": "https://www.planetizen.com/blogs/138718-learning-loss-and-urban-schools-part-2",
-   "date": "2026-10-23T12:00:00.000Z",
-   "summary": "In 2023, I blogged about “Learning Loss and Urban Schools” and concluded that even though test scores in urban schools declined during the COVID era (2020-22), this decline seemed to be no worse in urban schools than suburban schools. After examining more recent data, I became curious about something else: have…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2726004687.jpg.webp?itok=L57mO3vY"
-  },
-  {
-   "id": "planetizen:138703 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "SF weighs putting data center inside abandoned mall",
-   "link": "https://www.planetizen.com/news/2026/10/138703-sf-weighs-putting-data-center-inside-abandoned-mall",
-   "date": "2026-10-23T12:00:00.000Z",
-   "summary": "The San Francisco Centre Mall in 2006. Under the unnamed technology company’s plan, two-thirds of the mall would contain space for retail, sports and free education. The San Francisco Centre Mall, currently gathering dust after the remaining tenants departed at the beginning of 2026, has received a bid from an…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/Westfield_San_Francisco_Centre_interior_view.jpg.webp?itok=RT0hjukH"
   },
   {
    "id": "semafor:https://www.semafor.com/article/10/23/2026/saudi-crown-prince-grapples-with-the-limits-of-his-power",
@@ -1075,15 +1138,6 @@
    "image": "https://img.semafor.com/8fda1c54adfde27842d8ecce9b04318a2fc6d088-6000x4000.jpg"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/10/23/business/trump-ground-beef-imports.html",
-   "feed": "nytimes-business",
-   "title": "Trump’s Plan to Import More Ground Beef Is Falling Short",
-   "link": "https://www.nytimes.com/2026/10/23/business/trump-ground-beef-imports.html",
-   "date": "2026-10-23T09:02:14.000Z",
-   "summary": "About a fifth of the 300,000 metric tons of lean beef trimmings have come through customs, six weeks through a program designed to lower prices.",
-   "image": "https://static01.nyt.com/images/2026/10/23/multimedia/23biz-beef-imports-zjqt/23biz-beef-imports-zjqt-mediumSquareAt3X.jpg"
-  },
-  {
    "id": "semafor:https://www.semafor.com/article/10/23/2026/us-monitors-new-ebola-cases",
    "feed": "semafor",
    "title": "US monitors new Ebola cases",
@@ -1118,15 +1172,6 @@
    "date": "2026-10-23T08:44:00.000Z",
    "summary": "The French luxury-fashion house’s sales fell on a 6% drop at Gucci that makes up not far from half of the group’s revenue.",
    "image": "https://images.wsj.net/im-75370382"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/10/23/insider/royal-canin-purina.html",
-   "feed": "nytimes-business",
-   "title": "‘Cats Love Gravy’: How a Reporter Ended Up at a Pet Food Research Center",
-   "link": "https://www.nytimes.com/2026/10/23/insider/royal-canin-purina.html",
-   "date": "2026-10-23T07:00:07.000Z",
-   "summary": "A Times journalist and animal lover spent a day at a Royal Canin facility to understand how pet food giants are studying the taste buds of dogs and cats.",
-   "image": "https://static01.nyt.com/images/2026/10/23/multimedia/23a2_insider_petfood-print1/23a2_insider_petfood-hfbg-mediumSquareAt3X.jpg"
   },
   {
    "id": "wsj-business:WP-WSJ-0004001307",
@@ -1714,15 +1759,6 @@
    "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-10-16/image-1247a1b074157d34669889d059bf0e77a5caa4ad-1200x800-jpg/MBD-YouCanSeeEverything-1026.jpg"
   },
   {
-   "id": "morning-brew:https://www.morningbrew.com/stories/gift-guide-kitchen-cooking",
-   "feed": "morning-brew",
-   "title": "The best kitchen & cooking gifts in 2026",
-   "link": "https://www.morningbrew.com/stories/gift-guide-kitchen-cooking?utm_source=&utm_medium=syndication&utm_campaign=feed",
-   "date": "2026-10-16T18:10:09.000Z",
-   "summary": "Home chefs or aspiring foodies can be tough to shop for. Do they already have a good spatula? Is this niche piece of equipment going to collect dust and take up their precious kitchen storage? We’ve collected some of our favorite gifts for all types of home cooks, from the thrifty chef to the dinner party host to the…",
-   "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-10-16/image-d8e1ebb53b352ab41b600d28988a82d9a96673ff-1500x1000-png/2026GG_Kitchen-Cooking_Hero.png"
-  },
-  {
    "id": "urbanist:6ad134d67a838000019a5274",
    "feed": "urbanist",
    "title": "How ICE Continues to Wield Washington's Own Data",
@@ -1750,24 +1786,6 @@
    "image": "https://i0.wp.com/seattletransitblog.com/wp-content/uploads/2026/10/IMG_8065.jpg?resize=525%2C394&#038;ssl=1"
   },
   {
-   "id": "morning-brew:https://www.morningbrew.com/stories/teslas-next-gen-roadster-is-more-like-a-flyster",
-   "feed": "morning-brew",
-   "title": "Tesla’s next-gen Roadster is more like a Flyster",
-   "link": "https://www.morningbrew.com/stories/teslas-next-gen-roadster-is-more-like-a-flyster?utm_source=&utm_medium=syndication&utm_campaign=feed",
-   "date": "2026-10-16T09:05:07.000Z",
-   "summary": "Tesla We still don’t know who the next James Bond will be, but it’s possible that his car got cast last night: At an event in Texas, Tesla CEO Elon Musk staged and livestreamed a long-awaited demonstration of the next-generation Roadster , which many viewers found to be out of this world. Putting the “launch” in…",
-   "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-10-16/image-b02247f409cee8a15d9ce01fb7db7aa6fc8c39e5-1920x1287-png/Roadster_levitating.png"
-  },
-  {
-   "id": "morning-brew:https://www.morningbrew.com/stories/amazons-new-ai-wearables-can-hear-it-all",
-   "feed": "morning-brew",
-   "title": "Amazon’s new AI wearables can hear it all",
-   "link": "https://www.morningbrew.com/stories/amazons-new-ai-wearables-can-hear-it-all?utm_source=&utm_medium=syndication&utm_campaign=feed",
-   "date": "2026-10-16T04:01:00.000Z",
-   "summary": "Illustration: Morning Brew Inc., Photos: Amazon Your friends might be tired of your terrible memory, but Amazon wants you just the way you are. Yesterday, the tech company introduced two new AI devices that record and summarize users’ conversations so you can keep track of…everything? The gizmos are: The $75 Bee…",
-   "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-10-15/image-0bad333f139b151944b5da83d90377ddd7165c67-1500x1000-jpg/MBD-AmazonBee-1026.jpg"
-  },
-  {
    "id": "strongtowns:https://www.strongtowns.org/journal/2026-10-16-the-best-time-to-change-city-policy-is-before-its-written",
    "feed": "strongtowns",
    "title": "The Best Time To Change City Policy Is Before It’s Written",
@@ -1784,15 +1802,6 @@
    "date": "2026-10-15T16:02:47.000Z",
    "summary": "Updated plans for the future RapidRide R bus line between Downtown Seattle and Rainier Beach released this week include only a few changes to previous iterations of the project, with significant stop consolidation still planned along much of the eight-mile route despite community concerns. The next RapidRide line to…",
    "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/20261013_175000-EDIT-1.jpg"
-  },
-  {
-   "id": "urbanist:6acdbc95e4bf010001f41d5a",
-   "feed": "urbanist",
-   "title": "'Unfathomable Disaster' Looms Following Public Defender Pay Dispute",
-   "link": "https://www.theurbanist.org/unfathomable-disaster-looms-following-public-defender-pay-dispute/",
-   "date": "2026-10-15T13:00:00.000Z",
-   "summary": "After being unable to reach a contract agreement with the Washington State Department of Public Defense (OPD), the venerable Washington Appellate Project (WAP) may have to close its doors at the end of the year. Should this happen, the state’s court system could be disrupted due to the loss of experienced attorneys,…",
-   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/WashingtonCapitolTOJI-1.jpg"
   },
   {
    "id": "stb:https://seattletransitblog.com/?p=149552",
@@ -1820,15 +1829,6 @@
    "date": "2026-10-13T19:26:44.000Z",
    "summary": "I’ve just signed The Planner’s Pledge , a statement assembled by a team of leading US urban designers including my friend Jeff Speck, author of the Walkable City books . It’s an attempt to create a clear statement of principles, from the planning professions, about the past harms done by the profession and the things…",
    "image": "https://humantransit.org/wp-content/uploads/Screenshot-2026-10-13-at-12.26.52-1080x194.png"
-  },
-  {
-   "id": "stb:https://seattletransitblog.com/?p=149535",
-   "feed": "stb",
-   "title": "Sunday Movie: West Seattle Link & Conservative Urbanism",
-   "link": "https://seattletransitblog.com/2026/10/11/sunday-movie-west-seattle-link-conservative-urbanism/",
-   "date": "2026-10-11T10:00:00.000Z",
-   "summary": "An animated rendering of West Seattle Link. (Sound Transit) A conservative vision for urbanism. (The Atlantic) David From interviews Reihan Salam. I’ve been following Frum since he was on Left, Right, and Center in the 2000s; I consider him the most thoughtful conservative analysist nowadays. They discuss housing,…",
-   "image": ""
   },
   {
    "id": "strongtowns:https://www.strongtowns.org/journal/2026-10-9-the-democracy-of-doing",
