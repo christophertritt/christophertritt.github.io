@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T17:12:39.617Z",
+ "updated": "2026-10-25T04:23:53.138Z",
  "feeds": [
   {
    "id": "planetizen",
@@ -98,7 +98,7 @@
    "color": "#1f1f1f",
    "topic": "Business & finance",
    "ok": true,
-   "count": 20
+   "count": 19
   },
   {
    "id": "morning-brew",
@@ -121,6 +121,168 @@
  ],
  "items": [
   {
+   "id": "nytimes-business:https://www.nytimes.com/2026/10/24/business/audi-factory-georgia-trump.html",
+   "feed": "nytimes-business",
+   "title": "Audi to Build Factory in Georgia, Trump Says",
+   "link": "https://www.nytimes.com/2026/10/24/business/audi-factory-georgia-trump.html",
+   "date": "2026-10-25T02:17:33.000Z",
+   "summary": "The Volkswagen division, which imports all its cars from Europe or Mexico, has been hit hard by U.S. tariffs.",
+   "image": "https://static01.nyt.com/images/2026/10/24/multimedia/24biz-audi-factory-wmtq/24biz-audi-factory-wmtq-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/10/24/climate/trump-epa-chemical-air-pollution.html",
+   "feed": "nytimes-business",
+   "title": "How Trump Gave the Worst Polluters a Free Pass",
+   "link": "https://www.nytimes.com/2026/10/24/climate/trump-epa-chemical-air-pollution.html",
+   "date": "2026-10-25T01:12:45.000Z",
+   "summary": "The president temporarily waived clean-air rules for industrial facilities that spew cancer-causing gases. Then his appointees worked to gut the regulations altogether.",
+   "image": ""
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004004925",
+   "feed": "wsj-business",
+   "title": "Trump Announces Audi’s First-Ever U.S. Factory in Georgia as Tariffs Bite",
+   "link": "https://www.wsj.com/business/autos/trump-announces-audis-first-ever-u-s-factory-in-georgia-ss-tariffs-bite-7e3220fe?mod=pls_whats_news_us_business_f",
+   "date": "2026-10-25T00:55:00.000Z",
+   "summary": "The German luxury brand is looking to the U.S. for growth as its sales have stalled elsewhere.",
+   "image": "https://images.wsj.net/im-06236325"
+  },
+  {
+   "id": "bloomberg-business:TNFTP0WWD62O00",
+   "feed": "bloomberg-business",
+   "title": "Preps for Iran Escalation, VW to Open Audi Georgia Plant, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-10-25/preps-for-iran-escalation-vw-to-open-audi-georgia-plant-more",
+   "date": "2026-10-25T00:36:36.000Z",
+   "summary": "Source: Bloomberg, 5:13",
+   "image": ""
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004004462",
+   "feed": "wsj-business",
+   "title": "The Cat-and-Mouse Game Between Premium Credit-Card Firms and Points Junkies",
+   "link": "https://www.wsj.com/finance/banking/the-cat-and-mouse-game-between-premium-credit-card-firms-and-points-junkies-8ce2e30a?mod=pls_whats_news_us_business_f",
+   "date": "2026-10-25T00:00:00.000Z",
+   "summary": "A subculture of people obsessed with reaping rewards is prompting banks to adjust to their evolving tactics.",
+   "image": "https://images.wsj.net/im-61989903"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/10/24/business/media/noah-adams-dead.html",
+   "feed": "nytimes-business",
+   "title": "Noah Adams, Longtime Host of ‘All Things Considered,’ Has Died at 84",
+   "link": "https://www.nytimes.com/2026/10/24/business/media/noah-adams-dead.html",
+   "date": "2026-10-24T23:18:15.000Z",
+   "summary": "A postman’s son from Kentucky, he worked hard to lose his accent but never forgot his Appalachian roots. “The best stories come from west of the Potomac,” he said.",
+   "image": "https://static01.nyt.com/images/2026/10/24/obituaries/24obit-adams/24obit-adams-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "bloomberg-business:TNFQ0AO32FWG00",
+   "feed": "bloomberg-business",
+   "title": "French Police Show of Force, VW to Build Georgia Plant, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-10-24/french-police-show-of-force-vw-to-build-georgia-plant-more",
+   "date": "2026-10-24T23:16:58.000Z",
+   "summary": "Source: Bloomberg, 5:28",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TNFFVQKK3NY800",
+   "feed": "bloomberg-business",
+   "title": "Braskem Creditors, Shareholders Said to Move Closer to Agreement",
+   "link": "https://www.bloomberg.com/news/articles/2026-10-24/braskem-creditors-shareholders-said-to-move-closer-to-agreement",
+   "date": "2026-10-24T22:25:05.000Z",
+   "summary": "Braskem’s creditors and shareholders are moving closer to a deal to rework some $11 billion of debt, according to people familiar to the matter.",
+   "image": ""
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004005175",
+   "feed": "wsj-business",
+   "title": "U.S. Energy Execs Say They Quit Startup Over Undisclosed Russian Funding",
+   "link": "https://www.wsj.com/business/energy-oil/u-s-energy-execs-say-they-quit-startup-over-undisclosed-russian-funding-b5eae266?mod=pls_whats_news_us_business_f",
+   "date": "2026-10-24T22:24:00.000Z",
+   "summary": "High-ranking officials at the company, Polar LNG, shared their concerns with the Trump administration.",
+   "image": "https://images.wsj.net/im-96099669"
+  },
+  {
+   "id": "bloomberg-business:TNFMCBWWD62O00",
+   "feed": "bloomberg-business",
+   "title": "Paris Protests Continue, VW Plans New Audi Georgia Plant, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-10-24/paris-protests-continue-vw-plans-new-audi-georgia-plant-more",
+   "date": "2026-10-24T21:57:47.000Z",
+   "summary": "Source: Bloomberg, 6:28",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/10/24/business/six-flags-death-roller-coaster-seat-belt.html",
+   "feed": "nytimes-business",
+   "title": "Six Flags to Add Seatbelts on Roller Coasters After Rider’s Death",
+   "link": "https://www.nytimes.com/2026/10/24/business/six-flags-death-roller-coaster-seat-belt.html",
+   "date": "2026-10-24T21:45:35.000Z",
+   "summary": "The company said that all Six Flags rides and attractions would undergo safety reviews, as the park operator faces lawsuits over safety concerns.",
+   "image": "https://static01.nyt.com/images/2026/10/24/multimedia/24xp-six-flags-topart-01-gmzl/24xp-six-flags-topart-01-gmzl-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "bloomberg-business:TNFKPHWWD62O00",
+   "feed": "bloomberg-business",
+   "title": "Weekend Law: Election Fears, Judges Frustrated & SEC (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-10-24/weekend-law-election-fears-judges-frustrated-sec-podcast",
+   "date": "2026-10-24T21:22:29.000Z",
+   "summary": "Source: Bloomberg, 37:59",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TNFE3SKK3NY800",
+   "feed": "bloomberg-business",
+   "title": "Braskem Discloses Details of Debt Rework Proposals to Investors",
+   "link": "https://www.bloomberg.com/news/articles/2026-10-24/braskem-discloses-details-of-debt-rework-proposals-to-investors",
+   "date": "2026-10-24T20:36:18.000Z",
+   "summary": "Braskem SA said it disclosed to certain debt holders and investors details of restructuring proposals related to an $11 billion out-of-court debt rework.",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TNFI5BWWD62O00",
+   "feed": "bloomberg-business",
+   "title": "Paris Protests Become Violent, VW Plans New Georgia Plant, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-10-24/paris-protests-become-violent-vw-plans-new-georgia-plant-more",
+   "date": "2026-10-24T20:27:11.000Z",
+   "summary": "Source: Bloomberg, 5:49",
+   "image": ""
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004004485",
+   "feed": "wsj-business",
+   "title": "How Trade Desk Rescued Executives’ Stock Options From a Dive in the Share Price",
+   "link": "https://www.wsj.com/business/how-trade-desk-rescued-executives-stock-options-from-a-dive-in-the-share-price-8c055b27?mod=pls_whats_news_us_business_f",
+   "date": "2026-10-24T20:04:00.000Z",
+   "summary": "CEO Jeff Green used his supervoting power to approve the repricing of options over opposition from outside investors.",
+   "image": "https://images.wsj.net/im-97918244"
+  },
+  {
+   "id": "bloomberg-business:TNFEE3UT4Z5S00",
+   "feed": "bloomberg-business",
+   "title": "Paris Protests Become Violent, US-Iran Escalation Preps, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-10-24/paris-protests-become-violent-us-iran-escalation-preps-more",
+   "date": "2026-10-24T19:06:03.000Z",
+   "summary": "Source: Bloomberg, 5:11",
+   "image": ""
+  },
+  {
+   "id": "urbanist:6adbcf87f244b90001da3f42",
+   "feed": "urbanist",
+   "title": "Op-Ed: Prop 1 Will Sustain Seattle's Transit Momentum",
+   "link": "https://www.theurbanist.org/op-ed-prop-1-will-sustain-seattles-transit-momentum/",
+   "date": "2026-10-24T18:22:51.000Z",
+   "summary": "It cost me three dollars to get to City Hall the day I joined many others to fight for the future of Seattle transit. An Uber would have been a little faster but much more expensive at twenty dollars. I could've used a Lime bike, but it would've taken longer and, again, would have been more expensive at around…",
+   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/Screenshot-2026-10-23-2.41.22-PM-1.png"
+  },
+  {
+   "id": "bloomberg-business:TNFAJVO32FWG00",
+   "feed": "bloomberg-business",
+   "title": "Protests Turn Violent in Paris, US Prepares for Iran Escalation",
+   "link": "https://www.bloomberg.com/news/audio/2026-10-24/protests-turn-violent-in-paris-us-prepares-for-iran-escalation",
+   "date": "2026-10-24T17:43:07.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
    "id": "bloomberg-business:TNF70HUT4Z5S00",
    "feed": "bloomberg-business",
    "title": "Extra Police Deployed in France, US-Iran Escalation Preps, More",
@@ -137,15 +299,6 @@
    "date": "2026-10-24T16:00:00.000Z",
    "summary": "Recycling ventures are part of a drive to loosen China’s chokehold on the critical minerals.",
    "image": "https://images.wsj.net/im-08520518"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/10/24/business/media/noah-adams-dead.html",
-   "feed": "nytimes-business",
-   "title": "Noah Adams, Longtime Host of ‘All Things Considered,’ Has Died at 84",
-   "link": "https://www.nytimes.com/2026/10/24/business/media/noah-adams-dead.html",
-   "date": "2026-10-24T15:14:17.000Z",
-   "summary": "A postman’s son from Kentucky, he worked hard to lose his accent but never forgot his Appalachian roots. “The best stories come from west of the Potomac,” he said.",
-   "image": "https://static01.nyt.com/images/2026/10/24/obituaries/24obit-adams/24obit-adams-mediumSquareAt3X.jpg"
   },
   {
    "id": "bloomberg-business:TNF3A7WWD62O00",
@@ -211,15 +364,6 @@
    "image": "https://static01.nyt.com/images/2026/10/22/multimedia/00CLI-POLLUTION-EPA-TAKEAWAYS-glzb/00CLI-POLLUTION-EPA-TAKEAWAYS-glzb-mediumSquareAt3X.jpg"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/10/24/climate/trump-epa-chemical-air-pollution.html",
-   "feed": "nytimes-business",
-   "title": "How Trump Gave the Worst Polluters a Free Pass",
-   "link": "https://www.nytimes.com/2026/10/24/climate/trump-epa-chemical-air-pollution.html",
-   "date": "2026-10-24T12:28:26.000Z",
-   "summary": "The president temporarily waived clean-air rules for industrial facilities that spew cancer-causing gases. Then his appointees worked to gut the regulations altogether.",
-   "image": ""
-  },
-  {
    "id": "nytimes-business:tps://www.nytimes.com/2026/10/24/business/dealbook/ceos-say-the-ai-rollout-is-going-well-employees-feel-differently.html",
    "feed": "nytimes-business",
    "title": "C.E.O.s Say the A.I. Rollout Is Going Well. Employees Feel Differently.",
@@ -265,15 +409,6 @@
    "image": ""
   },
   {
-   "id": "wsj-business:WP-WSJ-0003998808",
-   "feed": "wsj-business",
-   "title": "News Quiz for October 24, 2026",
-   "link": "https://www.wsj.com/business/media/news-quiz-for-october-24-2026-9619e679?mod=pls_whats_news_us_business_f",
-   "date": "2026-10-24T10:00:00.000Z",
-   "summary": "Test your knowledge of the week’s events with The Wall Street Journal News Quiz.",
-   "image": "https://images.wsj.net/im-88301946"
-  },
-  {
    "id": "bloomberg-business:TNEIJTKIP3IA00",
    "feed": "bloomberg-business",
    "title": "KenGen Names Ronoh Kibet Charles as Next Chief Executive Officer",
@@ -292,15 +427,6 @@
    "image": ""
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/10/22/arts/design/claude-monet-painting-auction-paris.html",
-   "feed": "nytimes-business",
-   "title": "Monet Painting Sells for $56 Million in France",
-   "link": "https://www.nytimes.com/2026/10/22/arts/design/claude-monet-painting-auction-paris.html",
-   "date": "2026-10-24T05:48:45.000Z",
-   "summary": "The artwork, titled “Iris,” is among the painter’s later works, which wealthy collectors have coveted in recent years.",
-   "image": "https://static01.nyt.com/images/2026/10/24/multimedia/22cul-monet-auction-jgmh/22cul-monet-auction-jgmh-mediumSquareAt3X.jpg"
-  },
-  {
    "id": "morning-brew:https://www.morningbrew.com/stories/msg-sent-workers-a-cruel-phishing-test",
    "feed": "morning-brew",
    "title": "MSG sent workers a cruel phishing test",
@@ -317,33 +443,6 @@
    "date": "2026-10-24T04:01:00.000Z",
    "summary": "Warhound In what feels like the beginning of a werewolf movie, two billionaires are teaming up to genetically engineer a better breed of military dog. Texas-based startup Warhound was publicly revealed on Thursday and has already secured $200 million in seed funding. Who’s behind it? The startup was launched by…",
    "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-10-23/image-6c5a135f7bde54515d414449a7b985023bdeed58-1500x1000-jpg/MBD-Warhound-1026.jpg"
-  },
-  {
-   "id": "bloomberg-business:TNE7SGV84D8G00",
-   "feed": "bloomberg-business",
-   "title": "Some Canadian Tariffs Exempted, Oil at Six-Month High, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-24/some-canadian-tariffs-exempted-oil-at-six-month-high-more",
-   "date": "2026-10-24T03:45:52.000Z",
-   "summary": "Source: Bloomberg, 5:32",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TNE52XXVHD6O00",
-   "feed": "bloomberg-business",
-   "title": "Some Canadian Tariffs Exempted, Trump Ordered Alaska Lawsuit",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-24/some-canadian-tariffs-exempted-trump-ordered-alaska-lawsuit",
-   "date": "2026-10-24T02:47:21.000Z",
-   "summary": "Source: Bloomberg, 5:53",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TNE33YV84D8G00",
-   "feed": "bloomberg-business",
-   "title": "Trump Ordered Alaska Lawsuit,Some Canadian Tariffs Exempted,More",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-24/trump-ordered-alaska-lawsuit-some-canadian-tariffs-exempted-more-mvlraey0",
-   "date": "2026-10-24T02:04:46.000Z",
-   "summary": "Source: Bloomberg, 6:10",
-   "image": ""
   },
   {
    "id": "nytimes-business:https://www.nytimes.com/2026/10/23/business/ai-jobs-layoffs-congress.html",
@@ -380,42 +479,6 @@
    "date": "2026-10-24T01:15:22.000Z",
    "summary": "Full Washington Week with the Atlantic broadcast from October 23, 2026.",
    "image": "https://www.cascadepbs.org/content/images/2026/10/6c0f0e96-acbc-4fab-974b-ce89de8b217a.JPG"
-  },
-  {
-   "id": "bloomberg-business:TNE09WV84D8G00",
-   "feed": "bloomberg-business",
-   "title": "Trump Ordered Alaska Lawsuit, Exemption on Some Canadian Tariffs",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-24/trump-ordered-alaska-lawsuit-exemption-on-some-canadian-tariffs",
-   "date": "2026-10-24T01:03:32.000Z",
-   "summary": "Source: Bloomberg, 5:55",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TNE043N3N09700",
-   "feed": "bloomberg-business",
-   "title": "Singapore Feels the Cooling of Asia’s 2026 IPO Party",
-   "link": "https://www.bloomberg.com/news/newsletters/2026-10-24/singapore-feels-the-cooling-of-asia-s-2026-ipo-party",
-   "date": "2026-10-24T01:00:03.000Z",
-   "summary": "Plus, another rocky week for Indonesian markets.",
-   "image": ""
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004002499",
-   "feed": "wsj-business",
-   "title": "Billionaires Stave off the Pitchforks With Payouts to One Kid at a Time",
-   "link": "https://www.wsj.com/economy/musk-trump-accounts-spacex-charity-dell-b9c37991?mod=pls_whats_news_us_business_f",
-   "date": "2026-10-24T01:00:00.000Z",
-   "summary": "Since John D. Rockefeller handed out dimes, the world’s richest have given away their money in very different ways. Now they are bypassing charity—and writing a new social contract.",
-   "image": "https://images.wsj.net/im-15181888"
-  },
-  {
-   "id": "bloomberg-business:TNDYUDUT4Z5S00",
-   "feed": "bloomberg-business",
-   "title": "Bloomberg Business of Sports: Morgan Shaw Parker (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-24/bloomberg-business-of-sports-morgan-shaw-parker-podcast",
-   "date": "2026-10-24T00:32:37.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
   },
   {
    "id": "cascadepbs:6adc113a1eb00a00017200f4",
@@ -490,33 +553,6 @@
    "image": "https://www.cascadepbs.org/content/images/2026/10/9254fb87-5cf8-43ea-8920-a46737abc8c0.jpg"
   },
   {
-   "id": "bloomberg-business:TNDXKJV84D8G00",
-   "feed": "bloomberg-business",
-   "title": "Trump Ordered Alaska Lawsuit,Some Canadian Tariffs Exempted,More",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-24/trump-ordered-alaska-lawsuit-some-canadian-tariffs-exempted-more",
-   "date": "2026-10-24T00:05:07.000Z",
-   "summary": "Source: Bloomberg, 6:08",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TNDXC4KIJH8N00",
-   "feed": "bloomberg-business",
-   "title": "Ocean-Themed Aoi Deconstructs Japanese Fine Dining in Hong Kong",
-   "link": "https://www.bloomberg.com/news/articles/2026-10-24/ocean-themed-aoi-deconstructs-japanese-fine-dining-in-hong-kong",
-   "date": "2026-10-24T00:00:04.000Z",
-   "summary": "New restaurant lures island dwellers to cross Victoria Harbour.",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TNDVSZUT4Z5S00",
-   "feed": "bloomberg-business",
-   "title": "Bloomberg Businessweek Daily: Farmgirl Flowers Founder (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-23/bloomberg-businessweek-daily-farmgirl-flowers-founder-podcast",
-   "date": "2026-10-23T23:26:59.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
    "id": "nytimes-business:https://www.nytimes.com/2026/10/23/business/france-debt-moodys-protests.html",
    "feed": "nytimes-business",
    "title": "France’s Avoids a Debt Downgrade From Moody’s, but Is Given a Warning",
@@ -524,15 +560,6 @@
    "date": "2026-10-23T23:23:10.000Z",
    "summary": "Moody’s held the country’s credit rating steady amid political uncertainty and a rise in borrowing costs that have worsened France’s debt situation.",
    "image": "https://static01.nyt.com/images/2026/10/23/multimedia/23Biz-France-Debt-blzq/23Biz-France-Debt-blzq-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "bloomberg-business:TNDUPTO2LL3400",
-   "feed": "bloomberg-business",
-   "title": "Trump Ordered Alaska Lawsuit, Exemption on Some Canadian Tariffs",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-23/trump-ordered-alaska-lawsuit-exemption-on-some-canadian-tariffs",
-   "date": "2026-10-23T23:03:29.000Z",
-   "summary": "Source: Bloomberg, 5:54",
-   "image": ""
   },
   {
    "id": "cascadepbs:6adbee011eb00a000171fd24",
@@ -544,15 +571,6 @@
    "image": "https://www.cascadepbs.org/content/images/2026/10/076b8e88-51f4-426e-aa57-b7d9cb27c7eb.jpg"
   },
   {
-   "id": "wsj-business:WP-WSJ-0004003699",
-   "feed": "wsj-business",
-   "title": "The Plan to Put Super Dogs on the Battlefield of the Future",
-   "link": "https://www.wsj.com/business/entrepreneurship/the-plan-to-put-super-dogs-on-the-battlefield-of-the-future-02fbca9a?mod=pls_whats_news_us_business_f",
-   "date": "2026-10-23T22:31:00.000Z",
-   "summary": "An Anduril-backed venture aims to genetically engineer faster and sharper-nosed military dogs to help beat the enemy.",
-   "image": "https://images.wsj.net/im-41832654"
-  },
-  {
    "id": "wsj-business:WP-WSJ-0004001737",
    "feed": "wsj-business",
    "title": "Auto & Transport Roundup: Market Talk",
@@ -560,15 +578,6 @@
    "date": "2026-10-23T21:31:00.000Z",
    "summary": "Find insight on Mullen Group and more in the latest Market Talks covering the auto and transport sector.",
    "image": "https://images.wsj.net/im-58402079"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004001751",
-   "feed": "wsj-business",
-   "title": "Basic Materials Roundup: Market Talk",
-   "link": "https://www.wsj.com/business/basic-materials-roundup-market-talk-0b5eaf18?mod=pls_whats_news_us_business_f",
-   "date": "2026-10-23T21:30:00.000Z",
-   "summary": "Find insight on precious metals, Fortescue and more in the latest Market Talks covering basic materials.",
-   "image": "https://images.wsj.net/im-12097522"
   },
   {
    "id": "wsj-business:WP-WSJ-0004003914",
@@ -1210,15 +1219,6 @@
    "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/data-src-image-7544adef-8fba-4e7e-88b9-71aef4b037a8-1.jpeg"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/10/22/business/mortgage-rates-housing-costs.html",
-   "feed": "nytimes-business",
-   "title": "Mortgage Rates Remain Above 7%, Pushing Home Prices Lower in Some Areas",
-   "link": "https://www.nytimes.com/2026/10/22/business/mortgage-rates-housing-costs.html",
-   "date": "2026-10-22T19:18:58.000Z",
-   "summary": "The 30-year, fixed-rate mortgage dropped slightly to 7.32 percent as prospective home buyers continue to struggle with affordability. But home prices are starting to drop in some areas.",
-   "image": "https://static01.nyt.com/images/2026/10/22/multimedia/22Biz-Mortgage-Rates-fjpg/22Biz-Mortgage-Rates-fjpg-mediumSquareAt3X.jpg"
-  },
-  {
    "id": "urbanist:6ada2fa8f244b90001da29c9",
    "feed": "urbanist",
    "title": "Daylight Shines Between Scully and Noble in the 32nd District",
@@ -1793,15 +1793,6 @@
    "date": "2026-10-15T13:00:00.000Z",
    "summary": "After being unable to reach a contract agreement with the Washington State Department of Public Defense (OPD), the venerable Washington Appellate Project (WAP) may have to close its doors at the end of the year. Should this happen, the state’s court system could be disrupted due to the loss of experienced attorneys,…",
    "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/WashingtonCapitolTOJI-1.jpg"
-  },
-  {
-   "id": "urbanist:6ac95d28b1b0ef0001aab379",
-   "feed": "urbanist",
-   "title": "2026 General Election Endorsements",
-   "link": "https://www.theurbanist.org/2026-general-election-endorsements/",
-   "date": "2026-10-14T13:00:00.000Z",
-   "summary": "This midterm election will be a big deal, and not just because Democrats could retake Congress from Republicans and provide a check on Trump’s power at the federal level. A ton of interesting races and measures are also brewing at the local level. Ballots should be arriving in mailboxes by October 16 across…",
-   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/20260619_124817--1-.jpg"
   },
   {
    "id": "stb:https://seattletransitblog.com/?p=149552",
