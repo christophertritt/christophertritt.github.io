@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T18:59:12.046Z",
+ "updated": "2026-10-31T05:17:13.236Z",
  "feeds": [
   {
    "id": "planetizen",
@@ -121,57 +121,489 @@
  ],
  "items": [
   {
-   "id": "bloomberg-business:TNQI0YUT4Z5S00",
-   "feed": "bloomberg-business",
-   "title": "Bloomberg Business of Sports: Rick Welts (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-30/bloomberg-business-of-sports-rick-welts-podcast",
-   "date": "2026-10-30T18:58:10.000Z",
-   "summary": "Source: Bloomberg, 38:47",
-   "image": ""
+   "id": "morning-brew:https://www.morningbrew.com/stories/tech-sell-off-has-nasdaq-100-correction",
+   "feed": "morning-brew",
+   "title": "Massive tech sell-off has Nasdaq 100 entering another correction",
+   "link": "https://www.morningbrew.com/stories/tech-sell-off-has-nasdaq-100-correction?utm_source=&utm_medium=syndication&utm_campaign=feed",
+   "date": "2026-10-31T05:14:00.000Z",
+   "summary": "Michael M. Santiago/Getty Images The state of the Nasdaq yesterday was as scary as encountering a group of teens in matching clown masks stocking up on eggs for an “omelet party.” The tech-heavy index suffered a huge hit over the last few days as investors faced their fears about tech companies’ massive AI spending…",
+   "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-10-30/image-5ae30fdafcfc283e5a977a53381b88a805875be1-6000x4000-jpg/GettyImages-2301313277.jpg"
   },
   {
-   "id": "bloomberg-business:TNQENUT96OSG00",
-   "feed": "bloomberg-business",
-   "title": "Appeals Court Denies DOJ Bid to Block 20,000 California Ballots",
-   "link": "https://www.bloomberg.com/news/articles/2026-10-30/appeals-court-denies-doj-bid-to-block-20-000-california-ballots",
-   "date": "2026-10-30T18:49:43.000Z",
-   "summary": "A US appeals court denied a Trump administration request to force California to set aside mail-in ballots from up to 20,000 people who the federal government claims are likely non-citizens, setting up a potential Supreme Court showdown days before the midterm elections.",
-   "image": ""
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/10/30/business/kalshi-onion-futures-act-1958.html",
+   "id": "nytimes-business:https://www.nytimes.com/2026/10/31/business/european-central-bank-lagarde-succession.html",
    "feed": "nytimes-business",
-   "title": "Why Kalshi Wants to Repeal a 1958 Law About Onions",
-   "link": "https://www.nytimes.com/2026/10/30/business/kalshi-onion-futures-act-1958.html",
-   "date": "2026-10-30T18:48:28.000Z",
-   "summary": "A law enacted after a brazen scheme to rig onion prices in the 1950s puts the vegetable, as well as box office receipts, off-limits for prediction markets.",
-   "image": "https://static01.nyt.com/images/2026/10/30/multimedia/30xp-onionfutures-kzjg/30xp-onionfutures-kzjg-mediumSquareAt3X.jpg"
+   "title": "Wanted: New Central Bank Chief. Expertise and Political Acumen Required.",
+   "link": "https://www.nytimes.com/2026/10/31/business/european-central-bank-lagarde-succession.html",
+   "date": "2026-10-31T04:01:05.000Z",
+   "summary": "The looming departure of the European Central Bank’s president, Christine Lagarde, has set in motion a high-stakes search for her successor.",
+   "image": "https://static01.nyt.com/images/2026/10/30/multimedia/30Biz-ECB-Next-01-cqtz/30Biz-ECB-Next-01-cqtz-mediumSquareAt3X.jpg"
   },
   {
-   "id": "bloomberg-business:TNQGPDO32FWG00",
+   "id": "morning-brew:https://www.morningbrew.com/stories/record-crypto-heist-binance",
+   "feed": "morning-brew",
+   "title": "Record crypto heist swipes $6.3 billion from Binance",
+   "link": "https://www.morningbrew.com/stories/record-crypto-heist-binance?utm_source=&utm_medium=syndication&utm_campaign=feed",
+   "date": "2026-10-31T04:01:00.000Z",
+   "summary": "Illustration: Morning Brew Inc., Photo: Adobe Stock The biggest crypto theft in history happened faster than the average American’s commute. Hackers stole most of their $6.3 billion haul from Binance in roughly 20 minutes yesterday, leaving the world’s largest digital coin exchange scrambling to cover losses. No…",
+   "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-10-30/image-9a53961e7cff7c1cf44e217ace3038ea1c4c7cb4-1500x1000-jpg/MBD_BinanceHack_SM_103026.jpg"
+  },
+  {
+   "id": "bloomberg-business:TNR5VPUT4Z5S00",
    "feed": "bloomberg-business",
-   "title": "Bloomberg Tech: Intel Tumbles on PC Output (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-30/bloomberg-tech-intel-tumbles-on-pc-output-podcast",
-   "date": "2026-10-30T18:29:37.000Z",
-   "summary": "Source: Bloomberg, 46:45",
+   "title": "Steep Stock Losses on Tech Rout, Binance Hack, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-10-31/steep-stock-losses-on-tech-rout-binance-hack-more",
+   "date": "2026-10-31T03:33:25.000Z",
+   "summary": "Source: Bloomberg, 5:53",
    "image": ""
+  },
+  {
+   "id": "bloomberg-business:TNR0PQT96OSH00",
+   "feed": "bloomberg-business",
+   "title": "Judge Orders DOJ to Not Threaten California Election Officials",
+   "link": "https://www.bloomberg.com/news/articles/2026-10-31/us-district-judge-trina-thompson-california-election-san-francisco-labor-civil-rights-groups-doj-dhs",
+   "date": "2026-10-31T02:55:50.000Z",
+   "summary": "A federal judge ordered the Trump administration to not threaten California election officials with criminal prosecution over the handling of election ballots cast by people swept up in a crackdown on alleged noncitizen voting.",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TNR3THWWD62O00",
+   "feed": "bloomberg-business",
+   "title": "Stocks Worse Day Since June, US to Sell Missiles to Ukraine,More",
+   "link": "https://www.bloomberg.com/news/audio/2026-10-31/stocks-worse-day-since-june-us-to-sell-missiles-to-ukraine-more",
+   "date": "2026-10-31T02:48:53.000Z",
+   "summary": "Source: Bloomberg, 6:08",
+   "image": ""
+  },
+  {
+   "id": "cascadepbs:6ae553361eb00a000173ac09",
+   "feed": "cascadepbs",
+   "title": "News Wrap: Judge investigating if DOJ misled court",
+   "link": "https://www.cascadepbs.org/show/newshour/extras/news-wrap-1793393340/",
+   "date": "2026-10-31T02:15:52.000Z",
+   "summary": "In our news wrap Friday, a federal judge is opening an investigation into whether Justice Department lawyers misled the court about plans to renovate a D.C. golf course, the DOJ told a judge that it may bring more charges against former FBI Director James Comey and Christa Pike says she's in constant pain following…",
+   "image": "https://www.cascadepbs.org/content/images/2026/10/26c8997e-2275-4d65-b02b-306a801eef0c.jpg"
+  },
+  {
+   "id": "cascadepbs:6ae5532a1eb00a000173abf8",
+   "feed": "cascadepbs",
+   "title": "Candidates make final midterm stops as early voting surges",
+   "link": "https://www.cascadepbs.org/show/newshour/extras/vote-2026-campaign-wrap-1793386378/",
+   "date": "2026-10-31T02:15:52.000Z",
+   "summary": "Candidates around the country are making their final campaign stops before Election Day with just the weekend left to go. President Trump is in Florida and will then head to Iowa and Kansas -- a last-minute change after initially cancelling those rallies. Lisa Desjardins reports.",
+   "image": "https://www.cascadepbs.org/content/images/2026/10/cec409ae-6bf8-47ca-b4f3-e6e66977a0b9.jpg"
+  },
+  {
+   "id": "cascadepbs:6ae5531d1eb00a000173abe7",
+   "feed": "cascadepbs",
+   "title": "$6 billion cryptocurrency heist puts investors on edge",
+   "link": "https://www.cascadepbs.org/show/newshour/extras/crypto-heist-1793386588/",
+   "date": "2026-10-31T02:15:52.000Z",
+   "summary": "Binance, the world’s largest cryptocurrency exchange, says it's working to recover funds after the biggest crypto heist in history. The company halted withdrawals after hackers made off with $6 billion in assets. The cyber heist is raising questions about the security of crypto and who pulled this off. Geoff Bennett…",
+   "image": "https://www.cascadepbs.org/content/images/2026/10/f39f7f5c-fc06-4b92-bb89-a27df140ed72.jpg"
+  },
+  {
+   "id": "cascadepbs:6ae553001eb00a000173abd4",
+   "feed": "cascadepbs",
+   "title": "Inside a Ukrainian city hit by Russia during Starlink cut",
+   "link": "https://www.cascadepbs.org/show/newshour/extras/russian-invasion-1793387187/",
+   "date": "2026-10-31T02:15:52.000Z",
+   "summary": "In Ukraine, President Zelenskyy made the clearest indication yet that a disruption of Starlink technology contributed to civilian deaths. Elon Musk admitted last week to ordering the slowdown of the service. The intentional hindrance of Ukrainian defenses led to bipartisan anger in Washington. Special correspondent…",
+   "image": "https://www.cascadepbs.org/content/images/2026/10/48486c62-6316-4eeb-9a91-babd600057f1.jpg"
+  },
+  {
+   "id": "cascadepbs:6ae552ee1eb00a000173abc3",
+   "feed": "cascadepbs",
+   "title": "Trump should 'own' election outcome, Sen. Tillis says",
+   "link": "https://www.cascadepbs.org/show/newshour/extras/party-politics-tillis-1793393420/",
+   "date": "2026-10-31T02:15:52.000Z",
+   "summary": "Republican Sen. Thom Tillis of North Carolina is sounding the alarm about the future of his own party. In his new book, “How to Lose Friends and Antagonize Presidents,” Tillis warns that GOP lawmakers are afraid to challenge President Trump, Congress is surrendering its power, and some of the president's closest…",
+   "image": "https://www.cascadepbs.org/content/images/2026/10/87ebbdf1-9bf7-4563-a500-7f099677eea5.jpg"
+  },
+  {
+   "id": "bloomberg-business:TNR1Y2UT4Z5S00",
+   "feed": "bloomberg-business",
+   "title": "Stocks Drop on Tech Rout, US to Sell Missiles to Ukraine, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-10-31/stocks-drop-on-tech-rout-us-to-sell-missiles-to-ukraine-more-mvvri37j",
+   "date": "2026-10-31T02:08:26.000Z",
+   "summary": "Source: Bloomberg, 6:15",
+   "image": ""
+  },
+  {
+   "id": "cascadepbs:6ae5533e1eb00a000173ac31",
+   "feed": "cascadepbs",
+   "title": "Rahm Emanuel on what Democrats should do after midterms",
+   "link": "https://www.cascadepbs.org/show/newshour/extras/rahm-emanuel-on-what-democrats-should-do-after-midterms-1793400659/",
+   "date": "2026-10-31T02:00:25.000Z",
+   "summary": "On Election Day, Democrats are looking to do what they did 20 years ago – turn widespread dissatisfaction with a Republican president into a sweeping congressional victory. Rahm Emanuel helped engineer that victory in 2006. Now, as his party looks to regain power, Geoff Bennett sat down with Emanuel to discuss what…",
+   "image": "https://www.cascadepbs.org/content/images/2026/10/1620f0f4-d304-4089-8f16-fd9ad43c8201.jpg"
+  },
+  {
+   "id": "cascadepbs:6ae5533b1eb00a000173ac20",
+   "feed": "cascadepbs",
+   "title": "Capehart and Continetti on closing messages and predictions",
+   "link": "https://www.cascadepbs.org/show/newshour/extras/brooks-capehart-1793387574/",
+   "date": "2026-10-31T02:00:25.000Z",
+   "summary": "Jonathan Capehart of MS NOW and Wall Street Journal opinion columnist Matthew Continetti join Amna Nawaz to discuss the week in politics, including the last week of the midterm campaigns, predictions on which party will control Congress and the closing messages from President Trump and candidates.",
+   "image": "https://www.cascadepbs.org/content/images/2026/10/6b9b2c86-b2d9-4f55-b9d6-7dc8d541edef.jpg"
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004011348",
+   "feed": "wsj-business",
+   "title": "‘We Need to Win.’ Inside the Five-Year Quest to Reinvent the Goldfish.",
+   "link": "https://www.wsj.com/business/goldfish-campbell-s-soup-shark-gluten-free-crackers-51f0a791?mod=pls_whats_news_us_business_f",
+   "date": "2026-10-31T02:00:00.000Z",
+   "summary": "Campbell’s started, abandoned and restarted a project to make the popular children’s snack gluten-free. Finding sales growth is just that hard.",
+   "image": "https://images.wsj.net/im-85507153"
+  },
+  {
+   "id": "bloomberg-business:TNQZ42WWD62O00",
+   "feed": "bloomberg-business",
+   "title": "Stocks Worse Day Since June, US to Sell Missiles to Ukraine",
+   "link": "https://www.bloomberg.com/news/audio/2026-10-31/stocks-worse-day-since-june-us-to-sell-missiles-to-ukraine",
+   "date": "2026-10-31T01:07:14.000Z",
+   "summary": "Source: Bloomberg, 5:29",
+   "image": ""
+  },
+  {
+   "id": "cascadepbs:6ae54c041eb00a000173aaa0",
+   "feed": "cascadepbs",
+   "title": "Trump's fraud claims and the fight over election rules",
+   "link": "https://www.cascadepbs.org/show/washington-week/extras/clip2-e9jlpc/",
+   "date": "2026-10-31T01:00:22.000Z",
+   "summary": "Key midterm races are still razor-tight and controversy is swirling in Alaska of all places. The panel discusses election ethics and President Trump's claims of fraud.",
+   "image": "https://www.cascadepbs.org/content/images/2026/10/4269dcff-5992-435c-8388-c116bcb0e04d.jpg"
+  },
+  {
+   "id": "bloomberg-business:TNQYS2VTTCZY00",
+   "feed": "bloomberg-business",
+   "title": "Indonesia’s Gas Cut Puts Singapore’s Energy Security in Focus",
+   "link": "https://www.bloomberg.com/news/newsletters/2026-10-31/indonesia-s-gas-cut-puts-singapore-s-energy-security-in-focus",
+   "date": "2026-10-31T01:00:02.000Z",
+   "summary": "With no homegrown supply, the city-state is widening its options as regional demand rises and output falls.",
+   "image": ""
+  },
+  {
+   "id": "cascadepbs:6ae54c551eb00a000173aac9",
+   "feed": "cascadepbs",
+   "title": "Midterms test Trump’s political power",
+   "link": "https://www.cascadepbs.org/show/washington-week/extras/clip1-6dkc7y/",
+   "date": "2026-10-31T00:45:21.000Z",
+   "summary": "Key battleground races are close in the lead-up to Election Day, and the results could upend the balance of power in Washington.",
+   "image": "https://www.cascadepbs.org/content/images/2026/10/6821e482-c3c7-4388-8479-88fdbf928b16.jpg"
+  },
+  {
+   "id": "cascadepbs:6ae54c831eb00a000173aada",
+   "feed": "cascadepbs",
+   "title": "Washington Week with The Atlantic full episode, 10/30/26",
+   "link": "https://www.cascadepbs.org/show/washington-week/episode/washington-week-with-the-atlantic-full-episode-103026-3jyl2r/",
+   "date": "2026-10-31T00:30:25.000Z",
+   "summary": "Full Washington Week with the Atlantic broadcast from October 30, 2026.",
+   "image": "https://www.cascadepbs.org/content/images/2026/10/31281775-734f-477d-90e7-5c6d9231b720.jpg"
+  },
+  {
+   "id": "bloomberg-business:TNQWGBUT4Z5S00",
+   "feed": "bloomberg-business",
+   "title": "Stocks Drop on Tech Rout, US to Sell Missiles to Ukraine, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-10-31/stocks-drop-on-tech-rout-us-to-sell-missiles-to-ukraine-more",
+   "date": "2026-10-31T00:09:47.000Z",
+   "summary": "Source: Bloomberg, 6:13",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/10/29/technology/amazon-earnings-tech-spending.html",
+   "feed": "nytimes-business",
+   "title": "Big Tech’s Data Center Blitz Is Burning Through Cash and Scaring Wall St.",
+   "link": "https://www.nytimes.com/2026/10/29/technology/amazon-earnings-tech-spending.html",
+   "date": "2026-10-31T00:03:24.000Z",
+   "summary": "Amazon became the latest tech company to announce swelling investments in A.I. amid stumbling share prices.",
+   "image": "https://static01.nyt.com/images/2026/10/29/multimedia/29biz-bigtech-spending-amazon-kltm/29biz-bigtech-spending-amazon-kltm-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "bloomberg-business:TNQW0CKIUPS600",
+   "feed": "bloomberg-business",
+   "title": "Hong Kong Restaurant Review: YuSang Brings Style to Korean Comfort Food",
+   "link": "https://www.bloomberg.com/news/articles/2026-10-31/hong-kong-restaurant-review-yusang-brings-style-to-korean-comfort-food",
+   "date": "2026-10-31T00:00:12.000Z",
+   "summary": "The galbijjim rivals holiday home cooking.",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/10/30/business/obamacare-health-insurance-rates.html",
+   "feed": "nytimes-business",
+   "title": "Obamacare Policies Hit Again With Steep Premium Increases for 2027",
+   "link": "https://www.nytimes.com/2026/10/30/business/obamacare-health-insurance-rates.html",
+   "date": "2026-10-30T23:42:10.000Z",
+   "summary": "Premiums will increase an average 13 percent next year for millions of Americans, on top of an earlier steep increase. It adds to the problems facing the program, which the Trump administration has weakened.",
+   "image": "https://static01.nyt.com/images/2026/10/27/multimedia/00biz-obamacare--mlbk/00biz-obamacare--mlbk-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "bloomberg-business:TNQTSUO32FWG00",
+   "feed": "bloomberg-business",
+   "title": "Stocks Worse Day Since June, US to Sell Missiles to Ukraine,More",
+   "link": "https://www.bloomberg.com/news/audio/2026-10-30/stocks-worse-day-since-june-us-to-sell-missiles-to-ukraine-more",
+   "date": "2026-10-30T23:12:30.000Z",
+   "summary": "Source: Bloomberg, 5:27",
+   "image": ""
+  },
+  {
+   "id": "cascadepbs:6ae5308c1eb00a000173a8ea",
+   "feed": "cascadepbs",
+   "title": "Jacob Aune II With WR",
+   "link": "https://www.cascadepbs.org/show/whitney-reynolds-show/trailers/jacob-aune-ii-with-wr-sdnx1d/",
+   "date": "2026-10-30T23:00:45.000Z",
+   "summary": "Whitney Reynolds sits down with actor Jacob Aune to discuss his journey in musical theater and his role in The Book of Mormon. From early inspiration to navigating the challenges of the entertainment industry, Jacob reflects on the experiences that shaped his career, the importance of perseverance, and what it means…",
+   "image": "https://www.cascadepbs.org/content/images/2026/10/af520e8a-bc01-46cf-a007-fbb33ba4d741.jpg"
+  },
+  {
+   "id": "cascadepbs:6ae52f9f1eb00a000173a827",
+   "feed": "cascadepbs",
+   "title": "October 30, 2026 - PBS News Hour full episode",
+   "link": "https://www.cascadepbs.org/show/newshour/episode/october-30-2026-pbs-news-hour-full-episode-1793332801/",
+   "date": "2026-10-30T23:00:45.000Z",
+   "summary": "",
+   "image": "https://www.cascadepbs.org/content/images/2026/10/329e8465-a3b5-4eb2-ae4e-32192022f558.jpg"
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004015161",
+   "feed": "wsj-business",
+   "title": "Can Shopping Ever Be Fun Again? At Trunk Shows, the Answer Is Yes",
+   "link": "https://www.wsj.com/style/fashion/can-shopping-ever-be-fun-again-at-trunk-shows-the-answer-is-yes-96fc3e8e?mod=pls_whats_news_us_business_f",
+   "date": "2026-10-30T23:00:00.000Z",
+   "summary": "No longer just occasions where trunks of samples are used to sell preorders, trunk shows now combine the instant gratification of off-the-rack shopping with exclusive locations and free perks",
+   "image": "https://images.wsj.net/im-71117578"
+  },
+  {
+   "id": "cascadepbs:6ae52fa31eb00a000173a849",
+   "feed": "cascadepbs",
+   "title": "October 30, 2026",
+   "link": "https://www.cascadepbs.org/show/amanpour-co/episode/october-30-2026-tczxb9/",
+   "date": "2026-10-30T22:45:26.000Z",
+   "summary": "Fmr Secretary of State John Kerry discusses the potential for U.S.-Israeli attacks on Iran after the midterms and whether a diplomatic solution can be reached before they happen. Emily St. John Mandel shared her dystopian visions for the future of the United States in her new novel \"Exit Party.\" New Yorker writer…",
+   "image": "https://www.cascadepbs.org/content/images/2026/10/070637a6-28e5-4c68-8b03-01b1030a286e.jpg"
+  },
+  {
+   "id": "bloomberg-business:TNQSFYUT4Z5S00",
+   "feed": "bloomberg-business",
+   "title": "Bloomberg Hot Pursuit!: Ford CFO Sherry House (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-10-30/bloomberg-hot-pursuit-ford-cfo-sherry-house-podcast",
+   "date": "2026-10-30T22:43:10.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TNQRTHUT4Z5S00",
+   "feed": "bloomberg-business",
+   "title": "Bloomberg Businessweek Daily: AI Trade Unwinds (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-10-30/bloomberg-businessweek-daily-ai-trade-unwinds-podcast",
+   "date": "2026-10-30T22:29:41.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TNQRG9UT4Z5S00",
+   "feed": "bloomberg-business",
+   "title": "Wall Street Week: October 30th, 2026 (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-10-30/wall-street-week-october-30th-2026-podcast",
+   "date": "2026-10-30T22:21:45.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TNQR5AO32FWG00",
+   "feed": "bloomberg-business",
+   "title": "Stocks Drop on Tech Rout, US to Sell Missiles to Ukraine, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-10-30/stocks-drop-on-tech-rout-us-to-sell-missiles-to-ukraine-more",
+   "date": "2026-10-30T22:15:10.000Z",
+   "summary": "Source: Bloomberg, 5:24",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TNQQFJN3N08Z00",
+   "feed": "bloomberg-business",
+   "title": "Nasdaq Nears Correction as Amazon, Alphabet, Intel Disappoint Wall Street",
+   "link": "https://www.bloomberg.com/news/newsletters/2026-10-30/nasdaq-nears-correction-as-amazon-alphabet-intel-disappoint-wall-street",
+   "date": "2026-10-30T21:59:43.000Z",
+   "summary": "Get caught up.",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/10/30/business/binance-hack-crypto-price-what.html",
+   "feed": "nytimes-business",
+   "title": "Binance Lost Over $6 Billion in Crypto Hack. Here’s What to Know.",
+   "link": "https://www.nytimes.com/2026/10/30/business/binance-hack-crypto-price-what.html",
+   "date": "2026-10-30T21:48:01.000Z",
+   "summary": "Hackers made off with around $6 billion in digital currency in what could be the biggest crypto heist in history. Binance said it will cover the losses.",
+   "image": "https://static01.nyt.com/images/2026/10/30/multimedia/30xp-binance-wtk-vzbg/30xp-binance-wtk-vzbg-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "bloomberg-business:TNQPTDKGZAKD00",
+   "feed": "bloomberg-business",
+   "title": "Carney, Von der Leyen Strike Deal for Canada to Be EU’s First Associate Member",
+   "link": "https://www.bloomberg.com/news/newsletters/2026-10-30/carney-von-der-leyen-strike-deal-for-canada-to-be-eu-s-first-associate-member",
+   "date": "2026-10-30T21:46:25.000Z",
+   "summary": "Plus: TSX has its worst tumble since June",
+   "image": ""
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004022241",
+   "feed": "wsj-business",
+   "title": "Health Care Roundup: Market Talk",
+   "link": "https://www.wsj.com/business/health-care-roundup-market-talk-7cfba03c?mod=pls_whats_news_us_business_f",
+   "date": "2026-10-30T21:37:00.000Z",
+   "summary": "Find insight on AbbVie, AstraZeneca, Sanofi and more in the latest Market Talks covering the health care sector.",
+   "image": "https://images.wsj.net/im-26903776"
+  },
+  {
+   "id": "bloomberg-business:TNQP6SWWD62O00",
+   "feed": "bloomberg-business",
+   "title": "Masters in Business: Rich Steinmeier (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-10-30/masters-in-business-rich-steinmeier-podcast",
+   "date": "2026-10-30T21:32:52.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "cascadepbs:6ae513a11eb00a000173a0f2",
+   "feed": "cascadepbs",
+   "title": "Trump Won These States. Now Republicans Face an Uncertain Midterm",
+   "link": "https://www.cascadepbs.org/show/amanpour-co/extras/trump-won-these-states-now-republicans-face-an-uncertain-midterm-3hcvtc/",
+   "date": "2026-10-30T21:30:55.000Z",
+   "summary": "It's the final stretch before the midterms. With control of the Senate and House at stake, Pres. Trump made his third trip to Texas this month, throwing his support behind Republican Ken Paxton. Between scandals and Republicans' distancing themselves from Trump amid low approval ratings, the GOP campaign has been far…",
+   "image": "https://www.cascadepbs.org/content/images/2026/10/fab41375-ef5c-4ff0-9059-15175e6c6a90.jpg"
+  },
+  {
+   "id": "bloomberg-business:TNQON3O32FWG00",
+   "feed": "bloomberg-business",
+   "title": "Instant Reaction: Wall Street Gets AI Wake-Up Call (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-10-30/instant-reaction-wall-street-gets-ai-wake-up-call-podcast",
+   "date": "2026-10-30T21:21:03.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TNQOIZO32FWG00",
+   "feed": "bloomberg-business",
+   "title": "Stock Movers: Alphabet, Amazon, Reddit (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-10-30/stock-movers-alphabet-amazon-reddit-podcast",
+   "date": "2026-10-30T21:18:35.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/10/30/technology/binance-hack-ai-north-korea.html",
+   "feed": "nytimes-business",
+   "title": "Binance’s $6.3 Billion Hack Is Just the Start of a Risky New Era",
+   "link": "https://www.nytimes.com/2026/10/30/technology/binance-hack-ai-north-korea.html",
+   "date": "2026-10-30T21:17:37.000Z",
+   "summary": "The largest cyber heist in history came as attackers increasingly use artificial intelligence and other advanced techniques to steal crypto and quickly launder the funds.",
+   "image": "https://static01.nyt.com/images/2026/10/30/multimedia/30biz-binance-lzht/30biz-binance-lzht-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "cascadepbs:6ae513a31eb00a000173a101",
+   "feed": "cascadepbs",
+   "title": "A New Dwarf Planet Hiding in Our Solar System?",
+   "link": "https://www.cascadepbs.org/show/nova/extras/a-new-dwarf-planet-hiding-in-our-solar-system-wirx3l/",
+   "date": "2026-10-30T21:00:56.000Z",
+   "summary": "A team of scientists spotted it for the first time using the new Vera C. Rubin Observatory in Chile, equipped with an 8.4 meter telescope that has the world’s largest digital camera. But how was it able to stay hidden for so long?",
+   "image": "https://www.cascadepbs.org/content/images/2026/10/0da5bf4c-447a-4a27-8689-c17d252805df.jpg"
   },
   {
    "id": "nytimes-business:https://www.nytimes.com/2026/10/30/business/binances-hack-customer-protections.html",
    "feed": "nytimes-business",
    "title": "Binance Was Hacked. What Protections Exist for Crypto Customers?",
    "link": "https://www.nytimes.com/2026/10/30/business/binances-hack-customer-protections.html",
-   "date": "2026-10-30T18:27:21.000Z",
-   "summary": "After a $6.3 billion hack, the company said it was going to reimburse customers who have losses.",
+   "date": "2026-10-30T20:49:27.000Z",
+   "summary": "After a $6.3 billion hack, the company said it was going to reimburse customers who had losses.",
    "image": "https://static01.nyt.com/images/2026/10/30/business/30Biz-Cryptoconsumer/30Biz-Cryptoconsumer-mediumSquareAt3X.jpg"
   },
   {
-   "id": "bloomberg-business:TNQG2KUT4Z5S00",
+   "id": "nytimes-business:https://www.nytimes.com/2026/10/30/business/stock-market-october-ai.html",
+   "feed": "nytimes-business",
+   "title": "Tech Stocks See Worst Day Since June, Pressuring Broader Market",
+   "link": "https://www.nytimes.com/2026/10/30/business/stock-market-october-ai.html",
+   "date": "2026-10-30T20:40:47.000Z",
+   "summary": "The Nasdaq and the S&P 500 had their worst day since June as investors worried about spending on A.I. infrastructure.",
+   "image": "https://static01.nyt.com/images/2026/10/30/multimedia/2026-oct-biz-promos-stocks/2026-oct-biz-promos-stocks-mediumSquareAt3X-v9.png"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/10/30/business/midterms-stock-bond-markets.html",
+   "feed": "nytimes-business",
+   "title": "Why the Markets Don’t Care About the Midterms",
+   "link": "https://www.nytimes.com/2026/10/30/business/midterms-stock-bond-markets.html",
+   "date": "2026-10-30T20:36:05.000Z",
+   "summary": "Factors like inflation, interest rates, A.I. and the war with Iran are far more important, our columnist says.",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/10/30/business/pslf-education-department-lawsuit.html",
+   "feed": "nytimes-business",
+   "title": "Lawsuit Accuses Education Dept. of Throttling Debt Cancellation Through PSLF Program",
+   "link": "https://www.nytimes.com/2026/10/30/business/pslf-education-department-lawsuit.html",
+   "date": "2026-10-30T20:09:36.000Z",
+   "summary": "Public servants on the brink of student debt forgiveness are facing setbacks and extensive delays. The American Federation of Teachers sued to help them.",
+   "image": "https://static01.nyt.com/images/2026/10/30/multimedia/30biz-pslfsuit-qkmt/30biz-pslfsuit-qkmt-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/10/30/2026/schumer-girds-for-fight-with-trump-over-election-results",
+   "feed": "semafor",
+   "title": "Schumer girds for fight with Trump over election results",
+   "link": "https://www.semafor.com/article/10/30/2026/schumer-girds-for-fight-with-trump-over-election-results",
+   "date": "2026-10-30T20:06:14.000Z",
+   "summary": "Senate Minority Leader Chuck Schumer is launching a post-Election Day war room to guard against efforts by Trump to “steal the election,” vowing Democrats will fight “ every step of the way ” in a letter to the Democratic Caucus shared first with Semafor. Senate Democrats will speak with party lawyer Marc Elias this…",
+   "image": "https://img.semafor.com/fb3a8514d438812e21cc05712d402649c1da81b4-6000x4000.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/10/30/business/dealbook/tech-tumult-ai-wall-street.html",
+   "feed": "nytimes-business",
+   "title": "The Tech Tumult Rocks Wall Street",
+   "link": "https://www.nytimes.com/2026/10/30/business/dealbook/tech-tumult-ai-wall-street.html",
+   "date": "2026-10-30T19:47:21.000Z",
+   "summary": "Investors are growing nervous about the huge spending bills that tech giants are amassing to pay for their bets on artificial intelligence.",
+   "image": "https://static01.nyt.com/images/2026/10/30/multimedia/30db-nyse-final-vclb/30db-nyse-final-vclb-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "urbanist:6ae176cf5fc45a00019c4634",
+   "feed": "urbanist",
+   "title": "Route 40 Upgrades Finally Reach Finish Line, Despite Business Opposition",
+   "link": "https://www.theurbanist.org/route-40-upgrades-finally-reach-finish-line-despite-business-opposition/",
+   "date": "2026-10-30T19:45:06.000Z",
+   "summary": "Seattle and King County officials cut the ribbon on a suite of upgrades to Metro's workhorse Route 40 on Thursday – transit speed, reliability, and access improvements that have been in the works for the better part of a decade. The changes benefit around 9,000 daily transit riders traveling between Downtown Seattle,…",
+   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/IMG_9383.JPG"
+  },
+  {
+   "id": "humantransit:https://humantransit.org/?p=33777",
+   "feed": "humantransit",
+   "title": "Washington DC: Our Two-Day Course in Transit Network Design",
+   "link": "https://humantransit.org/2026/10/washington-dc-our-two-day-course-in-transit-network-design.html",
+   "date": "2026-10-30T19:26:11.000Z",
+   "summary": "We’re pleased to announce another session of our “inexcusably fun” two day course in transit network design , in Washington DC right after the TRB conference . Date: January 14, 2027–January 15, 2027 (both days 9:00 am-5:00 pm EDT) Location: Near Franklin Park (McPherson Square station), Washington DC Cost: $745.00…",
+   "image": "https://humantransit.org/wp-content/uploads/Good-course-photo-1080x960.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/10/30/business/kalshi-onion-futures-act-1958.html",
+   "feed": "nytimes-business",
+   "title": "Why Kalshi Wants to Repeal a 1958 Law About Onions",
+   "link": "https://www.nytimes.com/2026/10/30/business/kalshi-onion-futures-act-1958.html",
+   "date": "2026-10-30T19:18:36.000Z",
+   "summary": "A law enacted after a brazen scheme to rig onion prices in the 1950s puts the vegetable, as well as box office receipts, off-limits for prediction markets.",
+   "image": "https://static01.nyt.com/images/2026/10/30/multimedia/30xp-onionfutures-kzjg/30xp-onionfutures-kzjg-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/10/30/business/binance-hack-crypto-stocks-bitcoin.html",
+   "feed": "nytimes-business",
+   "title": "Binance Hack Sends Crypto Stocks Tumbling",
+   "link": "https://www.nytimes.com/2026/10/30/business/binance-hack-crypto-stocks-bitcoin.html",
+   "date": "2026-10-30T19:00:28.000Z",
+   "summary": "The rout hit publicly traded crypto exchanges and fintech companies, as well as cryptocurrencies like Bitcoin.",
+   "image": "https://static01.nyt.com/images/2026/10/30/multimedia/30biz-crypto-markets-tqhz/30biz-crypto-markets-tqhz-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "bloomberg-business:TNQENUT96OSG00",
    "feed": "bloomberg-business",
-   "title": "Wall Street's AI Reality Check, Binance's $6B Crypto Heist, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-30/wall-street-s-ai-reality-check-binance-s-6b-crypto-heist-more",
-   "date": "2026-10-30T18:15:56.000Z",
-   "summary": "Source: Bloomberg, 0:00",
+   "title": "Appeals Court Denies US Bid to Block 20,000 California Votes",
+   "link": "https://www.bloomberg.com/news/articles/2026-10-30/appeals-court-denies-doj-bid-to-block-20-000-california-ballots",
+   "date": "2026-10-30T18:49:43.000Z",
+   "summary": "A US appeals court denied a Trump administration request to force California to set aside mail-in ballots from up to 20,000 people who the federal government claims are likely noncitizens, setting up a potential Supreme Court showdown days before the midterm elections.",
    "image": ""
   },
   {
@@ -182,24 +614,6 @@
    "date": "2026-10-30T18:11:24.000Z",
    "summary": "The case, brought by an 18-year-old Mississippi woman and set for trial next week, was the fourth of nine bellwether personal injury lawsuits.",
    "image": "https://static01.nyt.com/images/2026/10/30/multimedia/30biz-meta-settlement-pwcm/30biz-meta-settlement-pwcm-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/10/30/business/stock-market-october-ai.html",
-   "feed": "nytimes-business",
-   "title": "Tech Stocks Tumble, Putting Pressure on Broader Market",
-   "link": "https://www.nytimes.com/2026/10/30/business/stock-market-october-ai.html",
-   "date": "2026-10-30T17:53:01.000Z",
-   "summary": "The S&P 500 is set for a small loss in October, despite a deeper slide in some of the A.I. stocks that exert a heavy influence on the index.",
-   "image": "https://static01.nyt.com/images/2026/10/30/multimedia/2026-oct-biz-promos-stocks/2026-oct-biz-promos-stocks-mediumSquareAt3X-v5.png"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/10/30/technology/binance-hack-ai-north-korea.html",
-   "feed": "nytimes-business",
-   "title": "Binance’s $6.3 Billion Hack Is Just the Start of a Risky New Era",
-   "link": "https://www.nytimes.com/2026/10/30/technology/binance-hack-ai-north-korea.html",
-   "date": "2026-10-30T17:47:07.000Z",
-   "summary": "The largest cyber heist in history came as attackers increasingly use artificial intelligence and other advanced techniques to steal crypto and quickly launder the funds.",
-   "image": "https://static01.nyt.com/images/2026/10/30/multimedia/30biz-binance-lzht/30biz-binance-lzht-mediumSquareAt3X.jpg"
   },
   {
    "id": "semafor:https://www.semafor.com/article/10/30/2026/dartmouth-made-a-bad-call-on-provosts-ai-use",
@@ -238,60 +652,6 @@
    "image": "https://images.wsj.net/im-92191584"
   },
   {
-   "id": "bloomberg-business:TNQD7MWWD62O00",
-   "feed": "bloomberg-business",
-   "title": "$6.3B Crypto Hack, S&P, Nasdaq Dragged by Tech Selloff, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-30/-6-3b-crypto-hack-s-p-nasdaq-dragged-by-tech-selloff-more",
-   "date": "2026-10-30T17:14:10.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/10/30/business/midterms-stock-bond-markets.html",
-   "feed": "nytimes-business",
-   "title": "Why the Markets Don’t Care About the Midterms",
-   "link": "https://www.nytimes.com/2026/10/30/business/midterms-stock-bond-markets.html",
-   "date": "2026-10-30T17:13:32.000Z",
-   "summary": "Factors like inflation, interest rates, A.I. and the war with Iran are far more important, our columnist says.",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TNQCZVWWD62O00",
-   "feed": "bloomberg-business",
-   "title": "Bloomberg Intelligence: Intel Outlook Hit by PC Slump (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-30/bloomberg-intelligence-intel-outlook-hit-by-pc-slump-podcast",
-   "date": "2026-10-30T17:09:31.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TNQCNDKIUPTS00",
-   "feed": "bloomberg-business",
-   "title": "Cost-of-Living Anger Grows Across Europe With More Demonstrations Expected",
-   "link": "https://www.bloomberg.com/news/newsletters/2026-10-30/cost-of-living-anger-grows-across-europe-with-more-demonstrations-expected",
-   "date": "2026-10-30T17:02:01.000Z",
-   "summary": "Get Caught Up.",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TNQCMUN3N09800",
-   "feed": "bloomberg-business",
-   "title": "Gaming’s Billion-Dollar Bet on Grand Theft Auto VI",
-   "link": "https://www.bloomberg.com/news/articles/2026-10-30/gaming-s-billion-dollar-bet-on-grand-theft-auto-vi",
-   "date": "2026-10-30T17:01:42.000Z",
-   "summary": "On today’s Big Take podcast: With a Nov. 19 release just around the corner, will one of the most anticipated video games in history bring the industry a boost?",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TNQCKXO32FWG00",
-   "feed": "bloomberg-business",
-   "title": "Big Take: Will Grand Theft Auto VI’s Big Bet Pay Off? (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-30/big-take-will-grand-theft-auto-vi-s-big-bet-pay-off-podcast",
-   "date": "2026-10-30T17:00:33.000Z",
-   "summary": "Source: Bloomberg, 18:38",
-   "image": ""
-  },
-  {
    "id": "urbanist:6ae3c481833d4b0001acc476",
    "feed": "urbanist",
    "title": "Urbanist Canvass, Meetup with House our Neighbors, and Winter Holiday Party",
@@ -310,42 +670,6 @@
    "image": "https://static01.nyt.com/images/2026/10/26/multimedia/26biz-electric-ferry-bmqg/26biz-electric-ferry-bmqg-mediumSquareAt3X.jpg"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/10/30/business/binance-hack-crypto-price-what.html",
-   "feed": "nytimes-business",
-   "title": "Binance Lost Over $6 Billion in Crypto Hack. Here’s What to Know.",
-   "link": "https://www.nytimes.com/2026/10/30/business/binance-hack-crypto-price-what.html",
-   "date": "2026-10-30T16:32:40.000Z",
-   "summary": "Hackers made off with around $6 billion in digital currency in what could be the biggest crypto heist in history. Binance said it will cover the losses.",
-   "image": "https://static01.nyt.com/images/2026/10/30/multimedia/30xp-binance-wtk-vzbg/30xp-binance-wtk-vzbg-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "bloomberg-business:TNQARXO32FWG00",
-   "feed": "bloomberg-business",
-   "title": "Biggest Crypto Heist, S&P Slumps on Tech Selloff, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-30/biggest-crypto-heist-s-p-slumps-on-tech-selloff-more",
-   "date": "2026-10-30T16:21:33.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/10/30/business/binance-hack-crypto-stocks-bitcoin.html",
-   "feed": "nytimes-business",
-   "title": "Binance Hack Sends Crypto Stocks Tumbling",
-   "link": "https://www.nytimes.com/2026/10/30/business/binance-hack-crypto-stocks-bitcoin.html",
-   "date": "2026-10-30T16:20:35.000Z",
-   "summary": "The rout hit publicly traded crypto exchanges and fintech companies, as well as cryptocurrencies like Bitcoin.",
-   "image": "https://static01.nyt.com/images/2026/10/30/multimedia/30biz-crypto-markets-tqhz/30biz-crypto-markets-tqhz-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "cascadepbs:6ae4cd1d1eb00a0001738719",
-   "feed": "cascadepbs",
-   "title": "Modern Pioneering Season 3 Trailer",
-   "link": "https://www.cascadepbs.org/show/modern-pioneering-georgia-pellegrini/trailers/modern-pioneering-season-3-trailer-dmap9z/",
-   "date": "2026-10-30T16:16:06.000Z",
-   "summary": "In this Emmy-nominated series, Georgia Pellegrini invites you to rediscover manual literacy—the joy of learning by doing. Each cinematic episode highlights artisans, growers and innovators preserving craft, culture and sustainable practices. Along the way, she shares approachable skills that inspire viewers to live…",
-   "image": "https://www.cascadepbs.org/content/images/2026/10/3a551220-39b0-4ff2-aba8-2dca77c3f673.jpg"
-  },
-  {
    "id": "wsj-business:WP-WSJ-0004022006",
    "feed": "wsj-business",
    "title": "Colgate-Palmolive Sales Rise Despite U.S. Consumer Challenges",
@@ -353,24 +677,6 @@
    "date": "2026-10-30T16:12:00.000Z",
    "summary": "The company logged higher sales in the latest quarter, as strength in international markets offset continued weakness in North America.",
    "image": "https://images.wsj.net/im-17699601"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/10/30/business/dealbook/tech-tumult-ai-wall-street.html",
-   "feed": "nytimes-business",
-   "title": "The Tech Tumult Rocks Wall Street",
-   "link": "https://www.nytimes.com/2026/10/30/business/dealbook/tech-tumult-ai-wall-street.html",
-   "date": "2026-10-30T16:06:40.000Z",
-   "summary": "Investors are growing nervous about the huge spending bills that tech giants are amassing to pay for their bets on artificial intelligence.",
-   "image": "https://static01.nyt.com/images/2026/10/30/multimedia/30db-nyse-final-vclb/30db-nyse-final-vclb-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "bloomberg-business:TNQ9W8VTTCZM00",
-   "feed": "bloomberg-business",
-   "title": "Poundland’s Woes are Turning into a Big Test for the Government",
-   "link": "https://www.bloomberg.com/news/newsletters/2026-10-30/poundland-s-woes-are-turning-into-a-big-test-for-the-government",
-   "date": "2026-10-30T16:02:32.000Z",
-   "summary": "The budget retailer’s move to begin insolvency proceedings has politicians taking note.",
-   "image": ""
   },
   {
    "id": "planetizen:138765 at https://www.planetizen.com",
@@ -391,24 +697,6 @@
    "image": "https://images.wsj.net/im-08520518"
   },
   {
-   "id": "bloomberg-business:TNQ9B2WWD62O00",
-   "feed": "bloomberg-business",
-   "title": "Bloomberg Talks: David Baszucki (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-30/bloomberg-talks-david-baszucki-podcast",
-   "date": "2026-10-30T15:49:50.000Z",
-   "summary": "Source: Bloomberg, 5:06",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TNQ8OFO32FWG00",
-   "feed": "bloomberg-business",
-   "title": "Money Stuff: The Podcast: Artisanal Human Money Stuff Podcast",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-30/money-stuff-the-podcast-artisanal-human-money-stuff-podcast",
-   "date": "2026-10-30T15:36:15.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
    "id": "semafor:https://www.semafor.com/article/10/30/2026/one-of-the-greatest-novels-of-the-19th-century",
    "feed": "semafor",
    "title": "“One of the greatest novels of the 19th century\"",
@@ -416,15 +704,6 @@
    "date": "2026-10-30T15:27:37.000Z",
    "summary": ", by Bolesław Prus. With the release of two new, hotly debated screen adaptations of this 1890 Polish novel, a new generation is discovering the literary classic. Hailed by Kirkus Reviews as “ one of the greatest novels of the 19th century ,” is a “richly detailed panoramic portrait of Warsaw under Russian…",
    "image": "https://img.semafor.com/f9904bc4d9336a3c2aa24a474b56cab39a2360a5-5320x3992.png"
-  },
-  {
-   "id": "bloomberg-business:TNQ897WWD62O00",
-   "feed": "bloomberg-business",
-   "title": "Stocks Slide After Crypto Hack, Day 2 of Tech Selloff, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-30/stocks-slide-after-crypto-hack-day-2-of-tech-selloff-more",
-   "date": "2026-10-30T15:27:07.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
   },
   {
    "id": "nytimes-business:https://www.nytimes.com/2026/10/29/technology/binance-hack-crypto.html",
@@ -436,24 +715,6 @@
    "image": "https://static01.nyt.com/images/2026/10/29/multimedia/29biz-binance-cjwh/29biz-binance-cjwh-mediumSquareAt3X.jpg"
   },
   {
-   "id": "bloomberg-business:TNQ7KOV84D8G00",
-   "feed": "bloomberg-business",
-   "title": "Stock Movers: Intel, Reddit, Regeneron (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-30/stock-movers-intel-reddit-regeneron-podcast",
-   "date": "2026-10-30T15:12:24.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TNQ7CCKIUPS600",
-   "feed": "bloomberg-business",
-   "title": "What’s Driving California’s Elections on the Midterms",
-   "link": "https://www.bloomberg.com/news/newsletters/2026-10-30/what-s-driving-california-s-elections-on-the-midterms",
-   "date": "2026-10-30T15:07:24.000Z",
-   "summary": "Also: The four horsemen of the billionaire tax and a hiker’s rite of passage",
-   "image": ""
-  },
-  {
    "id": "wsj-business:WP-WSJ-0004006591",
    "feed": "wsj-business",
    "title": "These Trucks Haul 90 Tons of Coal on Battery Power—and Drive Themselves",
@@ -463,15 +724,6 @@
    "image": "https://images.wsj.net/im-48143003"
   },
   {
-   "id": "bloomberg-business:TNQ77SUT4Z5S00",
-   "feed": "bloomberg-business",
-   "title": "Bloomberg Talks: Brian Niccol (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-30/bloomberg-talks-brian-niccol-podcast",
-   "date": "2026-10-30T15:04:40.000Z",
-   "summary": "Source: Bloomberg, 8:57",
-   "image": ""
-  },
-  {
    "id": "wsj-business:WP-WSJ-0004021556",
    "feed": "wsj-business",
    "title": "AstraZeneca Launches $1.5 Billion Savings Plan to Fund Drug Pipeline",
@@ -479,24 +731,6 @@
    "date": "2026-10-30T15:03:00.000Z",
    "summary": "The U.K. drugmaker benefited from strong sales of cancer drugs that offset the effect of patent expirations and lifted the group’s top line.",
    "image": "https://images.wsj.net/im-06752427"
-  },
-  {
-   "id": "bloomberg-business:TNQ6UERKV2VR00",
-   "feed": "bloomberg-business",
-   "title": "From Bricklin Cars to Defense: Canada Makes Another Industrial Policy Bet",
-   "link": "https://www.bloomberg.com/news/newsletters/2026-10-30/from-bricklin-cars-to-defense-canada-makes-another-industrial-policy-bet",
-   "date": "2026-10-30T14:56:38.000Z",
-   "summary": "Also: The Canadian banks backing Anthropic’s IPO",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TNQ6LTUT4Z5S00",
-   "feed": "bloomberg-business",
-   "title": "Bloomberg Surveillance TV: October 30th, 2026 (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-30/bloomberg-surveillance-tv-october-30th-2026-podcast",
-   "date": "2026-10-30T14:51:29.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
   },
   {
    "id": "wsj-business:WP-WSJ-0004022107",
@@ -560,24 +794,6 @@
    "date": "2026-10-30T14:12:00.000Z",
    "summary": "Candy prices are up 44% since 2021, but two groups of innovators are striving to solve the growing cocoa-bean shortage.",
    "image": "https://images.wsj.net/im-65186481"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/10/29/technology/amazon-earnings-tech-spending.html",
-   "feed": "nytimes-business",
-   "title": "Big Tech’s Data Center Blitz Is Burning Through Cash and Scaring Wall St.",
-   "link": "https://www.nytimes.com/2026/10/29/technology/amazon-earnings-tech-spending.html",
-   "date": "2026-10-30T14:02:25.000Z",
-   "summary": "Amazon became the latest tech company to announce swelling investments in A.I. amid stumbling share prices.",
-   "image": "https://static01.nyt.com/images/2026/10/29/multimedia/29biz-bigtech-spending-amazon-kltm/29biz-bigtech-spending-amazon-kltm-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "cascadepbs:6ae475c01eb00a0001737f26",
-   "feed": "cascadepbs",
-   "title": "Black sorority organizes public policy forum with WA leaders",
-   "link": "https://www.cascadepbs.org/the-newsfeed-2/2026/10/black-sorority-organizes-public-policy-forum-with-wa-leaders/",
-   "date": "2026-10-30T14:00:40.000Z",
-   "summary": "On a crisp Saturday morning, Washington politicians and community members gathered inside an auditorium at Highline College in Des Moines for a discussion on the pain points facing the state The Seattle and Tacoma graduate chapters of the historic Black sorority Alpha Kappa Alpha held the non-partisan public policy…",
-   "image": "https://www.cascadepbs.org/content/images/2026/10/20261030-hero.jpg"
   },
   {
    "id": "planetizen:138762 at https://www.planetizen.com",
@@ -661,15 +877,6 @@
    "image": "https://images.wsj.net/im-35241134"
   },
   {
-   "id": "wsj-business:WP-WSJ-0004021259",
-   "feed": "wsj-business",
-   "title": "Chinese Executive Close to Nvidia CEO Suspected of Giving China Information",
-   "link": "https://www.wsj.com/tech/chinese-executive-close-to-nvidia-ceo-suspected-of-giving-china-information-798eb6a1?mod=pls_whats_news_us_business_f",
-   "date": "2026-10-30T13:01:00.000Z",
-   "summary": "Investigators believed the woman, Alice Huang, was recruited based on her relationship with Jensen Huang.",
-   "image": "https://images.wsj.net/im-99253309"
-  },
-  {
    "id": "planetizen:138763 at https://www.planetizen.com",
    "feed": "planetizen",
    "title": "Desperate measures: Advocates weigh draining Lake Powell to fill Colorado River",
@@ -697,24 +904,6 @@
    "image": "https://images.wsj.net/im-160315"
   },
   {
-   "id": "cascadepbs:6ae49a2d1eb00a0001737fbb",
-   "feed": "cascadepbs",
-   "title": "October 29, 2026",
-   "link": "https://www.cascadepbs.org/show/amanpour-co/episode/october-29-2026-0srn6q/",
-   "date": "2026-10-30T12:30:52.000Z",
-   "summary": "The Atlantic’s Anne Applebaum examines Trump’s foreign policy and controversies in Venezuela, Ukraine and Iran. CNN’s Ivan Watson reports on the resurgence of Somali piracy. Africa CDC’s Dr. Jean Kaseya and WHO’s Dr. Catherine Smallwood discuss the Ebola outbreak in the DRC. Washington Post photojournalist Heidi…",
-   "image": "https://www.cascadepbs.org/content/images/2026/10/0388065e-504e-45e8-bc8e-b0d76d0b541b.jpg"
-  },
-  {
-   "id": "cascadepbs:6ae495081eb00a0001737f76",
-   "feed": "cascadepbs",
-   "title": "WaPo’s Heidi Levine Speaks Out After Brutal Attack by Israeli Settlers",
-   "link": "https://www.cascadepbs.org/show/amanpour-co/extras/wapos-heidi-levine-speaks-out-after-brutal-attack-by-israeli-settlers-fvkmc7/",
-   "date": "2026-10-30T12:30:52.000Z",
-   "summary": "As Israel awaits the outcome of an inconclusive election, violence is escalating in the West Bank. Journalists documenting attacks by Israeli settlers are increasingly at risk. Washington Post photojournalist Heidi Levine recounts being brutally beaten by settlers while reporting there two weeks ago and reveals what…",
-   "image": "https://www.cascadepbs.org/content/images/2026/10/9c2c032e-bb41-494e-a399-70431bf4bd6d.jpg"
-  },
-  {
    "id": "wsj-business:WP-WSJ-0004022120",
    "feed": "wsj-business",
    "title": "BASF’s $12.5 Billion Takeover Bid for Evonik Rebuffed",
@@ -740,15 +929,6 @@
    "date": "2026-10-30T12:06:41.000Z",
    "summary": "US artificial intelligence firms are expanding in the Gulf, a sign that some companies are not shying away despite increased risks to digital infrastructure. Oracle plans to build more data centers in Saudi Arabia and the UAE to meet rising demand, The National reported. And Scale AI, which is 49% owned by Meta and…",
    "image": "https://img.semafor.com/d857bf4d218cffca028ea662100c663318271253-2048x1440.jpg"
-  },
-  {
-   "id": "cascadepbs:6ada9dff1eb00a000171c7f2",
-   "feed": "cascadepbs",
-   "title": "Mossback's Northwest: When Spiritualism Haunted the PNW",
-   "link": "https://www.cascadepbs.org/mossbacks-northwest-2/2026/10/mossbacks-northwest-4/",
-   "date": "2026-10-30T12:00:03.000Z",
-   "summary": "At the end of his famous speech in 1854, Chief Seattle spoke about the changes coming from white settlers and the displacement of his people. His final remarks, according to a man who recorded them as best he remembered, were these: “At night, when the streets of your cities and villages will be silent, and you think…",
-   "image": "https://www.cascadepbs.org/content/images/2026/10/MBS12_Ep3_Spirits_Hero.jpg"
   },
   {
    "id": "planetizen:138764 at https://www.planetizen.com",
@@ -803,15 +983,6 @@
    "date": "2026-10-30T11:53:00.000Z",
    "summary": "The German automaker said it will temporarily pause development until it can securely accommodate the necessary investments.",
    "image": "https://images.wsj.net/im-16698446"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004022041",
-   "feed": "wsj-business",
-   "title": "General Dynamics Logs Higher Profit, Revenue",
-   "link": "https://www.wsj.com/business/earnings/general-dynamics-logs-higher-profit-revenue-7f7f7452?mod=pls_whats_news_us_business_f",
-   "date": "2026-10-30T11:52:00.000Z",
-   "summary": "General Dynamics notched higher profit and revenue in the third quarter, as performance once again improved across all of the company’s lines of business.",
-   "image": "https://images.wsj.net/im-52352511"
   },
   {
    "id": "semafor:https://www.semafor.com/article/10/30/2026/us-pressures-allies-amid-a-push-for-a-russia-ukraine-truce",
@@ -949,24 +1120,6 @@
    "image": "https://img.semafor.com/eefd94c75ea52089e7c45956771a3e6558beed2e-3200x2400.png"
   },
   {
-   "id": "semafor:https://www.semafor.com/article/10/30/2026/shapiro-eyes-minimum-wage-hike-if-democrats-sweep-pennsylvania",
-   "feed": "semafor",
-   "title": "Shapiro eyes minimum wage hike if Democrats sweep Pennsylvania",
-   "link": "https://www.semafor.com/article/10/30/2026/shapiro-eyes-minimum-wage-hike-if-democrats-sweep-pennsylvania",
-   "date": "2026-10-30T08:49:30.000Z",
-   "summary": "READING, Penn. — Both parties expect Pennsylvania Democratic Gov. Josh Shapiro to win reelection next week, and he’s barnstorming his state to give his party a governing trifecta for the first time in 34 years. Shapiro told Semafor that he’ll be focused on passing a few specific items if his party wins full control…",
-   "image": "https://img.semafor.com/c985afcd66219351ae09d309648f1f147016e2b5-6960x4640.jpg"
-  },
-  {
-   "id": "bloomberg-business:TN05H2KK3NY800",
-   "feed": "bloomberg-business",
-   "title": "Sanofi Raises Profit Forecast on Blockbuster Dupixent Sales",
-   "link": "https://www.bloomberg.com/news/articles/2026-10-30/sanofi-raises-profit-forecast-on-blockbuster-dupixent-sales",
-   "date": "2026-10-30T06:30:14.000Z",
-   "summary": "Sanofi raised its full-year sales and profit forecasts for a second straight quarter on strong demand for its top-selling skin and asthma drug Dupixent.",
-   "image": ""
-  },
-  {
    "id": "nytimes-business:https://www.nytimes.com/2026/10/30/business/malaysia-data-center-china.html",
    "feed": "nytimes-business",
    "title": "How One Country Became the Unlikely Crossroads of the Global A.I. Boom",
@@ -974,6 +1127,15 @@
    "date": "2026-10-30T05:28:39.000Z",
    "summary": "In Malaysia, U.S. and Chinese tech giants are pouring billions into vast data centers, straining local resources and testing the limits of Washington’s restrictions on advanced chips.",
    "image": "https://static01.nyt.com/images/2026/10/30/multimedia/Biz-Malaysia-Video-Still-bvqt/Biz-Malaysia-Video-Still-bvqt-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "bloomberg-business:TNPGFMKIUPS300",
+   "feed": "bloomberg-business",
+   "title": "How Jio Transformed India's Mobile Internet Economy, One Cheap Byte at a Time",
+   "link": "https://www.bloomberg.com/news/features/2026-10-30/how-jio-transformed-india-s-mobile-internet-economy-one-cheap-byte-at-a-time",
+   "date": "2026-10-30T05:26:10.000Z",
+   "summary": "Ambani’s push into mobile services helped bring the internet to the masses",
+   "image": ""
   },
   {
    "id": "morning-brew:https://www.morningbrew.com/stories/the-rise-of-indie-horror-bookstores",
@@ -1030,87 +1192,6 @@
    "image": "https://images.wsj.net/im-04787192"
   },
   {
-   "id": "cascadepbs:6ae3d77c1eb00a0001736246",
-   "feed": "cascadepbs",
-   "title": "Halloween season brings art with an eerie edge",
-   "link": "https://www.cascadepbs.org/artsea/2026/10/halloween-season-brings-art-with-an-eerie-edge/",
-   "date": "2026-10-30T01:05:07.000Z",
-   "summary": "The content advisory page for Seattle Opera’s production of Salome is a bit harrowing, even for a genre prone to dramatic portrayals of death. Awarding the classic opera a movie-style rating of PG-13, the warnings include “blood and gore” … “themes of suicide, incest, pedophilia, nymphomania, necrophilia” ……",
-   "image": "https://www.cascadepbs.org/content/images/2026/10/Seattle-Opera-Salome-Brenda-Rae-dancing-by-David-Jaewon-Oh.jpeg"
-  },
-  {
-   "id": "cascadepbs:6ae3f3241eb00a000173658c",
-   "feed": "cascadepbs",
-   "title": "Republicans seize on controversy in Alaska’s Senate race",
-   "link": "https://www.cascadepbs.org/show/newshour/extras/vote-2026-campaign-wrap-1793310081/",
-   "date": "2026-10-30T01:00:26.000Z",
-   "summary": "Alaska's governor is ordering an investigation into Democrat Mary Peltola's Senate campaign over reports that it recruited a spoiler candidate to dilute Republican votes. That’s as President Trump repeated calls for Peltola's prosecution during a trip to another deep red state where his endorsed candidate is facing…",
-   "image": "https://www.cascadepbs.org/content/images/2026/10/84f2b1e9-c783-4b87-ab2d-930d97203334.jpg"
-  },
-  {
-   "id": "cascadepbs:6ae3edf91eb00a0001736528",
-   "feed": "cascadepbs",
-   "title": "News Wrap: Ceasefire in Oleshky holds for a third day",
-   "link": "https://www.cascadepbs.org/show/newshour/extras/news-wrap-1793298101/",
-   "date": "2026-10-30T01:00:26.000Z",
-   "summary": "In our news wrap Thursday, a local ceasefire in Oleshky held for a third day with humanitarian aid set to enter the Russian-held Ukrainian city soon, the Pentagon is reportedly accusing a recently fired Army general of misconduct amid allegations that he leaked classified information to the media and stage and screen…",
-   "image": "https://www.cascadepbs.org/content/images/2026/10/056a86b9-ae31-4551-a00c-f402c551d2e0.jpg"
-  },
-  {
-   "id": "cascadepbs:6ae3edf61eb00a000173651a",
-   "feed": "cascadepbs",
-   "title": "Pennsylvania races test who voters blame for high prices",
-   "link": "https://www.cascadepbs.org/show/newshour/extras/vote-2026-pennsylvania-1793298643/",
-   "date": "2026-10-30T01:00:26.000Z",
-   "summary": "Democrats are favored to take the House in November, but the size of their potential majority could hinge on a handful of competitive races. Four are in Pennsylvania, where President Trump and Republicans made significant gains in 2024. Now, Democrats are betting that the president’s low approval ratings and…",
-   "image": "https://www.cascadepbs.org/content/images/2026/10/0d1142ea-20ea-4f78-9980-a97bc9de1561.jpg"
-  },
-  {
-   "id": "cascadepbs:6ae3edf41eb00a000173650c",
-   "feed": "cascadepbs",
-   "title": "Brewers bring World Series title to MLB's smallest market",
-   "link": "https://www.cascadepbs.org/show/newshour/extras/brewers-win-1793299256/",
-   "date": "2026-10-30T01:00:26.000Z",
-   "summary": "Tap the kegs and break out the bratwurst, the Milwaukee Brewers are World Series champions! Milwaukee is the smallest market in the major leagues. But this year, the Brewers dominated the regular season, and then rolled through the playoffs with ruthless efficiency. To break it all down, Stephanie Sy spoke with Jason…",
-   "image": "https://www.cascadepbs.org/content/images/2026/10/a9ead1eb-dd12-4c79-ac5f-db8ebc6ecc9a.jpg"
-  },
-  {
-   "id": "cascadepbs:6ae3edf21eb00a00017364fb",
-   "feed": "cascadepbs",
-   "title": "Mapping the battle for control of the House",
-   "link": "https://www.cascadepbs.org/show/newshour/extras/vote-2026-lisa-debrief-1793310147/",
-   "date": "2026-10-30T01:00:26.000Z",
-   "summary": "As candidates make a final push to win over voters ahead of Election Day, Lisa Desjardins takes a deep dive into the battle for the House of Representatives.",
-   "image": "https://www.cascadepbs.org/content/images/2026/10/2dc414fa-124e-4567-a6ba-8af108e07393.jpg"
-  },
-  {
-   "id": "cascadepbs:6ae3edef1eb00a00017364eb",
-   "feed": "cascadepbs",
-   "title": "Maria Ressa on defending democracy and 'The Fight Back'",
-   "link": "https://www.cascadepbs.org/show/newshour/extras/the-fight-back-1793310221/",
-   "date": "2026-10-30T01:00:26.000Z",
-   "summary": "Journalist and Nobel Peace Prize laureate Maria Ressa chronicled her fight against the Duterte regime in the Philippines in her 2022 book, “How to Stand Up to a Dictator.” She detailed attacks on her reporting and her newsroom's struggle to defend press freedom and democracy. In a new book, Ressa warns of other…",
-   "image": "https://www.cascadepbs.org/content/images/2026/10/d5ad3df2-f05a-4d9d-8fd3-09950632ca65.jpg"
-  },
-  {
-   "id": "cascadepbs:6ae3eded1eb00a00017364dd",
-   "feed": "cascadepbs",
-   "title": "Retired Israeli general on what the election results tell us",
-   "link": "https://www.cascadepbs.org/show/newshour/extras/israel-votes-1793310183/",
-   "date": "2026-10-30T01:00:26.000Z",
-   "summary": "Israel is facing political uncertainty after an election that produced no clear governing majority. But what do the results reveal about how Israelis want leaders to confront the country's challenges? Nick Schifrin discussed that with Tamir Hayman, former chief of Israeli military intelligence and current executive…",
-   "image": "https://www.cascadepbs.org/content/images/2026/10/6bf60786-fbcc-402e-aa8f-4a0a6a41bd15.jpg"
-  },
-  {
-   "id": "cascadepbs:6ae3edea1eb00a00017364cf",
-   "feed": "cascadepbs",
-   "title": "How colleges are helping students build social skills",
-   "link": "https://www.cascadepbs.org/show/newshour/extras/rethinking-college-1793310258/",
-   "date": "2026-10-30T01:00:26.000Z",
-   "summary": "Much of the debate over higher education today centers on cost, career prospects and whether a college degree can prepare students for a rapidly changing job market. But in an era increasingly shaped by artificial intelligence, one of the oldest skills taught on college campuses may be more valuable than ever. Paul…",
-   "image": "https://www.cascadepbs.org/content/images/2026/10/a4e5aa12-35d3-4ebe-93c9-6598373a64e0.jpg"
-  },
-  {
    "id": "strongtowns:https://www.strongtowns.org/journal/2026-10-30-why-we-love-halloween",
    "feed": "strongtowns",
    "title": "Why We Love Halloween",
@@ -1129,22 +1210,13 @@
    "image": "https://static01.nyt.com/images/2026/10/29/multimedia/29biz-polymarket-israel-election-1-wzbk/29biz-polymarket-israel-election-1-wzbk-mediumSquareAt3X.jpg"
   },
   {
-   "id": "cascadepbs:6ae3de141eb00a000173630c",
-   "feed": "cascadepbs",
-   "title": "October 29, 2026 - PBS News Hour full episode",
-   "link": "https://www.cascadepbs.org/show/newshour/episode/october-29-2026-pbs-news-hour-full-episode-1793246401/",
-   "date": "2026-10-29T23:00:56.000Z",
-   "summary": "",
-   "image": "https://www.cascadepbs.org/content/images/2026/10/a52e1e52-e1b8-4579-907f-37b5bb0e473d.jpg"
-  },
-  {
    "id": "nytimes-business:https://www.nytimes.com/2026/10/29/business/economy/us-economy-gdp.html",
    "feed": "nytimes-business",
    "title": "U.S. GDP Increased 3.4% in Third Quarter",
    "link": "https://www.nytimes.com/2026/10/29/business/economy/us-economy-gdp.html",
    "date": "2026-10-29T21:10:38.000Z",
    "summary": "The economy grew 3.4 percent in the third quarter, the fastest pace in a year. Strong spending and growth contrast with the poor marks many voters are giving the economy.",
-   "image": "https://static01.nyt.com/images/2026/10/27/multimedia/2026-oct-biz-promos-gdp/2026-oct-biz-promos-gdp-mediumSquareAt3X-v5.png"
+   "image": "https://static01.nyt.com/images/2026/10/27/multimedia/2026-oct-biz-promos-gdp/2026-oct-biz-promos-gdp-mediumSquareAt3X-v9.png"
   },
   {
    "id": "morning-brew:https://www.morningbrew.com/stories/the-us-economy-had-a-surprise-growth-spurt",
@@ -1163,15 +1235,6 @@
    "date": "2026-10-29T20:18:10.000Z",
    "summary": "Look out! L.A. City turned on its new automated speed enforcement cameras this week. Learn all about the program at the L.A. City Transportation Department (LADOT) program website , earlier Streetsblog coverage , or at KTLA , NBC4 , LA Times , Reddit or LAist . Click here to donate to Streetsblog , or just scroll…",
    "image": "https://usa.streetsblog.org/wp-content/uploads/sites/10/2026/10/SpeedCam2026Oct01_01.jpeg?w=1024"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/10/29/technology/doordash-instacart-acquisition-delivery.html",
-   "feed": "nytimes-business",
-   "title": "DoorDash to Buy Instacart for $17 Billion, Uniting 2 Delivery Giants",
-   "link": "https://www.nytimes.com/2026/10/29/technology/doordash-instacart-acquisition-delivery.html",
-   "date": "2026-10-29T18:52:07.000Z",
-   "summary": "The deal combines the country’s largest restaurant delivery service with its biggest online grocery platform.",
-   "image": "https://static01.nyt.com/images/2026/10/26/multimedia/-00biz-doordash-hfo-2-gqtv/-00biz-doordash-hfo-2-gqtv-mediumSquareAt3X.jpg"
   },
   {
    "id": "urbanist:6ae39206833d4b0001acbeca",
@@ -1246,15 +1309,6 @@
    "image": "https://imgproxy.divecdn.com/st2djLdku_D__J7ANzvlhbl0Lok9OU6QZWH0_ZK0nVw/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMzAwNzIyNjE3LmpwZw==.webp"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/10/29/business/volkswagen-loss-china.html",
-   "feed": "nytimes-business",
-   "title": "Volkswagen ‘Must Act Quickly’ After Largest Loss in Over a Decade",
-   "link": "https://www.nytimes.com/2026/10/29/business/volkswagen-loss-china.html",
-   "date": "2026-10-29T14:35:12.000Z",
-   "summary": "The German carmaker warned that it “must act quickly and decisively” to cut costs.",
-   "image": "https://static01.nyt.com/images/2026/10/29/multimedia/biz-volkswagen-china-hbvl/biz-volkswagen-china-hbvl-mediumSquareAt3X.jpg"
-  },
-  {
    "id": "nytimes-business:https://www.nytimes.com/2026/10/29/business/economy/pce-inflation-economy.html",
    "feed": "nytimes-business",
    "title": "Inflation Accelerated in October, PCE Index Shows",
@@ -1271,15 +1325,6 @@
    "date": "2026-10-29T14:20:00.000Z",
    "summary": "Thrive will pay $10 a share in cash for the home-security company, a 35% premium to Wednesday’s closing price of $7.41.",
    "image": "https://images.wsj.net/im-431182"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004016409",
-   "feed": "wsj-business",
-   "title": "Trump Administration Promised Tariff Relief in Talks to Secure U.S. Audi Factory",
-   "link": "https://www.wsj.com/business/autos/trump-administration-promised-tariff-relief-in-talks-to-secure-u-s-audi-factory-da037c3f?mod=pls_whats_news_us_business_f",
-   "date": "2026-10-29T13:36:00.000Z",
-   "summary": "The Trump administration has promised to ease tariffs on automakers that commit to more U.S. manufacturing, according to people familiar with the situation.",
-   "image": "https://images.wsj.net/im-20231655"
   },
   {
    "id": "urbanist:6ade7fdcf244b90001da5251",
@@ -1325,15 +1370,6 @@
    "date": "2026-10-29T11:45:05.000Z",
    "summary": "The prediction market raised $1 billion in a new funding round and landed a market value almost double that of rival Polymarket. But legal challenges to its business persist.",
    "image": "https://static01.nyt.com/images/2026/10/29/multimedia/29db-tarekmansour-fbmq/29db-tarekmansour-fbmq-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/10/29/world/asia/hong-kong-fire-john-lee-apology.html",
-   "feed": "nytimes-business",
-   "title": "Hong Kong Leader Apologizes for Deadly Apartment Building Fire",
-   "link": "https://www.nytimes.com/2026/10/29/world/asia/hong-kong-fire-john-lee-apology.html",
-   "date": "2026-10-29T11:34:49.000Z",
-   "summary": "John Lee, the city’s chief executive, said his housing secretary would step down, but he vehemently defended the government.",
-   "image": "https://static01.nyt.com/images/2026/10/29/multimedia/int-hongkong-fire-bvcf/int-hongkong-fire-bvcf-mediumSquareAt3X.jpg"
   },
   {
    "id": "morning-brew:https://www.morningbrew.com/stories/cheesecake-factory-doing-well",
@@ -1626,7 +1662,7 @@
   {
    "id": "urbanist:6ade1b40f244b90001da4a34",
    "feed": "urbanist",
-   "title": "Op-Ed: Stop MAGA from Taking Over Washington, Vote No on I-645, I-001, and I-638",
+   "title": "Op-Ed: Stop MAGA from Taking Over Washington. Vote No on I-645, I-001, and I-638",
    "link": "https://www.theurbanist.org/op-ed-stop-maga-from-taking-over-washington-vote-no-on-i-645-i-001-and-i-638/",
    "date": "2026-10-25T15:48:15.000Z",
    "summary": "I was born and raised in Baton Rouge, Louisiana to immigrant parents. I moved to Seattle in 1999 to work as a software engineer in large part due to the progressive values cultivated by Washington State. My wife and I are grateful to the communities and culture here, where we’ve been able to raise three children who…",
@@ -1640,6 +1676,24 @@
    "date": "2026-10-25T10:00:00.000Z",
    "summary": "A recap of the Ballard Link controversy that boiled over at the forum Monday . These videos are from three months ago. Light rail to Ballard shouldn’t be this hard. (The House of Transit) Why is building transit so expensive anyway? (Yet Another Urbanist) I’m reaching the end of the video backlog again. Do you have…",
    "image": ""
+  },
+  {
+   "id": "morning-brew:https://www.morningbrew.com/stories/the-rise-of-darecations-aka-travel-not-for-the-weak",
+   "feed": "morning-brew",
+   "title": "The rise of ‘darecations,’ aka travel not for the weak",
+   "link": "https://www.morningbrew.com/stories/the-rise-of-darecations-aka-travel-not-for-the-weak?utm_source=&utm_medium=syndication&utm_campaign=feed",
+   "date": "2026-10-25T06:01:00.000Z",
+   "summary": "UTMB Some vacation activities are even more taxing on your jetlagged body than a sangria-fueled bar crawl in scorching heat. Nightmare vacation buddies Adventurous travelers are increasingly embarking on so-called “darecations,” which entail hyper-intense physical challenges in faraway destinations. That might…",
+   "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-10-29/image-6576ab59506ec7faa499857c7ce67190cd6802c9-3600x2400-jpg/MBD-SundaySpecial-EnduranceBrew-Darecations-1026.JPG"
+  },
+  {
+   "id": "morning-brew:https://www.morningbrew.com/stories/you-too-can-be-iron-man",
+   "feed": "morning-brew",
+   "title": "You, too, can be Iron Man",
+   "link": "https://www.morningbrew.com/stories/you-too-can-be-iron-man?utm_source=&utm_medium=syndication&utm_campaign=feed",
+   "date": "2026-10-25T06:01:00.000Z",
+   "summary": "Jan Hetfleisch/Getty Images Sometimes people find joy in punishing themselves (watching The Office after Steve Carell left, for example). But the growing number of people participating in Ironman races shows there’s no limit to how much pain can bring someone pleasure. What makes up an Ironman race? A 2.4-mile swim,…",
+   "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-10-29/image-7edc990eff0c30585aa56c68b7c2ffb774e814ed-3500x2334-jpg/GettyImages-2300789105.jpg"
   },
   {
    "id": "morning-brew:https://www.morningbrew.com/stories/halloween-shopping-starts-during-beach-season-now",
@@ -1732,15 +1786,6 @@
    "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-10-22/image-16d2985d58bb9ad5301e91a8d6f02ed7ed51b581-6000x4000-jpg/GettyImages-2300239805.jpg"
   },
   {
-   "id": "morning-brew:https://www.morningbrew.com/stories/reviews-are-in-iphone-duo-mostly-good-kinda-odd",
-   "feed": "morning-brew",
-   "title": "Reviews are in: iPhone Duo mostly good, kinda odd",
-   "link": "https://www.morningbrew.com/stories/reviews-are-in-iphone-duo-mostly-good-kinda-odd?utm_source=&utm_medium=syndication&utm_campaign=feed",
-   "date": "2026-10-23T04:01:00.000Z",
-   "summary": "Illustration: Morning Brew Inc., Benjamin Fanjoy/Getty Images Based on early reactions, Apple’s first foldable phone, released in limited supply today, seems like your initial attempt at a new recipe: exciting, fit for consumption, but not totally satisfying. The $1,999 Duo is being called “one of Apple’s messiest…",
-   "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-10-22/image-1a3924dc4169dfb7fdd0151b6364d0a5ea981cbe-1500x1000-jpg/MBD-IPhoneDuo-1026.jpg"
-  },
-  {
    "id": "strongtowns:https://www.strongtowns.org/journal/2026-10-23-permitted-pending-hoa-approval",
    "feed": "strongtowns",
    "title": "Permitted, Pending HOA Approval",
@@ -1759,15 +1804,6 @@
    "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/data-src-image-7544adef-8fba-4e7e-88b9-71aef4b037a8-1.jpeg"
   },
   {
-   "id": "urbanist:6ada2fa8f244b90001da29c9",
-   "feed": "urbanist",
-   "title": "Daylight Shines Between Scully and Noble in the 32nd District",
-   "link": "https://www.theurbanist.org/daylight-shines-between-scully-and-noble-in-the-32nd-district/",
-   "date": "2026-10-22T17:55:43.000Z",
-   "summary": "Some voters in the 32nd district might be stumped filling out their ballots. Long time Shoreline city council member, Keith Scully, is running against Danica Noble, an anti-trust attorney and PTA advocate for State Representative position 1 in the 32nd. Both candidates are Democrats, and on most issues, Noble and…",
-   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/data-src-image-61ad4072-95cd-4f76-ad0f-af053c3e7f97-1.jpeg"
-  },
-  {
    "id": "stb:https://seattletransitblog.com/?p=146984",
    "feed": "stb",
    "title": "Route 545 doesn’t save as much time as you think",
@@ -1775,33 +1811,6 @@
    "date": "2026-10-22T12:31:00.000Z",
    "summary": "Much like route 550 was to Bellevue, route 545 has been Redmond’s workhorse route. Redmond has a diverse set of transit options fanning out in every direction, even before it had the distinction of being a Link terminus. But the main regional service has always been route 545, which connects downtown Redmond to…",
    "image": "https://i0.wp.com/seattletransitblog.com/wp-content/uploads/2026/07/image-12.png?resize=525%2C222&#038;ssl=1"
-  },
-  {
-   "id": "morning-brew:https://www.morningbrew.com/stories/bug-take-down-70-of-the-internet",
-   "feed": "morning-brew",
-   "title": "A bug, identified by AI, could take down 70% of the internet",
-   "link": "https://www.morningbrew.com/stories/bug-take-down-70-of-the-internet?utm_source=&utm_medium=syndication&utm_campaign=feed",
-   "date": "2026-10-22T05:14:00.000Z",
-   "summary": "Niv Bavarsky Your IT manager doesn’t have time to recover your email password this week, since over half of the internet needs to be fixed. Yesterday, developers released vital patches for PHP, a programming language that powers roughly 70% of the world’s websites, warning that if those patches aren’t manually…",
-   "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-10-21/image-c68ff888a0dd820147e3302dec7f6645343d210d-1500x1000-jpg/MBD_10212026_PHP_01.jpg"
-  },
-  {
-   "id": "morning-brew:https://www.morningbrew.com/stories/brewers-fans-are-mad-over-a-botched-ticket-promo",
-   "feed": "morning-brew",
-   "title": "Brewers fans are mad over a botched ticket promo",
-   "link": "https://www.morningbrew.com/stories/brewers-fans-are-mad-over-a-botched-ticket-promo?utm_source=&utm_medium=syndication&utm_campaign=feed",
-   "date": "2026-10-22T04:03:00.000Z",
-   "summary": "Rob Tringali/Getty Images Game 1 of the World Series takes place in Milwaukee tomorrow, but some Brewers fans are mad about it. In 2015, the team sold 1,000 “Timeless Tickets” for $1,000 apiece with a promise that they could be redeemed for the best seats to any one future game. But when fans went to use them for the…",
-   "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-10-21/image-73453b118c912d6a387551c9b3d9288d0c66ce05-3000x2000-jpg/GettyImages-2298047151.jpg"
-  },
-  {
-   "id": "morning-brew:https://www.morningbrew.com/stories/heres-why-musk-would-merge-tesla-and-spacex",
-   "feed": "morning-brew",
-   "title": "Here’s why Musk would merge Tesla and SpaceX",
-   "link": "https://www.morningbrew.com/stories/heres-why-musk-would-merge-tesla-and-spacex?utm_source=&utm_medium=syndication&utm_campaign=feed",
-   "date": "2026-10-22T04:01:00.000Z",
-   "summary": "Ronaldo Schemidt/Getty Images Oops, Elon might do it again. Months after folding his AI startup, xAI, into SpaceX, Elon Musk said the boards of his rocket company and Tesla have formed committees to explore a merger of their own, sending shares of SpaceX up nearly 8% yesterday. This would likely be the biggest…",
-   "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-10-21/image-a9bad9dc0afc656ff68cc577f62e523bd482b616-7396x4987-jpg/GettyImages-2276908688.jpg"
   },
   {
    "id": "stb:https://seattletransitblog.com/?p=149965",
@@ -2099,15 +2108,6 @@
    "date": "2026-06-23T18:43:10.000Z",
    "summary": "The history of transit ridership in the US is what it is: But it matters enormously how we talk about it. Many US transit agencies will be facing the voters in the next two years, seeking new funding to plug their structural deficits and forestall destructive service cuts. Many agencies are already involved in fights…",
    "image": "https://humantransit.org/wp-content/uploads/Screenshot-2026-06-23-at-11.28.30.png"
-  },
-  {
-   "id": "humantransit:https://humantransit.org/?p=33512",
-   "feed": "humantransit",
-   "title": "Des Moines: Welcome to Your New Transit Network",
-   "link": "https://humantransit.org/2026/06/des-moines-welcome-to-your-new-network.html",
-   "date": "2026-06-15T12:15:06.000Z",
-   "summary": "Downtown Des Moines viewed from the Robert D Ray Asian garden, which celebrates the contributions of Asian immigrant groups to the region. Iowa’s capital and largest city, a place I knew well in my childhood, now has a new bus network, the result of our firm’s network design work with the Des Moines Area Regional…",
-   "image": "https://humantransit.org/wp-content/uploads/0EB96A15-6586-4F23-B4FC-17EF9D95A722_1_105_c-700x525.jpeg"
   },
   {
    "id": "planetizen:59142 at https://www.planetizen.com",
