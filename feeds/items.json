@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T18:10:17.915Z",
+ "updated": "2026-11-01T05:44:57.681Z",
  "feeds": [
   {
    "id": "planetizen",
@@ -98,7 +98,7 @@
    "color": "#1f1f1f",
    "topic": "Business & finance",
    "ok": true,
-   "count": 20
+   "count": 17
   },
   {
    "id": "morning-brew",
@@ -121,6 +121,123 @@
  ],
  "items": [
   {
+   "id": "nytimes-business:https://www.nytimes.com/2026/10/30/arts/design/late-night-museums-young-people.html",
+   "feed": "nytimes-business",
+   "title": "What’s New at the Museum? Stargazing, Escape Rooms, Bachelorette Parties and More",
+   "link": "https://www.nytimes.com/2026/10/30/arts/design/late-night-museums-young-people.html",
+   "date": "2026-11-01T05:25:35.000Z",
+   "summary": "Museums are pitching themselves as date-night destinations — and finding a generation of takers.",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TNSKQNKJH6V400",
+   "feed": "bloomberg-business",
+   "title": "Newsom Warns Judges Over Federal Election Warrants in California",
+   "link": "https://www.bloomberg.com/news/articles/2026-11-01/newsom-warns-judges-over-federal-election-warrants-in-california",
+   "date": "2026-11-01T01:12:01.000Z",
+   "summary": "California Governor Gavin Newsom sent an urgent letter to the state’s top federal judges about election integrity ahead of the upcoming midterms.",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TNSSBZXVHD6O00",
+   "feed": "bloomberg-business",
+   "title": "Alaska Says Ballot Demand Meritless, WSJ Wins Dismissal of Suit",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-01/alaska-says-ballot-demand-meritless-wsj-wins-dismissal-of-suit",
+   "date": "2026-11-01T00:35:59.000Z",
+   "summary": "Source: Bloomberg, 5:29",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/10/31/us/chilis-margarita-chemical-burns-forest-city.html",
+   "feed": "nytimes-business",
+   "title": "Chili’s Margaritas Rimmed With Degreaser Burn 5 People in North Carolina",
+   "link": "https://www.nytimes.com/2026/10/31/us/chilis-margarita-chemical-burns-forest-city.html",
+   "date": "2026-11-01T00:08:24.000Z",
+   "summary": "Three customers and two employees were burned on and around their mouths after a granulated substance was mistaken for sugar, a health official said.",
+   "image": "https://static01.nyt.com/images/2026/10/31/multimedia/31xp-drinks/31xp-drinks-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004022969",
+   "feed": "wsj-business",
+   "title": "We’re Living in the Age of the Imperial CEO",
+   "link": "https://www.wsj.com/tech/ai/anthropic-ipo-dual-class-stock-founder-control-4c43a56d?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-01T00:00:00.000Z",
+   "summary": "Anthropic joins other hot tech companies in going public with a share structure that keeps founders in control.",
+   "image": "https://images.wsj.net/im-06559516"
+  },
+  {
+   "id": "bloomberg-business:TNSOO7O2LL3500",
+   "feed": "bloomberg-business",
+   "title": "Alaska Says Trump Demand Meritless, Trump’s WSJ Suit Dismissed",
+   "link": "https://www.bloomberg.com/news/audio/2026-10-31/alaska-says-trump-demand-meritless-trump-s-wsj-suit-dismissed",
+   "date": "2026-10-31T23:16:55.000Z",
+   "summary": "Source: Bloomberg, 6:39",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/10/30/business/binance-hack-crypto-price-what.html",
+   "feed": "nytimes-business",
+   "title": "Binance Lost Over $6 Billion in Crypto Hack. Here’s What to Know.",
+   "link": "https://www.nytimes.com/2026/10/30/business/binance-hack-crypto-price-what.html",
+   "date": "2026-10-31T22:25:51.000Z",
+   "summary": "Hackers made off with around $6 billion in digital currency in what could be the biggest crypto heist in history. Binance said it will cover the losses.",
+   "image": "https://static01.nyt.com/images/2026/10/30/multimedia/30xp-binance-wtk-vzbg/30xp-binance-wtk-vzbg-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/10/31/technology/binance-hack-crypto-north-korea.html",
+   "feed": "nytimes-business",
+   "title": "How Binance’s $6.3 Billion Hack Went Down",
+   "link": "https://www.nytimes.com/2026/10/31/technology/binance-hack-crypto-north-korea.html",
+   "date": "2026-10-31T22:19:49.000Z",
+   "summary": "A war room. A global conference call. A founder who live-posted about the largest crypto heist in history. Inside a frantic 24 hours at the world’s biggest crypto exchange.",
+   "image": "https://static01.nyt.com/images/2026/11/01/business/00biz-binance-ticktock/00biz-binance-ticktock-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "bloomberg-business:TNSLMMV84D8G00",
+   "feed": "bloomberg-business",
+   "title": "Alaska Says Ballot Demand Meritless, Trump’s WSJ Suit Dismissed",
+   "link": "https://www.bloomberg.com/news/audio/2026-10-31/alaska-says-ballot-demand-meritless-trump-s-wsj-suit-dismissed",
+   "date": "2026-10-31T22:11:10.000Z",
+   "summary": "Source: Bloomberg, 6:21",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/10/31/business/media/trump-wsj-defamation-suit-10-billion.html",
+   "feed": "nytimes-business",
+   "title": "Judge Tosses Trump’s $10 Billion Suit Against The Wall Street Journal",
+   "link": "https://www.nytimes.com/2026/10/31/business/media/trump-wsj-defamation-suit-10-billion.html",
+   "date": "2026-10-31T21:01:29.000Z",
+   "summary": "The defamation suit focused on an article about a birthday note to Jeffrey Epstein. It was the president’s second attempt to claim the publication had acted with actual malice.",
+   "image": "https://static01.nyt.com/images/2026/08/12/multimedia/00hfo-wsj-defamation-1-zklh/00hfo-wsj-defamation-1-zklh-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "bloomberg-business:TNSI0PXVHD6O00",
+   "feed": "bloomberg-business",
+   "title": "Weekend Law: Comey, ICE Shooting & Copycat Drugs (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-10-31/weekend-law-comey-ice-shooting-copycat-drugs-podcast",
+   "date": "2026-10-31T20:53:13.000Z",
+   "summary": "Source: Bloomberg, 37:35",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TNSHM2O32FWG00",
+   "feed": "bloomberg-business",
+   "title": "Alaska Calls Trump Demand Meritless, Trump’s WSJ Suit Dismissed",
+   "link": "https://www.bloomberg.com/news/audio/2026-10-31/alaska-calls-trump-demand-meritless-trump-s-wsj-suit-dismissed",
+   "date": "2026-10-31T20:44:26.000Z",
+   "summary": "Source: Bloomberg, 6:39",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TNSDKMV84D8G00",
+   "feed": "bloomberg-business",
+   "title": "Iran Threatens Retaliation, GOP Scrambles Ahead of Midterms,More",
+   "link": "https://www.bloomberg.com/news/audio/2026-10-31/iran-threatens-retaliation-gop-scrambles-ahead-of-midterms-more",
+   "date": "2026-10-31T19:17:10.000Z",
+   "summary": "Source: Bloomberg, 5:30",
+   "image": ""
+  },
+  {
    "id": "wsj-business:WP-WSJ-0004023034",
    "feed": "wsj-business",
    "title": "Is Dollar General Charging Too Much?",
@@ -128,15 +245,6 @@
    "date": "2026-10-31T18:00:00.000Z",
    "summary": "Federal and state regulators are suing the discount retailer after customers complained that prices rung up at the register were higher than prices marked on shelves.",
    "image": "https://images.wsj.net/im-13648200"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/10/31/technology/binance-hack-crypto-north-korea.html",
-   "feed": "nytimes-business",
-   "title": "How Binance’s $6.3 Billion Hack Went Down",
-   "link": "https://www.nytimes.com/2026/10/31/technology/binance-hack-crypto-north-korea.html",
-   "date": "2026-10-31T17:51:04.000Z",
-   "summary": "A war room. A global conference call. A founder who live-posted about the largest crypto heist in history. Inside a frantic 24 hours at the world’s biggest crypto exchange.",
-   "image": "https://static01.nyt.com/images/2026/11/01/business/00biz-binance-ticktock/00biz-binance-ticktock-mediumSquareAt3X.jpg"
   },
   {
    "id": "humantransit:https://humantransit.org/?p=33785",
@@ -258,7 +366,7 @@
   {
    "id": "planetizen:138770 at https://www.planetizen.com",
    "feed": "planetizen",
-   "title": "Satanic Place Names",
+   "title": "Satanic place names",
    "link": "https://www.planetizen.com/news/2026/10/138770-satanic-place-names",
    "date": "2026-10-31T12:00:00.000Z",
    "summary": "Sarah Alexande… Sat, 10/31/2026 - 05:00 Primary Image Primary Image Caption Swamps tend to have a bad reputation in pop culture references about the American South. Tropes include characteristics like dense fog, diseases, serpents, slime, and Spanish moss. This story was originally published in the Daily Yonder. For…",
@@ -337,15 +445,6 @@
    "image": ""
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/10/30/business/malaysia-data-center-china.html",
-   "feed": "nytimes-business",
-   "title": "How One Country Became the Unlikely Crossroads of the Global A.I. Boom",
-   "link": "https://www.nytimes.com/2026/10/30/business/malaysia-data-center-china.html",
-   "date": "2026-10-31T05:24:45.000Z",
-   "summary": "In Malaysia, U.S. and Chinese tech giants are pouring billions into vast data centers, straining local resources and testing the limits of Washington’s restrictions on advanced chips.",
-   "image": "https://static01.nyt.com/images/2026/10/30/multimedia/Biz-Malaysia-Video-Still-bvqt/Biz-Malaysia-Video-Still-bvqt-mediumSquareAt3X.jpg"
-  },
-  {
    "id": "morning-brew:https://www.morningbrew.com/stories/tech-sell-off-has-nasdaq-100-correction",
    "feed": "morning-brew",
    "title": "Massive tech sell-off has Nasdaq 100 entering another correction",
@@ -371,33 +470,6 @@
    "date": "2026-10-31T04:01:00.000Z",
    "summary": "Illustration: Morning Brew Inc., Photo: Adobe Stock The biggest crypto theft in history happened faster than the average American’s commute. Hackers stole most of their $6.3 billion haul from Binance in roughly 20 minutes yesterday, leaving the world’s largest digital coin exchange scrambling to cover losses. No…",
    "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-10-30/image-9a53961e7cff7c1cf44e217ace3038ea1c4c7cb4-1500x1000-jpg/MBD_BinanceHack_SM_103026.jpg"
-  },
-  {
-   "id": "bloomberg-business:TNR5VPUT4Z5S00",
-   "feed": "bloomberg-business",
-   "title": "Steep Stock Losses on Tech Rout, Binance Hack, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-31/steep-stock-losses-on-tech-rout-binance-hack-more",
-   "date": "2026-10-31T03:33:25.000Z",
-   "summary": "Source: Bloomberg, 5:53",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TNR0PQT96OSH00",
-   "feed": "bloomberg-business",
-   "title": "Judge Orders DOJ to Not Threaten California Election Officials",
-   "link": "https://www.bloomberg.com/news/articles/2026-10-31/us-district-judge-trina-thompson-california-election-san-francisco-labor-civil-rights-groups-doj-dhs",
-   "date": "2026-10-31T02:55:50.000Z",
-   "summary": "A federal judge ordered the Trump administration to not threaten California election officials with criminal prosecution over the handling of election ballots cast by people swept up in a crackdown on alleged noncitizen voting.",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TNR3THWWD62O00",
-   "feed": "bloomberg-business",
-   "title": "Stocks Worse Day Since June, US to Sell Missiles to Ukraine,More",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-31/stocks-worse-day-since-june-us-to-sell-missiles-to-ukraine-more",
-   "date": "2026-10-31T02:48:53.000Z",
-   "summary": "Source: Bloomberg, 6:08",
-   "image": ""
   },
   {
    "id": "cascadepbs:6ae553361eb00a000173ac09",
@@ -445,15 +517,6 @@
    "image": "https://www.cascadepbs.org/content/images/2026/10/87ebbdf1-9bf7-4563-a500-7f099677eea5.jpg"
   },
   {
-   "id": "bloomberg-business:TNR1Y2UT4Z5S00",
-   "feed": "bloomberg-business",
-   "title": "Stocks Drop on Tech Rout, US to Sell Missiles to Ukraine, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-31/stocks-drop-on-tech-rout-us-to-sell-missiles-to-ukraine-more-mvvri37j",
-   "date": "2026-10-31T02:08:26.000Z",
-   "summary": "Source: Bloomberg, 6:15",
-   "image": ""
-  },
-  {
    "id": "cascadepbs:6ae5533e1eb00a000173ac31",
    "feed": "cascadepbs",
    "title": "Rahm Emanuel on what Democrats should do after midterms",
@@ -481,15 +544,6 @@
    "image": "https://images.wsj.net/im-85507153"
   },
   {
-   "id": "bloomberg-business:TNQZ42WWD62O00",
-   "feed": "bloomberg-business",
-   "title": "Stocks Worse Day Since June, US to Sell Missiles to Ukraine",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-31/stocks-worse-day-since-june-us-to-sell-missiles-to-ukraine",
-   "date": "2026-10-31T01:07:14.000Z",
-   "summary": "Source: Bloomberg, 5:29",
-   "image": ""
-  },
-  {
    "id": "cascadepbs:6ae54c041eb00a000173aaa0",
    "feed": "cascadepbs",
    "title": "Trump's fraud claims and the fight over election rules",
@@ -497,15 +551,6 @@
    "date": "2026-10-31T01:00:22.000Z",
    "summary": "Key midterm races are still razor-tight and controversy is swirling in Alaska of all places. The panel discusses election ethics and President Trump's claims of fraud.",
    "image": "https://www.cascadepbs.org/content/images/2026/10/4269dcff-5992-435c-8388-c116bcb0e04d.jpg"
-  },
-  {
-   "id": "bloomberg-business:TNQYS2VTTCZY00",
-   "feed": "bloomberg-business",
-   "title": "Indonesia’s Gas Cut Puts Singapore’s Energy Security in Focus",
-   "link": "https://www.bloomberg.com/news/newsletters/2026-10-31/indonesia-s-gas-cut-puts-singapore-s-energy-security-in-focus",
-   "date": "2026-10-31T01:00:02.000Z",
-   "summary": "With no homegrown supply, the city-state is widening its options as regional demand rises and output falls.",
-   "image": ""
   },
   {
    "id": "cascadepbs:6ae54c551eb00a000173aac9",
@@ -526,24 +571,6 @@
    "image": "https://www.cascadepbs.org/content/images/2026/10/31281775-734f-477d-90e7-5c6d9231b720.jpg"
   },
   {
-   "id": "bloomberg-business:TNQWGBUT4Z5S00",
-   "feed": "bloomberg-business",
-   "title": "Stocks Drop on Tech Rout, US to Sell Missiles to Ukraine, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-31/stocks-drop-on-tech-rout-us-to-sell-missiles-to-ukraine-more",
-   "date": "2026-10-31T00:09:47.000Z",
-   "summary": "Source: Bloomberg, 6:13",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TNQW0CKIUPS600",
-   "feed": "bloomberg-business",
-   "title": "Hong Kong Restaurant Review: YuSang Brings Style to Korean Comfort Food",
-   "link": "https://www.bloomberg.com/news/articles/2026-10-31/hong-kong-restaurant-review-yusang-brings-style-to-korean-comfort-food",
-   "date": "2026-10-31T00:00:12.000Z",
-   "summary": "The galbijjim rivals holiday home cooking.",
-   "image": ""
-  },
-  {
    "id": "nytimes-business:https://www.nytimes.com/2026/10/30/business/obamacare-health-insurance-rates.html",
    "feed": "nytimes-business",
    "title": "Obamacare Policies Hit Again With Steep Premium Increases for 2027",
@@ -551,15 +578,6 @@
    "date": "2026-10-30T23:42:10.000Z",
    "summary": "Premiums will increase an average 13 percent next year for millions of Americans, on top of an earlier steep increase. It adds to the problems facing the program, which the Trump administration has weakened.",
    "image": "https://static01.nyt.com/images/2026/10/27/multimedia/00biz-obamacare--mlbk/00biz-obamacare--mlbk-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "bloomberg-business:TNQTSUO32FWG00",
-   "feed": "bloomberg-business",
-   "title": "Stocks Worse Day Since June, US to Sell Missiles to Ukraine,More",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-30/stocks-worse-day-since-june-us-to-sell-missiles-to-ukraine-more",
-   "date": "2026-10-30T23:12:30.000Z",
-   "summary": "Source: Bloomberg, 5:27",
-   "image": ""
   },
   {
    "id": "cascadepbs:6ae5308c1eb00a000173a8ea",
@@ -596,15 +614,6 @@
    "date": "2026-10-30T22:45:26.000Z",
    "summary": "Fmr Secretary of State John Kerry discusses the potential for U.S.-Israeli attacks on Iran after the midterms and whether a diplomatic solution can be reached before they happen. Emily St. John Mandel shared her dystopian visions for the future of the United States in her new novel \"Exit Party.\" New Yorker writer…",
    "image": "https://www.cascadepbs.org/content/images/2026/10/070637a6-28e5-4c68-8b03-01b1030a286e.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/10/30/business/binance-hack-crypto-price-what.html",
-   "feed": "nytimes-business",
-   "title": "Binance Lost Over $6 Billion in Crypto Hack. Here’s What to Know.",
-   "link": "https://www.nytimes.com/2026/10/30/business/binance-hack-crypto-price-what.html",
-   "date": "2026-10-30T21:48:01.000Z",
-   "summary": "Hackers made off with around $6 billion in digital currency in what could be the biggest crypto heist in history. Binance said it will cover the losses.",
-   "image": "https://static01.nyt.com/images/2026/10/30/multimedia/30xp-binance-wtk-vzbg/30xp-binance-wtk-vzbg-mediumSquareAt3X.jpg"
   },
   {
    "id": "wsj-business:WP-WSJ-0004022241",
@@ -751,15 +760,6 @@
    "image": "https://img.semafor.com/90d9381c7a3b7e21e1edc15d1ece18705d059d41-3654x2436.jpg"
   },
   {
-   "id": "wsj-business:WP-WSJ-0004012316",
-   "feed": "wsj-business",
-   "title": "What Does the Weil Gotshal Implosion Mean for the Law-Firm Industry?",
-   "link": "https://www.wsj.com/business/how-weil-gotshal-one-of-wall-streets-most-storied-law-firms-ended-up-in-chaos-d98ad13d?mod=pls_whats_news_us_business_f",
-   "date": "2026-10-30T17:23:00.000Z",
-   "summary": "Leaders of the once-storied law firm confirmed plans to dissolve the partnership.",
-   "image": "https://images.wsj.net/im-72735051"
-  },
-  {
    "id": "semafor:https://www.semafor.com/article/10/30/2026/the-ai-boom-spawns-job-market-for-data-center-liaisons",
    "feed": "semafor",
    "title": "The AI boom spawns job market for data-center liaisons",
@@ -852,11 +852,20 @@
   {
    "id": "smartcities:https://www.smartcitiesdive.com/news/2028-olympics-shaping-downtown-revitalization-st-louis/873312/",
    "feed": "smartcities",
-   "title": "How the 2028 Olympics are shaping downtown revitalization — in St. Louis",
+   "title": "How the 2028 Olympics is shaping downtown revitalization — in St. Louis",
    "link": "https://www.smartcitiesdive.com/news/2028-olympics-shaping-downtown-revitalization-st-louis/873312/",
    "date": "2026-10-30T14:31:58.000Z",
    "summary": "The city is making the urban core a priority, betting on office-to-residential conversions, innovation zones and private-sector partnerships to tackle vacancies and blight and improve public safety.",
    "image": "https://imgproxy.divecdn.com/J0pIAVqviDvlCa4JoNYERBFW0T1gzoAV8-2RILNQqgc/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjk2MDA0MTU0LmpwZw==.webp"
+  },
+  {
+   "id": "smartcities:https://www.smartcitiesdive.com/news/road-to-housing-act-provisions-cities-tracker-nlc/873307/",
+   "feed": "smartcities",
+   "title": "ROAD to Housing Act has 35 key provisions for cities, NLC says. Here’s how to track them.",
+   "link": "https://www.smartcitiesdive.com/news/road-to-housing-act-provisions-cities-tracker-nlc/873307/",
+   "date": "2026-10-30T14:26:01.000Z",
+   "summary": "The landmark housing legislation has more than 120 implementation actions, most of them the responsibility of the U.S. Department of Housing and Urban Development.",
+   "image": "https://imgproxy.divecdn.com/UCUDRk4oslIBpGtDLMjeB6bsi-JsVT0SGW-taOCBR7I/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy00ODIzNjExNThfQXptVDNSZy5qcGc=.webp"
   },
   {
    "id": "semafor:https://www.semafor.com/article/10/30/2026/republicans-ask-fec-to-investigate-peltola-campaign-over-spoiler-candidate",
@@ -877,15 +886,6 @@
    "image": "https://images.wsj.net/im-72829850"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/10/30/business/mosquito-laser-ai.html",
-   "feed": "nytimes-business",
-   "title": "A Powerful Mosquito-Hunting Laser Uses A.I. to Zap Winged Pests",
-   "link": "https://www.nytimes.com/2026/10/30/business/mosquito-laser-ai.html",
-   "date": "2026-10-30T14:14:36.000Z",
-   "summary": "Using sensors developed for self-driving cars, a Chinese start-up claims it can track and destroy tiny flying targets while avoiding people, pets and reflective surfaces.",
-   "image": "https://static01.nyt.com/images/2026/10/19/arts/rv-ai-mosquitos-final-v3/rv-ai-mosquitos-final-v3-mediumSquareAt3X.jpg"
-  },
-  {
    "id": "planetizen:138762 at https://www.planetizen.com",
    "feed": "planetizen",
    "title": "Want to study the Missouri River? Soon, you may need unanimous approval from 10 states",
@@ -893,6 +893,15 @@
    "date": "2026-10-30T14:00:00.000Z",
    "summary": "A bridge stretches across the Missouri River at Chamberlain, South Dakota, on Sept. 29, 2026. | Makenzie Huber/South Dakota Searchlight This story was originally published by South Dakota Searchlight, which provides free news and commentary on critical issues facing the state. Downstream Missouri River states have…",
    "image": "https://www.planetizen.com/files/styles/large/public/images/591A9584-scaled.jpg.webp?itok=nkUpsg-K"
+  },
+  {
+   "id": "smartcities:https://www.smartcitiesdive.com/news/federal-election-interference-cities-counties-prepare/873290/",
+   "feed": "smartcities",
+   "title": "With concerns about federal election interference, cities and counties prepare to protect their authority",
+   "link": "https://www.smartcitiesdive.com/news/federal-election-interference-cities-counties-prepare/873290/",
+   "date": "2026-10-30T13:36:18.000Z",
+   "summary": "Local officials are training poll workers, coordinating with civil rights groups and preparing legal strategies as concerns extend beyond Election Day to ballot counting and certification.",
+   "image": "https://imgproxy.divecdn.com/xQBkOBx6wEaCdopMXAHd0AMx0_X03wlzTGOPtDF9dG0/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjkyNDY1MDU4LmpwZw==.webp"
   },
   {
    "id": "semafor:https://www.semafor.com/article/10/30/2026/africas-ai-bet-is-on-building-not-catching-up",
@@ -1183,15 +1192,6 @@
    "image": "https://static01.nyt.com/images/2026/10/30/multimedia/30dc-trump-econ-01-qwmg/30dc-trump-econ-01-qwmg-mediumSquareAt3X.jpg"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/10/30/arts/design/late-night-museums-young-people.html",
-   "feed": "nytimes-business",
-   "title": "What’s New at the Museum? Stargazing, Escape Rooms, Bachelorette Parties and More",
-   "link": "https://www.nytimes.com/2026/10/30/arts/design/late-night-museums-young-people.html",
-   "date": "2026-10-30T09:00:43.000Z",
-   "summary": "Museums are pitching themselves as date-night destinations — and finding a generation of takers.",
-   "image": ""
-  },
-  {
    "id": "semafor:https://www.semafor.com/article/10/30/2026/new-sanctions-show-limits-of-trump-influence-over-congo-conflict",
    "feed": "semafor",
    "title": "New sanctions show limits of Trump influence over Congo conflict",
@@ -1208,15 +1208,6 @@
    "date": "2026-10-30T08:50:02.000Z",
    "summary": "The CEO Signal Any interference in next week’s US midterm elections should be a “red line” that prompts business leaders to rally behind American democratic norms, Ken Chenault is warning his peers. But the influential chairman of venture capital firm General Catalyst worries that some leaders have lost sight of…",
    "image": "https://img.semafor.com/eefd94c75ea52089e7c45956771a3e6558beed2e-3200x2400.png"
-  },
-  {
-   "id": "bloomberg-business:TNPGFMKIUPS300",
-   "feed": "bloomberg-business",
-   "title": "How Jio Transformed India's Mobile Internet Economy, One Cheap Byte at a Time",
-   "link": "https://www.bloomberg.com/news/features/2026-10-30/how-jio-transformed-india-s-mobile-internet-economy-one-cheap-byte-at-a-time",
-   "date": "2026-10-30T05:26:10.000Z",
-   "summary": "Ambani’s push into mobile services helped bring the internet to the masses",
-   "image": ""
   },
   {
    "id": "morning-brew:https://www.morningbrew.com/stories/the-rise-of-indie-horror-bookstores",
@@ -1588,24 +1579,6 @@
    "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/Seattle-Parks-public-swim-shot-2.28.17-1280p.jpg"
   },
   {
-   "id": "smartcities:https://www.smartcitiesdive.com/news/php-vulnerabilities-identified-cities-cybersecurity/872865/",
-   "feed": "smartcities",
-   "title": "Facing critical PHP website vulnerabilities, cities urged to shore up systems",
-   "link": "https://www.smartcitiesdive.com/news/php-vulnerabilities-identified-cities-cybersecurity/872865/",
-   "date": "2026-10-27T14:15:44.000Z",
-   "summary": "The threat to large and medium-sized local governments is categorized as high, and smaller local governments face a medium-level threat, the Multi-State Information Sharing and Analysis Center said.",
-   "image": "https://imgproxy.divecdn.com/p1t777lvRYTMuNm-9ZruuRPB3bo1Gk03gNobbnqCDZc/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9DSVNBX2hlYWRlci5qcGc=.webp"
-  },
-  {
-   "id": "smartcities:https://www.smartcitiesdive.com/news/heat-pumps-still-expensive-cities-can-help-elephant-energy/872853/",
-   "feed": "smartcities",
-   "title": "Heat pumps are still expensive. Cities can help.",
-   "link": "https://www.smartcitiesdive.com/news/heat-pumps-still-expensive-cities-can-help-elephant-energy/872853/",
-   "date": "2026-10-27T13:28:54.000Z",
-   "summary": "Cities can use collective purchasing, streamlined permitting and targeted assistance to give residents access to efficient heating and cooling, Elephant Energy’s CEO writes.",
-   "image": "https://imgproxy.divecdn.com/PA5lzO4xLLPfFYJs7ZSuTr-2yBH2dNvypbWZn8-HVzU/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMDg0MTE0MDc4LmpwZw==.webp"
-  },
-  {
    "id": "stb:https://seattletransitblog.com/?p=149941",
    "feed": "stb",
    "title": "How the Federal Way Link Extension Impacted Bus Ridership Patterns",
@@ -1701,7 +1674,7 @@
    "title": "The rise of ‘darecations,’ aka travel not for the weak",
    "link": "https://www.morningbrew.com/stories/the-rise-of-darecations-aka-travel-not-for-the-weak?utm_source=&utm_medium=syndication&utm_campaign=feed",
    "date": "2026-10-25T06:01:00.000Z",
-   "summary": "UTMB Some vacation activities are even more taxing on your jetlagged body than a sangria-fueled bar crawl in scorching heat. Nightmare vacation buddies Adventurous travelers are increasingly embarking on so-called “darecations,” which entail hyper-intense physical challenges in faraway destinations. That might…",
+   "summary": "UTMB Some vacation activities are even more taxing on your jet-lagged body than a sangria-fueled bar crawl in scorching heat. Nightmare vacation buddies Adventurous travelers are increasingly embarking on “darecations,” which entail hyper-intense physical challenges in faraway destinations. That might involve running…",
    "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-10-29/image-6576ab59506ec7faa499857c7ce67190cd6802c9-3600x2400-jpg/MBD-SundaySpecial-EnduranceBrew-Darecations-1026.JPG"
   },
   {
