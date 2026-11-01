@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T05:44:57.681Z",
+ "updated": "2026-11-01T19:26:51.899Z",
  "feeds": [
   {
    "id": "planetizen",
@@ -98,7 +98,7 @@
    "color": "#1f1f1f",
    "topic": "Business & finance",
    "ok": true,
-   "count": 17
+   "count": 15
   },
   {
    "id": "morning-brew",
@@ -121,13 +121,229 @@
  ],
  "items": [
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/10/30/arts/design/late-night-museums-young-people.html",
-   "feed": "nytimes-business",
-   "title": "What’s New at the Museum? Stargazing, Escape Rooms, Bachelorette Parties and More",
-   "link": "https://www.nytimes.com/2026/10/30/arts/design/late-night-museums-young-people.html",
-   "date": "2026-11-01T05:25:35.000Z",
-   "summary": "Museums are pitching themselves as date-night destinations — and finding a generation of takers.",
+   "id": "urbanist:6ae78553833d4b0001acf623",
+   "feed": "urbanist",
+   "title": "Sunday Video: How Does Philadelphia Even Exist",
+   "link": "https://www.theurbanist.org/sunday-video-how-does-philadelphia-even-exist/",
+   "date": "2026-11-01T19:26:27.000Z",
+   "summary": "Shortly after his visit to Seattle (where he attending a talk co-hosted by with The Urbanist), Ray Delahanty headed to the East Coast and did a similar event in Philadelphia. Ray had a lot to say about Philly's walkability and other positive aspects that often fly under the radar, sandwiched as the city is between…",
+   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/11/CityNerd-Philadelphia-city-hall-2026-11-01.jpg"
+  },
+  {
+   "id": "bloomberg-business:TNU72CWWD62O00",
+   "feed": "bloomberg-business",
+   "title": "Trump: I'll Be ‘Mr. Veto’ if Dems Win, Haley Backs Rogers, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-01/trump-i-ll-be-mr-veto-if-dems-win-haley-backs-rogers-more",
+   "date": "2026-11-01T18:51:49.000Z",
+   "summary": "Source: Bloomberg, 0:00",
    "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/01/business/binance-hack-crypto-north-korea.html",
+   "feed": "nytimes-business",
+   "title": "Binance Reports $3.64 Billion in Outflows as It Resumes Normal Transactions",
+   "link": "https://www.nytimes.com/2026/11/01/business/binance-hack-crypto-north-korea.html",
+   "date": "2026-11-01T18:28:24.000Z",
+   "summary": "The cryptocurrency exchange saw an immediate uptick in customer withdrawals, following the theft of $6.3 billion in tokens that has been linked to North Korea.",
+   "image": "https://static01.nyt.com/images/2026/11/01/multimedia/01biz-binance/01biz-binance-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "planetizen:138777 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "Chicago Avenue bridge construction delays enrages city leaders",
+   "link": "https://www.planetizen.com/news/2026/11/138777-chicago-avenue-bridge-construction-delays-enrages-city-leaders",
+   "date": "2026-11-01T18:00:00.000Z",
+   "summary": "The work on the Chicago Avenue bridge includes replacing the temporary bridge with a permanent one, creating a new riverwalk and replacing the Halsted Street viaduct. The Chicago Avenue bridge has been closed since 2025 — and it won’t reopen anytime soon. The city expects construction on the bridge, which it…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2602756025.jpg.webp?itok=sKoEKujl"
+  },
+  {
+   "id": "bloomberg-business:TNU43VO32FWG00",
+   "feed": "bloomberg-business",
+   "title": "Trump Banks on Rallies to Turn Out MAGA at Midterms, Iran Threat",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-01/trump-banks-on-rallies-to-turn-out-maga-at-midterms-iran-threat",
+   "date": "2026-11-01T17:47:55.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TNU2AMO32FWG00",
+   "feed": "bloomberg-business",
+   "title": "Bloomberg This Weekend: Midterm Preview; NYC Marathon (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-01/bloomberg-this-weekend-midterm-preview-nyc-marathon-podcast",
+   "date": "2026-11-01T17:08:46.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "planetizen:138775 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "NYC bus network redesign speeds up Queens buses",
+   "link": "https://www.planetizen.com/news/2026/11/138775-nyc-bus-network-redesign-speeds-queens-buses",
+   "date": "2026-11-01T17:00:00.000Z",
+   "summary": "A bus network redesign was particularly important for Queens residents, as the MTA says they are more likely to have limited access to subway and rail. Since the Metropolitan Transportation Authority implemented the Queens Bus Network Redesign , Queens buses have been operating faster and more reliably. Route…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2041353335.jpg.webp?itok=fOHJjhf8"
+  },
+  {
+   "id": "planetizen:138774 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "California High-Speed Rail Authority picks trainset manufacturer",
+   "link": "https://www.planetizen.com/news/2026/11/138774-california-high-speed-rail-authority-picks-trainset-manufacturer",
+   "date": "2026-11-01T16:00:00.000Z",
+   "summary": "The CHSRA Board also approved the environmental document for the 30-mile stretch of the network that will connect Anaheim to Los Angeles. The California High-Speed Rail Authority has chosen who will manufacture its trainsets. The authority approved a contract with Siemens Mobility to design, build and maintain three…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/california-high-speed-rail-fresno.webp?itok=dcaIg91G"
+  },
+  {
+   "id": "bloomberg-business:TNTXUNV84D8G00",
+   "feed": "bloomberg-business",
+   "title": "Trump: No Rush to End Iran War, Hormuz Security Threats, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-01/trump-no-rush-to-end-iran-war-hormuz-security-threats-more",
+   "date": "2026-11-01T15:32:47.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TNTXPUV84D8G00",
+   "feed": "bloomberg-business",
+   "title": "Trump: 'No Hurry' to End Iran War, Hormuz Security Threats, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-01/trump-no-hurry-to-end-iran-war-hormuz-security-threats-more",
+   "date": "2026-11-01T15:29:54.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/01/business/media/advertising-paxton-talarico-texas-television.html",
+   "feed": "nytimes-business",
+   "title": "As Political Ad Spending Skyrockets, Broadcast TV Remains King",
+   "link": "https://www.nytimes.com/2026/11/01/business/media/advertising-paxton-talarico-texas-television.html",
+   "date": "2026-11-01T15:04:46.000Z",
+   "summary": "Even though marketers have increasingly shifted their dollars to other media, local stations are reaping a bonanza during these midterm elections. Nowhere is this is more evident than in Texas.",
+   "image": "https://static01.nyt.com/images/2026/10/23/multimedia/TEXAS-ADS-1-01-wlzk/TEXAS-ADS-1-01-wlzk-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "planetizen:138778 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "LA may place emergency ban on karaoke room permits",
+   "link": "https://www.planetizen.com/news/2026/11/138778-la-may-place-emergency-ban-karaoke-room-permits",
+   "date": "2026-11-01T15:00:00.000Z",
+   "summary": "Councilwoman Heather Hutt’s proposal would also direct $75,000 to local police to enforce permit rules at existing karaoke establishments. L.A.’s Koreatown neighborhood may have to cut the music. Councilwoman Heather Hutt, who represents Koreatown and surrounding neighborhoods, called for an emergency ban on new…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_396493705.jpg.webp?itok=UBqSpu12"
+  },
+  {
+   "id": "bloomberg-business:TNTTXUV84D8G00",
+   "feed": "bloomberg-business",
+   "title": "Trump: 'No Hurry' to End Iran War, OPEC+ Holds Output Steady",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-01/trump-no-hurry-to-end-iran-war-opec-holds-output-steady",
+   "date": "2026-11-01T14:08:18.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "planetizen:138772 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "City officials are dumping billions of gallons of sewage into the Chicago River",
+   "link": "https://www.planetizen.com/news/2026/11/138772-city-officials-are-dumping-billions-gallons-sewage-chicago-river",
+   "date": "2026-11-01T14:00:00.000Z",
+   "summary": "Chicago has spent billions in taxpayer money to try to rectify the problem, to no avail. Chicago residents have grown used to enduring putrid smells wafting up from Bubbly Creek after heavy rain, emanating from the condoms, tampons and feces stuck in trees along the shore. The source of the pollution? The Racine…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/Bubbly_Creek_headwaters-Racine_Avenue_Pump_Station_JPG.jpg.webp?itok=apeyW_bC"
+  },
+  {
+   "id": "bloomberg-business:TNTRSWV84D8G00",
+   "feed": "bloomberg-business",
+   "title": "Merryn Talks Money: Can You Hide From an AI Bubble? (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-01/merryn-talks-money-can-you-hide-from-an-ai-bubble-podcast",
+   "date": "2026-11-01T13:22:08.000Z",
+   "summary": "Source: Bloomberg, 36:48",
+   "image": ""
+  },
+  {
+   "id": "planetizen:138771 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "Move over, LA: St. Louis gears up for Olympics, invests millions in downtown redevelopment",
+   "link": "https://www.planetizen.com/news/2026/11/138771-move-over-la-st-louis-gears-olympics-invests-millions-downtown-redevelopment",
+   "date": "2026-11-01T13:00:00.000Z",
+   "summary": "St. Louis passed a bill in July that creates millions of dollars in tax incentives for downtown innovation zones. The upcoming Olympic and Paralympic Games have sparked massive investment in downtown redevelopment and revitalization — in St. Louis, Missouri. The city will host the 2028 Olympic soccer group stage and…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2709486271.jpg.webp?itok=-lcYrZRu"
+  },
+  {
+   "id": "bloomberg-business:TNTQG1V84D8G00",
+   "feed": "bloomberg-business",
+   "title": "Trump Says US in 'No Hurry' for Iran Deal, German Protests, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-01/trump-says-us-in-no-hurry-for-iran-deal-german-protests-more",
+   "date": "2026-11-01T12:52:49.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004024917",
+   "feed": "wsj-business",
+   "title": "OPEC, Allies Keep Output Steady While Gulf Shipping Remains Under Threat",
+   "link": "https://www.wsj.com/business/energy-oil/opec-allies-keep-output-steady-while-gulf-shipping-remains-under-threat-c1d14171?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-01T12:44:00.000Z",
+   "summary": "The group’s crude production levels are still below prewar levels, with key shipping routes disrupted.",
+   "image": "https://images.wsj.net/im-37554578"
+  },
+  {
+   "id": "bloomberg-business:TNTNLGXVHD6O00",
+   "feed": "bloomberg-business",
+   "title": "Trump: 'No Hurry' to End Iran War, Violent German Protests, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-01/trump-no-hurry-to-end-iran-war-violent-german-protests-more",
+   "date": "2026-11-01T11:51:16.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "stb:https://seattletransitblog.com/?p=150359",
+   "feed": "stb",
+   "title": "Sunday Movie: Good LRT",
+   "link": "https://seattletransitblog.com/2026/11/01/sunday-movie-good-lrt/",
+   "date": "2026-11-01T11:00:00.000Z",
+   "summary": "Kitchener-Waterloo light rail in Ontario, Canada is surprisingly high quality for North America (Not Just Bikes) NJB still finds something to rant about of course: some stations could be closer to destination entrances for disability access. Bonus movies: How to find Link at SeaTac airport . (SDOT) Why the West Coast…",
+   "image": ""
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0003999204",
+   "feed": "wsj-business",
+   "title": "The Fight Over Who Owns Porsche’s Legendary ‘Hippie’ Race Car",
+   "link": "https://www.wsj.com/lifestyle/cars/porsche-hippie-lemans-2a8448e1?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-01T11:00:00.000Z",
+   "summary": "An iconic race car once seemed lost to time. Now two owners think it’s theirs.",
+   "image": "https://images.wsj.net/im-84159860"
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004024196",
+   "feed": "wsj-business",
+   "title": "The Shopping Bots Are Coming for Amazon",
+   "link": "https://www.wsj.com/tech/the-shopping-bots-are-coming-for-amazon-701caa57?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-01T10:30:00.000Z",
+   "summary": "The biggest U.S. company by revenue has dominated e-commerce, but a potential rival is emerging.",
+   "image": "https://images.wsj.net/im-67257734"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/01/business/sinokor-oil-tankers-strait-hormuz-shipping-iran.html",
+   "feed": "nytimes-business",
+   "title": "How a Little-Known Company Dominated the Persian Gulf Oil Trade",
+   "link": "https://www.nytimes.com/2026/11/01/business/sinokor-oil-tankers-strait-hormuz-shipping-iran.html",
+   "date": "2026-11-01T10:02:30.000Z",
+   "summary": "South Korea’s Sinokor controls about half the tanker transits through the Strait of Hormuz, benefiting from a big bet just before the war in Iran started.",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/01/business/anthony-romero-aclu.html",
+   "feed": "nytimes-business",
+   "title": "ACLU’s Anthony Romero Says CEOs Are ‘Ducking the Hard Issues’",
+   "link": "https://www.nytimes.com/2026/11/01/business/anthony-romero-aclu.html",
+   "date": "2026-11-01T10:01:49.000Z",
+   "summary": "Anthony Romero has led the American Civil Liberties Union since 2001. He worries that Americans have fewer rights now.",
+   "image": "https://static01.nyt.com/images/2026/11/01/multimedia/01biz-corneroffice-ACLU-ztlj/01biz-corneroffice-ACLU-ztlj-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/01/technology/cyril-hilsum-dead.html",
+   "feed": "nytimes-business",
+   "title": "Cyril Hilsum, Who Helped Invent Flat-Panel Displays in TVs and iPhones, Has Died at 101",
+   "link": "https://www.nytimes.com/2026/11/01/technology/cyril-hilsum-dead.html",
+   "date": "2026-11-01T10:00:44.000Z",
+   "summary": "The man who helped develop the technology for liquid crystal displays — the screens in flat-panel televisions and laptops — has died at 101.",
+   "image": "https://static01.nyt.com/images/2026/10/31/obituaries/31obit-hilsum-family-03/31obit-hilsum-family-03-mediumSquareAt3X.jpg"
   },
   {
    "id": "bloomberg-business:TNSKQNKJH6V400",
@@ -229,15 +445,6 @@
    "image": ""
   },
   {
-   "id": "bloomberg-business:TNSDKMV84D8G00",
-   "feed": "bloomberg-business",
-   "title": "Iran Threatens Retaliation, GOP Scrambles Ahead of Midterms,More",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-31/iran-threatens-retaliation-gop-scrambles-ahead-of-midterms-more",
-   "date": "2026-10-31T19:17:10.000Z",
-   "summary": "Source: Bloomberg, 5:30",
-   "image": ""
-  },
-  {
    "id": "wsj-business:WP-WSJ-0004023034",
    "feed": "wsj-business",
    "title": "Is Dollar General Charging Too Much?",
@@ -256,15 +463,6 @@
    "image": "https://contracosta.news/wp-content/uploads/2026/02/bart-phase-2-station-closures.gif"
   },
   {
-   "id": "bloomberg-business:TNS7X2O2LL3D00",
-   "feed": "bloomberg-business",
-   "title": "Iran Threatens US Retaliation, Midterms, Russia at G20, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-31/iran-threatens-us-retaliation-midterms-russia-at-g20-more",
-   "date": "2026-10-31T17:15:02.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
    "id": "urbanist:6ae125605fc45a00019c44b3",
    "feed": "urbanist",
    "title": "Seattle Stations Lead the Way on Light Rail Ridership",
@@ -272,15 +470,6 @@
    "date": "2026-10-31T16:06:46.000Z",
    "summary": "The Eastside has yet to hit a high gear on ridership. Light rail ridership has been surging in the wake of the expansion of the 2 Line across Lake Washington on March 28 . The 1 Line now stretches from Federal Way to Lynnwood, with the 2 Line effectively doubling service from the Chinatown-International District to…",
    "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/U-District-Station-passengers-disembark-train--Trumm-PXL_20260609.jpg"
-  },
-  {
-   "id": "bloomberg-business:TNS4IYXVHD6O00",
-   "feed": "bloomberg-business",
-   "title": "Bloomberg This Weekend: Markets React; Midterm Outlook (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-31/bloomberg-this-weekend-markets-react-midterm-outlook-podcast",
-   "date": "2026-10-31T16:01:46.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
   },
   {
    "id": "wsj-business:WP-WSJ-0004024318",
@@ -296,7 +485,7 @@
    "feed": "nytimes-business",
    "title": "F.D.A. Warns of Tractor Wheels Snack Bar Linked to Choking Hazard",
    "link": "https://www.nytimes.com/2026/10/31/well/family/fda-tractor-wheels-choking-hazard.html",
-   "date": "2026-10-31T15:43:44.000Z",
+   "date": "2026-10-31T15:43:45.000Z",
    "summary": "Once Upon a Farm has recalled its Tractor Wheels soft-baked bars after reports that toddlers could not breathe while eating them.",
    "image": ""
   },
@@ -310,49 +499,13 @@
    "image": ""
   },
   {
-   "id": "bloomberg-business:TNS1ZDWWD62O00",
-   "feed": "bloomberg-business",
-   "title": "Iran Threatens Wider US Strikes, GOP Scrambles Ahead of Midterms",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-31/iran-threatens-wider-us-strikes-gop-scrambles-ahead-of-midterms",
-   "date": "2026-10-31T15:06:49.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TNS1O2KIP3IV00",
-   "feed": "bloomberg-business",
-   "title": "Weil Made Its Name Handling Bankruptcies From Enron to Lehman Brothers",
-   "link": "https://www.bloomberg.com/news/newsletters/2026-10-31/weil-made-its-name-handling-bankruptcies-from-enron-to-lehman-brothers",
-   "date": "2026-10-31T15:00:02.000Z",
-   "summary": "The firm became a powerhouse thanks in large part to its pioneering of complex Chapter 11 cases",
-   "image": ""
-  },
-  {
    "id": "nytimes-business:https://www.nytimes.com/2026/10/31/business/dealbook/legal-engineer-ai-law.html",
    "feed": "nytimes-business",
    "title": "The New Hot Job in Law Doesn’t Require a J.D.",
    "link": "https://www.nytimes.com/2026/10/31/business/dealbook/legal-engineer-ai-law.html",
-   "date": "2026-10-31T14:48:29.000Z",
+   "date": "2026-10-31T14:48:30.000Z",
    "summary": "Big law firms, legal tech vendors, and in-house legal departments at companies like Microsoft and Nvidia are all hiring legal engineers, a new position for lawyers with A.I. skills.",
    "image": "https://static01.nyt.com/images/2026/10/31/multimedia/31DB-legal-engineers-puri-gzhc/31DB-legal-engineers-puri-gzhc-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "bloomberg-business:TNS06EO32FWG00",
-   "feed": "bloomberg-business",
-   "title": "AP: Iran Strikes US Air Defenses, Bases in Mideast, US Midterms",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-31/ap-iran-strikes-us-air-defenses-bases-in-mideast-us-midterms",
-   "date": "2026-10-31T14:27:50.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TNRVNEWWD62O00",
-   "feed": "bloomberg-business",
-   "title": "Binance Hack Rattles Crypto, GOP Scrambles Ahead of Midterms",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-31/binance-hack-rattles-crypto-gop-scrambles-ahead-of-midterms",
-   "date": "2026-10-31T12:50:02.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
   },
   {
    "id": "wsj-business:WP-WSJ-0004021259",
@@ -362,33 +515,6 @@
    "date": "2026-10-31T12:47:00.000Z",
    "summary": "Investigators believed the woman, Alice Huang, was recruited based on her relationship with Jensen Huang.",
    "image": "https://images.wsj.net/im-99253309"
-  },
-  {
-   "id": "planetizen:138770 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "Satanic place names",
-   "link": "https://www.planetizen.com/news/2026/10/138770-satanic-place-names",
-   "date": "2026-10-31T12:00:00.000Z",
-   "summary": "Sarah Alexande… Sat, 10/31/2026 - 05:00 Primary Image Primary Image Caption Swamps tend to have a bad reputation in pop culture references about the American South. Tropes include characteristics like dense fog, diseases, serpents, slime, and Spanish moss. This story was originally published in the Daily Yonder. For…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2444835389.jpg.webp?itok=s8zxXcBl"
-  },
-  {
-   "id": "bloomberg-business:TNRSQZV84D8G00",
-   "feed": "bloomberg-business",
-   "title": "Trump, Clinton Rally Voters Ahead of Midterms, Binance Hack",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-31/trump-clinton-rally-voters-ahead-of-midterms-binance-hack",
-   "date": "2026-10-31T11:47:23.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TNRPNNXVHD6O00",
-   "feed": "bloomberg-business",
-   "title": "FBI Looking into Binance’s $6 Billion Heist, US Midterms, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-10-31/fbi-looking-into-binance-s-6-billion-heist-us-midterms-more",
-   "date": "2026-10-31T10:40:35.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
   },
   {
    "id": "wsj-business:WP-WSJ-0004015147",
@@ -422,27 +548,9 @@
    "feed": "nytimes-business",
    "title": "Why Did So Many People File Early for Social Security Last Year?",
    "link": "https://www.nytimes.com/2026/10/31/well/whats-behind-a-recent-spike-in-early-social-security-claims.html",
-   "date": "2026-10-31T09:01:51.000Z",
+   "date": "2026-10-31T09:01:52.000Z",
    "summary": "Experts point to well-publicized turmoil at the government agency last year as a potential spark.",
    "image": "https://static01.nyt.com/images/2026/11/03/well/31Well-NOA-Social-Security/31Well-NOA-Social-Security-mediumSquareAt3X-v4.jpg"
-  },
-  {
-   "id": "bloomberg-business:TN90GIN3N08Z00",
-   "feed": "bloomberg-business",
-   "title": "Houthi Attacks on Riyadh Airport Ramp Up Flight Cancellations",
-   "link": "https://www.bloomberg.com/news/articles/2026-10-31/houthi-attacks-on-riyadh-airport-ramp-up-flight-cancellations",
-   "date": "2026-10-31T09:00:00.000Z",
-   "summary": "What was already destined to be a bad year for Middle East airlines got even worse in October when missiles pummeled the Saudi capital’s airport, killing more than a dozen people and prompting authorities to suspend the hub’s operations.",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TMN2AAVTTCZK00",
-   "feed": "bloomberg-business",
-   "title": "Laughing Cow Maker Targets US Households With Bitesize Snacks",
-   "link": "https://www.bloomberg.com/news/articles/2026-10-31/laughing-cow-maker-targets-us-households-with-bitesize-snacks",
-   "date": "2026-10-31T09:00:00.000Z",
-   "summary": "French children eat the Laughing Cow as an after-school snack. In Britain, kids find the spreadable cheese in their lunchboxes. Now the 105-year-old brand wants to become a staple in American households.",
-   "image": ""
   },
   {
    "id": "morning-brew:https://www.morningbrew.com/stories/tech-sell-off-has-nasdaq-100-correction",
@@ -661,24 +769,6 @@
    "image": "https://static01.nyt.com/images/2026/10/30/business/30Biz-Cryptoconsumer/30Biz-Cryptoconsumer-mediumSquareAt3X.jpg"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/10/30/business/stock-market-october-ai.html",
-   "feed": "nytimes-business",
-   "title": "Tech Stocks See Worst Day Since June, Pressuring Broader Market",
-   "link": "https://www.nytimes.com/2026/10/30/business/stock-market-october-ai.html",
-   "date": "2026-10-30T20:40:47.000Z",
-   "summary": "The Nasdaq and the S&P 500 had their worst day since June as investors worried about spending on A.I. infrastructure.",
-   "image": "https://static01.nyt.com/images/2026/10/30/multimedia/2026-oct-biz-promos-stocks/2026-oct-biz-promos-stocks-mediumSquareAt3X-v9.png"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/10/30/business/midterms-stock-bond-markets.html",
-   "feed": "nytimes-business",
-   "title": "Why the Markets Don’t Care About the Midterms",
-   "link": "https://www.nytimes.com/2026/10/30/business/midterms-stock-bond-markets.html",
-   "date": "2026-10-30T20:36:05.000Z",
-   "summary": "Factors like inflation, interest rates, A.I. and the war with Iran are far more important, our columnist says.",
-   "image": ""
-  },
-  {
    "id": "nytimes-business:https://www.nytimes.com/2026/10/30/business/pslf-education-department-lawsuit.html",
    "feed": "nytimes-business",
    "title": "Lawsuit Accuses Education Dept. of Throttling Debt Cancellation Through PSLF Program",
@@ -787,15 +877,6 @@
    "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/Kirkland-Tour-Post-Photo.jpeg"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/10/30/business/electric-ferries-chargers.html",
-   "feed": "nytimes-business",
-   "title": "New York Bought an Electric Ferry. The City Can’t Charge It.",
-   "link": "https://www.nytimes.com/2026/10/30/business/electric-ferries-chargers.html",
-   "date": "2026-10-30T16:40:11.000Z",
-   "summary": "Locations across the country want to launch electric ferries to cut carbon emissions, but there are challenges to the rollout.",
-   "image": "https://static01.nyt.com/images/2026/10/26/multimedia/26biz-electric-ferry-bmqg/26biz-electric-ferry-bmqg-mediumSquareAt3X.jpg"
-  },
-  {
    "id": "wsj-business:WP-WSJ-0004022006",
    "feed": "wsj-business",
    "title": "Colgate-Palmolive Sales Rise Despite U.S. Consumer Challenges",
@@ -803,15 +884,6 @@
    "date": "2026-10-30T16:12:00.000Z",
    "summary": "The company logged higher sales in the latest quarter, as strength in international markets offset continued weakness in North America.",
    "image": "https://images.wsj.net/im-17699601"
-  },
-  {
-   "id": "planetizen:138765 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "California High-Speed Rail Authority CEO resigns after $600,000 scandal",
-   "link": "https://www.planetizen.com/news/2026/10/138765-california-high-speed-rail-authority-ceo-resigns-after-600000-scandal",
-   "date": "2026-10-30T16:00:00.000Z",
-   "summary": "Joe Stephenshaw, who previously led California’s Department of Finance for just over four years, will replace Ian Choudri as CEO of California’s high-speed rail authority. The CEO of California’s high-speed rail authority resigned on Oct. 28, citing “important and personal family priorities,” Cal Matters reports.…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/california-high-speed-rail-platform-v2.jpg.webp?itok=GKnaV4lW"
   },
   {
    "id": "semafor:https://www.semafor.com/article/10/30/2026/one-of-the-greatest-novels-of-the-19th-century",
@@ -852,20 +924,11 @@
   {
    "id": "smartcities:https://www.smartcitiesdive.com/news/2028-olympics-shaping-downtown-revitalization-st-louis/873312/",
    "feed": "smartcities",
-   "title": "How the 2028 Olympics is shaping downtown revitalization — in St. Louis",
+   "title": "How the 2028 Olympics are shaping downtown revitalization — in St. Louis",
    "link": "https://www.smartcitiesdive.com/news/2028-olympics-shaping-downtown-revitalization-st-louis/873312/",
    "date": "2026-10-30T14:31:58.000Z",
    "summary": "The city is making the urban core a priority, betting on office-to-residential conversions, innovation zones and private-sector partnerships to tackle vacancies and blight and improve public safety.",
    "image": "https://imgproxy.divecdn.com/J0pIAVqviDvlCa4JoNYERBFW0T1gzoAV8-2RILNQqgc/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjk2MDA0MTU0LmpwZw==.webp"
-  },
-  {
-   "id": "smartcities:https://www.smartcitiesdive.com/news/road-to-housing-act-provisions-cities-tracker-nlc/873307/",
-   "feed": "smartcities",
-   "title": "ROAD to Housing Act has 35 key provisions for cities, NLC says. Here’s how to track them.",
-   "link": "https://www.smartcitiesdive.com/news/road-to-housing-act-provisions-cities-tracker-nlc/873307/",
-   "date": "2026-10-30T14:26:01.000Z",
-   "summary": "The landmark housing legislation has more than 120 implementation actions, most of them the responsibility of the U.S. Department of Housing and Urban Development.",
-   "image": "https://imgproxy.divecdn.com/UCUDRk4oslIBpGtDLMjeB6bsi-JsVT0SGW-taOCBR7I/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy00ODIzNjExNThfQXptVDNSZy5qcGc=.webp"
   },
   {
    "id": "semafor:https://www.semafor.com/article/10/30/2026/republicans-ask-fec-to-investigate-peltola-campaign-over-spoiler-candidate",
@@ -884,24 +947,6 @@
    "date": "2026-10-30T14:17:00.000Z",
    "summary": "The British high-street bank’s shares dropped after it forecast weaker-than-expected interest income next year.",
    "image": "https://images.wsj.net/im-72829850"
-  },
-  {
-   "id": "planetizen:138762 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "Want to study the Missouri River? Soon, you may need unanimous approval from 10 states",
-   "link": "https://www.planetizen.com/news/2026/10/138762-want-study-missouri-river-soon-you-may-need-unanimous-approval-10-states",
-   "date": "2026-10-30T14:00:00.000Z",
-   "summary": "A bridge stretches across the Missouri River at Chamberlain, South Dakota, on Sept. 29, 2026. | Makenzie Huber/South Dakota Searchlight This story was originally published by South Dakota Searchlight, which provides free news and commentary on critical issues facing the state. Downstream Missouri River states have…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/591A9584-scaled.jpg.webp?itok=nkUpsg-K"
-  },
-  {
-   "id": "smartcities:https://www.smartcitiesdive.com/news/federal-election-interference-cities-counties-prepare/873290/",
-   "feed": "smartcities",
-   "title": "With concerns about federal election interference, cities and counties prepare to protect their authority",
-   "link": "https://www.smartcitiesdive.com/news/federal-election-interference-cities-counties-prepare/873290/",
-   "date": "2026-10-30T13:36:18.000Z",
-   "summary": "Local officials are training poll workers, coordinating with civil rights groups and preparing legal strategies as concerns extend beyond Election Day to ballot counting and certification.",
-   "image": "https://imgproxy.divecdn.com/xQBkOBx6wEaCdopMXAHd0AMx0_X03wlzTGOPtDF9dG0/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjkyNDY1MDU4LmpwZw==.webp"
   },
   {
    "id": "semafor:https://www.semafor.com/article/10/30/2026/africas-ai-bet-is-on-building-not-catching-up",
@@ -949,15 +994,6 @@
    "image": "https://img.semafor.com/181bea2b9c17c31c8a2643c9b689d5e2d27cd8ca-1278x959.jpg"
   },
   {
-   "id": "wsj-business:WP-WSJ-0004020727",
-   "feed": "wsj-business",
-   "title": "Amazon Shrugs Off Outside Shopping Agents—and Touts Its Own",
-   "link": "https://www.wsj.com/cmo-today/amazon-shrugs-off-outside-shopping-agentsand-touts-its-own-6f00a8ef?mod=pls_whats_news_us_business_f",
-   "date": "2026-10-30T13:09:00.000Z",
-   "summary": "Plus, an Italian insurer’s 20-year pact looks like one of the most lucrative naming-rights agreements in sports history.",
-   "image": "https://images.wsj.net/im-80196102"
-  },
-  {
    "id": "semafor:https://www.semafor.com/article/10/30/2026/south-african-lender-absa-opens-gulf-office",
    "feed": "semafor",
    "title": "South African lender Absa opens Gulf office",
@@ -974,15 +1010,6 @@
    "date": "2026-10-30T13:07:00.000Z",
    "summary": "",
    "image": "https://images.wsj.net/im-35241134"
-  },
-  {
-   "id": "planetizen:138763 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "Desperate measures: Advocates weigh draining Lake Powell to fill Colorado River",
-   "link": "https://www.planetizen.com/news/2026/10/138763-desperate-measures-advocates-weigh-draining-lake-powell-fill-colorado-river",
-   "date": "2026-10-30T13:00:00.000Z",
-   "summary": "The Southwestern United States is battling a 27 year drought, the longest in 1,200 years. As the Southwestern United States battles a 27-year drought — the longest in 1,200 years — and the Colorado River gets drier and drier, some advocates are pushing for a drastic action: draining Lake Powell , one of the river’s…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2660244279.jpg.webp?itok=pyEdO5tX"
   },
   {
    "id": "urbanist:6ae16bfc5fc45a00019c460d",
@@ -1028,33 +1055,6 @@
    "date": "2026-10-30T12:06:41.000Z",
    "summary": "US artificial intelligence firms are expanding in the Gulf, a sign that some companies are not shying away despite increased risks to digital infrastructure. Oracle plans to build more data centers in Saudi Arabia and the UAE to meet rising demand, The National reported. And Scale AI, which is 49% owned by Meta and…",
    "image": "https://img.semafor.com/d857bf4d218cffca028ea662100c663318271253-2048x1440.jpg"
-  },
-  {
-   "id": "planetizen:138764 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "This road in NYC is infamously dangerous — and Mamdani can't fix it",
-   "link": "https://www.planetizen.com/news/2026/10/138764-road-nyc-infamously-dangerous-and-mamdani-cant-fix-it",
-   "date": "2026-10-30T12:00:00.000Z",
-   "summary": "A bike lane and walkway are on either side of Ocean Parkway, but they are squeezed between the six-lane highway and another road New York City's Ocean Parkway is “a six-lane highway known for reckless driving,” Stephen Nessen writes for Gothamist — and Mayor Zohran Mamdani is prohibited from redesigning it. Because…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2208791149.jpg.webp?itok=pZjvWHZ1"
-  },
-  {
-   "id": "planetizen:138766 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "Keeping the theater open",
-   "link": "https://www.planetizen.com/blogs/138766-keeping-theater-open",
-   "date": "2026-10-30T12:00:00.000Z",
-   "summary": "The Eltrym in Baker City, Oregon. One of the healthy stars of \"The Last Picture Shows.\" | Charles R. Wolfe After returning from overseas in early 2022, I reclaimed the Western U.S. road trip tradition, especially after relocating to New Mexico. Photographing old downtown theaters became a favorite pastime in places…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/EltrymBakerCity.jpg.webp?itok=Vg_v6_th"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004022058",
-   "feed": "wsj-business",
-   "title": "AbbVie Revenue Rises on Strength in Immunology, Neuroscience",
-   "link": "https://www.wsj.com/business/earnings/abbvie-revenue-rises-on-strength-in-immunology-neuroscience-1fb8fdb7?mod=pls_whats_news_us_business_f",
-   "date": "2026-10-30T12:00:00.000Z",
-   "summary": "The pharmaceutical company boosted its profit outlook for the year, and raised its quarterly dividend as both third-quarter results and full-year guidance came in above expectations.",
-   "image": "https://images.wsj.net/im-20731596"
   },
   {
    "id": "semafor:https://www.semafor.com/article/10/30/2026/prediction-markets-flop-on-recent-elections",
@@ -1183,15 +1183,6 @@
    "image": "https://img.semafor.com/fd78106cc67ecdecd37e6a7a477228710c65c4b1-2048x1258.jpg"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/10/30/business/trump-inflation-election.html",
-   "feed": "nytimes-business",
-   "title": "High Prices Haunt Trump and the GOP on Eve of the Midterms",
-   "link": "https://www.nytimes.com/2026/10/30/business/trump-inflation-election.html",
-   "date": "2026-10-30T09:03:21.000Z",
-   "summary": "A backlash over high prices helped Republicans capture a majority in 2024. Now, it may be the source of the party’s own undoing.",
-   "image": "https://static01.nyt.com/images/2026/10/30/multimedia/30dc-trump-econ-01-qwmg/30dc-trump-econ-01-qwmg-mediumSquareAt3X.jpg"
-  },
-  {
    "id": "semafor:https://www.semafor.com/article/10/30/2026/new-sanctions-show-limits-of-trump-influence-over-congo-conflict",
    "feed": "semafor",
    "title": "New sanctions show limits of Trump influence over Congo conflict",
@@ -1298,15 +1289,6 @@
    "date": "2026-10-29T18:50:39.000Z",
    "summary": "On Tuesday, the Low Income Housing Institute (LIHI) celebrated the opening of its new Cloverleaf Tiny House Village, its largest tiny house village to date. Located in an industrial neighborhood in South Park right off Highway 99, the new tiny house village has 90 tiny houses measuring in at 8 by 12 feet and will be…",
    "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/data-src-image-55d85aed-64fb-4a98-bc30-acc13ebbbed7-1-.jpeg"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004012289",
-   "feed": "wsj-business",
-   "title": "A $1,000 Device Enables Hands-Free Driving. But Fatal Crashes Have Prompted Scrutiny.",
-   "link": "https://www.wsj.com/business/autos/a-1-000-device-enables-hands-free-driving-but-fatal-crashes-have-prompted-scrutiny-99351dd2?mod=pls_whats_news_us_business_f",
-   "date": "2026-10-29T18:35:00.000Z",
-   "summary": "The National Highway Traffic Safety Administration is investigating Comma.ai after at least five crashes were linked to its hands-free driving device.",
-   "image": "https://images.wsj.net/im-91865529"
   },
   {
    "id": "streetsblog:https://usa.streetsblog.org/?p=295553",
@@ -1579,6 +1561,24 @@
    "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/Seattle-Parks-public-swim-shot-2.28.17-1280p.jpg"
   },
   {
+   "id": "smartcities:https://www.smartcitiesdive.com/news/php-vulnerabilities-identified-cities-cybersecurity/872865/",
+   "feed": "smartcities",
+   "title": "Facing critical PHP website vulnerabilities, cities urged to shore up systems",
+   "link": "https://www.smartcitiesdive.com/news/php-vulnerabilities-identified-cities-cybersecurity/872865/",
+   "date": "2026-10-27T14:15:44.000Z",
+   "summary": "The threat to large and medium-sized local governments is categorized as high, and smaller local governments face a medium-level threat, the Multi-State Information Sharing and Analysis Center said.",
+   "image": "https://imgproxy.divecdn.com/p1t777lvRYTMuNm-9ZruuRPB3bo1Gk03gNobbnqCDZc/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9DSVNBX2hlYWRlci5qcGc=.webp"
+  },
+  {
+   "id": "smartcities:https://www.smartcitiesdive.com/news/heat-pumps-still-expensive-cities-can-help-elephant-energy/872853/",
+   "feed": "smartcities",
+   "title": "Heat pumps are still expensive. Cities can help.",
+   "link": "https://www.smartcitiesdive.com/news/heat-pumps-still-expensive-cities-can-help-elephant-energy/872853/",
+   "date": "2026-10-27T13:28:54.000Z",
+   "summary": "Cities can use collective purchasing, streamlined permitting and targeted assistance to give residents access to efficient heating and cooling, Elephant Energy’s CEO writes.",
+   "image": "https://imgproxy.divecdn.com/PA5lzO4xLLPfFYJs7ZSuTr-2yBH2dNvypbWZn8-HVzU/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMDg0MTE0MDc4LmpwZw==.webp"
+  },
+  {
    "id": "stb:https://seattletransitblog.com/?p=149941",
    "feed": "stb",
    "title": "How the Federal Way Link Extension Impacted Bus Ridership Patterns",
@@ -1741,15 +1741,6 @@
    "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-10-23/image-6c5a135f7bde54515d414449a7b985023bdeed58-1500x1000-jpg/MBD-Warhound-1026.jpg"
   },
   {
-   "id": "urbanist:6ad8fd7f0ff2c70001aa36de",
-   "feed": "urbanist",
-   "title": "Downtown Highrise Project Still Under Fire as Design Gets Revised Taller",
-   "link": "https://www.theurbanist.org/downtown-highrise-project-still-under-fire-as-design-gets-revised-taller/",
-   "date": "2026-10-23T13:00:00.000Z",
-   "summary": "The property owners behind a potential cross-laminated timber highrise project in Downtown Seattle aren't shirking away in response to considerable pushback against their project – they're going taller. Plans shown this week to the Seattle Landmarks Board would still add a residential tower above a retrofitted Doyle…",
-   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/20261021_150835.jpg"
-  },
-  {
    "id": "stb:https://seattletransitblog.com/?p=149904",
    "feed": "stb",
    "title": "Friday Roundtable: Vote Yes on Prop 1 for More Buses!",
@@ -1801,15 +1792,6 @@
    "link": "https://seattletransitblog.com/2026/10/21/ballard-link-community-forum/",
    "date": "2026-10-22T02:53:51.000Z",
    "summary": "Dan Strauss invited Sound Transit board members, city officials, and state officials to a Ballard Link Extension (BLE) Community Forum Monday to provide the public with information on the Ballard Link extension plans. The Nordic Museum’s auditorium was packed with residents from Ballard and along the route as well as…",
-   "image": ""
-  },
-  {
-   "id": "stb:https://seattletransitblog.com/?p=149821",
-   "feed": "stb",
-   "title": "Midweek Roundup: clash over Aurora",
-   "link": "https://seattletransitblog.com/2026/10/21/midweek-roundup-clash-over-aurora/",
-   "date": "2026-10-21T10:00:00.000Z",
-   "summary": "News and commentary from the past week or so. Survey: Community Transit wants your input on Swift Gold by November 15. News: Despite Pushback, Updated RapidRide R Plans Include Scant Changes (The Urbanist); meanwhile, Metro Matters’s headline is “ Executive Zahilay Moves to Accelerate Metro’s RapidRide R Line “.…",
    "image": ""
   },
   {
