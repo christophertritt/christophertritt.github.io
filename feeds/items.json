@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T21:24:58.224Z",
+ "updated": "2026-11-06T07:45:43.908Z",
  "feeds": [
   {
    "id": "planetizen",
@@ -121,6 +121,573 @@
  ],
  "items": [
   {
+   "id": "bloomberg-business:TO2L2QO2LL3A00",
+   "feed": "bloomberg-business",
+   "title": "AI Selloff Becomes Sell-Everything, Korea’s $1.7 Trillion Rout",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-06/ai-selloff-becomes-sell-everything-korea-s-1-7-trillion-rout-mw4ntgvw",
+   "date": "2026-11-06T07:35:14.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TO2KONO2LL3600",
+   "feed": "bloomberg-business",
+   "title": "Stock Movers: SK Hynix, Li Ning, Adani Ports (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-06/stock-movers-sk-hynix-li-ning-adani-ports-podcast",
+   "date": "2026-11-06T07:26:47.000Z",
+   "summary": "Source: Bloomberg, 4:48",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TO2JV9T3BZLW00",
+   "feed": "bloomberg-business",
+   "title": "Global Stock Selloff Continues as Markets Plummet on Midterms",
+   "link": "https://www.bloomberg.com/news/newsletters/2026-11-06/global-stock-selloff-continues-as-markets-plummet-on-midterms",
+   "date": "2026-11-06T07:09:09.000Z",
+   "summary": "Get caught up.",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TO2JGRN3N09J00",
+   "feed": "bloomberg-business",
+   "title": "Methodology: Inside Our Satellite Analysis of the Ganges",
+   "link": "https://www.bloomberg.com/graphics/2026-ganges-satellite-data-water-quality/",
+   "date": "2026-11-06T07:00:27.000Z",
+   "summary": "For the full experience visit: Inside Our Satellite Analysis of the Ganges",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TO2H99KK3NY800",
+   "feed": "bloomberg-business",
+   "title": "Outages Hit 128 Japan Credit Unions, Preventing ATM Transactions",
+   "link": "https://www.bloomberg.com/news/articles/2026-11-06/outages-hit-128-japan-credit-unions-preventing-atm-transactions",
+   "date": "2026-11-06T06:58:19.000Z",
+   "summary": "A batch of Japan’s credit unions are experiencing widespread outages, with clients unable to conduct counter and ATM transactions.",
+   "image": ""
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004040584",
+   "feed": "wsj-business",
+   "title": "Daimler Truck Confirms Guidance as North America Trucks Business Rebounds",
+   "link": "https://www.wsj.com/business/earnings/daimler-truck-confirms-guidance-as-north-america-trucks-business-rebounds-80223011?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-06T06:58:00.000Z",
+   "summary": "The German truck and bus maker said incoming orders at its North America trucks business grew 12% on year and overall global orders rose 10%.",
+   "image": "https://images.wsj.net/im-73023784"
+  },
+  {
+   "id": "bloomberg-business:TO2IXIV84D8G00",
+   "feed": "bloomberg-business",
+   "title": "Bloomberg Daybreak Europe: Biggest Selloff Since 2020 (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-06/bloomberg-daybreak-europe-biggest-selloff-since-2020-podcast",
+   "date": "2026-11-06T06:48:54.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TO2IVPT3BZM000",
+   "feed": "bloomberg-business",
+   "title": "European and UK Stocks Set to Join Global AI-Driven Selloff",
+   "link": "https://www.bloomberg.com/news/live-blog/2026-11-06/what-s-moving-uk-markets-right-now-markets-today",
+   "date": "2026-11-06T06:47:49.000Z",
+   "summary": "",
+   "image": ""
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004040117",
+   "feed": "wsj-business",
+   "title": "Moscow Seizes Japan Tobacco’s Russia Factories",
+   "link": "https://www.wsj.com/business/japan-urges-russia-to-return-control-of-japan-tobacco-assets-cfe0723e?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-06T06:47:00.000Z",
+   "summary": "The move follows a Russian pattern of targeting Western firms over Ukraine and punishing Tokyo.",
+   "image": "https://images.wsj.net/im-53342160"
+  },
+  {
+   "id": "bloomberg-business:TO2IEHV84D8G00",
+   "feed": "bloomberg-business",
+   "title": "Biggest Selloff Since 2020, Japan Poised to Enter Bear Market",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-06/biggest-selloff-since-2020-japan-poised-to-enter-bear-market",
+   "date": "2026-11-06T06:37:29.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "morning-brew:https://www.morningbrew.com/stories/met-galas-theme-will-be-jeans-and-t-shirts",
+   "feed": "morning-brew",
+   "title": "The Met Gala’s backup theme will be jeans and t-shirts",
+   "link": "https://www.morningbrew.com/stories/met-galas-theme-will-be-jeans-and-t-shirts?utm_source=&utm_medium=syndication&utm_campaign=feed",
+   "date": "2026-11-06T06:14:00.000Z",
+   "summary": "Illustration: Morning Brew Inc., Photo: Vetements For those double-booked on May 3 with dive bar trivia and the Met Gala, you can probably swing both. Following backlash to its original theme, the Met announced that its backup plan for the 2027 gala is “extraOrdinary: Fashion and the Poetics of the Everyday.” The…",
+   "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-11-05/image-ba7c6d1011e85f5bc805f1caad5750620f7185e3-2240x1493-jpg/MBD-MetGala-1026.jpg"
+  },
+  {
+   "id": "morning-brew:https://www.morningbrew.com/stories/stocks-get-pummeled-amid-post-midterm-ai-jitters",
+   "feed": "morning-brew",
+   "title": "Stocks get pummeled amid post-midterm AI jitters",
+   "link": "https://www.morningbrew.com/stories/stocks-get-pummeled-amid-post-midterm-ai-jitters?utm_source=&utm_medium=syndication&utm_campaign=feed",
+   "date": "2026-11-06T06:01:00.000Z",
+   "summary": "Nick Iluzada Wall Street is acting like Marie Kondo got it to reconsider whether it really needs to own so many stocks. After a post-midterm upswing on Wednesday, stocks cratered yesterday as investors pondered what election wins by AI-skeptical Democrats would mean for the data center buildout. The tech-heavy Nasdaq…",
+   "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-11-05/image-b98c553c04f7c7bda119ebe545c7bf34d61b4a70-3000x2000-png/MBD_20261105_TECHFIRE_02.png"
+  },
+  {
+   "id": "bloomberg-business:TO2GO1T3BZLU00",
+   "feed": "bloomberg-business",
+   "title": "Sohn Conference, AI, Private Credit: Australia Briefing",
+   "link": "https://www.bloomberg.com/news/newsletters/2026-11-06/sohn-conference-ai-private-credit-australia-briefing",
+   "date": "2026-11-06T06:00:01.000Z",
+   "summary": "Get caught up.",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TO2FA1KIP3IS00",
+   "feed": "bloomberg-business",
+   "title": "Poland’s Power Feud Rattles Investors",
+   "link": "https://www.bloomberg.com/news/newsletters/2026-11-06/poland-s-power-feud-rattles-investors",
+   "date": "2026-11-06T05:30:01.000Z",
+   "summary": "Prime Minister Donald Tusk is looking to assert his authority a year before elections.",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TO2F15KIJH8I00",
+   "feed": "bloomberg-business",
+   "title": "Can Japan’s Stock Market Revival Survive the Fear of AI Bubble?",
+   "link": "https://www.bloomberg.com/news/newsletters/2026-11-06/can-japan-s-stock-market-revival-survive-the-fear-of-ai-bubble",
+   "date": "2026-11-06T05:24:41.000Z",
+   "summary": "Also, there’s a new way for foreign visitors to get their tax refunds.",
+   "image": ""
+  },
+  {
+   "id": "streetsblog:https://usa.streetsblog.org/?p=295793",
+   "feed": "streetsblog",
+   "title": "Friday’s Frugal Headlines",
+   "link": "https://usa.streetsblog.org/2026/11/06/fridays-frugal-headlines",
+   "date": "2026-11-06T05:01:00.000Z",
+   "summary": "With the cost of living a major issue for American voters, the American Public Transportation Association reports that using transit instead of driving can save and average of $14,000 a year when fuel, maintenance, insurance, parking and depreciation are taken into account. ( Governing ) New governors in states like…",
+   "image": "https://usa.streetsblog.org/wp-content/uploads/sites/10/2024/03/Car-money-e1711362053333.jpg?w=1024"
+  },
+  {
+   "id": "streetsblog:https://usa.streetsblog.org/?p=295787",
+   "feed": "streetsblog",
+   "title": "Opinion: I (Almost) Killed a Pedestrian With My Car",
+   "link": "https://usa.streetsblog.org/2026/11/06/opinion-i-almost-killed-a-pedestrian-with-my-car",
+   "date": "2026-11-06T05:01:00.000Z",
+   "summary": "“Careless Driver Slays Innocent Lives; Held for Drink and Drug Testing.” You’ve read that headline a hundred times, or one very like it. A photo of a crumpled bicycle, perhaps, or a small shoe on the pavement. A neighbor quoted saying the motorist always drove too fast. The reader shakes his head and turns the page.…",
+   "image": "https://usa.streetsblog.org/wp-content/uploads/sites/10/2026/11/Bike-crash-ambulance.jpg?w=1024"
+  },
+  {
+   "id": "morning-brew:https://www.morningbrew.com/stories/canva-praised-for-the-way-it-fired-employees",
+   "feed": "morning-brew",
+   "title": "Canva praised for the way it fired employees",
+   "link": "https://www.morningbrew.com/stories/canva-praised-for-the-way-it-fired-employees?utm_source=&utm_medium=syndication&utm_campaign=feed",
+   "date": "2026-11-06T05:01:00.000Z",
+   "summary": "Canva Hate to see them go, love to watch what they leave with: The internet is enchanted by a severance package Canva announced this week as part of a massive restructuring that impacts 22% of its staff. Nearly 1,300 workers will lose their jobs, switch roles, or relocate. Canva didn’t say how many people fall into…",
+   "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-11-05/image-efc38a0288a3ea19afb4311d9c4c129ed8092558-1500x1001-jpg/MBD-Canva-1026.jpg"
+  },
+  {
+   "id": "bloomberg-business:TO2DWIKIJH8K00",
+   "feed": "bloomberg-business",
+   "title": "Modi’s Clean Ganga Project Fails to Tame Toxic Pollution in Holy India River",
+   "link": "https://www.bloomberg.com/graphics/2026-ganges-water-pollution/",
+   "date": "2026-11-06T05:00:18.000Z",
+   "summary": "For the full experience visit: Modi’s $4.5 Billion Ganges Cleanup Is Struggling to Tame Pollution",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TO2DKDKIP3IY00",
+   "feed": "bloomberg-business",
+   "title": "China’s Cool Response to Blue Tsunami Masks Its Reasons to Worry",
+   "link": "https://www.bloomberg.com/news/newsletters/2026-11-06/china-s-cool-response-to-blue-tsunami-masks-its-reasons-to-worry",
+   "date": "2026-11-06T04:53:01.000Z",
+   "summary": "China brushed off the beating Trump’s party took. It still has plenty of reasons for concern.",
+   "image": ""
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004040405",
+   "feed": "wsj-business",
+   "title": "Hong Kong Exchange Operator’s Net Profit Slips as Trading Activity Cools",
+   "link": "https://www.wsj.com/business/earnings/hong-kong-exchange-operators-net-profit-slips-as-trading-activity-cools-3e3ee0b8?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-06T04:47:00.000Z",
+   "summary": "The stock-exchange operator’s third-quarter profit fell unexpectedly despite revenue growth as trading activity in the Asian financial hub showed signs of moderation.",
+   "image": "https://images.wsj.net/im-67750271"
+  },
+  {
+   "id": "bloomberg-business:TO2CL5O2LL3400",
+   "feed": "bloomberg-business",
+   "title": "AI-Led Selloff Hits Asia, Rubio Says He'll Remain in Post, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-06/ai-led-selloff-hits-asia-rubio-says-he-ll-remain-in-post-more",
+   "date": "2026-11-06T04:31:53.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TO2AQXV84D8G00",
+   "feed": "bloomberg-business",
+   "title": "AI Rout Deepens in Asia, Rubio Denies Plans to Leave Post, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-06/ai-rout-deepens-in-asia-rubio-denies-plans-to-leave-post-more",
+   "date": "2026-11-06T03:52:09.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TO0K67T96OSM00",
+   "feed": "bloomberg-business",
+   "title": "Zhuhai Huafa Selling Marriott-Branded Hotel to Bolster Liquidity",
+   "link": "https://www.bloomberg.com/news/articles/2026-11-06/zhuhai-huafa-selling-marriott-branded-hotel-to-bolster-liquidity",
+   "date": "2026-11-06T03:29:17.000Z",
+   "summary": "Zhuhai Huafa Group Co., a local government-owned conglomerate, told some creditors this week that it is selling a Marriott-branded hotel to Zhuhai Gree Group Co., according to people familiar with the matter, as it seeks to boost liquidity.",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TO27VOV84D8G00",
+   "feed": "bloomberg-business",
+   "title": "Tech Rout Grips Asia, NYT: Rubio Plans to Stay, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-06/tech-rout-grips-asia-nyt-rubio-plans-to-stay-more",
+   "date": "2026-11-06T02:50:12.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TO27REV84D8H00",
+   "feed": "bloomberg-business",
+   "title": "Bloomberg Daybreak Asia: AI Slump Deepens (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-06/bloomberg-daybreak-asia-ai-slump-deepens-podcast",
+   "date": "2026-11-06T02:47:39.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "cascadepbs:6aed3bb1411fef000101e223",
+   "feed": "cascadepbs",
+   "title": "D.L. Hughley joins Geoff Bennett on 'Settle In'",
+   "link": "https://www.cascadepbs.org/show/newshour/extras/settle-in-1793917102/",
+   "date": "2026-11-06T02:00:25.000Z",
+   "summary": "D.L. Hughley is one of comedy’s most enduring stars. His new memoir, “Charlie’s Boy,” offers a candid look at fatherhood, family trauma, and the path he took from South Central LA to some of the biggest stages on the planet. Geoff Bennett spoke with Hughley about all that and more, including his heated confrontation…",
+   "image": "https://www.cascadepbs.org/content/images/2026/11/d46ef627-b3cb-4427-b443-628214d8bddb.jpg"
+  },
+  {
+   "id": "cascadepbs:6aed366e411fef000101e1e3",
+   "feed": "cascadepbs",
+   "title": "News Wrap: Head of DOJ's civil rights division resigns",
+   "link": "https://www.cascadepbs.org/show/newshour/extras/news-wrap-1793916976/",
+   "date": "2026-11-06T02:00:25.000Z",
+   "summary": "In our news wrap Thursday, Harmeet Dhillon is stepping down as head of the Justice Department's civil rights division, Melania Trump hosted Russian and Ukrainian officials to mark a localized ceasefire and European authorities are investigating a series of bomb threats that targeted more than a dozen flights.",
+   "image": "https://www.cascadepbs.org/content/images/2026/11/6b52117c-0c7d-4772-ac5e-6851f1db4168.jpg"
+  },
+  {
+   "id": "cascadepbs:6aed366c411fef000101e1d5",
+   "feed": "cascadepbs",
+   "title": "States seek greater control over what universities can teach",
+   "link": "https://www.cascadepbs.org/show/newshour/extras/rethinking-college-1793917033/",
+   "date": "2026-11-06T02:00:25.000Z",
+   "summary": "Democrats in Texas will head to Austin with power they haven't had in decades. One of the many questions is whether they will try to reverse changes made at universities in recent years by Republicans. Texas is not alone. More than half of all college students are enrolled in a state limiting what can be taught or…",
+   "image": "https://www.cascadepbs.org/content/images/2026/11/09cd985f-c2e5-4627-8386-b59b0c1f3d6e.jpg"
+  },
+  {
+   "id": "cascadepbs:6aed3bbc411fef000101e241",
+   "feed": "cascadepbs",
+   "title": "A look at the midterm races that remain undecided",
+   "link": "https://www.cascadepbs.org/show/newshour/extras/seismic-shift-1793908340/",
+   "date": "2026-11-06T01:45:26.000Z",
+   "summary": "As Democrats prepare to take control of Congress and Republicans grapple with stunning losses, every remaining race matters. Some races are still too close to call, including Senate battles in both Alaska and Mississippi. Congressional correspondent Lisa Desjardins reports.",
+   "image": "https://www.cascadepbs.org/content/images/2026/11/5acb1878-a32c-4c56-bd85-ef67a213ab75.jpg"
+  },
+  {
+   "id": "cascadepbs:6aed34cb411fef000101e102",
+   "feed": "cascadepbs",
+   "title": "After election, leaders await Trump's next move in Iran",
+   "link": "https://www.cascadepbs.org/show/newshour/extras/after-election-leaders-await-trump-s-next-move-in-iran-1793921840/",
+   "date": "2026-11-06T01:45:26.000Z",
+   "summary": "Tuesday's election results were not just closely watched in the U.S. American elections, in many ways, have become global events and the Democratic wave led to an extraordinary outpouring. Nick Schifrin gauges that reaction.",
+   "image": "https://www.cascadepbs.org/content/images/2026/11/fb6d6ac6-36cb-4945-9e2e-b625b874d540.jpg"
+  },
+  {
+   "id": "cascadepbs:6aed34c7411fef000101e0e4",
+   "feed": "cascadepbs",
+   "title": "Newsom plans to commute all of California's death sentences",
+   "link": "https://www.cascadepbs.org/show/newshour/extras/commuting-death-row-1793922886/",
+   "date": "2026-11-06T01:45:26.000Z",
+   "summary": "California Gov. Gavin Newsom commuted the state’s entire death row population to life in prison without parole. The decision could grant clemency to 548 people. Newsom had previously put a moratorium on executions in the state in 2019, but left hundreds on death row. Amna Nawaz discussed more with Robin Maher of the…",
+   "image": "https://www.cascadepbs.org/content/images/2026/11/895bbd53-63d2-4b6d-a8dd-cef3020d989d.jpg"
+  },
+  {
+   "id": "cascadepbs:6aed34cd411fef000101e110",
+   "feed": "cascadepbs",
+   "title": "South Sudan strained by refugee influx and foreign aid cuts",
+   "link": "https://www.cascadepbs.org/show/newshour/extras/cuts-consequences-1793908913/",
+   "date": "2026-11-06T01:45:25.000Z",
+   "summary": "There are few places where the consequences of the Trump administration's cuts to global aid programs are more apparent than South Sudan. With a raging civil war in Sudan to its north, South Sudan is contending not just with its own underserved people, but with more than a million Sudanese refugees. Special…",
+   "image": "https://www.cascadepbs.org/content/images/2026/11/ad14f8b3-6565-47c5-a1c3-5812376a84b4.jpg"
+  },
+  {
+   "id": "cascadepbs:6aed34c9411fef000101e0f3",
+   "feed": "cascadepbs",
+   "title": "Rep. Garcia: Democrats have mandate to pursue accountability",
+   "link": "https://www.cascadepbs.org/show/newshour/extras/rep-garcia-democrats-have-mandate-to-pursue-accountability-1793922249/",
+   "date": "2026-11-06T01:45:25.000Z",
+   "summary": "With Democrats set to take control of the House, they are making plans to use their majority not only to advance legislation but also to ramp up congressional oversight. California Rep. Robert Garcia is expected to become the new chairman of the House Oversight Committee. He says Democrats have plans to move quickly…",
+   "image": "https://www.cascadepbs.org/content/images/2026/11/9178d040-3ea3-452a-b951-c74a6b13a476.jpg"
+  },
+  {
+   "id": "bloomberg-business:TO24PLO2LL3G00",
+   "feed": "bloomberg-business",
+   "title": "AI Slump Deepens in Asia, Rubio Tells NYT He's Staying, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-06/ai-slump-deepens-in-asia-rubio-tells-nyt-he-s-staying-more",
+   "date": "2026-11-06T01:41:45.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004040024",
+   "feed": "wsj-business",
+   "title": "Dolly Parton’s Manager Drops Lawsuit Against Singer’s Nephew",
+   "link": "https://www.wsj.com/business/media/dolly-partons-manager-drops-lawsuit-against-singers-nephew-7c061a70?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-06T01:37:00.000Z",
+   "summary": "A court had granted a temporary restraining order against nephew, Bryan Seaver, who had been accused of threatening the late singer’s business.",
+   "image": "https://images.wsj.net/im-57738490"
+  },
+  {
+   "id": "bloomberg-business:TO2449V84D8G00",
+   "feed": "bloomberg-business",
+   "title": "Everybody's Business: Blunami vs. Space Karen (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-06/everybody-s-business-blunami-vs-space-karen-podcast",
+   "date": "2026-11-06T01:28:57.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/05/business/stocks-midterms-artificial-intelligence.html",
+   "feed": "nytimes-business",
+   "title": "Stocks Erase Post-Midterm Elections Rally, Dragged Down by Tech",
+   "link": "https://www.nytimes.com/2026/11/05/business/stocks-midterms-artificial-intelligence.html",
+   "date": "2026-11-06T00:48:29.000Z",
+   "summary": "The S&P 500 slumped to its worst daily decline since April 2025 and the tech-heavy Nasdaq entered correction territory, as investors fretted about the durability of the A.I. build-out.",
+   "image": ""
+  },
+  {
+   "id": "cascadepbs:6aed26bd411fef000101d8d2",
+   "feed": "cascadepbs",
+   "title": "Dazzling Nudibranchs, Combine Demolition Derby, Saving Crater Lake’s Whitebark Pine Trees",
+   "link": "https://www.cascadepbs.org/show/oregon-field-guide/episode/dazzling-nudibranchs-combine-demolition-derby-saving-crater-lakes-whitebark-pine-trees-ej7v59/",
+   "date": "2026-11-06T00:31:37.000Z",
+   "summary": "Meet one of the ocean’s most colorful creatures with surprising super powers. A husband and wife crash old tractors and make history in Banks’ 25th annual Combine Derby. Can a scientist save Crater Lake’s whitebark pine trees from an invasive fungus?",
+   "image": "https://www.cascadepbs.org/content/images/2026/11/2eed9f0e-8ad7-435d-a0e9-5a98d51fad72.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/05/health/bird-flu-death-us.html",
+   "feed": "nytimes-business",
+   "title": "Bird Flu Death in Washington State Renews Concern Over the Virus",
+   "link": "https://www.nytimes.com/2026/11/05/health/bird-flu-death-us.html",
+   "date": "2026-11-06T00:26:37.000Z",
+   "summary": "The death follows reports of infections in cattle on dozens of American farms across the country over the past month and a worrying outbreak in mink.",
+   "image": "https://static01.nyt.com/images/2026/11/05/multimedia/05dc-bird-flu-cfvb/05dc-bird-flu-cfvb-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "cascadepbs:6aed1d3f411fef000101d32f",
+   "feed": "cascadepbs",
+   "title": "Meadowlark’s Footprints",
+   "link": "https://www.cascadepbs.org/show/oregon-field-guide/episode/meadowlarks-footprints-y5e8l4/",
+   "date": "2026-11-06T00:02:03.000Z",
+   "summary": "A distinctive rock that’s tied to an Indigenous creation story for Willamette Falls has gone missing. The Confederated Tribes of the Grand Ronde are trying to find it because it’s marked with Meadowlark’s footprints — a series of hatch marks that commemorate the story of how Meadowlark and Coyote stretched a cedar…",
+   "image": "https://www.cascadepbs.org/content/images/2026/11/78e16c86-f43e-4fc0-b40b-f2db63f3575a.jpg"
+  },
+  {
+   "id": "cascadepbs:6aed1c98411fef000101d2b6",
+   "feed": "cascadepbs",
+   "title": "November 5, 2026 - PBS News Hour full episode",
+   "link": "https://www.cascadepbs.org/show/newshour/episode/november-5-2026-pbs-news-hour-full-episode-1793881930/",
+   "date": "2026-11-06T00:00:56.000Z",
+   "summary": "",
+   "image": "https://www.cascadepbs.org/content/images/2026/11/8ba42852-93b2-4e4d-aeff-466414630d64.jpg"
+  },
+  {
+   "id": "cascadepbs:6aeccefd411fef000101bcf8",
+   "feed": "cascadepbs",
+   "title": "Wood, rain and cityscapes at Pioneer Square Art Walk",
+   "link": "https://www.cascadepbs.org/artsea/2026/11/wood-rain-and-cityscapes-at-pioneer-square-art-walk/",
+   "date": "2026-11-06T00:00:00.000Z",
+   "summary": "It’s the first Thursday of the month and that can only mean one thing: Pioneer Square Art Walk. Over the last year-and-a-half, the art walk has been popping off in ways I’d never imagined. The youth have been turning out in droves — even during the colder months! — and it’s heartening to see. Thankfully, the art on…",
+   "image": "https://www.cascadepbs.org/content/images/2026/11/GaeunKim_1.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/05/technology/dario-amodei-anthropic-ai.html",
+   "feed": "nytimes-business",
+   "title": "What Shaped Anthropic CEO Dario Amodei’s Thinking on A.I.",
+   "link": "https://www.nytimes.com/2026/11/05/technology/dario-amodei-anthropic-ai.html",
+   "date": "2026-11-05T23:51:09.000Z",
+   "summary": "Some call him a doomer. Others see him as a responsible technologist. Here’s how the Anthropic chief executive’s thinking on artificial intelligence was shaped.",
+   "image": "https://static01.nyt.com/images/2026/10/29/business/00biz-amodei-profile/00biz-amodei-profile-mediumSquareAt3X.png"
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004039328",
+   "feed": "wsj-business",
+   "title": "Macquarie Beats Expectations With 50% Jump in First-Half Profit",
+   "link": "https://www.wsj.com/business/earnings/macquarie-beats-expectations-with-50-jump-in-first-half-profit-b8de7b98?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-05T23:44:00.000Z",
+   "summary": "The Australian financial group’s commodity related earnings surged on increased market volatility.",
+   "image": "https://images.wsj.net/im-33542362"
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004039679",
+   "feed": "wsj-business",
+   "title": "Qantas Expects $2.63 Billion First-Half Fuel Bill Amid Elevated Oil Prices",
+   "link": "https://www.wsj.com/business/energy-oil/qantas-expects-2-63-billion-first-half-fuel-bill-amid-elevated-oil-prices-b4657da0?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-05T23:44:00.000Z",
+   "summary": "The airline said it would continue to change fares and adjust capacity in response to higher fuel costs, while stepping up efforts to opportunistically lock in lower fuel prices.",
+   "image": "https://images.wsj.net/im-79549916"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/05/business/media/salon-online-magazine-shutters.html",
+   "feed": "nytimes-business",
+   "title": "Salon, a Pioneer of Digital Journalism, Shuts Down",
+   "link": "https://www.nytimes.com/2026/11/05/business/media/salon-online-magazine-shutters.html",
+   "date": "2026-11-05T23:29:23.000Z",
+   "summary": "The progressive website, founded in 1995, said its business was “no longer sustainable.”",
+   "image": "https://static01.nyt.com/images/2026/11/05/business/05biz-salon/05biz-salon-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/05/world/middleeast/israel-election-herzog-prime-minister-meetings.html",
+   "feed": "nytimes-business",
+   "title": "Israel’s Election Ended With No Clear Winner. These Parties Are Trying to Form a Coalition.",
+   "link": "https://www.nytimes.com/2026/11/05/world/middleeast/israel-election-herzog-prime-minister-meetings.html",
+   "date": "2026-11-05T23:18:21.000Z",
+   "summary": "President Isaac Herzog wrapped up two days of talks with party leaders by saying he will ask one of them on Sunday to try to assemble a governing coalition.",
+   "image": "https://static01.nyt.com/images/2026/11/05/multimedia/05int-israel-party-vote-photo-hjzq/05int-israel-party-vote-photo-hjzq-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/05/business/media/letterboxd-new-york-times-company.html",
+   "feed": "nytimes-business",
+   "title": "New York Times Company in Advanced Talks to Acquire Letterboxd",
+   "link": "https://www.nytimes.com/2026/11/05/business/media/letterboxd-new-york-times-company.html",
+   "date": "2026-11-05T23:09:27.000Z",
+   "summary": "The roughly $330 million deal for the cinephile community site would be part of an effort to add new products and services to the company’s portfolio.",
+   "image": "https://static01.nyt.com/images/2026/10/29/business/29BIZ-LETTERBOXD/29BIZ-LETTERBOXD-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004038769",
+   "feed": "wsj-business",
+   "title": "DraftKings Cuts Outlook as It Pours More Money Into Prediction Markets",
+   "link": "https://www.wsj.com/business/earnings/draftkings-cuts-outlook-as-it-pours-more-money-into-prediction-markets-140041b3?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-05T22:53:00.000Z",
+   "summary": "The company said it now expects full-year revenue to be $6.35 billion to $6.55 billion, down from its previous guidance of $6.5 billion to $6.9 billion.",
+   "image": "https://images.wsj.net/im-98904998"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/05/business/media/tv-ratings-midterms-steve-kornacki.html",
+   "feed": "nytimes-business",
+   "title": "Steve Kornacki and NBC Drew Crowds as Midterms Got a Ratings Bump",
+   "link": "https://www.nytimes.com/2026/11/05/business/media/tv-ratings-midterms-steve-kornacki.html",
+   "date": "2026-11-05T22:47:35.000Z",
+   "summary": "More than 31 million viewers followed along with the Democrats’ big night on television, a 23 percent jump from the 2022 midterm elections.",
+   "image": "https://static01.nyt.com/images/2026/11/05/multimedia/05biz-elections-ratings-mltc/05biz-elections-ratings-mltc-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/05/2026/ukraine-hopes-for-more-us-support-following-midterm-elections",
+   "feed": "semafor",
+   "title": "Ukraine hopes for more US support following midterm elections",
+   "link": "https://www.semafor.com/article/11/05/2026/ukraine-hopes-for-more-us-support-following-midterm-elections",
+   "date": "2026-11-05T22:34:48.000Z",
+   "summary": "A Democratic romp in US midterm elections could change Russia’s strategic calculus toward the West, analysts suggested, as Ukraine hailed the prospect of a more sympathetic Washington. Ukraine’s leader said this week that Kyiv hoped for a “balance of power, and that we will be supported more.” Meanwhile, the Kremlin…",
+   "image": "https://img.semafor.com/2fa56b75cf071c9aca8f83b3dccd10717f708071-5000x3333.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/05/2026/nvidia-chips-stuck-in-hong-kong-over-china-approval",
+   "feed": "semafor",
+   "title": "Nvidia chips stuck in Hong Kong over China approval",
+   "link": "https://www.semafor.com/article/11/05/2026/nvidia-chips-stuck-in-hong-kong-over-china-approval",
+   "date": "2026-11-05T22:34:10.000Z",
+   "summary": "Roughly 600,000 advanced Nvidia chips are stuck in Hong Kong en route to China, Reuters reported, as Beijing — concerned its firms are too reliant on Western tech — bars their entry . Despite China’s efforts to boost semiconductor self-sufficiency , domestic tech firms’ immense demand for compute has led to a…",
+   "image": "https://img.semafor.com/016683ea6910ab5e5511f1b5225a84b64de28295-5400x3602.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/05/2026/an-audacious-novel-about-flaubert",
+   "feed": "semafor",
+   "title": "An 'audacious' novel about Flaubert",
+   "link": "https://www.semafor.com/article/11/05/2026/an-audacious-novel-about-flaubert",
+   "date": "2026-11-05T22:29:51.000Z",
+   "summary": ", by Elif Shafak. When French novelist Gustave Flaubert sits down to write the fate of his famous character Emma Bovary, she suddenly speaks to him, opening the floodgates of memory and interspersing Flaubert’s perspective with that of 30 women from his life. This “audacious” novel “ is the ideal vehicle for Shafak,…",
+   "image": "https://img.semafor.com/68a90f22c26c68e148ab163f3bc3d3276aa86f0e-5320x3992.png"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/05/2026/arab-grouping-backs-netanyahu-challenger-for-next-israeli-government",
+   "feed": "semafor",
+   "title": "Arab grouping backs Netanyahu challenger for next Israeli government",
+   "link": "https://www.semafor.com/article/11/05/2026/arab-grouping-backs-netanyahu-challenger-for-next-israeli-government",
+   "date": "2026-11-05T22:28:59.000Z",
+   "summary": "Israel’s largest Arab party grouping declared its support Thursday for Gadi Eisenkot to form the next government, potentially clearing the path for a coalition that excludes Prime Minister Benjamin Netanyahu. The announcement came after Netanyahu — who campaigned partly on his unique relationship with US President…",
+   "image": "https://img.semafor.com/e5462d5f52ac01ca63b6b088c5a56b90b18aa42d-3416x2317.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/05/2026/openai-looks-to-make-data-centers-more-palatable",
+   "feed": "semafor",
+   "title": "OpenAI looks to make data centers more palatable",
+   "link": "https://www.semafor.com/article/11/05/2026/openai-looks-to-make-data-centers-more-palatable",
+   "date": "2026-11-05T22:28:34.000Z",
+   "summary": "OpenAI said Thursday it would avoid nondisclosure agreements in data center deals and ensure facilities don’t raise energy costs for residents, as tech scrambles to render the AI buildout more palatable to the public. The policies are part of OpenAI’s attempts to set a new tone for AI policy discourse, including by…",
+   "image": "https://img.semafor.com/55985f7d8e51ef97fe622f42b9b44419c330c045-6500x4333.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/05/business/media/pc-vey-new-yorker-cartoons.html",
+   "feed": "nytimes-business",
+   "title": "In the Style of P.C. Vey: The Funniest Reader Cartoons We Received",
+   "link": "https://www.nytimes.com/2026/11/05/business/media/pc-vey-new-yorker-cartoons.html",
+   "date": "2026-11-05T22:21:47.000Z",
+   "summary": "More than 200 people answered our call for cartoons in the spirit of P.C. Vey. Here are some of the best ones.",
+   "image": ""
+  },
+  {
+   "id": "cascadepbs:6aed0a7d411fef000101cbc4",
+   "feed": "cascadepbs",
+   "title": "Sanditon Season 3 Preview",
+   "link": "https://www.cascadepbs.org/show/sanditon/trailers/sanditon-season-3-preview-3w6m6f/",
+   "date": "2026-11-05T22:15:54.000Z",
+   "summary": "\"A young woman has a right to choose her own destiny.\" Don't miss a second of the final season, premiering Sunday, March 19 at 9/8c.",
+   "image": "https://www.cascadepbs.org/content/images/2026/11/79415cc7-816c-4c78-9cfe-038d1b52cc12.jpg"
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004037189",
+   "feed": "wsj-business",
+   "title": "Health Care Roundup: Market Talk",
+   "link": "https://www.wsj.com/business/health-care-roundup-market-talk-d66d00d9?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-05T22:15:00.000Z",
+   "summary": "Find insight on Siemens Healthineers, AstraZeneca and more in the latest Market Talks covering Health Care.",
+   "image": "https://images.wsj.net/im-07626629"
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004039269",
+   "feed": "wsj-business",
+   "title": "Sweetgreen Sees Milder Same-Store Sales Decline Following Rebound From Cyclospora Outbreak",
+   "link": "https://www.wsj.com/business/earnings/sweetgreen-sees-milder-same-store-sales-decline-following-rebound-from-cyclospora-outbreak-aa77e43d?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-05T22:04:00.000Z",
+   "summary": "The salad chain’s third-quarter loss narrowed to $30.7 million as it bounced back from the Cyclospora outbreak, which triggered widespread consumer panic against leafy greens.",
+   "image": "https://images.wsj.net/im-20474778"
+  },
+  {
+   "id": "cascadepbs:6aecfc71411fef000101c58b",
+   "feed": "cascadepbs",
+   "title": "How do you prepare for a Shakespearean role?",
+   "link": "https://www.cascadepbs.org/show/great-performances/extras/how-do-you-prepare-for-a-shakespearean-role-iwvdm6/",
+   "date": "2026-11-05T21:45:27.000Z",
+   "summary": "The cast of Romeo & Juliet reflects on how they prepare for a Shakespearean role.",
+   "image": "https://www.cascadepbs.org/content/images/2026/11/ac44898c-88ac-4dbc-9cb6-9f9f3bafab72.jpg"
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004038751",
+   "feed": "wsj-business",
+   "title": "Dropbox Revenue Ticks Up as Paying Users Rise",
+   "link": "https://www.wsj.com/business/earnings/dropbox-revenue-ticks-up-as-paying-users-rise-31f69a42?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-05T21:41:00.000Z",
+   "summary": "The company recorded 18.2 million paying users, up from 18.07 million the year before.",
+   "image": "https://images.wsj.net/im-65022460"
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004038765",
+   "feed": "wsj-business",
+   "title": "Mattel Cuts Outlook, Retains Top Exec to Help Steer Ship",
+   "link": "https://www.wsj.com/business/earnings/mattel-cuts-outlook-retains-top-exec-to-help-steer-ship-1db60d98?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-05T21:32:00.000Z",
+   "summary": "The company cut its full-year outlook ahead of the all-important holiday season, after sales came up short during the recent quarter.",
+   "image": "https://images.wsj.net/im-12405348"
+  },
+  {
    "id": "semafor:https://www.semafor.com/article/11/05/2026/where-ai-money-worked-in-the-midterms",
    "feed": "semafor",
    "title": "Where AI money worked in the midterms",
@@ -157,24 +724,6 @@
    "image": "https://img.semafor.com/b1d790ccb479b21ccedc3d271390e1ae0b94190e-5000x3334.jpg"
   },
   {
-   "id": "bloomberg-business:TO1S8IV84D8G00",
-   "feed": "bloomberg-business",
-   "title": "Stocks Close Lower on Market Rout, Report: Rubio Weighs Leaving",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-05/stocks-close-lower-on-market-rout-report-rubio-weighs-leaving",
-   "date": "2026-11-05T21:12:18.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004038757",
-   "feed": "wsj-business",
-   "title": "Lyft’s Bookings Rise on Strength in Partnerships, New Products",
-   "link": "https://www.wsj.com/business/earnings/lyfts-bookings-rise-on-strength-in-partnerships-new-products-d8953f77?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-05T21:12:00.000Z",
-   "summary": "However, the ride-hailing platform’s top and bottom lines were dented by legal, tax and regulatory reserve changes and settlements.",
-   "image": "https://images.wsj.net/im-96424072"
-  },
-  {
    "id": "semafor:https://www.semafor.com/article/11/05/2026/democrats-ceo-targets-remain-a-work-in-progress",
    "feed": "semafor",
    "title": "Democrats’ CEO targets remain a work in progress",
@@ -182,42 +731,6 @@
    "date": "2026-11-05T21:11:54.000Z",
    "summary": "As they decide on their oversight strategy for their new majorities, Democrats are still actively discussing how much to target individual corporations. That has meant throwing cold water on a dossier circulated by progressive think tank Groundwork Collaborative that recommends an aggressive approach against multiple…",
    "image": "https://img.semafor.com/70a79c55755c24496ecf9570b24da40fa4e3f815-5500x3667.jpg"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004038752",
-   "feed": "wsj-business",
-   "title": "Airbnb Raises Outlook as It Remains Insulated from Global Conflicts",
-   "link": "https://www.wsj.com/business/earnings/airbnb-raises-outlook-as-it-remains-insulated-from-global-conflicts-a8ffcbf8?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-05T21:09:00.000Z",
-   "summary": "The company now expects annual revenue to increase by a high-teens percentage, up from its prior guidance of mid-teens percentage growth, as demand picked up in the third quarter across its global markets.",
-   "image": "https://images.wsj.net/im-39772727"
-  },
-  {
-   "id": "bloomberg-business:TO17E2KJH6V500",
-   "feed": "bloomberg-business",
-   "title": "Lyft Posts Surprise Loss on Settlement, Gives In-Line Outlook",
-   "link": "https://www.bloomberg.com/news/articles/2026-11-05/lyft-posts-surprise-loss-on-settlement-gives-in-line-outlook",
-   "date": "2026-11-05T21:07:08.000Z",
-   "summary": "Lyft Inc. issued a quarterly ride bookings and earnings forecast that met expectations and posted a surprise loss due to an earlier legal settlement related to driver classification.",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TO1O4ET96OSX00",
-   "feed": "bloomberg-business",
-   "title": "Invesco’s Private Credit CIO Eyes ‘Equity-Like’ Returns in Loans (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-05/invesco-s-private-credit-cio-eyes-equity-like-returns-in-loans-podcast",
-   "date": "2026-11-05T21:00:00.000Z",
-   "summary": "Credit-market volatility has widened spreads and made lower-quality private loans look more attractive to investors, according to Invesco. “The opportunity set has broadened quite significantly over the last several quarters,” Scott Baskind, the firm’s global private credit chief investment officer, tells Bloomberg…",
-   "image": ""
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/05/world/middleeast/israel-election-herzog-prime-minister-meetings.html",
-   "feed": "nytimes-business",
-   "title": "Israel’s Election Ended With No Clear Winner. These Parties Are Trying to Form a Coalition.",
-   "link": "https://www.nytimes.com/2026/11/05/world/middleeast/israel-election-herzog-prime-minister-meetings.html",
-   "date": "2026-11-05T20:55:34.000Z",
-   "summary": "Israeli party leaders held discussions with President Isaac Herzog on Thursday about who should get the first chance to form a governing coalition.",
-   "image": "https://static01.nyt.com/images/2026/11/05/multimedia/05int-israel-party-vote-photo-hjzq/05int-israel-party-vote-photo-hjzq-mediumSquareAt3X.jpg"
   },
   {
    "id": "urbanist:6aece23b1c94aa000162efa1",
@@ -229,58 +742,13 @@
    "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/11/howtoapply-banner-1-.jpg"
   },
   {
-   "id": "bloomberg-business:TO1PEPT9NJLU00",
-   "feed": "bloomberg-business",
-   "title": "Nvidia CEO Pressed by US Lawmakers Over Tie to Firm in Spy Probe",
-   "link": "https://www.bloomberg.com/news/articles/2026-11-05/nvidia-ceo-pressed-by-us-lawmakers-over-tie-to-firm-in-spy-probe",
-   "date": "2026-11-05T20:39:55.000Z",
-   "summary": "Key House Republicans are requesting a briefing from Nvidia Corp. Chief Executive Officer Jensen Huang on his dealings with a Megaspeed International executive who the New York Times has reported is under US government investigation for allegedly spying on behalf of China.",
-   "image": ""
-  },
-  {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/04/health/arbitrators-medical-bills.html",
    "feed": "nytimes-business",
    "title": "Trump Administration Moves to Oust Arbitrators as Doctor Payouts Soar",
    "link": "https://www.nytimes.com/2026/11/04/health/arbitrators-medical-bills.html",
-   "date": "2026-11-05T20:34:25.000Z",
+   "date": "2026-11-05T20:34:26.000Z",
    "summary": "The two companies settled billing disputes between doctors and insurers, keeping patients out of the middle. One let doctors win 96 percent of the time.",
    "image": "https://static01.nyt.com/images/2026/11/04/multimedia/04dc-arbitators-jwgf/04dc-arbitators-jwgf-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "bloomberg-business:TO1PWRXVHD6O00",
-   "feed": "bloomberg-business",
-   "title": "Stock Movers: Sandisk, CoreWeave, AppLovin (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-05/stock-movers-sandisk-coreweave-applovin-podcast",
-   "date": "2026-11-05T20:22:03.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TO1PD6V84D8G00",
-   "feed": "bloomberg-business",
-   "title": "Report: Rubio Weighs Leaving, Nvidia Slides on Market Rout, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-05/report-rubio-weighs-leaving-nvidia-slides-on-market-rout-more",
-   "date": "2026-11-05T20:10:18.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TO1ORNXVHD6O00",
-   "feed": "bloomberg-business",
-   "title": "Balance of Power: Republican Blame Game Starts (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-05/balance-of-power-republican-blame-game-starts-podcast",
-   "date": "2026-11-05T19:57:23.000Z",
-   "summary": "Source: Bloomberg, 41:25",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TO1NAKKJH6VI00",
-   "feed": "bloomberg-business",
-   "title": "Newsom Commutes Sentences of All California Death Row Inmates",
-   "link": "https://www.bloomberg.com/news/articles/2026-11-05/newsom-commutes-sentences-of-all-california-death-row-inmates",
-   "date": "2026-11-05T19:53:33.000Z",
-   "summary": "California Governor Gavin Newsom commuted the sentences of all 548 prisoners on the state’s death row, calling the punishment “morally objectionable.”",
-   "image": ""
   },
   {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/05/world/europe/bomb-threats-airline-passengers.html",
@@ -319,51 +787,6 @@
    "image": "https://www.cascadepbs.org/content/images/2026/11/HT70433-Still003.jpg"
   },
   {
-   "id": "bloomberg-business:TO1MPJKJH6V800",
-   "feed": "bloomberg-business",
-   "title": "Macro Matters: BNY’s Velis on Fed Policy, Curves and the Dollar",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-05/macro-matters-bny-s-velis-on-fed-policy-curves-and-the-dollar",
-   "date": "2026-11-05T19:20:56.000Z",
-   "summary": "With markets questioning how much further the Federal Reserve will tighten, the path of short-term rates may matter more for the yield curve than persistent fears about inflation or fiscal policy. John Velis, macro strategist for the Americas at BNY Mellon Markets, joins Bloomberg Intelligence chief US interest-rate…",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TO1JQMT9NJLS00",
-   "feed": "bloomberg-business",
-   "title": "California Voters Poised to Reject First-Ever Billionaire Tax",
-   "link": "https://www.bloomberg.com/news/articles/2026-11-05/california-voters-poised-to-reject-first-ever-billionaire-tax",
-   "date": "2026-11-05T19:15:28.000Z",
-   "summary": "California voters are on track to reject a first-of-its-kind tax on billionaires, marking the end to one of the most expensive and divisive political battles in state history.",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TO1MTAXVHD6O00",
-   "feed": "bloomberg-business",
-   "title": "Market Rout Sinks Nvidia, More House Seats Flip to Blue, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-05/market-rout-sinks-nvidia-more-house-seats-flip-to-blue-more",
-   "date": "2026-11-05T19:15:10.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/05/business/stocks-midterms-artificial-intelligence.html",
-   "feed": "nytimes-business",
-   "title": "Stocks Erase Post-Midterm Elections Rally, Dragged Down by Tech",
-   "link": "https://www.nytimes.com/2026/11/05/business/stocks-midterms-artificial-intelligence.html",
-   "date": "2026-11-05T18:57:11.000Z",
-   "summary": "The S&P 500 slumped to its worst daily decline in more than a year, dragged down by the technology sector as investors fretted about the durability of the A.I. build-out.",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TO1KTZXVHD6O00",
-   "feed": "bloomberg-business",
-   "title": "Nvidia Shares Sink, Traders Dump Anything with AI Exposure, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-05/nvidia-shares-sink-traders-dump-anything-with-ai-exposure-more",
-   "date": "2026-11-05T18:32:23.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
    "id": "semafor:https://www.semafor.com/article/11/05/2026/big-oil-sweats-the-blue-wave",
    "feed": "semafor",
    "title": "Big Oil sweats a blue setback on permitting",
@@ -382,51 +805,6 @@
    "image": "https://images.wsj.net/im-57174753"
   },
   {
-   "id": "cascadepbs:6aecd263411fef000101bd4b",
-   "feed": "cascadepbs",
-   "title": "Midterm Election Results",
-   "link": "https://www.cascadepbs.org/show/austin-insight/episode/midterm-election-results-ohoh3k/",
-   "date": "2026-11-05T18:01:37.000Z",
-   "summary": "From the top-of-the-ticket races for U.S. Senate and Governor, down to Austin's City Council and ballot propositions, the outcome of the 2026 Midterms has big implications for the balance of power in Congress and the lives of Texans and Austinites.",
-   "image": "https://www.cascadepbs.org/content/images/2026/11/a5fea1e4-b3e2-4507-ac82-8d0198008358.jpg"
-  },
-  {
-   "id": "bloomberg-business:TO1J81KIJH9900",
-   "feed": "bloomberg-business",
-   "title": "SpaceX Most at Risk as Investors Rotate Out of AI Losers",
-   "link": "https://www.bloomberg.com/news/newsletters/2026-11-05/spacex-most-at-risk-as-investors-rotate-out-of-ai-losers",
-   "date": "2026-11-05T17:57:37.000Z",
-   "summary": "Even before the backlash against data centers took shape at the ballot box, the rotation out of AI was underway. SpaceX is the biggest company to join that cohort.",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TO1J41WWD62O00",
-   "feed": "bloomberg-business",
-   "title": "Tech Tumbles as Data Center Buildout Face New Scrutiny (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-05/tech-tumbles-as-data-center-buildout-face-new-scrutiny-podcast",
-   "date": "2026-11-05T17:55:13.000Z",
-   "summary": "Source: Bloomberg, 44:07",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TO1J2CXVHD6O00",
-   "feed": "bloomberg-business",
-   "title": "Bloomberg Intelligence: Tech Plunges on AI Concerns (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-05/bloomberg-intelligence-tech-plunges-on-ai-concerns-podcast",
-   "date": "2026-11-05T17:54:12.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TO1II7V84D8G00",
-   "feed": "bloomberg-business",
-   "title": "Chipmaker Rout Deepens, More House Seats Flip to Blue, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-05/chipmaker-rout-deepens-more-house-seats-flip-to-blue-more",
-   "date": "2026-11-05T17:42:07.000Z",
-   "summary": "Source: Bloomberg, 5:17",
-   "image": ""
-  },
-  {
    "id": "wsj-business:WP-WSJ-0004038252",
    "feed": "wsj-business",
    "title": "FTC Claims Amazon Tripled Ad Prices for Black Friday, Prime Day",
@@ -436,15 +814,6 @@
    "image": "https://images.wsj.net/im-35007177"
   },
   {
-   "id": "bloomberg-business:TO1IDJUT4Z5S00",
-   "feed": "bloomberg-business",
-   "title": "Merryn Talks Money: Bad News Is Good News (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-05/merryn-talks-money-bad-news-is-good-news-podcast",
-   "date": "2026-11-05T17:39:19.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
    "id": "wsj-business:WP-WSJ-0004038225",
    "feed": "wsj-business",
    "title": "General Mills Considering Separation of Haagen-Dazs Business Outside North America",
@@ -452,60 +821,6 @@
    "date": "2026-11-05T17:38:00.000Z",
    "summary": "Planning is at an early stage and General Mills, best known for such brands as Cheerios and Lucky Charms, could ultimately retain the business, according to people familiar with the matter.",
    "image": "https://images.wsj.net/im-56064934"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004038192",
-   "feed": "wsj-business",
-   "title": "Kering Furthers Creative Overhaul With Balenciaga Design Chief Exit",
-   "link": "https://www.wsj.com/business/retail/kering-furthers-creative-overhaul-with-balenciaga-design-chief-exit-00c7f846?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-05T17:34:00.000Z",
-   "summary": "Kering said it was parting ways with Balenciaga creative director Pierpaolo Piccioli after less than 18 months, with new creative direction to be announced shortly.",
-   "image": "https://images.wsj.net/im-08278656"
-  },
-  {
-   "id": "bloomberg-business:TO1HYQKGIFQ500",
-   "feed": "bloomberg-business",
-   "title": "Texas Democrats’ Landslide Upends Money Along With Power in a GOP Bastion",
-   "link": "https://www.bloomberg.com/news/newsletters/2026-11-05/texas-democrats-landslide-upends-money-along-with-power-in-a-gop-bastion",
-   "date": "2026-11-05T17:30:26.000Z",
-   "summary": "Yes, an electoral shock will do that",
-   "image": ""
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004037189",
-   "feed": "wsj-business",
-   "title": "Health Care Roundup: Market Talk",
-   "link": "https://www.wsj.com/business/health-care-roundup-market-talk-d66d00d9?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-05T17:29:00.000Z",
-   "summary": "Find insight on Siemens Healthineers, AstraZeneca and more in the latest Market Talks covering Health Care.",
-   "image": "https://images.wsj.net/im-07626629"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004037173",
-   "feed": "wsj-business",
-   "title": "Auto & Transport Roundup: Market Talk",
-   "link": "https://www.wsj.com/business/auto-transport-roundup-market-talk-b120f508?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-05T17:26:00.000Z",
-   "summary": "Find insight on Rheinmetall, Renk, Air France-KLM and more in the latest Market Talks covering Auto and Transport.",
-   "image": "https://images.wsj.net/im-26469143"
-  },
-  {
-   "id": "bloomberg-business:TO1HP2VTTD0400",
-   "feed": "bloomberg-business",
-   "title": "BOE Governor Andrew Bailey Knows He Can’t Bank on Peace",
-   "link": "https://www.bloomberg.com/news/newsletters/2026-11-05/boe-governor-andrew-bailey-knows-he-can-t-bank-on-peace",
-   "date": "2026-11-05T17:24:38.000Z",
-   "summary": "The Bank of England is prepared for an extended bout of inflationary pressures",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TO1HDMRKV2TO00",
-   "feed": "bloomberg-business",
-   "title": "Bomb Threats Add to Mounting Woes Among European Airliners",
-   "link": "https://www.bloomberg.com/news/newsletters/2026-11-05/bomb-threats-add-to-mounting-woes-among-european-airliners",
-   "date": "2026-11-05T17:17:46.000Z",
-   "summary": "Get Caught Up.",
-   "image": ""
   },
   {
    "id": "urbanist:6aebad0399d72c000189cb52",
@@ -544,24 +859,6 @@
    "image": "https://static01.nyt.com/images/2026/11/05/multimedia/05Boe-Rates-Sub-bgkv/05Boe-Rates-Sub-bgkv-mediumSquareAt3X.jpg"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/05/technology/dario-amodei-anthropic-ai.html",
-   "feed": "nytimes-business",
-   "title": "What Shaped Anthropic CEO Dario Amodei’s Thinking on A.I.",
-   "link": "https://www.nytimes.com/2026/11/05/technology/dario-amodei-anthropic-ai.html",
-   "date": "2026-11-05T16:51:48.000Z",
-   "summary": "Some call him a doomer. Others see him as a responsible technologist. Here’s how the Anthropic chief executive’s thinking on artificial intelligence was shaped.",
-   "image": "https://static01.nyt.com/images/2026/10/29/business/00biz-amodei-profile/00biz-amodei-profile-mediumSquareAt3X.png"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004037075",
-   "feed": "wsj-business",
-   "title": "Kimberly-Clark Backs Full-Year Growth Forecast Despite China Controversy",
-   "link": "https://www.wsj.com/business/earnings/kimberly-clark-quarterly-net-up-reiterates-2026-adjusted-eps-view-59813a0a?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-05T16:45:00.000Z",
-   "summary": "The consumer-products company said organic growth in its international personal care segment declined 4.6% in the latest quarter while operating profit fell 33%, including a 17 percentage point drag from China.",
-   "image": "https://images.wsj.net/im-58529006"
-  },
-  {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/05/world/asia/bangladesh-garment-workers-protest-wage.html",
    "feed": "nytimes-business",
    "title": "Bangladesh Agrees to Raise Minimum Wage for Garment Workers After Protests",
@@ -596,6 +893,15 @@
    "date": "2026-11-05T16:00:00.000Z",
    "summary": "All of New York City Mayor Zohran Mamdani's ballot proposals passed with at least 61% of the vote. Every one of New York City Mayor Zohran Mamdani's ballot proposals passed Tuesday evening, including proposals to fast-track street safety projects, consolidate permit applications into a digital hub and make it easier…",
    "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2838502313.jpg.webp?itok=xy9_D7Qm"
+  },
+  {
+   "id": "smartcities:https://www.smartcitiesdive.com/news/voters-data-center-backlash-cities-in-spotlight-experts-say/873872/",
+   "feed": "smartcities",
+   "title": "Voters’ data center backlash puts cities in the spotlight, experts say",
+   "link": "https://www.smartcitiesdive.com/news/voters-data-center-backlash-cities-in-spotlight-experts-say/873872/",
+   "date": "2026-11-05T15:55:39.000Z",
+   "summary": "Overwhelming voter opposition could spur new state-level regulations and push local officials to demand more from data center developers on infrastructure, utilities and community impacts.",
+   "image": "https://imgproxy.divecdn.com/RelxrL-jBA54H1Eg4s-lLJ3LZliQIts85Omu3uwZacA/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMzAyNTgzNTQ5LmpwZw==.webp"
   },
   {
    "id": "wsj-business:WP-WSJ-0004037074",
@@ -670,15 +976,6 @@
    "image": "https://img.semafor.com/37dd99ffa36355204bae686172e46088aca095c4-5702x3801.jpg"
   },
   {
-   "id": "wsj-business:WP-WSJ-0004037440",
-   "feed": "wsj-business",
-   "title": "Rockwell Automation Profit Rises, Issues Fiscal Year Outlook",
-   "link": "https://www.wsj.com/business/earnings/rockwell-automation-profit-rises-issues-fiscal-year-outlook-05cf359a?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-05T14:02:00.000Z",
-   "summary": "The industrial automation and digital software company said net income jumped to $346 million, or $3.11 a share in the fourth quarter, from $138 million, or $1.23 a share, in a year ago.",
-   "image": "https://images.wsj.net/im-90621766"
-  },
-  {
    "id": "planetizen:138801 at https://www.planetizen.com",
    "feed": "planetizen",
    "title": "Bay area voters pass ‘crucial lifeline’ for transit",
@@ -695,42 +992,6 @@
    "date": "2026-11-05T13:51:25.000Z",
    "summary": "Do you know someone who can’t stop talking about their marathon? Or even worse…is it you? No need to be embarrassed—I, too, am afflicted with running my mouth about running. When I’m not talking about running, I’m thinking about buying stuff for running. Nothing makes a 10-miler go by easier than planning for some…",
    "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-11-03/image-baee9670369a522190bd654ba155de22e553ebf5-1500x1000-png/2026GG_Runners-Hero.png"
-  },
-  {
-   "id": "cascadepbs:6aec8bee411fef000101acba",
-   "feed": "cascadepbs",
-   "title": "Rahm Emanuel Says Trump Faces a Choice After the Democrats Flip Congress",
-   "link": "https://www.cascadepbs.org/show/amanpour-co/extras/rahm-emanuel-says-trump-faces-a-choice-after-the-democrats-flip-congress-mdogjn/",
-   "date": "2026-11-05T13:45:23.000Z",
-   "summary": "Democrats took the House and flipped at least seven Senate seats in a rebuke of Trump. Michigan elected its first Muslim senator, Abdul El-Sayed, while New Hampshire's Chris Pappas became the first openly gay man elected to the Senate. As allies and adversaries weigh how to deal with Trump after this defeat, former…",
-   "image": "https://www.cascadepbs.org/content/images/2026/11/de503616-6519-46af-b11d-5a1c104ddae2.jpg"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004036629",
-   "feed": "wsj-business",
-   "title": "Nintendo’s First-Half Profit Rose on Stronger Software Sales, New ‘Mario’ Movie",
-   "link": "https://www.wsj.com/business/earnings/nintendos-first-half-profit-rose-on-stronger-software-sales-new-mario-movie-917199b3?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-05T13:33:00.000Z",
-   "summary": "The Japanese videogame maker said Thursday that net profit rose 11% from a year earlier to 220.92 billion yen, equivalent to $1.39 billion, for the six months ended September.",
-   "image": "https://images.wsj.net/im-16044925"
-  },
-  {
-   "id": "cascadepbs:6aec8bee411fef000101acbb",
-   "feed": "cascadepbs",
-   "title": "November 4, 2026",
-   "link": "https://www.cascadepbs.org/show/amanpour-co/episode/november-4-2026-be0lxz/",
-   "date": "2026-11-05T13:30:23.000Z",
-   "summary": "Rahm Emanuel, former White House Chief of Staff and U.S. Ambassador to Japan, discusses Democrats’ sweeping midterm victories and what they mean for Trump’s presidency. Barbados Prime Minister Mia Mottley addresses the climate crisis and reparations. Financial Times U.S. National Editor Edward Luce and International…",
-   "image": "https://www.cascadepbs.org/content/images/2026/11/d3639cd7-9a41-4790-a716-72b703200936.jpg"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004037227",
-   "feed": "wsj-business",
-   "title": "Wendy’s Rejects $1.4 Billion Buyout Offer from Nelson Peltz’s Trian",
-   "link": "https://www.wsj.com/business/earnings/wendys-rejects-1-4-billion-buyout-offer-from-nelson-peltzs-trian-c97c7b0d?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-05T13:24:00.000Z",
-   "summary": "Wendy’s rejected an offer from Nelson Peltz’s hedge fund Trian Fund Management to buy the fast-food chain for around $1.4 billion. The rebuffed offer came as Wendy’s reported lower third-quarter profit and revenue.",
-   "image": "https://images.wsj.net/im-13986124"
   },
   {
    "id": "wsj-business:WP-WSJ-0004037243",
@@ -776,15 +1037,6 @@
    "date": "2026-11-05T13:00:00.000Z",
    "summary": "2 minutes",
    "image": ""
-  },
-  {
-   "id": "cascadepbs:6aec7e53411fef000101ac54",
-   "feed": "cascadepbs",
-   "title": "The Leftovers with Bridget Lancaster & Julia Collin Davison",
-   "link": "https://www.cascadepbs.org/podcasts/your-last-meal/2026/11/the-leftovers-with-bridget-lancaster-julia-collin-davison/",
-   "date": "2026-11-05T13:00:00.000Z",
-   "summary": "This week on \"The Leftovers ,\" never-before-heard audio from Bridget Lancaster & Julia Collin Davison, hosts of America's Test Kitchen , the most-watched show on public television! In this episode, Julia & Bridget: Learn that they share the same favorite birthday cake! Share their favorite food films & food-themed…",
-   "image": "https://www.cascadepbs.org/content/images/2026/11/leftovers_atk.png"
   },
   {
    "id": "semafor:https://www.semafor.com/article/11/05/2026/gulf-energy-companies-go-global-after-security-failures",
@@ -895,51 +1147,6 @@
    "image": "https://static01.nyt.com/images/2026/11/05/multimedia/05dc-trump-econ-01-qtbk/05dc-trump-econ-01-qtbk-mediumSquareAt3X.jpg"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/05/business/media/pc-vey-new-yorker-cartoons.html",
-   "feed": "nytimes-business",
-   "title": "In the Style of P.C. Vey: The Funniest Reader Cartoons We Received",
-   "link": "https://www.nytimes.com/2026/11/05/business/media/pc-vey-new-yorker-cartoons.html",
-   "date": "2026-11-05T10:01:47.000Z",
-   "summary": "More than 200 people answered our call for cartoons in the spirit of P.C. Vey. Here are some of the best ones.",
-   "image": ""
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/05/2026/after-midterms-europe-looks-beyond-trump",
-   "feed": "semafor",
-   "title": "After midterms, Europe looks beyond Trump",
-   "link": "https://www.semafor.com/article/11/05/2026/after-midterms-europe-looks-beyond-trump",
-   "date": "2026-11-05T09:52:46.000Z",
-   "summary": "Democrats’ sweeping midterm victory could give European allies fresh confidence to push back against President Donald Trump, weakening his leverage over countries that have previously accommodated his demands. After the midterms, “everybody is now obliged to look toward the post-Trump era,” a European diplomat told…",
-   "image": "https://img.semafor.com/e962032b37727e578c344bdc40d8980590d448ed-7867x5245.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/04/2026/house-democrats-debate-their-agenda",
-   "feed": "semafor",
-   "title": "House Democrats debate their agenda",
-   "link": "https://www.semafor.com/article/11/04/2026/house-democrats-debate-their-agenda",
-   "date": "2026-11-05T09:52:40.000Z",
-   "summary": "Hakeem Jeffries will have the largest House majority in decades next year, and he’s gearing up to use it. In comments to reporters Wednesday afternoon, Jeffries, set to be the country’s first Black speaker, said his caucus “made a promise to the country that we would fight for an affordable America, and we intend to…",
-   "image": "https://img.semafor.com/6e20253d97d996b7bbbeaede6f8a9071200df6c3-10304x6880.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/05/2026/republicans-senate-comeback-could-get-even-harder",
-   "feed": "semafor",
-   "title": "Republicans’ Senate comeback could get even harder",
-   "link": "https://www.semafor.com/article/11/05/2026/republicans-senate-comeback-could-get-even-harder",
-   "date": "2026-11-05T09:52:26.000Z",
-   "summary": "Senate Republicans are staring into the abyss. It could be very difficult for them to reclaim the chamber in two years, especially if Democrats win still-uncalled races in Mississippi and Alaska. Those seats may not be decided for days, and would represent the potential 55th and 56th seats of a Democratic majority —…",
-   "image": "https://img.semafor.com/bf6fd840ff50a7c5683d9e29b3f1bb74aa4f7910-6894x4599.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/05/2026/democrats-are-fired-up-on-ai-consensus-is-harder",
-   "feed": "semafor",
-   "title": "Democrats are fired up on AI. Consensus is harder.",
-   "link": "https://www.semafor.com/article/11/05/2026/democrats-are-fired-up-on-ai-consensus-is-harder",
-   "date": "2026-11-05T09:52:18.000Z",
-   "summary": "The News The new Democratic majority in Congress knows AI is an issue ripe for the taking. A fight is already brewing over how aggressively to regulate it. Tuesday’s election results saw more than 40 AI data center-related ballot measures passed that were designed to slow or stop growth outright. Conservative groups…",
-   "image": "https://img.semafor.com/b4203dd40564f0df01d7ea2fe2e61d9449cdffd0-1586x1080.jpg"
-  },
-  {
    "id": "morning-brew:https://www.morningbrew.com/stories/midterm-results-could-poorly-data-center-projects",
    "feed": "morning-brew",
    "title": "Midterm results could bode poorly for data center projects",
@@ -1030,105 +1237,6 @@
    "image": "https://static01.nyt.com/images/2026/11/04/multimedia/04biz-nyt-hwvf/04biz-nyt-hwvf-mediumSquareAt3X.jpg"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/04/business/media/midterm-elections-fox-ms-now.html",
-   "feed": "nytimes-business",
-   "title": "Candy and Smiles on MS NOW, and Some Regrets on Fox News",
-   "link": "https://www.nytimes.com/2026/11/04/business/media/midterm-elections-fox-ms-now.html",
-   "date": "2026-11-05T03:06:30.000Z",
-   "summary": "On TV, the outcome of the midterm elections became clear early on. Pundits celebrated and grieved by turns.",
-   "image": ""
-  },
-  {
-   "id": "cascadepbs:6aebe4f9411fef00010167dd",
-   "feed": "cascadepbs",
-   "title": "Breaking down Democrats’ majorities after blue wave",
-   "link": "https://www.cascadepbs.org/show/newshour/extras/seismic-shift-superscreen-1793821166/",
-   "date": "2026-11-05T02:01:07.000Z",
-   "summary": "The results of the midterms have set up a two-year power struggle between Trump’s White House and the incoming Democratic Congress. Lisa Desjardins takes a look at the races and the potential size of the incoming Democratic majority.",
-   "image": "https://www.cascadepbs.org/content/images/2026/11/183da704-26ce-4999-b3b4-35a8d7b89fae.jpg"
-  },
-  {
-   "id": "cascadepbs:6aebe4ef411fef00010167ce",
-   "feed": "cascadepbs",
-   "title": "Midterm voters rebuke Trump, handing Democrats power",
-   "link": "https://www.cascadepbs.org/show/newshour/extras/seismic-shift-1793829751/",
-   "date": "2026-11-05T02:01:07.000Z",
-   "summary": "Voters delivered a sweeping rebuke of President Trump and his party in the midterms, handing Democrats major victories and dramatically reshaping the balance of power in Washington. Trump now enters a lame duck phase of his second term, promising both to use his veto power, and also to work across the aisle as he…",
-   "image": "https://www.cascadepbs.org/content/images/2026/11/d0cd86f3-f80b-4a3c-bf9d-2661764f73db.jpg"
-  },
-  {
-   "id": "cascadepbs:6aebe4e4411fef00010167b2",
-   "feed": "cascadepbs",
-   "title": "Progressive Democrat William Lawrence wins in Michigan",
-   "link": "https://www.cascadepbs.org/show/newshour/extras/swing-district-1793829863/",
-   "date": "2026-11-05T02:01:07.000Z",
-   "summary": "In Michigan's 7th Congressional District, progressive activist William Lawrence unseated Republican Tom Barrett in one of the year’s most competitive House races. Lawrence joined Amna Nawaz to discuss the win and what comes next.",
-   "image": "https://www.cascadepbs.org/content/images/2026/11/2e0946c6-567b-4aa7-a905-ef8e59eaaae9.jpg"
-  },
-  {
-   "id": "cascadepbs:6aebe4d0411fef000101675f",
-   "feed": "cascadepbs",
-   "title": "Democratic, GOP strategists on how to respond to midterms",
-   "link": "https://www.cascadepbs.org/show/newshour/extras/seismic-shift-doug-and-moe-1793834800/",
-   "date": "2026-11-05T02:01:07.000Z",
-   "summary": "For perspective on how both parties are responding to the historic election wins, Geoff Bennett spoke with two strategists from both sides of the political aisle. Mo Elleithee is the former spokesman for the Democratic National Committee, and Doug Heye is a former spokesman for the Republican National Committee.",
-   "image": "https://www.cascadepbs.org/content/images/2026/11/8098793e-f79b-4d0c-bbee-3860702af89e.jpg"
-  },
-  {
-   "id": "cascadepbs:6aebe4ea411fef00010167c0",
-   "feed": "cascadepbs",
-   "title": "News Wrap: Officials in Iran welcome midterm results",
-   "link": "https://www.cascadepbs.org/show/newshour/extras/news-wrap-1793829781/",
-   "date": "2026-11-05T02:01:06.000Z",
-   "summary": "In our news wrap Wednesday, top officials in Iran welcomed the results of the U.S. midterm elections, Israeli President Isaac Herzog says he's accepted the results of last week’s election and will consult with party leaders on forming a new government and Ukraine's air force says Russia launched more than 300 drones…",
-   "image": "https://www.cascadepbs.org/content/images/2026/11/3040c746-3bbc-4c74-a97b-6cbbc804e431.jpg"
-  },
-  {
-   "id": "cascadepbs:6aebe4df411fef00010167a4",
-   "feed": "cascadepbs",
-   "title": "New Mexico's Deb Haaland on her historic election win",
-   "link": "https://www.cascadepbs.org/show/newshour/extras/historic-first-1793829900/",
-   "date": "2026-11-05T02:01:06.000Z",
-   "summary": "The election led to several historic firsts. In New Hampshire, Chris Pappas became the first openly gay man to be elected to the Senate. In Georgia, Keisha Lance Bottoms will be the first Black woman governor. And in New Mexico, Deb Haaland will make history as the first Native American woman to serve as a governor.…",
-   "image": "https://www.cascadepbs.org/content/images/2026/11/a399e20b-d8bb-477a-a6c9-ae00bb95bd90.jpg"
-  },
-  {
-   "id": "cascadepbs:6aebe4d9411fef0001016795",
-   "feed": "cascadepbs",
-   "title": "GOP mayor says election wipeout is 'rejection of Trumpism'",
-   "link": "https://www.cascadepbs.org/show/newshour/extras/gop-reckoning-1793833103/",
-   "date": "2026-11-05T02:01:06.000Z",
-   "summary": "President Trump has sought to deflect blame for the sweeping Republican losses. But within the party, some are beginning to ask whether they have been too deferential to the president — and whether the GOP needs to rethink its identity. Amna Nawaz discussed what comes next with David Holt, the Republican mayor of…",
-   "image": "https://www.cascadepbs.org/content/images/2026/11/3f24d225-2509-4c36-acdc-d5f0a5e23cc5.jpg"
-  },
-  {
-   "id": "cascadepbs:6aebe4d7411fef0001016786",
-   "feed": "cascadepbs",
-   "title": "How the Latino shift to Democrats helped turn Texas blue",
-   "link": "https://www.cascadepbs.org/show/newshour/extras/latino-vote-1793833245/",
-   "date": "2026-11-05T02:01:06.000Z",
-   "summary": "A major factor in the midterm elections was the number of Latino voters who headed to the polls and supported Democrats. For perspective on this massive swing, Amna Nawaz spoke with María Teresa Kumar, CEO of Voto Latino, an organization that helps register Hispanic and Latino voters.",
-   "image": "https://www.cascadepbs.org/content/images/2026/11/c2f97bb5-d783-4d79-ad85-11082ff8d7a7.jpg"
-  },
-  {
-   "id": "cascadepbs:6aebe4d3411fef000101676e",
-   "feed": "cascadepbs",
-   "title": "The issues that drove voters' decisions in the midterms",
-   "link": "https://www.cascadepbs.org/show/newshour/extras/amy-walter-1793834583/",
-   "date": "2026-11-05T02:01:06.000Z",
-   "summary": "For a deeper dive into the election data and why people voted the way they did, Geoff Bennett and Amna Nawaz spoke with Amy Walter of The Cook Political Report.",
-   "image": "https://www.cascadepbs.org/content/images/2026/11/c1186d67-1859-40bb-9f19-3a5214cf59e5.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/04/2026/data-center-ballot-measures-hit-home-for-tech-giants",
-   "feed": "semafor",
-   "title": "Voters' data center rebuke hits some tech companies harder than others",
-   "link": "https://www.semafor.com/article/11/04/2026/data-center-ballot-measures-hit-home-for-tech-giants",
-   "date": "2026-11-05T00:52:47.000Z",
-   "summary": "The News In Piqua, Ohio, voters on Tuesday approved a ban on large data centers and recalled the commissioners who backed Meta’s massive project there. In Trenton, less than 50 miles south, a similar ban passed. And outside Columbus, the heart of Ohio’s data center boom, voters in Ashville repealed the village’s deal…",
-   "image": "https://img.semafor.com/d890029fbe10a3de2c6f4046e1e92fb8faf0ecff-1504x846.jpg"
-  },
-  {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/04/climate/trump-fossil-fuel-energy-policy-election.html",
    "feed": "nytimes-business",
    "title": "How Trump’s Energy Policies Helped Trigger Midterm Rout",
@@ -1136,15 +1244,6 @@
    "date": "2026-11-05T00:31:07.000Z",
    "summary": "The war in Iran, efforts to promote fossil fuels and attacks on renewable energy contributed to higher prices for gas and electricity that drove voter discontent.",
    "image": "https://static01.nyt.com/images/2026/11/04/multimedia/04cli-energy-midterms-wmvb/04cli-energy-midterms-wmvb-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "cascadepbs:6aec6765411fef0001019e54",
-   "feed": "cascadepbs",
-   "title": "Interview: All of Physics in One Book with Hakeem Oluseyi",
-   "link": "https://www.cascadepbs.org/show/nova/specials/interview-all-of-physics-in-one-book-with-hakeem-oluseyi-baypxo/",
-   "date": "2026-11-05T00:15:24.000Z",
-   "summary": "Astrophysicist Hakeem Oluseyi, host of Particles of Thought, is interviewed by our Senior Producer Caitlin Saks about his new book, Why Do We Exist? The Nine Realms of the Universe That Make You Possible. They cover his path from rural Mississippi to Stanford, how stars and life form, the scale of the cosmos, time,…",
-   "image": "https://www.cascadepbs.org/content/images/2026/11/c501a984-47a2-4439-af04-2cc91048c47f.jpg"
   },
   {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/04/business/trump-lisa-cook-fed-governor.html",
@@ -1174,15 +1273,6 @@
    "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/11/img_20240307_173301466_hdr-edit-1-1-.jpg"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/04/business/midterm-elections-stock-market.html",
-   "feed": "nytimes-business",
-   "title": "Stocks Rise as Democrats Flip Control of Congress",
-   "link": "https://www.nytimes.com/2026/11/04/business/midterm-elections-stock-market.html",
-   "date": "2026-11-04T21:40:20.000Z",
-   "summary": "Markets traded higher as investors foresaw gridlock in Washington, typically a bullish signal.",
-   "image": "https://static01.nyt.com/images/2026/11/03/multimedia/03biz-midterms-stocks-mjvc/03biz-midterms-stocks-mjvc-mediumSquareAt3X.jpg"
-  },
-  {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/04/business/mcdonalds-mcrib-lawsuit.html",
    "feed": "nytimes-business",
    "title": "A Lawsuit Says the McRib Is Lacking Something You Might Expect It to Have",
@@ -1190,24 +1280,6 @@
    "date": "2026-11-04T21:24:09.000Z",
    "summary": "A judge in Chicago ruled that the class-action lawsuit could proceed.",
    "image": "https://static01.nyt.com/images/2026/11/04/multimedia/04xp-mcrib-cwpj/04xp-mcrib-cwpj-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/04/business/cvs-health-split.html",
-   "feed": "nytimes-business",
-   "title": "CVS to Split Off Drugstore Business, Ending Its Bigger-Is-Better Era",
-   "link": "https://www.nytimes.com/2026/11/04/business/cvs-health-split.html",
-   "date": "2026-11-04T21:20:03.000Z",
-   "summary": "In a breakup planned for 2028, CVS Health intends to keep together its insurance and pharmacy benefits divisions and create a separate company for its pharmacies.",
-   "image": "https://static01.nyt.com/images/2026/11/04/multimedia/04biz-cvs-breakup-zpcw/04biz-cvs-breakup-zpcw-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/04/business/musk-elections-spacex-tesla-stocks.html",
-   "feed": "nytimes-business",
-   "title": "SpaceX and Tesla Stocks Tumble After Elon Musk-Backed Candidates Lose in Texas",
-   "link": "https://www.nytimes.com/2026/11/04/business/musk-elections-spacex-tesla-stocks.html",
-   "date": "2026-11-04T21:19:27.000Z",
-   "summary": "The world’s richest person has antagonized Democrats, some of whom have signaled their intent to investigate him when they take control of Congress.",
-   "image": "https://static01.nyt.com/images/2026/11/04/multimedia/04biz-midterms-musk-market-wqlv/04biz-midterms-musk-market-wqlv-mediumSquareAt3X.jpg"
   },
   {
    "id": "wsj-business:WP-WSJ-0004034537",
@@ -1381,15 +1453,6 @@
    "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-11-03/image-7d007ac442a4ade651395a6555fe2f3a6b88065d-1500x1000-jpg/MBD_11032026_mogging_01.jpg"
   },
   {
-   "id": "streetsblog:https://usa.streetsblog.org/?p=295692",
-   "feed": "streetsblog",
-   "title": "The Simple Design Change That Could Open the Doors to Automated Rail",
-   "link": "https://usa.streetsblog.org/2026/11/04/the-simple-design-change-that-could-open-the-doors-to-automated-rail",
-   "date": "2026-11-04T05:01:00.000Z",
-   "summary": "A version of this article originally appeared on Greater Greater Washington and is republished with permission. Platform screen doors, or PSDs, provide a physical barrier between riders and open train tracks. And they may be coming in the near future to Metrorail’s Red Line in Washington, D.C. PSDs are the next step…",
-   "image": "https://usa.streetsblog.org/wp-content/uploads/sites/10/2026/11/SUO-platform-doors.jpg?w=1024"
-  },
-  {
    "id": "urbanist:6ae9fff3f791d800012214c4",
    "feed": "urbanist",
    "title": "Conservatives Take Their Swings as 2026 Election Trends Toward Progressives",
@@ -1444,24 +1507,6 @@
    "image": ""
   },
   {
-   "id": "wsj-business:WP-WSJ-0004029795",
-   "feed": "wsj-business",
-   "title": "Foodtastic Makes Hostile Bid for Rival MTY Food After Being Rejected",
-   "link": "https://www.wsj.com/business/foodtastic-makes-hostile-bid-for-rival-mty-food-after-being-rejected-1ff25f82?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-03T15:25:00.000Z",
-   "summary": "Canadian restaurant franchisor Foodtastic launched a hostile bid for MTY Food valuing its rival at roughly 982 million Canadian dollars, the equivalent of about US$702 million.",
-   "image": "https://images.wsj.net/im-95959"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004027537",
-   "feed": "wsj-business",
-   "title": "Carl Icahn’s CVR Energy Strikes $4 Billion Deal for Two Marathon Refineries",
-   "link": "https://www.wsj.com/business/deals/carl-icahns-cvr-energy-near-over-4-billion-deal-for-marathon-refineries-e8487579?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-03T14:33:00.000Z",
-   "summary": "The deal comes as global conflicts have boosted U.S. refiners’ sales.",
-   "image": "https://images.wsj.net/im-669664"
-  },
-  {
    "id": "morning-brew:https://www.morningbrew.com/stories/hackers-attacked-european-supermarket-fridges",
    "feed": "morning-brew",
    "title": "Hackers attacked European supermarket fridges",
@@ -1478,15 +1523,6 @@
    "date": "2026-11-03T05:05:00.000Z",
    "summary": "Niv Bavarsky If the people of Washington, DC are tired of having this issue forced down their throats, imagine how the ducks feel—a referendum is on the ballot in the nation’s capital today that would ban the sale of foie gras along with the practice of overfeeding ducks through a metal tube that creates the pricey…",
    "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-11-02/image-e69d5554445503e59cee518eee0762c132a63e08-1500x1000-jpg/MBD_11022026_FoieGrasVote_01.jpg"
-  },
-  {
-   "id": "streetsblog:https://usa.streetsblog.org/?p=295643",
-   "feed": "streetsblog",
-   "title": "The Races Transportation Reformers Are Watching This Midterms",
-   "link": "https://usa.streetsblog.org/2026/11/03/the-races-transportation-reformers-are-watching-this-midterms",
-   "date": "2026-11-03T05:02:00.000Z",
-   "summary": "The midterms have finally arrived — but could they help usher in a new mobility future for our relentlessly car-dependent country? Here are a few key races to watch, starting with the top of the ballot. View this post on Instagram The federal lawmakers who will write America’s next infrastructure law With 33 Senate…",
-   "image": "https://usa.streetsblog.org/wp-content/uploads/sites/10/2026/11/Voting.jpg?w=1024"
   },
   {
    "id": "morning-brew:https://www.morningbrew.com/stories/what-you-need-to-know-about-the-2026-midterms",
@@ -1532,15 +1568,6 @@
    "date": "2026-11-02T14:00:00.000Z",
    "summary": "A quiet Queen Anne street has become a battleground between the Seattle Fire Department, residents wanting to park their cars, and the simple laws of geometry, but it looks to be Seattle's own parking regulations that have lost the battle – for now. For decades, there's been an intermittent problem along the upper…",
    "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/20261007_150630-1.jpg"
-  },
-  {
-   "id": "smartcities:https://www.smartcitiesdive.com/spons/after-the-storm-passes-can-your-citys-waste-operation-keep-up/873279/",
-   "feed": "smartcities",
-   "title": "After the storm passes, can your city’s waste operation keep up?",
-   "link": "https://www.smartcitiesdive.com/spons/after-the-storm-passes-can-your-citys-waste-operation-keep-up/873279/",
-   "date": "2026-11-02T10:00:00.000Z",
-   "summary": "Cleanup is essential to post-storm community recovery. Two cities show why the systems that drive it need to be in place before the weather turns.",
-   "image": ""
   },
   {
    "id": "morning-brew:https://www.morningbrew.com/stories/in-n-out-is-expanding-in-n-out-of-california",
@@ -1768,24 +1795,6 @@
    "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-10-27/image-adf95dca66c934d158538a1fb252759f3235e716-3000x2000-jpg/MBD-GMNasdaq-1026.jpg"
   },
   {
-   "id": "morning-brew:https://www.morningbrew.com/stories/world-drinks-more-coke-products-but-not-the-us",
-   "feed": "morning-brew",
-   "title": "World drinks more Coke products but not the US",
-   "link": "https://www.morningbrew.com/stories/world-drinks-more-coke-products-but-not-the-us?utm_source=&utm_medium=syndication&utm_campaign=feed",
-   "date": "2026-10-28T05:01:00.000Z",
-   "summary": "Niv Bavarsky Foreigners slurped up Coca-Cola’s drink offerings last quarter, while Americans’ intake was as flat as an unfinished soda left out overnight. Even so, the total number of drinks the company sold globally grew by 5% in Q3, the beverage behemoth reported yesterday and upgraded its earnings projections for…",
-   "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-10-27/image-3569bce2aac0aa44375da62ab657853575db147f-1500x1000-jpg/MBD_10272026_CocaCola_01.jpg"
-  },
-  {
-   "id": "morning-brew:https://www.morningbrew.com/stories/folks-your-cheerios-can-now-be-resealed",
-   "feed": "morning-brew",
-   "title": "Folks, your Cheerios can now be resealed",
-   "link": "https://www.morningbrew.com/stories/folks-your-cheerios-can-now-be-resealed?utm_source=&utm_medium=syndication&utm_campaign=feed",
-   "date": "2026-10-28T04:03:00.000Z",
-   "summary": "Cheerios General Mills-owned Cheerios has teamed up with Ziploc to create its first resealable bag inside a traditional cereal box, ending decades of frustration from people who always knew that tab on the box did nothing to preserve freshness. It took 85 years for Cheerios to break the barrier. So why the sudden…",
-   "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-10-27/image-342b3aeb08746efca9655f2efbd61daea7113ccc-2530x1687-jpg/MBD-Cheerios-1026.jpg"
-  },
-  {
    "id": "strongtowns:https://www.strongtowns.org/journal/2026-10-28-woodland-bridge-plaza-when-a-space-becomes-a-place",
    "feed": "strongtowns",
    "title": "Woodland Bridge Plaza: When a Space Becomes a Place",
@@ -1802,15 +1811,6 @@
    "date": "2026-10-27T12:55:00.000Z",
    "summary": "Sound Transit Express buses at Federal Way Transit Center. In December 2025, Sound Transit welcomed the first passengers aboard the Federal Way Link Extension. The three new stations on the 1 Line provide improved transit connectivity for many south King County residents. An accompanying bus service change in March…",
    "image": "https://i0.wp.com/seattletransitblog.com/wp-content/uploads/2026/10/IMG_3411.jpg?resize=525%2C394&#038;ssl=1"
-  },
-  {
-   "id": "morning-brew:https://www.morningbrew.com/stories/nba-joins-with-prediction-markets-to-boost-integrity",
-   "feed": "morning-brew",
-   "title": "NBA joins with prediction markets to boost integrity",
-   "link": "https://www.morningbrew.com/stories/nba-joins-with-prediction-markets-to-boost-integrity?utm_source=&utm_medium=syndication&utm_campaign=feed",
-   "date": "2026-10-27T04:05:00.000Z",
-   "summary": "Marcin Golba/Getty Images That Onion-esque headline is real. The NBA announced yesterday that it is partnering with Polymarket and Kalshi as part of a push to protect “the integrity of the game.” The move comes as the league grapples with recent sports betting scandals and prediction markets face legal challenges…",
-   "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-10-26/image-f2a8f0eb32e6e99d391a91963722845b8ee7a2c0-3636x2424-jpg/GettyImages-2289914701.jpg"
   },
   {
    "id": "stb:https://seattletransitblog.com/?p=149922",
