@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T06:53:32.173Z",
+ "updated": "2026-11-07T19:18:59.103Z",
  "feeds": [
   {
    "id": "planetizen",
@@ -121,13 +121,202 @@
  ],
  "items": [
   {
-   "id": "bloomberg-business:TNUFOWT96OSG00",
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/07/business/media/zelda-ocarina-of-time-remake-nintendo.html",
+   "feed": "nytimes-business",
+   "title": "A ‘Legend of Zelda’ Game Is Reborn and ’90s Nostalgia Fans Are All In",
+   "link": "https://www.nytimes.com/2026/11/07/business/media/zelda-ocarina-of-time-remake-nintendo.html",
+   "date": "2026-11-07T18:52:25.000Z",
+   "summary": "Nintendo’s “Legend of Zelda: Ocarina of Time” was released in 1998. Now, its remake has some fans giddily reliving their childhoods.",
+   "image": "https://static01.nyt.com/images/2026/11/07/multimedia/00xp-zelda-03/00xp-zelda-03-mediumSquareAt3X.png"
+  },
+  {
+   "id": "urbanist:6aed195f1c94aa000162f684",
+   "feed": "urbanist",
+   "title": "Seattle Times Columnist Still Struggling with Middle Housing Concept",
+   "link": "https://www.theurbanist.org/seattle-times-columnist-still-struggling-with-middle-housing-concept/",
+   "date": "2026-11-07T18:38:38.000Z",
+   "summary": "Seattle Times opinion columnist Alex Fryer is back at it with some deep housing thoughts. His Sunday column titled \" How to fix Seattle’s ‘middle housing’ mess \" piece is a mess in its own right. Whether through willful ignorance or sincere befuddlement, Fryer is pretty lost when it comes to middle housing. He gets…",
+   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/11/Alex-Fryer-Photo-1-.jpg"
+  },
+  {
+   "id": "bloomberg-business:TO5A3TO2LL3700",
    "feed": "bloomberg-business",
-   "title": "Counting Begins in New Zealand Election That’s Too Close to Call",
-   "link": "https://www.bloomberg.com/news/articles/2026-11-07/counting-begins-in-new-zealand-election-that-s-too-close-to-call",
-   "date": "2026-11-07T06:08:21.000Z",
-   "summary": "Vote counting is underway in New Zealand’s closely fought election, with neither major political bloc assured of victory and the shape of the next government potentially hinging on whether the centrist Opportunity Party enters parliament for the first time.",
+   "title": "GOP Flips Georgia State Race, Rubio Headsto G7, WH Shakeup",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-07/gop-flips-georgia-state-race-rubio-headsto-g7-wh-shakeup",
+   "date": "2026-11-07T18:31:05.000Z",
+   "summary": "Source: Bloomberg, 0:00",
    "image": ""
+  },
+  {
+   "id": "bloomberg-business:TO56HNO32FWG00",
+   "feed": "bloomberg-business",
+   "title": "Gunman Kills 5 in Poland, Rubio Heads to G7 Amid WH Shakeup",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-07/gunman-kills-5-in-poland-rubio-heads-to-g7-amid-wh-shakeup",
+   "date": "2026-11-07T17:12:59.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TO55K3V84D8G00",
+   "feed": "bloomberg-business",
+   "title": "Bloomberg Businessweek Daily: Chip Stocks Rebound (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-07/bloomberg-businessweek-daily-chip-stocks-rebound-podcast",
+   "date": "2026-11-07T16:52:51.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TO5341R24U8X00",
+   "feed": "bloomberg-business",
+   "title": "How Bankrupt Wine Distributor RNDC Preserved 6,000 Jobs",
+   "link": "https://www.bloomberg.com/news/newsletters/2026-11-07/how-bankrupt-wine-distributor-rndc-preserved-6-000-jobs",
+   "date": "2026-11-07T16:00:01.000Z",
+   "summary": "RNDC’s creditors were rewarded for their patience with a near-full recovery",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TO5323WWD62O00",
+   "feed": "bloomberg-business",
+   "title": "Bloomberg This Weekend: Trump Cabinet Changes (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-07/bloomberg-this-weekend-trump-cabinet-changes-podcast",
+   "date": "2026-11-07T15:58:51.000Z",
+   "summary": "Source: Bloomberg, 29:20",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TO52SPO32FWG00",
+   "feed": "bloomberg-business",
+   "title": "Berkshire Boosts Buybacks as Earnings Slide, WH Shakeup, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-07/berkshire-boosts-buybacks-as-earnings-slide-wh-shakeup-more",
+   "date": "2026-11-07T15:53:14.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004043987",
+   "feed": "wsj-business",
+   "title": "Berkshire Hathaway’s Quarterly Profit Falls After Investment Gains Shrink",
+   "link": "https://www.wsj.com/business/earnings/berkshire-hathaway-brkb-q3-earnings-report-2026-stock-02843721?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-07T15:14:00.000Z",
+   "summary": "The conglomerate posted a 28% decline in quarterly net income after investment gains slumped and its insurance operations reported lower profits.",
+   "image": "https://images.wsj.net/im-94495623"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/07/science/heart-drugs-failed-novartis-novo-nordisk.html",
+   "feed": "nytimes-business",
+   "title": "How Cardiologists’ High Hopes for Two Drugs Were Dashed",
+   "link": "https://www.nytimes.com/2026/11/07/science/heart-drugs-failed-novartis-novo-nordisk.html",
+   "date": "2026-11-07T14:50:04.000Z",
+   "summary": "By every measure, the drugs were no better than placebos, full data revealed on Saturday. Was it the fault of the design of the studies, or our very hypotheses about heart disease?",
+   "image": "https://static01.nyt.com/images/2026/11/10/multimedia/07Sci-heart-drugs-01b-kqzj/07Sci-heart-drugs-01b-kqzj-mediumSquareAt3X-v2.jpg"
+  },
+  {
+   "id": "bloomberg-business:TO17FZKJH6V500",
+   "feed": "bloomberg-business",
+   "title": "Novartis Abandons Heart Drug After Surprising Failure in Key Study",
+   "link": "https://www.bloomberg.com/news/articles/2026-11-07/novartis-abandons-heart-drug-after-surprising-failure-in-key-study",
+   "date": "2026-11-07T14:50:00.000Z",
+   "summary": "Novartis AG is largely abandoning an experimental drug analysts once considered a potential blockbuster after a study found it had little promise for preventing heart attacks and cardiovascular deaths.",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TNY7PQKK3NY800",
+   "feed": "bloomberg-business",
+   "title": "Inflation Fears Return as Corporate America Counts the Cost",
+   "link": "https://www.bloomberg.com/news/articles/2026-11-07/inflation-fears-return-as-corporate-america-counts-the-cost",
+   "date": "2026-11-07T14:00:00.000Z",
+   "summary": "Mentions of inflation on S&P 500 earnings calls have reached the highest level in more than two years, underscoring growing concerns over skyrocketing costs and weakening consumer confidence.",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TO4WPOUT4Z5S00",
+   "feed": "bloomberg-business",
+   "title": "Berkshire Hathaway’s Operating Earnings Fall, Trump WH Shakeup",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-07/berkshire-hathaway-s-operating-earnings-fall-trump-wh-shakeup",
+   "date": "2026-11-07T13:41:48.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/07/business/dealbook/crosby-ai-agent-liability-malpractice-insurance.html",
+   "feed": "nytimes-business",
+   "title": "Law Firms Have Malpractice Insurance. Should Their A.I. Agents?",
+   "link": "https://www.nytimes.com/2026/11/07/business/dealbook/crosby-ai-agent-liability-malpractice-insurance.html",
+   "date": "2026-11-07T13:00:06.000Z",
+   "summary": "Crosby, an A.I. law firm, bought it for them. The move speaks to a nascent gap in coverage as major insurers grapple with risks related to artificial intelligence.",
+   "image": "https://static01.nyt.com/images/2026/11/07/multimedia/07DB-AI-INSURANCE-01-qkvt/07DB-AI-INSURANCE-01-qkvt-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "planetizen:138829 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "Los Angeles just elected an urban planner as its mayor",
+   "link": "https://www.planetizen.com/news/2026/11/138829-los-angeles-just-elected-urban-planner-its-mayor",
+   "date": "2026-11-07T13:00:00.000Z",
+   "summary": "As mayor, Raman will become chair of Metro’s board and oversee the city’s transportation department. Nithya Raman, who holds a graduate degree in urban planning from the Massachusetts Institute of Technology, is officially Los Angeles' Mayor-elect. Raman campaigned on getting Metro the tens of millions in funding it…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2750682105.jpg.webp?itok=xK509yZW"
+  },
+  {
+   "id": "bloomberg-business:TO4U3KO2LL3500",
+   "feed": "bloomberg-business",
+   "title": "WH Staff Shakeup, Axios: Vance Negotiating New Iran Deal, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-07/wh-staff-shakeup-axios-vance-negotiating-new-iran-deal-more",
+   "date": "2026-11-07T12:45:20.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TO4OPJKJH6V400",
+   "feed": "bloomberg-business",
+   "title": "Russia Takes More Japan Tobacco Assets After Seizures Hit Shares",
+   "link": "https://www.bloomberg.com/news/articles/2026-11-07/russia-takes-more-japan-tobacco-assets-after-seizures-hit-shares",
+   "date": "2026-11-07T12:08:27.000Z",
+   "summary": "Russia has moved to take control of more Russian assets of Japan Tobacco Inc., broadening the seizures that sent the company’s share price tumbling on Friday.",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TO4RBKKJH6V400",
+   "feed": "bloomberg-business",
+   "title": "ACS Says It Hasn’t Considered Tender Offer for Hochtief",
+   "link": "https://www.bloomberg.com/news/articles/2026-11-07/acs-says-it-hasn-t-considered-tender-offer-for-hochtief",
+   "date": "2026-11-07T11:58:32.000Z",
+   "summary": "Spanish engineering company ACS SA said it is has not considered a tender offer for its listed German subsidiary Hochtief AG, nor is it contemplating a sale of Hochtief-owned US builder Turner Construction Co.’s shares.",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TO4QBTUT4Z5S00",
+   "feed": "bloomberg-business",
+   "title": "Trump Shakes Up WH Staff, Axios: Vance in Talks with Iran, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-07/trump-shakes-up-wh-staff-axios-vance-in-talks-with-iran-more",
+   "date": "2026-11-07T11:23:53.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004030474",
+   "feed": "wsj-business",
+   "title": "News Quiz for Nov. 7, 2026",
+   "link": "https://www.wsj.com/business/media/news-quiz-for-nov-7-2026-b4589af9?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-07T11:00:00.000Z",
+   "summary": "Test your knowledge of the week’s events with The Wall Street Journal News Quiz.",
+   "image": "https://images.wsj.net/im-23096731"
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004043058",
+   "feed": "wsj-business",
+   "title": "They Can Barely Drive, but They’re Flying Planes: The Surprising Rise of Teen Pilots",
+   "link": "https://www.wsj.com/business/airlines/they-can-barely-drive-but-theyre-flying-planes-the-surprising-rise-of-teen-pilots-28446f72?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-07T10:30:00.000Z",
+   "summary": "Nathalia Filgueiras, the 20-year-old co-pilot in a fatal Learjet crash, was part of a growing wave of young people getting an early start in aviation careers.",
+   "image": "https://images.wsj.net/im-73666662"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/07/business/economy/nvidia-chips-chinese-firms.html",
+   "feed": "nytimes-business",
+   "title": "U.S. Cleared Nvidia Chips to Chinese Firms With Empty Offices and Troubling Ties",
+   "link": "https://www.nytimes.com/2026/11/07/business/economy/nvidia-chips-chinese-firms.html",
+   "date": "2026-11-07T10:00:41.000Z",
+   "summary": "The Commerce Department has approved dozens of Chinese companies to handle Nvidia’s H200 chips, some of which have ties to firms under sanctions over national security.",
+   "image": "https://static01.nyt.com/images/2026/11/07/multimedia/07dc-china-chips-01-fjhg/07dc-china-chips-01-fjhg-mediumSquareAt3X.jpg"
   },
   {
    "id": "morning-brew:https://www.morningbrew.com/stories/tesla-is-pulling-the-plug-on-the-cybertruck",
@@ -137,15 +326,6 @@
    "date": "2026-11-07T06:01:00.000Z",
    "summary": "Morning Brew Inc. The most common reason for someone to start posting pictures from the highway will soon be no more. Tesla will stop producing the Cybertruck at its Texas Gigafactory by mid-2027, Elon Musk said yesterday. Musk said the move is meant to make room for the company’s autonomous Cybercab. The decision to…",
    "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-11-06/image-5bccf1d397c6ffccbf59f0cc5fb558b47d51eca2-1500x1000-jpg/MBD_Cybertruck_SM_1126.jpg"
-  },
-  {
-   "id": "bloomberg-business:TO04Y4T9NJLV00",
-   "feed": "bloomberg-business",
-   "title": "LA Port Strike Threat Deferred Again as Labor Talks Drag On",
-   "link": "https://www.bloomberg.com/news/articles/2026-11-07/la-port-strike-threat-deferred-again-as-labor-talks-drag-on",
-   "date": "2026-11-07T06:00:27.000Z",
-   "summary": "The union representing about 250 security workers at the US’s busiest ports agreed to continue negotiations on a new labor contract for two more weeks, their employers said.",
-   "image": ""
   },
   {
    "id": "bloomberg-business:TO47R1KJH6V400",
@@ -350,27 +530,9 @@
    "feed": "nytimes-business",
    "title": "Paraguay’s President Removed and Arrested Over Financial Crisis",
    "link": "https://www.nytimes.com/2026/11/06/world/americas/paraguay-president-removed-ueno.html",
-   "date": "2026-11-07T01:29:30.000Z",
+   "date": "2026-11-07T01:29:31.000Z",
    "summary": "Santiago Peña was impeached, removed from office and placed under house arrest after a bank with close ties to his administration went under.",
    "image": "https://static01.nyt.com/images/2026/11/06/multimedia/06int-Paraguay-WTK-glwt/06int-Paraguay-WTK-glwt-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "bloomberg-business:TO3XWRV84D8G00",
-   "feed": "bloomberg-business",
-   "title": "Trump Names Miller Chief of Staff, Axios: Vance Leads Iran Push",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-07/trump-names-miller-chief-of-staff-axios-vance-leads-iran-push",
-   "date": "2026-11-07T01:10:03.000Z",
-   "summary": "Source: Bloomberg, 6:07",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TO3XHTR24U8000",
-   "feed": "bloomberg-business",
-   "title": "What Democrat Party’s Victories in US Midterms Means for Asia",
-   "link": "https://www.bloomberg.com/news/newsletters/2026-11-07/what-democrat-party-s-victories-in-us-midterms-means-for-asia",
-   "date": "2026-11-07T01:01:05.000Z",
-   "summary": "Democratic Party victories have changed the outlook for America, but how will they affect Asia?",
-   "image": ""
   },
   {
    "id": "urbanist:6aee5bf01c94aa0001630e74",
@@ -380,15 +542,6 @@
    "date": "2026-11-07T00:20:30.000Z",
    "summary": "This week Seattle Budget Chair Dan Strauss presented his budget balancing package amending Mayor Katie Wilson’s proposed 2027-2028 budget . In spite of a less than stellar revenue forecast in October, Strauss was able to find plenty of money to allow councilmembers to include their own priorities into the budget…",
    "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/11/data-src-image-66a11c14-dffe-4c45-a7a6-be2eb8d3f22f-1-.png"
-  },
-  {
-   "id": "bloomberg-business:TO3VIPO2LL3400",
-   "feed": "bloomberg-business",
-   "title": "Stephen Miller New Chief of Staff, Axios: Vance Leads Iran Push",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-07/stephen-miller-new-chief-of-staff-axios-vance-leads-iran-push",
-   "date": "2026-11-07T00:18:25.000Z",
-   "summary": "Source: Bloomberg, 5:30",
-   "image": ""
   },
   {
    "id": "cascadepbs:6aee6c65411fef0001027934",
@@ -407,24 +560,6 @@
    "date": "2026-11-07T00:00:30.000Z",
    "summary": "",
    "image": "https://www.cascadepbs.org/content/images/2026/11/ed8f24bd-ba4b-4f84-a704-48927c541787.jpg"
-  },
-  {
-   "id": "bloomberg-business:TO3UO1KIP3JW00",
-   "feed": "bloomberg-business",
-   "title": "Hong Kong Restaurant Review: The Boar Serves British Pub Food Made for Foodies",
-   "link": "https://www.bloomberg.com/news/articles/2026-11-07/hong-kong-restaurant-review-the-boar-serves-british-pub-food-made-for-foodies",
-   "date": "2026-11-07T00:00:01.000Z",
-   "summary": "The fish and chips as well as the sticky toffee pudding were standouts.",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TO3U3QV84D8G00",
-   "feed": "bloomberg-business",
-   "title": "Bloomberg Hot Pursuit!: Ford's Mike Levine (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-06/bloomberg-hot-pursuit-ford-s-mike-levine-podcast",
-   "date": "2026-11-06T23:47:50.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
   },
   {
    "id": "wsj-business:WP-WSJ-0004043302",
@@ -454,33 +589,6 @@
    "image": "https://www.cascadepbs.org/content/images/2026/11/ce1c9df4-6c03-40a9-869a-2343b123a1d2.jpg"
   },
   {
-   "id": "bloomberg-business:TO3SK3O2LL3600",
-   "feed": "bloomberg-business",
-   "title": "Masters in Business: Ann Berry (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-06/masters-in-business-ann-berry-podcast",
-   "date": "2026-11-06T23:14:27.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TO3SJIXVHD6O00",
-   "feed": "bloomberg-business",
-   "title": "Miller New Chief of Staff, OpenAI Closes Funding at $1.25T Value",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-06/miller-new-chief-of-staff-openai-closes-funding-at-1-25t-value",
-   "date": "2026-11-06T23:14:06.000Z",
-   "summary": "Source: Bloomberg, 4:54",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TO3RVKVTTCZU00",
-   "feed": "bloomberg-business",
-   "title": "Anthropic IPO Seen as AI’s Reckoning: Evening Briefing Americas",
-   "link": "https://www.bloomberg.com/news/newsletters/2026-11-06/anthropic-ipo-seen-as-ai-s-reckoning-evening-briefing-americas",
-   "date": "2026-11-06T22:59:44.000Z",
-   "summary": "Get caught up.",
-   "image": ""
-  },
-  {
    "id": "cascadepbs:6aee6307411fef000102738c",
    "feed": "cascadepbs",
    "title": "Rahm Emanuel Q&A",
@@ -499,24 +607,6 @@
    "image": "https://static01.nyt.com/images/2026/11/06/multimedia/2026-11-06-jobs-promo-index/2026-11-06-jobs-promo-index-mediumSquareAt3X.png"
   },
   {
-   "id": "bloomberg-business:TO3PO9O2LL3800",
-   "feed": "bloomberg-business",
-   "title": "Bloomberg Money: November 6th 2026 (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-06/bloomberg-money-november-6th-2026-podcast",
-   "date": "2026-11-06T22:12:10.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TO3PIRV84D8G00",
-   "feed": "bloomberg-business",
-   "title": "Stock Movers: Marvell, Cleanspark, Applovin (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-06/stock-movers-marvell-cleanspark-applovin-podcast",
-   "date": "2026-11-06T22:08:51.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/06/us/politics/susie-wiles-calley-means-joe-rogan.html",
    "feed": "nytimes-business",
    "title": "Susie Wiles, Trump’s Chief of Staff, Is Accused of Blocking Health Policies to Attract Donations",
@@ -524,15 +614,6 @@
    "date": "2026-11-06T22:03:52.000Z",
    "summary": "In a no-holds-barred interview with Joe Rogan, Calley Means, a former top health adviser, accused Susie Wiles of repeatedly bowing to lobbying pressures and fixating on campaign contributions.",
    "image": "https://static01.nyt.com/images/2026/11/06/us/0dc-wiles-means-promo/0dc-wiles-means-promo-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "bloomberg-business:TO3P8YO32FWG00",
-   "feed": "bloomberg-business",
-   "title": "Miller New Chief of Staff, OpenAI Ends Funding at $1.25T Value",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-06/miller-new-chief-of-staff-openai-ends-funding-at-1-25t-value",
-   "date": "2026-11-06T22:02:58.000Z",
-   "summary": "Source: Bloomberg, 5:48",
-   "image": ""
   },
   {
    "id": "wsj-business:WP-WSJ-0004041082",
@@ -580,15 +661,6 @@
    "image": "https://static01.nyt.com/images/2026/11/06/multimedia/06biz-farm-vote-01-hlmz/06biz-farm-vote-01-hlmz-mediumSquareAt3X.jpg"
   },
   {
-   "id": "wsj-business:WP-WSJ-0003976747",
-   "feed": "wsj-business",
-   "title": "Readers Remember Their Favorite Small Businesses",
-   "link": "https://www.wsj.com/business/entrepreneurship/reader-stories-small-business-3679b083?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-06T20:00:00.000Z",
-   "summary": "We asked people about the places that meant so much to them. The consensus: They don’t make them like that these days.",
-   "image": "https://images.wsj.net/im-05465970"
-  },
-  {
    "id": "semafor:https://www.semafor.com/article/11/06/2026/trump-elevates-stephen-miller-after-midterms-disaster",
    "feed": "semafor",
    "title": "Trump elevates Stephen Miller after midterms disaster",
@@ -614,15 +686,6 @@
    "date": "2026-11-06T18:58:23.000Z",
    "summary": "Secrecy, debt and soaring fuel costs all contributed to the Odyssey’s downfall. Here’s an inside look at how the “endless cruise” unraveled.",
    "image": "https://static01.nyt.com/images/2026/11/05/multimedia/05trav-cruise-lkwz/05trav-cruise-lkwz-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004041969",
-   "feed": "wsj-business",
-   "title": "Partner Who Was Poised to Lead Weil Gotshal Is Joining Kirkland & Ellis",
-   "link": "https://www.wsj.com/business/partner-who-was-poised-to-lead-weil-gotshal-is-joining-kirkland-ellis-d1b6ff23?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-06T17:51:00.000Z",
-   "summary": "Ramona Nee, a star private-equity lawyer, will work for a firm whose scale she wanted to emulate.",
-   "image": "https://images.wsj.net/im-46440767"
   },
   {
    "id": "semafor:https://www.semafor.com/article/11/06/2026/theres-a-silver-lining-for-data-center-builders-amid-the-blue-wave",
@@ -931,15 +994,6 @@
    "image": "https://static01.nyt.com/images/2026/11/06/multimedia/06db-nasdaq-jmfb/06db-nasdaq-jmfb-mediumSquareAt3X.jpg"
   },
   {
-   "id": "planetizen:138800 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "Post election, Texas is no longer Musk’s 'AI oasis'",
-   "link": "https://www.planetizen.com/news/2026/11/138800-post-election-texas-no-longer-musks-ai-oasis",
-   "date": "2026-11-06T13:00:00.000Z",
-   "summary": "The day after the election, Musk wrote on X: “Data centers in space looking pretty appealing right now.” Despite Elon Musk spending roughly $446 million on the 2026 midterm election, the most ever spent by a non-canidate, nearly all of his preferred candidates lost. Now, with Texas Democrat Gina Hinojosa besting Greg…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2587639919.jpg.webp?itok=XshRsNLS"
-  },
-  {
    "id": "planetizen:138814 at https://www.planetizen.com",
    "feed": "planetizen",
    "title": "General or specialized training: Is US planning education fit for the future?",
@@ -947,6 +1001,15 @@
    "date": "2026-11-06T13:00:00.000Z",
    "summary": "Aiming to create generalists with a specialty is still a useful way to organize education for beginning planners, but for others, more tailored strategies may be more relevant. Planning education has been in place in its current form for some time — is it time for something new? Much of the pedagogy that was emerging…",
    "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2596160869.jpg.webp?itok=kiJRiYzn"
+  },
+  {
+   "id": "planetizen:138800 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "Post election, Texas is no longer Musk’s 'AI oasis'",
+   "link": "https://www.planetizen.com/news/2026/11/138800-post-election-texas-no-longer-musks-ai-oasis",
+   "date": "2026-11-06T13:00:00.000Z",
+   "summary": "The day after the election, Musk wrote on X: “Data centers in space looking pretty appealing right now.” Despite Elon Musk spending roughly $446 million on the 2026 midterm election, the most ever spent by a non-canidate, nearly all of his preferred candidates lost. Now, with Texas Democrat Gina Hinojosa besting Greg…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2587639919.jpg.webp?itok=XshRsNLS"
   },
   {
    "id": "wsj-business:WP-WSJ-0004041167",
@@ -1120,15 +1183,6 @@
    "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-11-05/image-efc38a0288a3ea19afb4311d9c4c129ed8092558-1500x1001-jpg/MBD-Canva-1026.jpg"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/05/business/stocks-midterms-artificial-intelligence.html",
-   "feed": "nytimes-business",
-   "title": "Stocks Erase Post-Midterm Elections Rally, Dragged Down by Tech",
-   "link": "https://www.nytimes.com/2026/11/05/business/stocks-midterms-artificial-intelligence.html",
-   "date": "2026-11-06T00:48:29.000Z",
-   "summary": "The S&P 500 slumped to its worst daily decline since April 2025 and the tech-heavy Nasdaq entered correction territory, as investors fretted about the durability of the A.I. build-out.",
-   "image": ""
-  },
-  {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/05/health/bird-flu-death-us.html",
    "feed": "nytimes-business",
    "title": "Bird Flu Death in Washington State Renews Concern Over the Virus",
@@ -1192,15 +1246,6 @@
    "image": "https://images.wsj.net/im-20474778"
   },
   {
-   "id": "wsj-business:WP-WSJ-0004038751",
-   "feed": "wsj-business",
-   "title": "Dropbox Revenue Ticks Up as Paying Users Rise",
-   "link": "https://www.wsj.com/business/earnings/dropbox-revenue-ticks-up-as-paying-users-rise-31f69a42?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-05T21:41:00.000Z",
-   "summary": "The company recorded 18.2 million paying users, up from 18.07 million the year before.",
-   "image": "https://images.wsj.net/im-65022460"
-  },
-  {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/05/world/europe/klaus-michael-kuhne-dead.html",
    "feed": "nytimes-business",
    "title": "Klaus-Michael Kühne Has Died. His Company Played a Dark Role in Nazi Germany.",
@@ -1228,15 +1273,6 @@
    "image": "https://static01.nyt.com/images/2026/11/05/multimedia/05int-bomb-threats-scene01-photo-bqtk/05int-bomb-threats-scene01-photo-bqtk-mediumSquareAt3X.jpg"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/05/technology/ai-safety-school-chromebooks-google-lawsuit.html",
-   "feed": "nytimes-business",
-   "title": "Parents Sue Google Over A.I. Safety Risks on School Chromebooks",
-   "link": "https://www.nytimes.com/2026/11/05/technology/ai-safety-school-chromebooks-google-lawsuit.html",
-   "date": "2026-11-05T19:27:58.000Z",
-   "summary": "A student made plans to end her life after chatting with Google’s artificial intelligence, a new lawsuit claims, amid mounting concerns about online harms to children.",
-   "image": "https://static01.nyt.com/images/2026/10/26/multimedia/26biz-Chromebook-harms-qwlb/26biz-Chromebook-harms-qwlb-mediumSquareAt3X.jpg"
-  },
-  {
    "id": "wsj-business:WP-WSJ-0004038225",
    "feed": "wsj-business",
    "title": "General Mills Considering Separation of Haagen-Dazs Business Outside North America",
@@ -1253,24 +1289,6 @@
    "date": "2026-11-05T17:10:16.000Z",
    "summary": "Nilu Jenks has won a Seattle City Council seat based on the decisive 17-point lead she ran up on election night. That lead is likely to grow as more votes are counted in coming days, since last-minute votes lean progressive in Seattle. Jenks' lead held steady in Wednesday's ballot drop . A progressive advocate, Jenks…",
    "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/11/IMG_9496_iywhbe-1-.jpg"
-  },
-  {
-   "id": "planetizen:138804 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "Chicago voters approve permanent festival grounds, penalty for vacant property owners",
-   "link": "https://www.planetizen.com/news/2026/11/138804-chicago-voters-approve-permanent-festival-grounds-penalty-vacant-property",
-   "date": "2026-11-05T17:00:00.000Z",
-   "summary": "Revenue from penalizing owners of vacant lots will go towards funding schools in Chicago. At the polls on Tuesday, Chicagoans voted for the city to explore creating a permanent space to host festivals and other large events. Currently, major summer and fall festivals take over public parks for weeks at a time,…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2529414689.jpg.webp?itok=DG-MfuIg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/05/world/asia/bangladesh-garment-workers-protest-wage.html",
-   "feed": "nytimes-business",
-   "title": "Bangladesh Agrees to Raise Minimum Wage for Garment Workers After Protests",
-   "link": "https://www.nytimes.com/2026/11/05/world/asia/bangladesh-garment-workers-protest-wage.html",
-   "date": "2026-11-05T16:35:52.000Z",
-   "summary": "Hundreds of garment factories were shut down this week as workers in the country, the world’s second-largest exporter of clothing, demonstrated for higher pay.",
-   "image": "https://static01.nyt.com/images/2026/11/05/multimedia/05vid-bangladesh-cover-jtbq/05vid-bangladesh-cover-jtbq-mediumSquareAt3X.jpg"
   },
   {
    "id": "smartcities:https://www.smartcitiesdive.com/news/nyc-pied-a-terre-tax-rollout-can-proceed-appeals-court-rules/873879/",
@@ -1316,15 +1334,6 @@
    "date": "2026-11-05T13:20:00.000Z",
    "summary": "The struggling burger chain backed its own turnaround bid instead of being taken private by Nelson Peltz’s hedge fund.",
    "image": "https://images.wsj.net/im-19787036"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/05/business/dealbook/texas-blue-wave-business-fallout.html",
-   "feed": "nytimes-business",
-   "title": "The Texas-size Political Tremor Rattling Big Business",
-   "link": "https://www.nytimes.com/2026/11/05/business/dealbook/texas-blue-wave-business-fallout.html",
-   "date": "2026-11-05T12:41:27.000Z",
-   "summary": "The Lone Star State’s business-friendly playbook could be rewritten by the Democrats’ election sweep there.",
-   "image": "https://static01.nyt.com/images/2026/11/05/multimedia/05db-hinojosa-jvpm/05db-hinojosa-jvpm-mediumSquareAt3X.jpg"
   },
   {
    "id": "wsj-business:WP-WSJ-0004035711",
@@ -1730,15 +1739,6 @@
    "date": "2026-10-30T19:26:11.000Z",
    "summary": "We’re pleased to announce another session of our “inexcusably fun” two day course in transit network design , in Washington DC right after the TRB conference . Date: January 14, 2027–January 15, 2027 (both days 9:00 am-5:00 pm EDT) Location: Near Franklin Park (McPherson Square station), Washington DC Cost: $745.00…",
    "image": "https://humantransit.org/wp-content/uploads/Good-course-photo-1080x960.jpg"
-  },
-  {
-   "id": "urbanist:6ae3c481833d4b0001acc476",
-   "feed": "urbanist",
-   "title": "Urbanist Canvass, Meetup with House our Neighbors, and Winter Holiday Party",
-   "link": "https://www.theurbanist.org/urbanist-canvass-meetup-with-house-our-neighbors-and-winter-holiday-party/",
-   "date": "2026-10-30T16:50:29.000Z",
-   "summary": "This Sunday afternoon, we are joining Nilu Jenks ( who we endorsed ) for a canvass in Northgate . Come show your support for an urbanist city council candidate, and get your ballot in if you haven't already! On November 12th, The Urbanist is joining House Our Neighbors for a social at Teku Tavern. House Our Neighbors…",
-   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/Kirkland-Tour-Post-Photo.jpeg"
   },
   {
    "id": "stb:https://seattletransitblog.com/?p=150256",
