@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T06:59:08.182Z",
+ "updated": "2026-11-08T19:27:00.541Z",
  "feeds": [
   {
    "id": "planetizen",
@@ -98,7 +98,7 @@
    "color": "#1f1f1f",
    "topic": "Business & finance",
    "ok": true,
-   "count": 20
+   "count": 15
   },
   {
    "id": "morning-brew",
@@ -120,6 +120,258 @@
   }
  ],
  "items": [
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/08/us/politics/rubio-nvidia-ceo-chinese-spy.html",
+   "feed": "nytimes-business",
+   "title": "Rubio Warned Officials About Nvidia Chief’s Entanglement With Chinese Spy",
+   "link": "https://www.nytimes.com/2026/11/08/us/politics/rubio-nvidia-ceo-chinese-spy.html",
+   "date": "2026-11-08T18:37:04.000Z",
+   "summary": "The secretary of state’s role in drafting a secret memo highlights how top officials were concerned by last spring about Jensen Huang’s relationship with a woman tied to Chinese intelligence.",
+   "image": "https://static01.nyt.com/images/2026/11/08/multimedia/08dc-spy-chip-lkzp/08dc-spy-chip-lkzp-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "bloomberg-business:TO74WNV84D8G00",
+   "feed": "bloomberg-business",
+   "title": "Democrats to Tackle Costs & Corruption, DOJ Defends Trump, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-08/democrats-to-tackle-costs-corruption-doj-defends-trump-more",
+   "date": "2026-11-08T18:33:59.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "morning-brew:https://www.morningbrew.com/stories/robbing-museums-isnt-as-lucrative-as-it-seems",
+   "feed": "morning-brew",
+   "title": "Robbing museums isn’t as lucrative as it seems",
+   "link": "https://www.morningbrew.com/stories/robbing-museums-isnt-as-lucrative-as-it-seems?utm_source=&utm_medium=syndication&utm_campaign=feed",
+   "date": "2026-11-08T18:31:00.000Z",
+   "summary": "Kiran Ridley/Getty Images There have been so many high-profile art heists in the last year that you’d think someone put together a super team of thieves to hit museums. And while the art is worth millions, you can’t exactly use a Renoir to buy a meal, so what becomes of these works once they’re stolen? Items with…",
+   "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-11-05/image-5b928884f3622db542ffe1c6471c888d77ff8195-6206x4092-jpg/GettyImages-2241971037.jpg"
+  },
+  {
+   "id": "planetizen:138830 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "Housing is the top priority of Seattle’s sole new councilmember",
+   "link": "https://www.planetizen.com/news/2026/11/138830-housing-top-priority-seattles-sole-new-councilmember",
+   "date": "2026-11-08T18:00:00.000Z",
+   "summary": "YIMBY Action, a national pro-housing group, has also endorsed Jenks. Seattle voters in District 5 elected urbanist Nilu Jenks to city council, whose victory “may be an unexpected win for both homebuilders and renters,” writes Ryan Curtis for Reason. Jenks’ top priority while campaigning was building 1,000 new units…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/Nilu%20Community%203%20small.jpeg.avif.webp?itok=W-OZm-fY"
+  },
+  {
+   "id": "bloomberg-business:TO72IXV84D8G00",
+   "feed": "bloomberg-business",
+   "title": "DOJ’s Blanche: ‘It’s Me’ Defending Trump, Russian Records Hack",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-08/doj-s-blanche-it-s-me-defending-trump-russian-records-hack",
+   "date": "2026-11-08T17:42:33.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "urbanist:6af0ab0d1c94aa0001631dc6",
+   "feed": "urbanist",
+   "title": "Op-Ed: 'Building Charm' Book Offers Guide to Developing Outstanding Neighborhoods",
+   "link": "https://www.theurbanist.org/op-ed-building-charm-book-offers-guide-to-developing-outstanding-neighborhoods/",
+   "date": "2026-11-08T17:24:15.000Z",
+   "summary": "The following is an excerpt from Chapter 1 of Building Charm: A Hyper-Practical Guide to Developing Outstanding New Neighborhoods by Naama Blonder and Misha Bereznyak, founders of Smart Density. Drawing on international experience and years of hands-on work, Building Charm presents a proven, practical system for…",
+   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/11/low-rise-family-housing-woodbine-2048x1147.jpg"
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004044132",
+   "feed": "wsj-business",
+   "title": "Toddler-Snack Recall Tests Organic-Food Maker Once Upon a Farm",
+   "link": "https://www.wsj.com/business/toddler-snack-recall-tests-organic-food-maker-once-upon-a-farm-02de7364?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-08T17:24:00.000Z",
+   "summary": "The company’s stock fell nearly 40% after complaints that its oat bars posed a potential choking hazard.",
+   "image": "https://images.wsj.net/im-81285125"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/08/us/dc-foie-gras-ban.html",
+   "feed": "nytimes-business",
+   "title": "How a Duck Named Olivia Helped Pass D.C.’s Foie Gras Ban",
+   "link": "https://www.nytimes.com/2026/11/08/us/dc-foie-gras-ban.html",
+   "date": "2026-11-08T17:03:40.000Z",
+   "summary": "Initiative 86, which bars the force-feeding of birds and the sale of foie gras, passed handily but restaurateurs and prominent chefs are preparing for a fight.",
+   "image": ""
+  },
+  {
+   "id": "planetizen:138826 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "New tax cuts may slash $1.5 billion in funding for Miami transit, public parks",
+   "link": "https://www.planetizen.com/news/2026/11/138826-new-tax-cuts-may-slash-15-billion-funding-miami-transit-public-parks",
+   "date": "2026-11-08T17:00:00.000Z",
+   "summary": "To make up for the loss, county officials may raise taxes and fees, the burden of which could fall on renters. Florida has passed Amendment 3 with 62% of the statewide vote, which increases the amount of an owner-occupied home that is exempt from taxes, writes Allison Beck for Miami New Times. The bill will save…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2492378019.jpg.webp?itok=j-b31Zr0"
+  },
+  {
+   "id": "bloomberg-business:TO6Z85XVHD6O00",
+   "feed": "bloomberg-business",
+   "title": "Bloomberg This Weekend: Congress after Midterms (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-08/bloomberg-this-weekend-congress-after-midterms-podcast",
+   "date": "2026-11-08T16:31:17.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "planetizen:138825 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "Arizona, Wisconsin, Pennsylvania hope to finally advance climate goals post-midterms",
+   "link": "https://www.planetizen.com/news/2026/11/138825-arizona-wisconsin-pennsylvania-hope-finally-advance-climate-goals-post-midterms",
+   "date": "2026-11-08T16:00:00.000Z",
+   "summary": "In Pennsylvania, legislators hope to pass a bill to establish water and energy efficiency standards for appliances and new laws to allow community and warehouse rooftop solar. The Democrats victory on Nov. 3 could usher in a clean energy revolution in Arizona, Pennsylvania and Wisconsin. The three states have spent…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2415794355.jpg.webp?itok=QbAk9xx2"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/08/business/cop-31-iran-war-oil.html",
+   "feed": "nytimes-business",
+   "title": "Why the Iran War Has Spurred Both Clean Energy and Fossil Fuels",
+   "link": "https://www.nytimes.com/2026/11/08/business/cop-31-iran-war-oil.html",
+   "date": "2026-11-08T15:39:12.000Z",
+   "summary": "The shock to global oil prices has caused a surge in demand for electric vehicles while propelling a race for immediate, secure power supplies.",
+   "image": "https://static01.nyt.com/images/2026/11/08/multimedia/08biz-cop31-war-swap-bgvm/08biz-cop31-war-swap-bgvm-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "bloomberg-business:TO6WR2O32FWG00",
+   "feed": "bloomberg-business",
+   "title": "Jeffries 'Hard Yes' on Hegseth Impeachment, Trump on Cooperation",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-08/jeffries-hard-yes-on-hegseth-impeachment-trump-on-cooperation",
+   "date": "2026-11-08T15:37:50.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "planetizen:138823 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "Democrats’ victory may threaten act to expedite energy projects",
+   "link": "https://www.planetizen.com/news/2026/11/138823-democrats-victory-may-threaten-act-expedite-energy-projects",
+   "date": "2026-11-08T15:00:00.000Z",
+   "summary": "Lobbyist Chris Moyer, founder of Echo Communications Advisors, said he no longer hoped that the Bipartisan American Affordability and Jobs Act would pass on Monday. The Senate will vote on an act to speed up clean energy projects on Monday — and with Democrats’ recent electoral victory, it may not pass. In a…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2761382907.jpg.webp?itok=WgTix-OT"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/07/science/heart-drugs-failed-novartis-novo-nordisk.html",
+   "feed": "nytimes-business",
+   "title": "Doctors Absorb the Stunning Failure of Two High-Profile Heart Drugs",
+   "link": "https://www.nytimes.com/2026/11/07/science/heart-drugs-failed-novartis-novo-nordisk.html",
+   "date": "2026-11-08T14:14:55.000Z",
+   "summary": "By every measure, the drugs were no better than placebos, full data revealed on Saturday. Was it the fault of the design of the studies, or our very hypotheses about heart disease?",
+   "image": "https://static01.nyt.com/images/2026/11/10/multimedia/07Sci-heart-drugs-01b-kqzj/07Sci-heart-drugs-01b-kqzj-mediumSquareAt3X-v2.jpg"
+  },
+  {
+   "id": "bloomberg-business:TO6SM7XVHD6O00",
+   "feed": "bloomberg-business",
+   "title": "Aramco’s Riyadh Office Attacked, Poland's Mass Shooting, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-08/aramco-s-riyadh-office-attacked-poland-s-mass-shooting-more",
+   "date": "2026-11-08T14:08:31.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "planetizen:138821 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "Voters choose public transit, approve $31 billion in funding",
+   "link": "https://www.planetizen.com/news/2026/11/138821-voters-choose-public-transit-approve-31-billion-funding",
+   "date": "2026-11-08T14:00:00.000Z",
+   "summary": "Twenty-one out of 27 transit measures on the Nov. 3 ballot have passed as of Nov. 5. “Voters across the country are choosing public transit,” APTA President and CEO Paul Skoutelas told Smart Cities Drive in an emailed statement. As of Nov. 5, 21 out of 27 transit measures on the Nov. 3 ballot have passed, with five…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2799382773.jpg.webp?itok=yIwzdzAq"
+  },
+  {
+   "id": "bloomberg-business:TO3DZLKGIFRJ00",
+   "feed": "bloomberg-business",
+   "title": "What’s Happening in EM: Blue Sweep’s Global Shakeup (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-08/what-s-happening-in-em-blue-sweep-s-global-shakeup-podcast",
+   "date": "2026-11-08T13:30:00.000Z",
+   "summary": "This week, Carolina Wilson speaks with Divya Singaravelu, head of research at Meridian 1305 Capital, about how a divided Washington could reshape bets on everything from US interest rates and the dollar to Ukraine, Argentina and Venezuela.",
+   "image": ""
+  },
+  {
+   "id": "planetizen:138820 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "Study reveals best places in the U.S. for cycling, walking",
+   "link": "https://www.planetizen.com/news/2026/11/138820-study-reveals-best-places-us-cycling-walking",
+   "date": "2026-11-08T13:00:00.000Z",
+   "summary": "Cities with universities, boardwalks and entertainment districts broadly saw more pedestrian activity, while cities with an abundance of bike trails naturally saw more cyclists. A new study reveals that Orlando, Florida and Boston residents walk the most miles per capita, while New York City and Boise, Idaho…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_1888757398.jpg.webp?itok=P2b5kLYJ"
+  },
+  {
+   "id": "bloomberg-business:TO6P2YXVHD6O00",
+   "feed": "bloomberg-business",
+   "title": "Aramco Office Attack, Poland Shooter: 'Far-Right Radical,' More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-08/aramco-office-attack-poland-shooter-far-right-radical-more",
+   "date": "2026-11-08T12:52:10.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TO6KX0XVHD6O00",
+   "feed": "bloomberg-business",
+   "title": "Aramco’s Riyadh Office Attacked, Eisenkot to Form Israeli Govt",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-08/aramco-s-riyadh-office-attacked-eisenkot-to-form-israeli-govt",
+   "date": "2026-11-08T11:22:12.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "stb:https://seattletransitblog.com/?p=150679",
+   "feed": "stb",
+   "title": "Sunday Movie: Safer Streets and Fire Trucks",
+   "link": "https://seattletransitblog.com/2026/11/08/sunday-movie-safer-streets-and-fire-trucks/",
+   "date": "2026-11-08T11:00:00.000Z",
+   "summary": "Why safer streets keep losing to fire trucks. (Stewart Hicks) This is an open thread.",
+   "image": ""
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004042964",
+   "feed": "wsj-business",
+   "title": "DoorDash Shareholders Aren’t Convinced the Company Can Take On Amazon",
+   "link": "https://www.wsj.com/business/retail/doordash-shareholders-arent-convinced-the-company-can-take-on-amazon-bdb22c70?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-08T10:30:00.000Z",
+   "summary": "Following Instacart acquisition plans and an Amazon deal with rival Uber Eats, DoorDash stock is on sale.",
+   "image": "https://images.wsj.net/im-68103229"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/08/business/personal-email-employer-privacy.html",
+   "feed": "nytimes-business",
+   "title": "Can My Company Force Me to Reveal My Personal Email?",
+   "link": "https://www.nytimes.com/2026/11/08/business/personal-email-employer-privacy.html",
+   "date": "2026-11-08T10:01:43.000Z",
+   "summary": "Plus: Ways to leave your mentee and new-parent strife.",
+   "image": "https://static01.nyt.com/images/2026/11/08/multimedia/08bizsun-workfriend-jvkw/08bizsun-workfriend-jvkw-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/08/business/original-medicare-advantage.html",
+   "feed": "nytimes-business",
+   "title": "Medicare Advantage vs. Traditional Medicare, Explained",
+   "link": "https://www.nytimes.com/2026/11/08/business/original-medicare-advantage.html",
+   "date": "2026-11-08T10:00:39.000Z",
+   "summary": "When you sign up for the retiree health plan, the two options can present a financial puzzle. But cost is just one factor.",
+   "image": "https://static01.nyt.com/images/2026/11/08/business/08retiring-illo-sub/08retiring-illo-sub-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/08/business/anime-japan-sony-demonslayer.html",
+   "feed": "nytimes-business",
+   "title": "The World Can’t Get Enough Anime. Can Japan Cash In on Its Success?",
+   "link": "https://www.nytimes.com/2026/11/08/business/anime-japan-sony-demonslayer.html",
+   "date": "2026-11-08T10:00:26.000Z",
+   "summary": "Sony is building an anime empire, betting that global fandom can fuel growth for both the company and the country as foreign rivals and A.I. swarm the scene.",
+   "image": "https://static01.nyt.com/images/2026/10/13/multimedia/Biz-Anime_Video_still/13cul-comic-con-pflz-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "bloomberg-business:TO6EC0KIUPSA00",
+   "feed": "bloomberg-business",
+   "title": "Warfare Technology Is Finding a New Home on Britain’s Farms",
+   "link": "https://www.bloomberg.com/news/features/2026-11-08/warfare-technology-is-finding-a-new-home-on-britain-s-farms",
+   "date": "2026-11-08T09:00:00.000Z",
+   "summary": "With extreme weather, farmers are turning to new methods to make crops more resilient.",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TO649MT9NJLT00",
+   "feed": "bloomberg-business",
+   "title": "Stockland Scraps Sydney Data Center Plans After Local Backlash",
+   "link": "https://www.bloomberg.com/news/articles/2026-11-08/stockland-scraps-sydney-data-center-plans-after-local-backlash",
+   "date": "2026-11-08T06:45:48.000Z",
+   "summary": "Stockland Corp. has abandoned plans for a Sydney data center following community backlash, in another sign of growing opposition to artificial intelligence infrastructure.",
+   "image": ""
+  },
   {
    "id": "morning-brew:https://www.morningbrew.com/stories/investing-in-art-isnt-pragmatic-but-there-are-returns",
    "feed": "morning-brew",
@@ -157,15 +409,6 @@
    "image": ""
   },
   {
-   "id": "bloomberg-business:TO5K0CT9NJLZ00",
-   "feed": "bloomberg-business",
-   "title": "Voters Punish Major Parties in Cliffhanger New Zealand Election",
-   "link": "https://www.bloomberg.com/news/articles/2026-11-08/voters-punish-major-parties-in-cliffhanger-new-zealand-election",
-   "date": "2026-11-08T01:34:22.000Z",
-   "summary": "New Zealand’s election remains too close to call, but voters have already delivered a decisive verdict on the major parties, handing smaller rivals their best-ever results and reshaping the country’s political landscape.",
-   "image": ""
-  },
-  {
    "id": "wsj-business:WP-WSJ-0004043993",
    "feed": "wsj-business",
    "title": "How a Talent War Spelled Doom for the Traditional Law Firm",
@@ -173,15 +416,6 @@
    "date": "2026-11-08T01:00:00.000Z",
    "summary": "A record year for partner turnover helped bring down Weil Gotshal and is forcing similar firms to make changes to compete.",
    "image": "https://images.wsj.net/im-81289120"
-  },
-  {
-   "id": "bloomberg-business:TO5OSIKJH6V800",
-   "feed": "bloomberg-business",
-   "title": "Australia Scraps Plan to Sell Sydney Barracks After Backlash",
-   "link": "https://www.bloomberg.com/news/articles/2026-11-08/australia-scraps-plan-to-sell-sydney-barracks-after-backlash",
-   "date": "2026-11-08T00:49:02.000Z",
-   "summary": "Australia will retain several historic military sites including barracks in Sydney, following a backlash over plans to divest underused defense properties.",
-   "image": ""
   },
   {
    "id": "bloomberg-business:TO5Q5MUT4Z5S00",
@@ -242,7 +476,7 @@
    "feed": "nytimes-business",
    "title": "A ‘Legend of Zelda’ Game Is Reborn and ’90s Nostalgia Fans Are All In",
    "link": "https://www.nytimes.com/2026/11/07/business/media/zelda-ocarina-of-time-remake-nintendo.html",
-   "date": "2026-11-07T18:52:25.000Z",
+   "date": "2026-11-07T18:52:26.000Z",
    "summary": "Nintendo’s “Legend of Zelda: Ocarina of Time” was released in 1998. Now, its remake has some fans giddily reliving their childhoods.",
    "image": "https://static01.nyt.com/images/2026/11/07/multimedia/00xp-zelda-03/00xp-zelda-03-mediumSquareAt3X.png"
   },
@@ -256,60 +490,6 @@
    "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/11/Alex-Fryer-Photo-1-.jpg"
   },
   {
-   "id": "bloomberg-business:TO5A3TO2LL3700",
-   "feed": "bloomberg-business",
-   "title": "GOP Flips Georgia State Race, Rubio Headsto G7, WH Shakeup",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-07/gop-flips-georgia-state-race-rubio-headsto-g7-wh-shakeup",
-   "date": "2026-11-07T18:31:05.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TO56HNO32FWG00",
-   "feed": "bloomberg-business",
-   "title": "Gunman Kills 5 in Poland, Rubio Heads to G7 Amid WH Shakeup",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-07/gunman-kills-5-in-poland-rubio-heads-to-g7-amid-wh-shakeup",
-   "date": "2026-11-07T17:12:59.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TO55K3V84D8G00",
-   "feed": "bloomberg-business",
-   "title": "Bloomberg Businessweek Daily: Chip Stocks Rebound (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-07/bloomberg-businessweek-daily-chip-stocks-rebound-podcast",
-   "date": "2026-11-07T16:52:51.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TO5341R24U8X00",
-   "feed": "bloomberg-business",
-   "title": "How Bankrupt Wine Distributor RNDC Preserved 6,000 Jobs",
-   "link": "https://www.bloomberg.com/news/newsletters/2026-11-07/how-bankrupt-wine-distributor-rndc-preserved-6-000-jobs",
-   "date": "2026-11-07T16:00:01.000Z",
-   "summary": "RNDC’s creditors were rewarded for their patience with a near-full recovery",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TO5323WWD62O00",
-   "feed": "bloomberg-business",
-   "title": "Bloomberg This Weekend: Trump Cabinet Changes (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-07/bloomberg-this-weekend-trump-cabinet-changes-podcast",
-   "date": "2026-11-07T15:58:51.000Z",
-   "summary": "Source: Bloomberg, 29:20",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TO52SPO32FWG00",
-   "feed": "bloomberg-business",
-   "title": "Berkshire Boosts Buybacks as Earnings Slide, WH Shakeup, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-07/berkshire-boosts-buybacks-as-earnings-slide-wh-shakeup-more",
-   "date": "2026-11-07T15:53:14.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
    "id": "wsj-business:WP-WSJ-0004043987",
    "feed": "wsj-business",
    "title": "Berkshire Hathaway’s Quarterly Profit Falls After Investment Gains Shrink",
@@ -317,42 +497,6 @@
    "date": "2026-11-07T15:14:00.000Z",
    "summary": "The conglomerate posted a 28% decline in quarterly net income after investment gains slumped and its insurance operations reported lower profits.",
    "image": "https://images.wsj.net/im-94495623"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/07/science/heart-drugs-failed-novartis-novo-nordisk.html",
-   "feed": "nytimes-business",
-   "title": "How Cardiologists’ High Hopes for Two Drugs Were Dashed",
-   "link": "https://www.nytimes.com/2026/11/07/science/heart-drugs-failed-novartis-novo-nordisk.html",
-   "date": "2026-11-07T14:50:04.000Z",
-   "summary": "By every measure, the drugs were no better than placebos, full data revealed on Saturday. Was it the fault of the design of the studies, or our very hypotheses about heart disease?",
-   "image": "https://static01.nyt.com/images/2026/11/10/multimedia/07Sci-heart-drugs-01b-kqzj/07Sci-heart-drugs-01b-kqzj-mediumSquareAt3X-v2.jpg"
-  },
-  {
-   "id": "bloomberg-business:TO17FZKJH6V500",
-   "feed": "bloomberg-business",
-   "title": "Novartis Abandons Heart Drug After Surprising Failure in Key Study",
-   "link": "https://www.bloomberg.com/news/articles/2026-11-07/novartis-abandons-heart-drug-after-surprising-failure-in-key-study",
-   "date": "2026-11-07T14:50:00.000Z",
-   "summary": "Novartis AG is largely abandoning an experimental drug analysts once considered a potential blockbuster after a study found it had little promise for preventing heart attacks and cardiovascular deaths.",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TNY7PQKK3NY800",
-   "feed": "bloomberg-business",
-   "title": "Inflation Fears Return as Corporate America Counts the Cost",
-   "link": "https://www.bloomberg.com/news/articles/2026-11-07/inflation-fears-return-as-corporate-america-counts-the-cost",
-   "date": "2026-11-07T14:00:00.000Z",
-   "summary": "Mentions of inflation on S&P 500 earnings calls have reached the highest level in more than two years, underscoring growing concerns over skyrocketing costs and weakening consumer confidence.",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TO4WPOUT4Z5S00",
-   "feed": "bloomberg-business",
-   "title": "Berkshire Hathaway’s Operating Earnings Fall, Trump WH Shakeup",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-07/berkshire-hathaway-s-operating-earnings-fall-trump-wh-shakeup",
-   "date": "2026-11-07T13:41:48.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
   },
   {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/07/business/dealbook/crosby-ai-agent-liability-malpractice-insurance.html",
@@ -364,51 +508,6 @@
    "image": "https://static01.nyt.com/images/2026/11/07/multimedia/07DB-AI-INSURANCE-01-qkvt/07DB-AI-INSURANCE-01-qkvt-mediumSquareAt3X.jpg"
   },
   {
-   "id": "planetizen:138829 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "Los Angeles just elected an urban planner as its mayor",
-   "link": "https://www.planetizen.com/news/2026/11/138829-los-angeles-just-elected-urban-planner-its-mayor",
-   "date": "2026-11-07T13:00:00.000Z",
-   "summary": "As mayor, Raman will become chair of Metro’s board and oversee the city’s transportation department. Nithya Raman, who holds a graduate degree in urban planning from the Massachusetts Institute of Technology, is officially Los Angeles' Mayor-elect. Raman campaigned on getting Metro the tens of millions in funding it…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2750682105.jpg.webp?itok=xK509yZW"
-  },
-  {
-   "id": "bloomberg-business:TO4U3KO2LL3500",
-   "feed": "bloomberg-business",
-   "title": "WH Staff Shakeup, Axios: Vance Negotiating New Iran Deal, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-07/wh-staff-shakeup-axios-vance-negotiating-new-iran-deal-more",
-   "date": "2026-11-07T12:45:20.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TO4OPJKJH6V400",
-   "feed": "bloomberg-business",
-   "title": "Russia Takes More Japan Tobacco Assets After Seizures Hit Shares",
-   "link": "https://www.bloomberg.com/news/articles/2026-11-07/russia-takes-more-japan-tobacco-assets-after-seizures-hit-shares",
-   "date": "2026-11-07T12:08:27.000Z",
-   "summary": "Russia has moved to take control of more Russian assets of Japan Tobacco Inc., broadening the seizures that sent the company’s share price tumbling on Friday.",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TO4RBKKJH6V400",
-   "feed": "bloomberg-business",
-   "title": "ACS Says It Hasn’t Considered Tender Offer for Hochtief",
-   "link": "https://www.bloomberg.com/news/articles/2026-11-07/acs-says-it-hasn-t-considered-tender-offer-for-hochtief",
-   "date": "2026-11-07T11:58:32.000Z",
-   "summary": "Spanish engineering company ACS SA said it is has not considered a tender offer for its listed German subsidiary Hochtief AG, nor is it contemplating a sale of Hochtief-owned US builder Turner Construction Co.’s shares.",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TO4QBTUT4Z5S00",
-   "feed": "bloomberg-business",
-   "title": "Trump Shakes Up WH Staff, Axios: Vance in Talks with Iran, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-07/trump-shakes-up-wh-staff-axios-vance-in-talks-with-iran-more",
-   "date": "2026-11-07T11:23:53.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
    "id": "wsj-business:WP-WSJ-0004030474",
    "feed": "wsj-business",
    "title": "News Quiz for Nov. 7, 2026",
@@ -416,15 +515,6 @@
    "date": "2026-11-07T11:00:00.000Z",
    "summary": "Test your knowledge of the week’s events with The Wall Street Journal News Quiz.",
    "image": "https://images.wsj.net/im-23096731"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004043058",
-   "feed": "wsj-business",
-   "title": "They Can Barely Drive, but They’re Flying Planes: The Surprising Rise of Teen Pilots",
-   "link": "https://www.wsj.com/business/airlines/they-can-barely-drive-but-theyre-flying-planes-the-surprising-rise-of-teen-pilots-28446f72?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-07T10:30:00.000Z",
-   "summary": "Nathalia Filgueiras, the 20-year-old co-pilot in a fatal Learjet crash, was part of a growing wave of young people getting an early start in aviation careers.",
-   "image": "https://images.wsj.net/im-73666662"
   },
   {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/07/business/economy/nvidia-chips-chinese-firms.html",
@@ -452,15 +542,6 @@
    "date": "2026-11-07T05:01:00.000Z",
    "summary": "Getty Images An Italian chef working in Australia claimed he was wrongly fired from his job for refusing to put pineapple on pizza, telling the country’s Fair Work Commission the dish is an “insult to his culture.” The commission dismissed Davide Tamburella’s claim on the grounds that he filed it too late, not that…",
    "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-11-06/image-e924ff5fd912a8104fed8215baacd700bdc43973-4500x3000-jpg/GettyImages-2245885023.jpg"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004042368",
-   "feed": "wsj-business",
-   "title": "Elon Musk Staked His Empire on Texas. Now State Democrats Want to Rein Him In.",
-   "link": "https://www.wsj.com/politics/policy/elon-musk-texas-midterm-elections-b993e58d?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-07T03:00:00.000Z",
-   "summary": "Musk has big plans for Tesla and SpaceX in the Lone Star State, and now faces a blue wall of opposition.",
-   "image": "https://images.wsj.net/im-00007007"
   },
   {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/06/technology/kalshi-polymarket-nyt-siena-poll-bets.html",
@@ -841,15 +922,6 @@
    "image": "https://static01.nyt.com/images/2026/11/06/multimedia/06biz-jobs-report-ai-kfjv/06biz-jobs-report-ai-kfjv-mediumSquareAt3X.jpg"
   },
   {
-   "id": "planetizen:138813 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "Mamdani’s pied-à-terre tax survives legal challenge",
-   "link": "https://www.planetizen.com/news/2026/11/138813-mamdanis-pied-terre-tax-survives-legal-challenge",
-   "date": "2026-11-06T16:00:00.000Z",
-   "summary": "The tax still faces two other lawsuits. A panel of Brooklyn appellate judges ruled that New York City Mayor Zohran Mamdani's administration can resume the rollout of the city’s pied-à-terre tax. A judge previously ruled that the city mismanaged the tax’s implementation; Wednesday’s ruling reverses that ruling. The…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2743706205.jpg.webp?itok=os5jLagD"
-  },
-  {
    "id": "stb:https://seattletransitblog.com/?p=150553",
    "feed": "stb",
    "title": "Friday Roundtable: Historic Transit Investments in Puget Sound",
@@ -884,15 +956,6 @@
    "date": "2026-11-06T15:13:31.000Z",
    "summary": "A Nigerian high court invalidated the candidacy of the leading challenger to President Bola Tinubu, creating uncertainty with just 10 weeks to go until voters have their say in Africa’s biggest democratic exercise. The judge ruled that former vice president and two-time presidential election runner-up Atiku Abubakar…",
    "image": "https://img.semafor.com/4c83c5eff65fb7e1d700ce69f16643394a638735-2048x1421.jpg"
-  },
-  {
-   "id": "planetizen:138812 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "Eastern Nebraska is running out of electricity",
-   "link": "https://www.planetizen.com/news/2026/11/138812-eastern-nebraska-running-out-electricity",
-   "date": "2026-11-06T15:00:00.000Z",
-   "summary": "Companies projected to use over 2,000 megawatts of energy are already planning to set up shop in eastern Nebraska. Data centers and electrification are sapping energy from eastern Nebraska's Omaha Public Power District, resulting in a bottleneck that threatens the region’s economic growth. OPPD currently estimates it…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_1477757300.jpg.webp?itok=_sItgM80"
   },
   {
    "id": "semafor:https://www.semafor.com/article/11/06/2026/disease-ecologist-eric-ngeno-maps-human-gut-bacteria-in-nairobi",
@@ -967,15 +1030,6 @@
    "image": ""
   },
   {
-   "id": "planetizen:138811 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "Seattle passes record-breaking transit services expansion",
-   "link": "https://www.planetizen.com/news/2026/11/138811-seattle-passes-record-breaking-transit-services-expansion",
-   "date": "2026-11-06T14:00:00.000Z",
-   "summary": "Seattle's Proposition 1 will also fund construction work aimed at reducing transit delays. Seattle voters have paved the way for the city’s largest-ever expansion of transit service. Citizens voted in favor of Proposition 1 Tuesday night, which will double the city’s transit tax and take effect on April 1, 2027. “The…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_1196544655.jpg.webp?itok=PgRpfiB9"
-  },
-  {
    "id": "urbanist:6aea358df791d80001221bad",
    "feed": "urbanist",
    "title": "Lin Proposes 'Orca Appeal' Carve-Out in Hopes of Resolving Growth Plan Challenges",
@@ -1028,24 +1082,6 @@
    "date": "2026-11-06T13:07:35.000Z",
    "summary": "A stock rally fueled in part by artificial intelligence is being tested after Democrats’ landslide election victories.",
    "image": "https://static01.nyt.com/images/2026/11/06/multimedia/06db-nasdaq-jmfb/06db-nasdaq-jmfb-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "planetizen:138814 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "General or specialized training: Is US planning education fit for the future?",
-   "link": "https://www.planetizen.com/blogs/138814-general-or-specialized-training-us-planning-education-fit-future",
-   "date": "2026-11-06T13:00:00.000Z",
-   "summary": "Aiming to create generalists with a specialty is still a useful way to organize education for beginning planners, but for others, more tailored strategies may be more relevant. Planning education has been in place in its current form for some time — is it time for something new? Much of the pedagogy that was emerging…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2596160869.jpg.webp?itok=kiJRiYzn"
-  },
-  {
-   "id": "planetizen:138800 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "Post election, Texas is no longer Musk’s 'AI oasis'",
-   "link": "https://www.planetizen.com/news/2026/11/138800-post-election-texas-no-longer-musks-ai-oasis",
-   "date": "2026-11-06T13:00:00.000Z",
-   "summary": "The day after the election, Musk wrote on X: “Data centers in space looking pretty appealing right now.” Despite Elon Musk spending roughly $446 million on the 2026 midterm election, the most ever spent by a non-canidate, nearly all of his preferred candidates lost. Now, with Texas Democrat Gina Hinojosa besting Greg…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2587639919.jpg.webp?itok=XshRsNLS"
   },
   {
    "id": "wsj-business:WP-WSJ-0004041167",
@@ -1219,15 +1255,6 @@
    "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-11-05/image-efc38a0288a3ea19afb4311d9c4c129ed8092558-1500x1001-jpg/MBD-Canva-1026.jpg"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/05/health/bird-flu-death-us.html",
-   "feed": "nytimes-business",
-   "title": "Bird Flu Death in Washington State Renews Concern Over the Virus",
-   "link": "https://www.nytimes.com/2026/11/05/health/bird-flu-death-us.html",
-   "date": "2026-11-06T00:26:37.000Z",
-   "summary": "The death follows reports of infections in cattle on dozens of American farms across the country over the past month and a worrying outbreak in mink.",
-   "image": "https://static01.nyt.com/images/2026/11/05/multimedia/05dc-bird-flu-cfvb/05dc-bird-flu-cfvb-mediumSquareAt3X.jpg"
-  },
-  {
    "id": "strongtowns:https://www.strongtowns.org/journal/2026-11-6-what-happens-after-someone-dies-on-your-streets",
    "feed": "strongtowns",
    "title": "What Happens After Someone Dies on Your Streets?",
@@ -1235,24 +1262,6 @@
    "date": "2026-11-06T00:00:00.000Z",
    "summary": "An English coroner identified a dangerous delay in how a local government learned from fatal crashes. The response offers a lesson for communities everywhere.",
    "image": "https://cdn.prod.website-files.com/6800fb077920f4ca34c37030/6aecf320598fa2e85e695673_cover%20photo%20(53)%20(1).avif"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/05/business/media/salon-online-magazine-shutters.html",
-   "feed": "nytimes-business",
-   "title": "Salon, a Pioneer of Digital Journalism, Shuts Down",
-   "link": "https://www.nytimes.com/2026/11/05/business/media/salon-online-magazine-shutters.html",
-   "date": "2026-11-05T23:29:23.000Z",
-   "summary": "The progressive website, founded in 1995, said its business was “no longer sustainable.”",
-   "image": "https://static01.nyt.com/images/2026/11/05/business/05biz-salon/05biz-salon-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/05/business/media/letterboxd-new-york-times-company.html",
-   "feed": "nytimes-business",
-   "title": "New York Times Company in Advanced Talks to Acquire Letterboxd",
-   "link": "https://www.nytimes.com/2026/11/05/business/media/letterboxd-new-york-times-company.html",
-   "date": "2026-11-05T23:09:27.000Z",
-   "summary": "The roughly $330 million deal for the cinephile community site would be part of an effort to add new products and services to the company’s portfolio.",
-   "image": "https://static01.nyt.com/images/2026/10/29/business/29BIZ-LETTERBOXD/29BIZ-LETTERBOXD-mediumSquareAt3X.jpg"
   },
   {
    "id": "wsj-business:WP-WSJ-0004038769",
@@ -1264,15 +1273,6 @@
    "image": "https://images.wsj.net/im-98904998"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/05/business/media/tv-ratings-midterms-steve-kornacki.html",
-   "feed": "nytimes-business",
-   "title": "Steve Kornacki and NBC Drew Crowds as Midterms Got a Ratings Bump",
-   "link": "https://www.nytimes.com/2026/11/05/business/media/tv-ratings-midterms-steve-kornacki.html",
-   "date": "2026-11-05T22:47:35.000Z",
-   "summary": "More than 31 million viewers followed along with the Democrats’ big night on television, a 23 percent jump from the 2022 midterm elections.",
-   "image": "https://static01.nyt.com/images/2026/11/05/multimedia/05biz-elections-ratings-mltc/05biz-elections-ratings-mltc-mediumSquareAt3X.jpg"
-  },
-  {
    "id": "wsj-business:WP-WSJ-0004039269",
    "feed": "wsj-business",
    "title": "Sweetgreen Sees Milder Same-Store Sales Decline Following Rebound From Cyclospora Outbreak",
@@ -1282,15 +1282,6 @@
    "image": "https://images.wsj.net/im-20474778"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/05/world/europe/klaus-michael-kuhne-dead.html",
-   "feed": "nytimes-business",
-   "title": "Klaus-Michael Kühne Has Died. His Company Played a Dark Role in Nazi Germany.",
-   "link": "https://www.nytimes.com/2026/11/05/world/europe/klaus-michael-kuhne-dead.html",
-   "date": "2026-11-05T21:16:14.000Z",
-   "summary": "As Klaus-Michael Kühne’s business became a global force in container shipping, he resisted demands to document its wartime activities. He was 89.",
-   "image": "https://static01.nyt.com/images/2026/11/05/obituaries/05kuhne_bw/05kuhne_bw-mediumSquareAt3X.png"
-  },
-  {
    "id": "urbanist:6aece23b1c94aa000162efa1",
    "feed": "urbanist",
    "title": "Seattle Police Department Enjoys Unique Privileges, Insulation from Accountability",
@@ -1298,15 +1289,6 @@
    "date": "2026-11-05T20:51:38.000Z",
    "summary": "Seattle’s public safety departments – particularly the Seattle Police Department (SPD) – have historically received unique treatment and favored allocation of resources, including both money and technological tools. Reviewing recent developments in the City of Seattle, that special treatment does not look to…",
    "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/11/howtoapply-banner-1-.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/05/world/europe/bomb-threats-airline-passengers.html",
-   "feed": "nytimes-business",
-   "title": "Bomb Threats Disrupt European Flights and Rattle Passengers",
-   "link": "https://www.nytimes.com/2026/11/05/world/europe/bomb-threats-airline-passengers.html",
-   "date": "2026-11-05T19:39:19.000Z",
-   "summary": "Passengers recounted landing at a military base and being subjected to security checks and travel delays after threats that turned out to be hoaxes affected planes in Italy, Poland and Spain.",
-   "image": "https://static01.nyt.com/images/2026/11/05/multimedia/05int-bomb-threats-scene01-photo-bqtk/05int-bomb-threats-scene01-photo-bqtk-mediumSquareAt3X.jpg"
   },
   {
    "id": "wsj-business:WP-WSJ-0004038225",
@@ -1750,15 +1732,6 @@
    "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-10-30/image-9a53961e7cff7c1cf44e217ace3038ea1c4c7cb4-1500x1000-jpg/MBD_BinanceHack_SM_103026.jpg"
   },
   {
-   "id": "urbanist:6ae176cf5fc45a00019c4634",
-   "feed": "urbanist",
-   "title": "Route 40 Upgrades Finally Reach Finish Line, Despite Business Opposition",
-   "link": "https://www.theurbanist.org/route-40-upgrades-finally-reach-finish-line-despite-business-opposition/",
-   "date": "2026-10-30T19:45:06.000Z",
-   "summary": "Seattle and King County officials cut the ribbon on a suite of upgrades to Metro's workhorse Route 40 on Thursday – transit speed, reliability, and access improvements that have been in the works for the better part of a decade. The changes benefit around 9,000 daily transit riders traveling between Downtown Seattle,…",
-   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/10/IMG_9383.JPG"
-  },
-  {
    "id": "humantransit:https://humantransit.org/?p=33777",
    "feed": "humantransit",
    "title": "Washington DC: Our Two-Day Course in Transit Network Design",
@@ -1775,15 +1748,6 @@
    "date": "2026-10-30T10:00:00.000Z",
    "summary": "The ORCA consortium has a survey asking users about their experiences using ORCA cards and the fare payment system. The survey is open until mid November. The Friday Roundtable column is for short, light, interactive topics, so this is an opportunity to ask readers the same question: how is your experience using ORCA…",
    "image": ""
-  },
-  {
-   "id": "morning-brew:https://www.morningbrew.com/stories/the-rise-of-indie-horror-bookstores",
-   "feed": "morning-brew",
-   "title": "The rise of indie horror bookstores",
-   "link": "https://www.morningbrew.com/stories/the-rise-of-indie-horror-bookstores?utm_source=&utm_medium=syndication&utm_campaign=feed",
-   "date": "2026-10-30T05:14:00.000Z",
-   "summary": "Nick Iluzada Your hunt for scary stories to tell in the dark is finally over. Genre-specific bookstores, especially for horror, have been multiplying to create a brood across the US, latching onto a swelling interest in the not-so-niche-anymore genre. The perfect storm. The horror boom isn’t just for film: Horror…",
-   "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-10-29/image-2be63f97a15957ddbc00019dc2e80c6be5d0cfde-3000x2000-png/MBD_20261029_HORRORBOOKS_01.png"
   },
   {
    "id": "strongtowns:https://www.strongtowns.org/journal/2026-10-30-why-we-love-halloween",
@@ -1838,15 +1802,6 @@
    "date": "2026-10-26T11:15:19.000Z",
    "summary": "Route 550 bus is passed by a 2 Line train on the Homer M. Hadley Memorial Bridge across Lake Washington. On March 28, Sound Transit opened the much anticipated Crosslake Connection. This rail connection between Seattle and cities on the Eastside promised fast, frequent, and more reliable connectivity across Lake…",
    "image": "https://i0.wp.com/seattletransitblog.com/wp-content/uploads/2026/10/IMG_3155-2.jpg?resize=525%2C350&#038;ssl=1"
-  },
-  {
-   "id": "stb:https://seattletransitblog.com/?p=150152",
-   "feed": "stb",
-   "title": "Sunday Movie: Ballard Link Controversy",
-   "link": "https://seattletransitblog.com/2026/10/25/sunday-movie-ballard-link-controversy/",
-   "date": "2026-10-25T10:00:00.000Z",
-   "summary": "A recap of the Ballard Link controversy that boiled over at the forum Monday . These videos are from three months ago. Light rail to Ballard shouldn’t be this hard. (The House of Transit) Why is building transit so expensive anyway? (Yet Another Urbanist) I’m reaching the end of the video backlog again. Do you have…",
-   "image": ""
   },
   {
    "id": "strongtowns:https://www.strongtowns.org/journal/2026-10-23-permitted-pending-hoa-approval",
