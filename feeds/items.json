@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T19:27:00.541Z",
+ "updated": "2026-11-09T07:44:26.254Z",
  "feeds": [
   {
    "id": "planetizen",
@@ -98,7 +98,7 @@
    "color": "#1f1f1f",
    "topic": "Business & finance",
    "ok": true,
-   "count": 15
+   "count": 20
   },
   {
    "id": "morning-brew",
@@ -121,13 +121,391 @@
  ],
  "items": [
   {
+   "id": "wsj-business:WP-WSJ-0004045976",
+   "feed": "wsj-business",
+   "title": "Crédit Agricole Proposes Merger of Italian Business With Banco BPM",
+   "link": "https://www.wsj.com/business/deals/credit-agricole-proposes-merger-of-italian-business-with-banco-bpm-d77044a4?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-09T07:31:00.000Z",
+   "summary": "The French bank said the proposal would see a combined business built around Banco BPM, which would remain listed in Milan.",
+   "image": "https://images.wsj.net/im-28821337"
+  },
+  {
+   "id": "bloomberg-business:TO84EXVTTCZX00",
+   "feed": "bloomberg-business",
+   "title": "Nvidia to Probe Spying Case After CEO Admits Infidelity",
+   "link": "https://www.bloomberg.com/news/newsletters/2026-11-09/nvidia-to-probe-spying-case-after-ceo-admits-infidelity",
+   "date": "2026-11-09T07:20:57.000Z",
+   "summary": "Get caught up.",
+   "image": ""
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004046015",
+   "feed": "wsj-business",
+   "title": "Intesa Gets Green Light From Italian Markets Regulator for Monte Dei Paschi Bid",
+   "link": "https://www.wsj.com/business/deals/intesa-gets-green-light-from-italian-markets-regulator-for-monte-dei-paschi-bid-054726f9?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-09T07:16:00.000Z",
+   "summary": "The Italian bank’s $39.05 billion takeover offer is set to launch later this month.",
+   "image": "https://images.wsj.net/im-84802632"
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004046014",
+   "feed": "wsj-business",
+   "title": "MTN Group Posts Revenue Growth, Higher Profitability",
+   "link": "https://www.wsj.com/business/earnings/mtn-group-posts-revenue-growth-higher-profitability-7240166f?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-09T07:12:00.000Z",
+   "summary": "MTN Group cited robust demand across markets and added that its proposed acquisition of IHS Towers remained on track for completion by the end of the year.",
+   "image": "https://images.wsj.net/im-55700261"
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004046006",
+   "feed": "wsj-business",
+   "title": "Hannover Re Posts Higher Net Profit on Below-Budget Large Losses",
+   "link": "https://www.wsj.com/business/earnings/hannover-re-posts-higher-net-profit-on-below-budget-large-losses-85554602?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-09T07:06:00.000Z",
+   "summary": "The German reinsurer said large losses in its property-and-casualty segment totaled $1.47 billion in the first nine months of the year, coming in below its budgeted expectation.",
+   "image": "https://images.wsj.net/im-12373747"
+  },
+  {
+   "id": "bloomberg-business:TO83E0O2LL3700",
+   "feed": "bloomberg-business",
+   "title": "Bloomberg Daybreak Europe: Nvidia CEO Affair Probe (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-09/bloomberg-daybreak-europe-nvidia-ceo-affair-probe-podcast",
+   "date": "2026-11-09T06:58:48.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TNT7AVKIJH9K00",
+   "feed": "bloomberg-business",
+   "title": "Saudi Startups Rush to Debt as War Slows Equity Funding",
+   "link": "https://www.bloomberg.com/news/articles/2026-11-09/saudi-startups-rush-to-debt-as-war-slows-equity-funding",
+   "date": "2026-11-09T06:50:32.000Z",
+   "summary": "Saudi Arabian startups are increasingly turning to debt financing as the regional conflict slows equity fundraising and adds impetus to the search for fresh sources of capital.",
+   "image": ""
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004045981",
+   "feed": "wsj-business",
+   "title": "UniCredit Raises Profit Guidance as Control of Commerzbank Nears",
+   "link": "https://www.wsj.com/business/earnings/unicredit-raises-profit-guidance-as-control-of-commerzbank-nears-ce8ccdc8?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-09T06:50:00.000Z",
+   "summary": "The Italian bank said it now expects to report net profit of well above $12.82 billion, pre-extraordinary charges for 2026, up from its previous forecast for well above$12.26 billion.",
+   "image": "https://images.wsj.net/im-00288074"
+  },
+  {
+   "id": "bloomberg-business:TO821IO2LL3400",
+   "feed": "bloomberg-business",
+   "title": "Nvidia CEO Affair Investigation, UBS CEO Midterms Warning, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-09/nvidia-ceo-affair-investigation-ubs-ceo-midterms-warning-more",
+   "date": "2026-11-09T06:29:42.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "streetsblog:https://usa.streetsblog.org/?p=295695",
+   "feed": "streetsblog",
+   "title": "How to Fight a Freeway 101",
+   "link": "https://usa.streetsblog.org/2026/11/09/how-to-fight-a-freeway-101",
+   "date": "2026-11-09T05:04:00.000Z",
+   "summary": "A new guide for would-be freeway-fighters aims to give the next generation of transportation reform advocates the tools to organize against harmful infrastructure in their communities, even when they face daunting odds. Just in time for the newly-blue Congress, advocates at America Walks have published the…",
+   "image": "https://usa.streetsblog.org/wp-content/uploads/sites/10/2026/11/Induced-demand-proteest.png?w=1024"
+  },
+  {
+   "id": "streetsblog:https://usa.streetsblog.org/?p=295829",
+   "feed": "streetsblog",
+   "title": "Monday’s Headlines Come Heavy or Not at All",
+   "link": "https://usa.streetsblog.org/2026/11/09/mondays-headlines-come-heavy-or-not-at-all",
+   "date": "2026-11-09T05:01:00.000Z",
+   "summary": "Next year Amtrak will start allowing passengers to bring guns aboard trains, a policy a union official described as “sheer lunacy.” ( USA Today ) Voters passed 22 of 26 transit measures on municipal ballots last Tuesday with a total value of $31 billion. ( Engineering News & Record ) Transit agencies will need that…",
+   "image": "https://usa.streetsblog.org/wp-content/uploads/sites/10/2026/05/SUO-Amtrak.jpg?w=1024"
+  },
+  {
+   "id": "bloomberg-business:TO7W6AXVHD6O00",
+   "feed": "bloomberg-business",
+   "title": "Nvidia to Probe Huang, Rubio: Iran Demands \"Outrageous\", More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-09/nvidia-to-probe-huang-rubio-iran-demands-outrageous-more-mw8r9r79",
+   "date": "2026-11-09T04:22:58.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TO7UQMV84D8G00",
+   "feed": "bloomberg-business",
+   "title": "Nvidia Investigates Huang, Iran's Demands \"Unrealistic\", More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-09/nvidia-investigates-huang-iran-s-demands-unrealistic-more",
+   "date": "2026-11-09T03:51:58.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004045644",
+   "feed": "wsj-business",
+   "title": "Jensen Huang Apologized to Nvidia for His Infidelity. His Kids Are On Staff.",
+   "link": "https://www.wsj.com/tech/ai/jensen-huang-apologized-to-nvidia-for-his-infidelity-his-kids-are-on-staff-190f3176?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-09T03:38:00.000Z",
+   "summary": "The Nvidia CEO has elevated his children to prominence. His board is investigating reports that he was an espionage target.",
+   "image": "https://images.wsj.net/im-38332631"
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004045734",
+   "feed": "wsj-business",
+   "title": "Mitsui Chemicals to Acquire JSR With Development Bank of Japan for $8.8 Billion",
+   "link": "https://www.wsj.com/business/deals/mitsui-chemicals-to-acquire-jsr-with-development-bank-of-japan-for-8-8-billion-578ccd86?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-09T03:32:00.000Z",
+   "summary": "Mitsui Chemicals agreed to acquire semiconductor materials maker JSR jointly with government-owned Development Bank of Japan for about $8.8 billion.",
+   "image": "https://images.wsj.net/im-34268333"
+  },
+  {
+   "id": "bloomberg-business:TO7T93XVHD6O00",
+   "feed": "bloomberg-business",
+   "title": "Bloomberg Daybreak Asia: Markets React to Huang News (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-09/bloomberg-daybreak-asia-markets-react-to-huang-news-podcast",
+   "date": "2026-11-09T03:19:51.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/08/2026/nvidias-45-trillion-test-of-founder-immunity",
+   "feed": "semafor",
+   "title": "Nvidia’s $4.5 trillion test of founder immunity",
+   "link": "https://www.semafor.com/article/11/08/2026/nvidias-45-trillion-test-of-founder-immunity",
+   "date": "2026-11-09T02:58:19.000Z",
+   "summary": "There’s little precedent in US corporate history for the crisis facing Nvidia after reports that Jensen Huang was targeted by a Chinese “honeytrap” operation . The national security implications of the allegation, the chipmaker’s founder-CEO’s centrality to his company’s growth story, and Nvidia’s pivotal place in…",
+   "image": "https://img.semafor.com/424a0307ad6808369d3955f2908f6ab73c737661-5000x3333.jpg"
+  },
+  {
+   "id": "bloomberg-business:TO7RUTO2LL3500",
+   "feed": "bloomberg-business",
+   "title": "Huang Probed by Nvidia, Iran Demands \"Outrageous\", More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-09/huang-probed-by-nvidia-iran-demands-outrageous-more",
+   "date": "2026-11-09T02:49:41.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/08/2026/anti-waymo-campaign-relied-on-op-eds-written-with-ai",
+   "feed": "semafor",
+   "title": "Anti-Waymo campaign relied on op-eds written with AI",
+   "link": "https://www.semafor.com/article/11/08/2026/anti-waymo-campaign-relied-on-op-eds-written-with-ai",
+   "date": "2026-11-09T02:06:49.000Z",
+   "summary": "The News Opponents of AI-powered cars have been using artificial intelligence to get their message out in the news media. They’ve been waging a kitchen sink campaign, placing op-eds in local news outlets arguing the autonomous taxi company Waymo could cost jobs, endanger riders, deprive the government of information,…",
+   "image": "https://img.semafor.com/c0d6bbb78e64f7c57b170e15fc9e4065f78d6504-2048x1365.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/08/2026/former-60-minutes-chief-criticizes-questions-and-ratings",
+   "feed": "semafor",
+   "title": "Former ‘60 Minutes’ chief criticizes questions and ratings",
+   "link": "https://www.semafor.com/article/11/08/2026/former-60-minutes-chief-criticizes-questions-and-ratings",
+   "date": "2026-11-09T02:06:32.000Z",
+   "summary": "The longtime executive producer of said he’s unimpressed with his successors and disappointed that the show had missed an opportunity to press Defense Secretary Pete Hegseth on the Iran war. Bill Owens, who resigned last April in protest of what he saw as editorial overreach that was tilting the show in favor of…",
+   "image": "https://img.semafor.com/e996e6d724b3414e02eeef8b62f903bde05df0bb-2048x1366.jpg"
+  },
+  {
+   "id": "semafor:r.com/article/11/08/2026/put-the-posters-in-charge-inside-the-democrats-secret-strategy-to-flood-the-internet-with-clips",
+   "feed": "semafor",
+   "title": "‘Put the posters in charge’: Inside the Democrats’ secret strategy to flood the internet with clips",
+   "link": "https://www.semafor.com/article/11/08/2026/put-the-posters-in-charge-inside-the-democrats-secret-strategy-to-flood-the-internet-with-clips",
+   "date": "2026-11-09T02:06:16.000Z",
+   "summary": "The News By January 2025, Paulina Mangubat knew the Democratic National Committee needed to change its digital communications approach dramatically. The organization had been shattered by a second loss to Donald Trump, in which the party had been strategically outmaneuvered by a new alternative media ecosystem that…",
+   "image": "https://img.semafor.com/de4f13cdd847cae63176f311582c3d9c953d581e-2048x1365.jpg"
+  },
+  {
+   "id": "bloomberg-business:TO7PO8O32FWG00",
+   "feed": "bloomberg-business",
+   "title": "Nvidia to Probe Huang, Rubio: Iran Demands \"Outrageous\" , More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-09/nvidia-to-probe-huang-rubio-iran-demands-outrageous-more",
+   "date": "2026-11-09T02:02:32.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004042822",
+   "feed": "wsj-business",
+   "title": "Dwindling Pay Fuels High-Profile Exits From Blackstone’s Marquee Real Estate Team",
+   "link": "https://www.wsj.com/real-estate/commercial/dwindling-pay-fuels-high-profile-exits-from-blackstones-marquee-real-estate-team-317f2676?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-09T02:00:00.000Z",
+   "summary": "A rocky investing period for real estate hurt returns and cut the payout for senior partners by millions of dollars.",
+   "image": "https://images.wsj.net/im-55088907"
+  },
+  {
+   "id": "bloomberg-business:TO7NKVO32FWG00",
+   "feed": "bloomberg-business",
+   "title": "Nvidia Launches Huang Probe, Iran's Demands \"Unrealistic\", More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-09/nvidia-launches-huang-probe-iran-s-demands-unrealistic-more",
+   "date": "2026-11-09T01:17:19.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004045085",
+   "feed": "wsj-business",
+   "title": "Nvidia’s Board Investigates Reports That CEO Was Spying Target After Affair",
+   "link": "https://www.wsj.com/tech/ai/nvidias-board-to-investigate-reports-that-jensen-huang-was-spying-target-c630325e?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-09T01:15:00.000Z",
+   "summary": "Jensen Huang apologized for being unfaithful to his wife, after he had an affair with an executive suspected of working for Chinese intelligence.",
+   "image": "https://images.wsj.net/im-87394029"
+  },
+  {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/08/us/politics/rubio-nvidia-ceo-chinese-spy.html",
    "feed": "nytimes-business",
    "title": "Rubio Warned Officials About Nvidia Chief’s Entanglement With Chinese Spy",
    "link": "https://www.nytimes.com/2026/11/08/us/politics/rubio-nvidia-ceo-chinese-spy.html",
-   "date": "2026-11-08T18:37:04.000Z",
-   "summary": "The secretary of state’s role in drafting a secret memo highlights how top officials were concerned by last spring about Jensen Huang’s relationship with a woman tied to Chinese intelligence.",
+   "date": "2026-11-09T00:27:00.000Z",
+   "summary": "The secretary of state’s role in drafting a secret memo highlights how top officials were concerned by this past spring about Jensen Huang’s relationship with a woman tied to Chinese intelligence.",
    "image": "https://static01.nyt.com/images/2026/11/08/multimedia/08dc-spy-chip-lkzp/08dc-spy-chip-lkzp-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "bloomberg-business:TO7KZ2O2LL3600",
+   "feed": "bloomberg-business",
+   "title": "Bloomberg Law: Catholic Schools Versus LGBTQ Rights (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-09/bloomberg-law-catholic-schools-versus-lgbtq-rights-podcast",
+   "date": "2026-11-09T00:21:02.000Z",
+   "summary": "Source: Bloomberg, 46:21",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TO7KVDWWD62O00",
+   "feed": "bloomberg-business",
+   "title": "Nvidia Launches Huang Investigation, Dems Plan to Act, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-09/nvidia-launches-huang-investigation-dems-plan-to-act-more",
+   "date": "2026-11-09T00:18:49.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/08/business/ai-ceo-impersonation-theft.html",
+   "feed": "nytimes-business",
+   "title": "When the Boss on the Phone Isn’t Real: How More Than $129 Million Was Stolen Using A.I.",
+   "link": "https://www.nytimes.com/2026/11/08/business/ai-ceo-impersonation-theft.html",
+   "date": "2026-11-08T23:34:09.000Z",
+   "summary": "A federal indictment alleges that three men used generative A.I. to impersonate voices of chief executives and lawyers to defraud companies of millions of dollars.",
+   "image": "https://static01.nyt.com/images/2026/11/08/multimedia/08xp-ai1-tmjk/08xp-ai1-tmjk-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "bloomberg-business:TO7I9AXVHD6O00",
+   "feed": "bloomberg-business",
+   "title": "Jensen Huang Probed by Nvidia, Dems Plan to Take Action, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-08/jensen-huang-probed-by-nvidia-dems-plan-to-take-action-more",
+   "date": "2026-11-08T23:22:22.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/08/2026/paraguays-bank-collapse-hits-millions",
+   "feed": "semafor",
+   "title": "Paraguay's bank collapse hits millions",
+   "link": "https://www.semafor.com/article/11/08/2026/paraguays-bank-collapse-hits-millions",
+   "date": "2026-11-08T22:47:54.000Z",
+   "summary": "Paraguay’s president was removed from office and detained after the country’s largest digital bank melted down, leaving half the populace without access to funds and plunging the country into a political crisis. A youth-friendly banking app, Ueno collapsed amid allegations of insider lending and proximity to the…",
+   "image": "https://img.semafor.com/3279bdc7ce3e00c2cbd356e73e342e1cba40051e-5184x3456.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/08/business/original-medicare-advantage.html",
+   "feed": "nytimes-business",
+   "title": "Medicare Advantage vs. Traditional Medicare, Explained",
+   "link": "https://www.nytimes.com/2026/11/08/business/original-medicare-advantage.html",
+   "date": "2026-11-08T22:42:45.000Z",
+   "summary": "When you sign up for the retiree health plan, the two options can present a financial puzzle. But cost is just one factor.",
+   "image": "https://static01.nyt.com/images/2026/11/08/business/08retiring-illo-sub/08retiring-illo-sub-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/08/2026/us-to-hold-trilateral-ukraine-talks-in-uae",
+   "feed": "semafor",
+   "title": "US, Russia, and Ukraine to hold talks in Abu Dhabi",
+   "link": "https://www.semafor.com/article/11/08/2026/us-to-hold-trilateral-ukraine-talks-in-uae",
+   "date": "2026-11-08T22:41:35.000Z",
+   "summary": "US, Russian, and Ukrainian officials are expected to meet this week in Abu Dhabi for talks on ending the nearly five-year war, but experts cautioned that the meetings were unlikely to yield a major breakthrough. The first direct negotiations in nine months will address “ security guarantees for Ukraine , Europe’s…",
+   "image": "https://img.semafor.com/ba07738adddab0e1327ad4fffee8dc49df1e8d94-5900x3933.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/08/2026/eisenkot-gets-nod-to-form-government",
+   "feed": "semafor",
+   "title": "Eisenkot gets nod to form Israeli government",
+   "link": "https://www.semafor.com/article/11/08/2026/eisenkot-gets-nod-to-form-government",
+   "date": "2026-11-08T22:41:08.000Z",
+   "summary": "Israel’s president tapped Gadi Eisenkot to try to form the country’s next government, kicking off a tortuous negotiating process that could oust long-serving Prime Minister Benjamin Netanyahu. While Eisenkot and Netanyahu differ in style and substance , both men reflect the “ monolithically anti-Palestinian stance…",
+   "image": "https://img.semafor.com/e8ad436db16c356d4b121c4e76ebe54451b9bdc3-3822x2548.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/08/2026/new-york-city-congestion-pricing-hailed-as-traffic-pollution-drop",
+   "feed": "semafor",
+   "title": "New York City congestion pricing hailed as traffic, pollution drop",
+   "link": "https://www.semafor.com/article/11/08/2026/new-york-city-congestion-pricing-hailed-as-traffic-pollution-drop",
+   "date": "2026-11-08T22:40:45.000Z",
+   "summary": "New York City’s congestion pricing system appears to be working as vehicle traffic and pollution drop, and some believe higher tolls could bring yet more progress. Though the plan’s 2025 rollout was controversial — the US transportation secretary called it “ a slap in the face to working-class Americans ” — evidence…",
+   "image": "https://img.semafor.com/95f6591f9ff603a6c19c20c4ee35f61f75d5a3ae-4924x3282.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/08/2026/houthis-strike-aramco-tower-in-riyadh",
+   "feed": "semafor",
+   "title": "Houthis strike Aramco tower in Riyadh",
+   "link": "https://www.semafor.com/article/11/08/2026/houthis-strike-aramco-tower-in-riyadh",
+   "date": "2026-11-08T22:39:10.000Z",
+   "summary": "Houthi fighters took aim at the financial district of Saudi Arabia’s capital on Sunday — one of the highest-profile areas to be targeted in the war. A drone-and-missile attack damaged the iconic Saudi Aramco tower , located in an area that, as home to international companies and luxury housing, is a symbol of the…",
+   "image": "https://img.semafor.com/1412b78410ac745f7d1f8da8663561cd45152136-5537x3691.jpg"
+  },
+  {
+   "id": "bloomberg-business:TO7FT7R24U9300",
+   "feed": "bloomberg-business",
+   "title": "NZ Election, ANZ Results, Data Center Scrapped: Australia Briefing",
+   "link": "https://www.bloomberg.com/news/newsletters/2026-11-08/nz-election-anz-results-data-center-scrapped-australia-briefing",
+   "date": "2026-11-08T22:29:31.000Z",
+   "summary": "Get caught up.",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TO7FN5WWD62O00",
+   "feed": "bloomberg-business",
+   "title": "Nvidia Probes Huang, Democrats React to Miller Appointment, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-08/nvidia-probes-huang-democrats-react-to-miller-appointment-more",
+   "date": "2026-11-08T22:25:53.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/07/business/economy/nvidia-chips-chinese-firms.html",
+   "feed": "nytimes-business",
+   "title": "U.S. Cleared Nvidia Chips to Chinese Firms With Empty Offices and Troubling Ties",
+   "link": "https://www.nytimes.com/2026/11/07/business/economy/nvidia-chips-chinese-firms.html",
+   "date": "2026-11-08T21:48:23.000Z",
+   "summary": "The Commerce Department has approved dozens of Chinese companies to handle Nvidia’s H200 chips, some of which have ties to firms under sanctions over national security.",
+   "image": "https://static01.nyt.com/images/2026/11/07/multimedia/07dc-china-chips-01-fjhg/07dc-china-chips-01-fjhg-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "bloomberg-business:TO7D41RKV2TC00",
+   "feed": "bloomberg-business",
+   "title": "Nvidia Board to Probe Spying Claims After CEO Admits to Affair",
+   "link": "https://www.bloomberg.com/news/newsletters/2026-11-08/nvidia-board-to-probe-spying-claims-after-ceo-admits-to-affair",
+   "date": "2026-11-08T21:31:13.000Z",
+   "summary": "Get caught up.",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TO7CPEWWD62O00",
+   "feed": "bloomberg-business",
+   "title": "Nvidia Investigates Huang, Democrats React to Miller, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-08/nvidia-investigates-huang-democrats-react-to-miller-more",
+   "date": "2026-11-08T21:22:26.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/08/2026/nvidia-ceo-jensen-huang-admits-to-affair-with-suspected-chinese-spy",
+   "feed": "semafor",
+   "title": "Nvidia CEO Jensen Huang admits to affair with suspected Chinese spy",
+   "link": "https://www.semafor.com/article/11/08/2026/nvidia-ceo-jensen-huang-admits-to-affair-with-suspected-chinese-spy",
+   "date": "2026-11-08T21:03:56.000Z",
+   "summary": "Nvidia said it had initiated an independent investigation into CEO Jensen Huang, who admitted on Sunday to having an extramarital affair with a Chinese executive suspected of spying for Beijing. He’ll remain CEO pending the investigation’s outcome. “I was unfaithful to my wife,” Huang wrote in a company-wide letter…",
+   "image": "https://img.semafor.com/a62d51c8b79a2187c16135347850b044bd43eb5f-6000x4000.jpg"
+  },
+  {
+   "id": "bloomberg-business:TO7BO2T3BZLS00",
+   "feed": "bloomberg-business",
+   "title": "Data Center CFOs Prepare for Tougher Road Ahead (PLD, AIB, DBX, CLSK, LUMN)",
+   "link": "https://www.bloomberg.com/news/newsletters/2026-11-08/data-center-cfos-prepare-for-tougher-road-ahead-pld-aib-dbx-clsk-lumn",
+   "date": "2026-11-08T21:00:02.000Z",
+   "summary": "The midterm results bring potentially greater scrutiny of projects at a time when debt financing is becoming more expensive and shares are under pressure.",
+   "image": ""
   },
   {
    "id": "bloomberg-business:TO74WNV84D8G00",
@@ -202,21 +580,12 @@
    "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2492378019.jpg.webp?itok=j-b31Zr0"
   },
   {
-   "id": "bloomberg-business:TO6Z85XVHD6O00",
-   "feed": "bloomberg-business",
-   "title": "Bloomberg This Weekend: Congress after Midterms (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-08/bloomberg-this-weekend-congress-after-midterms-podcast",
-   "date": "2026-11-08T16:31:17.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
    "id": "planetizen:138825 at https://www.planetizen.com",
    "feed": "planetizen",
    "title": "Arizona, Wisconsin, Pennsylvania hope to finally advance climate goals post-midterms",
    "link": "https://www.planetizen.com/news/2026/11/138825-arizona-wisconsin-pennsylvania-hope-finally-advance-climate-goals-post-midterms",
    "date": "2026-11-08T16:00:00.000Z",
-   "summary": "In Pennsylvania, legislators hope to pass a bill to establish water and energy efficiency standards for appliances and new laws to allow community and warehouse rooftop solar. The Democrats victory on Nov. 3 could usher in a clean energy revolution in Arizona, Pennsylvania and Wisconsin. The three states have spent…",
+   "summary": "In Pennsylvania, legislators hope to pass a bill to establish water and energy efficiency standards for appliances and new laws to allow community and warehouse rooftop solar. Democrats' victory on Nov. 3 could usher in a clean energy revolution in Arizona, Pennsylvania and Wisconsin. The three states have spent…",
    "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2415794355.jpg.webp?itok=QbAk9xx2"
   },
   {
@@ -224,18 +593,9 @@
    "feed": "nytimes-business",
    "title": "Why the Iran War Has Spurred Both Clean Energy and Fossil Fuels",
    "link": "https://www.nytimes.com/2026/11/08/business/cop-31-iran-war-oil.html",
-   "date": "2026-11-08T15:39:12.000Z",
+   "date": "2026-11-08T15:39:13.000Z",
    "summary": "The shock to global oil prices has caused a surge in demand for electric vehicles while propelling a race for immediate, secure power supplies.",
    "image": "https://static01.nyt.com/images/2026/11/08/multimedia/08biz-cop31-war-swap-bgvm/08biz-cop31-war-swap-bgvm-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "bloomberg-business:TO6WR2O32FWG00",
-   "feed": "bloomberg-business",
-   "title": "Jeffries 'Hard Yes' on Hegseth Impeachment, Trump on Cooperation",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-08/jeffries-hard-yes-on-hegseth-impeachment-trump-on-cooperation",
-   "date": "2026-11-08T15:37:50.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
   },
   {
    "id": "planetizen:138823 at https://www.planetizen.com",
@@ -256,15 +616,6 @@
    "image": "https://static01.nyt.com/images/2026/11/10/multimedia/07Sci-heart-drugs-01b-kqzj/07Sci-heart-drugs-01b-kqzj-mediumSquareAt3X-v2.jpg"
   },
   {
-   "id": "bloomberg-business:TO6SM7XVHD6O00",
-   "feed": "bloomberg-business",
-   "title": "Aramco’s Riyadh Office Attacked, Poland's Mass Shooting, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-08/aramco-s-riyadh-office-attacked-poland-s-mass-shooting-more",
-   "date": "2026-11-08T14:08:31.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
    "id": "planetizen:138821 at https://www.planetizen.com",
    "feed": "planetizen",
    "title": "Voters choose public transit, approve $31 billion in funding",
@@ -274,15 +625,6 @@
    "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2799382773.jpg.webp?itok=yIwzdzAq"
   },
   {
-   "id": "bloomberg-business:TO3DZLKGIFRJ00",
-   "feed": "bloomberg-business",
-   "title": "What’s Happening in EM: Blue Sweep’s Global Shakeup (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-08/what-s-happening-in-em-blue-sweep-s-global-shakeup-podcast",
-   "date": "2026-11-08T13:30:00.000Z",
-   "summary": "This week, Carolina Wilson speaks with Divya Singaravelu, head of research at Meridian 1305 Capital, about how a divided Washington could reshape bets on everything from US interest rates and the dollar to Ukraine, Argentina and Venezuela.",
-   "image": ""
-  },
-  {
    "id": "planetizen:138820 at https://www.planetizen.com",
    "feed": "planetizen",
    "title": "Study reveals best places in the U.S. for cycling, walking",
@@ -290,24 +632,6 @@
    "date": "2026-11-08T13:00:00.000Z",
    "summary": "Cities with universities, boardwalks and entertainment districts broadly saw more pedestrian activity, while cities with an abundance of bike trails naturally saw more cyclists. A new study reveals that Orlando, Florida and Boston residents walk the most miles per capita, while New York City and Boise, Idaho…",
    "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_1888757398.jpg.webp?itok=P2b5kLYJ"
-  },
-  {
-   "id": "bloomberg-business:TO6P2YXVHD6O00",
-   "feed": "bloomberg-business",
-   "title": "Aramco Office Attack, Poland Shooter: 'Far-Right Radical,' More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-08/aramco-office-attack-poland-shooter-far-right-radical-more",
-   "date": "2026-11-08T12:52:10.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TO6KX0XVHD6O00",
-   "feed": "bloomberg-business",
-   "title": "Aramco’s Riyadh Office Attacked, Eisenkot to Form Israeli Govt",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-08/aramco-s-riyadh-office-attacked-eisenkot-to-form-israeli-govt",
-   "date": "2026-11-08T11:22:12.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
   },
   {
    "id": "stb:https://seattletransitblog.com/?p=150679",
@@ -337,15 +661,6 @@
    "image": "https://static01.nyt.com/images/2026/11/08/multimedia/08bizsun-workfriend-jvkw/08bizsun-workfriend-jvkw-mediumSquareAt3X.jpg"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/08/business/original-medicare-advantage.html",
-   "feed": "nytimes-business",
-   "title": "Medicare Advantage vs. Traditional Medicare, Explained",
-   "link": "https://www.nytimes.com/2026/11/08/business/original-medicare-advantage.html",
-   "date": "2026-11-08T10:00:39.000Z",
-   "summary": "When you sign up for the retiree health plan, the two options can present a financial puzzle. But cost is just one factor.",
-   "image": "https://static01.nyt.com/images/2026/11/08/business/08retiring-illo-sub/08retiring-illo-sub-mediumSquareAt3X.jpg"
-  },
-  {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/08/business/anime-japan-sony-demonslayer.html",
    "feed": "nytimes-business",
    "title": "The World Can’t Get Enough Anime. Can Japan Cash In on Its Success?",
@@ -353,24 +668,6 @@
    "date": "2026-11-08T10:00:26.000Z",
    "summary": "Sony is building an anime empire, betting that global fandom can fuel growth for both the company and the country as foreign rivals and A.I. swarm the scene.",
    "image": "https://static01.nyt.com/images/2026/10/13/multimedia/Biz-Anime_Video_still/13cul-comic-con-pflz-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "bloomberg-business:TO6EC0KIUPSA00",
-   "feed": "bloomberg-business",
-   "title": "Warfare Technology Is Finding a New Home on Britain’s Farms",
-   "link": "https://www.bloomberg.com/news/features/2026-11-08/warfare-technology-is-finding-a-new-home-on-britain-s-farms",
-   "date": "2026-11-08T09:00:00.000Z",
-   "summary": "With extreme weather, farmers are turning to new methods to make crops more resilient.",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TO649MT9NJLT00",
-   "feed": "bloomberg-business",
-   "title": "Stockland Scraps Sydney Data Center Plans After Local Backlash",
-   "link": "https://www.bloomberg.com/news/articles/2026-11-08/stockland-scraps-sydney-data-center-plans-after-local-backlash",
-   "date": "2026-11-08T06:45:48.000Z",
-   "summary": "Stockland Corp. has abandoned plans for a Sydney data center following community backlash, in another sign of growing opposition to artificial intelligence infrastructure.",
-   "image": ""
   },
   {
    "id": "morning-brew:https://www.morningbrew.com/stories/investing-in-art-isnt-pragmatic-but-there-are-returns",
@@ -400,15 +697,6 @@
    "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-11-05/image-a28f0d3d5386f801871f8099b955cbd09792fc7d-6048x4032-jpg/GettyImages-2299431620.jpg"
   },
   {
-   "id": "bloomberg-business:TO5TSUV84D8G00",
-   "feed": "bloomberg-business",
-   "title": "Eisenkot Chance to Form Gov’t, Trump Wants White for Press Sec",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-08/eisenkot-chance-to-form-gov-t-trump-wants-white-for-press-sec",
-   "date": "2026-11-08T01:36:30.000Z",
-   "summary": "Source: Bloomberg, 6:29",
-   "image": ""
-  },
-  {
    "id": "wsj-business:WP-WSJ-0004043993",
    "feed": "wsj-business",
    "title": "How a Talent War Spelled Doom for the Traditional Law Firm",
@@ -416,15 +704,6 @@
    "date": "2026-11-08T01:00:00.000Z",
    "summary": "A record year for partner turnover helped bring down Weil Gotshal and is forcing similar firms to make changes to compete.",
    "image": "https://images.wsj.net/im-81289120"
-  },
-  {
-   "id": "bloomberg-business:TO5Q5MUT4Z5S00",
-   "feed": "bloomberg-business",
-   "title": "Eisenkot’s Chance to Form Gov’t, Trump Wants White for Press Sec",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-08/eisenkot-s-chance-to-form-gov-t-trump-wants-white-for-press-sec",
-   "date": "2026-11-08T00:17:46.000Z",
-   "summary": "Source: Bloomberg, 5:48",
-   "image": ""
   },
   {
    "id": "wsj-business:WP-WSJ-0004042237",
@@ -436,24 +715,6 @@
    "image": "https://images.wsj.net/im-77028918"
   },
   {
-   "id": "bloomberg-business:TO5MYPXVHD6O00",
-   "feed": "bloomberg-business",
-   "title": "Eisenkot’s Chance to Form Gov’t, Trump Wants White for Press Sec",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-07/eisenkot-s-chance-to-form-gov-t-trump-wants-white-for-press-sec",
-   "date": "2026-11-07T23:08:49.000Z",
-   "summary": "Source: Bloomberg, 5:04",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TO5IORWWD62O00",
-   "feed": "bloomberg-business",
-   "title": "Trump’s Wish: UFC’s White for Press Sec, Herzog to Tap Eisenkot",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-07/trump-s-wish-ufc-s-white-for-press-sec-herzog-to-tap-eisenkot",
-   "date": "2026-11-07T21:36:28.000Z",
-   "summary": "Source: Bloomberg, 5:10",
-   "image": ""
-  },
-  {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/06/world/americas/paraguay-president-removed-ueno.html",
    "feed": "nytimes-business",
    "title": "Prosecutors Charge Paraguay’s Former President With Corruption",
@@ -461,15 +722,6 @@
    "date": "2026-11-07T20:17:15.000Z",
    "summary": "Santiago Peña was impeached, removed from office, placed under house arrest and charged with using his office to enrich himself after a bank with close ties to his administration went under.",
    "image": "https://static01.nyt.com/images/2026/11/06/multimedia/06int-Paraguay-WTK-glwt/06int-Paraguay-WTK-glwt-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "bloomberg-business:TO5EP6WWD62O00",
-   "feed": "bloomberg-business",
-   "title": "Trump Wants UFC’s White for Press Sec, Herzog to Tap Eisenkot",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-07/trump-wants-ufc-s-white-for-press-sec-herzog-to-tap-eisenkot",
-   "date": "2026-11-07T20:10:18.000Z",
-   "summary": "Source: Bloomberg, 5:02",
-   "image": ""
   },
   {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/07/business/media/zelda-ocarina-of-time-remake-nintendo.html",
@@ -506,24 +758,6 @@
    "date": "2026-11-07T13:00:06.000Z",
    "summary": "Crosby, an A.I. law firm, bought it for them. The move speaks to a nascent gap in coverage as major insurers grapple with risks related to artificial intelligence.",
    "image": "https://static01.nyt.com/images/2026/11/07/multimedia/07DB-AI-INSURANCE-01-qkvt/07DB-AI-INSURANCE-01-qkvt-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004030474",
-   "feed": "wsj-business",
-   "title": "News Quiz for Nov. 7, 2026",
-   "link": "https://www.wsj.com/business/media/news-quiz-for-nov-7-2026-b4589af9?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-07T11:00:00.000Z",
-   "summary": "Test your knowledge of the week’s events with The Wall Street Journal News Quiz.",
-   "image": "https://images.wsj.net/im-23096731"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/07/business/economy/nvidia-chips-chinese-firms.html",
-   "feed": "nytimes-business",
-   "title": "U.S. Cleared Nvidia Chips to Chinese Firms With Empty Offices and Troubling Ties",
-   "link": "https://www.nytimes.com/2026/11/07/business/economy/nvidia-chips-chinese-firms.html",
-   "date": "2026-11-07T10:00:41.000Z",
-   "summary": "The Commerce Department has approved dozens of Chinese companies to handle Nvidia’s H200 chips, some of which have ties to firms under sanctions over national security.",
-   "image": "https://static01.nyt.com/images/2026/11/07/multimedia/07dc-china-chips-01-fjhg/07dc-china-chips-01-fjhg-mediumSquareAt3X.jpg"
   },
   {
    "id": "morning-brew:https://www.morningbrew.com/stories/tesla-is-pulling-the-plug-on-the-cybertruck",
@@ -949,15 +1183,6 @@
    "image": "https://img.semafor.com/f766d1145bba19acfd258ecf809cad1501d3c534-3598x2399.jpg"
   },
   {
-   "id": "semafor:https://www.semafor.com/article/11/06/2026/nigerian-high-court-voids-nigerian-opposition-candidate-atiku-abubakar",
-   "feed": "semafor",
-   "title": "Nigerian high court voids opposition candidate Atiku Abubakar",
-   "link": "https://www.semafor.com/article/11/06/2026/nigerian-high-court-voids-nigerian-opposition-candidate-atiku-abubakar",
-   "date": "2026-11-06T15:13:31.000Z",
-   "summary": "A Nigerian high court invalidated the candidacy of the leading challenger to President Bola Tinubu, creating uncertainty with just 10 weeks to go until voters have their say in Africa’s biggest democratic exercise. The judge ruled that former vice president and two-time presidential election runner-up Atiku Abubakar…",
-   "image": "https://img.semafor.com/4c83c5eff65fb7e1d700ce69f16643394a638735-2048x1421.jpg"
-  },
-  {
    "id": "semafor:https://www.semafor.com/article/11/06/2026/disease-ecologist-eric-ngeno-maps-human-gut-bacteria-in-nairobi",
    "feed": "semafor",
    "title": "Kenya researcher maps human gut bacteria to help fight E.coli",
@@ -1003,24 +1228,6 @@
    "image": "https://imgproxy.divecdn.com/NvLyBg_A-InLTK1bhKaOK78thOY-XStN7cJeAfileIE/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMjQ0NjA5MTU0LmpwZw==.webp"
   },
   {
-   "id": "semafor:https://www.semafor.com/article/11/06/2026/americas-midterms-offer-south-africa-false-comfort",
-   "feed": "semafor",
-   "title": "US midterms offer South Africa false comfort",
-   "link": "https://www.semafor.com/article/11/06/2026/americas-midterms-offer-south-africa-false-comfort",
-   "date": "2026-11-06T14:31:56.000Z",
-   "summary": "Tiisetso’s view South African President Cyril Ramaphosa acquired some useful new friends in Washington this week. Unfortunately for him, they cannot solve either of his immediate problems. The first is at home. The African National Congress, the once dominant party of Nelson Mandela, is taking a drubbing in the local…",
-   "image": "https://img.semafor.com/c84d015f7f7071ad6adc4a2fafdef20a76244717-5500x3667.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/06/2026/wall-streets-push-to-trade-ai-compute-hits-washington-roadblock",
-   "feed": "semafor",
-   "title": "Wall Street's push to trade AI compute hits Washington roadblock",
-   "link": "https://www.semafor.com/article/11/06/2026/wall-streets-push-to-trade-ai-compute-hits-washington-roadblock",
-   "date": "2026-11-06T14:25:53.000Z",
-   "summary": "Wall Street wants a price for AI compute. Washington may not. Exchange operators are racing to make GPU compute a tradable commodity like oil or wheat. But that effort is complicated by the fact that the biggest buyers, AI hyperscalers, pay under secret contracts, leaving most of the public data on how much people…",
-   "image": "https://img.semafor.com/a904a291cae07317dcef597decb77991bf8830e2-5400x3602.jpg"
-  },
-  {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/06/your-money/home-equity-investment.html",
    "feed": "nytimes-business",
    "title": "What Homeowners Should Know About Home Equity Contracts",
@@ -1037,15 +1244,6 @@
    "date": "2026-11-06T14:00:00.000Z",
    "summary": "Councilmember Eddie Lin is set to introduce legislation explicitly allowing a pair of citizen appeals that have challenged the environmental review underpinning Seattle's current growth plan to be heard by the City's hearing examiner. The two appeals seek to require city planners to conduct a more rigorous analysis…",
    "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/11/Orcas--scaled-1.jpg"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004041263",
-   "feed": "wsj-business",
-   "title": "Charter Continues to Lose Internet, Video Customers; Plans New Savings Program",
-   "link": "https://www.wsj.com/business/telecom/charter-continues-to-lose-internet-video-customers-plans-new-savings-program-3d36f9dc?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-06T13:50:00.000Z",
-   "summary": "Charter Communications continued to lose internet and video subscribers in the third quarter, dragging on its overall results.",
-   "image": "https://images.wsj.net/im-71142996"
   },
   {
    "id": "nytimes-business:tps://www.nytimes.com/2026/11/06/business/economy/stable-labor-market-to-keep-fed-on-track-to-raise-rates-gradually.html",
@@ -1066,15 +1264,6 @@
    "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-11-03/image-49eb3a190bb70c998044f1c953f38c05dad3f8cc-1500x1000-png/2026GG_OutDoors-Hero.png"
   },
   {
-   "id": "semafor:https://www.semafor.com/article/11/06/2026/opay-ipo-disaster-as-chinese-regulatory-inquiry-catches-dealmakers-off-guard",
-   "feed": "semafor",
-   "title": "OPay IPO 'disaster' as Chinese regulatory inquiry catches dealmakers off guard",
-   "link": "https://www.semafor.com/article/11/06/2026/opay-ipo-disaster-as-chinese-regulatory-inquiry-catches-dealmakers-off-guard",
-   "date": "2026-11-06T13:10:32.000Z",
-   "summary": "The News Bankers and advisers were “shocked” when OPay abruptly pulled its $304 million US IPO just hours after pricing on Oct. 30, after a Chinese regulatory inquiry forced the Nigeria-focused fintech to abandon its planned New York Stock Exchange debut, people close to the transaction told Semafor. Speaking on…",
-   "image": "https://img.semafor.com/69625206eaa6f213834441a1ea41162b36a1db93-2048x1365.jpg"
-  },
-  {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/06/business/dealbook/tech-investors-ai-rout.html",
    "feed": "nytimes-business",
    "title": "After a $2.5 Trillion Wipeout, Tech Investors Brace for More Pain",
@@ -1082,24 +1271,6 @@
    "date": "2026-11-06T13:07:35.000Z",
    "summary": "A stock rally fueled in part by artificial intelligence is being tested after Democrats’ landslide election victories.",
    "image": "https://static01.nyt.com/images/2026/11/06/multimedia/06db-nasdaq-jmfb/06db-nasdaq-jmfb-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004041167",
-   "feed": "wsj-business",
-   "title": "Under Armour Revenue Falls on Broad Segment Declines",
-   "link": "https://www.wsj.com/business/earnings/under-armour-revenue-falls-on-broad-segment-declines-381d839c?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-06T12:49:00.000Z",
-   "summary": "Under Armour posted lower revenue in its fiscal second quarter, weighed down by a slump that cut across product categories and geographic segments.",
-   "image": "https://images.wsj.net/im-972623"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004041086",
-   "feed": "wsj-business",
-   "title": "Moderna Swings to Profit, Lifts Outlook as Covid-19 Vaccine Demand Stabilizes",
-   "link": "https://www.wsj.com/health/moderna-lifts-full-year-outlook-swings-to-quarterly-profit-d05bf4b3?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-06T12:39:00.000Z",
-   "summary": "The biopharmaceutical company said it now expects total revenue growth of 15% to 25% for the year, compared with a previous outlook for up to 10% growth.",
-   "image": "https://images.wsj.net/im-00465011"
   },
   {
    "id": "wsj-business:WP-WSJ-0004040963",
@@ -1120,60 +1291,6 @@
    "image": "https://images.wsj.net/im-907518"
   },
   {
-   "id": "wsj-business:WP-WSJ-0004041034",
-   "feed": "wsj-business",
-   "title": "Humana Lifts Outlook as Quarterly Revenue Jumps",
-   "link": "https://www.wsj.com/business/earnings/humana-lifts-outlook-as-quarterly-revenue-jumps-dda14c54?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-06T12:08:00.000Z",
-   "summary": "Humana raised its full-year earnings outlook as consolidated income and revenue rose in the recent quarter.",
-   "image": "https://images.wsj.net/im-92572895"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/06/2026/a-series-of-cyber-attacks-rattles-france",
-   "feed": "semafor",
-   "title": "A series of cyber attacks rattles France",
-   "link": "https://www.semafor.com/article/11/06/2026/a-series-of-cyber-attacks-rattles-france",
-   "date": "2026-11-06T11:31:54.000Z",
-   "summary": "A French bank said hackers stole €100 million ($112 million), a rare heist of a mainstream lender that has sent shudders across Europe’s financial system. The continent has in recent weeks been the target of numerous cyber attacks, including one on France’s blood banks and a hack on supermarket fridges that affected…",
-   "image": "https://img.semafor.com/a44a2d01dead0277e4a0f5c219e8813a81290dca-2048x1368.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/06/2026/gop-eyes-2028-presidential-bids-after-midterm-rebuke",
-   "feed": "semafor",
-   "title": "Republicans eye 2028 presidential bids after midterm rebuke",
-   "link": "https://www.semafor.com/article/11/06/2026/gop-eyes-2028-presidential-bids-after-midterm-rebuke",
-   "date": "2026-11-06T11:31:10.000Z",
-   "summary": "Republican leaders took early steps signaling potential 2028 presidential bids, using disastrous midterm elections to distance themselves from the Trump administration. Florida’s governor, who unsuccessfully sought the GOP nomination in 2024, has been among the loudest critics of Republican leadership in recent days…",
-   "image": "https://img.semafor.com/f1d1620782386a89f026a037ef1cf837e05b82a4-5612x3595.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/06/2026/midterms-spark-calls-for-white-house-policy-and-personnel-shakeups",
-   "feed": "semafor",
-   "title": "Midterms spark calls for White House shakeups",
-   "link": "https://www.semafor.com/article/11/06/2026/midterms-spark-calls-for-white-house-policy-and-personnel-shakeups",
-   "date": "2026-11-06T11:28:56.000Z",
-   "summary": "The White House faced calls for policy and personnel shakeups after brutal midterm elections, with the defense secretary under most pressure. Senior Republican lawmakers and strategists have reportedly pressed the Trump administration to fire the Pentagon chief and swiftly end the Iran war , blamed for fuel-price…",
-   "image": "https://img.semafor.com/8ff4766c88d8563c19529da41d0adb0e32049562-4500x3000.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/06/2026/oil-prices-up-after-days-long-selloff-on-revived-us-iran-war-fears",
-   "feed": "semafor",
-   "title": "Renewed US-Iran war fears drive oil prices higher",
-   "link": "https://www.semafor.com/article/11/06/2026/oil-prices-up-after-days-long-selloff-on-revived-us-iran-war-fears",
-   "date": "2026-11-06T11:28:13.000Z",
-   "summary": "Oil prices briefly neared $100 a barrel following a days-long selloff on revived concerns of a resumption of the US-Iran war. US President Donald Trump spoke with the emir of Qatar, which has sought to mediate a truce, but Washington and Tehran have also traded heated rhetoric and Iran said three tankers were hit in…",
-   "image": "https://img.semafor.com/c3639d7a7f10c911c635fac5304d6a708e82e06d-2048x1365.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/06/2026/stock-selloff-goes-global-in-worst-rout-since-2020",
-   "feed": "semafor",
-   "title": "Stock selloff goes global in worst rout in years",
-   "link": "https://www.semafor.com/article/11/06/2026/stock-selloff-goes-global-in-worst-rout-since-2020",
-   "date": "2026-11-06T11:27:16.000Z",
-   "summary": "Asian and European stocks followed US shares lower following the worst market rout since 2020 as investors fretted about the durability of the AI buildout under a Democrat-controlled Congress. Chipmaking hubs Taiwan and South Korea saw steep declines, the former suffering record losses and the latter halting trading…",
-   "image": "https://img.semafor.com/ce2b260c89ec04b9118542ab8638c7c7cfb98dae-7552x5038.jpg"
-  },
-  {
    "id": "wsj-business:WP-WSJ-0004040826",
    "feed": "wsj-business",
    "title": "Eurozone Retail Sales Slump as Energy Shock Hits Confidence",
@@ -1181,24 +1298,6 @@
    "date": "2026-11-06T11:17:00.000Z",
    "summary": "Retail sales fell in as high energy prices continued to weigh on consumer confidence.",
    "image": "https://images.wsj.net/im-47547627"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/05/2026/republicans-worry-that-trumps-successor-cant-come-from-his-white-house",
-   "feed": "semafor",
-   "title": "Republicans worry that Trump’s successor can’t come from his White House",
-   "link": "https://www.semafor.com/article/11/05/2026/republicans-worry-that-trumps-successor-cant-come-from-his-white-house",
-   "date": "2026-11-06T10:34:24.000Z",
-   "summary": "The News Republicans’ stunning midterm defeat is forcing them to confront a question that will shape their 2028 primary: Can their next standard-bearer come from inside the Trump administration? Vice President JD Vance remains the most prominent potential successor to President Donald Trump, but his blunt X post…",
-   "image": "https://img.semafor.com/622b16714f15f3ce6c978efbc612f477e496eaed-3297x2198.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/06/travel/el-nino-skiing-united-states.html",
-   "feed": "nytimes-business",
-   "title": "What Does the Super El Niño Mean for Ski Season?",
-   "link": "https://www.nytimes.com/2026/11/06/travel/el-nino-skiing-united-states.html",
-   "date": "2026-11-06T10:00:33.000Z",
-   "summary": "The climate event is predicted to alter snowfall patterns across the U.S. and Canada. Experts are starting to see how it might play out across ski country.",
-   "image": "https://static01.nyt.com/images/2026/10/29/multimedia/29trav-elnino-skiing-vptl/29trav-elnino-skiing-vptl-mediumSquareAt3X.jpg"
   },
   {
    "id": "morning-brew:https://www.morningbrew.com/stories/met-galas-theme-will-be-jeans-and-t-shirts",
@@ -1345,15 +1444,6 @@
    "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-11-03/image-baee9670369a522190bd654ba155de22e553ebf5-1500x1000-png/2026GG_Runners-Hero.png"
   },
   {
-   "id": "wsj-business:WP-WSJ-0004037243",
-   "feed": "wsj-business",
-   "title": "Wendy’s Rejects Trian’s $1.4 Billion Takeover Offer",
-   "link": "https://www.wsj.com/business/deals/wendys-rejects-trians-1-4-billion-takeover-offer-984b1892?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-05T13:20:00.000Z",
-   "summary": "The struggling burger chain backed its own turnaround bid instead of being taken private by Nelson Peltz’s hedge fund.",
-   "image": "https://images.wsj.net/im-19787036"
-  },
-  {
    "id": "wsj-business:WP-WSJ-0004035711",
    "feed": "wsj-business",
    "title": "Toyota Lifts Earnings Forecast; Stock Posts Biggest Gain in 39 Years",
@@ -1361,15 +1451,6 @@
    "date": "2026-11-05T11:54:00.000Z",
    "summary": "Operating profit climbed 34% thanks to a weaker yen and cost reduction despite disruptions caused by the Middle East conflict.",
    "image": "https://images.wsj.net/im-55821017"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004036518",
-   "feed": "wsj-business",
-   "title": "China Blocks $5.4 Billion SoftBank Robot Deal, Flexing Control Over AI Tech",
-   "link": "https://www.wsj.com/business/deals/abb-confirms-china-blocked-softbank-deal-for-robotics-unit-cf1d44bf?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-05T11:50:00.000Z",
-   "summary": "Beijing is seeking to keep AI data and expertise developed at home from leaking abroad.",
-   "image": "https://images.wsj.net/im-41277262"
   },
   {
    "id": "morning-brew:https://www.morningbrew.com/stories/midterm-results-could-poorly-data-center-projects",
@@ -1426,24 +1507,6 @@
    "image": "https://usa.streetsblog.org/wp-content/uploads/sites/10/2026/11/55381820049_0f259f2bde_o.jpg?w=1024"
   },
   {
-   "id": "streetsblog:https://mass.streetsblog.org/?p=53653",
-   "feed": "streetsblog",
-   "title": "Election Roundup: Transit Notches Wins In California, Colorado, and New York",
-   "link": "https://mass.streetsblog.org/2026/11/04/election-roundup-transit-notches-wins-in-california-colorado-and-new-york",
-   "date": "2026-11-05T05:02:00.000Z",
-   "summary": "Transportation wasn’t explicitly on the ballot yesterday in Massachusetts, but the major “blue wave” that swept the country will eventually have major implications for federal transportation policy, and stave off the Republicans’ proposals for disastrous budget cuts for public transit and safer streets. When…",
-   "image": "https://usa.streetsblog.org/wp-content/uploads/sites/10/2026/11/ElectionDay2020_FaneuilHall.jpg?w=931"
-  },
-  {
-   "id": "streetsblog:https://usa.streetsblog.org/?p=295749",
-   "feed": "streetsblog",
-   "title": "Thursday’s Headlines Voted for Transit",
-   "link": "https://usa.streetsblog.org/2026/11/05/thursdays-headlines-voted-for-transit",
-   "date": "2026-11-05T05:01:00.000Z",
-   "summary": "From Seattle to Charleston, voters all over the country approved local ballot measures funding transit. ( Mass Transit ) In what was expected to be a close race, Bay Area voters overwhelmingly approved a measure to shore up funding for regional transit agencies like Muni and BART. ( Mission Local ) Colorado voters…",
-   "image": "https://usa.streetsblog.org/wp-content/uploads/sites/10/2019/11/Seattle-Bus.jpg?w=1024"
-  },
-  {
    "id": "morning-brew:https://www.morningbrew.com/stories/nintendo-holiday-plot-zelda-ocarina-of-time-remake",
    "feed": "morning-brew",
    "title": "Nintendo’s holiday plot: Beautify a 28-year-old horse",
@@ -1460,15 +1523,6 @@
    "date": "2026-11-04T22:02:55.000Z",
    "summary": "Democrats scored victories up and down the ballot across the country Tuesday night, and the picture in Washington state was no different. Election night returns, when about half of ballots are counted in Washington's vote-by-mail elections, indicated Democrats are likely on course to a two-thirds supermajority in the…",
    "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/11/img_20240307_173301466_hdr-edit-1-1-.jpg"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004034537",
-   "feed": "wsj-business",
-   "title": "Ethan Allen Shareholders Hand Board Control to Activist Investor Doug Bergeron",
-   "link": "https://www.wsj.com/business/retail/ethan-allen-shareholders-hand-board-control-to-activist-investor-doug-bergeron-c79df327?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-04T20:08:00.000Z",
-   "summary": "Bergeron said the new board will focus on strengthening corporate governance, returning to profitable growth, and selecting a successor to CEO Farooq Kathwari.",
-   "image": "https://images.wsj.net/im-34966428"
   },
   {
    "id": "urbanist:6ae52b15833d4b0001ace098",
@@ -1496,15 +1550,6 @@
    "date": "2026-11-04T15:56:00.000Z",
    "summary": "The report analyzed bicycle and pedestrian miles traveled in 100 U.S. cities. It found that walking accounted for seven times more miles annually than biking.",
    "image": ""
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004033772",
-   "feed": "wsj-business",
-   "title": "Andersons to Buy Harvestone Low Carbon Partners for $915 Million",
-   "link": "https://www.wsj.com/pro/private-equity/andersons-to-buy-harvestone-low-carbon-partners-for-915-million-4dc82e7b?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-04T14:50:00.000Z",
-   "summary": "Andersons agreed to buy low-carbon ethanol producer Harvestone Low Carbon Partners for $915 million in a deal that expands the diversified agricultural company’s renewables platform by more than 40%.",
-   "image": "https://images.wsj.net/im-18302878"
   },
   {
    "id": "smartcities:https://www.smartcitiesdive.com/news/5-factors-shaping-the-most-prosperous-us-cities/873698/",
