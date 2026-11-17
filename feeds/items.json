@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T08:53:51.135Z",
+ "updated": "2026-11-17T22:49:20.831Z",
  "feeds": [
   {
    "id": "planetizen",
@@ -121,6 +121,915 @@
  ],
  "items": [
   {
+   "id": "bloomberg-business:TOO4HAKGZAKK00",
+   "feed": "bloomberg-business",
+   "title": "Canada Edges a Bit Closer to China as Carney and Xi Strike Another Deal",
+   "link": "https://www.bloomberg.com/news/newsletters/2026-11-17/canada-edges-a-bit-closer-to-china-as-carney-and-xi-strike-another-deal",
+   "date": "2026-11-17T22:43:58.000Z",
+   "summary": "Plus: Anthropic’s blockbuster IPO",
+   "image": ""
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004073598",
+   "feed": "wsj-business",
+   "title": "The SEC Is Investigating Nvidia",
+   "link": "https://www.wsj.com/business/the-sec-is-investigating-nvidia-c59a9845?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-17T22:43:00.000Z",
+   "summary": "Plus, the NSA’s classified internal communications network is down, and Anthropic plans to raise its share price after strong demand.",
+   "image": "https://images.wsj.net/im-02933754"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/17/2026/nvidia-chairman-harvey-jones-rules-out-ex-ceo-jensen-huangs-return",
+   "feed": "semafor",
+   "title": "Nvidia chairman rules out ex-CEO Huang's return",
+   "link": "https://www.semafor.com/article/11/17/2026/nvidia-chairman-harvey-jones-rules-out-ex-ceo-jensen-huangs-return",
+   "date": "2026-11-17T22:40:24.000Z",
+   "summary": "Nvidia chairman Harvey Jones ruled out the return of company founder Jensen Huang as CEO on the chipmaker’s earnings call Tuesday, as the company smashed revenue expectations and raised its profit guidance. Uncertainty over the firm’s future fueled pessimism that saw markets dip Tuesday. In his first public remarks…",
+   "image": "https://img.semafor.com/32216a34a823211e1918352cebe5089bd9ffadb0-5400x3602.jpg"
+  },
+  {
+   "id": "bloomberg-business:TOO4ALO2LL3600",
+   "feed": "bloomberg-business",
+   "title": "Bloomberg Businessweek Daily: Nvidia Earnings in Focus (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-17/bloomberg-businessweek-daily-nvidia-earnings-in-focus-podcast",
+   "date": "2026-11-17T22:39:57.000Z",
+   "summary": "Source: Bloomberg, 38:44",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/live/2026/11/17/technology/nvidia-earnings-stock-price/heres-the-latest",
+   "feed": "nytimes-business",
+   "title": "Here’s the latest.",
+   "link": "https://www.nytimes.com/live/2026/11/17/technology/nvidia-earnings-stock-price/heres-the-latest",
+   "date": "2026-11-17T22:39:20.000Z",
+   "summary": "",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TOO49GV84D8G00",
+   "feed": "bloomberg-business",
+   "title": "Stock Movers: Nvidia, CoreWeave, Nike (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-17/stock-movers-nvidia-coreweave-nike-podcast",
+   "date": "2026-11-17T22:39:16.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004073305",
+   "feed": "wsj-business",
+   "title": "Nvidia Beats Estimates, Raises Guidance in First Earnings Report After Huang’s Ouster",
+   "link": "https://www.wsj.com/tech/ai/nvidia-nvda-3q-2027-earnings-report-stock-6e642303?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-17T22:39:00.000Z",
+   "summary": "Revenue more than doubled year-over year, but interim CEO Colette Kress is expected to face pressing questions over the chip maker’s future.",
+   "image": "https://images.wsj.net/im-73984041"
+  },
+  {
+   "id": "semafor:://www.semafor.com/article/11/17/2026/trump-reaches-out-a-lot-jeff-bezos-says-shutting-out-business-leaders-is-a-mistake",
+   "feed": "semafor",
+   "title": "Trump ‘reaches out a lot’: Jeff Bezos says shutting out business leaders is a mistake",
+   "link": "https://www.semafor.com/article/11/17/2026/trump-reaches-out-a-lot-jeff-bezos-says-shutting-out-business-leaders-is-a-mistake",
+   "date": "2026-11-17T22:36:15.000Z",
+   "summary": "Amazon founder Jeff Bezos says he doesn’t regret aligning himself with President Donald Trump, calling him unusually “communicative.” “He reaches out a lot,” Bezos said at Semafor’s Silicon Valley & The World, adding that it was “quantitatively unusual.” It’s a two way street — with the billionaire and the president…",
+   "image": "https://img.semafor.com/2509e7e8026e6d856e13bbadeae35335ea11fcd5-5000x3335.jpg"
+  },
+  {
+   "id": "bloomberg-business:TOO3YMUT4Z5S00",
+   "feed": "bloomberg-business",
+   "title": "Bloomberg Businessweek Daily: Anthropic Guides IPO (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-17/bloomberg-businessweek-daily-anthropic-guides-ipo-podcast",
+   "date": "2026-11-17T22:32:46.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TOO3QXR24U8T00",
+   "feed": "bloomberg-business",
+   "title": "Anthropic IPO, Huang, Nvidia, GTA 6: Australia Briefing",
+   "link": "https://www.bloomberg.com/news/newsletters/2026-11-17/anthropic-ipo-huang-nvidia-gta-6-australia-briefing",
+   "date": "2026-11-17T22:28:09.000Z",
+   "summary": "Get caught up.",
+   "image": ""
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004073284",
+   "feed": "wsj-business",
+   "title": "La-Z-Boy Posts Higher Revenue On New Stores, Acquisitions",
+   "link": "https://www.wsj.com/business/earnings/la-z-boy-posts-higher-revenue-on-new-stores-acquisitions-d078f3aa?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-17T22:24:00.000Z",
+   "summary": "The company’s revenue rose 1% in the second quarter, helped by new stores and acquisitions, and added that sales trends picked up in recent weeks after softening in October.",
+   "image": "https://images.wsj.net/im-01205637"
+  },
+  {
+   "id": "semafor:s://www.semafor.com/article/11/17/2026/jeff-bezos-says-he-was-heavily-involved-in-casting-robert-pattinson-as-james-bond",
+   "feed": "semafor",
+   "title": "Jeff Bezos says he was ‘heavily involved’ in casting Robert Pattinson as James Bond",
+   "link": "https://www.semafor.com/article/11/17/2026/jeff-bezos-says-he-was-heavily-involved-in-casting-robert-pattinson-as-james-bond",
+   "date": "2026-11-17T22:24:00.000Z",
+   "summary": "Amazon founder Jeff Bezos said Tuesday he was “heavily involved” in the decision to cast Robert Pattinson as the next James Bond, the first under Amazon’s creative stewardship. “We ran a really tight process,” Bezos said at Semafor’s Silicon Valley & The World, adding that there were “real old-fashioned screen tests”…",
+   "image": "https://img.semafor.com/04921c11d552a2f07f4b6f4e8df9546554c1cf43-5000x3335.jpg"
+  },
+  {
+   "id": "nytimes-business:2026/11/17/technology/nvidia-earnings-stock-price/jensen-huangs-daughter-a-close-ally-remains-in-a-senior-role-at-nvidia",
+   "feed": "nytimes-business",
+   "title": "Jensen Huang’s daughter, a close ally, remains in a senior role at Nvidia.",
+   "link": "https://www.nytimes.com/live/2026/11/17/technology/nvidia-earnings-stock-price/jensen-huangs-daughter-a-close-ally-remains-in-a-senior-role-at-nvidia",
+   "date": "2026-11-17T22:20:01.000Z",
+   "summary": "",
+   "image": "https://static01.nyt.com/images/2026/11/16/multimedia/17nvidia-earnings-live-jensen-daughter-version/BIZ-MADISON-HUANG-1-01-cmjw-mediumSquareAt3X-v3.jpg"
+  },
+  {
+   "id": "bloomberg-business:TOO39HO32FWG00",
+   "feed": "bloomberg-business",
+   "title": "Nvidia Tops Estimates, Report: SEC Launches Nvidia Probe, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-17/nvidia-tops-estimates-report-sec-launches-nvidia-probe-more",
+   "date": "2026-11-17T22:17:41.000Z",
+   "summary": "Source: Bloomberg, 5:10",
+   "image": ""
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004072079",
+   "feed": "wsj-business",
+   "title": "Tech, Media & Telecom Roundup: Market Talk",
+   "link": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-926920d3?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-17T22:01:00.000Z",
+   "summary": "Find insight on Nvidia, Disney and more in the latest Market Talks covering technology, media and telecom.",
+   "image": "https://images.wsj.net/im-68827432"
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004072132",
+   "feed": "wsj-business",
+   "title": "Auto & Transport Roundup: Market Talk",
+   "link": "https://www.wsj.com/business/auto-transport-roundup-market-talk-60155668?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-17T21:58:00.000Z",
+   "summary": "Find insight on General Motors, FirstGroup, XPeng, Singapore Airlines and more in the latest Market Talks covering the auto and transport sector.",
+   "image": "https://images.wsj.net/im-19513536"
+  },
+  {
+   "id": "nytimes-business:6/11/17/technology/nvidia-earnings-stock-price/jensen-huang-carried-a-secret-for-more-than-a-year-it-led-to-his-downfall",
+   "feed": "nytimes-business",
+   "title": "Jensen Huang carried a secret for more than a year. It led to his downfall.",
+   "link": "https://www.nytimes.com/live/2026/11/17/technology/nvidia-earnings-stock-price/jensen-huang-carried-a-secret-for-more-than-a-year-it-led-to-his-downfall",
+   "date": "2026-11-17T21:53:20.000Z",
+   "summary": "",
+   "image": "https://static01.nyt.com/images/2026/11/13/multimedia/17nvidia-earnings-live-jensen-version/BIZ-JENSEN-CRASH-1-01-ljmc-mediumSquareAt3X-v3.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/17/2026/europe-the-natural-location-for-mistral-ipo-ceo-says",
+   "feed": "semafor",
+   "title": "Europe the natural location for Mistral IPO, CEO says",
+   "link": "https://www.semafor.com/article/11/17/2026/europe-the-natural-location-for-mistral-ipo-ceo-says",
+   "date": "2026-11-17T21:49:01.000Z",
+   "summary": "French AI champion Mistral will likely go public in Europe, and is in preparations to do so, CEO Arthur Mensch said Tuesday. “The natural place to list is Europe,” Mensch said at Semafor’s Silicon Valley & The World. “We’re not going to do this this year, but we’re definitely getting ready for it.” Mistral, which…",
+   "image": "https://img.semafor.com/d821f403b312db63b40138b15943612b6ce75cd9-1733x1010.png"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/17/technology/apple-down-outage-issues.html",
+   "feed": "nytimes-business",
+   "title": "Apple Addresses Outages Affecting Apple Pay, iCloud and Apps",
+   "link": "https://www.nytimes.com/2026/11/17/technology/apple-down-outage-issues.html",
+   "date": "2026-11-17T21:39:25.000Z",
+   "summary": "The disruption followed days of unrelated problems in the past week that interrupted air travel and work at offices, schools and government.",
+   "image": "https://static01.nyt.com/images/2026/07/29/multimedia/17xp-apple/17xp-apple-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "bloomberg-business:TOO1G1RKV2U100",
+   "feed": "bloomberg-business",
+   "title": "Nvidia Delivers Solid Outlook in First Earnings Since Huang Exit",
+   "link": "https://www.bloomberg.com/news/newsletters/2026-11-17/nvidia-delivers-solid-outlook-in-first-earnings-since-huang-exit",
+   "date": "2026-11-17T21:38:25.000Z",
+   "summary": "Get caught up.",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TOO0X8XVHD6O00",
+   "feed": "bloomberg-business",
+   "title": "Nvidia 3Q Beats, SEC Launches Probe",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-17/nvidia-3q-beats-sec-launches-probe",
+   "date": "2026-11-17T21:27:08.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TONV8PT96OSH00",
+   "feed": "bloomberg-business",
+   "title": "White House Nominates LaNeve as Army Chief Despite GOP Doubts",
+   "link": "https://www.bloomberg.com/news/articles/2026-11-17/white-house-nominates-laneve-as-army-chief-despite-gop-doubts",
+   "date": "2026-11-17T21:25:46.000Z",
+   "summary": "Defense Secretary Pete Hegseth is formally pushing for his former aide General Christopher LaNeve to become the Army’s chief of staff, even as members of his own party in Congress oppose the selection.",
+   "image": ""
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/17/2026/sheehy-klobuchar-look-to-solve-hemp-dispute",
+   "feed": "semafor",
+   "title": "Sheehy, Klobuchar look to solve hemp dispute",
+   "link": "https://www.semafor.com/article/11/17/2026/sheehy-klobuchar-look-to-solve-hemp-dispute",
+   "date": "2026-11-17T21:16:02.000Z",
+   "summary": "Sens. Tim Sheehy, R-Mont., and Amy Klobuchar, D-Minn., are introducing a new, far-reaching hemp regulatory bill that could smooth over a major point of contention in the government funding negotiations, according to details shared first with Semafor. The bipartisan proposal would bar sales of consumable hemp products…",
+   "image": "https://img.semafor.com/bc855c219e1c0e4f417dd80fa34380396da713eb-5235x3490.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/17/2026/data-center-industry-should-repurpose-older-infrastructure-sambanova-ceo-says",
+   "feed": "semafor",
+   "title": "Data center industry should repurpose older infrastructure, SambaNova CEO says",
+   "link": "https://www.semafor.com/article/11/17/2026/data-center-industry-should-repurpose-older-infrastructure-sambanova-ceo-says",
+   "date": "2026-11-17T21:15:42.000Z",
+   "summary": "Data center builders must adapt to AI pushback, SambaNova CEO Rodrigo Liang said on Tuesday at Semafor’s Silicon Valley & The World. One way to do that, Liang said, is to repurpose existing data centers. This approach “disrupts the communities less,” he told Semafor’s Liz Rappaport. AI backlash has presented a…",
+   "image": "https://img.semafor.com/54fd122c4316ff7aef022cfd491e0e9870b4c845-5000x3335.jpg"
+  },
+  {
+   "id": "semafor:://www.semafor.com/article/11/17/2026/europe-needs-innovation-friendly-regulation-to-catch-up-on-ai-german-official-says",
+   "feed": "semafor",
+   "title": "Europe needs ‘innovation-friendly’ regulation to catch up on AI, German official says",
+   "link": "https://www.semafor.com/article/11/17/2026/europe-needs-innovation-friendly-regulation-to-catch-up-on-ai-german-official-says",
+   "date": "2026-11-17T21:14:37.000Z",
+   "summary": "Europe must enact more innovation-friendly regulation if it wants to compete in the AI race, Germany’s director-general for digital policy and economic affairs at the Federal Ministry for Digital Affairs and State Modernization said Tuesday. There are “a lot of things we need to do to catch up in the race,”…",
+   "image": "https://img.semafor.com/fafa2d33980dc8e5b107f2abfffcf22eb69ac7d2-5000x3335.jpg"
+  },
+  {
+   "id": "bloomberg-business:TOO0AEWWD62O00",
+   "feed": "bloomberg-business",
+   "title": "Stocks Close Lower, Apple Working on Restoring Systems, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-17/stocks-close-lower-apple-working-on-restoring-systems-more",
+   "date": "2026-11-17T21:13:26.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/17/business/southeast-asia-china-ai-chips.html",
+   "feed": "nytimes-business",
+   "title": "Trump’s New A.I. Chip Rules Rattle Southeast Asia",
+   "link": "https://www.nytimes.com/2026/11/17/business/southeast-asia-china-ai-chips.html",
+   "date": "2026-11-17T21:04:16.000Z",
+   "summary": "New U.S. restrictions could jeopardize billions in investment and force countries in the region to strike an increasingly difficult balance between Washington and Beijing.",
+   "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17trump-summits-data-centers-kjtv/17trump-summits-data-centers-kjtv-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/live/2026/11/17/technology/nvidia-earnings-stock-price/what-to-know-about-the-nvidia-turmoil",
+   "feed": "nytimes-business",
+   "title": "What to know about the Nvidia turmoil.",
+   "link": "https://www.nytimes.com/live/2026/11/17/technology/nvidia-earnings-stock-price/what-to-know-about-the-nvidia-turmoil",
+   "date": "2026-11-17T21:01:05.000Z",
+   "summary": "",
+   "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17nvidia-earnings-live-what-to-know-version-kzmb/17nvidia-earnings-live-what-to-know-version-kzmb-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/17/business/economy/megaspeed-investigation-trump-doj.html",
+   "feed": "nytimes-business",
+   "title": "Facing Criticism, Trump Administration Says It’s Investigating Megaspeed",
+   "link": "https://www.nytimes.com/2026/11/17/business/economy/megaspeed-investigation-trump-doj.html",
+   "date": "2026-11-17T20:56:01.000Z",
+   "summary": "The announcement appeared to be a response to recent criticism that the Commerce Department has moved too slowly on the alleged chip smuggling case.",
+   "image": "https://static01.nyt.com/images/2026/11/15/multimedia/16dc-megaspeed-1/15xp-megaspeed1-zcvq-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004073316",
+   "feed": "wsj-business",
+   "title": "SEC Is Probing Nvidia Amid Departure of CEO Jensen Huang",
+   "link": "https://www.wsj.com/business/sec-is-probing-nvidia-amid-departure-of-ceo-jensen-huang-ee7643f8?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-17T20:56:00.000Z",
+   "summary": "The regulator’s civil probe is looking at whether the company violated investor-disclosure laws.",
+   "image": "https://images.wsj.net/im-02933754"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/17/business/media/nationwide-emergency-alert-test-fema.html",
+   "feed": "nytimes-business",
+   "title": "What Was That Alert on TV and the Radio? It Was Only a Test.",
+   "link": "https://www.nytimes.com/2026/11/17/business/media/nationwide-emergency-alert-test-fema.html",
+   "date": "2026-11-17T20:38:29.000Z",
+   "summary": "A national test mandated every three years was broadcast on television and radio at 2:20 p.m. Eastern time on Tuesday.",
+   "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17xp-alert-tjgl/17xp-alert-tjgl-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/17/business/economy/stock-market-nvidia-earnings.html",
+   "feed": "nytimes-business",
+   "title": "Stocks Down Just Ahead of Nvidia’s Earnings Report",
+   "link": "https://www.nytimes.com/2026/11/17/business/economy/stock-market-nvidia-earnings.html",
+   "date": "2026-11-17T20:38:02.000Z",
+   "summary": "The chip maker is scheduled to release its quarterly results amid broader jitters about the A.I. trade.",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TONY7KO2LL3B00",
+   "feed": "bloomberg-business",
+   "title": "Stock Movers: Nvidia, Nike, Klarna (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-17/stock-movers-nvidia-nike-klarna-podcast",
+   "date": "2026-11-17T20:28:32.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TONY60UT4Z5S00",
+   "feed": "bloomberg-business",
+   "title": "Balance of Power: Trump Shrugs Off Major Outages (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-17/balance-of-power-trump-shrugs-off-major-outages-podcast",
+   "date": "2026-11-17T20:27:36.000Z",
+   "summary": "Source: Bloomberg, 36:15",
+   "image": ""
+  },
+  {
+   "id": "cascadepbs:6afcb797f4524500019ebc34",
+   "feed": "cascadepbs",
+   "title": "How One Murder Changed Native American Reservations Forever",
+   "link": "https://www.cascadepbs.org/show/rogue-history/episode/how-one-murder-changed-native-american-reservations-forever-kmpt95/",
+   "date": "2026-11-17T20:16:01.000Z",
+   "summary": "In 1883, Lakota man Crow Dog killed a rival tribal leader and was sentenced to hang by an all-white jury in Deadwood, a town built on illegally seized Lakota land in the Black Hills. After appealing to the Supreme Court, he was released when the Court ruled the federal government lacked jurisdiction. Congress…",
+   "image": "https://www.cascadepbs.org/content/images/2026/11/a5381956-3a75-4f5f-ba71-0ffa6810a6e6.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/17/business/economy/fed-governor-lisa-cook-trump-white-house-hearing.html",
+   "feed": "nytimes-business",
+   "title": "Fed Governor Cook Won’t Attend White House Hearing Without Changes",
+   "link": "https://www.nytimes.com/2026/11/17/business/economy/fed-governor-lisa-cook-trump-white-house-hearing.html",
+   "date": "2026-11-17T20:14:54.000Z",
+   "summary": "Lawyers for Lisa Cook, the Federal Reserve governor President Trump is trying to fire, called the hearing process a “facade.”",
+   "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17DC-TRUMP-COOK-vbcz/17DC-TRUMP-COOK-vbcz-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "bloomberg-business:TONX9ZUT4Z5S00",
+   "feed": "bloomberg-business",
+   "title": "Apple Working to Restore Systems, Huang Open to Return to Nvidia",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-17/apple-working-to-restore-systems-huang-open-to-return-to-nvidia",
+   "date": "2026-11-17T20:08:23.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "cascadepbs:6afccee5f4524500019ec2f0",
+   "feed": "cascadepbs",
+   "title": "Destination London: Preparing for the Parade Trailer",
+   "link": "https://www.cascadepbs.org/show/destination-london-preparing-for-the-parade/extras/destination-london-preparing-for-the-parade-trailer-xoo58t/",
+   "date": "2026-11-17T20:06:14.000Z",
+   "summary": "The countdown clock is ticking as preparations for the World's favourite turn-of-year tradition the London Parade. Join the cast and crew for a sneak preview at what awaits on January 1st. More than 5,000 performers, from numerous nations, will fill the streets of the UK Capital with color and culture and PBS will be…",
+   "image": "https://www.cascadepbs.org/content/images/2026/11/33cda2fe-3d82-4490-91a6-a1b828035216.jpg"
+  },
+  {
+   "id": "cascadepbs:6afcc06bf4524500019ebc96",
+   "feed": "cascadepbs",
+   "title": "Destination London: Preparing for the Parade",
+   "link": "https://www.cascadepbs.org/show/destination-london-preparing-for-the-parade/",
+   "date": "2026-11-17T20:05:39.000Z",
+   "summary": "The countdown clock is ticking as preparations for the World's favourite turn-of-year tradition the London Parade. Join the cast and crew for a sneak preview at what awaits on January 1st. More than 5,000 performers, from numerous nations, will fill the streets of the UK Capital with color and culture and PBS will be…",
+   "image": "https://www.cascadepbs.org/content/images/2026/11/bdf13e2d-df16-40ea-a47b-5da48fcff89d.jpg"
+  },
+  {
+   "id": "cascadepbs:6afccefdf4524500019ec31a",
+   "feed": "cascadepbs",
+   "title": "Behind The Scenes of Crime and Punishment in America",
+   "link": "https://www.cascadepbs.org/show/behind-the-scenes-of-crime-and-punishment-in-america/trailers/behind-the-scenes-of-crime-and-punishment-in-america-iqv9bv/",
+   "date": "2026-11-17T20:05:28.000Z",
+   "summary": "Go behind the scenes of this documentary series that tells the story of criminal justice in America — from the pre-colonial era to today. Hear from the filmmaking team about how they sought to answer a deceptively simple question: “How did we get here? The series explores the architecture of justice — prisons,…",
+   "image": "https://www.cascadepbs.org/content/images/2026/11/9c75dd3d-03bb-4b70-80cf-d5477075f987.jpg"
+  },
+  {
+   "id": "cascadepbs:6afcc06ff4524500019ebca8",
+   "feed": "cascadepbs",
+   "title": "Behind The Scenes of Crime and Punishment in America",
+   "link": "https://www.cascadepbs.org/show/behind-the-scenes-of-crime-and-punishment-in-america/",
+   "date": "2026-11-17T20:05:15.000Z",
+   "summary": "Go behind the scenes of this documentary series that tells the story of criminal justice in America — from the pre-colonial era to today. Hear from the filmmaking team about how they sought to answer a deceptively simple question: “How did we get here? The series explores the architecture of justice — prisons,…",
+   "image": "https://www.cascadepbs.org/content/images/2026/11/93e30ba1-e89b-4215-b048-e1b70c764fad.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/17/2026/ai-companies-lost-voters-on-narrative-and-execution-alphabets-porat-says",
+   "feed": "semafor",
+   "title": "AI companies lost voters on narrative and execution, Alphabet’s Porat says",
+   "link": "https://www.semafor.com/article/11/17/2026/ai-companies-lost-voters-on-narrative-and-execution-alphabets-porat-says",
+   "date": "2026-11-17T20:02:45.000Z",
+   "summary": "Alphabet’s longtime investment chief acknowledged that Google — and AI companies generally — have come up short convincing US voters that the trillions of dollars being plowed into data centers across the country are worth the cost. A bipartisan backlash against data center building galvanized voters, who almost…",
+   "image": "https://img.semafor.com/66b2e464956f501fa1837c4e2175fea337e89d1b-5000x3335.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/17/technology/jensen-huang-nvidia-statement.html",
+   "feed": "nytimes-business",
+   "title": "Jensen Huang Says He Would Return as Nvidia CEO if Asked",
+   "link": "https://www.nytimes.com/2026/11/17/technology/jensen-huang-nvidia-statement.html",
+   "date": "2026-11-17T19:55:48.000Z",
+   "summary": "Mr. Huang resigned as chief executive of the company last week after revelations that he had affairs with an employee and a woman linked to Chinese intelligence.",
+   "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17biz-jensen-statement-vhjm/17biz-jensen-statement-vhjm-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/17/us/politics/irs-criminal-investigations.html",
+   "feed": "nytimes-business",
+   "title": "I.R.S. Opens Criminal Probes as Part of Trump’s Pursuit of Left-Wing Groups",
+   "link": "https://www.nytimes.com/2026/11/17/us/politics/irs-criminal-investigations.html",
+   "date": "2026-11-17T19:50:00.000Z",
+   "summary": "An internal I.R.S. memo viewed by The New York Times reveals how the agency is carrying out President Trump’s orders to investigate “domestic terrorism.”",
+   "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17dc-irs-nonprofit-01-cgqv/17dc-irs-nonprofit-01-cgqv-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/17/2026/hyundai-will-start-delivering-waymos-in-december-in-autonomous-push",
+   "feed": "semafor",
+   "title": "Hyundai will start delivering Waymos in December in autonomous push",
+   "link": "https://www.semafor.com/article/11/17/2026/hyundai-will-start-delivering-waymos-in-december-in-autonomous-push",
+   "date": "2026-11-17T19:49:15.000Z",
+   "summary": "Hyundai Motor CEO José Muñoz said the company will start delivering cars to Waymo next month, part of an autonomous push by the South Korean carmaker. Hyundai’s all-electric IONIQ 5 will supply Waymo’s self-driving fleet, starting in the US and expanding globally. It’s part of a deal the companies struck in 2024.…",
+   "image": "https://img.semafor.com/0f40cab33302397821362a47c6541e34fa51f607-5000x3335.jpg"
+  },
+  {
+   "id": "bloomberg-business:TONW4YKGIFQ200",
+   "feed": "bloomberg-business",
+   "title": "Trump-Xi APEC Meeting: AI Chips, Putin and What’s at Stake",
+   "link": "https://www.bloomberg.com/news/articles/2026-11-17/trump-xi-apec-meeting-ai-chips-putin-and-what-s-at-stake",
+   "date": "2026-11-17T19:43:46.000Z",
+   "summary": "Donald Trump and Xi Jinping head into the APEC summit in China with plenty of unfinished business, from trade to AI chips.",
+   "image": ""
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004072739",
+   "feed": "wsj-business",
+   "title": "Kanye West’s Comeback Attempt Gains Traction After Apologies",
+   "link": "https://www.wsj.com/business/kanye-wests-comeback-attempt-gains-traction-after-apologies-f34af352?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-17T19:43:00.000Z",
+   "summary": "His Grammy nomination this week comes on top of the success of his first world tour in years.",
+   "image": "https://images.wsj.net/im-76947163"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/17/2026/universities-public-sector-are-priced-out-of-ai-fei-fei-li-says",
+   "feed": "semafor",
+   "title": "Universities, public sector are ‘priced out’ of AI, Fei-Fei Li says",
+   "link": "https://www.semafor.com/article/11/17/2026/universities-public-sector-are-priced-out-of-ai-fei-fei-li-says",
+   "date": "2026-11-17T19:40:49.000Z",
+   "summary": "Fei-Fei Li, cofounder and CEO of AI company World Labs, said the public sector and universities are missing out on the fruits of the AI revolution. “I don’t think universities and public sectors are keeping up because we’re priced out,” Li told Semafor’s Andrew Edgecliffe-Johnson at Silicon Valley & The World,…",
+   "image": "https://img.semafor.com/e832f878ea72bf2ff9487f4b0751142b16381951-5000x3335.jpg"
+  },
+  {
+   "id": "bloomberg-business:TONVPWKIP3IU00",
+   "feed": "bloomberg-business",
+   "title": "Activist Shareholders Double Down on Target Companies by Trying to Acquire Them",
+   "link": "https://www.bloomberg.com/news/newsletters/2026-11-17/activist-shareholders-double-down-on-target-companies-by-trying-to-acquire-them",
+   "date": "2026-11-17T19:34:44.000Z",
+   "summary": "The funds are cash rich and ready to roll up their sleeves and manage the companies they launch campaigns against.",
+   "image": ""
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/17/2026/gina-raimondo-criticizes-trump-admin-chip-policy",
+   "feed": "semafor",
+   "title": "Gina Raimondo criticizes Trump admin chip policy",
+   "link": "https://www.semafor.com/article/11/17/2026/gina-raimondo-criticizes-trump-admin-chip-policy",
+   "date": "2026-11-17T19:24:21.000Z",
+   "summary": "Gina Raimondo, former commerce secretary and CEO of RAISE US, said that when it comes to selling chips to China, the US government has to put national security above corporate revenues. Raimondo said that when she was running the Commerce Department under the Biden administration, she spent a lot of time with former…",
+   "image": "https://img.semafor.com/490ae6cdd5c5a120d1fb46c0ce9cef5db262cbc6-5000x3335.jpg"
+  },
+  {
+   "id": "bloomberg-business:TONUTCUT4Z5S00",
+   "feed": "bloomberg-business",
+   "title": "Big Take Asia: Tighter Chip Exports Shift APEC Summit (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-17/big-take-asia-tighter-chip-exports-shift-apec-summit-podcast",
+   "date": "2026-11-17T19:15:12.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TONUNKO32FWG00",
+   "feed": "bloomberg-business",
+   "title": "Apple Service Outages, Huang: I Own My Mistakes, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-17/apple-service-outages-huang-i-own-my-mistakes-more",
+   "date": "2026-11-17T19:11:44.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/17/2026/us-china-ai-race-causing-global-alarm-uns-top-tech-envoy-says",
+   "feed": "semafor",
+   "title": "US-China AI race causing global ‘alarm,’ UN's top tech envoy says",
+   "link": "https://www.semafor.com/article/11/17/2026/us-china-ai-race-causing-global-alarm-uns-top-tech-envoy-says",
+   "date": "2026-11-17T19:08:24.000Z",
+   "summary": "The rest of the world is looking at the AI arms race between the US and China with “some kind of alarm,” the UN’s top tech envoy said Tuesday. Other countries “don’t want their agency taken away with this attention just on this competition between two players,” Amandeep Singh Gill, the Under-Secretary-General and…",
+   "image": "https://img.semafor.com/59f067bf18b02a39e62b1f2139318bc193ce5dbe-5000x3335.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/17/2026/musk-hasnt-called-verizon-yet-but-the-wireless-carrier-is-happy-to-talk",
+   "feed": "semafor",
+   "title": "Verizon is ready to 'ferociously compete' with Musk as billionaire muscles into telecom",
+   "link": "https://www.semafor.com/article/11/17/2026/musk-hasnt-called-verizon-yet-but-the-wireless-carrier-is-happy-to-talk",
+   "date": "2026-11-17T19:03:24.000Z",
+   "summary": "Verizon CEO Dan Schulman said Tuesday he’s ready to “ferociously compete” against SpaceX CEO Elon Musk, who is muscling his way into the telecom industry and looking at scooping up wireless businesses to build out a ground network. Schulman said at Semafor’s Silicon Valley & The World that Musk hasn’t yet called him…",
+   "image": "https://img.semafor.com/d96ee21e97045a42c4dd3a9e8ef2e33af68ffee9-5000x3335.jpg"
+  },
+  {
+   "id": "bloomberg-business:TONSYJT96OSH00",
+   "feed": "bloomberg-business",
+   "title": "Inside Active: TimesSquare’s Chawla on Growth With a Conscience",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-17/inside-active-timessquare-s-chawla-on-growth-with-a-conscience",
+   "date": "2026-11-17T18:48:28.000Z",
+   "summary": "Some of today’s largest companies passed through the midcap market on their way up, making it fertile ground for finding businesses with substantial growth still ahead. In this episode of Inside Active, host David Cohne, mutual fund and active management analyst at Bloomberg Intelligence, speaks with Sonu Chawla,…",
+   "image": ""
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004072429",
+   "feed": "wsj-business",
+   "title": "General Motors Seeks Outside CEO Contenders to Succeed Mary Barra",
+   "link": "https://www.wsj.com/business/autos/general-motors-seeks-outside-ceo-contenders-to-succeed-mary-barra-e8177c4a?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-17T18:41:00.000Z",
+   "summary": "The automaker is weighing external executives alongside internal contenders as its longtime chief lays the groundwork for a handover.",
+   "image": "https://images.wsj.net/im-59195403"
+  },
+  {
+   "id": "bloomberg-business:TONS3CWWD62O00",
+   "feed": "bloomberg-business",
+   "title": "Nvidia's Huang to Testify, Anthropic IPO Draws $10B Orders, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-17/nvidia-s-huang-to-testify-anthropic-ipo-draws-10b-orders-more",
+   "date": "2026-11-17T18:16:24.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/17/2026/voters-broke-with-democrats-on-ballot-initiatives",
+   "feed": "semafor",
+   "title": "Voters broke with Democrats on ballot initiatives",
+   "link": "https://www.semafor.com/article/11/17/2026/voters-broke-with-democrats-on-ballot-initiatives",
+   "date": "2026-11-17T18:12:33.000Z",
+   "summary": "The News PALO ALTO, Calif. — Democrats swept Republicans on Nov. 3, but some of their party’s progressive ideas didn’t make it with them, as a host of liberal ballot initiatives failed and conservative proposals passed across the country. In California, where Republicans lost every major race by landslides, voters…",
+   "image": "https://img.semafor.com/e749a813fc98361366bf79b72b625aeb42af14ee-5500x3683.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/17/2026/hank-paulson-warns-of-underestimating-risk-of-ai-unwind",
+   "feed": "semafor",
+   "title": "Hank Paulson warns of ‘underestimating’ risk of AI unwind",
+   "link": "https://www.semafor.com/article/11/17/2026/hank-paulson-warns-of-underestimating-risk-of-ai-unwind",
+   "date": "2026-11-17T18:05:21.000Z",
+   "summary": "Markets are underestimating the risk surrounding AI, and governments worldwide must work more closely with private businesses in order to better mitigate the chances of a catastrophic or financial crisis, former US Treasury Secretary Hank Paulson said Tuesday. “I’ve never seen so much money chasing one opportunity…",
+   "image": "https://img.semafor.com/95fed66964b9f329c45fa5f89777cb3dfb45bd23-5000x3335.jpg"
+  },
+  {
+   "id": "bloomberg-business:TONR2VV84D8G00",
+   "feed": "bloomberg-business",
+   "title": "Bloomberg Tech: Huang Signals Nvidia Return (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-17/bloomberg-tech-huang-signals-nvidia-return-podcast",
+   "date": "2026-11-17T17:54:31.000Z",
+   "summary": "Source: Bloomberg, 46:00",
+   "image": ""
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/17/2026/amazon-ceo-says-us-ai-lead-over-china-depends-on-building-more-data-centers",
+   "feed": "semafor",
+   "title": "Amazon CEO says US AI lead over China depends on building more data centers",
+   "link": "https://www.semafor.com/article/11/17/2026/amazon-ceo-says-us-ai-lead-over-china-depends-on-building-more-data-centers",
+   "date": "2026-11-17T17:50:32.000Z",
+   "summary": "Amazon CEO Andy Jassy said Tuesday it would be a “historic mistake” for the US to pull back on its AI infrastructure buildout following the data center backlash during the midterm elections. “I cannot fathom any scenario where the United States stops building data centers and allows another country like China to…",
+   "image": "https://img.semafor.com/a3b19445e10f8c4a2a5d7baf023ae49117e4bdb5-5000x3335.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/video/business/100000011281784/how-democrats-winning-in-texas-affects-musk.html",
+   "feed": "nytimes-business",
+   "title": "How Democrats Winning in Texas Affects Musk",
+   "link": "https://www.nytimes.com/video/business/100000011281784/how-democrats-winning-in-texas-affects-musk.html",
+   "date": "2026-11-17T17:42:07.000Z",
+   "summary": "Elon Musk’s companies have built a major presence in Texas, backed in part by Republican lawmakers who offered incentives and favorable policies. Now, Democrats in power could bring new scrutiny to those policies. Kirsten Grind, a Times investigative reporter, explains.",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/17/business/economy/global-debt-economy-world-bank.html",
+   "feed": "nytimes-business",
+   "title": "Debt Problems of the Richest Countries Are Trickling Down to the Poorest",
+   "link": "https://www.nytimes.com/2026/11/17/business/economy/global-debt-economy-world-bank.html",
+   "date": "2026-11-17T17:28:57.000Z",
+   "summary": "The debt load of developing countries jumped to $9.4 trillion as high interest rates and other global shocks batter their economies.",
+   "image": "https://static01.nyt.com/images/2026/11/16/multimedia/16biz-global-debt-01-mpfv/16biz-global-debt-01-mpfv-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/17/business/disney-earnings-3billion-savings.html",
+   "feed": "nytimes-business",
+   "title": "Disney Doubles Down on New Shows and Movies Amid Industry Upheaval",
+   "link": "https://www.nytimes.com/2026/11/17/business/disney-earnings-3billion-savings.html",
+   "date": "2026-11-17T17:03:49.000Z",
+   "summary": "The company plans to finance growth with $3 billion in cost savings and, in a surprise move, said it would stop disclosing how much money its streaming business makes.",
+   "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17biz-disney-earnings-klht/17biz-disney-earnings-klht-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "planetizen:138890 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "Instead of building new housing, LA developers are turning mansions into mega-mansions",
+   "link": "https://www.planetizen.com/news/2026/11/138890-instead-building-new-housing-la-developers-are-turning-mansions-mega-mansions",
+   "date": "2026-11-17T17:00:00.000Z",
+   "summary": "Some neighbors of these developments worry that the mega-mansions erase neighborhood character. In Los Angeles county, the ultra-rich are displacing the rich. In wealthy enclaves, “modest and midcentury homes are being demolished for mega-mansions with amenities such as waterfalls, movie theaters and 20-car garages,”…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_1079929286.jpg.webp?itok=OJ8x2deY"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/17/business/shoe-prices-inflation-tariffs.html",
+   "feed": "nytimes-business",
+   "title": "Shoe Prices Hit a Record High Amid Inflation and Increased Tariffs",
+   "link": "https://www.nytimes.com/2026/11/17/business/shoe-prices-inflation-tariffs.html",
+   "date": "2026-11-17T16:21:41.000Z",
+   "summary": "Shoe prices have been rising faster than overall prices in recent months, and there’s little sign those increases will reverse soon.",
+   "image": "https://static01.nyt.com/images/2026/11/13/multimedia/13biz-shoe-prices-zfcl/13biz-shoe-prices-zfcl-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "smartcities:https://www.smartcitiesdive.com/news/how-cities-are-making-global-sporting-events-pay-off/874908/",
+   "feed": "smartcities",
+   "title": "How cities are making global sporting events pay off",
+   "link": "https://www.smartcitiesdive.com/news/how-cities-are-making-global-sporting-events-pay-off/874908/",
+   "date": "2026-11-17T16:20:37.000Z",
+   "summary": "Hosting a World Cup or Super Bowl is just the beginning. Kansas City, Missouri, and Santa Clara, California, used those events to build civic identity and community.",
+   "image": "https://imgproxy.divecdn.com/ymUHBZlnECORP0MxbvEBgO3QCh2w8oBbF8cuRsFCL3s/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjg1NzAwMjY3LmpwZw==.webp"
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004072475",
+   "feed": "wsj-business",
+   "title": "FAA Pauses Router Installations After Nationwide Ground Stop",
+   "link": "https://www.wsj.com/business/airlines/faa-pauses-router-installations-after-nationwide-ground-stop-9cd6c424?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-17T16:20:00.000Z",
+   "summary": "The agency approved a daytime upgrade to the network and a contractor’s step-by-step installation plan.",
+   "image": "https://images.wsj.net/im-12048363"
+  },
+  {
+   "id": "planetizen:138889 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "Illinois considers spending $1 billion in taxpayer money on data center",
+   "link": "https://www.planetizen.com/news/2026/11/138889-illinois-considers-spending-1-billion-taxpayer-money-data-center",
+   "date": "2026-11-17T16:00:00.000Z",
+   "summary": "Some residents have praised the development, and the state's spending on it, in hopes it will bring investment to the surrounding neighborhood. Neighbors of a quantum computing campus and data center under construction in Chicago have overwhelmingly voted against the state spending about $1 billion in taxpayer money…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/PsiQuantum-IQMP-CITY-VIEW-scaled.jpg.webp?itok=Kx2QQRi0"
+  },
+  {
+   "id": "smartcities:https://www.smartcitiesdive.com/news/building-financial-case-resilient-infrastructure/874896/",
+   "feed": "smartcities",
+   "title": "Building the financial case for resilient infrastructure",
+   "link": "https://www.smartcitiesdive.com/news/building-financial-case-resilient-infrastructure/874896/",
+   "date": "2026-11-17T15:54:10.000Z",
+   "summary": "Public agencies are finding new ways to quantify the economic, environmental and community benefits of nature-based solutions.",
+   "image": "https://imgproxy.divecdn.com/i3wBJValjFoDYabLIKudemepafo4i6hiWG5y9sDua1Q/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMzAwODYwNDAxLmpwZw==.webp"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/17/business/elon-musk-texas-republicans.html",
+   "feed": "nytimes-business",
+   "title": "Elon Musk’s Texas GOP Allies, Who Gave Him $1.7 Billion, Have Been Voted Out. What Now?",
+   "link": "https://www.nytimes.com/2026/11/17/business/elon-musk-texas-republicans.html",
+   "date": "2026-11-17T15:46:04.000Z",
+   "summary": "SpaceX and Tesla are more embedded across Texas than they ever were in California, which Mr. Musk left in 2020 to escape Democratic policies.",
+   "image": "https://static01.nyt.com/images/2026/11/16/multimedia/16biz-musk-texas-06-hgkv-signs-mwgb/16biz-musk-texas-06-hgkv-signs-mwgb-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/17/2026/tech-titans-attempt-their-own-recursive-self-improvement",
+   "feed": "semafor",
+   "title": "Tech titans attempt their own recursive self-improvement",
+   "link": "https://www.semafor.com/article/11/17/2026/tech-titans-attempt-their-own-recursive-self-improvement",
+   "date": "2026-11-17T15:23:55.000Z",
+   "summary": "Shelly’s view It rarely rains in Silicon Valley, but when it rains, it storms. Perhaps it’s the sogginess in the Bay, the post-midterms soul-searching, or the ethical questions underlying the Jensen Huang/Nvidia scandal (and the Save Jensen movement), but signs are emerging that the tech industry is — like its most…",
+   "image": "https://img.semafor.com/7a74db8c18b9692c6ba3b410d6cb98558e1efe0f-5000x3335.jpg"
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004072335",
+   "feed": "wsj-business",
+   "title": "Nike Expects Performance Athleticwear to Drive Long-Term Growth",
+   "link": "https://www.wsj.com/business/retail/nike-expects-performance-athleticwear-to-drive-long-term-growth-fdf517a5?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-17T15:16:00.000Z",
+   "summary": "The Beaverton, Ore. company projects that products tailored for a few key sports will drive much of its growth in the next few years as it looks to bolster its sluggish results.",
+   "image": "https://images.wsj.net/im-41856235"
+  },
+  {
+   "id": "planetizen:138888 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "As development costs rise, Boston moves to lessen affordable housing requirements",
+   "link": "https://www.planetizen.com/news/2026/11/138888-development-costs-rise-boston-moves-lessen-affordable-housing-requirements",
+   "date": "2026-11-17T15:00:00.000Z",
+   "summary": "Under Boston’s current rules, 17% of housing units in multifamily developments with at least seven units must be income-restricted Last week, Boston Mayor Michelle Wu proposed easing Boston’s inclusionary zoning requirements in response to the growing cost of housing development. Currently, 17% of housing units in…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2811194375.jpg.webp?itok=68ItJca1"
+  },
+  {
+   "id": "cascadepbs:6af79be0f4524500019d0b65",
+   "feed": "cascadepbs",
+   "title": "Immigration enforcement continues to impact local families",
+   "link": "https://www.cascadepbs.org/the-newsfeed-2/2026/11/immigration-enforcement-continues-to-impact-local-families/",
+   "date": "2026-11-17T15:00:00.000Z",
+   "summary": "Each week on The Newsfeed, host Paris Jackson and a team of veteran journalists dive deep into one topic and provide impactful reporting, interviews and community insights from sources you can trust. Each day this week, this post will be updated with a new story from the team. Hundreds of WA children face immigration…",
+   "image": "https://www.cascadepbs.org/content/images/2026/11/20261117-hero.jpg"
+  },
+  {
+   "id": "smartcities:https://www.smartcitiesdive.com/news/realpage-new-york-lawsuit-algorithmic-rent-ban/874862/",
+   "feed": "smartcities",
+   "title": "Algorithmic rent-pricing ban limits get tested by RealPage’s New York lawsuit",
+   "link": "https://www.smartcitiesdive.com/news/realpage-new-york-lawsuit-algorithmic-rent-ban/874862/",
+   "date": "2026-11-17T14:52:00.000Z",
+   "summary": "The lawsuit “could provide meaningful guidance on how far state and local governments can go in regulating or restricting these technologies,” one lawyer said.",
+   "image": "https://imgproxy.divecdn.com/cn2YkM6-oyFX8XWtYckr4J8K2h3ibLcu5ssWL_iv7hE/g:nowe:0:71/c:3000:1694/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMjI3ODMxOTY0LmpwZw==.webp"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/17/2026/republicans-consider-marshall-a-viable-fda-pick-as-overton-wobbles",
+   "feed": "semafor",
+   "title": "Trump administration weighs Marshall for FDA as Overton wobbles",
+   "link": "https://www.semafor.com/article/11/17/2026/republicans-consider-marshall-a-viable-fda-pick-as-overton-wobbles",
+   "date": "2026-11-17T14:45:29.000Z",
+   "summary": "The Scoop Republicans are discussing Sen. Roger Marshall as a potential replacement nominee to lead the Food and Drug Administration as Heidi Overton’s confirmation struggles in the Senate, according to four people familiar with the matter. The Kansas Republican, who just lost his reelection bid, is seen as a…",
+   "image": "https://img.semafor.com/ba47e8fe093ee1ec509263dc36b22c583f1cf15e-3077x2051.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/17/business/brain-data-access-rights-buckwalter.html",
+   "feed": "nytimes-business",
+   "title": "Does This Man Have a Right to the Data From His Own Brain?",
+   "link": "https://www.nytimes.com/2026/11/17/business/brain-data-access-rights-buckwalter.html",
+   "date": "2026-11-17T14:33:13.000Z",
+   "summary": "J. Galen Buckwalter cheerfully agreed to provide his neural data for a research study. But when he asked for a copy, things got complicated.",
+   "image": "https://static01.nyt.com/images/2026/11/13/multimedia/00buckwalter-02-mzvg/00buckwalter-02-mzvg-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/17/2026/wind-powers-high-cost-saving-potential",
+   "feed": "semafor",
+   "title": "Wind power's high cost-saving potential",
+   "link": "https://www.semafor.com/article/11/17/2026/wind-powers-high-cost-saving-potential",
+   "date": "2026-11-17T14:30:52.000Z",
+   "summary": "Adding wind power to solar and battery storage can cut the cost of meeting nearly all of global electricity demand by close to 20% , demonstrating how renewables can deliver reliable power when it is needed at low costs. Analysis by global energy think tank Ember found that the median cost of meeting 90% of…",
+   "image": "https://img.semafor.com/50349edaf758e2ec9e22d8c22dd68e07df4203b4-3886x2643.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/17/2026/us-data-center-emissions-rival-entire-countries",
+   "feed": "semafor",
+   "title": "US data center emissions rival entire countries",
+   "link": "https://www.semafor.com/article/11/17/2026/us-data-center-emissions-rival-entire-countries",
+   "date": "2026-11-17T14:29:35.000Z",
+   "summary": "The largest data centers in the US collectively emit an estimated 25.7 million metric tons of carbon emissions annually — almost as much as Denmark, according to a study published in the journal Nature Sustainability. Harvard researchers found 403 data centers used almost 2% of US electricity , with most of the power…",
+   "image": "https://img.semafor.com/55985f7d8e51ef97fe622f42b9b44419c330c045-6500x4333.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/17/2026/nvidia-faces-its-own-lehman-moment",
+   "feed": "semafor",
+   "title": "Nvidia faces its own Lehman moment",
+   "link": "https://www.semafor.com/article/11/17/2026/nvidia-faces-its-own-lehman-moment",
+   "date": "2026-11-17T14:28:43.000Z",
+   "summary": "The position of Nvidia’s Colette Kress — a relatively unknown CFO, a rare female executive in an industry dominated by men, promoted in a storm and taking the mic for the high-stakes earnings call this afternoon — will ring familiar to old Wall Street hands. In March 2008, the day after the Bear Stearns rescue,…",
+   "image": "https://img.semafor.com/280989ea8c8d263d23251398ac95aae11f7e5351-1440x1080.png"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/17/2026/ai-isnt-out-of-energy-yet",
+   "feed": "semafor",
+   "title": "AI isn't out of energy yet",
+   "link": "https://www.semafor.com/article/11/17/2026/ai-isnt-out-of-energy-yet",
+   "date": "2026-11-17T14:28:36.000Z",
+   "summary": "Tim’s view The US data center buildout isn’t screeching to a halt quite yet, and the energy companies behind it still see plenty to look forward to. Between Democrats’ sweep of Congress and Jensen Huang’s departure from Nvidia, the AI bubble has rarely looked so close to bursting. More restrictions are almost…",
+   "image": "https://img.semafor.com/40d566885de1e1238cd6e1c9980295890183cea4-5472x3648.jpg"
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004072220",
+   "feed": "wsj-business",
+   "title": "Finnish Satellite Startup Iceye Launches $2.3 Billion Bid for Rocket Maker Avio",
+   "link": "https://www.wsj.com/business/deals/finnish-satellite-startup-iceye-launches-2-3-billion-bid-for-rocket-maker-avio-9546b85c?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-17T14:13:00.000Z",
+   "summary": "The privately owned company has launched a bid for Italy’s Avio, seeking to build integrated space and defense capabilities in Europe.",
+   "image": "https://images.wsj.net/im-28149558"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/17/2026/silicon-valley-leaders-forge-a-save-jensen-faction",
+   "feed": "semafor",
+   "title": "Silicon Valley leaders forge a 'save Jensen' faction",
+   "link": "https://www.semafor.com/article/11/17/2026/silicon-valley-leaders-forge-a-save-jensen-faction",
+   "date": "2026-11-17T14:11:03.000Z",
+   "summary": "Jensen Huang’s Silicon Valley compatriots continue to rally around him. “This narrative of the Chinese spy is falling apart,” David Sacks, President Donald Trump’s former AI and crypto czar, said at Semafor’s Silicon Valley & The World on Monday, joining a chorus of (admittedly geographically and ideologically…",
+   "image": "https://img.semafor.com/e5351cd39de5817c843f614c92dfaa37b4b9053d-1480x987.png"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/17/podcasts/the-daily/democrats-promised-lower-prices-what-can-they-actually-do.html",
+   "feed": "nytimes-business",
+   "title": "Democrats Promised Lower Prices. What Can They Actually Do?",
+   "link": "https://www.nytimes.com/2026/11/17/podcasts/the-daily/democrats-promised-lower-prices-what-can-they-actually-do.html",
+   "date": "2026-11-17T14:01:14.000Z",
+   "summary": "Three reporters talk about what options the party really has to try to bring down the cost of living.",
+   "image": "https://static01.nyt.com/images/2026/11/16/multimedia/00daily-dems-affordability-copy/00daily-dems-affordability-mediumSquareAt3X.png"
+  },
+  {
+   "id": "planetizen:138887 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "Washington state to charge fee to drivers with fuel-efficient cars",
+   "link": "https://www.planetizen.com/news/2026/11/138887-washington-state-charge-fee-drivers-fuel-efficient-cars",
+   "date": "2026-11-17T14:00:00.000Z",
+   "summary": "The additional fee would only apply to vehicles weighing 10,000 pounds or less, and would be more expensive the more fuel-efficient a vehicle is. Washington state officials are looking to charge drivers an additional fee if their vehicles are too fuel efficient, in order to make up for Washington’s waning gas tax,…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2757141129.jpg.webp?itok=E95wqgxx"
+  },
+  {
+   "id": "urbanist:6afa2588b10f940001354c03",
+   "feed": "urbanist",
+   "title": "Op-Ed: It's Time to Reconnect Fremont and Grapple with the Barrier Aurora Avenue Creates",
+   "link": "https://www.theurbanist.org/op-ed-its-time-to-reconnect-fremont-and-grapple-with-the-barrier-aurora-avenue-creates/",
+   "date": "2026-11-17T14:00:00.000Z",
+   "summary": "SDOT plans to spend a decade studying Aurora Avenue changes, but should act much sooner. In 2021, SDOT began studying improvements to Aurora Avenue with funding from WSDOT and King County Metro. In 2022 , the Washington State Legislature allocated $50 million for a demonstration project in the Licton Springs section…",
+   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/11/Aurora-Avenue-in-Upper-Fremont---Trumm-PXL_20251018.jpg"
+  },
+  {
+   "id": "cascadepbs:6afc64f3f4524500019ea7cc",
+   "feed": "cascadepbs",
+   "title": "Pakistan’s Forgotten Girls Are Finding Their Voice Through Gymnastics",
+   "link": "https://www.cascadepbs.org/show/amanpour-co/extras/pakistans-forgotten-girls-are-finding-their-voice-through-gymnastics-t1gsgo/",
+   "date": "2026-11-17T13:45:51.000Z",
+   "summary": "It's a story of hope and defiance for teenage girls in Pakistan. In her film \"The Gymnasts of Fisherman Colony,\" filmmaker Habiba Nosheen follows girls learning gymnastics in Machar Colony, where many Bengali residents lack official documentation, making it difficult to work or attend school. Nosheen joins Hari…",
+   "image": "https://www.cascadepbs.org/content/images/2026/11/80699315-2bdb-4e3c-bfd8-822d4112344e.jpg"
+  },
+  {
+   "id": "cascadepbs:6afc64f6f4524500019ea7dc",
+   "feed": "cascadepbs",
+   "title": "November 16, 2026",
+   "link": "https://www.cascadepbs.org/show/amanpour-co/episode/november-16-2026-z8pfme/",
+   "date": "2026-11-17T13:30:24.000Z",
+   "summary": "Rev. John J. Lydon and \"Letters from Leo\" author Christopher Hale discuss Pope Leo's political message following his South American tour. Author Robert Kolker discusses his book \"The Vanishing Family\" and the devastating impact of inherited dementia. Filmmaker Habiba Nosheen discusses her film \"Gymnasts of the…",
+   "image": "https://www.cascadepbs.org/content/images/2026/11/9cad5cc5-23cd-4ce9-b9c9-06adf33f9f35.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/17/business/dealbook/kalshi-martha-stewart-ad.html",
+   "feed": "nytimes-business",
+   "title": "A Kalshi Ad With Martha Stewart Warns Against Insider Trading",
+   "link": "https://www.nytimes.com/2026/11/17/business/dealbook/kalshi-martha-stewart-ad.html",
+   "date": "2026-11-17T13:27:14.000Z",
+   "summary": "The lifestyle guru appears in a new ad by the prediction market Kalshi as it announces changes to how it polices illicit trading on its platform.",
+   "image": "https://static01.nyt.com/images/2026/11/17/business/17db-martha-kalshi/17db-martha-kalshi-mediumSquareAt3X.png"
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004072086",
+   "feed": "wsj-business",
+   "title": "Klarna Revenue Gains as Customer Base Grows",
+   "link": "https://www.wsj.com/business/earnings/klarna-revenue-gains-as-customer-base-grows-854e218d?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-17T13:26:00.000Z",
+   "summary": "The buy now, pay later service provider on posted a third-quarter loss of $65 million, or 19 cents a share, compared with a loss of $95 million, or 25 cents a share, a year earlier.",
+   "image": "https://images.wsj.net/im-16583538"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/17/2026/fresh-wave-of-french-protests-over-cost-of-living-concerns",
+   "feed": "semafor",
+   "title": "Fresh wave of French protests over cost of living concerns",
+   "link": "https://www.semafor.com/article/11/17/2026/fresh-wave-of-french-protests-over-cost-of-living-concerns",
+   "date": "2026-11-17T13:25:01.000Z",
+   "summary": "French protests driven by frustration over the cost of living and public services resume today, with economists offering a bleak prognosis for one of Europe’s biggest economies. The French government is grappling with sky-high debt, a worrying deficit, and slow growth , while public anger has propelled a far-right…",
+   "image": "https://img.semafor.com/24aa8afabd44b92bfe4a5c63b624acd79b84fe69-4684x3123.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/17/2026/china-agreed-to-cut-some-canada-tariffs",
+   "feed": "semafor",
+   "title": "China agrees to cut some Canada tariffs",
+   "link": "https://www.semafor.com/article/11/17/2026/china-agreed-to-cut-some-canada-tariffs",
+   "date": "2026-11-17T13:22:22.000Z",
+   "summary": "China agreed to cut some levies on imports from Canada, as Ottawa looks to reduce its trade reliance on the US. Canadian Prime Minister Mark Carney hailed “ greater predictability and stability ” in relations with Beijing after talks with China’s leader Xi Jinping. Still, though Carney has made diversifying away from…",
+   "image": "https://img.semafor.com/74636602a181e04b987581e0b4e4de309144921f-6976x4987.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/17/business/dealbook/nvidia-ai-earnings-huang.html",
+   "feed": "nytimes-business",
+   "title": "Nvidia’s Earnings Call Is a High-Stakes Moment",
+   "link": "https://www.nytimes.com/2026/11/17/business/dealbook/nvidia-ai-earnings-huang.html",
+   "date": "2026-11-17T13:02:17.000Z",
+   "summary": "Wall Street is bracing for the chip maker’s latest earnings call, as analysts seek clues about the artificial intelligence giant’s future.",
+   "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17db-nvda-qwbk/17db-nvda-qwbk-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "planetizen:138886 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "Strained electrical grid forces San Francisco to choose: housing, or data centers?",
+   "link": "https://www.planetizen.com/news/2026/11/138886-strained-electrical-grid-forces-san-francisco-choose-housing-or-data-centers",
+   "date": "2026-11-17T13:00:00.000Z",
+   "summary": "A rendering of NOVVA’s planned data center in San Francisco. San Francisco is approaching its maximum grid capacity — and city leaders will decide today if that justifies extending San Francisco's moratorium on data centers for another 10 and ½ months, Omar Rashad writes for the San Francisco Standard. A recent…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/san-fran-center2.jpg.webp?itok=xXbj_k6W"
+  },
+  {
+   "id": "planetizen:138885 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "Revolving loan funds: The hottest trend in housing finance",
+   "link": "https://www.planetizen.com/features/138885-revolving-loan-funds-hottest-trend-housing-finance",
+   "date": "2026-11-17T13:00:00.000Z",
+   "summary": "16 minutes",
+   "image": ""
+  },
+  {
+   "id": "cascadepbs:6afc5028f4524500019ea782",
+   "feed": "cascadepbs",
+   "title": "At the Top of Sauk Mountain with Gary Paull",
+   "link": "https://www.cascadepbs.org/podcasts/nick-on-the-rocks-talks/2026/11/at-the-top-of-sauk-mountain-with-gary-paull/",
+   "date": "2026-11-17T13:00:00.000Z",
+   "summary": "Today, Nick Zentner goes behind the scenes with Nick on the Rocks field producer Gary Paull. The two take a break from filming on Sauk Mountain in Washington’s North Cascades to discuss Gary’s career with the U.S. Forest Service and deep knowledge of the region. They dig into the brainstorming behind the Sauk…",
+   "image": "https://www.cascadepbs.org/content/images/2026/11/NORT103-photo_GarySaukMtn_2.jpg"
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004071838",
+   "feed": "wsj-business",
+   "title": "JD.com Profit, Revenue Grow as It Seeks Food-Delivery, Overseas Expansion",
+   "link": "https://www.wsj.com/business/earnings/jd-com-profit-revenue-grow-as-it-seeks-food-delivery-overseas-expansion-9da42b17?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-17T12:11:00.000Z",
+   "summary": "The e-commerce titan posted higher profit and revenue at a time when China’s weak macroeconomic picture is piling pressure on the Beijing-based company’s core retail business.",
+   "image": "https://images.wsj.net/im-45840337"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/17/science/fearing-chinese-rivals-us-biotech-adopts-a-new-norm-share-nothing.html",
+   "feed": "nytimes-business",
+   "title": "Fearing Chinese Rivals, U.S. Biotech Adopts a New Norm: Share Nothing",
+   "link": "https://www.nytimes.com/2026/11/17/science/fearing-chinese-rivals-us-biotech-adopts-a-new-norm-share-nothing.html",
+   "date": "2026-11-17T11:57:52.000Z",
+   "summary": "Concerns that well-funded Chinese companies will swoop in to grab new ideas for their own drug development are shaping an industry unaccustomed to such secrecy.",
+   "image": "https://static01.nyt.com/images/2026/11/03/multimedia/00SCI-US-CHINA-IP-01-qhfc/00SCI-US-CHINA-IP-01-qhfc-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004071695",
+   "feed": "wsj-business",
+   "title": "Home Depot CEO Steps Down After Medical Leave of Absence",
+   "link": "https://www.wsj.com/business/retail/home-depot-elevates-finance-chief-richard-mcphail-to-ceo-1364922a?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-17T11:17:00.000Z",
+   "summary": "The retailer named Richard McPhail as its next chief executive and raised its full-year forecast.",
+   "image": "https://images.wsj.net/im-00275403"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/17/business/trump-xi-meeting-tensions.html",
+   "feed": "nytimes-business",
+   "title": "As Trump and Xi Mingle, Their Governments Are Arming Up",
+   "link": "https://www.nytimes.com/2026/11/17/business/trump-xi-meeting-tensions.html",
+   "date": "2026-11-17T10:03:49.000Z",
+   "summary": "Public displays of friendship contrast with mounting trade and investment restrictions, highlighting the widening rift between the two economies.",
+   "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17biz-APEC-hostilities-01-mvtl/17biz-APEC-hostilities-01-mvtl-mediumSquareAt3X.jpg"
+  },
+  {
    "id": "wsj-business:WP-WSJ-0004071334",
    "feed": "wsj-business",
    "title": "Imperial Brands to Cut Up to 4,600 Roles as Tobacco Sales Slide",
@@ -130,87 +1039,6 @@
    "image": "https://images.wsj.net/im-10693886"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/17/business/economy/global-debt-economy-world-bank.html",
-   "feed": "nytimes-business",
-   "title": "Debt Problems of the Richest Countries Are Trickling Down to the Poorest",
-   "link": "https://www.nytimes.com/2026/11/17/business/economy/global-debt-economy-world-bank.html",
-   "date": "2026-11-17T08:45:15.000Z",
-   "summary": "The debt load of developing countries jumped to $9.4 trillion as high interest rates and other global shocks batter their economies.",
-   "image": "https://static01.nyt.com/images/2026/11/16/multimedia/16biz-global-debt-01-mpfv/16biz-global-debt-01-mpfv-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "bloomberg-business:TON134O32FWG00",
-   "feed": "bloomberg-business",
-   "title": "Deutsche Bank Drops On FT Report, Nvidia Earnings Due, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-17/deutsche-bank-drops-on-ft-report-nvidia-earnings-due-more",
-   "date": "2026-11-17T08:33:04.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TON0KBO32FWG00",
-   "feed": "bloomberg-business",
-   "title": "Stock Movers: Delta Electronics, Tata, Nexchip (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-17/stock-movers-delta-electronics-tata-nexchip-podcast",
-   "date": "2026-11-17T08:21:47.000Z",
-   "summary": "Source: Bloomberg, 4:18",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TOMYUERKV2TL00",
-   "feed": "bloomberg-business",
-   "title": "Trump Moves to Cut Off China’s Remote Access to Advanced Chips",
-   "link": "https://www.bloomberg.com/news/newsletters/2026-11-17/trump-moves-to-cut-off-china-s-remote-access-to-advanced-chips",
-   "date": "2026-11-17T07:44:38.000Z",
-   "summary": "Get caught up.",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TOMY7PWWD62O00",
-   "feed": "bloomberg-business",
-   "title": "FT: Deutsche Bank Epstein Ties, XI-Trump Meeting, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-17/ft-deutsche-bank-epstein-ties-xi-trump-meeting-more",
-   "date": "2026-11-17T07:31:01.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TOMY5QWWD62O00",
-   "feed": "bloomberg-business",
-   "title": "Bloomberg Daybreak Europe: US Targets China AI Access (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-17/bloomberg-daybreak-europe-us-targets-china-ai-access-podcast",
-   "date": "2026-11-17T07:29:50.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TOL7PPKJH6VS00",
-   "feed": "bloomberg-business",
-   "title": "Imperial Brands Cuts Up to 4,600 Jobs as Smoking Declines",
-   "link": "https://www.bloomberg.com/news/articles/2026-11-17/imperial-brands-to-cut-up-to-4-600-jobs-in-savings-drive",
-   "date": "2026-11-17T07:20:14.000Z",
-   "summary": "Imperial Brands Plc plans to cut as many as 4,600 jobs, or about 18% of its global workforce, as the tobacco company faces a drop in demand for cigarettes.",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TOMUL7N3N09100",
-   "feed": "bloomberg-business",
-   "title": "Nigerian Billionaire Elumelu Adds $70 Million Stake in Seplat",
-   "link": "https://www.bloomberg.com/news/articles/2026-11-17/nigerian-billionaire-elumelu-adds-70-million-stake-in-seplat",
-   "date": "2026-11-17T07:12:40.000Z",
-   "summary": "Nigerian billionaire Tony Elumelu bought a $70 million stake in Seplat Energy Plc through Heirs Energies Ltd., taking another step to increase his holding in the oil company.",
-   "image": ""
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/17/business/economy/megaspeed-investigation-trump-doj.html",
-   "feed": "nytimes-business",
-   "title": "Facing Criticism, Trump Administration Says It’s Investigating Megaspeed",
-   "link": "https://www.nytimes.com/2026/11/17/business/economy/megaspeed-investigation-trump-doj.html",
-   "date": "2026-11-17T07:02:17.000Z",
-   "summary": "The announcement appeared to be a response to recent criticism that the Commerce Department has moved too slowly on the alleged chip smuggling case.",
-   "image": "https://static01.nyt.com/images/2026/11/15/multimedia/16dc-megaspeed-1/15xp-megaspeed1-zcvq-mediumSquareAt3X.jpg"
-  },
-  {
    "id": "wsj-business:WP-WSJ-0004071258",
    "feed": "wsj-business",
    "title": "Dassault Systemes Expects New Growth Cycle for Revenue, Earnings on AI Adoption",
@@ -218,15 +1046,6 @@
    "date": "2026-11-17T06:38:00.000Z",
    "summary": "Dassault Systemes said it is targeting revenue and adjusted earnings to rise in 2029, as the company touted a new cycle of growth driven by the adoption of artificial intelligence.",
    "image": "https://images.wsj.net/im-22591964"
-  },
-  {
-   "id": "bloomberg-business:TOMVR2WWD62O00",
-   "feed": "bloomberg-business",
-   "title": "US Targets China AI Access, Scandal Overshadows Nvidia Earnings",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-17/us-targets-china-ai-access-scandal-overshadows-nvidia-earnings",
-   "date": "2026-11-17T06:37:50.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
   },
   {
    "id": "morning-brew:https://www.morningbrew.com/stories/us-reacts-to-nvidia-scandal-by-curbing-chip-exports",
@@ -247,22 +1066,13 @@
    "image": "https://static01.nyt.com/images/2026/11/18/multimedia/17int-russia-deutschebank-01-gkjc/17int-russia-deutschebank-01-gkjc-mediumSquareAt3X.jpg"
   },
   {
-   "id": "bloomberg-business:TOMC3VT96OSM00",
-   "feed": "bloomberg-business",
-   "title": "Credit Crunch: Credit Index Futures - Future of Credit Hedging",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-17/credit-crunch-credit-index-futures-future-of-credit-hedging",
-   "date": "2026-11-17T05:30:00.000Z",
-   "summary": "Market downswings and rallies — and concerns about the next crisis — have been major preoccupations over the past few years. A significant credit-market innovation helping to address this is coming to the forefront: credit index futures. In this episode of our Credit Crunch podcast, host Mahesh Bhimalingam, global…",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TOEB8GT9NJLT00",
-   "feed": "bloomberg-business",
-   "title": "Wetherspoon Founder Risks AGM Revolt Over Missed Board Meetings",
-   "link": "https://www.bloomberg.com/news/articles/2026-11-17/wetherspoon-founder-tim-martin-risks-agm-revolt-over-missed-board-meetings",
-   "date": "2026-11-17T05:15:00.000Z",
-   "summary": "JD Wetherspoon Plc founder Tim Martin faces another clash with shareholders over corporate governance at the UK pub chain, after a proxy adviser recommended voting against his re-election as chairman.",
-   "image": ""
+   "id": "streetsblog:https://usa.streetsblog.org/?p=296102",
+   "feed": "streetsblog",
+   "title": "Opinion: France Did E-Bike Subsidies Right — and America Can, Too",
+   "link": "https://usa.streetsblog.org/2026/11/17/opinion-france-did-e-bike-subsidies-right-and-america-can-too",
+   "date": "2026-11-17T05:03:00.000Z",
+   "summary": "American cities are currently running the world’s most expensive experiment in moving nobody. We hand out free parking — minimum requirements that force developers to build it, meters priced below cost, curb space given away at rates no economist would defend — and then we act surprised when people drive. Every free…",
+   "image": "https://usa.streetsblog.org/wp-content/uploads/sites/10/2026/11/France-bike.png?w=1024"
   },
   {
    "id": "morning-brew:https://www.morningbrew.com/stories/amazon-mgm-has-a-new-007-robert-pattinson",
@@ -274,6 +1084,15 @@
    "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-11-16/image-b7cf262f9551857785ff05983b8bdf24d83390b8-1500x1000-jpg/MBD-RobertPattinsonBond-1126.jpg"
   },
   {
+   "id": "streetsblog:https://nyc.streetsblog.org/?p=604740",
+   "feed": "streetsblog",
+   "title": "London’s Car-Free Oxford Offers Lessons for One of America’s Most Iconic Streets",
+   "link": "https://nyc.streetsblog.org/2026/11/17/londons-car-free-oxford-street-is-a-lesson-for-mamdani-fifth-avenue",
+   "date": "2026-11-17T05:02:00.000Z",
+   "summary": "Mayor Mamdani should take a page out of London’s successful pedestrianization of Oxford Street, and banish cars from Fifth Avenue in Midtown and other shopping hubs as the holiday season rounds the corner, advocates said. The British capital saw surges in foot traffic, spending and international visitors after the…",
+   "image": "https://usa.streetsblog.org/wp-content/uploads/sites/10/2026/11/Duggan-Fifth-Av-open-street-2022.png?w=1024"
+  },
+  {
    "id": "streetsblog:https://usa.streetsblog.org/?p=296111",
    "feed": "streetsblog",
    "title": "Tuesday’s Headlines Wonder About the Blue Wave",
@@ -281,15 +1100,6 @@
    "date": "2026-11-17T05:01:00.000Z",
    "summary": "The recent election is not likely to change the transportation status quo unless transit and street safety advocates put enormous pressure on Democrats. According to Smart Growth America’s Beth Osborne , history shows that Democrats are unlikely to pass a progressive surface transportation funding bill if left to…",
    "image": "https://usa.streetsblog.org/wp-content/uploads/sites/10/2026/10/US-Capitol-Blue.png?w=1024"
-  },
-  {
-   "id": "streetsblog:https://usa.streetsblog.org/?p=296102",
-   "feed": "streetsblog",
-   "title": "Opinion: France Did E-Bike Subsidies Right — and America Can, Too",
-   "link": "https://usa.streetsblog.org/2026/11/17/opinion-france-did-e-bike-subsidies-right-and-america-can-too",
-   "date": "2026-11-17T05:01:00.000Z",
-   "summary": "American cities are currently running the world’s most expensive experiment in moving nobody. We hand out free parking — minimum requirements that force developers to build it, meters priced below cost, curb space given away at rates no economist would defend — and then we act surprised when people drive. Every free…",
-   "image": "https://usa.streetsblog.org/wp-content/uploads/sites/10/2026/11/France-bike.png?w=1024"
   },
   {
    "id": "morning-brew:https://www.morningbrew.com/stories/international-students-are-ditching-us-colleges",
@@ -301,78 +1111,6 @@
    "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-11-16/image-497e7444f1f2f85c715716d4f89f5a08a14f3e16-3932x2622-jpg/GettyImages-2296764590.jpg"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/17/business/shoe-prices-inflation-tariffs.html",
-   "feed": "nytimes-business",
-   "title": "Shoe Prices Hit a Record High Amid Inflation and Increased Tariffs",
-   "link": "https://www.nytimes.com/2026/11/17/business/shoe-prices-inflation-tariffs.html",
-   "date": "2026-11-17T05:00:08.000Z",
-   "summary": "Shoe prices hit a record high in October as brands contend with the rising cost of materials and increased tariffs.",
-   "image": "https://static01.nyt.com/images/2026/11/13/multimedia/13biz-shoe-prices-zfcl/13biz-shoe-prices-zfcl-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/16/2026/due-for-a-reset-mubadala-ceo-says-global-ai-economy-faces-compute-shortage",
-   "feed": "semafor",
-   "title": "‘Due for a reset’: Mubadala CEO says global AI economy faces compute shortage",
-   "link": "https://www.semafor.com/article/11/16/2026/due-for-a-reset-mubadala-ceo-says-global-ai-economy-faces-compute-shortage",
-   "date": "2026-11-17T04:31:22.000Z",
-   "summary": "The global AI buildout and broader economy is due for “a reset of sorts,” Mubadala CEO Khaldoon Al Mubarak said Monday. Asked whether “winter is coming” — a nod to fears that the AI boom could face a correction — Al Mubarak said it was, but that “winter doesn’t mean minus 30 degrees. It could be a nice pleasant…",
-   "image": "https://img.semafor.com/d148b14b708a3a6c5e57a4dae636c4b78a32470b-5000x3335.jpg"
-  },
-  {
-   "id": "bloomberg-business:TOMPEYO32FWH00",
-   "feed": "bloomberg-business",
-   "title": "AI Concerns Linger in Asia, JPMorgan Resolves Tech Issue, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-17/ai-concerns-linger-in-asia-jpmorgan-resolves-tech-issue-more",
-   "date": "2026-11-17T04:20:58.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TOMP6QO32FWG00",
-   "feed": "bloomberg-business",
-   "title": "Bloomberg Law: Shareholders Sue Nvidia & Jensen Huang (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-17/bloomberg-law-shareholders-sue-nvidia-jensen-huang-podcast",
-   "date": "2026-11-17T04:16:02.000Z",
-   "summary": "Source: Bloomberg, 32:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TOMOGPRKV2TL00",
-   "feed": "bloomberg-business",
-   "title": "South Africa Rand: Where to Invest 1 Million ZAR",
-   "link": "https://www.bloomberg.com/features/2026-where-to-invest-south-africa-rand/",
-   "date": "2026-11-17T04:00:25.000Z",
-   "summary": "After a difficult decade, change may be on the horizon for the country's businesses. Three experts weigh in on how to play it.",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TOMO1ZWWD62O00",
-   "feed": "bloomberg-business",
-   "title": "AI Jitters Weigh on Asia, JPMorgan Tech Issue Resolved, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-17/ai-jitters-weigh-on-asia-jpmorgan-tech-issue-resolved-more",
-   "date": "2026-11-17T03:51:35.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TOMMGYWWD62P00",
-   "feed": "bloomberg-business",
-   "title": "Bloomberg Daybreak Asia: Investor Appetite on AI (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-17/bloomberg-daybreak-asia-investor-appetite-on-ai-podcast",
-   "date": "2026-11-17T03:17:22.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004068712",
-   "feed": "wsj-business",
-   "title": "How Nvidia’s Board Made Billions While Overseeing the Company",
-   "link": "https://www.wsj.com/business/how-nvidias-board-made-billions-while-overseeing-the-company-0473818c?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-17T03:14:00.000Z",
-   "summary": "Unusually long tenures and a stock surge have fueled windfalls for its directors.",
-   "image": "https://images.wsj.net/im-39097595"
-  },
-  {
    "id": "cascadepbs:6afbc357f4524500019e9837",
    "feed": "cascadepbs",
    "title": "Documentary explores history of crime and punishment in U.S.",
@@ -380,33 +1118,6 @@
    "date": "2026-11-17T02:45:53.000Z",
    "summary": "A new PBS documentary, \"Crime and Punishment in America,\" traces the evolution of policing, prisons and the criminal justice system across four centuries. Directed by Lynn Novick and executive produced by Ken Burns, the series examines how Americans have defined crime, determined punishment and wrestled with…",
    "image": "https://www.cascadepbs.org/content/images/2026/11/4244801c-515b-4dca-bafa-e6f071201ab0.jpg"
-  },
-  {
-   "id": "bloomberg-business:TOMKWBWWD62O00",
-   "feed": "bloomberg-business",
-   "title": "Asia Equities Decline, JPMorgan Resolves Tech Issue, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-17/asia-equities-decline-jpmorgan-resolves-tech-issue-more",
-   "date": "2026-11-17T02:43:23.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TOMKT3O32FWG00",
-   "feed": "bloomberg-business",
-   "title": "Asia Equities Decline, JP Morgan Resolves Tech Issue, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-17/asia-equities-decline-jp-morgan-resolves-tech-issue-more",
-   "date": "2026-11-17T02:41:27.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004070962",
-   "feed": "wsj-business",
-   "title": "Nvidia Board Warned of ‘Irreplaceable’ Talent Loss in Employee Letter",
-   "link": "https://www.wsj.com/business/nvidia-board-warned-of-irreplaceable-talent-loss-in-employee-letter-b9783b1e?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-17T02:38:00.000Z",
-   "summary": "The letter, also sent to Jensen Huang’s roughly 60 direct reports, escalates an internal push to get him reinstated as CEO.",
-   "image": "https://images.wsj.net/im-88403680"
   },
   {
    "id": "cascadepbs:6afbca47f4524500019e98b9",
@@ -445,15 +1156,6 @@
    "image": "https://www.cascadepbs.org/content/images/2026/11/b3035194-98fa-4eae-bd9f-106adf4bf601.jpg"
   },
   {
-   "id": "semafor:https://www.semafor.com/article/11/16/2026/singapore-working-to-gauge-effect-of-new-us-chip-rules-minister-says",
-   "feed": "semafor",
-   "title": "Singapore discussing effect of new chip rules with US, minister says",
-   "link": "https://www.semafor.com/article/11/16/2026/singapore-working-to-gauge-effect-of-new-us-chip-rules-minister-says",
-   "date": "2026-11-17T02:16:56.000Z",
-   "summary": "Singapore is pressing Trump administration officials for details on new rules designed to crack down on China’s access to advanced US-made chips, and which pose a potential threat to the country’s booming AI sector. Josephine Teo, Singapore’s minister for digital development and information, said Monday her…",
-   "image": "https://img.semafor.com/573c18cbfc56c80670faa49a207165ccaec6a507-5000x3335.jpg"
-  },
-  {
    "id": "cascadepbs:6afbca4ef4524500019e98d4",
    "feed": "cascadepbs",
    "title": "U.S. closing loophole that allowed China access to AI chips",
@@ -461,177 +1163,6 @@
    "date": "2026-11-17T02:15:23.000Z",
    "summary": "The Trump administration announced new rules today to further restrict China’s access to advanced chips for the use of AI. It comes as questions are mounting about how the Commerce Department allowed loopholes for chip exports. The rule puts new restrictions on overseas data centers and is designed to counter…",
    "image": "https://www.cascadepbs.org/content/images/2026/11/8bbdcaa2-00d2-4568-b852-90c83cd904e8.jpg"
-  },
-  {
-   "id": "cascadepbs:6afbc35cf4524500019e9853",
-   "feed": "cascadepbs",
-   "title": "What went wrong with ATC and will more FAA funding fix it?",
-   "link": "https://www.cascadepbs.org/show/newshour/extras/air-travel-troubles-discussion-1794864110/",
-   "date": "2026-11-17T02:15:23.000Z",
-   "summary": "To discuss what went wrong to cause Friday's nationwide ground stop, and the funding fight that is brewing in Washington, Amna Nawaz sat down with aviation correspondent Miles O'Brien and congressional correspondent Lisa Desjardins.",
-   "image": "https://www.cascadepbs.org/content/images/2026/11/fcde46b0-0759-4164-a04c-a30004ca6b97.jpg"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004069706",
-   "feed": "wsj-business",
-   "title": "Nvidia’s Board Not Considering Reinstating Jensen Huang as CEO",
-   "link": "https://www.wsj.com/business/nvidias-board-not-considering-reinstating-jensen-huang-as-ceo-a2b913b1?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-17T02:11:00.000Z",
-   "summary": "Billionaire allies have called for his return as inquiries into his relationship with a woman suspected of working with Chinese intelligence proceed.",
-   "image": "https://images.wsj.net/im-54289268"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/16/2026/the-tech-industry-has-a-public-image-problem-arianna-huffington-says",
-   "feed": "semafor",
-   "title": "The tech industry has a public image problem, Arianna Huffington says",
-   "link": "https://www.semafor.com/article/11/16/2026/the-tech-industry-has-a-public-image-problem-arianna-huffington-says",
-   "date": "2026-11-17T01:58:31.000Z",
-   "summary": "Former Nvidia CEO Jensen Huang has joined a group of “brilliantly intelligent” corporate leaders who “just lack wisdom,” Arianna Huffington said Monday. Speaking at Semafor’s Silicon Valley & The World, Huffington called the Nvidia scandal a teachable moment. “We see incredibly intelligent people all around who are…",
-   "image": "https://img.semafor.com/58f8f17b578294542c6cae0a3c7b511cf103a446-5000x3335.jpg"
-  },
-  {
-   "id": "bloomberg-business:TOMIFZWWD62O00",
-   "feed": "bloomberg-business",
-   "title": "Markets Brace for Nvidia Earnings, United Outage Resolved, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-17/markets-brace-for-nvidia-earnings-united-outage-resolved-more",
-   "date": "2026-11-17T01:50:23.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/16/2026/medical-students-should-learn-the-hard-way-ai-startup-ceo-says",
-   "feed": "semafor",
-   "title": "Medical students should ‘learn the hard way,’ AI startup CEO says",
-   "link": "https://www.semafor.com/article/11/16/2026/medical-students-should-learn-the-hard-way-ai-startup-ceo-says",
-   "date": "2026-11-17T01:48:44.000Z",
-   "summary": "The CEO of a major medical AI startup said on Monday that medical students should do paper exams and master the material, even if they also use AI. “The risk of cognitive offloading is really, really acute,” OpenEvidence CEO Daniel Nadler said at Semafor’s Silicon Valley & The World. He would advise students to…",
-   "image": "https://img.semafor.com/5d4949af82448d2eba9ee55530274847e6c456d9-932x550.png"
-  },
-  {
-   "id": "cascadepbs:6afbb535f4524500019e9780",
-   "feed": "cascadepbs",
-   "title": "'It's close to bulletproof,' doctor says of MMR vaccine",
-   "link": "https://www.cascadepbs.org/show/newshour/extras/measles-resurgence-1794857633/",
-   "date": "2026-11-17T01:45:52.000Z",
-   "summary": "Global health authorities are expected to announce that the U.S. has lost its status as a country where measles is eliminated, a public health milestone it achieved 26 years ago. This past year, the number of cases in the U.S. doubled, making it the worst year in three decades. That was the focus of the latest…",
-   "image": "https://www.cascadepbs.org/content/images/2026/11/4f624198-5363-42da-88a8-532822e23ecd.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/16/2026/openai-cfo-says-latest-funding-round-was-unplanned-prompted-by-news-report",
-   "feed": "semafor",
-   "title": "OpenAI CFO says latest funding round was unplanned, prompted by news report",
-   "link": "https://www.semafor.com/article/11/16/2026/openai-cfo-says-latest-funding-round-was-unplanned-prompted-by-news-report",
-   "date": "2026-11-17T01:24:10.000Z",
-   "summary": "Anthropic’s IPO is “good for the ecosystem” and “good for us,” Sarah Friar, CFO of OpenAI said Monday at Semafor’s Silicon Valley & The World, adding that the company was unconcerned with being second. Retail investors are ready for access to frontier models, not just hyperscalers which come with “pros and cons,” she…",
-   "image": "https://img.semafor.com/91a6c9db4fa1b66cde9343269afec89f23be6fc0-5000x3335.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/16/2026/trump-cyber-director-ai-labs-extremely-good-about-sharing-models",
-   "feed": "semafor",
-   "title": "Trump cyber director: FAA, other outages not a cyberattack",
-   "link": "https://www.semafor.com/article/11/16/2026/trump-cyber-director-ai-labs-extremely-good-about-sharing-models",
-   "date": "2026-11-17T01:11:52.000Z",
-   "summary": "White House cyber director Sean Cairncross said Monday that a cyberattack was not behind the Trump administration’s nationwide ground stop of air traffic or other outages reported on Monday, attributing the problems to upgrades of old technology. “No, this is not any sort of coordinated, nefarious cyberattack from a…",
-   "image": "https://img.semafor.com/4d7e8c0aba594b1aab35dd30912cd786dff79e16-5000x3335.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/16/2026/bloom-energy-sees-nothing-but-a-huge-opportunity",
-   "feed": "semafor",
-   "title": "Bloom Energy sees 'nothing but a huge opportunity' amid AI headwinds",
-   "link": "https://www.semafor.com/article/11/16/2026/bloom-energy-sees-nothing-but-a-huge-opportunity",
-   "date": "2026-11-17T01:06:06.000Z",
-   "summary": "The CEO of fuel cell maker Bloom Energy said at Semafor’s Silicon Valley & The World that he’s not worried about rising natural gas prices or political pushback to data centers, as the economy-wide scramble for electrons marks an “architectural shift” for the grid that will favor onsite power production. Bloom, whose…",
-   "image": "https://img.semafor.com/adc981ac2c05bdfd293c5f472f530918e1446eed-5000x3335.jpg"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004070201",
-   "feed": "wsj-business",
-   "title": "The Mounting Toll of the Nationwide Ground Stop: 20,000 Flights and Counting",
-   "link": "https://www.wsj.com/business/airlines/faa-groundstop-cost-7a7e22c3?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-17T01:00:00.000Z",
-   "summary": "Airline operations are nearly back to normal, but carriers are just starting to tally the financial blow from thousands of canceled flights.",
-   "image": "https://images.wsj.net/im-82704915"
-  },
-  {
-   "id": "bloomberg-business:TOMG3TO2LL3800",
-   "feed": "bloomberg-business",
-   "title": "Asia Stocks Track Losses, United Airlines Flights Resume, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-17/asia-stocks-track-losses-united-airlines-flights-resume-more",
-   "date": "2026-11-17T00:59:53.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/16/business/united-airlines-outage-flights.html",
-   "feed": "nytimes-business",
-   "title": "United Airlines Flights Resume After ‘Widespread System Outage’",
-   "link": "https://www.nytimes.com/2026/11/16/business/united-airlines-outage-flights.html",
-   "date": "2026-11-17T00:59:37.000Z",
-   "summary": "The brief disruption, after a nationwide ground stop last week, added to concerns about air travel ahead of a busy Thanksgiving travel period.",
-   "image": "https://static01.nyt.com/images/2026/11/16/multimedia/16xp-united-czbh/16xp-united-czbh-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/16/2026/democrats-dig-in-for-grueling-leadership-fight-schumer-van-hollen",
-   "feed": "semafor",
-   "title": "Democrats dig in for grueling leadership fight",
-   "link": "https://www.semafor.com/article/11/16/2026/democrats-dig-in-for-grueling-leadership-fight-schumer-van-hollen",
-   "date": "2026-11-17T00:49:14.000Z",
-   "summary": "The News Sen. John Hickenlooper, D-Colo., mimed a coin flip on Monday night when asked if he’ll support Senate Democratic Leader Chuck Schumer over his insurgent opponent, Sen. Chris Van Hollen, D-Md. It was a joke — but one that also showed how Democrats are wrestling with the decision. “Leave it to the Democrats.…",
-   "image": "https://img.semafor.com/959db4ce4434f555d99364b75d95ae6216a40ff2-5500x3667.jpg"
-  },
-  {
-   "id": "semafor://www.semafor.com/article/11/16/2026/ai-leaders-helping-drive-unnaturally-negative-narrative-palo-alto-networks-ceo-says",
-   "feed": "semafor",
-   "title": "AI leaders helping drive ‘unnaturally negative’ narrative, Palo Alto Networks CEO says",
-   "link": "https://www.semafor.com/article/11/16/2026/ai-leaders-helping-drive-unnaturally-negative-narrative-palo-alto-networks-ceo-says",
-   "date": "2026-11-17T00:48:42.000Z",
-   "summary": "The leaders of the world’s most advanced AI companies are helping drive an “unnaturally negative” narrative around the technology, Palo Alto Networks CEO Nikesh Arora said at Semafor’s Silicon Valley & The World. In an interview with MIT Technology Review’s Mat Honan, Arora argued that the focus on AI’s risks is…",
-   "image": "https://img.semafor.com/88a1a0bfa909101e61ff0f1d5380d38b233f5665-3014x1530.png"
-  },
-  {
-   "id": "bloomberg-business:TOMD8SKJH6V400",
-   "feed": "bloomberg-business",
-   "title": "Australia ‘Backpacker’ Visa Holders Face More Regional Work",
-   "link": "https://www.bloomberg.com/news/articles/2026-11-17/australia-backpacker-visa-holders-face-more-regional-work",
-   "date": "2026-11-17T00:48:38.000Z",
-   "summary": "Australia’s working holidaymakers will be required to spend longer working in regional areas to qualify for a second year on their visas, as the government seeks to balance migration cuts with the labor needs of businesses outside major cities.",
-   "image": ""
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004069761",
-   "feed": "wsj-business",
-   "title": "Put-Downs, Parties and a ‘Royal Family’: The Culture Inside Jensen Huang’s Nvidia",
-   "link": "https://www.wsj.com/business/put-downs-parties-and-a-royal-family-the-culture-inside-jensen-huangs-nvidia-6a872194?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-17T00:43:00.000Z",
-   "summary": "The longtime Nvidia boss was known for being demanding and difficult. So was his daughter.",
-   "image": "https://images.wsj.net/im-40674843"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/16/2026/ai-agents-still-act-like-day-1-employees-glean-ceo-says",
-   "feed": "semafor",
-   "title": "AI agents still act like ‘Day 1 employees,’ Glean CEO says",
-   "link": "https://www.semafor.com/article/11/16/2026/ai-agents-still-act-like-day-1-employees-glean-ceo-says",
-   "date": "2026-11-17T00:28:49.000Z",
-   "summary": "AI agents are nowhere near having the “context” to outperform skilled humans, Glean CEO Arvind Jain said Monday. “When you deploy AI agents, and you actually point them to the right data and knowledge that they need to do their work, they still come and act more like Day 1 employees,” Jain told the editor-in-chief of…",
-   "image": "https://img.semafor.com/b90632c9b71535957c21a4f0945ada9608863bbc-5000x3335.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/16/2026/united-airlines-major-us-banks-report-system-outages",
-   "feed": "semafor",
-   "title": "United Airlines, major US banks report system outages",
-   "link": "https://www.semafor.com/article/11/16/2026/united-airlines-major-us-banks-report-system-outages",
-   "date": "2026-11-17T00:16:50.000Z",
-   "summary": "Customers of major US banks reported difficulty accessing their accounts Monday, as United Airlines also reported a widespread system outage, elevating concerns about the durability of US digital infrastructure days after a tech failure grounded commercial flights nationwide. United said later on Monday that it was…",
-   "image": "https://img.semafor.com/e3514e6764ad0fc045d523c6e3984d40d2fd4058-4000x2667.jpg"
-  },
-  {
-   "id": "cascadepbs:6afb9c82f4524500019e9339",
-   "feed": "cascadepbs",
-   "title": "November 16, 2026 - PBS News Hour full episode",
-   "link": "https://www.cascadepbs.org/show/newshour/episode/november-16-2026-pbs-news-hour-full-episode-1794805247/",
-   "date": "2026-11-17T00:00:23.000Z",
-   "summary": "",
-   "image": "https://www.cascadepbs.org/content/images/2026/11/50381396-0ee1-4ef1-8190-bd6ed6a7cce6.jpg"
   },
   {
    "id": "wsj-business:WP-WSJ-0004068560",
@@ -652,114 +1183,6 @@
    "image": "https://static01.nyt.com/images/2026/11/16/multimedia/16biz-pentagon-press-ban-lqkh/16biz-pentagon-press-ban-lqkh-mediumSquareAt3X.jpg"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/16/business/faa-ground-stop-pilots-radio-controllers.html",
-   "feed": "nytimes-business",
-   "title": "Pilots Kept Contact With Controllers During Nationwide Halt to Flights",
-   "link": "https://www.nytimes.com/2026/11/16/business/faa-ground-stop-pilots-radio-controllers.html",
-   "date": "2026-11-16T23:39:24.000Z",
-   "summary": "Pilots were generally able to maintain contact with air traffic controllers and airline staff on the ground despite an outage that caused a nearly five-hour halt to departures.",
-   "image": "https://static01.nyt.com/images/2026/11/16/multimedia/16biz-faa-pilots-lqjw/16biz-faa-pilots-lqjw-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "semafor:tps://www.semafor.com/article/11/16/2026/america-needs-to-have-more-jensens-perplexity-ceo-lauds-huang-as-industry-titan",
-   "feed": "semafor",
-   "title": "‘America needs to have more Jensens’: Perplexity CEO lauds Huang as industry titan",
-   "link": "https://www.semafor.com/article/11/16/2026/america-needs-to-have-more-jensens-perplexity-ceo-lauds-huang-as-industry-titan",
-   "date": "2026-11-16T23:18:49.000Z",
-   "summary": "Perplexity CEO Aravind Srinivas on Monday said the US needs more entrepreneurial tech CEOs like former Nvidia CEO Jensen Huang during an interview at Semafor’s Silicon Valley & The World. “He’s one of the greatest founders in American history,” Srinivas told Semafor Editor-in-Chief Ben Smith. “America needs to have…",
-   "image": "https://img.semafor.com/245ea2f6bd8134ca245e6f0e6215519728ff4028-5000x3335.jpg"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004070303",
-   "feed": "wsj-business",
-   "title": "United Airlines Says It Resolved Tech Problem That Delayed Departures",
-   "link": "https://www.wsj.com/business/airlines/united-airlines-says-tech-troubles-are-impacting-flights-95b229d8?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-16T23:13:00.000Z",
-   "summary": "Companywide outage affected tools that the airline uses to communicate with pilots.",
-   "image": "https://images.wsj.net/im-68858264"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/16/2026/us-tech-extends-slide-ahead-of-nvidia-earnings",
-   "feed": "semafor",
-   "title": "US tech extends slide ahead of Nvidia earnings",
-   "link": "https://www.semafor.com/article/11/16/2026/us-tech-extends-slide-ahead-of-nvidia-earnings",
-   "date": "2026-11-16T22:55:45.000Z",
-   "summary": "US tech extended its slide Monday as Nvidia shares plunged nearly 5%, as investors looked ahead to the chipmaker’s first post-Jensen Huang earnings report and Anthropic’s IPO. Chip stocks sank overall after the US rolled out interim rules to close the so-called remote access loophole by which Chinese AI firms…",
-   "image": "https://img.semafor.com/359f0908cc93cb89788f7529824991133e13c43f-5000x3335.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/16/us/pokemon-cards-value-investors.html",
-   "feed": "nytimes-business",
-   "title": "A Bull Market for Pokémon Cards, Fueled by Pikachu and Nostalgia",
-   "link": "https://www.nytimes.com/2026/11/16/us/pokemon-cards-value-investors.html",
-   "date": "2026-11-16T22:47:57.000Z",
-   "summary": "On the 30th anniversary of the franchise, Pokémon cards are skyrocketing in value — to the point that collecting them can be a viable livelihood.",
-   "image": "https://static01.nyt.com/images/2026/11/09/multimedia/00xp-pokemon-02/00xp-pokemon-02-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/16/us/politics/bessent-lutnick-china.html",
-   "feed": "nytimes-business",
-   "title": "Bessent Takes Hawkish Turn in White House Debate on China",
-   "link": "https://www.nytimes.com/2026/11/16/us/politics/bessent-lutnick-china.html",
-   "date": "2026-11-16T22:46:09.000Z",
-   "summary": "The Treasury secretary who sought to de-escalate tariff wars is taking a tougher approach to exports of sensitive U.S. technology.",
-   "image": "https://static01.nyt.com/images/2026/11/16/multimedia/16dc-bessent-01-tfpz/16dc-bessent-01-tfpz-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/16/2026/ai-makes-everyone-more-vulnerable",
-   "feed": "semafor",
-   "title": "AI makes everyone more vulnerable, AT&T CEO says",
-   "link": "https://www.semafor.com/article/11/16/2026/ai-makes-everyone-more-vulnerable",
-   "date": "2026-11-16T22:44:16.000Z",
-   "summary": "Everybody is more vulnerable because of AI, at least for now, AT&T CEO John Stankey said Monday at Semafor’s Silicon Valley & The World. Stankey believes that can be turned around to make things safer, but it will take some time to figure out “how to turn that technology into advantage rather than liability.” Stankey…",
-   "image": "https://img.semafor.com/3dbd406cfe84c6ae6d05b4e2970ef6038f814062-5000x3335.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/16/2026/replit-ceo-calls-jensen-huangs-ouster-attack-on-open-models",
-   "feed": "semafor",
-   "title": "Replit CEO calls Huang’s ouster ‘attack’ on open models",
-   "link": "https://www.semafor.com/article/11/16/2026/replit-ceo-calls-jensen-huangs-ouster-attack-on-open-models",
-   "date": "2026-11-16T22:43:27.000Z",
-   "summary": "Replit CEO Amjad Masad called Jensen Huang’s ouster as Nvidia’s CEO “an attack on open models” at Semafor’s Silicon Valley & The World on Monday. “Jensen is the premier champion of open models,” Masad told Semafor’s Rohan Goswami. “If it wasn’t for Jensen, there wouldn’t be a lot of funding going into US open model…",
-   "image": "https://img.semafor.com/42c2218d08d3cac46207e49aad9dcfa520fa4c01-1141x617.png"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/16/business/elon-musk-tesla-spacex.html",
-   "feed": "nytimes-business",
-   "title": "Elon Musk Wants to Merge Tesla and SpaceX. Their Businesses Already Overlap.",
-   "link": "https://www.nytimes.com/2026/11/16/business/elon-musk-tesla-spacex.html",
-   "date": "2026-11-16T22:41:31.000Z",
-   "summary": "For years, engineers have shuffled between Tesla and SpaceX, and the companies have worked on major projects together.",
-   "image": "https://static01.nyt.com/images/2026/11/13/multimedia/00biz-tesla-spacex-tesla-jmzp/00biz-tesla-spacex-tesla-jmzp-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/16/business/trump-gao-watchdog-nominee-eric-ueland.html",
-   "feed": "nytimes-business",
-   "title": "Trump Nominates Budget Deputy for Nonpartisan Federal Watchdog Role",
-   "link": "https://www.nytimes.com/2026/11/16/business/trump-gao-watchdog-nominee-eric-ueland.html",
-   "date": "2026-11-16T22:37:01.000Z",
-   "summary": "The move could put a top administration official in charge of an oversight agency that has faulted the White House for past violations of the law.",
-   "image": "https://static01.nyt.com/images/2026/11/16/business/16DC-GAO-NOMINEE-2/16DC-GAO-NOMINEE-2-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/16/movies/james-bond-robert-pattinson.html",
-   "feed": "nytimes-business",
-   "title": "Robert Pattinson Named as the Next James Bond",
-   "link": "https://www.nytimes.com/2026/11/16/movies/james-bond-robert-pattinson.html",
-   "date": "2026-11-16T22:10:07.000Z",
-   "summary": "The announcement ends years of speculation over who would take over the role after Daniel Craig’s five-film run.",
-   "image": "https://static01.nyt.com/images/2026/11/17/world/16cul-james-bond-hfo-bbb/16cul-james-bond-hfo-bbb-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/16/2026/bill-ackman-says-its-unlikely-hell-get-involved-to-bring-huang-back",
-   "feed": "semafor",
-   "title": "Bill Ackman says it’s ‘unlikely’ he’ll get involved to bring Huang back",
-   "link": "https://www.semafor.com/article/11/16/2026/bill-ackman-says-its-unlikely-hell-get-involved-to-bring-huang-back",
-   "date": "2026-11-16T21:40:36.000Z",
-   "summary": "Billionaire hedge fund manager Bill Ackman said Monday it was “unlikely” that he would get directly involved in an effort to reinstate former Nvidia CEO Jensen Huang. Ackman, an outspoken activist investor who runs Pershing Square Capital Management, has come to Huang’s defense following the revelations that Huang…",
-   "image": "https://img.semafor.com/18acc6fa0a38eae5fe32de3d7a4d5fa3ca08f286-5000x3335.jpg"
-  },
-  {
    "id": "wsj-business:WP-WSJ-0004069369",
    "feed": "wsj-business",
    "title": "Tesla Will Invest $3.31 Billion to Expand German Factory for Cybercab Production",
@@ -769,132 +1192,6 @@
    "image": "https://images.wsj.net/im-33902272"
   },
   {
-   "id": "semafor:https://www.semafor.com/article/11/16/2026/musks-policy-difficulty-prevents-starlinks-south-africa-entry",
-   "feed": "semafor",
-   "title": "Elon Musk’s policy difficulty prevents Starlink’s South Africa entry",
-   "link": "https://www.semafor.com/article/11/16/2026/musks-policy-difficulty-prevents-starlinks-south-africa-entry",
-   "date": "2026-11-16T21:14:51.000Z",
-   "summary": "Elon Musk’s “difficulty in understanding” a key South African policy is the main issue preventing his Starlink satellite internet service launching in Africa’s biggest economy, South African President Cyril Ramaphosa told Semafor on Monday. Under the country’s Black Economic Empowerment policy, introduced nearly 30…",
-   "image": "https://img.semafor.com/911163b274033709f1757206802782888befc82c-5000x3335.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/16/2026/north-korea-outreach-in-the-mix-for-trumps-asia-swing",
-   "feed": "semafor",
-   "title": "North Korea outreach in the mix for Trump’s Asia swing",
-   "link": "https://www.semafor.com/article/11/16/2026/north-korea-outreach-in-the-mix-for-trumps-asia-swing",
-   "date": "2026-11-16T21:10:13.000Z",
-   "summary": "President Donald Trump’s trip to Asia may include a sitdown with North Korean leader Kim Jong Un. Though Trump floated that possibility today, telling reporters that Kim “might come,” one senior US official said days ago that there are “no plans at all for engagement with North Korea.” The White House declined to…",
-   "image": "https://img.semafor.com/d9be9400e18fce35fd9e6fdf847ce314c60ac157-1964x1272.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/16/business/economy/warsh-ai-economy.html",
-   "feed": "nytimes-business",
-   "title": "Fed Chairman Highlights Economic Uncertainty of A.I. Boom",
-   "link": "https://www.nytimes.com/2026/11/16/business/economy/warsh-ai-economy.html",
-   "date": "2026-11-16T21:08:30.000Z",
-   "summary": "Kevin M. Warsh, chairman of the Federal Reserve, has assigned a task force to explore how productivity gains tied to new technologies could impact the labor market.",
-   "image": "https://static01.nyt.com/images/2026/11/16/multimedia/16dc-fed-thwl/16dc-fed-thwl-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/16/2026/advocates-dub-midterms-the-care-election",
-   "feed": "semafor",
-   "title": "Advocates dub midterms the ‘care election’",
-   "link": "https://www.semafor.com/article/11/16/2026/advocates-dub-midterms-the-care-election",
-   "date": "2026-11-16T21:04:41.000Z",
-   "summary": "This month’s midterms were the “care election,” according to a sweeping new report by Care Can’t Wait Action that was shared first with Semafor . The coalition points to its role in boosting turnout — citing nearly 24 million impressions via events, media and other outreach — as well as exit polling that found voters…",
-   "image": "https://img.semafor.com/395b8e7164fca560db1e8c71a7af622f2c82b6de-3778x2518.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/16/2026/sacks-criticizes-rush-to-judgment-on-ex-nvidia-ceo",
-   "feed": "semafor",
-   "title": "Trump's former AI czar criticizes rush to judgment on ex-Nvidia CEO",
-   "link": "https://www.semafor.com/article/11/16/2026/sacks-criticizes-rush-to-judgment-on-ex-nvidia-ceo",
-   "date": "2026-11-16T20:11:38.000Z",
-   "summary": "President Donald Trump’s former AI and crypto czar, David Sacks, argued on Monday the public was too quick to judge former Nvidia CEO Jensen Huang on reports that he had an affair with a suspected Chinese spy, though he stopped short of saying whether the board should reinstate Huang as CEO. “You have the right to…",
-   "image": "https://img.semafor.com/a1c3fbb9cde4f86b1963bfb637dc65293c3ae42e-5000x3335.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/16/2026/binance-chief-acknowledges-hack-shouldnt-have-happened",
-   "feed": "semafor",
-   "title": "Binance chief acknowledges hack ‘shouldn’t have happened’",
-   "link": "https://www.semafor.com/article/11/16/2026/binance-chief-acknowledges-hack-shouldnt-have-happened",
-   "date": "2026-11-16T19:58:18.000Z",
-   "summary": "Binance co-CEO Richard Teng acknowledged Monday that the $6.3 billion hack his firm suffered — one which roiled cryptocurrency markets and raised existential questions about industry security — resulted from the company’s own failings. “It shouldn’t have happened,” Teng said at Semafor’s Silicon Valley & The World.…",
-   "image": "https://img.semafor.com/8207ccd23049866b8b17ee0271466ac318a5afbb-5000x3335.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/16/2026/citigroup-ceo-jane-fraser-sees-demand-side-problem-for-ai",
-   "feed": "semafor",
-   "title": "Citigroup CEO Jane Fraser sees 'demand-side problem' for AI",
-   "link": "https://www.semafor.com/article/11/16/2026/citigroup-ceo-jane-fraser-sees-demand-side-problem-for-ai",
-   "date": "2026-11-16T19:44:10.000Z",
-   "summary": "Recent jitters in the markets about AI represents a shift among investors towards becoming more selective about where they allocate their money, Jane Fraser, the CEO of Citigroup said Monday — and she’s not worried about it. “In a market priced to perfection, getting the air out of the tires is not a bad thing,”…",
-   "image": "https://img.semafor.com/66a0bea454ce1dba3fcb2edc6f50c04164c36471-5000x3335.jpg"
-  },
-  {
-   "id": "semafor:www.semafor.com/article/11/16/2026/altimeters-gerstner-urges-nvidias-board-to-reconsider-huangs-ouster-to-get-this-right",
-   "feed": "semafor",
-   "title": "Altimeter’s Gerstner says Nvidia’s board should keep door open to Huang’s return: ‘Get this right’",
-   "link": "https://www.semafor.com/article/11/16/2026/altimeters-gerstner-urges-nvidias-board-to-reconsider-huangs-ouster-to-get-this-right",
-   "date": "2026-11-16T19:32:04.000Z",
-   "summary": "Altimeter Capital CEO Brad Gerstner urged Nvidia’s board on Monday to reconsider Jensen Huang’s ouster, saying the board needs “to get this right.” Gerstner said at Semafor’s Silicon Valley & The World that he wasn’t calling for Huang’s immediate reinstatement as Nvidia CEO but that “everyone is rushing to…",
-   "image": "https://img.semafor.com/1eefa13d973cb0cb8d870311f17615fda67eec52-5000x3335.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/16/2026/us-wont-restrict-foreign-tech-companies-in-allied-countries-helberg-says",
-   "feed": "semafor",
-   "title": "US won’t restrict foreign tech companies in allied countries, State Dept. official says",
-   "link": "https://www.semafor.com/article/11/16/2026/us-wont-restrict-foreign-tech-companies-in-allied-countries-helberg-says",
-   "date": "2026-11-16T19:09:59.000Z",
-   "summary": "The US government has “no plans” to target or “orchestrate the deep pruning” of technology companies headquartered in allied countries from American supply chains, Undersecretary of State for Economic Affairs Jacob Helberg said Monday. Speaking alongside ASML’s President and CEO Christophe Fouquet at Semafor’s…",
-   "image": "https://img.semafor.com/6940b72d5a171edfa5d0a6afddbaa62913344f2c-5000x3335.jpg"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004063039",
-   "feed": "wsj-business",
-   "title": "These 11 Toys Make Perfect Gifts and Have Stood the Test of Time",
-   "link": "https://www.wsj.com/lifestyle/kid-toy-gifts-heritage-73d9ab02?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-16T19:02:00.000Z",
-   "summary": "From blocks used by Frank Lloyd Wright to stuffed animals given to British royals, these heritage toys are the type that your kids might give to their kids.",
-   "image": "https://images.wsj.net/im-47956389"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/16/business/elon-musk-tesla-spacex-conglomerate.html",
-   "feed": "nytimes-business",
-   "title": "Elon Musk Dreams of Merging Tesla and SpaceX in Move Toward Tech Supremacy",
-   "link": "https://www.nytimes.com/2026/11/16/business/elon-musk-tesla-spacex-conglomerate.html",
-   "date": "2026-11-16T18:57:59.000Z",
-   "summary": "The history of the sprawling corporate combinations is rich, colorful and mostly disappointing. Could a SpaceX-Tesla merger be a success story?",
-   "image": "https://static01.nyt.com/images/2026/11/19/business/16biz-digital-conglomerates/16biz-digital-conglomerates-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/16/business/media/willie-geist-morning-joe-today.html",
-   "feed": "nytimes-business",
-   "title": "Willie Geist Is Leaving ‘Morning Joe’ After Nearly 20 Years",
-   "link": "https://www.nytimes.com/2026/11/16/business/media/willie-geist-morning-joe-today.html",
-   "date": "2026-11-16T18:41:33.000Z",
-   "summary": "He will take on an expanded role at NBC News, where he has been the host of the Sunday edition of the “Today” show since 2016.",
-   "image": "https://static01.nyt.com/images/2026/11/16/multimedia/16xp-geist-vtgj/16xp-geist-vtgj-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/16/2026/four-seasons-ceo-says-2026-will-be-the-best-year-on-record",
-   "feed": "semafor",
-   "title": "Personal wealth boom helps Four Seasons to record-breaking year",
-   "link": "https://www.semafor.com/article/11/16/2026/four-seasons-ceo-says-2026-will-be-the-best-year-on-record",
-   "date": "2026-11-16T18:30:32.000Z",
-   "summary": "The CEO of Four Seasons Hotels and Resorts said Monday that the company was on track for another record-breaking earnings year. “’25 was our best year on record. ’26 will be the best year on record,” Alejandro Reynal said at Semafor’s Silicon Valley & The World. He added that 2027 is on track to surpass the previous…",
-   "image": "https://img.semafor.com/01e16d558fd9ffd2353123cd17713d7b115cc1fd-5000x3335.jpg"
-  },
-  {
-   "id": "cascadepbs:6afb4635f4524500019e7578",
-   "feed": "cascadepbs",
-   "title": "Richard Manoogian | Destination Detroit Shorts",
-   "link": "https://www.cascadepbs.org/show/destination-detroit/extras/richard-manoogian-destination-detroit-shorts-dcawz3/",
-   "date": "2026-11-16T18:00:57.000Z",
-   "summary": "Chairman Emeritus of Masco Corporation Richard A. Manoogian shares about MASCO's history and founding behaviors.",
-   "image": "https://www.cascadepbs.org/content/images/2026/11/6e3d7271-0ec7-4b0b-9769-29326f8e98b8.png"
-  },
-  {
    "id": "wsj-business:WP-WSJ-0004067355",
    "feed": "wsj-business",
    "title": "Activist Calls on Landlord Invitation Homes to Sell Houses ‘One at a Time’",
@@ -902,15 +1199,6 @@
    "date": "2026-11-16T17:10:00.000Z",
    "summary": "Land & Buildings says the company should sell homes and buy back shares after a ban on large investors buying single-family homes threatens to limit its growth.",
    "image": "https://images.wsj.net/im-37289190"
-  },
-  {
-   "id": "planetizen:138876 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "Next-generation nuclear reactors are coming to Texas",
-   "link": "https://www.planetizen.com/news/2026/11/138876-next-generation-nuclear-reactors-are-coming-texas",
-   "date": "2026-11-16T17:00:00.000Z",
-   "summary": "Nuclear waste will be stored indefinitely-on site, as the U.S. does not have a national disposal site. Texas is set to gain several next-generation nuclear reactors. This week, the Nuclear Regulatory Commission issued a permit for four nuclear reactors that are “intended to kickstart a new era of growth for the…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/long-mott-rx.jpg.webp?itok=OwSF10Ci"
   },
   {
    "id": "wsj-business:WP-WSJ-0004068611",
@@ -958,24 +1246,6 @@
    "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-11-13/image-1ce634970069eb1c821e6270d96fb77db65d81ec-1500x1000-png/2026GG_PetLovers-Hero.png"
   },
   {
-   "id": "planetizen:138875 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "California distributes $1.3 billion to prevent transit service cuts, bolster projects",
-   "link": "https://www.planetizen.com/news/2026/11/138875-california-distributes-13-billion-prevent-transit-service-cuts-bolster-projects",
-   "date": "2026-11-16T16:00:00.000Z",
-   "summary": "The Portal, a major project in the Bay Area that will extend Caltrain by two miles, received $750 million of Newsom’s investment. California Gov. Gavin Newsom has distributed almost $1.3 billion in California State Transportation Agency’s Transit and Intercity Rail Capital Program and State Rail Assistance program…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/Screenshot%202026-11-13%20at%2010.02.34%E2%80%AFAM.png.webp?itok=ZS1bnn39"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004068320",
-   "feed": "wsj-business",
-   "title": "Intel Sued by Investors After 29% Stock Plunge",
-   "link": "https://www.wsj.com/tech/intel-sued-by-investors-after-29-stock-plunge-c6591bbf?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-16T15:52:00.000Z",
-   "summary": "Intel is being sued by shareholders who claim the U.S. chip maker failed to disclose the scale of a slump in personal-computer sales.",
-   "image": "https://images.wsj.net/im-92029420"
-  },
-  {
    "id": "smartcities:https://www.smartcitiesdive.com/news/lidar-cambridge-massachusetts-urban-forestry-bloomberg-what-works-cities/874749/",
    "feed": "smartcities",
    "title": "How lidar helped a Massachusetts city rethink its urban forestry strategy",
@@ -994,60 +1264,6 @@
    "image": "https://images.wsj.net/im-67998908"
   },
   {
-   "id": "cascadepbs:6afb1daaf4524500019e675a",
-   "feed": "cascadepbs",
-   "title": "Episode 6 Preview",
-   "link": "https://www.cascadepbs.org/show/the-gold/trailers/episode-6-preview-7ol0hn/",
-   "date": "2026-11-16T15:00:28.000Z",
-   "summary": "Whilst the Task Force faces change, in both Britain and America the Brink’s-Mat criminals face their day in court, and a dangerous manhunt is launched in Spain.",
-   "image": "https://www.cascadepbs.org/content/images/2026/11/48a727ef-496e-4ba6-bc5f-2555ac7ba3ae.jpg"
-  },
-  {
-   "id": "planetizen:138870 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "Pennsylvania Democrats have 15 affordability, clean energy bills for flipped state Senate",
-   "link": "https://www.planetizen.com/news/2026/11/138870-pennsylvania-democrats-have-15-affordability-clean-energy-bills-flipped-state",
-   "date": "2026-11-16T15:00:00.000Z",
-   "summary": "Pennsylvania Democrats hope to pass a battery storage bill that would allow the state to store clean energy when it's abundant, and release it for use later. Democratic lawmakers in Pennsylvania are looking to use their recent success in the midterms to quickly pass bills to support clean energy and lower utility…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2769811159.jpg.webp?itok=Wq-n1vJM"
-  },
-  {
-   "id": "cascadepbs:6af79be0f4524500019d0b65",
-   "feed": "cascadepbs",
-   "title": "Immigration enforcement continues to impact local families",
-   "link": "https://www.cascadepbs.org/the-newsfeed-2/2026/11/immigration-enforcement-continues-to-impact-local-families/",
-   "date": "2026-11-16T15:00:00.000Z",
-   "summary": "Each week on The Newsfeed, host Paris Jackson and a team of veteran journalists dive deep into one topic and provide impactful reporting, interviews and community insights from sources you can trust. Each day this week, this post will be updated with a new story from the team. Hundreds of WA children face immigration…",
-   "image": "https://www.cascadepbs.org/content/images/2026/11/The-Newsfeed-11.16.26--1-.png"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/16/world/asia/roosters-cockfighting-philippines.html",
-   "feed": "nytimes-business",
-   "title": "American Roosters Fight in the Philippines Despite U.S. Crackdown",
-   "link": "https://www.nytimes.com/2026/11/16/world/asia/roosters-cockfighting-philippines.html",
-   "date": "2026-11-16T14:56:41.000Z",
-   "summary": "It’s illegal in the United States to transport game fowl for fighting. But investigators say breeders are sending birds to the Philippines, where cockfighting is legal and lucrative.",
-   "image": "https://static01.nyt.com/images/2026/11/10/multimedia/00xp-roosters-gztb/00xp-roosters-gztb-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/16/business/trump-paxsilica-philippines-ai.html",
-   "feed": "nytimes-business",
-   "title": "Trump’s Plan for A.I. Supremacy Fuels Resistance in the Philippines",
-   "link": "https://www.nytimes.com/2026/11/16/business/trump-paxsilica-philippines-ai.html",
-   "date": "2026-11-16T14:02:21.000Z",
-   "summary": "A planned American-led artificial intelligence hub in the Philippines has sparked fierce opposition over concerns about displacement, resources and threats to national sovereignty.",
-   "image": "https://static01.nyt.com/images/2026/11/12/multimedia/00biz-paxsilica-philippines-01-cflz/00biz-paxsilica-philippines-01-cflz-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "planetizen:138868 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "Denver city council candidate hopes to transform transit lots into housing",
-   "link": "https://www.planetizen.com/news/2026/11/138868-denver-city-council-candidate-hopes-transform-transit-lots-housing",
-   "date": "2026-11-16T14:00:00.000Z",
-   "summary": "City council candidate June Churchill argues that housing near the rail station could increase ridership, and provide residents with easy access to transit. Denver may transform its empty transit parking lots into housing. City council candidate June Churchill is advocating for the city to use the Regional…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2251187109.jpg.webp?itok=NFqZuqmH"
-  },
-  {
    "id": "urbanist:6af7516db10f94000135392b",
    "feed": "urbanist",
    "title": "Lawmakers Turn to a 'Highway Use Fee' to Bolster Sagging Transportation Budget",
@@ -1055,78 +1271,6 @@
    "date": "2026-11-16T14:00:00.000Z",
    "summary": "State legislators who have been trying in vain for years to find a more sustainable funding source to replace Washington's waning gas tax are set to try a new tactic in 2027. House Transportation committee chair Jake Fey (D-27th, Tacoma) is gearing up to introduce a new \"highway use fee\" to help salvage a state…",
    "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/11/55637209753_a1ab1e2b4c_k.jpg"
-  },
-  {
-   "id": "cascadepbs:6afb1dacf4524500019e676a",
-   "feed": "cascadepbs",
-   "title": "Jon Batiste’s New Nature Doc Explores the Swamps of the South",
-   "link": "https://www.cascadepbs.org/show/amanpour-co/extras/jon-batistes-new-nature-doc-explores-the-swamps-of-the-south-qq5e74/",
-   "date": "2026-11-16T13:45:52.000Z",
-   "summary": "From the sounds of the American South to its natural beauty, Grammy Award-winning musician Jon Batiste is turning his attention to the landscape of the region he calls home. His new documentary \"American Amazon\" explores the biodiversity of the South and Batiste's connection to the music and culture that shaped him.…",
-   "image": "https://www.cascadepbs.org/content/images/2026/11/5ea77bac-5dce-4fe2-bb9d-16eb4b9ea3f3.jpg"
-  },
-  {
-   "id": "cascadepbs:6afb1a88f4524500019e64eb",
-   "feed": "cascadepbs",
-   "title": "November 13, 2026",
-   "link": "https://www.cascadepbs.org/show/amanpour-co/episode/november-13-2026-tqjkxq/",
-   "date": "2026-11-16T13:45:52.000Z",
-   "summary": "New York Times columnist M. Gessen discusses the enduring appeal of autocrats and what it takes to defeat them. Clare Sebastian investigates a deadly Russian attack on civilians in Ukraine. Pulitzer Prize-winning author Elizabeth Strout discusses her new novel, “The Things We Never Say.” Grammy-winning musician Jon…",
-   "image": "https://www.cascadepbs.org/content/images/2026/11/ba5e1735-c40a-44c5-99c0-54d75ea3a9c2.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/16/business/media/apple-tv-podcasts-youtube.html",
-   "feed": "nytimes-business",
-   "title": "Apple Was Late to the Video Podcast Boom. Now It’s Trying to Catch Up.",
-   "link": "https://www.nytimes.com/2026/11/16/business/media/apple-tv-podcasts-youtube.html",
-   "date": "2026-11-16T13:24:37.000Z",
-   "summary": "They will soon be free to all Apple TV users and will appear on more than one billion devices that have the app, including Rokus and smart TVs.",
-   "image": "https://static01.nyt.com/images/2026/11/16/business/16BIZ-APPLE-PODCASTS-2/16BIZ-APPLE-PODCASTS-2-mediumSquareAt3X.png"
-  },
-  {
-   "id": "planetizen:138865 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "Trump administration formally announces intent to sell federal land",
-   "link": "https://www.planetizen.com/news/2026/11/138865-trump-administration-formally-announces-intent-sell-federal-land",
-   "date": "2026-11-16T13:00:00.000Z",
-   "summary": "U.S. Interior Department Secretary Doug Burgum on Nov. 10, 2026, released the department’s four-year strategic plan, which includes plans to sell federal lands to states and tribes. This story was originally published in Source NM. The U.S. Interior Department this week released its four-year strategic plan, which…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/20250623_213738-2048x1536.jpg.webp?itok=FJAIKNnr"
-  },
-  {
-   "id": "planetizen:138880 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "What is the impact of cities' ever-growing reliance on the tech sector?",
-   "link": "https://www.planetizen.com/blogs/138880-what-impact-cities-ever-growing-reliance-tech-sector",
-   "date": "2026-11-16T13:00:00.000Z",
-   "summary": "This review is part of a special collaboration between Planetizen and Booked on Planning , a biweekly podcast where AICP planner Stephanie Rouse and Jennifer Hiatt chat with authors of the latest books shaping urban planning today. Listen to the episode with today’s author in the player below. Every day, individuals,…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/Untitled%20Design-5.png.webp?itok=42wqlpMo"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/16/arts/design/auctions-new-york-fall-christies-sothebys-van-gogh.html",
-   "feed": "nytimes-business",
-   "title": "Doubts Loom Over a van Gogh as Auctions Aim for a $2.8 Billion Week",
-   "link": "https://www.nytimes.com/2026/11/16/arts/design/auctions-new-york-fall-christies-sothebys-van-gogh.html",
-   "date": "2026-11-16T12:48:16.000Z",
-   "summary": "Major paintings by Cézanne, Picasso and Klimt are positioned to entice collectors as Sotheby’s seeks resolution for the auction’s most coveted painting. Five bellwether works to watch.",
-   "image": ""
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/16/business/dealbook/huang-comeback-nvidia.html",
-   "feed": "nytimes-business",
-   "title": "Is Jensen Huang Plotting a Comeback?",
-   "link": "https://www.nytimes.com/2026/11/16/business/dealbook/huang-comeback-nvidia.html",
-   "date": "2026-11-16T12:45:53.000Z",
-   "summary": "Prominent figures in Silicon Valley want to see Jensen Huang reinstalled as Nvidia’s boss. Some in the Trump administration don’t want him to return.",
-   "image": "https://static01.nyt.com/images/2026/11/16/multimedia/16db-huang-qzfm/16db-huang-qzfm-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004068501",
-   "feed": "wsj-business",
-   "title": "Blackstone Digital Infrastructure Trust to Acquire Data Center Portfolio from Amazon for $5 Billion",
-   "link": "https://www.wsj.com/business/deals/blackstone-digital-infrastructure-trust-to-acquire-data-center-portfolio-from-amazon-for-5-billion-87e53519?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-16T12:40:00.000Z",
-   "summary": "Blackstone Digital Infrastructure Trust agreed to acquire a majority stake in a data center portfolio from Amazon.com in a deal valued at about $5 billion.",
-   "image": "https://images.wsj.net/im-44313644"
   },
   {
    "id": "wsj-business:WP-WSJ-0004068295",
@@ -1138,67 +1282,13 @@
    "image": "https://images.wsj.net/im-96038813"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/16/world/asia/kpop-underage-idols-survey.html",
-   "feed": "nytimes-business",
-   "title": "South Korea to Examine How K-Pop Industry Treats Underage Performers",
-   "link": "https://www.nytimes.com/2026/11/16/world/asia/kpop-underage-idols-survey.html",
-   "date": "2026-11-16T11:51:32.000Z",
-   "summary": "The announcement came after a New York Times investigation about the restrictive contracts of the group NewJeans, signed when its members were 14 to 17.",
-   "image": "https://static01.nyt.com/images/2026/11/16/world/16int-skorea-kpop-contracts-apapap/16int-skorea-kpop-contracts-apapap-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004068285",
-   "feed": "wsj-business",
-   "title": "Baidu Profit Misses as It Searches for New Growth Driver",
-   "link": "https://www.wsj.com/business/earnings/baidu-profit-misses-as-it-searches-for-new-growth-driver-4d1e6d8d?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-16T10:54:00.000Z",
-   "summary": "Baidu’s profit missed expectations as advertising demand remained weak while the Chinese search-engine giant worked to find a new growth driver.",
-   "image": "https://images.wsj.net/im-84349600"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004068224",
-   "feed": "wsj-business",
-   "title": "Legal & General Shares Fall After Pension Buyouts Miss Views",
-   "link": "https://www.wsj.com/business/earnings/legal-general-shares-fall-after-pension-buyouts-miss-views-c0f6b591?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-16T10:14:00.000Z",
-   "summary": "The London-listed provider of life insurance, pensions, retirement and investment services missed consensus for the third quarter on pension-buyout volumes.",
-   "image": "https://images.wsj.net/im-69897022"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/16/arts/design/phillips-sothebys-christies-art-auction-competition.html",
-   "feed": "nytimes-business",
-   "title": "As Phillips Scales Back, the ‘Big Two’ Auction Houses Seem to Stand Alone",
-   "link": "https://www.nytimes.com/2026/11/16/arts/design/phillips-sothebys-christies-art-auction-competition.html",
-   "date": "2026-11-16T10:03:44.000Z",
-   "summary": "Phillips was always an underdog in the auction world, but it had ambition to compete with Christie’s and Sotheby’s. Then the economics changed.",
-   "image": "https://static01.nyt.com/images/2026/11/16/multimedia/16cul-phillips-auction-zghc/16cul-phillips-auction-zghc-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/16/technology/sam-bankman-fried-anthropic.html",
-   "feed": "nytimes-business",
-   "title": "How Sam Bankman-Fried Lost Out on a $35 Billion Jackpot From Anthropic",
-   "link": "https://www.nytimes.com/2026/11/16/technology/sam-bankman-fried-anthropic.html",
-   "date": "2026-11-16T10:02:09.000Z",
-   "summary": "The founder of the collapsed FTX crypto exchange, who is serving prison time for fraud, would have made a windfall from a $500 million investment in Anthropic.",
-   "image": "https://static01.nyt.com/images/2026/11/13/multimedia/00biz-sbf-anthropic-bzgc/00biz-sbf-anthropic-bzgc-mediumSquareAt3X-v3.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/16/business/retromobile-classic-car-show-nyc.html",
-   "feed": "nytimes-business",
-   "title": "A Classic Car Show From Paris Aims to Turn Heads in Manhattan",
-   "link": "https://www.nytimes.com/2026/11/16/business/retromobile-classic-car-show-nyc.html",
-   "date": "2026-11-16T10:02:02.000Z",
-   "summary": "Retromobile will feature vehicles from Jerry Seinfeld and Billy Joel and a parade of famous models from bygone eras — and some newer classics, too.",
+   "id": "smartcities:https://www.smartcitiesdive.com/spons/the-city-of-los-angeles-installs-1000-flt-solar-street-lights/874470/",
+   "feed": "smartcities",
+   "title": "The city of Los Angeles installs 1,000+ FLT solar street lights",
+   "link": "https://www.smartcitiesdive.com/spons/the-city-of-los-angeles-installs-1000-flt-solar-street-lights/874470/",
+   "date": "2026-11-16T10:00:00.000Z",
+   "summary": "L.A. installed over 1,000 FLT solar street lights as part of its historic sustainable upgrade.",
    "image": ""
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/16/business/insurance-ai-debt.html",
-   "feed": "nytimes-business",
-   "title": "Billions in Insurance Money Is Being Bet on AI Debt, and Analysts Are Nervous",
-   "link": "https://www.nytimes.com/2026/11/16/business/insurance-ai-debt.html",
-   "date": "2026-11-16T10:00:47.000Z",
-   "summary": "Insurance companies are investing billions of their customers’ money into A.I. deals as analysts warn of mounting risks.",
-   "image": "https://static01.nyt.com/images/2026/11/11/multimedia/11biz-ai-insurance-02-cgtq/11biz-ai-insurance-02-cgtq-mediumSquareAt3X.jpg"
   },
   {
    "id": "smartcities:https://www.smartcitiesdive.com/spons/a-milestone-worth-celebrating-one-trusted-non-profit-cooperative-for-every/874346/",
@@ -1207,15 +1297,6 @@
    "link": "https://www.smartcitiesdive.com/spons/a-milestone-worth-celebrating-one-trusted-non-profit-cooperative-for-every/874346/",
    "date": "2026-11-16T10:00:00.000Z",
    "summary": "Two cooperatives, one purpose. See why NASPO ValuePoint’s alignment is a win for public buyers.",
-   "image": ""
-  },
-  {
-   "id": "smartcities:https://www.smartcitiesdive.com/spons/the-city-of-los-angeles-installs-1000-flt-solar-street-lights/874470/",
-   "feed": "smartcities",
-   "title": "The city of Los Angeles installs 1,000+ FLT solar street lights",
-   "link": "https://www.smartcitiesdive.com/spons/the-city-of-los-angeles-installs-1000-flt-solar-street-lights/874470/",
-   "date": "2026-11-16T10:00:00.000Z",
-   "summary": "L.A. installed over 1,000 FLT solar street lights as part of its historic sustainable upgrade.",
    "image": ""
   },
   {
@@ -1300,15 +1381,6 @@
    "image": ""
   },
   {
-   "id": "wsj-business:WP-WSJ-0004063501",
-   "feed": "wsj-business",
-   "title": "Gucci Is Cutting Prices. Louis Vuitton Is Reluctant to Follow the Trend.",
-   "link": "https://www.wsj.com/business/retail/gucci-is-cutting-prices-louis-vuitton-is-reluctant-to-follow-the-trend-50e4b218?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-15T10:30:00.000Z",
-   "summary": "With luxury demand weak, executives are debating one of the sector’s big taboos.",
-   "image": "https://images.wsj.net/im-72398495"
-  },
-  {
    "id": "morning-brew:https://www.morningbrew.com/stories/would-you-book-a-trip-based-on-a-book",
    "feed": "morning-brew",
    "title": "Would you book a trip based on a book?",
@@ -1354,15 +1426,6 @@
    "image": "https://images.wsj.net/im-07885522"
   },
   {
-   "id": "wsj-business:WP-WSJ-0004065817",
-   "feed": "wsj-business",
-   "title": "Tesla Opens Sales of Autonomous Cybercab for ‘Select’ Customers",
-   "link": "https://www.wsj.com/business/autos/tesla-opens-sales-of-autonomous-cybercab-for-select-customers-8d2feae3?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-14T15:02:00.000Z",
-   "summary": "The new push to sell the vehicle, which has no steering wheel or pedals, comes amid a federal probe.",
-   "image": "https://images.wsj.net/im-85730881"
-  },
-  {
    "id": "morning-brew:https://www.morningbrew.com/stories/for-4-hours-all-us-flights-ground-to-a-halt",
    "feed": "morning-brew",
    "title": "For 4 hours, all US flights ground to a halt",
@@ -1379,15 +1442,6 @@
    "date": "2026-11-14T05:01:00.000Z",
    "summary": "Nick Iluzada Outlook, Teams, and other Microsoft services slowly began returning to normal yesterday, after the tech company’s massive outage disrupted business-as-usual around the world on Thursday, causing somewhat of a syllabus day for some workers, and leaving others to resort to… fax machines . The outage hit…",
    "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-11-13/image-2ecc853549a6e3f5ce8e2a10cc3eb1734b9d94dc-3000x2000-png/MBD_20261113_MSOUTAGE_03.png"
-  },
-  {
-   "id": "cascadepbs:6af7cebef4524500019d1c82",
-   "feed": "cascadepbs",
-   "title": "How Hegseth escaped an impeachment effort – for now",
-   "link": "https://www.cascadepbs.org/show/washington-week/extras/clip1-b5vglw/",
-   "date": "2026-11-14T02:15:24.000Z",
-   "summary": "Defense Secretary Pete Hegseth escaped an impeachment vote in the House, but may face another effort when Democrats take control of Congress.",
-   "image": "https://www.cascadepbs.org/content/images/2026/11/46f95a41-aec0-44ef-9327-816f83e7a7fe.jpg"
   },
   {
    "id": "urbanist:6af3b52fbf816a00017351fb",
@@ -1435,15 +1489,6 @@
    "image": "https://imgproxy.divecdn.com/5bxJY_5W-d2eo7vOy6BnOAuY_Mt0eJ2x8EZpu-rzTnk/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMDk3NDU4OTQyX3R1T3pCaEkuanBn.webp"
   },
   {
-   "id": "smartcities:https://www.smartcitiesdive.com/news/la-wildfires-highlight-cities-need-for-financial-recovery-plan-forge-la/874621/",
-   "feed": "smartcities",
-   "title": "LA wildfires highlight cities’ need for financial recovery plan: report",
-   "link": "https://www.smartcitiesdive.com/news/la-wildfires-highlight-cities-need-for-financial-recovery-plan-forge-la/874621/",
-   "date": "2026-11-13T15:45:20.000Z",
-   "summary": "A new playbook urges cities to establish partnerships with community development financial institutions, secure dedicated recovery funding and remove policy barriers that slow rebuilding.",
-   "image": "https://imgproxy.divecdn.com/kNR3OPpdoCxSfeh9d4tyU3BNQL0QyimXFcrij5xBfF0/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjc0NTcyNjQ5LmpwZw==.webp"
-  },
-  {
    "id": "stb:https://seattletransitblog.com/?p=150738",
    "feed": "stb",
    "title": "Friday Roundtable: Cascadia High-Speed Rail and I-5",
@@ -1451,15 +1496,6 @@
    "date": "2026-11-13T13:52:00.000Z",
    "summary": "To plan the next generation of north-south travel in western Washington, the Washington State Department of Transportation (WSDOT) is working on the I-5 Master Plan and the Cascadia High Speed Rail project. These two projects have been integrated into a combined Cascaida Program . WSDOT is asking for your feedback on…",
    "image": "https://i0.wp.com/seattletransitblog.com/wp-content/uploads/2026/11/image-11.png?resize=525%2C958&#038;ssl=1"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004062726",
-   "feed": "wsj-business",
-   "title": "Aviva Sees Outlook on Track After Insurance Premiums, Wealth Inflows Rise",
-   "link": "https://www.wsj.com/business/earnings/aviva-sees-outlook-on-track-after-insurance-premiums-wealth-inflows-rise-478ef632?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-13T09:51:00.000Z",
-   "summary": "The insurer reported a rise in premiums and a 29% increase in wealth net inflows compared with the year-earlier period.",
-   "image": "https://images.wsj.net/im-10395093"
   },
   {
    "id": "morning-brew:https://www.morningbrew.com/stories/burberry-sales-jumped-bucking-luxury-industry",
@@ -1552,15 +1588,6 @@
    "image": "https://usa.streetsblog.org/wp-content/uploads/sites/10/2026/11/workers-with-podcast-logo.jpg?w=1024"
   },
   {
-   "id": "smartcities:https://www.smartcitiesdive.com/news/justice-department-sues-lyft-ada-compliance/874448/",
-   "feed": "smartcities",
-   "title": "DOJ sues Lyft for alleged discrimination against passengers with wheelchairs, guide dogs",
-   "link": "https://www.smartcitiesdive.com/news/justice-department-sues-lyft-ada-compliance/874448/",
-   "date": "2026-11-12T16:14:00.000Z",
-   "summary": "“Lyft denies service to hundreds, and likely thousands,” of people with disabilities, the government’s lawsuit alleges.",
-   "image": "https://imgproxy.divecdn.com/yqIarPmFi-tNOMBDakJ-sK8sEt7oLV0tGvSA5LcHIhE/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xNDg2MDg1MjU2XzBqWVFocnouanBn.webp"
-  },
-  {
    "id": "urbanist:6af20ef40d14bb0001aa076d",
    "feed": "urbanist",
    "title": "Katie Wilson Headlines Speaker Lineup for The Urbanist's Dec. 4 Holiday Party",
@@ -1568,15 +1595,6 @@
    "date": "2026-11-12T15:53:10.000Z",
    "summary": "Seattle Mayor Katie Wilson and newly elected State Representative Jessica Forsythe are headlining the speaking program for our Winter Holiday Party on December 4 ! Mayor Wilson has been in office for nearly a year and will speak about this year's victories and what urbanists can look forward to in 2027. Forsythe…",
    "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/11/Seattle_Transit_Measure_victory_party_with_Katie_Wilson_20261104_g1akmt-1.jpg"
-  },
-  {
-   "id": "smartcities:https://www.smartcitiesdive.com/news/technology-upgrades-yield-positive-roi-for-local-governments-report/874501/",
-   "feed": "smartcities",
-   "title": "Tech upgrades boost ROI for local governments: report",
-   "link": "https://www.smartcitiesdive.com/news/technology-upgrades-yield-positive-roi-for-local-governments-report/874501/",
-   "date": "2026-11-12T15:36:54.000Z",
-   "summary": "While most governments have a technology modernization road map, concerns about talent retention and budget cuts are widespread, an Ernst & Young survey found.",
-   "image": "https://imgproxy.divecdn.com/k0741MKVdIEgGXv9JzepZNdJf8FtUzo52Gh4XjEgDJc/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMDg5MDUwNzQwLmpwZw==.webp"
   },
   {
    "id": "stb:https://seattletransitblog.com/?p=150647",
@@ -1613,15 +1631,6 @@
    "date": "2026-11-12T09:01:00.000Z",
    "summary": "BrianEKushner/Getty Images Instead of sleeping with the fishes, a long-retired supership is giving fish a place to sleep. Florida officials sank the historic SS United States to the bottom of the Gulf yesterday to create the world’s largest artificial reef, after the 990-foot craft sat idle for decades. The SS US…",
    "image": "https://morningbrew.com/cdn-cgi/image/width=1600,height=900,quality=80,format=jpeg/https://storage.morningbrew.com/image/2026-11-11/image-8ca8fd041669e0f95a337018d846eaa0728cbd72-3893x2595-jpg/GettyImages-2212985759.jpg"
-  },
-  {
-   "id": "streetsblog:https://usa.streetsblog.org/?p=295969",
-   "feed": "streetsblog",
-   "title": "How Do You Fight Big Car? A New Group Fuels Pro-Transit Campaigns",
-   "link": "https://usa.streetsblog.org/2026/11/12/how-do-you-fight-big-car-a-new-group-fund-pro-transit-campaigns",
-   "date": "2026-11-12T05:05:00.000Z",
-   "summary": "A first-of-its-kind organization is offering support — and cutting checks — to campaigns that challenge car dependency, and helping level the scales against the the highway lobby and its grip on U.S. transportation culture. The new Center for American Mobility launched this week with the vision of becoming “the…",
-   "image": "https://usa.streetsblog.org/wp-content/uploads/sites/10/2026/11/Vote-bus.png?w=1024"
   },
   {
    "id": "strongtowns:https://www.strongtowns.org/journal/2026-11-12-whats-the-point-of-park-ing-day",
@@ -1811,15 +1820,6 @@
    "date": "2026-11-09T00:00:00.000Z",
    "summary": "The work of building a strong town is never complete — and that can be both powerful and painful.",
    "image": "https://cdn.prod.website-files.com/6800fb077920f4ca34c37030/6aee346653bc6a488e672436_cover%20photo%20(55)%20(1).avif"
-  },
-  {
-   "id": "urbanist:6af0ab0d1c94aa0001631dc6",
-   "feed": "urbanist",
-   "title": "Op-Ed: 'Building Charm' Book Offers Guide to Developing Outstanding Neighborhoods",
-   "link": "https://www.theurbanist.org/op-ed-building-charm-book-offers-guide-to-developing-outstanding-neighborhoods/",
-   "date": "2026-11-08T17:24:15.000Z",
-   "summary": "The following is an excerpt from Chapter 1 of Building Charm: A Hyper-Practical Guide to Developing Outstanding New Neighborhoods by Naama Blonder and Misha Bereznyak, founders of Smart Density. Drawing on international experience and years of hands-on work, Building Charm presents a proven, practical system for…",
-   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/11/low-rise-family-housing-woodbine-2048x1147.jpg"
   },
   {
    "id": "stb:https://seattletransitblog.com/?p=150679",
