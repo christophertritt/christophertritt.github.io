@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T08:04:59.587Z",
+ "updated": "2026-11-21T20:50:54.225Z",
  "feeds": [
   {
    "id": "planetizen",
@@ -121,6 +121,222 @@
  ],
  "items": [
   {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/20/business/nvidia-sec-accounting.html",
+   "feed": "nytimes-business",
+   "title": "Nvidia Said to Face S.E.C. Probe Into Its Accounting Practices",
+   "link": "https://www.nytimes.com/2026/11/20/business/nvidia-sec-accounting.html",
+   "date": "2026-11-21T20:07:36.000Z",
+   "summary": "Questions around the company’s accounting had surfaced amid revelations about its questionable chip sales in Asia.",
+   "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20biz-Nvidia-SEC-kblz/20biz-Nvidia-SEC-kblz-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "bloomberg-business:TOVBWNO32FWG00",
+   "feed": "bloomberg-business",
+   "title": "US Stocks Tank Amid AI Fears, Mexican Cartel Boss Arrest, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-21/us-stocks-tank-amid-ai-fears-mexican-cartel-boss-arrest-more",
+   "date": "2026-11-21T20:07:35.000Z",
+   "summary": "Source: Bloomberg, 5:12",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/21/arts/tamagotchis-comeback.html",
+   "feed": "nytimes-business",
+   "title": "Why Nostalgia for Tamagotchis, the Virtual Pets, Won’t Die",
+   "link": "https://www.nytimes.com/2026/11/21/arts/tamagotchis-comeback.html",
+   "date": "2026-11-21T18:29:14.000Z",
+   "summary": "Millennials are answering the beeping call of the pocket-size game that caused a sensation 30 years ago. But analog-craving Gen Zers are, too.",
+   "image": ""
+  },
+  {
+   "id": "urbanist:6aff8464c1c1a50001563596",
+   "feed": "urbanist",
+   "title": "Sound Transit Funds Study to Speed Up D Line Bus",
+   "link": "https://www.theurbanist.org/sound-transit-funds-study-to-speed-up-d-line-bus/",
+   "date": "2026-11-21T18:27:47.000Z",
+   "summary": "On Thursday, the Sound Transit Board allocated $500,000 to fund a study of bus speed and reliability improvements for the RapidRide D Line, which runs from Downtown Seattle to Ballard and Crown Hill. It's an early signal that D Line riders can expect a faster ride – a few years down the road, anyway. King County…",
+   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/11/D-Line-bus-coming-off-Ballard-Bridge-with-marchers---Trumm-PXL_20260419.jpg"
+  },
+  {
+   "id": "bloomberg-business:TOV6GYWWD62O00",
+   "feed": "bloomberg-business",
+   "title": "AI Trade Rattles Wall Street, Mexican Cartel Boss Arrest, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-21/ai-trade-rattles-wall-street-mexican-cartel-boss-arrest-more",
+   "date": "2026-11-21T18:10:10.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/21/business/used-car-auctions-manheim-prices.html",
+   "feed": "nytimes-business",
+   "title": "The Used Car Industry Is Booming. This N.J. Campus Is Setting the Price.",
+   "link": "https://www.nytimes.com/2026/11/21/business/used-car-auctions-manheim-prices.html",
+   "date": "2026-11-21T17:59:58.000Z",
+   "summary": "As new car prices rise beyond the means of most buyers, the used market has become much more important for consumers and the auto industry.",
+   "image": "https://static01.nyt.com/images/2026/11/21/multimedia/21biz-used-cars--02-hmwg/21biz-used-cars--02-hmwg-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "bloomberg-business:TOV2JPO2LL3500",
+   "feed": "bloomberg-business",
+   "title": "Trump Threatens 'Tremendous Tax' on Data Centers, Russia Attacks",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-21/trump-threatens-tremendous-tax-on-data-centers-russia-attacks",
+   "date": "2026-11-21T16:45:25.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TOV0G2RKV2TO00",
+   "feed": "bloomberg-business",
+   "title": "Europe’s Wary Creditors Start to Fret About Modulaire",
+   "link": "https://www.bloomberg.com/news/newsletters/2026-11-21/europe-s-wary-creditors-start-to-fret-about-modulaire",
+   "date": "2026-11-21T16:00:02.000Z",
+   "summary": "A €4 billion debt pile will test Brookfield’s support",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TOUZX7O32FWG00",
+   "feed": "bloomberg-business",
+   "title": "AI Trade Rattles Wall Street, Mexico Cartel Arrest, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-21/ai-trade-rattles-wall-street-mexico-cartel-arrest-more",
+   "date": "2026-11-21T15:48:43.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TOUZG4O32FWG00",
+   "feed": "bloomberg-business",
+   "title": "Bloomberg This Weekend: AI's Big Week (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-21/bloomberg-this-weekend-ai-s-big-week-podcast",
+   "date": "2026-11-21T15:38:28.000Z",
+   "summary": "Source: Bloomberg, 40:26",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/video/business/100000011293737/how-the-us-economy-is-tied-to-ai.html",
+   "feed": "nytimes-business",
+   "title": "How the U.S. Economy Is Tied to A.I.",
+   "link": "https://www.nytimes.com/video/business/100000011293737/how-the-us-economy-is-tied-to-ai.html",
+   "date": "2026-11-21T15:06:22.000Z",
+   "summary": "Artificial intelligence has become a huge piece of the U.S. economy. Ben Casselman, the chief economics correspondent for The New York Times, explains why that is and how it might be risky.",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/20/arts/etsy-ai-policy.html",
+   "feed": "nytimes-business",
+   "title": "Many Etsy Sellers Close Up Shop Over Site’s New A.I. Policy",
+   "link": "https://www.nytimes.com/2026/11/20/arts/etsy-ai-policy.html",
+   "date": "2026-11-21T14:04:25.000Z",
+   "summary": "Numerous longtime users of the online marketplace have left the platform because they do not want their work training artificial intelligence. Etsy said it would revise its policy.",
+   "image": "https://static01.nyt.com/images/2026/11/23/arts/20cul-etsy-ai/20cul-etsy-ai-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/21/world/europe/maldon-sea-salt-artisanal-scandal.html",
+   "feed": "nytimes-business",
+   "title": "Maldon Salt’s Authenticity Is Questioned, Leaving Foodies Shaken",
+   "link": "https://www.nytimes.com/2026/11/21/world/europe/maldon-sea-salt-artisanal-scandal.html",
+   "date": "2026-11-21T14:01:15.000Z",
+   "summary": "The salt is a flaky favorite of food influencers and famous chefs. A revelation this week raised questions about what makes artisanal “artisanal.”",
+   "image": "https://static01.nyt.com/images/2026/11/21/multimedia/21xp-salt/21xp-salt-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "bloomberg-business:TOUUMWO32FWG00",
+   "feed": "bloomberg-business",
+   "title": "Trump Warns Against AI Builds Abroad, Mexico Nabs Cartel Boss",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-21/trump-warns-against-ai-builds-abroad-mexico-nabs-cartel-boss",
+   "date": "2026-11-21T13:54:32.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/21/business/dealbook/elon-musk-dealbook-summit.html",
+   "feed": "nytimes-business",
+   "title": "Elon Musk on His Politics, a Potential Merger and Ukraine",
+   "link": "https://www.nytimes.com/2026/11/21/business/dealbook/elon-musk-dealbook-summit.html",
+   "date": "2026-11-21T13:00:06.000Z",
+   "summary": "The chief executive of Tesla and SpaceX spoke with Andrew Ross Sorkin at the DealBook Summit.",
+   "image": "https://static01.nyt.com/images/2026/11/21/multimedia/21DB-musk-thgp/21DB-musk-thgp-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "planetizen:138930 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "Senate passes bill overhauling permitting",
+   "link": "https://www.planetizen.com/news/2026/11/138930-senate-passes-bill-overhauling-permitting",
+   "date": "2026-11-21T13:00:00.000Z",
+   "summary": "Some House Democrats have voiced concerns that President Trump will use the bill to fast-track fossil fuel projects while continuing to stall renewable energy projects. The Senate has approved the Bipartisan American Affordability and Jobs Act of 2026, a permitting overhaul bill that supporters say will make it…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2307968267.jpg.webp?itok=VoapTLg6"
+  },
+  {
+   "id": "bloomberg-business:TOURJ6O32FWG00",
+   "feed": "bloomberg-business",
+   "title": "US Stocks Tank Amid AI Fears, Trump Could Tax Tech Firms, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-21/us-stocks-tank-amid-ai-fears-trump-could-tax-tech-firms-more",
+   "date": "2026-11-21T12:47:30.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/20/climate/van-cats-turkey.html",
+   "feed": "nytimes-business",
+   "title": "Turkey’s Van Cats Contend With Rising Temperatures",
+   "link": "https://www.nytimes.com/2026/11/20/climate/van-cats-turkey.html",
+   "date": "2026-11-21T12:31:35.000Z",
+   "summary": "A feline research center in Turkey uses air-conditioning and pools to keep residents comfortable as their numbers recover. And yes, they like to swim.",
+   "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20CLI-COP-CATS-stillpromo/20CLI-COP-CATS-stillpromo-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "bloomberg-business:TOUNLBO32FWG00",
+   "feed": "bloomberg-business",
+   "title": "Trump Warns Against AI Builds Abroad, Wall Street Reels, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-21/trump-warns-against-ai-builds-abroad-wall-street-reels-more",
+   "date": "2026-11-21T11:22:23.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TOTNHJKJH6V500",
+   "feed": "bloomberg-business",
+   "title": "Los Angeles Port Strike Threat Resolved With Tentative Agreement",
+   "link": "https://www.bloomberg.com/news/articles/2026-11-21/los-angeles-port-strike-threat-resolved-with-tentative-agreement",
+   "date": "2026-11-21T11:22:06.000Z",
+   "summary": "About 250 security workers at the US’s busiest ports struck a tentative agreement on terms of a new labor contract, the group representing their employers said, averting the threat of a disruptive strike.",
+   "image": ""
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004084613",
+   "feed": "wsj-business",
+   "title": "The Danger of Jensen Huang’s Handshake Deals at Nvidia",
+   "link": "https://www.wsj.com/business/nvidia-jensen-huang-deals-8750daf4?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-21T10:30:00.000Z",
+   "summary": "The ousted CEO once celebrated his no-contract deals but now they look like red flags.",
+   "image": "https://images.wsj.net/im-98714864"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/21/business/anthropic-stock-wall-street-silicon-valley.html",
+   "feed": "nytimes-business",
+   "title": "Anthropic’s Debut Shows the Disconnect Between Wall Street and Silicon Valley",
+   "link": "https://www.nytimes.com/2026/11/21/business/anthropic-stock-wall-street-silicon-valley.html",
+   "date": "2026-11-21T10:03:45.000Z",
+   "summary": "The A.I. giant broke records with its initial public offering this week before a rocky first full day of trading, as the markets plunged on worries about artificial intelligence spending.",
+   "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20biz-anthropic-aftermath-cwvh/20biz-anthropic-aftermath-cwvh-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/21/business/ai-emergency-plan.html",
+   "feed": "nytimes-business",
+   "title": "How to Plan for an A.I. Emergency, or Any Calamity",
+   "link": "https://www.nytimes.com/2026/11/21/business/ai-emergency-plan.html",
+   "date": "2026-11-21T10:02:21.000Z",
+   "summary": "One person’s attempt to prepare for the unthinkable.",
+   "image": "https://static01.nyt.com/images/2026/11/21/business/21sunbiz-aiprep-illo/21sunbiz-aiprep-illo-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/21/business/dealbook/dealbook-summit-portraits.html",
+   "feed": "nytimes-business",
+   "title": "The Faces of the 2026 DealBook Summit",
+   "link": "https://www.nytimes.com/2026/11/21/business/dealbook/dealbook-summit-portraits.html",
+   "date": "2026-11-21T10:02:15.000Z",
+   "summary": "Our photographer made portraits of the event’s interview subjects, including Hailey Bieber, Satya Nadella and Zohran Mamdani, after they left the stage.",
+   "image": "https://static01.nyt.com/images/2026/11/21/multimedia/21DB-Portraits-1-02-hqvc/21DB-Portraits-1-02-hqvc-mediumSquareAt3X.jpg"
+  },
+  {
    "id": "morning-brew:https://www.morningbrew.com/stories/anthropic-ipo-fails-to-prevent-a-tech-stock-wipeout",
    "feed": "morning-brew",
    "title": "Anthropic IPO fails to prevent a tech stock wipeout",
@@ -166,10 +382,10 @@
    "image": ""
   },
   {
-   "id": "nytimes-business:ps://www.nytimes.com/2026/11/20/business/judge-approves-7-billion-settlement-over-claims-that-roundup-caused-cancer.html",
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/20/business/bayer-settlement-roundup-cancer.html",
    "feed": "nytimes-business",
    "title": "Judge Approves $7 Billion Settlement Over Claims That Roundup Caused Cancer",
-   "link": "https://www.nytimes.com/2026/11/20/business/judge-approves-7-billion-settlement-over-claims-that-roundup-caused-cancer.html",
+   "link": "https://www.nytimes.com/2026/11/20/business/bayer-settlement-roundup-cancer.html",
    "date": "2026-11-21T03:23:04.000Z",
    "summary": "The ruling, in a nationwide class-action suit, is expected to end tens of thousands of lawsuits by people claiming that Roundup caused non-Hodgkin lymphoma.",
    "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20BIZ-ROUNDUP-fqct/20BIZ-ROUNDUP-fqct-mediumSquareAt3X.jpg"
@@ -222,7 +438,7 @@
   {
    "id": "wsj-business:WP-WSJ-0004079767",
    "feed": "wsj-business",
-   "title": "The Brother-Sister Duo Who Want to Keep Anthropic Weird",
+   "title": "They Run Anthropic. They Want to Keep It Weird. They’re Brother and Sister.",
    "link": "https://www.wsj.com/tech/ai/anthropic-dario-daniela-amodei-siblings-ipo-be84ad11?mod=pls_whats_news_us_business_f",
    "date": "2026-11-21T02:00:00.000Z",
    "summary": "Dario and Daniela Amodei were on top of the biggest IPO ever Thursday–and a market rout one day later. It’s the latest unusual development for a company that is anything but normal.",
@@ -299,15 +515,6 @@
    "date": "2026-11-21T01:15:28.000Z",
    "summary": "On November 22, 1963, President John F. Kennedy was killed while driving in a motorcade in downtown Dallas. As the story continues to be told and questioned, those memories are preserved and displayed at The Sixth Floor Museum at Dealey Plaza. Senior arts correspondent Jeffrey Brown visited the museum for our arts…",
    "image": "https://www.cascadepbs.org/content/images/2026/11/f53ee4ec-1321-4829-97e4-03b0fb9da24d.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/20/business/nvidia-sec-accounting.html",
-   "feed": "nytimes-business",
-   "title": "Nvidia Said to Face S.E.C. Probe Into Its Accounting Practices",
-   "link": "https://www.nytimes.com/2026/11/20/business/nvidia-sec-accounting.html",
-   "date": "2026-11-21T01:06:52.000Z",
-   "summary": "Questions around the company’s accounting had surfaced amid revelations about its questionable chip sales in Asia.",
-   "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20biz-Nvidia-SEC-kblz/20biz-Nvidia-SEC-kblz-mediumSquareAt3X.jpg"
   },
   {
    "id": "bloomberg-business:TOTUS3KGIFPG00",
@@ -409,15 +616,6 @@
    "image": "https://www.cascadepbs.org/content/images/2026/11/washington-trust-bank-hero.jpg"
   },
   {
-   "id": "bloomberg-business:TOTR7GUT4Z5S00",
-   "feed": "bloomberg-business",
-   "title": "Stock Movers: Anthropic, Nvidia, UnitedHealth Group (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-20/stock-movers-anthropic-nvidia-unitedhealth-group-podcast",
-   "date": "2026-11-20T23:42:52.000Z",
-   "summary": "Source: Bloomberg, 3:39",
-   "image": ""
-  },
-  {
    "id": "cascadepbs:6b00ee8bf452450001a03d37",
    "feed": "cascadepbs",
    "title": "The Beatles Through George Harrison’s Eyes Revealed in New Photo Book",
@@ -425,42 +623,6 @@
    "date": "2026-11-20T23:15:28.000Z",
    "summary": "Beatles guitarist George Harrison's widow, Olivia Harrison, has explored her husband's personal archives and curated more than 200 photographs and film stills — many never before published — into a new book, \"The Third Eye: Early Photographs by George.\" Olivia Harrison joins Walter Isaacson to discuss what George's…",
    "image": "https://www.cascadepbs.org/content/images/2026/11/f2f95b90-20e6-4918-b8a7-92dd7f3115e7.jpg"
-  },
-  {
-   "id": "bloomberg-business:TOTPX6WWD62O00",
-   "feed": "bloomberg-business",
-   "title": "Stocks Close Lower on AI Selloff, Anthropic Gives Up Gains, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-20/stocks-close-lower-on-ai-selloff-anthropic-gives-up-gains-more",
-   "date": "2026-11-20T23:15:06.000Z",
-   "summary": "Source: Bloomberg, 5:15",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TOTPPTVTTD0200",
-   "feed": "bloomberg-business",
-   "title": "Markets, Anthropic Plummet on AI Fear: Evening Briefing Americas",
-   "link": "https://www.bloomberg.com/news/newsletters/2026-11-20/markets-anthropic-plummet-on-ai-fear-evening-briefing-americas",
-   "date": "2026-11-20T23:10:41.000Z",
-   "summary": "Get caught up.",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TOTP0IT3BZLY00",
-   "feed": "bloomberg-business",
-   "title": "The Mark Walter Probe Is Reverberating Through Insurance, Sports and AI",
-   "link": "https://www.bloomberg.com/news/articles/2026-11-20/the-mark-walter-probe-is-reverberating-through-insurance-sports-and-ai",
-   "date": "2026-11-20T22:55:30.000Z",
-   "summary": "A probe of more than $20 billion dollars worth of potentially mislabeled insurance loans is reverberating around the insurance industry and the AI economy.",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TOTOXYO32FWG00",
-   "feed": "bloomberg-business",
-   "title": "Bloomberg Hot Pursuit!: Mecum Auctions' Sam Murtaugh (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-20/bloomberg-hot-pursuit-mecum-auctions-sam-murtaugh-podcast",
-   "date": "2026-11-20T22:53:59.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
   },
   {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/20/business/anthropic-ai-stocks-sp500.html",
@@ -481,51 +643,6 @@
    "image": "https://images.wsj.net/im-582717"
   },
   {
-   "id": "bloomberg-business:TOTOFZO32FWG00",
-   "feed": "bloomberg-business",
-   "title": "Bloomberg Businessweek Daily: AI Transforms World (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-20/bloomberg-businessweek-daily-ai-transforms-world-podcast",
-   "date": "2026-11-20T22:43:11.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TOTO8YO32FWG00",
-   "feed": "bloomberg-business",
-   "title": "Bloomberg Businessweek Daily: Huang’s Behavior (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-20/bloomberg-businessweek-daily-huang-s-behavior-podcast",
-   "date": "2026-11-20T22:38:58.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TOTO8EWWD62O00",
-   "feed": "bloomberg-business",
-   "title": "Big Take: Walter Probe Hits Insurance, Sports and AI (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-20/big-take-walter-probe-hits-insurance-sports-and-ai-podcast",
-   "date": "2026-11-20T22:38:38.000Z",
-   "summary": "Source: Bloomberg, 19:14",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TOTNYIT3BZMR00",
-   "feed": "bloomberg-business",
-   "title": "S&P/TSX Composite Corrects as AI Worries Hammer Markets",
-   "link": "https://www.bloomberg.com/news/newsletters/2026-11-20/s-p-tsx-composite-corrects-as-ai-worries-hammer-markets",
-   "date": "2026-11-20T22:32:42.000Z",
-   "summary": "Plus: Ford Motor gets money for Oakville plant",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TOTN9PO2LL3600",
-   "feed": "bloomberg-business",
-   "title": "S&P, Dow In Correction, Nasdaq Negative, Anthropic Loses Gains",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-20/s-p-dow-in-correction-nasdaq-negative-anthropic-loses-gains",
-   "date": "2026-11-20T22:17:49.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/20/business/nvidia-ceo-stock-succession-jensen-huang.html",
    "feed": "nytimes-business",
    "title": "Stocks Often Prosper After an Abrupt C.E.O. Exit. Is Nvidia Different?",
@@ -533,15 +650,6 @@
    "date": "2026-11-20T22:11:57.000Z",
    "summary": "The stock value of a top executive is often less important than it initially seems. But Nvidia’s entanglement in U.S.-Chinese relations poses special problems.",
    "image": ""
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/20/arts/etsy-ai-policy.html",
-   "feed": "nytimes-business",
-   "title": "Many Etsy Sellers Close Up Shop Over Site’s New A.I. Policy",
-   "link": "https://www.nytimes.com/2026/11/20/arts/etsy-ai-policy.html",
-   "date": "2026-11-20T21:50:44.000Z",
-   "summary": "Numerous longtime users of the online marketplace have left the platform because they do not want their work training artificial intelligence. Etsy said it would revise its policy.",
-   "image": "https://static01.nyt.com/images/2026/11/20/arts/20cul-etsy-ai/20cul-etsy-ai-mediumSquareAt3X.jpg"
   },
   {
    "id": "cascadepbs:6b00c305f452450001a03233",
@@ -620,7 +728,7 @@
    "feed": "nytimes-business",
    "title": "Trump Threatens to Bar U.S. Tech Firms From Building Data Centers Abroad",
    "link": "https://www.nytimes.com/2026/11/20/us/politics/trump-data-centers-ban.html",
-   "date": "2026-11-20T18:51:22.000Z",
+   "date": "2026-11-20T18:51:23.000Z",
    "summary": "The president suggested he would tax the same companies, though it was not clear how he would carry out the plan unveiled at a news conference.",
    "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20biz-trump-news-data-centers-qjpt/20biz-trump-news-data-centers-qjpt-mediumSquareAt3X-v2.jpg"
   },
@@ -679,24 +787,6 @@
    "image": "https://img.semafor.com/2422dfff43c76d54b969fae580592896c8d9c80b-5320x3992.png"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/20/climate/van-cats-turkey.html",
-   "feed": "nytimes-business",
-   "title": "Turkey’s Van Cats Contend With Rising Temperatures",
-   "link": "https://www.nytimes.com/2026/11/20/climate/van-cats-turkey.html",
-   "date": "2026-11-20T17:13:20.000Z",
-   "summary": "A feline research center in Turkey uses air-conditioning and pools to keep residents comfortable as their numbers recover. And yes, they like to swim.",
-   "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20CLI-COP-CATS-stillpromo/20CLI-COP-CATS-stillpromo-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/19/technology/anthropic-ipo-employees-payout.html",
-   "feed": "nytimes-business",
-   "title": "Anthropic’s I.P.O. Turns Tech Researchers Into Overnight Millionaires",
-   "link": "https://www.nytimes.com/2026/11/19/technology/anthropic-ipo-employees-payout.html",
-   "date": "2026-11-20T17:11:42.000Z",
-   "summary": "Many people who joined the A.I. company a few years ago might have had little reason to think how big Anthropic would become. They are now worth tens of millions of dollars, if not more.",
-   "image": "https://static01.nyt.com/images/2026/11/19/multimedia/19biz-anthropic-employee-wealth-sub-01-cthw/19biz-anthropic-employee-wealth-sub-01-cthw-mediumSquareAt3X.jpg"
-  },
-  {
    "id": "smartcities:https://www.smartcitiesdive.com/news/data-centers-are-testing-local-governments-heres-how-cities-are-respondin/874987/",
    "feed": "smartcities",
    "title": "Data centers are testing local governments. Here’s how cities are responding.",
@@ -720,13 +810,13 @@
    "title": "Data center cancellations in Q3 double: Relae",
    "link": "https://www.smartcitiesdive.com/news/data-center-cancellations-in-q3-double-relae/875338/",
    "date": "2026-11-20T16:41:09.000Z",
-   "summary": "Sixteen data center projects were stopped in Q3, up from seven in the third quarter of 2025. Climate solutions company Relae, formerly known as Carbon Direct, has tracked 70 cancellations since 2024.",
+   "summary": "Sixteen data center projects were stopped in Q3, up from seven in the third quarter of 2025. Climate solutions company Relae, formerly known as Carbon Direct, tracked 70 cancellations since 2024.",
    "image": "https://imgproxy.divecdn.com/PajNHAtAGI-Y2IWBgT17sgg2JCaWf_FpIEPzSare9Hw/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9kYXRhX2NlbnRlcl9wcm90ZXN0X3NpZ24uanBn.webp"
   },
   {
    "id": "smartcities:https://www.smartcitiesdive.com/news/florida-broward-county-ai-service-now-platform-adoption/875340/",
    "feed": "smartcities",
-   "title": "Florida’s second-largest county adopts AI tech service platform to improve efficiency",
+   "title": "Eyeing digital efficiency, Florida’s second-largest county adopts AI service platform",
    "link": "https://www.smartcitiesdive.com/news/florida-broward-county-ai-service-now-platform-adoption/875340/",
    "date": "2026-11-20T16:14:32.000Z",
    "summary": "Broward County, Florida’s Enterprise Technology Services Division supports 8,000 users across more than 800 departments.",
@@ -758,15 +848,6 @@
    "date": "2026-11-20T16:00:00.000Z",
    "summary": "In the weeks leading up to November 3, there was much speculation that data center opposition would play a pivotal role in the election. This story was originally published in the Daily Yonder. For more rural reporting and small-town stories visit dailyyonder.com . Where local data center measures were on the ballot…",
    "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2750038517.jpg.webp?itok=oFG9Renk"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/19/business/media/new-york-times-trump-defamation-case.html",
-   "feed": "nytimes-business",
-   "title": "Judge Allows Trump’s Case Against The Times to Proceed",
-   "link": "https://www.nytimes.com/2026/11/19/business/media/new-york-times-trump-defamation-case.html",
-   "date": "2026-11-20T15:14:00.000Z",
-   "summary": "Mr. Trump accused the news organization and the book publisher Penguin Random House of disparaging his reputation as a successful businessman.",
-   "image": "https://static01.nyt.com/images/2026/11/19/multimedia/19biz-trump-times-01-wkjc/19biz-trump-times-01-wkjc-mediumSquareAt3X.jpg"
   },
   {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/20/us/politics/cftc-cryptocurrency-trump-memecoin.html",
@@ -976,24 +1057,6 @@
    "image": "https://img.semafor.com/55277f6735817bb1e29b871c7b4abe0606cbf4f8-6452x4303.jpg"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/video/business/100000011293737/how-the-us-economy-is-tied-to-ai.html",
-   "feed": "nytimes-business",
-   "title": "How the U.S. Economy Is Tied to A.I.",
-   "link": "https://www.nytimes.com/video/business/100000011293737/how-the-us-economy-is-tied-to-ai.html",
-   "date": "2026-11-20T11:01:37.000Z",
-   "summary": "Artificial intelligence has become a huge piece of the U.S. economy. Ben Casselman, the chief economics correspondent for The New York Times, explains why that is and how it might be risky.",
-   "image": ""
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004081058",
-   "feed": "wsj-business",
-   "title": "After a Week of Tech Panics, Columbia Takes Its ‘Don’t Panic Room’ to Times Square",
-   "link": "https://www.wsj.com/cmo-today/after-a-week-of-tech-panics-columbia-takes-its-dont-panic-room-to-times-square-47bd4af8?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-20T11:01:00.000Z",
-   "summary": "Plus, Amazon uses its homepage to fight a New York City labor measure as Black Friday approaches.",
-   "image": "https://images.wsj.net/im-88356022"
-  },
-  {
    "id": "semafor:https://www.semafor.com/article/11/20/2026/us-minerals-deal-hangs-over-dr-congos-power-struggle",
    "feed": "semafor",
    "title": "US minerals deal hangs over DR Congo’s power struggle",
@@ -1037,15 +1100,6 @@
    "date": "2026-11-20T10:01:07.000Z",
    "summary": "While Anthropic and other Silicon Valley A.I. giants are raising tens of billions in capital, Chinese rivals are struggling to keep pace financially.",
    "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20Biz-Ai-China-01-wjcq/20Biz-Ai-China-01-wjcq-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/20/business/china-economy-pensions.html",
-   "feed": "nytimes-business",
-   "title": "From Gig Workers to Tycoons, China Is Reaching Into Every Pocket",
-   "link": "https://www.nytimes.com/2026/11/20/business/china-economy-pensions.html",
-   "date": "2026-11-20T10:00:33.000Z",
-   "summary": "China’s economy is sluggish, and its population is aging. Its people are feeling the sting of new taxes.",
-   "image": "https://static01.nyt.com/images/2026/11/23/business/18biz-newworldmoney/18biz-newworldmoney-mediumSquareAt3X.jpg"
   },
   {
    "id": "semafor:https://www.semafor.com/article/11/20/2026/feds-lisa-cook-speaks-ahead-of-hearing",
@@ -1120,33 +1174,6 @@
    "image": "https://images.wsj.net/im-605619"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/19/business/anthropic-openai-gregory-jensen.html",
-   "feed": "nytimes-business",
-   "title": "This Billionaire Just Made a Bundle Off A.I. But It Could Have Been More.",
-   "link": "https://www.nytimes.com/2026/11/19/business/anthropic-openai-gregory-jensen.html",
-   "date": "2026-11-20T02:44:44.000Z",
-   "summary": "Gregory Jensen, a hedge-fund billionaire, invested early in Anthropic and OpenAI. But to fund a succession plan at his firm, he told colleagues that he sold his OpenAI stake.",
-   "image": "https://static01.nyt.com/images/2026/11/16/fashion/00biz-anthropic-investor/00biz-anthropic-investor-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/19/business/delaware-regulator-mark-walters-insurance.html",
-   "feed": "nytimes-business",
-   "title": "Delaware Regulator Says It Was ‘Misled’ About Mark Walter’s Insurance Assets",
-   "link": "https://www.nytimes.com/2026/11/19/business/delaware-regulator-mark-walters-insurance.html",
-   "date": "2026-11-20T02:13:05.000Z",
-   "summary": "The state’s insurance agency rejected criticism of its oversight of Mr. Walter’s insurance firms that has been raised by some industry analysts.",
-   "image": "https://static01.nyt.com/images/2026/11/19/multimedia/19biz-delaware-insurance-wgcv/19biz-delaware-insurance-wgcv-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/19/business/economy/nvidia-chips-commerce-china-huang.html",
-   "feed": "nytimes-business",
-   "title": "Nvidia Asked to Sell Chips to Companies Tied to Chinese Military and Megaspeed",
-   "link": "https://www.nytimes.com/2026/11/19/business/economy/nvidia-chips-commerce-china-huang.html",
-   "date": "2026-11-20T01:13:38.000Z",
-   "summary": "Lawmakers released confidential information showing the Commerce Department had approved sales of more than 800,000 A.I. chips to Chinese companies, some with military ties.",
-   "image": "https://static01.nyt.com/images/2026/11/19/multimedia/19dc-chips-vfbt/19dc-chips-vfbt-mediumSquareAt3X.jpg"
-  },
-  {
    "id": "strongtowns:ww.strongtowns.org/journal/2026-11-20-how-will-you-finance-your-fourplex-when-the-appraiser-has-nothing-to-compare-it-to",
    "feed": "strongtowns",
    "title": "How Will You Finance Your Fourplex When the Appraiser Has Nothing to Compare It To?",
@@ -1183,15 +1210,6 @@
    "image": "https://morningbrew.com/cdn-cgi/image/fit=cover,format=jpeg,width=1600,height=900,quality=80,trim=368;0;368;0/https://storage.morningbrew.com/image/2026-11-19/image-68b2fcad17faf5a59bdb164a1877a08ff9c7f7e5-7043x4698-jpg/GettyImages-2305298299.jpg"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/19/technology/downdetector-tech-outages-microsoft-chase-apple.html",
-   "feed": "nytimes-business",
-   "title": "What You Should Know About Downdetector Before the Next Big Tech Outage",
-   "link": "https://www.nytimes.com/2026/11/19/technology/downdetector-tech-outages-microsoft-chase-apple.html",
-   "date": "2026-11-19T21:39:12.000Z",
-   "summary": "The website has been checked and cited often during an unusually busy week of technology problems, though its operators acknowledge its limitations.",
-   "image": "https://static01.nyt.com/images/2026/11/19/multimedia/19xp-downdetector-02-kvbt/19xp-downdetector-02-kvbt-mediumSquareAt3X.jpg"
-  },
-  {
    "id": "urbanist:6afb793adc8e5700017aefe2",
    "feed": "urbanist",
    "title": "County Council Moves to Restore Weekend Vashon Water Taxi Service",
@@ -1217,15 +1235,6 @@
    "date": "2026-11-19T17:01:00.000Z",
    "summary": "This week on the Talking Headways podcast we’re joined by Michelle Marx of the City of Austin and urban transportation engineer and expert Peter Koonce to discuss the design of one-way streets. We talk about the popular movement towards two-way streets, designing one-way streets in context, the potential for…",
    "image": "https://usa.streetsblog.org/wp-content/uploads/sites/10/2026/11/55485074917_4c9e95f3c2_o.jpg?w=1024"
-  },
-  {
-   "id": "planetizen:138909 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "‘Demolition of our heritage:’ Some US tribes speak out against BAAJA",
-   "link": "https://www.planetizen.com/news/2026/11/138909-demolition-our-heritage-some-us-tribes-speak-out-against-baaja",
-   "date": "2026-11-19T17:00:00.000Z",
-   "summary": "Some tribes, such as the Apsáalooke, have endorsed the Bipartisan American Affordability and Jobs Act of 2026. When a coalition of several major tribal nations in the United States saw the first draft of the Bipartisan American Affordability and Jobs Act of 2026, they said the bill would bring about “the demolition…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2742669153.jpg.webp?itok=zbYCqEZy"
   },
   {
    "id": "smartcities:https://www.smartcitiesdive.com/news/new-york-city-plans-to-charge-fee-as-containerization-rollout-expands/875200/",
@@ -1784,15 +1793,6 @@
    "date": "2026-11-13T00:00:00.000Z",
    "summary": "If a community allows less expensive homes to be built among more expensive homes, what happens to the value of the existing houses?",
    "image": "https://cdn.prod.website-files.com/6800fb077920f4ca34c37030/6af63b5de06e1bb63e588c1d_cover%20photo%20(1).avif"
-  },
-  {
-   "id": "urbanist:6af2a5b93bdeca0001f7be56",
-   "feed": "urbanist",
-   "title": "Bellevue Council Settles On 10-Year Transportation Funding Plan",
-   "link": "https://www.theurbanist.org/bellevue-council-settles-on-10-year-transportation-funding-plan/",
-   "date": "2026-11-12T23:56:29.000Z",
-   "summary": "The Bellevue City Council has signed off on a plan to add more than $100 million in transportation funding over the next decade, utilizing a dedicated 0.1% bump in the city's sales tax rate. The spend plan for that money ramps up the pace of spending on bicycle and pedestrian projects by nearly 40%, but also invests…",
-   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/11/20260407_161139-EDIT-3.jpg"
   },
   {
    "id": "stb:https://seattletransitblog.com/?p=150647",
