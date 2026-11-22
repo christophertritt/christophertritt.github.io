@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T20:50:54.225Z",
+ "updated": "2026-11-22T07:51:04.624Z",
  "feeds": [
   {
    "id": "planetizen",
@@ -98,7 +98,7 @@
    "color": "#1f1f1f",
    "topic": "Business & finance",
    "ok": true,
-   "count": 20
+   "count": 13
   },
   {
    "id": "morning-brew",
@@ -121,6 +121,60 @@
  ],
  "items": [
   {
+   "id": "bloomberg-business:TOVR9OWWD62O00",
+   "feed": "bloomberg-business",
+   "title": "Mexican Cartel Boss Arrested, CrowdStrike Eyes Zscaler, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-22/mexican-cartel-boss-arrested-crowdstrike-eyes-zscaler-more",
+   "date": "2026-11-22T01:39:24.000Z",
+   "summary": "Source: Bloomberg, 5:40",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/21/arts/tamagotchis-comeback.html",
+   "feed": "nytimes-business",
+   "title": "Why Nostalgia for Tamagotchis, the Virtual Pets, Won’t Die",
+   "link": "https://www.nytimes.com/2026/11/21/arts/tamagotchis-comeback.html",
+   "date": "2026-11-22T01:05:28.000Z",
+   "summary": "Millennials are answering the beeping call of the pocket-size game that caused a sensation 30 years ago. But analog-craving Gen Zers are, too.",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TOVNZWUT4Z5S00",
+   "feed": "bloomberg-business",
+   "title": "Mexican Cartel Boss Arrest, AI Fears Tank Stocks, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-22/mexican-cartel-boss-arrest-ai-fears-tank-stocks-more",
+   "date": "2026-11-22T00:28:44.000Z",
+   "summary": "Source: Bloomberg, 5:23",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/21/us/politics/penny-mint-trump-common-cent-act.html",
+   "feed": "nytimes-business",
+   "title": "The Penny Is Dead. Now It’s Official.",
+   "link": "https://www.nytimes.com/2026/11/21/us/politics/penny-mint-trump-common-cent-act.html",
+   "date": "2026-11-21T23:12:23.000Z",
+   "summary": "President Trump signed a law on Friday formally putting the penny out of mint, a year after it stopped being struck.",
+   "image": "https://static01.nyt.com/images/2026/11/21/multimedia/21xp-penny-vjhm/21xp-penny-vjhm-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "bloomberg-business:TOVJTDWWD62O00",
+   "feed": "bloomberg-business",
+   "title": "Mexican Cartel Boss Arrest, US Stocks Tank Amid AI Fears, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-21/mexican-cartel-boss-arrest-us-stocks-tank-amid-ai-fears-more",
+   "date": "2026-11-21T22:58:25.000Z",
+   "summary": "Source: Bloomberg, 5:27",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TOVFNDWWD62O00",
+   "feed": "bloomberg-business",
+   "title": "AI Fears Tank Stocks, Mexican Cartel Boss Arrested, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-21/ai-fears-tank-stocks-mexican-cartel-boss-arrested-more",
+   "date": "2026-11-21T21:28:25.000Z",
+   "summary": "Source: Bloomberg, 6:04",
+   "image": ""
+  },
+  {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/20/business/nvidia-sec-accounting.html",
    "feed": "nytimes-business",
    "title": "Nvidia Said to Face S.E.C. Probe Into Its Accounting Practices",
@@ -136,15 +190,6 @@
    "link": "https://www.bloomberg.com/news/audio/2026-11-21/us-stocks-tank-amid-ai-fears-mexican-cartel-boss-arrest-more",
    "date": "2026-11-21T20:07:35.000Z",
    "summary": "Source: Bloomberg, 5:12",
-   "image": ""
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/21/arts/tamagotchis-comeback.html",
-   "feed": "nytimes-business",
-   "title": "Why Nostalgia for Tamagotchis, the Virtual Pets, Won’t Die",
-   "link": "https://www.nytimes.com/2026/11/21/arts/tamagotchis-comeback.html",
-   "date": "2026-11-21T18:29:14.000Z",
-   "summary": "Millennials are answering the beeping call of the pocket-size game that caused a sensation 30 years ago. But analog-craving Gen Zers are, too.",
    "image": ""
   },
   {
@@ -220,6 +265,15 @@
    "image": ""
   },
   {
+   "id": "cascadepbs:6b0229faf452450001a0abde",
+   "feed": "cascadepbs",
+   "title": "Chasing Silver: The Story of Gorham",
+   "link": "https://www.cascadepbs.org/show/chasing-silver-story-gorham/",
+   "date": "2026-11-21T14:07:04.000Z",
+   "summary": "Discover the bold ingenuity, brilliant artistry, and storied legacy of the local, world-class silversmithing foundry, Gorham Manufacturing. Chasing Silver: The Story of Gorham, a three-part Rhode Island PBS Original series, follows the company from its origins as a small workshop to its rise as a global silver…",
+   "image": "https://www.cascadepbs.org/content/images/2026/11/70728f92-a210-4744-9ce0-458c32b9de27.png"
+  },
+  {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/20/arts/etsy-ai-policy.html",
    "feed": "nytimes-business",
    "title": "Many Etsy Sellers Close Up Shop Over Site’s New A.I. Policy",
@@ -292,15 +346,6 @@
    "image": ""
   },
   {
-   "id": "bloomberg-business:TOTNHJKJH6V500",
-   "feed": "bloomberg-business",
-   "title": "Los Angeles Port Strike Threat Resolved With Tentative Agreement",
-   "link": "https://www.bloomberg.com/news/articles/2026-11-21/los-angeles-port-strike-threat-resolved-with-tentative-agreement",
-   "date": "2026-11-21T11:22:06.000Z",
-   "summary": "About 250 security workers at the US’s busiest ports struck a tentative agreement on terms of a new labor contract, the group representing their employers said, averting the threat of a disruptive strike.",
-   "image": ""
-  },
-  {
    "id": "wsj-business:WP-WSJ-0004084613",
    "feed": "wsj-business",
    "title": "The Danger of Jensen Huang’s Handshake Deals at Nvidia",
@@ -364,24 +409,6 @@
    "image": "https://morningbrew.com/cdn-cgi/image/fit=cover,format=jpeg,width=1600,height=900,quality=80,trim=78;0;78;0/https://storage.morningbrew.com/image/2026-11-20/image-6930e7415152ac25a9e0c2b83e5944f82c988991-1500x1000-jpg/MBD-HungerGamesFashion-AN-1126.jpg"
   },
   {
-   "id": "bloomberg-business:TOU4QAO32FWG00",
-   "feed": "bloomberg-business",
-   "title": "AI Euphoria Gives Way to Fear, Anthropic Slides 8.5%, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-21/ai-euphoria-gives-way-to-fear-anthropic-slides-8-5-more",
-   "date": "2026-11-21T04:34:58.000Z",
-   "summary": "Source: Bloomberg, 5:45",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TOU2GEWWD62O00",
-   "feed": "bloomberg-business",
-   "title": "S&P and Dow in Correction, Anthropic Gives Up Gains, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-21/s-p-and-dow-in-correction-anthropic-gives-up-gains-more",
-   "date": "2026-11-21T03:45:50.000Z",
-   "summary": "Source: Bloomberg, 6:30",
-   "image": ""
-  },
-  {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/20/business/bayer-settlement-roundup-cancer.html",
    "feed": "nytimes-business",
    "title": "Judge Approves $7 Billion Settlement Over Claims That Roundup Caused Cancer",
@@ -389,15 +416,6 @@
    "date": "2026-11-21T03:23:04.000Z",
    "summary": "The ruling, in a nationwide class-action suit, is expected to end tens of thousands of lawsuits by people claiming that Roundup caused non-Hodgkin lymphoma.",
    "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20BIZ-ROUNDUP-fqct/20BIZ-ROUNDUP-fqct-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "bloomberg-business:TOU0TLO32FWG00",
-   "feed": "bloomberg-business",
-   "title": "Stocks Close Lower on AI Selloff, Anthropic Gives Up Gains, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-21/stocks-close-lower-on-ai-selloff-anthropic-gives-up-gains-more-mwptyueo",
-   "date": "2026-11-21T03:10:33.000Z",
-   "summary": "Source: Bloomberg, 5:48",
-   "image": ""
   },
   {
    "id": "cascadepbs:6b011754f452450001a047ae",
@@ -418,27 +436,9 @@
    "image": "https://www.cascadepbs.org/content/images/2026/11/6829f199-c7ea-4687-827d-8d78f7c1a188.JPG"
   },
   {
-   "id": "bloomberg-business:TOTMNLKJH6V500",
-   "feed": "bloomberg-business",
-   "title": "Several Big Firms Discuss Hiring David Jones Workers Facing Job Cuts, Union Says",
-   "link": "https://www.bloomberg.com/news/articles/2026-11-21/several-big-firms-discuss-hiring-david-jones-workers-facing-job-cuts-union-says",
-   "date": "2026-11-21T02:43:45.000Z",
-   "summary": "The union representing more than 1,500 workers facing job cuts at Australia’s oldest department store chain, David Jones, said it had held promising discussions in a quest to find staff new roles and further talks are planned for early next week.",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TOTYB8WWD62O00",
-   "feed": "bloomberg-business",
-   "title": "S&P and Dow in Correction, Nasdaq Down 5.2% on Friday, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-21/s-p-and-dow-in-correction-nasdaq-down-5-2-on-friday-more",
-   "date": "2026-11-21T02:16:20.000Z",
-   "summary": "Source: Bloomberg, 6:22",
-   "image": ""
-  },
-  {
    "id": "wsj-business:WP-WSJ-0004079767",
    "feed": "wsj-business",
-   "title": "They Run Anthropic. They Want to Keep It Weird. They’re Brother and Sister.",
+   "title": "The Brother-Sister Duo Who Want to Keep Anthropic Weird",
    "link": "https://www.wsj.com/tech/ai/anthropic-dario-daniela-amodei-siblings-ipo-be84ad11?mod=pls_whats_news_us_business_f",
    "date": "2026-11-21T02:00:00.000Z",
    "summary": "Dario and Daniela Amodei were on top of the biggest IPO ever Thursday–and a market rout one day later. It’s the latest unusual development for a company that is anything but normal.",
@@ -452,24 +452,6 @@
    "date": "2026-11-21T01:30:54.000Z",
    "summary": "Full Washington Week with the Atlantic broadcast from November 20, 2026.",
    "image": "https://www.cascadepbs.org/content/images/2026/11/6a871447-797c-4390-a78d-76c98afc0f37.JPG"
-  },
-  {
-   "id": "bloomberg-business:TOTVWYO32FWG00",
-   "feed": "bloomberg-business",
-   "title": "Bloomberg Law: Win for Transgender Service Members (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-21/bloomberg-law-win-for-transgender-service-members-podcast",
-   "date": "2026-11-21T01:24:34.000Z",
-   "summary": "Source: Bloomberg, 32:33",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TOTVNXWWD62O00",
-   "feed": "bloomberg-business",
-   "title": "Stocks Close Lower on AI Selloff, Anthropic Gives Up Gains, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-21/stocks-close-lower-on-ai-selloff-anthropic-gives-up-gains-more",
-   "date": "2026-11-21T01:19:09.000Z",
-   "summary": "Source: Bloomberg, 6:30",
-   "image": ""
   },
   {
    "id": "cascadepbs:6b00fb5af452450001a04053",
@@ -517,15 +499,6 @@
    "image": "https://www.cascadepbs.org/content/images/2026/11/f53ee4ec-1321-4829-97e4-03b0fb9da24d.jpg"
   },
   {
-   "id": "bloomberg-business:TOTUS3KGIFPG00",
-   "feed": "bloomberg-business",
-   "title": "Trump, Xi and Putin Raise Stakes for Smaller Powers Like Singapore",
-   "link": "https://www.bloomberg.com/news/newsletters/2026-11-21/trump-xi-and-putin-raise-stakes-for-smaller-powers-like-singapore",
-   "date": "2026-11-21T01:00:03.000Z",
-   "summary": "Beneath the diplomatic bonhomie at Asean and APEC summits was a less reassuring message for smaller and middle powers.",
-   "image": ""
-  },
-  {
    "id": "wsj-business:WP-WSJ-0004079528",
    "feed": "wsj-business",
    "title": "Activist Nelson Peltz Walked Away From the Investment He Loved Most. Now He’s Back.",
@@ -551,24 +524,6 @@
    "date": "2026-11-21T00:38:00.000Z",
    "summary": "The German automaker’s U.S. presence was threatened because of its partial Chinese ownership stake.",
    "image": "https://images.wsj.net/im-60706704"
-  },
-  {
-   "id": "bloomberg-business:TOTSV8O32FWG00",
-   "feed": "bloomberg-business",
-   "title": "S&P, Dow in Correction, Nasdaq Negative, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-21/s-p-dow-in-correction-nasdaq-negative-more",
-   "date": "2026-11-21T00:18:44.000Z",
-   "summary": "Source: Bloomberg, 5:48",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TOTSKBUT4Z5S00",
-   "feed": "bloomberg-business",
-   "title": "Balance of Power: Trump’s Xi, Putin Ties Draw Pushback (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-21/balance-of-power-trump-s-xi-putin-ties-draw-pushback-podcast",
-   "date": "2026-11-21T00:12:11.000Z",
-   "summary": "Source: Bloomberg, 32:35",
-   "image": ""
   },
   {
    "id": "cascadepbs:6b00ed29f452450001a03b76",
@@ -697,15 +652,6 @@
    "image": "https://img.semafor.com/2029cda8af451595db212bfbd100827ffce15130-5500x3667.jpg"
   },
   {
-   "id": "cascadepbs:6b00effef452450001a03db2",
-   "feed": "cascadepbs",
-   "title": "Ken Chenault",
-   "link": "https://www.cascadepbs.org/show/firing-line/episode/ken-chenault-y8rji9/",
-   "date": "2026-11-20T20:01:01.000Z",
-   "summary": "Do corporations owe more than profits to their country? Ken Chenault, former American Express CEO, calls on business leaders to defend democracy and national security, comments on AI and the midterms, and reflects on his career as a Black executive.",
-   "image": "https://www.cascadepbs.org/content/images/2026/11/f4b13348-a88e-4878-8665-503ff1ce3aa5.jpg"
-  },
-  {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/20/business/nissan-reapirs-hack-technology.html",
    "feed": "nytimes-business",
    "title": "Nissan Shuts Down System Used for Repairs After Hack Attempt",
@@ -810,13 +756,13 @@
    "title": "Data center cancellations in Q3 double: Relae",
    "link": "https://www.smartcitiesdive.com/news/data-center-cancellations-in-q3-double-relae/875338/",
    "date": "2026-11-20T16:41:09.000Z",
-   "summary": "Sixteen data center projects were stopped in Q3, up from seven in the third quarter of 2025. Climate solutions company Relae, formerly known as Carbon Direct, tracked 70 cancellations since 2024.",
+   "summary": "Sixteen data center projects were stopped in Q3, up from seven in the third quarter of 2025. Climate solutions company Relae, formerly known as Carbon Direct, has tracked 70 cancellations since 2024.",
    "image": "https://imgproxy.divecdn.com/PajNHAtAGI-Y2IWBgT17sgg2JCaWf_FpIEPzSare9Hw/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9kYXRhX2NlbnRlcl9wcm90ZXN0X3NpZ24uanBn.webp"
   },
   {
    "id": "smartcities:https://www.smartcitiesdive.com/news/florida-broward-county-ai-service-now-platform-adoption/875340/",
    "feed": "smartcities",
-   "title": "Eyeing digital efficiency, Florida’s second-largest county adopts AI service platform",
+   "title": "Florida’s second-largest county adopts AI tech service platform to improve efficiency",
    "link": "https://www.smartcitiesdive.com/news/florida-broward-county-ai-service-now-platform-adoption/875340/",
    "date": "2026-11-20T16:14:32.000Z",
    "summary": "Broward County, Florida’s Enterprise Technology Services Division supports 8,000 users across more than 800 departments.",
@@ -1091,15 +1037,6 @@
    "date": "2026-11-20T10:02:12.000Z",
    "summary": "A lab-grown shortcut named Leaven is wooing many high-end bakers and pizza makers who’ve prided themselves on their painstaking use of live cultures.",
    "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20FD-sourdough-shortcut-promo1-fcwp/20FD-sourdough-shortcut-promo1-fcwp-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/20/business/china-ai-investment-spending.html",
-   "feed": "nytimes-business",
-   "title": "China’s A.I. Ambitions Are Running Into a Money Problem",
-   "link": "https://www.nytimes.com/2026/11/20/business/china-ai-investment-spending.html",
-   "date": "2026-11-20T10:01:07.000Z",
-   "summary": "While Anthropic and other Silicon Valley A.I. giants are raising tens of billions in capital, Chinese rivals are struggling to keep pace financially.",
-   "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20Biz-Ai-China-01-wjcq/20Biz-Ai-China-01-wjcq-mediumSquareAt3X.jpg"
   },
   {
    "id": "semafor:https://www.semafor.com/article/11/20/2026/feds-lisa-cook-speaks-ahead-of-hearing",
