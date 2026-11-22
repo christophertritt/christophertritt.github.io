@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T07:51:04.624Z",
+ "updated": "2026-11-22T20:58:18.867Z",
  "feeds": [
   {
    "id": "planetizen",
@@ -98,7 +98,7 @@
    "color": "#1f1f1f",
    "topic": "Business & finance",
    "ok": true,
-   "count": 13
+   "count": 14
   },
   {
    "id": "morning-brew",
@@ -121,21 +121,300 @@
  ],
  "items": [
   {
-   "id": "bloomberg-business:TOVR9OWWD62O00",
-   "feed": "bloomberg-business",
-   "title": "Mexican Cartel Boss Arrested, CrowdStrike Eyes Zscaler, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-22/mexican-cartel-boss-arrested-crowdstrike-eyes-zscaler-more",
-   "date": "2026-11-22T01:39:24.000Z",
-   "summary": "Source: Bloomberg, 5:40",
-   "image": ""
+   "id": "urbanist:6b034e1dc1c1a500015649e8",
+   "feed": "urbanist",
+   "title": "Best Side Cycling Tests Out New Henderson Bike Lane in Rainier Beach",
+   "link": "https://www.theurbanist.org/best-side-cycling-tests-out-new-henderson-bike-lane-in-rainier-beach/",
+   "date": "2026-11-22T20:52:02.000Z",
+   "summary": "Hanoch of the Youtube channel Best Side Cycling visited an important new protected bike facility in Southeast Seattle, which upgraded safety conditions on the crash-prone corridor of S Henderson Street. The new facility safely connects Be'er Sheva Park and Rainier Beach School in the east to the Chief Sealth Trail…",
+   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/11/Best-Side-Cycling-on-Henderson-Street-2026-11-22.jpg"
   },
   {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/21/arts/tamagotchis-comeback.html",
    "feed": "nytimes-business",
    "title": "Why Nostalgia for Tamagotchis, the Virtual Pets, Won’t Die",
    "link": "https://www.nytimes.com/2026/11/21/arts/tamagotchis-comeback.html",
-   "date": "2026-11-22T01:05:28.000Z",
+   "date": "2026-11-22T19:57:43.000Z",
    "summary": "Millennials are answering the beeping call of the pocket-size game that caused a sensation 30 years ago. But analog-craving Gen Zers are, too.",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TOX28HUT4Z5S00",
+   "feed": "bloomberg-business",
+   "title": "ICE Airport Arrest, Delta Outage, Democrats Win NC House Seat",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-22/ice-airport-arrest-delta-outage-democrats-win-nc-house-seat",
+   "date": "2026-11-22T18:33:53.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/22/business/mortgage-rates-housing-landlords.html",
+   "feed": "nytimes-business",
+   "title": "Rather Than Sell Their House, They Became Landlords Instead",
+   "link": "https://www.nytimes.com/2026/11/22/business/mortgage-rates-housing-landlords.html",
+   "date": "2026-11-22T18:05:48.000Z",
+   "summary": "Homeowners say the rental income helps them cover their mortgage payments, but they must also learn to handle needed repairs and confront bad tenants.",
+   "image": "https://static01.nyt.com/images/2026/11/22/multimedia/22biz-accidental-landlords-pzlf/22biz-accidental-landlords-pzlf-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "planetizen:138931 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "People Mover delayed again, LAX and contractor trade barbs",
+   "link": "https://www.planetizen.com/news/2026/11/138931-people-mover-delayed-again-lax-and-contractor-trade-barbs",
+   "date": "2026-11-22T18:00:00.000Z",
+   "summary": "If the People Mover doesn't open until March, it will miss servicing passengers during next year's Super Bowl in Los Angeles, which would be a major stress test for the system ahead of the 2028 Olympics. The long-delayed opening of the LAX People Mover, which was last slated to start passenger service in January…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/amp-project-images2.jpg.webp?itok=CjANHoXj"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/22/business/scott-bessent-jensen-huang-nvidia.html",
+   "feed": "nytimes-business",
+   "title": "Scott Bessent Calls on Nvidia to Provide Answers on Chip Sales to China",
+   "link": "https://www.nytimes.com/2026/11/22/business/scott-bessent-jensen-huang-nvidia.html",
+   "date": "2026-11-22T17:55:31.000Z",
+   "summary": "The treasury secretary said on CBS that it was too soon to say if Jensen Huang should return as the company’s chief executive.",
+   "image": "https://static01.nyt.com/images/2026/11/22/multimedia/22dc-nvidia-bessent-cfzt/22dc-nvidia-bessent-cfzt-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/22/business/media/hunger-games-box-office.html",
+   "feed": "nytimes-business",
+   "title": "‘Hunger Games’ Rebounds With $120 Million Opening for ‘Sunrise on the Reaping’ at Box Office",
+   "link": "https://www.nytimes.com/2026/11/22/business/media/hunger-games-box-office.html",
+   "date": "2026-11-22T17:53:44.000Z",
+   "summary": "“The Hunger Games: Sunrise on the Reaping” had nearly three times the domestic opening box office total of its predecessor, extending a Lionsgate hot streak.",
+   "image": ""
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004085998",
+   "feed": "wsj-business",
+   "title": "Delta Delays Hundreds of Flights Over System Outage",
+   "link": "https://www.wsj.com/business/airlines/delta-delays-hundreds-of-flights-over-system-outage-6bbba92c?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-22T17:28:00.000Z",
+   "summary": "The issues have arisen a little more than week after a nationwide ground stop and ahead of Thanksgiving travel.",
+   "image": "https://images.wsj.net/im-67622301"
+  },
+  {
+   "id": "planetizen:138916 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "Trump to blast ‘hydrocarbon highway’ through ‘world’s longest art gallery’",
+   "link": "https://www.planetizen.com/news/2026/11/138916-trump-blast-hydrocarbon-highway-through-worlds-longest-art-gallery",
+   "date": "2026-11-22T17:00:00.000Z",
+   "summary": "The canyon the road will run through is filled with pioneer-era inscriptions and Native American panels. The Trump administration plans to blast a “hydrocarbon highway” through “the world’s longest art gallery,” a Utah canyon filled with pioneer-era inscriptions, Native American panels and ancient petroglyphs, Leia…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2349332281.jpg.webp?itok=9RmyklmX"
+  },
+  {
+   "id": "bloomberg-business:TOWXIQWWD62O00",
+   "feed": "bloomberg-business",
+   "title": "Bloomberg This Weekend: Bipartisan Approach to AI (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-22/bloomberg-this-weekend-bipartisan-approach-to-ai-podcast",
+   "date": "2026-11-22T16:52:02.000Z",
+   "summary": "Source: Bloomberg, 43:29",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TOWX9SWWD62O00",
+   "feed": "bloomberg-business",
+   "title": "WA Gov Condemns ICE Airport Arrest, Delta Outage Delays, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-22/wa-gov-condemns-ice-airport-arrest-delta-outage-delays-more",
+   "date": "2026-11-22T16:46:40.000Z",
+   "summary": "Source: Bloomberg, 6:16",
+   "image": ""
+  },
+  {
+   "id": "planetizen:138924 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "25 states cast bids to be the home of U.S. Space Academy",
+   "link": "https://www.planetizen.com/news/2026/11/138924-25-states-cast-bids-be-home-us-space-academy",
+   "date": "2026-11-22T16:00:00.000Z",
+   "summary": "States who have applied to host the academy include Virginia, California and Texas. Twenty-five states, 15 of which various sources have publicly identified , submitted applications to be the home of the U.S. Space Academy, which looks to train the next generation of “civically grounded leaders prepared to advance…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2601361371.jpg.webp?itok=kfjxGkME"
+  },
+  {
+   "id": "bloomberg-business:TOWU3ZUT4Z5S00",
+   "feed": "bloomberg-business",
+   "title": "WA Slams ICE Airport Arrest, Delta Outage Delays Flights, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-22/wa-slams-ice-airport-arrest-delta-outage-delays-flights-more",
+   "date": "2026-11-22T15:38:23.000Z",
+   "summary": "Source: Bloomberg, 5:37",
+   "image": ""
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/22/2026/cops-fossil-fuel-consensus-falls-apart",
+   "feed": "semafor",
+   "title": "COP’s fossil fuel consensus falls apart",
+   "link": "https://www.semafor.com/article/11/22/2026/cops-fossil-fuel-consensus-falls-apart",
+   "date": "2026-11-22T15:33:10.000Z",
+   "summary": "The News The COP31 climate summit in Türkiye collapsed on Sunday without agreement on a final deal, over deep disagreement over the negotiations’ most basic provision — the first time the talks ended unsuccessfully since calamitous 2009 meetings. After negotiations stretched to their longest in three decades, Murat…",
+   "image": "https://img.semafor.com/91090b2e70892a79c5706f79e21fdc69e581d42b-5053x3369.jpg"
+  },
+  {
+   "id": "planetizen:138923 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "Trump’s emergency orders to resuscitate coal plants cost ratepayers $593 million",
+   "link": "https://www.planetizen.com/news/2026/11/138923-trumps-emergency-orders-resuscitate-coal-plants-cost-ratepayers-593-million",
+   "date": "2026-11-22T15:00:00.000Z",
+   "summary": "Florida had intended to shut down one of its two coal-fired plants in Stanton by the end of May 2026 as part of a plan to transition to renewable energy sources. Ratepayers in Florida have paid approximately $25.6 million so the Trump administration could keep a coal plant running past its scheduled retirement, Amy…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/Stanton_Energy_Center_Cooling_Towers.jpg.webp?itok=st_tUFXC"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/22/business/retirement-millennials-gen-z.html",
+   "feed": "nytimes-business",
+   "title": "How Six Americans Under 40 Are Saving for Retirement",
+   "link": "https://www.nytimes.com/2026/11/22/business/retirement-millennials-gen-z.html",
+   "date": "2026-11-22T14:35:24.000Z",
+   "summary": "Whether they take a traditional path or go their own way, some younger workers are managing to build a nest egg while juggling other financial challenges.",
+   "image": "https://static01.nyt.com/images/2026/11/17/multimedia/00bizsun-retiring-save-01-v2-kqfw/00bizsun-retiring-save-01-v2-kqfw-mediumSquareAt3X-v3.jpg"
+  },
+  {
+   "id": "bloomberg-business:TOWQ0ZUT4Z5S00",
+   "feed": "bloomberg-business",
+   "title": "Ferguson: Get ICE 'Out of Airports,' Climate Talks Collapse",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-22/ferguson-get-ice-out-of-airports-climate-talks-collapse",
+   "date": "2026-11-22T14:10:11.000Z",
+   "summary": "Source: Bloomberg, 5:45",
+   "image": ""
+  },
+  {
+   "id": "planetizen:138920 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "Corpus Christi drilled wells at 'lightning speed,' leaving neighbors fearing for their water supply",
+   "link": "https://www.planetizen.com/news/2026/11/138920-corpus-christi-drilled-wells-lightning-speed-leaving-neighbors-fearing-their",
+   "date": "2026-11-22T14:00:00.000Z",
+   "summary": "Pumps discharging water into the Nueces River. | Brenda Bazán for The Texas Tribune and ProPublica This story was originally published in the Texas Tribune, a nonprofit, nonpartisan media organization that informs Texans — and engages with them — about public policy, politics, government and statewide issues. Late in…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/Corpus-Christi-water-wells-60_preview_maxWidth_3000_maxHeight_3000_ppi_72_embedColorProfile_true_quality_95-scaled.jpg.jpg.webp?itok=_qAlaqpl"
+  },
+  {
+   "id": "bloomberg-business:TOLTFMT9NJLS00",
+   "feed": "bloomberg-business",
+   "title": "US Firms Embrace Dynamic Pricing, Drawing Regulatory Attention",
+   "link": "https://www.bloomberg.com/news/articles/2026-11-22/us-firms-embrace-dynamic-pricing-drawing-regulatory-attention",
+   "date": "2026-11-22T14:00:00.000Z",
+   "summary": "Moviegoers are seeing cinematic epics in this year’s blockbusters The Odyssey and the upcoming Dune: Part Three. IMAX Corp. Chief Executive Officer Richard Gelfond sees pricing power.",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TOT8VGT9NJLT00",
+   "feed": "bloomberg-business",
+   "title": "What’s Happening in EM: The Fuel Subsidy Divide (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-22/what-s-happening-in-em-the-fuel-subsidy-divide-podcast",
+   "date": "2026-11-22T13:30:00.000Z",
+   "summary": "This week, Carolina Wilson and Nicolle Yapur speak with Fernando Gimenez of ProMeritum Investment Management, about how soaring fuel subsidy costs are creating winners and losers in emerging-market bond markets.",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/22/business/dealbook/zohran-mamdani-dealbook-summit.html",
+   "feed": "nytimes-business",
+   "title": "Zohran Mamdani on Trump, Wall Street and Wealth Taxes",
+   "link": "https://www.nytimes.com/2026/11/22/business/dealbook/zohran-mamdani-dealbook-summit.html",
+   "date": "2026-11-22T13:00:02.000Z",
+   "summary": "The mayor of New York City spoke with Andrew Ross Sorkin at the DealBook Summit.",
+   "image": "https://static01.nyt.com/images/2026/11/22/multimedia/22DB-mamdani-kmcp/22DB-mamdani-kmcp-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "planetizen:138917 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "Nearly billion-dollar budget deficit looms over MTA",
+   "link": "https://www.planetizen.com/news/2026/11/138917-nearly-billion-dollar-budget-deficit-looms-over-mta",
+   "date": "2026-11-22T13:00:00.000Z",
+   "summary": "In the past, NYC has approved tax hikes to keep the MTA funded. The Metropolitan Transit Authority will face a $585 million budget deficet by 2028 if “the city, state and federal governments don’t help balance its books,” Ramsey Khalifeh writes for Gothamist. By 2030, the agency’s financial plan predicts a deficit as…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2280087217.jpg.webp?itok=L_zZeL8A"
+  },
+  {
+   "id": "bloomberg-business:TOWMLFUT4Z5S00",
+   "feed": "bloomberg-business",
+   "title": "WA Slams ICE Airport Arrest, Russia Targets Ukrainian Power",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-22/wa-slams-ice-airport-arrest-russia-targets-ukrainian-power",
+   "date": "2026-11-22T12:56:03.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/22/magazine/looking-for-the-formula-to-stop-an-apocalypse.html",
+   "feed": "nytimes-business",
+   "title": "Looking for the Formula to Stop an Apocalypse",
+   "link": "https://www.nytimes.com/2026/11/22/magazine/looking-for-the-formula-to-stop-an-apocalypse.html",
+   "date": "2026-11-22T12:27:46.000Z",
+   "summary": "Mike Winer and his colleagues are trying to build a mathematical safeguard to keep A.I. under human control. They fear they are running out of time.",
+   "image": "https://static01.nyt.com/images/2026/11/22/multimedia/22AI-Safety-promo/22AI-Safety-promo-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "bloomberg-business:TOWJ1OUT4Z5S00",
+   "feed": "bloomberg-business",
+   "title": "WA Governor Condemns ICE Airport Arrest, Russia Attacks Escalate",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-22/wa-governor-condemns-ice-airport-arrest-russia-attacks-escalate",
+   "date": "2026-11-22T11:39:24.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TO13NCKIUPSU00",
+   "feed": "bloomberg-business",
+   "title": "Private Credit’s $100 Billion Saudi Prize Is Proving Hard to Win",
+   "link": "https://www.bloomberg.com/news/articles/2026-11-22/private-credit-s-100-billion-saudi-prize-is-proving-hard-to-win",
+   "date": "2026-11-22T11:30:26.000Z",
+   "summary": "Many private credit firms believe Saudi Arabia offers an estimated $100 billion opportunity, potentially helping transform the Middle East into one of the biggest markets for the asset class. But deploying capital at the required scale and speed is proving difficult.",
+   "image": ""
+  },
+  {
+   "id": "stb:https://seattletransitblog.com/?p=150962",
+   "feed": "stb",
+   "title": "Sunday Movie: Bicycle History",
+   "link": "https://seattletransitblog.com/2026/11/22/sunday-movie-bicycle-history/",
+   "date": "2026-11-22T11:00:00.000Z",
+   "summary": "The humorousy dull history of the bicycle. (Stephen Dalton) This is told in a relaxing monotone that can be used for sleep. I’d start at Part 1 if you want the prehistory (35 minutes), part 3 for the 19th century (56 minutes), or part 6 for the 20th and 21st centuries (32 minutes). Relaxation. Part 1: Everybody…",
+   "image": ""
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004083230",
+   "feed": "wsj-business",
+   "title": "James Bond’s Bare Wrist Sets Off Watch Industry War",
+   "link": "https://www.wsj.com/business/retail/james-bonds-bare-wrist-sets-off-watch-industry-war-b6b179a9?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-22T10:30:00.000Z",
+   "summary": "007 has worn an Omega watch for three decades, but the brand was missing from the big reveal.",
+   "image": "https://images.wsj.net/im-34867808"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/22/business/procter-gamble-factory-automated.html",
+   "feed": "nytimes-business",
+   "title": "Procter & Gamble to Increase Factory Shifts Without Humans to Cut Costs",
+   "link": "https://www.nytimes.com/2026/11/22/business/procter-gamble-factory-automated.html",
+   "date": "2026-11-22T10:02:21.000Z",
+   "summary": "The maker of Pampers and Bounty paper towels operates 15 sites capable of running shifts unattended, with plans to add more in 2027.",
+   "image": "https://static01.nyt.com/images/2026/11/22/multimedia/22biz-procter-gamble-factories-pcmw/22biz-procter-gamble-factories-pcmw-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/22/business/understaffing-work-advice.html",
+   "feed": "nytimes-business",
+   "title": "The Case of the Idle Assistants",
+   "link": "https://www.nytimes.com/2026/11/22/business/understaffing-work-advice.html",
+   "date": "2026-11-22T10:02:11.000Z",
+   "summary": "Plus: Can I lie about having kids, and do I have to use my personal phone?",
+   "image": "https://static01.nyt.com/images/2026/11/22/multimedia/22SunBiz-WORKFRIEND-kwtq/22SunBiz-WORKFRIEND-kwtq-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/22/business/screwworm-cases-cattle.html",
+   "feed": "nytimes-business",
+   "title": "Agriculture Secretary Declares U.S. Cattle Supply Safe as Screwworm Cases Rise",
+   "link": "https://www.nytimes.com/2026/11/22/business/screwworm-cases-cattle.html",
+   "date": "2026-11-22T10:01:47.000Z",
+   "summary": "Officials said that heavy rains in the Southwest had led to more screwworm cases in animals, and that mitigation efforts were working well.",
+   "image": "https://static01.nyt.com/images/2026/11/19/multimedia/00biz-screwworm-cases-01-jpfh/00biz-screwworm-cases-01-jpfh-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/21/business/ai-emergency-plan.html",
+   "feed": "nytimes-business",
+   "title": "How to Plan for an A.I. Emergency, or Any Calamity",
+   "link": "https://www.nytimes.com/2026/11/21/business/ai-emergency-plan.html",
+   "date": "2026-11-22T09:28:04.000Z",
+   "summary": "One person’s attempt to prepare for the unthinkable.",
+   "image": "https://static01.nyt.com/images/2026/11/21/business/21sunbiz-aiprep-illo/21sunbiz-aiprep-illo-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "bloomberg-business:TOVR9OWWD62O00",
+   "feed": "bloomberg-business",
+   "title": "Mexican Cartel Boss Arrested, CrowdStrike Eyes Zscaler, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-22/mexican-cartel-boss-arrested-crowdstrike-eyes-zscaler-more",
+   "date": "2026-11-22T01:39:24.000Z",
+   "summary": "Source: Bloomberg, 5:40",
    "image": ""
   },
   {
@@ -152,7 +431,7 @@
    "feed": "nytimes-business",
    "title": "The Penny Is Dead. Now It’s Official.",
    "link": "https://www.nytimes.com/2026/11/21/us/politics/penny-mint-trump-common-cent-act.html",
-   "date": "2026-11-21T23:12:23.000Z",
+   "date": "2026-11-21T23:12:24.000Z",
    "summary": "President Trump signed a law on Friday formally putting the penny out of mint, a year after it stopped being struck.",
    "image": "https://static01.nyt.com/images/2026/11/21/multimedia/21xp-penny-vjhm/21xp-penny-vjhm-mediumSquareAt3X.jpg"
   },
@@ -184,15 +463,6 @@
    "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20biz-Nvidia-SEC-kblz/20biz-Nvidia-SEC-kblz-mediumSquareAt3X.jpg"
   },
   {
-   "id": "bloomberg-business:TOVBWNO32FWG00",
-   "feed": "bloomberg-business",
-   "title": "US Stocks Tank Amid AI Fears, Mexican Cartel Boss Arrest, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-21/us-stocks-tank-amid-ai-fears-mexican-cartel-boss-arrest-more",
-   "date": "2026-11-21T20:07:35.000Z",
-   "summary": "Source: Bloomberg, 5:12",
-   "image": ""
-  },
-  {
    "id": "urbanist:6aff8464c1c1a50001563596",
    "feed": "urbanist",
    "title": "Sound Transit Funds Study to Speed Up D Line Bus",
@@ -202,15 +472,6 @@
    "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/11/D-Line-bus-coming-off-Ballard-Bridge-with-marchers---Trumm-PXL_20260419.jpg"
   },
   {
-   "id": "bloomberg-business:TOV6GYWWD62O00",
-   "feed": "bloomberg-business",
-   "title": "AI Trade Rattles Wall Street, Mexican Cartel Boss Arrest, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-21/ai-trade-rattles-wall-street-mexican-cartel-boss-arrest-more",
-   "date": "2026-11-21T18:10:10.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/21/business/used-car-auctions-manheim-prices.html",
    "feed": "nytimes-business",
    "title": "The Used Car Industry Is Booming. This N.J. Campus Is Setting the Price.",
@@ -218,51 +479,6 @@
    "date": "2026-11-21T17:59:58.000Z",
    "summary": "As new car prices rise beyond the means of most buyers, the used market has become much more important for consumers and the auto industry.",
    "image": "https://static01.nyt.com/images/2026/11/21/multimedia/21biz-used-cars--02-hmwg/21biz-used-cars--02-hmwg-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "bloomberg-business:TOV2JPO2LL3500",
-   "feed": "bloomberg-business",
-   "title": "Trump Threatens 'Tremendous Tax' on Data Centers, Russia Attacks",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-21/trump-threatens-tremendous-tax-on-data-centers-russia-attacks",
-   "date": "2026-11-21T16:45:25.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TOV0G2RKV2TO00",
-   "feed": "bloomberg-business",
-   "title": "Europe’s Wary Creditors Start to Fret About Modulaire",
-   "link": "https://www.bloomberg.com/news/newsletters/2026-11-21/europe-s-wary-creditors-start-to-fret-about-modulaire",
-   "date": "2026-11-21T16:00:02.000Z",
-   "summary": "A €4 billion debt pile will test Brookfield’s support",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TOUZX7O32FWG00",
-   "feed": "bloomberg-business",
-   "title": "AI Trade Rattles Wall Street, Mexico Cartel Arrest, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-21/ai-trade-rattles-wall-street-mexico-cartel-arrest-more",
-   "date": "2026-11-21T15:48:43.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TOUZG4O32FWG00",
-   "feed": "bloomberg-business",
-   "title": "Bloomberg This Weekend: AI's Big Week (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-21/bloomberg-this-weekend-ai-s-big-week-podcast",
-   "date": "2026-11-21T15:38:28.000Z",
-   "summary": "Source: Bloomberg, 40:26",
-   "image": ""
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/video/business/100000011293737/how-the-us-economy-is-tied-to-ai.html",
-   "feed": "nytimes-business",
-   "title": "How the U.S. Economy Is Tied to A.I.",
-   "link": "https://www.nytimes.com/video/business/100000011293737/how-the-us-economy-is-tied-to-ai.html",
-   "date": "2026-11-21T15:06:22.000Z",
-   "summary": "Artificial intelligence has become a huge piece of the U.S. economy. Ben Casselman, the chief economics correspondent for The New York Times, explains why that is and how it might be risky.",
-   "image": ""
   },
   {
    "id": "cascadepbs:6b0229faf452450001a0abde",
@@ -278,7 +494,7 @@
    "feed": "nytimes-business",
    "title": "Many Etsy Sellers Close Up Shop Over Site’s New A.I. Policy",
    "link": "https://www.nytimes.com/2026/11/20/arts/etsy-ai-policy.html",
-   "date": "2026-11-21T14:04:25.000Z",
+   "date": "2026-11-21T14:04:26.000Z",
    "summary": "Numerous longtime users of the online marketplace have left the platform because they do not want their work training artificial intelligence. Etsy said it would revise its policy.",
    "image": "https://static01.nyt.com/images/2026/11/23/arts/20cul-etsy-ai/20cul-etsy-ai-mediumSquareAt3X.jpg"
   },
@@ -287,18 +503,9 @@
    "feed": "nytimes-business",
    "title": "Maldon Salt’s Authenticity Is Questioned, Leaving Foodies Shaken",
    "link": "https://www.nytimes.com/2026/11/21/world/europe/maldon-sea-salt-artisanal-scandal.html",
-   "date": "2026-11-21T14:01:15.000Z",
+   "date": "2026-11-21T14:01:16.000Z",
    "summary": "The salt is a flaky favorite of food influencers and famous chefs. A revelation this week raised questions about what makes artisanal “artisanal.”",
    "image": "https://static01.nyt.com/images/2026/11/21/multimedia/21xp-salt/21xp-salt-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "bloomberg-business:TOUUMWO32FWG00",
-   "feed": "bloomberg-business",
-   "title": "Trump Warns Against AI Builds Abroad, Mexico Nabs Cartel Boss",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-21/trump-warns-against-ai-builds-abroad-mexico-nabs-cartel-boss",
-   "date": "2026-11-21T13:54:32.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
   },
   {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/21/business/dealbook/elon-musk-dealbook-summit.html",
@@ -308,42 +515,6 @@
    "date": "2026-11-21T13:00:06.000Z",
    "summary": "The chief executive of Tesla and SpaceX spoke with Andrew Ross Sorkin at the DealBook Summit.",
    "image": "https://static01.nyt.com/images/2026/11/21/multimedia/21DB-musk-thgp/21DB-musk-thgp-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "planetizen:138930 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "Senate passes bill overhauling permitting",
-   "link": "https://www.planetizen.com/news/2026/11/138930-senate-passes-bill-overhauling-permitting",
-   "date": "2026-11-21T13:00:00.000Z",
-   "summary": "Some House Democrats have voiced concerns that President Trump will use the bill to fast-track fossil fuel projects while continuing to stall renewable energy projects. The Senate has approved the Bipartisan American Affordability and Jobs Act of 2026, a permitting overhaul bill that supporters say will make it…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2307968267.jpg.webp?itok=VoapTLg6"
-  },
-  {
-   "id": "bloomberg-business:TOURJ6O32FWG00",
-   "feed": "bloomberg-business",
-   "title": "US Stocks Tank Amid AI Fears, Trump Could Tax Tech Firms, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-21/us-stocks-tank-amid-ai-fears-trump-could-tax-tech-firms-more",
-   "date": "2026-11-21T12:47:30.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/20/climate/van-cats-turkey.html",
-   "feed": "nytimes-business",
-   "title": "Turkey’s Van Cats Contend With Rising Temperatures",
-   "link": "https://www.nytimes.com/2026/11/20/climate/van-cats-turkey.html",
-   "date": "2026-11-21T12:31:35.000Z",
-   "summary": "A feline research center in Turkey uses air-conditioning and pools to keep residents comfortable as their numbers recover. And yes, they like to swim.",
-   "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20CLI-COP-CATS-stillpromo/20CLI-COP-CATS-stillpromo-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "bloomberg-business:TOUNLBO32FWG00",
-   "feed": "bloomberg-business",
-   "title": "Trump Warns Against AI Builds Abroad, Wall Street Reels, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-21/trump-warns-against-ai-builds-abroad-wall-street-reels-more",
-   "date": "2026-11-21T11:22:23.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
   },
   {
    "id": "wsj-business:WP-WSJ-0004084613",
@@ -364,20 +535,11 @@
    "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20biz-anthropic-aftermath-cwvh/20biz-anthropic-aftermath-cwvh-mediumSquareAt3X.jpg"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/21/business/ai-emergency-plan.html",
-   "feed": "nytimes-business",
-   "title": "How to Plan for an A.I. Emergency, or Any Calamity",
-   "link": "https://www.nytimes.com/2026/11/21/business/ai-emergency-plan.html",
-   "date": "2026-11-21T10:02:21.000Z",
-   "summary": "One person’s attempt to prepare for the unthinkable.",
-   "image": "https://static01.nyt.com/images/2026/11/21/business/21sunbiz-aiprep-illo/21sunbiz-aiprep-illo-mediumSquareAt3X.jpg"
-  },
-  {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/21/business/dealbook/dealbook-summit-portraits.html",
    "feed": "nytimes-business",
    "title": "The Faces of the 2026 DealBook Summit",
    "link": "https://www.nytimes.com/2026/11/21/business/dealbook/dealbook-summit-portraits.html",
-   "date": "2026-11-21T10:02:15.000Z",
+   "date": "2026-11-21T10:02:16.000Z",
    "summary": "Our photographer made portraits of the event’s interview subjects, including Hailey Bieber, Satya Nadella and Zohran Mamdani, after they left the stage.",
    "image": "https://static01.nyt.com/images/2026/11/21/multimedia/21DB-Portraits-1-02-hqvc/21DB-Portraits-1-02-hqvc-mediumSquareAt3X.jpg"
   },
@@ -535,15 +697,6 @@
    "image": "https://www.cascadepbs.org/content/images/2026/11/0c9007c2-2a53-453d-924b-a94647100e77.jpg"
   },
   {
-   "id": "wsj-business:WP-WSJ-0004083115",
-   "feed": "wsj-business",
-   "title": "How to Survive the Coming Age of Everything Breaking",
-   "link": "https://www.wsj.com/tech/tech-breakdowns-flights-cyber-security-f6ab51fd?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-21T00:00:00.000Z",
-   "summary": "We wanted a hyperconnected world and now we have to live in it.",
-   "image": "https://images.wsj.net/im-26430444"
-  },
-  {
    "id": "cascadepbs:6b00b727f452450001a02fe4",
    "feed": "cascadepbs",
    "title": "Retirement Planning",
@@ -580,15 +733,6 @@
    "image": "https://www.cascadepbs.org/content/images/2026/11/f2f95b90-20e6-4918-b8a7-92dd7f3115e7.jpg"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/20/business/anthropic-ai-stocks-sp500.html",
-   "feed": "nytimes-business",
-   "title": "Stocks Skid Into a Correction, as A.I. Worries Intensify",
-   "link": "https://www.nytimes.com/2026/11/20/business/anthropic-ai-stocks-sp500.html",
-   "date": "2026-11-20T22:47:32.000Z",
-   "summary": "The S&P 500 ended the day down more than 10 percent from its recent high, in a symbolic measure of investors’ souring mood.",
-   "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20biz-AI-markets-02-zfhg/20biz-AI-markets-02-zfhg-mediumSquareAt3X.jpg"
-  },
-  {
    "id": "wsj-business:WP-WSJ-0004084471",
    "feed": "wsj-business",
    "title": "Wonder Explores Sale of Food-Delivery Business Grubhub",
@@ -596,15 +740,6 @@
    "date": "2026-11-20T22:46:00.000Z",
    "summary": "Bankers have been in contact with Walmart, Target, Kroger and other retailers about a potential purchase.",
    "image": "https://images.wsj.net/im-582717"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/20/business/nvidia-ceo-stock-succession-jensen-huang.html",
-   "feed": "nytimes-business",
-   "title": "Stocks Often Prosper After an Abrupt C.E.O. Exit. Is Nvidia Different?",
-   "link": "https://www.nytimes.com/2026/11/20/business/nvidia-ceo-stock-succession-jensen-huang.html",
-   "date": "2026-11-20T22:11:57.000Z",
-   "summary": "The stock value of a top executive is often less important than it initially seems. But Nvidia’s entanglement in U.S.-Chinese relations poses special problems.",
-   "image": ""
   },
   {
    "id": "cascadepbs:6b00c305f452450001a03233",
@@ -756,13 +891,13 @@
    "title": "Data center cancellations in Q3 double: Relae",
    "link": "https://www.smartcitiesdive.com/news/data-center-cancellations-in-q3-double-relae/875338/",
    "date": "2026-11-20T16:41:09.000Z",
-   "summary": "Sixteen data center projects were stopped in Q3, up from seven in the third quarter of 2025. Climate solutions company Relae, formerly known as Carbon Direct, has tracked 70 cancellations since 2024.",
+   "summary": "Sixteen data center projects were stopped in Q3, up from seven in the third quarter of 2025. Climate solutions company Relae, formerly known as Carbon Direct, tracked 70 cancellations since 2024.",
    "image": "https://imgproxy.divecdn.com/PajNHAtAGI-Y2IWBgT17sgg2JCaWf_FpIEPzSare9Hw/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9kYXRhX2NlbnRlcl9wcm90ZXN0X3NpZ24uanBn.webp"
   },
   {
    "id": "smartcities:https://www.smartcitiesdive.com/news/florida-broward-county-ai-service-now-platform-adoption/875340/",
    "feed": "smartcities",
-   "title": "Florida’s second-largest county adopts AI tech service platform to improve efficiency",
+   "title": "Eyeing digital efficiency, Florida’s second-largest county adopts AI service platform",
    "link": "https://www.smartcitiesdive.com/news/florida-broward-county-ai-service-now-platform-adoption/875340/",
    "date": "2026-11-20T16:14:32.000Z",
    "summary": "Broward County, Florida’s Enterprise Technology Services Division supports 8,000 users across more than 800 departments.",
@@ -776,42 +911,6 @@
    "date": "2026-11-20T16:10:00.000Z",
    "summary": "BJ’s Wholesale Club raised its full-year outlook after reporting higher profit and revenue in the recent quarter. However, the results weren’t quite as strong as the headline numbers suggest.",
    "image": "https://images.wsj.net/im-30026637"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/20/business/is-your-employer-telling-you-to-use-ai-we-want-to-hear-from-you.html",
-   "feed": "nytimes-business",
-   "title": "Is Your Employer Telling You to Use A.I.? We Want to Hear From You.",
-   "link": "https://www.nytimes.com/2026/11/20/business/is-your-employer-telling-you-to-use-ai-we-want-to-hear-from-you.html",
-   "date": "2026-11-20T16:00:05.000Z",
-   "summary": "Please tell us what kind of instructions your employer is providing about A.I. We may include your experiences in an article.",
-   "image": "https://static01.nyt.com/images/2026/11/17/multimedia/00-AI-token-callout-01-bwlm/00-AI-token-callout-01-bwlm-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "planetizen:138918 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "Did data centers change how voters cast their ballots?",
-   "link": "https://www.planetizen.com/news/2026/11/138918-did-data-centers-change-how-voters-cast-their-ballots",
-   "date": "2026-11-20T16:00:00.000Z",
-   "summary": "In the weeks leading up to November 3, there was much speculation that data center opposition would play a pivotal role in the election. This story was originally published in the Daily Yonder. For more rural reporting and small-town stories visit dailyyonder.com . Where local data center measures were on the ballot…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2750038517.jpg.webp?itok=oFG9Renk"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/20/us/politics/cftc-cryptocurrency-trump-memecoin.html",
-   "feed": "nytimes-business",
-   "title": "C.F.T.C. Officials Considered Investigating Trump’s Memecoin, Then Punted",
-   "link": "https://www.nytimes.com/2026/11/20/us/politics/cftc-cryptocurrency-trump-memecoin.html",
-   "date": "2026-11-20T15:03:34.000Z",
-   "summary": "Lawyers at the Commodity Futures Trading Commission looked into possible fraud soon after the digital token’s launch, then decided they would not get the commission’s support.",
-   "image": "https://static01.nyt.com/images/2026/11/18/multimedia/dc-memecoin-mzcq/dc-memecoin-mzcq-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "planetizen:138913 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "Amtrak invests in eight new Airo trainsets",
-   "link": "https://www.planetizen.com/news/2026/11/138913-amtrak-invests-eight-new-airo-trainsets",
-   "date": "2026-11-20T15:00:00.000Z",
-   "summary": "The Amtrak Airos debuted on the Amtrak Cascades route on Sept. 30. Amtrak is adding eight 10-car trainsets to its Airo fleet. The new cars will seat more than 640 customers, and will serve passengers beginning in 2031. They will join the Airo fleet that will service the Northeast Region, which will begin operations…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/amtrakairo_coachcabcar.jpg.webp?itok=Wn4Yhmxh"
   },
   {
    "id": "semafor:https://www.semafor.com/article/11/20/2026/durbans-dj-lag-celebrates-place-on-gta-vi-soundtrack",
@@ -850,24 +949,6 @@
    "image": "https://img.semafor.com/1e4c68cc6c093f86e104eb87daef3bb10210139a-7536x5024.jpg"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/20/your-money/us-savings-bonds.html",
-   "feed": "nytimes-business",
-   "title": "Savings Bonds Offer Enticing Rates. You Need to Prove Your Identity First.",
-   "link": "https://www.nytimes.com/2026/11/20/your-money/us-savings-bonds.html",
-   "date": "2026-11-20T14:00:05.000Z",
-   "summary": "The Treasury Department is working with a private service, ID.me, to grant access to the TreasuryDirect website. Some users reported trouble getting in.",
-   "image": "https://static01.nyt.com/images/2026/11/20/business/20biz-adviser/20biz-adviser-mediumSquareAt3X.png"
-  },
-  {
-   "id": "planetizen:138912 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "HUD to end aid for mixed-immigration-status households",
-   "link": "https://www.planetizen.com/news/2026/11/138912-hud-end-aid-mixed-immigration-status-households",
-   "date": "2026-11-20T14:00:00.000Z",
-   "summary": "The HUD said an audit of HUD-assisted households found roughly 200,000 tenants “with incomplete or unknown eligibility verification.” The U.S. Department of Housing and Urban Development now requires households receiving federal housing assistance to provide proof of U.S. citizenship or eligible immigration status…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_1553378213.jpg.webp?itok=zAgWynyb"
-  },
-  {
    "id": "urbanist:6aff5de1c1c1a50001562fb5",
    "feed": "urbanist",
    "title": "Tacoma Council Axes Crisis Response Team, Slashes City Budget to Address Deficit",
@@ -893,33 +974,6 @@
    "date": "2026-11-20T13:25:20.000Z",
    "summary": "The court of the Abu Dhabi Global Market issued a $6.5 billion worldwide freeze on stolen Binance assets, the cryptocurrency firm said, as it tries to recover the funds taken last month in the largest-ever crypto hack. ADGM, which granted Binance three licenses last year, regulates the company’s global platform. Law…",
    "image": "https://img.semafor.com/cfa9edf58ed7d4a54f66442216f4ebd9d307c952-2048x1367.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/20/business/dealbook/anthropic-ipo-ai-rally.html",
-   "feed": "nytimes-business",
-   "title": "Can Anthropic Revive the A.I. Trade?",
-   "link": "https://www.nytimes.com/2026/11/20/business/dealbook/anthropic-ipo-ai-rally.html",
-   "date": "2026-11-20T13:07:07.000Z",
-   "summary": "Shares in the artificial intelligence giant jumped in their debut. But that didn’t lift the technology sector, as investors worry about the future of the A.I. boom.",
-   "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20db-amodei-wqtg/20db-amodei-wqtg-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "planetizen:138919 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "Have e-bikes and e-scooters become the next pedestrian safety challenge?",
-   "link": "https://www.planetizen.com/features/138919-have-e-bikes-and-e-scooters-become-next-pedestrian-safety-challenge",
-   "date": "2026-11-20T13:00:00.000Z",
-   "summary": "6 minutes",
-   "image": ""
-  },
-  {
-   "id": "planetizen:138911 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "Trump has changed his mind on congestion pricing — maybe",
-   "link": "https://www.planetizen.com/news/2026/11/138911-trump-has-changed-his-mind-congestion-pricing-maybe",
-   "date": "2026-11-20T13:00:00.000Z",
-   "summary": "Any city with over 1 million people can apply for traffic control program funding. President Donald Trump once said that congestion pricing would kill New York City, Stephen Nessen writes for Gothamist. Now, Trump appears to have had a change of heart. The Federal Highway Administration announced yesterday it is…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2455702991.jpg.webp?itok=i0EU9-HB"
   },
   {
    "id": "semafor:https://www.semafor.com/article/11/20/2026/ebola-vaccine-trials-launches-amid-security-concerns",
@@ -1030,15 +1084,6 @@
    "image": "https://images.wsj.net/im-11756417"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/20/dining/leaven-lab-grown-sourdough-starter.html",
-   "feed": "nytimes-business",
-   "title": "Is an ‘A.I. Agent’ Coming for Our Sourdough Starter?",
-   "link": "https://www.nytimes.com/2026/11/20/dining/leaven-lab-grown-sourdough-starter.html",
-   "date": "2026-11-20T10:02:12.000Z",
-   "summary": "A lab-grown shortcut named Leaven is wooing many high-end bakers and pizza makers who’ve prided themselves on their painstaking use of live cultures.",
-   "image": "https://static01.nyt.com/images/2026/11/20/multimedia/20FD-sourdough-shortcut-promo1-fcwp/20FD-sourdough-shortcut-promo1-fcwp-mediumSquareAt3X.jpg"
-  },
-  {
    "id": "semafor:https://www.semafor.com/article/11/20/2026/feds-lisa-cook-speaks-ahead-of-hearing",
    "feed": "semafor",
    "title": "Fed’s Lisa Cook speaks ahead of hearing",
@@ -1055,15 +1100,6 @@
    "date": "2026-11-20T09:48:13.000Z",
    "summary": "Trump administration officials hope that a new press secretary will be named by the “end of year,” as one adviser told Semafor. President Donald Trump has been without a press secretary since Karoline Leavitt departed months ago, barring a five-day stint from Katie Zacharia. He has a few names in mind for the role,…",
    "image": "https://img.semafor.com/ec263acaf3118e6c2b74e870acb9a7827361ce1c-6500x4633.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/20/2026/outages-trigger-congressional-scrutiny-of-ai-enabled-attacks",
-   "feed": "semafor",
-   "title": "Outages trigger congressional scrutiny of AI-enabled attacks",
-   "link": "https://www.semafor.com/article/11/20/2026/outages-trigger-congressional-scrutiny-of-ai-enabled-attacks",
-   "date": "2026-11-20T09:48:00.000Z",
-   "summary": "The Trump administration says the string of recent tech outages across the country can be attributed to companies rushing to patch their networks as AI exposes vulnerabilities in old software. Cybersecurity experts say the government is largely telling the truth about the crashes’ causes, but the situation reveals a…",
-   "image": "https://img.semafor.com/7d51a288bb0ae6d4047df1ac311a383e7fcca22c-5500x3667.jpg"
   },
   {
    "id": "morning-brew:https://www.morningbrew.com/stories/apocalypse-fears-may-be-boosting-costcos-biz",
@@ -1507,15 +1543,6 @@
    "image": "https://usa.streetsblog.org/wp-content/uploads/sites/10/2026/11/Screenshot-2026-11-17-at-12.49.12-PM.png?w=952"
   },
   {
-   "id": "wsj-business:WP-WSJ-0004072429",
-   "feed": "wsj-business",
-   "title": "General Motors Seeks Outside CEO Contenders to Succeed Mary Barra",
-   "link": "https://www.wsj.com/business/autos/general-motors-seeks-outside-ceo-contenders-to-succeed-mary-barra-e8177c4a?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-17T18:41:00.000Z",
-   "summary": "The automaker is weighing external executives alongside internal contenders as its longtime chief lays the groundwork for a handover.",
-   "image": "https://images.wsj.net/im-59195403"
-  },
-  {
    "id": "smartcities:https://www.smartcitiesdive.com/news/how-cities-are-making-global-sporting-events-pay-off/874908/",
    "feed": "smartcities",
    "title": "How cities are making global sporting events pay off",
@@ -1705,15 +1732,6 @@
    "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/11/Shoreline-pedestrian-bridge-render-from-span.jpg"
   },
   {
-   "id": "urbanist:6af3d2b7bf816a0001735813",
-   "feed": "urbanist",
-   "title": "Five More Washington Cities Selected for State Growth Plan Reviews in 2027",
-   "link": "https://www.theurbanist.org/five-more-washington-cities-selected-for-state-growth-plan-reviews-in-2027/",
-   "date": "2026-11-13T16:07:23.000Z",
-   "summary": "Washington's Commerce Department has released a list of five cities and towns that will see their housing growth plans subjected to additional state scrutiny next year, the second set of reviews planned under the 2025 Housing Accountability Act . Burlington, Friday Harbor, Mount Vernon, Oak Harbor, and Washougal will…",
-   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/11/20260705_203319.jpg"
-  },
-  {
    "id": "stb:https://seattletransitblog.com/?p=150738",
    "feed": "stb",
    "title": "Friday Roundtable: Cascadia High-Speed Rail and I-5",
@@ -1784,15 +1802,6 @@
    "date": "2026-11-09T23:43:43.000Z",
    "summary": "Last week’s midterm elections in the US highlighted again the popularity of public transit at the ballot box. Urban and suburban populations continue to want good public transit and are willing to pay for it. The big win, of course, was San Francisco Bay Area Measure RTM , which was leading with over 60% yes on…",
    "image": ""
-  },
-  {
-   "id": "stb:https://seattletransitblog.com/?p=150637",
-   "feed": "stb",
-   "title": "Ballard Starter Line",
-   "link": "https://seattletransitblog.com/2026/11/09/ballard-starter-line/",
-   "date": "2026-11-09T11:00:00.000Z",
-   "summary": "At the Ballard Town Hall meeting Sound Transit made it clear that they do not want to make any major changes to the BLE plans to avoid starting all over with the EIS process. They did consider at some point starting with a connection between Ballard and Westlake and delay or even skip the second downtown tunnel…",
-   "image": "https://i0.wp.com/seattletransitblog.com/wp-content/uploads/2026/11/Convention-Center-Maint-Tunnel.png?resize=525%2C327&#038;ssl=1"
   },
   {
    "id": "strongtowns:https://www.strongtowns.org/journal/2026-11-9-the-burden-of-caring-for-a-place",
