@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T09:14:24.798Z",
+ "updated": "2026-11-26T23:37:38.248Z",
  "feeds": [
   {
    "id": "planetizen",
@@ -121,13 +121,517 @@
  ],
  "items": [
   {
-   "id": "bloomberg-business:TP3PI5XVHD6O00",
+   "id": "bloomberg-business:TP4T9ZUT4Z5S00",
    "feed": "bloomberg-business",
-   "title": "EU Ukraine Finding Talks, UniCredit Takeover Finalised, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-26/eu-ukraine-finding-talks-unicredit-takeover-finalised-more",
-   "date": "2026-11-26T08:42:05.000Z",
-   "summary": "Source: Bloomberg, 7:22",
+   "title": "SAP Restructure Plan, US Partners Respond to Tariffs, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-26/sap-restructure-plan-us-partners-respond-to-tariffs-more",
+   "date": "2026-11-26T23:01:11.000Z",
+   "summary": "Source: Bloomberg, 0:00",
    "image": ""
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/26/2026/ai-reshapes-black-friday-shopping",
+   "feed": "semafor",
+   "title": "AI reshapes Black Friday shopping",
+   "link": "https://www.semafor.com/article/11/26/2026/ai-reshapes-black-friday-shopping",
+   "date": "2026-11-26T22:38:08.000Z",
+   "summary": "AI is reshaping Black Friday shopping, but retailers’ growing reliance on the technology could be a blind spot in the face of AI-enabled cyberattacks. Brands have embraced AI tools to help price products — allowing merchants to cut discounts and shrink deals without denting demand, Reuters reported. Unlike human…",
+   "image": "https://img.semafor.com/2581d8b412a38189c084174b045c28f7afbeb60e-7466x4977.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/26/2026/who-chief-urges-us-to-lift-cuba-oil-blockade",
+   "feed": "semafor",
+   "title": "WHO chief urges US to lift Cuba oil blockade",
+   "link": "https://www.semafor.com/article/11/26/2026/who-chief-urges-us-to-lift-cuba-oil-blockade",
+   "date": "2026-11-26T22:34:17.000Z",
+   "summary": "The head of the World Health Organization urged the US to lift its oil blockade on Cuba , warning the restrictions were putting lives at risk. Havana has long relied on discounted oil from its benefactors in Caracas to cover its energy shortfall. However, Washington’s ouster of Venezuelan leader Nicolás Maduro and…",
+   "image": "https://img.semafor.com/395f0ba94ae1e6508d0a40eb71b961f35f56605f-6000x4000.jpg"
+  },
+  {
+   "id": "bloomberg-business:TP4RP4WWD62O00",
+   "feed": "bloomberg-business",
+   "title": "No Airborne Lead Detected in Iowa, Oil Rises on Houthi Strike",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-26/no-airborne-lead-detected-in-iowa-oil-rises-on-houthi-strike",
+   "date": "2026-11-26T22:27:04.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/26/2026/uk-net-migration-falls-to-three-decade-low",
+   "feed": "semafor",
+   "title": "UK net migration falls to three-decade low",
+   "link": "https://www.semafor.com/article/11/26/2026/uk-net-migration-falls-to-three-decade-low",
+   "date": "2026-11-26T22:25:37.000Z",
+   "summary": "Net migration to the UK fell to its lowest level excluding the pandemic in nearly 30 years, following tougher government actions amid public backlash over immigration. The drop was largely due to fewer non-EU arrivals . Capitalizing on widespread anti-immigration sentiment, populist parties have surged across Europe,…",
+   "image": "https://img.semafor.com/1e01d2fed56d771d1e61b6e4a6e27e73afe5f808-4000x2751.jpg"
+  },
+  {
+   "id": "bloomberg-business:TP4RG4R24U8200",
+   "feed": "bloomberg-business",
+   "title": "Canada’s Trade Ties With the US, Europe, Asia Two Years After Trump Tariffs",
+   "link": "https://www.bloomberg.com/news/newsletters/2026-11-26/canada-s-trade-ties-with-the-us-europe-asia-two-years-after-trump-tariffs",
+   "date": "2026-11-26T22:21:40.000Z",
+   "summary": "Plus: Carney accused of ‘economic authoritarianism’",
+   "image": ""
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/26/2026/spains-pablo-hernndez-de-cos-poised-to-be-new-ecb-chief",
+   "feed": "semafor",
+   "title": "Spanish policymaker to be new ECB chief",
+   "link": "https://www.semafor.com/article/11/26/2026/spains-pablo-hernndez-de-cos-poised-to-be-new-ecb-chief",
+   "date": "2026-11-26T22:17:23.000Z",
+   "summary": "Pablo Hernández de Cos is set to become the next president of the European Central Bank, as the eurozone contends with surging inflation, sluggish growth, and rising government debt . De Cos, who will succeed Christine Lagarde after she departs in February, will be immediately confronted with France’s fiscal crisis…",
+   "image": "https://img.semafor.com/8461fa878e20c91767b19a155e119fa47dda77f1-6000x4000.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/26/2026/nvidia-halts-chip-shipments-to-southeast-asian-countries",
+   "feed": "semafor",
+   "title": "Nvidia halts chip shipments to Southeast Asian countries",
+   "link": "https://www.semafor.com/article/11/26/2026/nvidia-halts-chip-shipments-to-southeast-asian-countries",
+   "date": "2026-11-26T22:15:23.000Z",
+   "summary": "Nvidia has halted chip shipments to Southeast Asia, as Washington curbs China’s access to American compute. Orders have been frozen for buyers in Malaysia, Singapore, Thailand, and Indonesia, countries that have boomed by giving Chinese hyperscalers legal access to export-controlled Nvidia chips. The holdup threatens…",
+   "image": "https://img.semafor.com/f32deb27b276f34d13fe91c9ded034369172cf60-4500x3001.jpg"
+  },
+  {
+   "id": "bloomberg-business:TP4P8NKIJH8U00",
+   "feed": "bloomberg-business",
+   "title": "Japan Tobacco, Altria Explore Imperial Brands Takeover",
+   "link": "https://www.bloomberg.com/news/newsletters/2026-11-26/japan-tobacco-altria-explore-imperial-brands-takeover",
+   "date": "2026-11-26T21:33:59.000Z",
+   "summary": "Get caught up.",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TP4P64KIUPS800",
+   "feed": "bloomberg-business",
+   "title": "Victoria Election, Gas Reservation Bill, Data Center Boom: Australia Briefing",
+   "link": "https://www.bloomberg.com/news/newsletters/2026-11-26/victoria-election-gas-reservation-bill-data-center-boom-australia-briefing",
+   "date": "2026-11-26T21:32:28.000Z",
+   "summary": "Get caught up.",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TP4P35UT4Z5S00",
+   "feed": "bloomberg-business",
+   "title": "No Airborne Lead Detected in Iowa, U.S. Trade Partners Not Happy",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-26/no-airborne-lead-detected-in-iowa-u-s-trade-partners-not-happy",
+   "date": "2026-11-26T21:30:42.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/26/business/dennys-jensen-huang-nvidia-plaque.html",
+   "feed": "nytimes-business",
+   "title": "Jensen Huang Is Back, and So Is His Plaque at Denny’s",
+   "link": "https://www.nytimes.com/2026/11/26/business/dennys-jensen-huang-nvidia-plaque.html",
+   "date": "2026-11-26T21:25:16.000Z",
+   "summary": "The chain said it had restored a plaque honoring Mr. Huang above a booth in San Jose, Calif., after he was reinstated at Nvidia, the company he is said to have co-founded while eating there.",
+   "image": "https://static01.nyt.com/images/2026/11/26/multimedia/26xp-dennys-lmgz/26xp-dennys-lmgz-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/26/business/dan-carney-dead.html",
+   "feed": "nytimes-business",
+   "title": "Dan Carney Has Died. He Co-Founded Pizza Hut and Then Made It Ubiquitous.",
+   "link": "https://www.nytimes.com/2026/11/26/business/dan-carney-dead.html",
+   "date": "2026-11-26T20:37:15.000Z",
+   "summary": "The franchise with the iconic red roof began small, in a tiny brick hut in Kansas. Little more than a decade later, it was the world’s biggest pizza chain. He was 95.",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TP4M71WWD62O00",
+   "feed": "bloomberg-business",
+   "title": "Major Trade Partners React to New Trump Tariffs, S.A.P Layoffs",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-26/major-trade-partners-react-to-new-trump-tariffs-s-a-p-layoffs",
+   "date": "2026-11-26T20:28:13.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/26/business/ecb-pablo-hernandez-de-cos.html",
+   "feed": "nytimes-business",
+   "title": "European Central Bank Chooses Pablo Hernández de Cos as Next President",
+   "link": "https://www.nytimes.com/2026/11/26/business/ecb-pablo-hernandez-de-cos.html",
+   "date": "2026-11-26T19:41:34.000Z",
+   "summary": "The early exit of Christine Lagarde as president of the European Central Bank, and two looming vacancies on the board, will make way for new leadership at the institution.",
+   "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25Biz-ECB-Leaders-01-vmhk/25Biz-ECB-Leaders-01-vmhk-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "bloomberg-business:TP4JLMWWD62O00",
+   "feed": "bloomberg-business",
+   "title": "S.A.P Announces Layoffs, U.S. Trade Partners Not Happy, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-26/s-a-p-announces-layoffs-u-s-trade-partners-not-happy-more",
+   "date": "2026-11-26T19:32:10.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TP4GVSUT4Z5S00",
+   "feed": "bloomberg-business",
+   "title": "U.S Trade Partners Not Happy With Tariffs, Brent Oil Rises, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-26/u-s-trade-partners-not-happy-with-tariffs-brent-oil-rises-more",
+   "date": "2026-11-26T18:33:28.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TP4DZJKK3NY900",
+   "feed": "bloomberg-business",
+   "title": "Chile Calls Time on 73-Year Experiment With Homegrown Beet Sugar",
+   "link": "https://www.bloomberg.com/news/articles/2026-11-26/chile-calls-time-on-73-year-experiment-with-homegrown-beet-sugar",
+   "date": "2026-11-26T18:14:48.000Z",
+   "summary": "Chile is ending more than seven decades of producing sugar from locally-grown beets as a unit of US commodities trader Hartree Partners abandons the crop that gave rise to the domestic sugar industry.",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TP2ACER24U8500",
+   "feed": "bloomberg-business",
+   "title": "The NFL Is Betting Big on Flag Football",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-26/the-nfl-is-betting-big-on-flag-football",
+   "date": "2026-11-26T18:00:00.000Z",
+   "summary": "Flag football is booming. Major investments to the tune of nearly $200 million from the NFL and its financial partners have helped fuel that growth, supporting its expansion on college campuses, the development of a professional league, and even its Olympic debut at the 2028 Los Angeles games.",
+   "image": ""
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004097164",
+   "feed": "wsj-business",
+   "title": "Marlboro Maker Altria Explores Deal for Rival Imperial Brands",
+   "link": "https://www.wsj.com/business/deals/altria-considering-possible-offer-for-imperial-brands-7cef494b?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-26T17:58:00.000Z",
+   "summary": "A takeover of Imperial, which has a market value of around $30 billion, would expand Altria’s global footprint.",
+   "image": "https://images.wsj.net/im-875303"
+  },
+  {
+   "id": "bloomberg-business:TP4ECQKIUPS000",
+   "feed": "bloomberg-business",
+   "title": "Major US Trading Partners Respond to Trump’s New Tariffs",
+   "link": "https://www.bloomberg.com/news/newsletters/2026-11-26/major-us-trading-partners-respond-to-trump-s-new-tariffs",
+   "date": "2026-11-26T17:38:50.000Z",
+   "summary": "Get Caught Up.",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TP4DVHWWD62O00",
+   "feed": "bloomberg-business",
+   "title": "U.S. Partners Respond to Tariffs, New E.C.B President, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-26/u-s-partners-respond-to-tariffs-new-e-c-b-president-more",
+   "date": "2026-11-26T17:28:29.000Z",
+   "summary": "Source: Bloomberg, 4:47",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TP28E2KJH6V400",
+   "feed": "bloomberg-business",
+   "title": "German Labor Deal Opens Door to Longer Hours at Mercedes, Others",
+   "link": "https://www.bloomberg.com/news/articles/2026-11-26/german-labor-deal-opens-door-to-longer-hours-at-mercedes-others",
+   "date": "2026-11-26T17:14:50.000Z",
+   "summary": "Germany’s metalworkers struck a wage deal that lets companies negotiate lower labor costs in return for investment and job guarantees, shifting the fight to individual employers including Mercedes-Benz Group AG.",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/26/business/trump-tariffs-asia.html",
+   "feed": "nytimes-business",
+   "title": "Trump’s Latest Tariffs Revive Focus on Pressuring China",
+   "link": "https://www.nytimes.com/2026/11/26/business/trump-tariffs-asia.html",
+   "date": "2026-11-26T17:03:31.000Z",
+   "summary": "President Trump sent a message to trading partners across Asia, many of which depend on trade and investment from both the United States and China, that he is ready to escalate tariffs.",
+   "image": "https://static01.nyt.com/images/2026/11/26/multimedia/26Biz-Asia-Tariffs-01-fzkq/26Biz-Asia-Tariffs-01-fzkq-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "bloomberg-business:TP4BQKO32FWG00",
+   "feed": "bloomberg-business",
+   "title": "Merryn Talks Money: The Liquidity Squeeze (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-26/merryn-talks-money-the-liquidity-squeeze-podcast",
+   "date": "2026-11-26T16:42:20.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TP4BFBVTTCZU00",
+   "feed": "bloomberg-business",
+   "title": "The NHS Gets a Bad Case of the Flu",
+   "link": "https://www.bloomberg.com/news/newsletters/2026-11-26/the-nhs-gets-a-bad-case-of-the-flu",
+   "date": "2026-11-26T16:35:35.000Z",
+   "summary": "With flu cases causing London Ambulance to declare a critical incident, does the PM need a refocus?",
+   "image": ""
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/26/2026/mtn-eyes-bank-licenses-in-africa-fintech-push",
+   "feed": "semafor",
+   "title": "MTN eyes bank licenses in Africa fintech push",
+   "link": "https://www.semafor.com/article/11/26/2026/mtn-eyes-bank-licenses-in-africa-fintech-push",
+   "date": "2026-11-26T16:06:50.000Z",
+   "summary": "The Scoop MTN is seeking a regional banking license in Nigeria and financial services licenses in Ghana and Rwanda, its CEO told Semafor, as Africa’s largest mobile operator pushes deeper into territory traditionally occupied by the continent’s banks. Securing the approvals would take MTN further beyond its mobile…",
+   "image": "https://img.semafor.com/07decff25d20f15f40c6ba13187bcfc43e64d7ad-2048x1432.jpg"
+  },
+  {
+   "id": "bloomberg-business:TP4964O32FWG00",
+   "feed": "bloomberg-business",
+   "title": "Storms Push Macy's Parade, US Partners Respond to Tariffs, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-26/storms-push-macy-s-parade-us-partners-respond-to-tariffs-more-mwxq6qhd",
+   "date": "2026-11-26T15:46:52.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/26/2026/one-of-the-single-greatest-live-performances-one-can-see",
+   "feed": "semafor",
+   "title": "'One of the single greatest live performances one can see'",
+   "link": "https://www.semafor.com/article/11/26/2026/one-of-the-single-greatest-live-performances-one-can-see",
+   "date": "2026-11-26T15:44:02.000Z",
+   "summary": ", by Martin Scorsese. Filmed on Thanksgiving Day of 1976, the iconic concert documentary of The Band’s final live performance turns 50. Featuring an array of music legends including Bob Dylan, Joni Mitchell, Van Morrison, Neil Young, and Muddy Waters, the documentary captures “ one of the single greatest live…",
+   "image": "https://img.semafor.com/d705af62a715ae328701b61617d6119aa839b373-5320x3992.png"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/26/us/fedex-plane-miami-airport.html",
+   "feed": "nytimes-business",
+   "title": "Flights at Miami Airport Are Disrupted After FedEx Jet Overshoots Runway",
+   "link": "https://www.nytimes.com/2026/11/26/us/fedex-plane-miami-airport.html",
+   "date": "2026-11-26T15:20:30.000Z",
+   "summary": "The plane overran a runway after landing at Miami International Airport on Wednesday, and stopped near a fence. FedEx said there were no injuries.",
+   "image": "https://static01.nyt.com/images/2026/11/26/multimedia/26xp-fedex-jpfq/26xp-fedex-jpfq-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/26/business/holiday-shopping-ai-agents.html",
+   "feed": "nytimes-business",
+   "title": "Who Picked This Gift? My A.I. Holiday Shopper.",
+   "link": "https://www.nytimes.com/2026/11/26/business/holiday-shopping-ai-agents.html",
+   "date": "2026-11-26T15:13:32.000Z",
+   "summary": "From virtual agents on A.I. platforms to store helpers like Walmart’s Sparky, consumers are using the technology to save money and time.",
+   "image": "https://static01.nyt.com/images/2026/11/26/business/00holiday-agents-sub/00holiday-agents-sub-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/26/business/energy-environment/vertical-data-center-kansas-city.html",
+   "feed": "nytimes-business",
+   "title": "Data Center Developer Wanted to Build Up, Not Out. Kansas City Said No.",
+   "link": "https://www.nytimes.com/2026/11/26/business/energy-environment/vertical-data-center-kansas-city.html",
+   "date": "2026-11-26T15:12:12.000Z",
+   "summary": "The facilities that power A.I. and other big data needs are in high demand but widely despised. Some developers are trying to build them up instead of out.",
+   "image": "https://static01.nyt.com/images/2026/11/17/business/17-vertical-data-center-handouts-04/17-vertical-data-center-handouts-04-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "urbanist:6b05f2b1ce05ba000175b9bb",
+   "feed": "urbanist",
+   "title": "Op-Ed: Emerald City Trail Is an Ideal Guide to Seattle’s Olmsted History",
+   "link": "https://www.theurbanist.org/op-ed-emerald-city-trail-is-an-ideal-guide-to-seattles-olmsted-history/",
+   "date": "2026-11-26T15:00:00.000Z",
+   "summary": "While our region is famous for its beautiful outdoors, driving for an hour or more or carrying a backpack should not be a prerequisite for taking a nice long walk and enjoying the views. But figuring out where to go in the city is sometimes frustrating if you want to avoid getting stuck in a rut, with every…",
+   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/11/data-src-image-90eef0a9-ab23-4fe4-9275-185a863c6bdd-1-.jpeg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/26/business/democrats-congress-agenda-taxes-spending.html",
+   "feed": "nytimes-business",
+   "title": "Democrats Confront a Familiar Question: How Are You Going to Pay for That?",
+   "link": "https://www.nytimes.com/2026/11/26/business/democrats-congress-agenda-taxes-spending.html",
+   "date": "2026-11-26T14:50:28.000Z",
+   "summary": "Many Democratic plans are unlikely to become law under President Trump. But the party is still grappling with the difficult budget math of its agenda.",
+   "image": "https://static01.nyt.com/images/2026/11/27/multimedia/27dc-dem-agenda--01-wzbj/27dc-dem-agenda--01-wzbj-mediumSquareAt3X-v2.jpg"
+  },
+  {
+   "id": "bloomberg-business:TP46ASUT4Z5S00",
+   "feed": "bloomberg-business",
+   "title": "Macy's Thanksgiving Parade Pushed, Holiday Travel Delays, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-26/macy-s-thanksgiving-parade-pushed-holiday-travel-delays-more-mwxnz08l",
+   "date": "2026-11-26T14:44:52.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TP4483N3N09500",
+   "feed": "bloomberg-business",
+   "title": "EU Leaders Divided on Ukraine Loan Funding Ahead of Late-Night Talks",
+   "link": "https://www.bloomberg.com/news/newsletters/2026-11-26/eu-leaders-divided-on-ukraine-loan-funding-ahead-of-late-night-talks",
+   "date": "2026-11-26T14:00:03.000Z",
+   "summary": "EU leaders are discussing the bloc’s seven-year budget at a summit today",
+   "image": ""
+  },
+  {
+   "id": "planetizen:138953 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "Army detonates nearly 5 tons of lead in Iowa",
+   "link": "https://www.planetizen.com/news/2026/11/138953-army-detonates-nearly-5-tons-lead-iowa",
+   "date": "2026-11-26T14:00:00.000Z",
+   "summary": "Smoke wafts up from the detonation site. After days of delays and public outcry, the U.S. Army has detonated almost 5 tons of lead azide in Iowa, CNN reports. The Federal Emergency Management Agency asked people within 20 miles of the detonation who had not evacuated to shelter in place until further notice.…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/Screenshot%202026-11-25%20at%2012.44.22%E2%80%AFPM.png.webp?itok=u5iQU5Jy"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/26/2026/what-to-watch-for-as-volatility-in-markets-spikes",
+   "feed": "semafor",
+   "title": "What to watch for as volatility in markets spikes",
+   "link": "https://www.semafor.com/article/11/26/2026/what-to-watch-for-as-volatility-in-markets-spikes",
+   "date": "2026-11-26T13:58:34.000Z",
+   "summary": "Volatility is spiking. Stocks are swinging more wildly in both directions on headlines that would have elicited shrugs a year ago. The VIX index, which measures twitchiness in S&P 500 stocks, hit a post-“Liberation Day” high this week, and its tech-stocks cousin is even higher. The amount of money Goldman Sachs could…",
+   "image": "https://img.semafor.com/1be5b0571c55e614e4d2b60250ed40f99b25f825-5346x3564.jpg"
+  },
+  {
+   "id": "bloomberg-business:TP43MCUT4Z5S00",
+   "feed": "bloomberg-business",
+   "title": "Thanksgiving Parade Grounded by Storms, Travel Disruptions, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-26/thanksgiving-parade-grounded-by-storms-travel-disruptions-more",
+   "date": "2026-11-26T13:47:00.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/26/2026/nvidias-credit-rating-the-ai-trades-collateral-is-at-risk",
+   "feed": "semafor",
+   "title": "Nvidia's credit rating, the AI trade's collateral, is at risk",
+   "link": "https://www.semafor.com/article/11/26/2026/nvidias-credit-rating-the-ai-trades-collateral-is-at-risk",
+   "date": "2026-11-26T13:46:14.000Z",
+   "summary": "Not only is Nvidia’s share price tumbling as the halo of CEO Jensen Huang’s return fades, but now its credit rating — on which hinge tens of billions of dollars in financing spread throughout the AI ecosystem — is in danger. Moody’s changed the company’s outlook from positive to stable, and S&P Global cited worries…",
+   "image": "https://img.semafor.com/278e8d609239fc008bd1498cc1a7f515b1ad8597-5858x3884.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/26/nyregion/macys-thanksgiving-parade-history-timeline.html",
+   "feed": "nytimes-business",
+   "title": "Photos: Macy’s Thanksgiving Day Parade History and Wacky Moments",
+   "link": "https://www.nytimes.com/2026/11/26/nyregion/macys-thanksgiving-parade-history-timeline.html",
+   "date": "2026-11-26T13:45:53.000Z",
+   "summary": "It isn’t always easy to keep New York City’s Thanksgiving parade on track. Here’s a look back at notable moments and mishaps.",
+   "image": "https://static01.nyt.com/images/2026/11/25/multimedia/xp-parade-moments-photos-01-zqpc/xp-parade-moments-photos-01-zqpc-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/26/2026/banks-look-to-dump-ai-debt",
+   "feed": "semafor",
+   "title": "Banks look to dump AI debt",
+   "link": "https://www.semafor.com/article/11/26/2026/banks-look-to-dump-ai-debt",
+   "date": "2026-11-26T13:42:19.000Z",
+   "summary": "Banks are increasingly shopping around their AI portfolios as they look to offload some of their exposure to AI-related debt. Banks including Citi and JPMorgan are marketing portfolios of loans, people familiar with the deals tell me, to manage risk or, in some cases, ready themselves to take on even more. In some…",
+   "image": "https://img.semafor.com/68eff3a6cb50901f7cd6a76f4fc658fad2938296-6500x4333.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/26/2026/dubai-islamic-bank-plans-to-buy-emirates-islamic-bank",
+   "feed": "semafor",
+   "title": "Dubai forms Islamic mega-bank",
+   "link": "https://www.semafor.com/article/11/26/2026/dubai-islamic-bank-plans-to-buy-emirates-islamic-bank",
+   "date": "2026-11-26T13:25:47.000Z",
+   "summary": "Dubai Islamic Bank plans to buy Emirates Islamic Bank in a deal that will create one of the world’s largest Shariah-compliant financial firms, with about $159 billion in assets. Emirates NBD, Dubai’s biggest lender which owns Emirates Islamic, will receive new DIB shares giving it a 32.5% stake in the enlarged bank.…",
+   "image": "https://img.semafor.com/ff7bbc78bb07f6ec2c92b887c76ed65bf525e1be-6000x4000.jpg"
+  },
+  {
+   "id": "semafor:for.com/article/11/26/2026/uae-commercial-interests-look-to-somaliland-due-to-strategic-position-in-middle-east-conflict",
+   "feed": "semafor",
+   "title": "Gulf conflicts risk entangling African states",
+   "link": "https://www.semafor.com/article/11/26/2026/uae-commercial-interests-look-to-somaliland-due-to-strategic-position-in-middle-east-conflict",
+   "date": "2026-11-26T13:22:20.000Z",
+   "summary": "East African states and regions now in the geopolitical spotlight because of their proximity to the Bab el-Mandeb chokepoint must be careful not to get sucked into conflicts beyond their borders, two academics argue in a Foreign Policy essay. The strategic position of Somaliland, which declared itself independent…",
+   "image": "https://img.semafor.com/da4206af1b9cedf56353f3f4ab098ba3cb50ebb8-5500x3445.jpg"
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004097113",
+   "feed": "wsj-business",
+   "title": "The Five-Year-Old Budget Airline That Halted Operations on Thanksgiving",
+   "link": "https://www.wsj.com/business/airlines/the-five-year-old-budget-airliner-that-halted-operations-on-thanksgiving-adca4a2f?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-26T13:17:00.000Z",
+   "summary": "Norse Atlantic Airways warned that rising fuel costs would push it into bankruptcy if last-ditch rescue talks fizzle out.",
+   "image": "https://images.wsj.net/im-36958683"
+  },
+  {
+   "id": "planetizen:138943 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "Golden Girls bills could bring together older and younger roommates",
+   "link": "https://www.planetizen.com/news/2026/11/138943-golden-girls-bills-could-bring-together-older-and-younger-roommates",
+   "date": "2026-11-26T13:00:00.000Z",
+   "summary": "Twenty-five-year-old Regnar Madarang rents and lives with Eileen and Gary Ruppel, who are in their 70s, in Palo Alto, California, through a homesharing agreement. | Photo courtesy of Regnar Madarang This story was originally published in Stateline , which reports on the big challenges that cross state borders.…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/image0-1-2048x1536.jpeg.webp?itok=lD3M7D5Q"
+  },
+  {
+   "id": "cascadepbs:6b082dcbf452450001a302d5",
+   "feed": "cascadepbs",
+   "title": "Your Last Meal x Food Friends",
+   "link": "https://www.cascadepbs.org/podcasts/your-last-meal/2026/11/your-last-meal-x-food-friends/",
+   "date": "2026-11-26T13:00:00.000Z",
+   "summary": "In this special episode, host Rachel Belle is a guest on one of her favorite podcasts, Food Friends ! Food Friends aims to inspire home cooks to get creative in the kitchen. Each episode, chefs & hosts Sonya Sanford and Kari Lauritzen chat about the recipes they cooked that week and share their best bites. But in…",
+   "image": "https://www.cascadepbs.org/content/images/2026/11/FOOD_FRIENDS_x_YLM.png"
+  },
+  {
+   "id": "semafor:w.semafor.com/article/11/26/2026/south-koreas-central-bank-raises-interest-rates-to-highest-level-in-more-than-two-years",
+   "feed": "semafor",
+   "title": "Asian countries race to contain rising inflation",
+   "link": "https://www.semafor.com/article/11/26/2026/south-koreas-central-bank-raises-interest-rates-to-highest-level-in-more-than-two-years",
+   "date": "2026-11-26T12:55:04.000Z",
+   "summary": "South Korea’s central bank raised rates to the highest level in more than two years , joining other Asian countries in moving to contain persistent inflation driven by the Iran war. Compounding the challenge, a market sell-off and high borrowing costs have hit consumer sentiment in the country. Asian economies, which…",
+   "image": "https://img.semafor.com/a5509a81586de516e0870fdf3b9cce2e9431edb5-5500x3668.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/26/business/nvidia-southeast-asia-sales.html",
+   "feed": "nytimes-business",
+   "title": "Nvidia Halts Sales to Southeast Asia as U.S. Tightens China Restrictions",
+   "link": "https://www.nytimes.com/2026/11/26/business/nvidia-southeast-asia-sales.html",
+   "date": "2026-11-26T12:04:01.000Z",
+   "summary": "The shipping halt, which hit four countries, follows a new U.S. rule that would require licenses for companies in the countries to buy advanced A.I. chips.",
+   "image": ""
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/26/2026/us-led-consortium-to-buy-russian-energy-giant-lukoils-assets",
+   "feed": "semafor",
+   "title": "US-led consortium buys Russian energy giant Lukoil's assets",
+   "link": "https://www.semafor.com/article/11/26/2026/us-led-consortium-to-buy-russian-energy-giant-lukoils-assets",
+   "date": "2026-11-26T11:55:45.000Z",
+   "summary": "A US-led consortium agreed to buy Russian energy giant Lukoil’s international assets, a deal that quickly drew concern over empowering the Kremlin in its war on Ukraine. The $10 billion agreement would see the American group, which includes Washington’s development finance agency, take over Lukoil’s operations in 11…",
+   "image": "https://img.semafor.com/b312679a5e7937fc06dae2c9dcadf152b6c24dd1-3314x2207.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/26/2026/dutch-lawmakers-condemn-us-legislation-curbing-chip-exports",
+   "feed": "semafor",
+   "title": "Dutch lawmakers condemn US technology curbs",
+   "link": "https://www.semafor.com/article/11/26/2026/dutch-lawmakers-condemn-us-legislation-curbing-chip-exports",
+   "date": "2026-11-26T11:53:33.000Z",
+   "summary": "Dutch lawmakers pressed their government to push back on US legislation that would further restrict the export of chipmaking equipment to China as trade tensions rise between the superpowers. ASML — which generates 2.2% of the Netherlands’ GDP — is the world’s sole manufacturer of the machines used for making…",
+   "image": "https://img.semafor.com/d8341e705e9a27fde360cf70707495dd0cc01b98-5152x3440.jpg"
+  },
+  {
+   "id": "semafor:ps://www.semafor.com/article/11/26/2026/president-trumps-latest-tariffs-face-criticism-from-trading-partners-and-experts",
+   "feed": "semafor",
+   "title": "Washington's latest tariffs spark anger abroad",
+   "link": "https://www.semafor.com/article/11/26/2026/president-trumps-latest-tariffs-face-criticism-from-trading-partners-and-experts",
+   "date": "2026-11-26T11:52:24.000Z",
+   "summary": "US trading partners and experts criticized the Trump administration’s new round of tariffs, arguing respectively that they were unfair and likely to be counterproductive. Some analysts said the tangible impact of the new duties would probably be limited, given the increase over current levies is not as extreme as…",
+   "image": "https://img.semafor.com/b8c29217f6d506b7e466291434706ab4a6982635-5381x3582.jpg"
+  },
+  {
+   "id": "stb:https://seattletransitblog.com/?p=151088",
+   "feed": "stb",
+   "title": "Elevated line to Ballard",
+   "link": "https://seattletransitblog.com/2026/11/26/elevated-line-to-ballard/",
+   "date": "2026-11-26T11:00:00.000Z",
+   "summary": "At the Ballard Town Hall meeting somebody asked whether Sound Transit had considered elevating the line instead of tunneling to reduce cost and build it earlier. Sound Transit’s response was that they cannot imagine any way to build an elevated Link light rail line through downtown and meet current environmental…",
+   "image": "https://i0.wp.com/entwicklungsstadt.de/wp-content/uploads/2021/02/EWS-GRAFT-MBG-6.jpg?w=525&#038;ssl=1"
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004096993",
+   "feed": "wsj-business",
+   "title": "Lilly, Novo Supplier Bachem Hit by Share Drop After Growth Plans Disappoint",
+   "link": "https://www.wsj.com/business/earnings/lilly-novo-supplier-bachem-hit-by-share-drop-after-growth-plans-disappoint-d3bcf6fa?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-26T10:55:00.000Z",
+   "summary": "Bachem Holding shares fell after the Swiss peptide maker, a supplier to both Novo Nordisk and Eli Lilly, outlined plans to boost spending and issued new targets that analysts saw as weaker than anticipated.",
+   "image": "https://images.wsj.net/im-26958140"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/26/business/media/avengers-infinity-vision-dune.html",
+   "feed": "nytimes-business",
+   "title": "‘Avengers’ and ‘Dune’ Have Hollywood Dreaming of a December Windfall",
+   "link": "https://www.nytimes.com/2026/11/26/business/media/avengers-infinity-vision-dune.html",
+   "date": "2026-11-26T10:02:26.000Z",
+   "summary": "“Avengers: Doomsday” and “Dune: Part Three” are expected to open to at least $350 million in ticket sales. Some forecasts approach $500 million.",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/26/business/fiat-topolino-electric-review.html",
+   "feed": "nytimes-business",
+   "title": "The Fiat Topolino Is a Nifty Fit for the City: Review",
+   "link": "https://www.nytimes.com/2026/11/26/business/fiat-topolino-electric-review.html",
+   "date": "2026-11-26T10:02:12.000Z",
+   "summary": "The Topolino is so small it’s street-legal only on roads with low speed limits. The electric motor is tiny, and the range is limited. But there’s still lots to like.",
+   "image": "https://static01.nyt.com/images/2026/11/26/multimedia/26Biz-Wheels-Fiat-01-kfjv/26Biz-Wheels-Fiat-01-kfjv-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/26/business/huawei-trump-china-ai.html",
+   "feed": "nytimes-business",
+   "title": "Trump Tried to Cripple Huawei. Now It Is Central to China’s A.I. Push.",
+   "link": "https://www.nytimes.com/2026/11/26/business/huawei-trump-china-ai.html",
+   "date": "2026-11-26T10:01:56.000Z",
+   "summary": "As China’s access to Nvidia’s advanced chips shrinks, Huawei is becoming increasingly indispensable to Beijing despite a wide technological gap with its American rival.",
+   "image": "https://static01.nyt.com/images/2026/11/25/multimedia/Biz-China-Huawei-03-wcft/Biz-China-Huawei-03-wcft-mediumSquareAt3X.jpg"
   },
   {
    "id": "wsj-business:WP-WSJ-0004096810",
@@ -139,69 +643,6 @@
    "image": "https://images.wsj.net/im-47390421"
   },
   {
-   "id": "bloomberg-business:TP3PCHO2LL3700",
-   "feed": "bloomberg-business",
-   "title": "Stock Movers: Spanish Stocks To Watch (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-26/stock-movers-spanish-stocks-to-watch-podcast",
-   "date": "2026-11-26T08:38:41.000Z",
-   "summary": "Source: Bloomberg, 4:32",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TMZSZ3R24U8K00",
-   "feed": "bloomberg-business",
-   "title": "India’s Top Court Demands Stricter Packaged Food Labeling in Health Push",
-   "link": "https://www.bloomberg.com/news/articles/2026-11-26/india-s-top-court-demands-stricter-packaged-food-labeling-in-health-push",
-   "date": "2026-11-26T08:16:51.000Z",
-   "summary": "India’s top court asked the country’s food regulator to swiftly introduce stricter packaging guidelines for items from chips to soda, in a bid to promote healthy diets and increase food transparency in one of the world’s largest consumer markets.",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TP3MDDXVHD6O00",
-   "feed": "bloomberg-business",
-   "title": "Situational Awareness Losses Report, AI Trade Rebounds, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-26/situational-awareness-losses-report-ai-trade-rebounds-more",
-   "date": "2026-11-26T07:34:26.000Z",
-   "summary": "Source: Bloomberg, 8:17",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TP3MC1R24U8300",
-   "feed": "bloomberg-business",
-   "title": "Optimism Over AI Trade Returns After Wall Street’s Recovery",
-   "link": "https://www.bloomberg.com/news/newsletters/2026-11-26/optimism-over-ai-trade-returns-after-wall-street-s-recovery",
-   "date": "2026-11-26T07:33:37.000Z",
-   "summary": "Get caught up.",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TP3KP3XVHD6O00",
-   "feed": "bloomberg-business",
-   "title": "Bloomberg Daybreak Europe: ECB Hedge Funds Scrutiny (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-26/bloomberg-daybreak-europe-ecb-hedge-funds-scrutiny-podcast",
-   "date": "2026-11-26T06:58:15.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TP3KA5XVHD6O00",
-   "feed": "bloomberg-business",
-   "title": "ECB Hedge Funds Scrutiny, Gut-Wrenching Volatility, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-26/ecb-hedge-funds-scrutiny-gut-wrenching-volatility-more",
-   "date": "2026-11-26T06:49:17.000Z",
-   "summary": "Source: Bloomberg, 8:01",
-   "image": ""
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/26/us/fedex-plane-miami-airport.html",
-   "feed": "nytimes-business",
-   "title": "Flights at Miami Airport Are Disrupted After FedEx Jet Overshoots Runway",
-   "link": "https://www.nytimes.com/2026/11/26/us/fedex-plane-miami-airport.html",
-   "date": "2026-11-26T05:14:23.000Z",
-   "summary": "The plane overran a runway after landing at Miami International Airport on Wednesday, and stopped near a fence. FedEx said there were no injuries.",
-   "image": "https://static01.nyt.com/images/2026/11/26/multimedia/26xp-fedex-jpfq/26xp-fedex-jpfq-mediumSquareAt3X.jpg"
-  },
-  {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/26/business/china-women-spending-entertainment.html",
    "feed": "nytimes-business",
    "title": "In China, the ‘Female Gaze’ Is Driving a New Entertainment Boom",
@@ -211,42 +652,6 @@
    "image": "https://static01.nyt.com/images/2026/11/05/multimedia/Biz-Sheconomy-video-bpvg/Biz-Sheconomy-video-bpvg-mediumSquareAt3X.jpg"
   },
   {
-   "id": "bloomberg-business:TP3DGVWWD62O00",
-   "feed": "bloomberg-business",
-   "title": "Macy’s Thanksgiving Parade Pushed, US Tariffs Target China, EU",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-26/macy-s-thanksgiving-parade-pushed-us-tariffs-target-china-eu",
-   "date": "2026-11-26T04:22:07.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TP3BXPO32FWG00",
-   "feed": "bloomberg-business",
-   "title": "Macy's Parade Pushed to Saturday, US Unveils New Tariffs, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-26/macy-s-parade-pushed-to-saturday-us-unveils-new-tariffs-more",
-   "date": "2026-11-26T03:49:01.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TP3AROO32FWG00",
-   "feed": "bloomberg-business",
-   "title": "Bloomberg Daybreak Asia: Dip Buyers Stabilize AI Trade (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-26/bloomberg-daybreak-asia-dip-buyers-stabilize-ai-trade-podcast",
-   "date": "2026-11-26T03:23:48.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TP1M6IKK3NYE00",
-   "feed": "bloomberg-business",
-   "title": "Starbucks Korea Sees Profit Return After ‘Tank Day’ Backlash",
-   "link": "https://www.bloomberg.com/news/articles/2026-11-26/starbucks-korea-sees-profit-return-after-tank-day-backlash",
-   "date": "2026-11-26T03:21:29.000Z",
-   "summary": "Starbucks Korea said it will return to profit in the fourth quarter, as the coffee chain shows signs of recovering from a public-relations crisis over the controversial “Tank Day” promotion that contributed to its first-ever losses earlier this year.",
-   "image": ""
-  },
-  {
    "id": "wsj-business:WP-WSJ-0004096395",
    "feed": "wsj-business",
    "title": "Judge Says FCC Must Stop ABC License Review",
@@ -254,24 +659,6 @@
    "date": "2026-11-26T03:03:00.000Z",
    "summary": "The Disney-owned network accused the agency of trying to quash free speech critical of Trump.",
    "image": "https://images.wsj.net/im-45875827"
-  },
-  {
-   "id": "bloomberg-business:TP3902O2LL3E00",
-   "feed": "bloomberg-business",
-   "title": "Bloomberg Australia: Jensen Huang and the AI Trade (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-26/bloomberg-australia-jensen-huang-and-the-ai-trade-podcast",
-   "date": "2026-11-26T02:45:38.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TP38XVUT4Z5S00",
-   "feed": "bloomberg-business",
-   "title": "Macy's Parade Postponed, US Reveals New Tariffs, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-26/macy-s-parade-postponed-us-reveals-new-tariffs-more",
-   "date": "2026-11-26T02:44:19.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
   },
   {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/25/business/media/disney-fcc-abc-ruling.html",
@@ -290,15 +677,6 @@
    "date": "2026-11-26T02:00:00.000Z",
    "summary": "Nvidia’s sales chief dated a Super Micro executive for years. Now they have married and her former company has been linked to chip smuggling.",
    "image": "https://images.wsj.net/im-02809795"
-  },
-  {
-   "id": "bloomberg-business:TP36QIUT4Z5S00",
-   "feed": "bloomberg-business",
-   "title": "Macy's Postpones Thanksgiving Parade, New US Tariffs, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-26/macy-s-postpones-thanksgiving-parade-new-us-tariffs-more",
-   "date": "2026-11-26T01:56:42.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
   },
   {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/25/us/politics/trump-nvidia-stock-market.html",
@@ -382,33 +760,6 @@
    "image": "https://images.wsj.net/im-54326042"
   },
   {
-   "id": "bloomberg-business:TP342GUT4Z5S00",
-   "feed": "bloomberg-business",
-   "title": "Macy's Parade Delayed by Weather, US Announces New Tariffs, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-26/macy-s-parade-delayed-by-weather-us-announces-new-tariffs-more",
-   "date": "2026-11-26T00:59:04.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TP33TPKGIFPR00",
-   "feed": "bloomberg-business",
-   "title": "Hong Kong Fire Survivors Remember the Disaster One Year Later",
-   "link": "https://www.bloomberg.com/news/newsletters/2026-11-26/hong-kong-fire-survivors-remember-the-disaster-one-year-later",
-   "date": "2026-11-26T00:53:49.000Z",
-   "summary": "The lives of those touched by the deadly fire, one year later.",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TP31GWUT4Z5S00",
-   "feed": "bloomberg-business",
-   "title": "Weather Delays Macy's Parade, US Reveals New Tariffs, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-26/weather-delays-macy-s-parade-us-reveals-new-tariffs-more",
-   "date": "2026-11-26T00:02:56.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
    "id": "cascadepbs:6b077c37f452450001a2cdf7",
    "feed": "cascadepbs",
    "title": "November 25, 2026 - PBS News Hour full episode",
@@ -436,15 +787,6 @@
    "image": "https://static01.nyt.com/images/2026/11/24/multimedia/24dc-oversight--01-mhkf/24dc-oversight--01-mhkf-mediumSquareAt3X.jpg"
   },
   {
-   "id": "bloomberg-business:TP2ZDRO32FWG00",
-   "feed": "bloomberg-business",
-   "title": "Macy's Thanksgiving Parade Postponed, US Unveils New Tariffs",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-25/macy-s-thanksgiving-parade-postponed-us-unveils-new-tariffs",
-   "date": "2026-11-25T23:17:51.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
    "id": "cascadepbs:6b077694f452450001a2cacc",
    "feed": "cascadepbs",
    "title": "November 25, 2026",
@@ -452,15 +794,6 @@
    "date": "2026-11-25T23:15:33.000Z",
    "summary": "Richard Haass, President Emeritus of the Council on Foreign Relations, discusses President Trump’s foreign policy and America’s changing relationships with allies and adversaries. 39-time Grand Slam champion Billie Jean King reflects on her fight for gender equality in tennis in a new documentary. The Atlantic staff…",
    "image": "https://www.cascadepbs.org/content/images/2026/11/dc9d9b3b-cf9d-4c61-8c0e-65f50fc8ddaf.jpg"
-  },
-  {
-   "id": "bloomberg-business:TP2YSXUT4Z5S00",
-   "feed": "bloomberg-business",
-   "title": "Bloomberg Businessweek Daily: Nasdaq Bounces Back (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-25/bloomberg-businessweek-daily-nasdaq-bounces-back-podcast",
-   "date": "2026-11-25T23:05:21.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
   },
   {
    "id": "semafor:https://www.semafor.com/article/11/25/2026/netanyahu-gets-boost-in-long-running-corruption-trial",
@@ -562,20 +895,11 @@
    "image": "https://images.wsj.net/im-88335393"
   },
   {
-   "id": "wsj-business:WP-WSJ-0004095394",
-   "feed": "wsj-business",
-   "title": "U.S. Officials Say There’s No Evidence China Coordinated Jensen Huang’s Affair",
-   "link": "https://www.wsj.com/business/u-s-officials-say-theres-no-evidence-china-coordinated-jensen-huangs-affair-52fa4961?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-25T21:48:00.000Z",
-   "summary": "Plus, the Army detonated nearly 10,000 pounds of toxic lead explosives in Iowa, and Major League Baseball sued its players over an impending work stoppage.",
-   "image": "https://images.wsj.net/im-81165016"
-  },
-  {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/25/us/waymo-denver-egg-throwing.html",
    "feed": "nytimes-business",
    "title": "A Man in Denver Has Been Throwing Eggs at Waymo Vehicles",
    "link": "https://www.nytimes.com/2026/11/25/us/waymo-denver-egg-throwing.html",
-   "date": "2026-11-25T21:36:34.000Z",
+   "date": "2026-11-25T21:36:35.000Z",
    "summary": "The man, who drove a Toyota Corolla from a fleet leased to Lyft drivers, used orange cones to trap the self-driving vehicles before pelting them with eggs, the police said. No charges have been filed.",
    "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25xp-waymos-pqcw/25xp-waymos-pqcw-mediumSquareAt3X.jpg"
   },
@@ -584,18 +908,9 @@
    "feed": "nytimes-business",
    "title": "A Rumored $300 Million Score on Nvidia’s Stock Surge Isn’t Backed by Trading Records",
    "link": "https://www.nytimes.com/2026/11/25/business/nvidia-stock-insider-trading-rumor.html",
-   "date": "2026-11-25T21:36:24.000Z",
+   "date": "2026-11-25T21:36:25.000Z",
    "summary": "Three data providers say they have no evidence to support the online claim that insider trading generated a 9,000 percent return.",
    "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25biz-nvidia-trade-misinfo-cpqz/25biz-nvidia-trade-misinfo-cpqz-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/25/business/stocks-sp500-nvidia-ai.html",
-   "feed": "nytimes-business",
-   "title": "Stocks Slump Again as Investors Fret About A.I., Tariffs and Inflation",
-   "link": "https://www.nytimes.com/2026/11/25/business/stocks-sp500-nvidia-ai.html",
-   "date": "2026-11-25T21:32:42.000Z",
-   "summary": "Nvidia and other tech companies fell as investors weighed developments in global trade and the path of interest rates.",
-   "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25biz-markets-tvlm/25biz-markets-tvlm-mediumSquareAt3X.jpg"
   },
   {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/25/technology/anthropic-stock-tech-start-ups.html",
@@ -706,13 +1021,13 @@
    "image": "https://img.semafor.com/0d2590957452bb2f4f5d57b351f5a52fcddf3d6f-4000x2668.jpg"
   },
   {
-   "id": "semafor:https://www.semafor.com/article/11/25/2026/huangs-return-to-nvidia-complicates-open-source-model-race",
-   "feed": "semafor",
-   "title": "Huang's return to Nvidia complicates open-source model race",
-   "link": "https://www.semafor.com/article/11/25/2026/huangs-return-to-nvidia-complicates-open-source-model-race",
-   "date": "2026-11-25T17:30:51.000Z",
-   "summary": "US President Donald Trump pushed for Jensen Huang’s reinstatement to the top of Nvidia because of his support for US open-weight models, which offer an alternative to Chinese versions. But Huang’s return could also spur Beijing to speed up its own push to build homegrown chips. Tech executives have waxed on about how…",
-   "image": "https://img.semafor.com/b54a72e2e2492f31b299b15197835344f6607af0-6500x4326.jpg"
+   "id": "planetizen:138948 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "Mamdani to replace Rikers Island with four borough-based jails",
+   "link": "https://www.planetizen.com/news/2026/11/138948-mamdani-replace-rikers-island-four-borough-based-jails",
+   "date": "2026-11-25T17:00:00.000Z",
+   "summary": "Rikers Island has long been infamous for violence and abuse. New York City Mayor Zohran Mamdani plans to shut down NYC’s Rikers Island jail in 2032, and replace it with “borough-based” jails in Manhattan, Brooklyn, Queens, and the Bronx, Connor Greene writes for Time Magazine. Rikers Island has long been infamous for…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2489871101.jpg.webp?itok=F2pxtwDB"
   },
   {
    "id": "planetizen:134742 at https://www.planetizen.com",
@@ -724,24 +1039,6 @@
    "image": ""
   },
   {
-   "id": "planetizen:138948 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "Mamdani to replace Rikers Island with four borough-based jails",
-   "link": "https://www.planetizen.com/news/2026/11/138948-mamdani-replace-rikers-island-four-borough-based-jails",
-   "date": "2026-11-25T17:00:00.000Z",
-   "summary": "Rikers Island has long been infamous for violence and abuse. New York City Mayor Zohran Mamdani plans to shut down NYC’s Rikers Island jail in 2032, and replace it with “borough-based” jails in Manhattan, Brooklyn, Queens, and the Bronx, Connor Greene writes for Time Magazine. Rikers Island has long been infamous for…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2489871101.jpg.webp?itok=F2pxtwDB"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/25/2026/democrats-long-2016-primary-is-finally-over-and-sanders-won",
-   "feed": "semafor",
-   "title": "Democrats’ long 2016 primary is finally over — and Sanders won",
-   "link": "https://www.semafor.com/article/11/25/2026/democrats-long-2016-primary-is-finally-over-and-sanders-won",
-   "date": "2026-11-25T16:53:54.000Z",
-   "summary": "David’s view I don’t want to sound hasty, but Democrats’ 2016 presidential primary finally ended this week. Bernie Sanders won. The Democratic National Committee’s mandate that candidates reject super PACs or forfeit the 2028 debate stage surprised some likely candidates for the nomination. It didn’t surprise the…",
-   "image": "https://img.semafor.com/5510f86346943220b31d2c521b7f3a075150deb0-3000x2001.jpg"
-  },
-  {
    "id": "cascadepbs:6b046c46f452450001a1b1fa",
    "feed": "cascadepbs",
    "title": "Reclaiming Thanksgiving from a Native perspective",
@@ -751,24 +1048,6 @@
    "image": "https://www.cascadepbs.org/content/images/2026/11/20261125_Header--1-.png"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/24/business/martha-firestone-ford-dead.html",
-   "feed": "nytimes-business",
-   "title": "Martha Firestone Ford, Owner of Detroit Lions, Dies at 101",
-   "link": "https://www.nytimes.com/2026/11/24/business/martha-firestone-ford-dead.html",
-   "date": "2026-11-25T16:18:53.000Z",
-   "summary": "Mrs. Ford, who took over the team after the 2014 death of her husband, William Clay Ford Sr., was one of a handful of female owners in the N.F.L.",
-   "image": "https://static01.nyt.com/images/2021/02/22/obituaries/Ford-01/Ford-01-mediumSquareAt3X-v2.jpg"
-  },
-  {
-   "id": "bloomberg-business:TOQW2RT96OSM00",
-   "feed": "bloomberg-business",
-   "title": "Poundland Collapses After Talks Fail, Risking 12,000 Jobs",
-   "link": "https://www.bloomberg.com/news/articles/2026-11-25/poundland-collapses-after-rescue-talks-fail-12-000-jobs-at-risk",
-   "date": "2026-11-25T16:16:09.000Z",
-   "summary": "Poundland collapsed into insolvency, putting thousands of jobs at risk after its US owner Gordon Brothers failed to secure a rescue of one of Britain’s biggest discount retailers.",
-   "image": ""
-  },
-  {
    "id": "smartcities:https://www.smartcitiesdive.com/news/atlanta-beltline-affordable-housing-land-rights/875715/",
    "feed": "smartcities",
    "title": "More than a trail: Atlanta Beltline supports affordable housing",
@@ -776,24 +1055,6 @@
    "date": "2026-11-25T16:13:00.000Z",
    "summary": "With the final section of property rights secured, the Atlanta Beltline can be completed by 2030, its CEO said.",
    "image": "https://imgproxy.divecdn.com/UEhlL5QkMH_lFrLVzLAkLi0bMdukD13miw4iGVWfcTQ/g:nowe:0:252/c:2500:1412/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9FZGdld29vZF9icmlkZ2VfdG9fdGhlX3NvdXRoX2Zyb21fY29ycmlkb3JfLV8yMDIxLjA5LmpwZw==.webp"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/25/2026/bidens-enduring-win",
-   "feed": "semafor",
-   "title": "Biden’s enduring win",
-   "link": "https://www.semafor.com/article/11/25/2026/bidens-enduring-win",
-   "date": "2026-11-25T16:11:07.000Z",
-   "summary": "Democrats can be thankful for at least one decision by the Trump administration this year: Health officials continued to empower Medicare to negotiate prescription drug prices, a signature achievement of former President Joe Biden. CMS announced this week that if newly negotiated prices had been in effect last year,…",
-   "image": "https://img.semafor.com/b010732fc06281bc7c0cbf3d11a52c85bec543a2-5847x4000.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/25/2026/patent-expiration-cliffs-spur-drugmaker-ma",
-   "feed": "semafor",
-   "title": "Patent expiration cliffs spur drugmaker M&A",
-   "link": "https://www.semafor.com/article/11/25/2026/patent-expiration-cliffs-spur-drugmaker-ma",
-   "date": "2026-11-25T16:08:06.000Z",
-   "summary": "The looming expiration of a blockbuster drug patent pushed Sanofi into its biggest M&A deal in two decades this week (and the largest pharma deal in three years). It won’t be the last. The French giant’s $41 billion takeover of respiratory drugmaker Insmed is in part a bid to replenish its pipeline ahead of the…",
-   "image": "https://img.semafor.com/db307353b3bcae53ae8c84743c07a62255121a00-5780x3854.jpg"
   },
   {
    "id": "smartcities:https://www.smartcitiesdive.com/news/heat-equity-begins-with-housing-equity/875734/",
@@ -832,15 +1093,6 @@
    "image": "https://imgproxy.divecdn.com/imIRmiHwbWjvaLSZM3DscliWu5wArCBJYnGh-kCxJ_c/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xNDQyMTI0MDgxLmpwZw==.webp"
   },
   {
-   "id": "cascadepbs:6b070629f452450001a2995a",
-   "feed": "cascadepbs",
-   "title": "St. Denis Medical",
-   "link": "https://www.cascadepbs.org/show/flicks/episode/st-denis-medical-adflep/",
-   "date": "2026-11-25T15:30:52.000Z",
-   "summary": "David Alan Grier talks with Patrick Stoner about the changes in comedy since he started decades ago.",
-   "image": "https://www.cascadepbs.org/content/images/2026/11/9e29275b-ef05-4b2d-8fb1-9be20a47f56b.jpg"
-  },
-  {
    "id": "planetizen:138945 at https://www.planetizen.com",
    "feed": "planetizen",
    "title": "‘A price cannot be put on democracy:’ Local leaders protest UMich data center",
@@ -859,15 +1111,6 @@
    "image": "https://images.wsj.net/im-53931520"
   },
   {
-   "id": "planetizen:138944 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "Is Trump trying to ‘eliminate funding provided by Congress for transit projects’?",
-   "link": "https://www.planetizen.com/news/2026/11/138944-trump-trying-eliminate-funding-provided-congress-transit-projects",
-   "date": "2026-11-25T14:00:00.000Z",
-   "summary": "The White House has pushed over $5 billion in Capital Investment Grants funds that could have been spent immediately to fiscal year 2028. Since President Trump began his second term, his administration has awarded just one grant from the multibillion-dollar Capital Investment Grants program, writes Emily Badger for…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2853692461.jpg.webp?itok=Z2sCOoiL"
-  },
-  {
    "id": "urbanist:6b05c956ce05ba000175b929",
    "feed": "urbanist",
    "title": "King County Metro Pushes Back Seattle Bus Service Restoration",
@@ -875,69 +1118,6 @@
    "date": "2026-11-25T14:00:00.000Z",
    "summary": "Seattle transit riders are set to wait longer for promised bus service increases, as King County Metro pushes back planned service restorations within the city that had been on deck for 2027. Over the course of the year, 114,000 hours of new bus service has been in the works for years as part of the agency's Covid-19…",
    "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/11/20261108_150857.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/25/2026/us-proposes-sweeping-new-tariffs-on-china-others",
-   "feed": "semafor",
-   "title": "US proposes sweeping new tariffs on China, others",
-   "link": "https://www.semafor.com/article/11/25/2026/us-proposes-sweeping-new-tariffs-on-china-others",
-   "date": "2026-11-25T13:48:58.000Z",
-   "summary": "The Trump administration is proposing new tariffs on China, the European Union, and a dozen other trading partners it says have distorted the global market by overproducing goods like automobiles, batteries and chemicals. The so-called excess capacity tariffs , which conclude investigations begun in March, comply…",
-   "image": "https://img.semafor.com/05fd031e8ab19f0b2c122c040a9a4ca0c31854ee-5500x3667.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/24/2026/gaza-group-to-air-defund-israel-ad-during-snl",
-   "feed": "semafor",
-   "title": "Gaza group to air defund Israel ad during SNL",
-   "link": "https://www.semafor.com/article/11/24/2026/gaza-group-to-air-defund-israel-ad-during-snl",
-   "date": "2026-11-25T13:36:33.000Z",
-   "summary": "The Scoop A pro-Palestinian group is stepping up its efforts against U.S. support for Israel, with new polling about the damage it did to Republicans this year and a new ad that will air during Saturday Night Live. The 30-second spot from the Institute for Middle East Understanding Policy Project, which shared it…",
-   "image": "https://img.semafor.com/08cec333eaa94b86847eb79133f33dccaaa25b66-1674x940.png"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/25/2026/the-dopamine-hit-in-markets-from-jensen-huangs-comeback-has-already-faded",
-   "feed": "semafor",
-   "title": "The dopamine hit in markets from Jensen Huang's comeback has already faded",
-   "link": "https://www.semafor.com/article/11/25/2026/the-dopamine-hit-in-markets-from-jensen-huangs-comeback-has-already-faded",
-   "date": "2026-11-25T13:35:49.000Z",
-   "summary": "Liz’s view The #SaveJensen punch wore off fast. The dopamine hit from Huang’s comeback that sent shares surging 31% on Monday has already faded as investors remember why they’d been selling: AI money is too expensive, AI demand too tenuous, AI politics too uncertain. By Tuesday, Nvidia’s shares had closed at their…",
-   "image": "https://img.semafor.com/7edf5fa610ca5918956822884b96e2c8597b7181-6500x4326.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/25/2026/anthropic-stock-tumble-shows-ipo-gamesmanship",
-   "feed": "semafor",
-   "title": "Anthropic stock tumble shows IPO gamesmanship",
-   "link": "https://www.semafor.com/article/11/25/2026/anthropic-stock-tumble-shows-ipo-gamesmanship",
-   "date": "2026-11-25T13:27:03.000Z",
-   "summary": "IPO allocation gamesmanship strikes again, this time at Anthropic. Anthropic shares fell below their $83-a-share IPO price on Tuesday, careening toward the original target of $78 a share. The listing was reportedly six times oversubscribed, so where did those buyers go? Investors in anticipated deals ask for more…",
-   "image": "https://img.semafor.com/e4f9f94b7d4c54a707921a42d5517105809202e6-4327x2885.jpg"
-  },
-  {
-   "id": "semafor:afor.com/article/11/25/2026/five-baobab-trees-replanted-in-a-south-african-nature-reserve-after-attempted-illegal-export",
-   "feed": "semafor",
-   "title": "South Africa baobab trees replanted after smuggling attempt",
-   "link": "https://www.semafor.com/article/11/25/2026/five-baobab-trees-replanted-in-a-south-african-nature-reserve-after-attempted-illegal-export",
-   "date": "2026-11-25T13:26:59.000Z",
-   "summary": "Five baobabs have been replanted in a South African nature reserve after being uprooted and trucked to Durban’s port, where they were going to be illegally exported. A landscaping company had sold the two-century-old trees, revered in many parts of Africa, to a customer in the Caucasus country of Georgia without…",
-   "image": "https://img.semafor.com/144fdb177ded51ff2e3ea085c95cf4e2d92d0d66-1600x1200.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/25/2026/senegal-restored-as-champions-of-africas-top-football-competition",
-   "feed": "semafor",
-   "title": "Senegal restored as AFCON champions",
-   "link": "https://www.semafor.com/article/11/25/2026/senegal-restored-as-champions-of-africas-top-football-competition",
-   "date": "2026-11-25T13:21:25.000Z",
-   "summary": "Senegal were reinstated as the winners of Africa’s top football competition, after a court in Switzerland overturned a decision by the sport’s continental governing body that had declared Morocco the champions. January’s Africa Cup of Nations final in Rabat descended into chaos after Senegalese players walked off the…",
-   "image": "https://img.semafor.com/3f4c75c928635694de2f6eb44b445f6551c87d34-2048x1365.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/25/2026/telecoms-giant-mtn-and-telkom-talks-draw-union-fire",
-   "feed": "semafor",
-   "title": "MTN and Telkom talks draw South Africa union fire",
-   "link": "https://www.semafor.com/article/11/25/2026/telecoms-giant-mtn-and-telkom-talks-draw-union-fire",
-   "date": "2026-11-25T13:19:28.000Z",
-   "summary": "South Africa’s biggest trade union federation backed workers angry at their exclusion from discussions over telecoms giant MTN’s potential takeover of partly state-owned Telkom, escalating political scrutiny of a proposed transaction that could reshape one of Africa’s largest mobile markets. COSATU is supporting its…",
-   "image": "https://img.semafor.com/120ac8443d08db561a4dbd236cc98851576faa67-2048x1292.jpg"
   },
   {
    "id": "wsj-business:WP-WSJ-0004093722",
@@ -949,24 +1129,6 @@
    "image": "https://images.wsj.net/im-14586025"
   },
   {
-   "id": "semafor:https://www.semafor.com/article/11/25/2026/nigeria-holds-benchmark-interest-rate-before-elections-in-january",
-   "feed": "semafor",
-   "title": "Nigeria holds interest rate before January elections",
-   "link": "https://www.semafor.com/article/11/25/2026/nigeria-holds-benchmark-interest-rate-before-elections-in-january",
-   "date": "2026-11-25T13:13:45.000Z",
-   "summary": "Nigeria’s central bank held its benchmark interest rate at 23%, with its governor expressing confidence that West Africa’s largest economy was stable ahead of crunch elections in January. The bank’s rate-setting committee pointed to slowing inflation, which has eased for five consecutive months, but noted that…",
-   "image": "https://img.semafor.com/8773f33238b145c45a5b03bcedc39a4194a262fb-3440x2288.jpg"
-  },
-  {
-   "id": "planetizen:138942 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "22 states sue feds over rule stripping housing aid from mixed-status immigrant families",
-   "link": "https://www.planetizen.com/news/2026/11/138942-22-states-sue-feds-over-rule-stripping-housing-aid-mixed-status-immigrant",
-   "date": "2026-11-25T13:00:00.000Z",
-   "summary": "Housing and Urban Development Secretary Scott Turner. This story was originally published in Stateline , which reports on the big challenges that cross state borders. A coalition of 22 states is suing to block a federal rule change that would strip housing assistance from “mixed-status” families — those including…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2582617251.jpg.webp?itok=gfWXJJ2E"
-  },
-  {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/25/business/dealbook/nvidia-huang-ai-rally.html",
    "feed": "nytimes-business",
    "title": "Why the Nvidia Rally Fizzled",
@@ -974,15 +1136,6 @@
    "date": "2026-11-25T12:53:55.000Z",
    "summary": "Jensen Huang may be running Nvidia again, but investors are losing faith in the artificial intelligence boom the chipmaker has underpinned.",
    "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25db-nvda-kfvq/25db-nvda-kfvq-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/25/2026/africas-cashless-revolution-faces-ai-challenge",
-   "feed": "semafor",
-   "title": "Africa’s cashless revolution faces AI challenge",
-   "link": "https://www.semafor.com/article/11/25/2026/africas-cashless-revolution-faces-ai-challenge",
-   "date": "2026-11-25T12:38:55.000Z",
-   "summary": "Alexis’s view The phrase “cash is king” remains true across Africa in a way that it doesn’t in other parts of the world. In many African countries, the informal economy dominates and the flow of cash unites millions of entrepreneurs. But it’s also true that the continent has for years been at the vanguard of digital…",
-   "image": "https://img.semafor.com/27fa48f2863fe8c77dee3d88bbbab0c7e4dcc974-4362x2577.jpg"
   },
   {
    "id": "wsj-business:WP-WSJ-0004094117",
@@ -994,33 +1147,6 @@
    "image": "https://images.wsj.net/im-78482211"
   },
   {
-   "id": "semafor:https://www.semafor.com/article/11/25/2026/saudi-arabia-can-fund-a-prolonged-war-finance-minister-says",
-   "feed": "semafor",
-   "title": "Saudi Arabia can fund a ‘prolonged’ war, Finance Minister says",
-   "link": "https://www.semafor.com/article/11/25/2026/saudi-arabia-can-fund-a-prolonged-war-finance-minister-says",
-   "date": "2026-11-25T12:13:08.000Z",
-   "summary": "The News Saudi Arabia can withstand the regional war without derailing its finances, Finance Minister Mohammed Al Jadaan said, warning adversaries that missile attacks on civilian targets won’t force the kingdom’s hand. The idea that Saudi Arabia “can be blackmailed” by missile attacks on civilian targets “is a total…",
-   "image": "https://img.semafor.com/d5f631d52e9359d49a650791759875e8a1f5acf1-5510x3673.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/25/2026/solomon-islands-drops-china-pact-turns-to-australia",
-   "feed": "semafor",
-   "title": "Solomon Islands drops China pact, turns to Australia",
-   "link": "https://www.semafor.com/article/11/25/2026/solomon-islands-drops-china-pact-turns-to-australia",
-   "date": "2026-11-25T12:05:47.000Z",
-   "summary": "The Solomon Islands scrapped a security pact with China in favor of one with Australia , a reversal that dealt a major blow to Beijing’s efforts to expand its influence in the Pacific. The 2022 agreement allowed China to rotate police training teams through the Solomon Islands, sparking alarm in Washington and…",
-   "image": "https://img.semafor.com/2fe18e677ed47b9e0f008780277d2d72e4e49f6a-2048x1366.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/25/2026/un-warns-aids-is-on-the-rise-following-western-aid-cuts",
-   "feed": "semafor",
-   "title": "UN warns AIDS is on the rise following Western aid cuts",
-   "link": "https://www.semafor.com/article/11/25/2026/un-warns-aids-is-on-the-rise-following-western-aid-cuts",
-   "date": "2026-11-25T12:04:40.000Z",
-   "summary": "The head of the United Nations’ agency for AIDS said infections worldwide were likely to rise as the worst-affected countries struggle to contain the fallout of Western aid cuts. HIV cases have plummeted from their mid-1990s peak: Data released on Tuesday showed new infections hit a recent low of 1.2 million last…",
-   "image": "https://img.semafor.com/45e635538de44f94436fb2969ea076b272107730-4677x3163.jpg"
-  },
-  {
    "id": "wsj-business:WP-WSJ-0004093905",
    "feed": "wsj-business",
    "title": "Shein Profit Rises Despite Lower Revenue as It Adapts to Trade Challenges",
@@ -1028,15 +1154,6 @@
    "date": "2026-11-25T11:08:00.000Z",
    "summary": "Fast-fashion retailer Shein posted resilient quarterly earnings as it adjusted to trade challenges in key markets that pressure its low-cost, high-volume business model.",
    "image": "https://images.wsj.net/im-55931868"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/25/business/dealbook/watch-task-force-dealbook-summit.html",
-   "feed": "nytimes-business",
-   "title": "Watch the Task Force Panel Discussions From the DealBook Summit",
-   "link": "https://www.nytimes.com/2026/11/25/business/dealbook/watch-task-force-dealbook-summit.html",
-   "date": "2026-11-25T11:01:04.000Z",
-   "summary": "See the full conversations, led by journalists from The Times, about the impact of the midterm elections, what to expect next in the A.I. revolution, how to make America healthier and the future of work and purpose.",
-   "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25db-watch-summit-task-forces-zmtq/25db-watch-summit-task-forces-zmtq-mediumSquareAt3X.jpg"
   },
   {
    "id": "stb:https://seattletransitblog.com/?p=151091",
@@ -1055,33 +1172,6 @@
    "date": "2026-11-25T10:46:00.000Z",
    "summary": "Li Auto recorded a third straight quarter of losses despite selling more cars, a sign of mounting challenges for a company once considered a leader in the Chinese plug-in hybrid market.",
    "image": "https://images.wsj.net/im-01959552"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/25/technology/personaltech/apps-widgets.html",
-   "feed": "nytimes-business",
-   "title": "How to Use Your Apps With Fewer Taps",
-   "link": "https://www.nytimes.com/2026/11/25/technology/personaltech/apps-widgets.html",
-   "date": "2026-11-25T10:03:56.000Z",
-   "summary": "With pop-up menus and widgets, your phone or tablet gives you quick ways to check information and get things done with less effort.",
-   "image": "https://static01.nyt.com/images/2026/11/26/technology/personaltech/25BIZ-TECHTIP-TOP-lrint/25BIZ-TECHTIP-TOP-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/25/upshot/tarmac-delays-flights-trump.html",
-   "feed": "nytimes-business",
-   "title": "Trapped on the Tarmac: 3-Hour Flight Delays Spike Under Trump",
-   "link": "https://www.nytimes.com/2026/11/25/upshot/tarmac-delays-flights-trump.html",
-   "date": "2026-11-25T10:03:47.000Z",
-   "summary": "Long delays have risen to levels not seen in more than 15 years, with no enforcement in sight.",
-   "image": "https://static01.nyt.com/images/2026/11/24/multimedia/2026-11-16-tarmacdelays-index/2026-11-16-tarmacdelays-index-mediumSquareAt3X-v15.png"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/25/business/media/bob-iger-disney-robbie-whelan.html",
-   "feed": "nytimes-business",
-   "title": "As Bob Iger Exits Disney for Good, an Unwelcome Biography Arrives",
-   "link": "https://www.nytimes.com/2026/11/25/business/media/bob-iger-disney-robbie-whelan.html",
-   "date": "2026-11-25T10:02:47.000Z",
-   "summary": "“The House of Mouse” challenges the image the company’s former chief has cultivated over decades. He is scheduled to attend his final Disney board meeting next week.",
-   "image": "https://static01.nyt.com/images/2026/11/24/multimedia/24biz-disney-iger-3-ctbh/24biz-disney-iger-3-ctbh-mediumSquareAt3X.jpg"
   },
   {
    "id": "streetsblog:https://nyc.streetsblog.org/?p=604371",
@@ -1109,15 +1199,6 @@
    "date": "2026-11-25T07:32:00.000Z",
    "summary": "The e-commerce juggernaut is expanding its auto services to its first overseas market.",
    "image": "https://images.wsj.net/im-98590525"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004093640",
-   "feed": "wsj-business",
-   "title": "Prosus Posts Lower Net Profit on Smaller Gain From Tencent Stock Sales",
-   "link": "https://www.wsj.com/business/earnings/prosus-posts-lower-net-profit-on-smaller-gain-from-tencent-stock-sales-c3996e02?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-25T06:36:00.000Z",
-   "summary": "The Amsterdam-listed company attributed the decline to a $2.5 billion lower gain on the disposal of fewer Tencent shares.",
-   "image": "https://images.wsj.net/im-49310"
   },
   {
    "id": "morning-brew:https://www.morningbrew.com/stories/macys-t-day-parade-might-be-without-balloons",
@@ -1192,60 +1273,6 @@
    "image": "https://images.wsj.net/im-69179874"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/24/business/dealbook/health-care-task-force.html",
-   "feed": "nytimes-business",
-   "title": "DealBook Summit 2026: It’s Time to Fix Health Care",
-   "link": "https://www.nytimes.com/2026/11/24/business/dealbook/health-care-task-force.html",
-   "date": "2026-11-25T01:24:19.000Z",
-   "summary": "Experts said problems of cost, trust and dysfunction had reached crisis levels, but voters could be the impetus to force change.",
-   "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25sp-dealbook-health-taskforce-cvqw/25sp-dealbook-health-taskforce-cvqw-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/24/business/dealbook/world-chaos-pragmatism.html",
-   "feed": "nytimes-business",
-   "title": "DealBook Summit 2026: The Cost of Being Pragmatic in a Chaotic World",
-   "link": "https://www.nytimes.com/2026/11/24/business/dealbook/world-chaos-pragmatism.html",
-   "date": "2026-11-24T23:03:18.000Z",
-   "summary": "At the summit marking DealBook’s 25th year, business leaders explored the dangers of mistrust in turbulent times.",
-   "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25sp-dealbook-cover-web/25sp-dealbook-cover-web-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/24/business/dealbook/work-jobs-task-force.html",
-   "feed": "nytimes-business",
-   "title": "DealBook Summit 2026: Help Wanted to Succeed in an A.I. World",
-   "link": "https://www.nytimes.com/2026/11/24/business/dealbook/work-jobs-task-force.html",
-   "date": "2026-11-24T23:01:20.000Z",
-   "summary": "While young people are facing daunting challenges in the labor market, there are ways to improve the chance of landing a good job.",
-   "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25sp-dealbook-work-taskforce-pqtg/25sp-dealbook-work-taskforce-pqtg-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/24/business/dealbook/midterm-elections-task-force.html",
-   "feed": "nytimes-business",
-   "title": "DealBook Summit 2026: After the Upheaval From the Midterm Elections, Who Has the Edge in 2028?",
-   "link": "https://www.nytimes.com/2026/11/24/business/dealbook/midterm-elections-task-force.html",
-   "date": "2026-11-24T23:00:25.000Z",
-   "summary": "Are the Democrats’ gains in the midterm elections lasting? Or just another swing of the political pendulum?",
-   "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25sp-dealbook-elections-taskforce-2-fghl/25sp-dealbook-elections-taskforce-2-fghl-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/24/business/dealbook/ai-task-force.html",
-   "feed": "nytimes-business",
-   "title": "DealBook Summit 2026: Rein in A.I., but Don’t Pause It",
-   "link": "https://www.nytimes.com/2026/11/24/business/dealbook/ai-task-force.html",
-   "date": "2026-11-24T22:59:27.000Z",
-   "summary": "A panel of experts said protections on artificial intelligence could be adopted without stifling the technology’s development.",
-   "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25sp-dealbook-ai-taskforce-cgtj/25sp-dealbook-ai-taskforce-cgtj-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/24/business/dealbook/dealbook-summit-groundbreakers.html",
-   "feed": "nytimes-business",
-   "title": "DealBook Summit 2026: Groundbreakers Tell What Is On Their Minds",
-   "link": "https://www.nytimes.com/2026/11/24/business/dealbook/dealbook-summit-groundbreakers.html",
-   "date": "2026-11-24T22:57:53.000Z",
-   "summary": "Leaders from a range of disciplines who led talks at the summit about global issues responded to questions in advance. Their answers have been lightly edited.",
-   "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25sp-dealbook-groundbreakers-3-tklf/25sp-dealbook-groundbreakers-3-tklf-mediumSquareAt3X.jpg"
-  },
-  {
    "id": "wsj-business:WP-WSJ-0004092426",
    "feed": "wsj-business",
    "title": "Jensen Huang Apologized to Nvidia Staff in Company Meeting",
@@ -1316,15 +1343,6 @@
    "date": "2026-11-24T11:00:00.000Z",
    "summary": "Earlier this year Sound Transit provided a simplified design for the Delridge Link Station. If the West Seattle Link Extension gets built, Ross pointed out how RapidRide H buses will need to detour to serve the station. That would eliminate any travel time advantages gained by running on rails even if bus and trains…",
    "image": "https://i0.wp.com/live.staticflickr.com/65535/52553893740_f427c9d338.jpg?resize=500%2C316&#038;ssl=1"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004090413",
-   "feed": "wsj-business",
-   "title": "Sanofi Strikes $41 Billion Deal to Buy U.S. Drugmaker Insmed",
-   "link": "https://www.wsj.com/business/deals/sanofi-to-buy-insmed-for-41-0-billion-36d6b07d?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-24T09:39:00.000Z",
-   "summary": "The deal is the largest in pharmaceuticals this year and bolsters the French company’s drug pipeline.",
-   "image": "https://images.wsj.net/im-38799467"
   },
   {
    "id": "streetsblog:https://usa.streetsblog.org/?p=296374",
@@ -1768,15 +1786,6 @@
    "image": "https://morningbrew.com/cdn-cgi/image/fit=cover,format=jpeg,width=1600,height=900,quality=80,trim=116;0;116;0/https://storage.morningbrew.com/image/2026-11-17/image-4dff5f936e3a064f00658596bffc5f5fcadcb394-2223x1482-jpg/MBD-MarthaStewartKalshi-1126.jpg"
   },
   {
-   "id": "urbanist:6afb63ecdc8e5700017aef75",
-   "feed": "urbanist",
-   "title": "Op-Ed: Microsoft’s PAC Failed, but Governor Ferguson Is Still Coming to Heel",
-   "link": "https://www.theurbanist.org/op-ed-microsofts-pac-failed-but-governor-ferguson-is-still-coming-to-heel/",
-   "date": "2026-11-18T02:22:24.000Z",
-   "summary": "Two weeks ago, after the blue tsunami buried Trump’s legions and his megacorporate allies, Governor Bob Ferguson convened a session of his newly established Economic Development Council. This wasn’t about taking advantage of this wide-open moment of political opportunity to advance policies for working people in our…",
-   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/11/Bob-Ferguson-signs-exec-order-streamlining-gov-with-Brad-Smith-and-Rachel-Smith.jpg"
-  },
-  {
    "id": "strongtowns:https://www.strongtowns.org/journal/2026-11-18-americas-aging-suburbs-dont-need-to-start-over-from-scratch",
    "feed": "strongtowns",
    "title": "America's Aging Suburbs Don't Need to Start Over From Scratch",
@@ -1820,15 +1829,6 @@
    "date": "2026-11-14T18:34:16.000Z",
    "summary": "As I explained in an earlier guideway post, Sound Transit chose light rail technology to make it easier to use the existing transit tunnel and to run and stop at grade but many new technologies have been developed since. As Sound Transit builds a lot more elevated and tunneled sections and opens new lines in urban…",
    "image": "https://i0.wp.com/seattletransitblog.com/wp-content/uploads/2026/11/image-9.png?resize=525%2C256&#038;ssl=1"
-  },
-  {
-   "id": "stb:https://seattletransitblog.com/?p=150738",
-   "feed": "stb",
-   "title": "Friday Roundtable: Cascadia High-Speed Rail and I-5",
-   "link": "https://seattletransitblog.com/2026/11/13/friday-roundtable-cascadia-high-speed-rail-and-i-5/",
-   "date": "2026-11-13T13:52:00.000Z",
-   "summary": "To plan the next generation of north-south travel in western Washington, the Washington State Department of Transportation (WSDOT) is working on the I-5 Master Plan and the Cascadia High Speed Rail project. These two projects have been integrated into a combined Cascaida Program . WSDOT is asking for your feedback on…",
-   "image": "https://i0.wp.com/seattletransitblog.com/wp-content/uploads/2026/11/image-11.png?resize=525%2C958&#038;ssl=1"
   },
   {
    "id": "strongtowns:https://www.strongtowns.org/journal/2026-11-13-what-do-we-mean-when-we-say-housing-has-value",
