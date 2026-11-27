@@ -236,7 +236,7 @@ if(page==="contact"){
     const text=im.value.trim();
     if(!text){im.focus();S.say("Type a message first, then Send opens it in your email.",{ms:3000});return}
     const p=document.createElement("p");p.innerHTML=`<b class="me-msg">You</b> <span class="ts">(${tf(new Date())})</span>: `;p.append(text);$("#imLog").appendChild(p);$("#imLog").scrollTop=1e9;
-    location.href="mailto:christopheratritt@gmail.com?subject="+encodeURIComponent("Hello from your website")+"&body="+encodeURIComponent(text);
+    location.href="mailto:contact@christophertritt.com?subject="+encodeURIComponent("Hello from your website")+"&body="+encodeURIComponent(text);
     im.value="";
   });
   im.addEventListener("keydown",e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();form.requestSubmit()}});
