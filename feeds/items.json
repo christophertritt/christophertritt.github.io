@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T09:30:04.147Z",
+ "updated": "2026-11-27T23:18:54.492Z",
  "feeds": [
   {
    "id": "planetizen",
@@ -121,6 +121,492 @@
  ],
  "items": [
   {
+   "id": "bloomberg-business:TP6OE5WWD62O00",
+   "feed": "bloomberg-business",
+   "title": "Nvidia Chip Used in China, Reuters: US Air Force Hacked, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-27/nvidia-chip-used-in-china-reuters-us-air-force-hacked-more",
+   "date": "2026-11-27T23:10:53.000Z",
+   "summary": "Source: Bloomberg, 5:01",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TP6N1GRKV2UD00",
+   "feed": "bloomberg-business",
+   "title": "Anthropic Ends Week Above IPO Price: Evening Briefing Americas",
+   "link": "https://www.bloomberg.com/news/newsletters/2026-11-27/anthropic-ends-week-above-ipo-price-evening-briefing-americas",
+   "date": "2026-11-27T22:41:40.000Z",
+   "summary": "Get caught up.",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TP6LWTO32FWG00",
+   "feed": "bloomberg-business",
+   "title": "Ford CEO Jim Farley Talks Ford GT41 and Racing (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-27/ford-ceo-jim-farley-talks-ford-gt41-and-racing-podcast-mwzjkojx",
+   "date": "2026-11-27T22:17:17.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TP6LW6UT4Z5S00",
+   "feed": "bloomberg-business",
+   "title": "Bloomberg Hot Pursuit!: The Autopian's Matt Hardigree (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-27/bloomberg-hot-pursuit-the-autopian-s-matt-hardigree-podcast",
+   "date": "2026-11-27T22:16:54.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/27/business/nvidia-jensen-huang-trump-markets.html",
+   "feed": "nytimes-business",
+   "title": "How to Live Calmly, Despite Stock Market Whiplash",
+   "link": "https://www.nytimes.com/2026/11/27/business/nvidia-jensen-huang-trump-markets.html",
+   "date": "2026-11-27T22:16:28.000Z",
+   "summary": "Nvidia has been down, up, and down again, and the market has followed. But there’s no need for long-term, diversified investors to alter their course, our columnist says.",
+   "image": "https://static01.nyt.com/images/2026/11/29/business/27bizsun-strategies/27bizsun-strategies-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "bloomberg-business:TP6LNIKGIFPD00",
+   "feed": "bloomberg-business",
+   "title": "Black Friday Shoppers Trim Budgets While Thanksgiving Spending Hits $7.1 Billion",
+   "link": "https://www.bloomberg.com/news/newsletters/2026-11-27/black-friday-shoppers-trim-budgets-while-thanksgiving-spending-hits-7-1-billion",
+   "date": "2026-11-27T22:11:42.000Z",
+   "summary": "Plus: FDI rises to its highest level in over two years",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TP6KWZWWD62O00",
+   "feed": "bloomberg-business",
+   "title": "Nvidia Chip Used in China, OpenAI Countersues Apple, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-27/nvidia-chip-used-in-china-openai-countersues-apple-more",
+   "date": "2026-11-27T21:55:47.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "urbanist:6b01c57dc1c1a50001564379",
+   "feed": "urbanist",
+   "title": "Harborview Injury Center Recommends Nightly E-Scooter Curfew",
+   "link": "https://www.theurbanist.org/harborview-injury-center-recommends-nightly-e-scooter-curfew/",
+   "date": "2026-11-27T21:53:59.000Z",
+   "summary": "A prominent Seattle injury research center is advocating for changes to how e-scooter rentals are regulated, presenting recommendations last week that included a full nighttime curfew on the devices, along with better age verification. The recommendations come in response to increased rates of injuries from scooter…",
+   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/11/IMG_20241127_142340051_HDR-EDIT.jpg"
+  },
+  {
+   "id": "bloomberg-business:TP6I2WWWD62O00",
+   "feed": "bloomberg-business",
+   "title": "Nvidia Chip Used In China, Reuters: USAF Hacked, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-27/nvidia-chip-used-in-china-reuters-usaf-hacked-more-mwzgm97k",
+   "date": "2026-11-27T20:54:32.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TP6HIYWWD62O00",
+   "feed": "bloomberg-business",
+   "title": "Ford CEO Jim Farley Talks Ford GT41 and Racing (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-27/ford-ceo-jim-farley-talks-ford-gt41-and-racing-podcast",
+   "date": "2026-11-27T20:42:34.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TP6FLJWWD62O00",
+   "feed": "bloomberg-business",
+   "title": "Chinese Firms Install Nvidia Blackwell, Stocks Rally, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-27/chinese-firms-install-nvidia-blackwell-stocks-rally-more",
+   "date": "2026-11-27T20:00:55.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TP6EPOXVHD6O00",
+   "feed": "bloomberg-business",
+   "title": "Stock Movers: AI Stocks, Alvotech, Vertex (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-27/stock-movers-ai-stocks-alvotech-vertex-podcast",
+   "date": "2026-11-27T19:41:48.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/26/nyregion/macys-thanksgiving-parade-history-timeline.html",
+   "feed": "nytimes-business",
+   "title": "Photos: Macy’s Thanksgiving Day Parade History and Wacky Moments",
+   "link": "https://www.nytimes.com/2026/11/26/nyregion/macys-thanksgiving-parade-history-timeline.html",
+   "date": "2026-11-27T19:28:36.000Z",
+   "summary": "It isn’t always easy to keep New York City’s Thanksgiving parade on track. Here’s a look back at notable moments and mishaps.",
+   "image": "https://static01.nyt.com/images/2026/11/25/multimedia/xp-parade-moments-photos-01-zqpc/xp-parade-moments-photos-01-zqpc-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "bloomberg-business:TP6CW9UT4Z5S00",
+   "feed": "bloomberg-business",
+   "title": "Nvidia Blackwell Tech Used in China, Stocks Climb, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-27/nvidia-blackwell-tech-used-in-china-stocks-climb-more",
+   "date": "2026-11-27T19:02:33.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TP6CCWO32FWG00",
+   "feed": "bloomberg-business",
+   "title": "Bloomberg Businessweek Weekend - November 27th, 2026 (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-27/bloomberg-businessweek-weekend-november-27th-2026-podcast",
+   "date": "2026-11-27T18:50:56.000Z",
+   "summary": "Source: Bloomberg, 40:33",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TP6CCMO32FWG00",
+   "feed": "bloomberg-business",
+   "title": "Stock Movers: Nvidia, Dollar Tree, Verizon (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-27/stock-movers-nvidia-dollar-tree-verizon-podcast",
+   "date": "2026-11-27T18:50:46.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TP6BOQUT4Z5S00",
+   "feed": "bloomberg-business",
+   "title": "Bloomberg Businessweek Daily: Black Friday Special (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-27/bloomberg-businessweek-daily-black-friday-special-podcast",
+   "date": "2026-11-27T18:36:26.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004098900",
+   "feed": "wsj-business",
+   "title": "Auto & Transport Roundup: Market Talk",
+   "link": "https://www.wsj.com/business/earnings/auto-transport-roundup-market-talk-7ba86b3a?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-27T18:22:00.000Z",
+   "summary": "Gain insight on Gulf airlines, Canadian autoworkers and more in the latest Market Talks covering the auto and transport sector.",
+   "image": "https://images.wsj.net/im-02834915"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/27/business/stocks-tech-stocks-ai.html",
+   "feed": "nytimes-business",
+   "title": "Stocks Rally at End of a Week of Wild Swings",
+   "link": "https://www.nytimes.com/2026/11/27/business/stocks-tech-stocks-ai.html",
+   "date": "2026-11-27T18:13:54.000Z",
+   "summary": "Volatility has buffeted investors in an eventful but holiday-shortened series of trading sessions.",
+   "image": "https://static01.nyt.com/images/2026/11/27/multimedia/27markets-promo-pvkw/27markets-promo-pvkw-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "bloomberg-business:TP6ALWWWD62O00",
+   "feed": "bloomberg-business",
+   "title": "Markets Close Higher, Nvidia Chip Used at China, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-27/markets-close-higher-nvidia-chip-used-at-china-more",
+   "date": "2026-11-27T18:13:08.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TP6A7BXVHD6O00",
+   "feed": "bloomberg-business",
+   "title": "Masters in Business: Holly MacDonald (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-27/masters-in-business-holly-macdonald-podcast",
+   "date": "2026-11-27T18:04:23.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "cascadepbs:6b09fd77f452450001a3c6b5",
+   "feed": "cascadepbs",
+   "title": "Eviction Filings Hit Record High In Travis County",
+   "link": "https://www.cascadepbs.org/show/decibel/extras/eviction-filings-hit-record-high-in-travis-county-2i9hx5/",
+   "date": "2026-11-27T18:00:56.000Z",
+   "summary": "A new report shows that eviction filing rates hit a record high last year in Travis County. But rents have been falling across Austin as a host of new apartments have become available. So what’s driving these filing increases? And who’s being impacted the most?",
+   "image": "https://www.cascadepbs.org/content/images/2026/11/31cf83f7-bfcd-4efb-be5b-8e27302fcbf8.jpg"
+  },
+  {
+   "id": "bloomberg-business:TP69N4O2LL3400",
+   "feed": "bloomberg-business",
+   "title": "Weekend Law: Supreme Court Special (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-27/weekend-law-supreme-court-special-podcast",
+   "date": "2026-11-27T17:52:16.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TP68RWWWD62O00",
+   "feed": "bloomberg-business",
+   "title": "Bloomberg Businessweek Daily: Powering the Energy Boom (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-27/bloomberg-businessweek-daily-powering-the-energy-boom-podcast",
+   "date": "2026-11-27T17:33:32.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "bloomberg-business:TP67SKUT4Z5S00",
+   "feed": "bloomberg-business",
+   "title": "Nvidia Chip Used In China, Reuters: USAF Hacked, More",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-27/nvidia-chip-used-in-china-reuters-usaf-hacked-more",
+   "date": "2026-11-27T17:12:20.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004096268",
+   "feed": "wsj-business",
+   "title": "Inside China’s $4 Billion Secondhand Luxury Boom",
+   "link": "https://www.wsj.com/world/china/inside-chinas-4-billion-secondhand-luxury-boom-cfa3dc5c?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-27T17:12:00.000Z",
+   "summary": "Watch WSJ’s Hannah Miao explore one of China’s biggest resale megastores to understand what’s behind the country’s shifting consumer habits.",
+   "image": "https://images.wsj.net/im-11676387"
+  },
+  {
+   "id": "bloomberg-business:TP67GJUT4Z5S00",
+   "feed": "bloomberg-business",
+   "title": "Bloomberg Intelligence: Black Friday 2026 Special (Podcast)",
+   "link": "https://www.bloomberg.com/news/audio/2026-11-27/bloomberg-intelligence-black-friday-2026-special-podcast",
+   "date": "2026-11-27T17:05:07.000Z",
+   "summary": "Source: Bloomberg, 0:00",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/27/business/media/old-tv-shows-mad-men.html",
+   "feed": "nytimes-business",
+   "title": "It’s Boom Times for Old TV Shows. New TV, Not So Much.",
+   "link": "https://www.nytimes.com/2026/11/27/business/media/old-tv-shows-mad-men.html",
+   "date": "2026-11-27T17:02:48.000Z",
+   "summary": "Fewer original series, decision fatigue and a desire for comfort have viewers escaping to the past.",
+   "image": "https://static01.nyt.com/images/2026/11/27/business/00biz-library-tv/00biz-library-tv-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/27/business/holiday-shopping-deals-spending.html",
+   "feed": "nytimes-business",
+   "title": "Holiday Deals Are Tempting. Here’s How to Avoid Buyer’s Remorse.",
+   "link": "https://www.nytimes.com/2026/11/27/business/holiday-shopping-deals-spending.html",
+   "date": "2026-11-27T15:29:56.000Z",
+   "summary": "Some deals are too good to be true. Experts suggest doing the math, making lists and avoiding using “buy now, pay later” platforms to make purchases.",
+   "image": "https://static01.nyt.com/images/2026/11/26/business/00holiday-shopping-advice/00holiday-shopping-advice-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/27/business/influencers-black-friday-deals-holiday-shopping.html",
+   "feed": "nytimes-business",
+   "title": "Black Friday Deals and Holiday Sales Are Big Money for Influencers",
+   "link": "https://www.nytimes.com/2026/11/27/business/influencers-black-friday-deals-holiday-shopping.html",
+   "date": "2026-11-27T15:29:05.000Z",
+   "summary": "A growing part of a brand’s Black Friday and Cyber Monday marketing strategy rests on paying top dollar for social media influencers to post videos.",
+   "image": "https://static01.nyt.com/images/2026/11/27/multimedia/27biz-influencer-holiday-shopping-mcvk/27biz-influencer-holiday-shopping-mcvk-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/27/business/fatih-birol-iea-cop31-electrification.html",
+   "feed": "nytimes-business",
+   "title": "Climate Talks Imploded, but the ‘Age of Electricity’ Rolls On, Energy Chief Says",
+   "link": "https://www.nytimes.com/2026/11/27/business/fatih-birol-iea-cop31-electrification.html",
+   "date": "2026-11-27T15:18:58.000Z",
+   "summary": "Fatih Birol, head of the International Energy Agency, said that market forces, data centers and energy security are driving the clean transition anyway.",
+   "image": "https://static01.nyt.com/images/2026/11/27/multimedia/27biz-electric-future-kjtf/27biz-electric-future-kjtf-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/27/2026/borrowing-rise-offers-economic-boost-according-to-african-union",
+   "feed": "semafor",
+   "title": "Borrowing rise could offer economic boost, reportsays",
+   "link": "https://www.semafor.com/article/11/27/2026/borrowing-rise-offers-economic-boost-according-to-african-union",
+   "date": "2026-11-27T15:17:02.000Z",
+   "summary": "African countries could boost their economies through increased borrowing as long as it is invested in productive projects, a report by the OECD and African Union recommends. It describes how $93 billion of extra investment over the next five years could create more than 13 million jobs and add almost one percentage…",
+   "image": "https://img.semafor.com/cd4838983bda6d680bfddbcf56807836591d58cd-5500x3667.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/27/2026/kenyas-chinese-solar-imports-surge-amid-diesel-volatility",
+   "feed": "semafor",
+   "title": "Kenya’s Chinese solar imports surge amid diesel volatility",
+   "link": "https://www.semafor.com/article/11/27/2026/kenyas-chinese-solar-imports-surge-amid-diesel-volatility",
+   "date": "2026-11-27T14:50:49.000Z",
+   "summary": "Kenya is now a major destination for Chinese solar parts, with shipments up significantly in the first 10 months of the year. China has exported $576 million worth of solar cells to the East African country so far this year, compared to $5 million for the same period in 2025, Bloomberg reported. This coincides with a…",
+   "image": "https://img.semafor.com/414438461c32c428954fad6e4ca401c2b3b21ff4-4368x2912.jpg"
+  },
+  {
+   "id": "semafor:www.semafor.com/article/11/27/2026/senegal-speaker-urges-early-elections-deepening-rift-between-parliament-and-president",
+   "feed": "semafor",
+   "title": "Senegal speaker urges early elections over debt rift",
+   "link": "https://www.semafor.com/article/11/27/2026/senegal-speaker-urges-early-elections-deepening-rift-between-parliament-and-president",
+   "date": "2026-11-27T14:31:22.000Z",
+   "summary": "The speaker of Senegal’s parliament dared the president to call early elections, amid a deepening rift over how to manage the finances of the heavily indebted country. Ousmane Sonko accused his one-time ally President Bassirou Diomaye Faye of sinking into illegality and unconstitutionality as the government pressed…",
+   "image": "https://img.semafor.com/6bc09f52ceee1ba43320a89a428a607798fcc18b-3728x2486.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/27/2026/cost-is-key-in-africas-ai-rollout",
+   "feed": "semafor",
+   "title": "Cost is key in Africa’s AI rollout",
+   "link": "https://www.semafor.com/article/11/27/2026/cost-is-key-in-africas-ai-rollout",
+   "date": "2026-11-27T14:30:06.000Z",
+   "summary": "Alexis’s view The impact of AI will vary across the world. In Africa, affordability will have a key role in shaping how the technology plays out. That was a constant theme throughout our Next 3 Billion event in Johannesburg. “Africa will have its own unique solutions,” said Ralph Mupita, CEO of telecoms behemoth MTN,…",
+   "image": "https://img.semafor.com/afc0f6b660948a2323569a73579673cc1945d617-1493x998.jpg"
+  },
+  {
+   "id": "semafor:tps://www.semafor.com/article/11/27/2026/ai-debt-boom-could-push-up-funding-costs-as-south-africa-approaches-refinancing",
+   "feed": "semafor",
+   "title": "AI debt boom could push up funding costs for South Africa",
+   "link": "https://www.semafor.com/article/11/27/2026/ai-debt-boom-could-push-up-funding-costs-as-south-africa-approaches-refinancing",
+   "date": "2026-11-27T14:25:38.000Z",
+   "summary": "South Africa’s central bank warned that heavy borrowing by Western technology companies developing artificial intelligence could push up funding costs just as Pretoria approaches a refinancing crunch. Tech giants are tapping global debt markets to borrow hundreds of billions of dollars at the same time as governments…",
+   "image": "https://img.semafor.com/93a5478d8ee5d20bb3510468851b9706900eb737-3956x2264.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/27/2026/african-fintech-company-m-kopa-aims-to-boost-smartphone-sales",
+   "feed": "semafor",
+   "title": "African fintech company M-Kopa aims to boost smartphone sales",
+   "link": "https://www.semafor.com/article/11/27/2026/african-fintech-company-m-kopa-aims-to-boost-smartphone-sales",
+   "date": "2026-11-27T14:18:45.000Z",
+   "summary": "African fintech company M-Kopa plans to ramp up its smartphone financing business, which allows consumers to pay for devices in installments, with the aim to sell 5 million handsets next year, CEO Jesse Moore told Semafor. It sold over 10 million smartphones in the last five years, but 2027’s target is just “a drop…",
+   "image": "https://img.semafor.com/f31d1372c15f84d524ed792a820712a51953a848-1267x847.jpg"
+  },
+  {
+   "id": "planetizen:138952 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "MBTA Green Line project moved to next phrase of CIG program",
+   "link": "https://www.planetizen.com/news/2026/11/138952-mbta-green-line-project-moved-next-phrase-cig-program",
+   "date": "2026-11-27T14:00:00.000Z",
+   "summary": "As part of the project, the MBTA will purchase 56 light-rail vehicles, modify 27 stations and upgrade power and legacy signal systems. The Federal Transit Authority has approved the Massachusetts Bay Transportation Authority’s Green Line extension to move forward into the engineering phase of the Capital Investment…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_1544572859.jpg.webp?itok=-nDLMfED"
+  },
+  {
+   "id": "urbanist:6b0733b024dbb40001eef899",
+   "feed": "urbanist",
+   "title": "Manion Task Force Calls for Changes to Involuntary Treatment",
+   "link": "https://www.theurbanist.org/manion-task-force-calls-for-changes-to-involuntary-treatment/",
+   "date": "2026-11-27T14:00:00.000Z",
+   "summary": "When she first ran for office back in 2022, King County Prosecuting Attorney Leesa Manion made a promise to work to reimagine the system around Washington State’s Involuntary Treatment Act (ITA). Earlier this month, soon after winning another four-year term, Manion’s task force released a report of findings and…",
+   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/11/KC-Prosecutor-Leesa-Manion-courtesy-of-campaign.jpg"
+  },
+  {
+   "id": "stb:https://seattletransitblog.com/?p=151168",
+   "feed": "stb",
+   "title": "Friday Roundtable: Holiday Buses and Trains",
+   "link": "https://seattletransitblog.com/2026/11/27/friday-roundtable-holiday-buses-and-trains/",
+   "date": "2026-11-27T13:45:00.000Z",
+   "summary": "MEHVA and the Mt. Rainier Scenic Railroad have seasonal trips to celebrate the holidays on historic transit vehicles. (MEHVA and Mt. Rainier Scenic Railroad) The holiday season is upon us and there are few better ways to celebrate than on board a historic transit vehicle. This year, the Metro Employees Historic…",
+   "image": "https://i0.wp.com/seattletransitblog.com/wp-content/uploads/2026/11/image-14.png?resize=525%2C381&#038;ssl=1"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/27/2026/generic-hiv-drug-deliveries-set-to-roll-out-across-africa",
+   "feed": "semafor",
+   "title": "Generic HIV drug deliveries set to roll out across Africa",
+   "link": "https://www.semafor.com/article/11/27/2026/generic-hiv-drug-deliveries-set-to-roll-out-across-africa",
+   "date": "2026-11-27T13:14:28.000Z",
+   "summary": "Deliveries of a generic HIV-prevention drug are set to begin across Africa within days, a major step in combatting it on a continent that is home to two-thirds of the people infected. Lenacapavir is a version of a drug developed by Gilead Life Sciences; the original treatment costs $28,000 a year in the US, a…",
+   "image": "https://img.semafor.com/5c85c5f8d5d0a4dbb2d8328e0ece3d5e0f575de3-4677x3163.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/27/2026/far-right-looks-set-to-return-to-government-in-spain",
+   "feed": "semafor",
+   "title": "Far-right looks set to return to government in Spain",
+   "link": "https://www.semafor.com/article/11/27/2026/far-right-looks-set-to-return-to-government-in-spain",
+   "date": "2026-11-27T13:13:41.000Z",
+   "summary": "Spaniards will vote on Sunday in an election that looks set to return the far right to government for the first time since dictator Francisco Franco’s death more than 50 years ago, highlighting Europe’s rightward turn. Polls show the center-right party, which is leading in the polls, will most likely need to partner…",
+   "image": "https://img.semafor.com/38434a9015cfd39f6729484c21b81533108ab483-5438x3934.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/27/2026/russia-faces-stagflation-as-prices-jump",
+   "feed": "semafor",
+   "title": "Russia faces stagflation as prices jump",
+   "link": "https://www.semafor.com/article/11/27/2026/russia-faces-stagflation-as-prices-jump",
+   "date": "2026-11-27T13:12:24.000Z",
+   "summary": "Russia’s annual inflation reached 6.9% in October , the highest level in a year, raising concerns the country may be entering a period of stagflation. While Russia’s economy has for years defied economists’ expectations, conditions may finally be unravelling as the war in Ukraine nears its sixth year, with the budget…",
+   "image": "https://img.semafor.com/f978e1a73b6c6c35483a9e032ae99f1b7d2a1b02-3692x2748.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/27/2026/ai-sector-demand-lifts-chinese-factory-profits",
+   "feed": "semafor",
+   "title": "AI sector demand lifts Chinese factory profits",
+   "link": "https://www.semafor.com/article/11/27/2026/ai-sector-demand-lifts-chinese-factory-profits",
+   "date": "2026-11-27T13:11:33.000Z",
+   "summary": "China’s factories saw surging profits thanks largely to the AI boom, with the country’s memory chip sector reporting particular success. The new data showed industrial profits grew at their fastest pace since May last month, confirming the marked bifurcation within the world’s second-biggest economy: Domestic…",
+   "image": "https://img.semafor.com/953cc0808244a34eec8eef3d6f683e99a5ed2597-3576x2472.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/27/2026/backlash-against-proposed-us-tariffs-grows",
+   "feed": "semafor",
+   "title": "Backlash against proposed US tariffs grows",
+   "link": "https://www.semafor.com/article/11/27/2026/backlash-against-proposed-us-tariffs-grows",
+   "date": "2026-11-27T13:09:43.000Z",
+   "summary": "Proposed new US tariffs triggered a backlash among allies and rivals alike, threatening renewed trade tensions with superpower rival China ahead of another leaders’ summit in two weeks. Many US trading partners are already frustrated over alleged Chinese overcapacity, which they say is driving surging exports that…",
+   "image": "https://img.semafor.com/e561abf78aac70c0806014835bdfe8dd8b668cc2-5504x3664.jpg"
+  },
+  {
+   "id": "planetizen:138951 at https://www.planetizen.com",
+   "feed": "planetizen",
+   "title": "22-mile pedestrian and bike path to encircle Atlanta by 2030",
+   "link": "https://www.planetizen.com/news/2026/11/138951-22-mile-pedestrian-and-bike-path-encircle-atlanta-2030",
+   "date": "2026-11-27T13:00:00.000Z",
+   "summary": "The Atlanta Beltline secured the final section of land rights last month. The Atlanta Beltline, a 22-mile pedestrian and bicycle path encircling the city, will be complete by 2030, its president and CEO, Clyde Higgs, told Smart Cities Dive. The project secured the final section of land rights last month. When…",
+   "image": "https://www.planetizen.com/files/styles/large/public/images/eastside-trail-2021_1280x960.webp?itok=JCUnAy_W"
+  },
+  {
+   "id": "cascadepbs:6aff7f31f4524500019fcc9c",
+   "feed": "cascadepbs",
+   "title": "Mossback's Northwest: Abby Hill. Have Paintbox, Will Travel.",
+   "link": "https://www.cascadepbs.org/mossbacks-northwest-2/2026/11/mossbacks-northwest-abby-hill-have-paintbox-will-travel/",
+   "date": "2026-11-27T13:00:00.000Z",
+   "summary": "This scratched paint box was a ticket to freedom for one woman. It was filled—and is still filled—with some of the tools of the artist who carried it with her into the Western wilderness to capture its beauty and wildness on canvas for posterity: her tubes of paint, a brush, a palette for mixing colors. It traveled…",
+   "image": "https://www.cascadepbs.org/content/images/2026/11/MBS12_EP07_Hero.jpg"
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004098459",
+   "feed": "wsj-business",
+   "title": "Allstate Joins Growing List of Companies Hit by Tech Outages",
+   "link": "https://www.wsj.com/finance/allstate-joins-growing-list-of-companies-hit-by-tech-outages-77dbb488?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-27T12:48:00.000Z",
+   "summary": "The multiday outage has left customers struggling to reach the insurer during one of the year’s busiest travel weeks.",
+   "image": "https://images.wsj.net/im-93543392"
+  },
+  {
+   "id": "wsj-business:WP-WSJ-0004098310",
+   "feed": "wsj-business",
+   "title": "Arms Maker Rheinmetall Slashes Midterm Forecasts After Order Setbacks",
+   "link": "https://www.wsj.com/business/earnings/arms-maker-rheinmetall-slashes-midterm-forecasts-after-order-setbacks-6f24dfad?mod=pls_whats_news_us_business_f",
+   "date": "2026-11-27T11:02:00.000Z",
+   "summary": "The defense group lowered its sales and margin projections for the end of the decade after Germany canceled a big frigate order and delayed procurement of a lucrative combat-vehicle project.",
+   "image": "https://images.wsj.net/im-91364084"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/26/business/dennys-jensen-huang-nvidia-plaque.html",
+   "feed": "nytimes-business",
+   "title": "Jensen Huang Is Back, and So Is His Plaque at Denny’s",
+   "link": "https://www.nytimes.com/2026/11/26/business/dennys-jensen-huang-nvidia-plaque.html",
+   "date": "2026-11-27T10:17:23.000Z",
+   "summary": "The chain said it had restored a plaque honoring Mr. Huang above a booth in San Jose, Calif., where he is said to have developed the idea for Nvidia.",
+   "image": "https://static01.nyt.com/images/2026/11/26/multimedia/26xp-dennys-lmgz/26xp-dennys-lmgz-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/27/business/inflation-consumer-spending-trade-offs-holidays.html",
+   "feed": "nytimes-business",
+   "title": "As Prices Rise, Americans Are Making Trade-Offs Rather Than Cutting Back",
+   "link": "https://www.nytimes.com/2026/11/27/business/inflation-consumer-spending-trade-offs-holidays.html",
+   "date": "2026-11-27T10:02:41.000Z",
+   "summary": "Within strong consumer spending lie the decisions many families are making to stretch their dollars to cover the meals, trips and activities they value most.",
+   "image": "https://static01.nyt.com/images/2026/11/27/multimedia/27biz-consumer-01-tkbg/27biz-consumer-01-tkbg-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/27/business/media/sam-bankman-fried-ftx-altruists.html",
+   "feed": "nytimes-business",
+   "title": "2 TV Shows Take on Sam Bankman-Fried and FTX",
+   "link": "https://www.nytimes.com/2026/11/27/business/media/sam-bankman-fried-ftx-altruists.html",
+   "date": "2026-11-27T10:02:08.000Z",
+   "summary": "The limited series “The Altruists” and the documentary “The Boy Who Stole Billions?” offer different takes on the crypto exchange founder’s role in one of the largest frauds in history.",
+   "image": ""
+  },
+  {
+   "id": "nytimes-business:https://www.nytimes.com/2026/11/27/travel/48-hours-tokyo-layover.html",
+   "feed": "nytimes-business",
+   "title": "48 Hours in Tokyo With an Airline Pilot",
+   "link": "https://www.nytimes.com/2026/11/27/travel/48-hours-tokyo-layover.html",
+   "date": "2026-11-27T10:00:34.000Z",
+   "summary": "A Boeing 787 pilot visits some favorite restaurants, a Snoopy museum and a tranquil shrine.",
+   "image": "https://static01.nyt.com/images/2026/11/27/multimedia/27Trav-tokyo-layover-06-tmcp/27Trav-tokyo-layover-06-tmcp-mediumSquareAt3X.jpg"
+  },
+  {
+   "id": "semafor:https://www.semafor.com/article/11/25/2026/innovation-is-never-democratic-benedetto-vigna-on-ferraris-electric-shock",
+   "feed": "semafor",
+   "title": "‘Innovation is never democratic’: Benedetto Vigna on Ferrari’s electric shock",
+   "link": "https://www.semafor.com/article/11/25/2026/innovation-is-never-democratic-benedetto-vigna-on-ferraris-electric-shock",
+   "date": "2026-11-27T09:56:11.000Z",
+   "summary": "The Signal Interview The backlash to Ferrari’s launch of its first electric car in May reminded its CEO of the boos that greeted Bob Dylan when he swapped his acoustic guitar for an electric one in the middle of the Newport Folk Festival in 1965. The unveiling of Ferrari’s Luce, styled with the help of former Apple…",
+   "image": "https://img.semafor.com/9d224acdddaaef0c792d32ab92eed799211b7ced-3200x2400.png"
+  },
+  {
    "id": "semafor:https://www.semafor.com/article/11/27/2026/saudi-wealth-fund-shelves-medical-distributors-ipo",
    "feed": "semafor",
    "title": "Saudi wealth fund shelves medical distributor’s IPO",
@@ -128,15 +614,6 @@
    "date": "2026-11-27T09:28:18.000Z",
    "summary": "The Scoop Saudi Arabia’s sovereign wealth fund has dropped plans for an initial public offering of medical supplies distributor National Unified Procurement Company (NUPCO), more than two years after hiring banks for the deal, according to people familiar with the matter. Public Investment Fund has in recent weeks…",
    "image": "https://img.semafor.com/b84ee179e1a00c3cb642691fa58b172042a90c94-5500x3371.jpg"
-  },
-  {
-   "id": "bloomberg-business:TP5M8ST3BZM700",
-   "feed": "bloomberg-business",
-   "title": "China Surprises Investors With Statement of Support for Markets",
-   "link": "https://www.bloomberg.com/news/newsletters/2026-11-27/china-surprises-investors-with-statement-of-support-for-markets",
-   "date": "2026-11-27T09:26:52.000Z",
-   "summary": "Get caught up.",
-   "image": ""
   },
   {
    "id": "wsj-business:WP-WSJ-0004098291",
@@ -148,58 +625,13 @@
    "image": "https://images.wsj.net/im-46207163"
   },
   {
-   "id": "bloomberg-business:TP5KYGO2LL3500",
-   "feed": "bloomberg-business",
-   "title": "French & Spanish Inflation Slows, ASML Export Battle, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-27/french-spanish-inflation-slows-asml-export-battle-more",
-   "date": "2026-11-27T08:59:04.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
    "id": "wsj-business:WP-WSJ-0004098275",
    "feed": "wsj-business",
    "title": "Lumibird Shares Surge After Thales Targets Majority Stake in $483 Million Laser Deal",
    "link": "https://www.wsj.com/business/deals/lumibird-shares-surge-after-thales-targets-majority-stake-in-483-million-laser-deal-48d6e693?mod=pls_whats_news_us_business_f",
    "date": "2026-11-27T08:52:00.000Z",
-   "summary": "Shares jumped after Thales said it planned to buy a 51.6% stake in the laser-technologyfrom its chief executive officer and majority shareholder, Marc Le Flohic.",
+   "summary": "Shares jumped after Thales said it planned to buy a 51.6% stake in the laser-technology company from its chief executive officer and majority shareholder, Marc Le Flohic.",
    "image": "https://images.wsj.net/im-88247074"
-  },
-  {
-   "id": "bloomberg-business:TP5HOXO2LL3800",
-   "feed": "bloomberg-business",
-   "title": "High Stakes Spanish Election, €2 Trillion EU Budget Dispute,More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-27/high-stakes-spanish-election-2-trillion-eu-budget-dispute-more",
-   "date": "2026-11-27T07:48:33.000Z",
-   "summary": "Source: Bloomberg, 8:07",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TP5EOOV84D8G00",
-   "feed": "bloomberg-business",
-   "title": "Spanish Election Showdown, EU Budget Disputes Grow, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-27/spanish-election-showdown-eu-budget-disputes-grow-more",
-   "date": "2026-11-27T06:43:36.000Z",
-   "summary": "Source: Bloomberg, 7:54",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TP5EK2V84D8G00",
-   "feed": "bloomberg-business",
-   "title": "Bloomberg Daybreak Europe: Spain's Election Showdown (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-27/bloomberg-daybreak-europe-spain-s-election-showdown-podcast",
-   "date": "2026-11-27T06:40:50.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TP5DOCRKV2TM00",
-   "feed": "bloomberg-business",
-   "title": "Global Stocks Rise as AI Trade Revives: Morning Briefing Europe",
-   "link": "https://www.bloomberg.com/news/newsletters/2026-11-27/global-stocks-rise-as-ai-trade-revives-morning-briefing-europe",
-   "date": "2026-11-27T06:21:48.000Z",
-   "summary": "Get caught up.",
-   "image": ""
   },
   {
    "id": "morning-brew:https://www.morningbrew.com/stories/some-cities-show-traffic-isnt-an-inescapable-fate",
@@ -209,33 +641,6 @@
    "date": "2026-11-27T05:51:00.000Z",
    "summary": "Houston Chronicle/Hearst Newspapers/Getty Images Cities worldwide are demonstrating that the bane of your dad’s existence and your favorite excuse for being 20 minutes late can be solved. They’re doing this by embracing proven measures to fight traffic effectively. (Lane) Change is possible Aside from banning cars,…",
    "image": "https://morningbrew.com/cdn-cgi/image/fit=cover,format=jpeg,width=1600,height=900,quality=80,trim=115;0;114;0/https://storage.morningbrew.com/image/2026-11-21/image-27e520384a83ccf2043c64cd526a8af80130fe9b-5267x3192-jpg/hc052826mainstreetpromenade"
-  },
-  {
-   "id": "bloomberg-business:TP5BVMKIUPS400",
-   "feed": "bloomberg-business",
-   "title": "Starbucks Japan Success Endures Despite Struggles in China, Korea",
-   "link": "https://www.bloomberg.com/news/newsletters/2026-11-27/starbucks-japan-success-endures-despite-struggles-in-china-korea",
-   "date": "2026-11-27T05:42:58.000Z",
-   "summary": "Also, some Japanese are turning to pen and paper for cybersecurity.",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TP5BSJR24U8000",
-   "feed": "bloomberg-business",
-   "title": "How Xi’s Crackdown Brought Down Shanghai’s Rising Political Star",
-   "link": "https://www.bloomberg.com/news/newsletters/2026-11-27/how-xi-s-crackdown-brought-down-shanghai-s-rising-political-star",
-   "date": "2026-11-27T05:41:07.000Z",
-   "summary": "Chen Jining had the resume to climb to greater heights. A graft probe ended his ascent.",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TP5BA1KGZAIW00",
-   "feed": "bloomberg-business",
-   "title": "Eastern Europe Newsletter: Poland Faces a Reckoning Before G20",
-   "link": "https://www.bloomberg.com/news/newsletters/2026-11-27/eastern-europe-newsletter-poland-faces-a-reckoning-before-g20",
-   "date": "2026-11-27T05:30:01.000Z",
-   "summary": "A toxic political drama and deteriorating budget come at an awkward time.",
-   "image": ""
   },
   {
    "id": "morning-brew:https://www.morningbrew.com/stories/blimps-might-be-making-a-comeback",
@@ -274,69 +679,6 @@
    "image": "https://static01.nyt.com/images/2026/10/14/multimedia/00Biz-Disney-ABC-HFO-hvlk/00Biz-Disney-ABC-HFO-hvlk-mediumSquareAt3X.jpg"
   },
   {
-   "id": "bloomberg-business:TP4EEXT9NJLS00",
-   "feed": "bloomberg-business",
-   "title": "Britons Stockpile Cash After Government Urges Crisis Readiness",
-   "link": "https://www.bloomberg.com/news/articles/2026-11-27/britons-stockpile-cash-after-government-urges-crisis-readiness",
-   "date": "2026-11-27T05:00:00.000Z",
-   "summary": "UK households have hoarded as much as £700 million ($918 million) in cash over the past five weeks after the government warned the public to prepare for a crisis under its “Be Ready” campaign, Bank of England data shows.",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TP591BWWD62O00",
-   "feed": "bloomberg-business",
-   "title": "Thanksgiving Storm Hits, US Tariffs Draw Reaction, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-27/thanksgiving-storm-hits-us-tariffs-draw-reaction-more-mwyhv11i",
-   "date": "2026-11-27T04:41:35.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TP58YQUT4Z5S00",
-   "feed": "bloomberg-business",
-   "title": "Thanksgiving Storm Hits, US Tariffs Draw Reaction, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-27/thanksgiving-storm-hits-us-tariffs-draw-reaction-more",
-   "date": "2026-11-27T04:40:02.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TP578SV84D8H00",
-   "feed": "bloomberg-business",
-   "title": "Thanksgiving Storm Brings Power Outage, US Tariffs Pushback",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-27/thanksgiving-storm-brings-power-outage-us-tariffs-pushback",
-   "date": "2026-11-27T04:02:52.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/26/nyregion/macys-thanksgiving-parade-history-timeline.html",
-   "feed": "nytimes-business",
-   "title": "Photos: Macy’s Thanksgiving Day Parade History and Wacky Moments",
-   "link": "https://www.nytimes.com/2026/11/26/nyregion/macys-thanksgiving-parade-history-timeline.html",
-   "date": "2026-11-27T03:39:46.000Z",
-   "summary": "It isn’t always easy to keep New York City’s Thanksgiving parade on track. Here’s a look back at notable moments and mishaps.",
-   "image": "https://static01.nyt.com/images/2026/11/25/multimedia/xp-parade-moments-photos-01-zqpc/xp-parade-moments-photos-01-zqpc-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "bloomberg-business:TP55RXWWD62O00",
-   "feed": "bloomberg-business",
-   "title": "Bloomberg Daybreak Asia: Stocks Rise, Tariff Reactions (Podcast)",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-27/bloomberg-daybreak-asia-stocks-rise-tariff-reactions-podcast",
-   "date": "2026-11-27T03:31:09.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
-   "id": "bloomberg-business:TP54H7XVHD6O00",
-   "feed": "bloomberg-business",
-   "title": "Thanksgiving Storm Disrupts Plans, US Partners React to Tariffs",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-27/thanksgiving-storm-disrupts-plans-us-partners-react-to-tariffs",
-   "date": "2026-11-27T03:03:07.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/26/business/nvidia-southeast-asia-sales.html",
    "feed": "nytimes-business",
    "title": "Nvidia Halts Sales to Southeast Asia as U.S. Tightens China Restrictions",
@@ -344,15 +686,6 @@
    "date": "2026-11-27T02:45:41.000Z",
    "summary": "The shipping halt, which hit four countries, follows a new U.S. rule that would require licenses for companies in the countries to buy advanced A.I. chips.",
    "image": "https://static01.nyt.com/images/2026/11/26/multimedia/26nvidia-SEAsia-wvmq/26nvidia-SEAsia-wvmq-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "bloomberg-business:TP51UOO2LL3B00",
-   "feed": "bloomberg-business",
-   "title": "Thanksgiving Day Storm, New US Tariffs Draw Reaction, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-27/thanksgiving-day-storm-new-us-tariffs-draw-reaction-more",
-   "date": "2026-11-27T02:06:24.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
   },
   {
    "id": "wsj-business:WP-WSJ-0004083640",
@@ -371,15 +704,6 @@
    "date": "2026-11-27T02:00:00.000Z",
    "summary": "As a longtime friend of the Nvidia CEO puts it, “Jensen will always pull a rabbit out of a hat.”",
    "image": "https://images.wsj.net/im-94798287"
-  },
-  {
-   "id": "bloomberg-business:TP4UWOKJH6V600",
-   "feed": "bloomberg-business",
-   "title": "Debate Heats Up Over Funds for Japan’s New Defense Spending Plan",
-   "link": "https://www.bloomberg.com/news/articles/2026-11-27/battle-heats-up-over-funds-for-japan-s-new-defense-spending-plan",
-   "date": "2026-11-27T01:36:11.000Z",
-   "summary": "As a struggle over funding for defense spending plays out in Japan, Finance Minister Satsuki Katayama said on Friday that outlays should be determined by actual needs rather than a preset figure.",
-   "image": ""
   },
   {
    "id": "cascadepbs:6b08e4e2f452450001a33baf",
@@ -436,15 +760,6 @@
    "image": "https://www.cascadepbs.org/content/images/2026/11/60c3ffe0-b822-4b36-9c9f-7ba4e5a8f4f4.jpg"
   },
   {
-   "id": "bloomberg-business:TP4ZBMWWD62O00",
-   "feed": "bloomberg-business",
-   "title": "Thanksgiving Storm Hits US, Reaction to New US Tariffs, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-27/thanksgiving-storm-hits-us-reaction-to-new-us-tariffs-more",
-   "date": "2026-11-27T01:11:46.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
    "id": "cascadepbs:6b08e4e5f452450001a33bbf",
    "feed": "cascadepbs",
    "title": "Stormy Thanksgiving weather causes delays and damages",
@@ -463,15 +778,6 @@
    "image": "https://www.cascadepbs.org/content/images/2026/11/82760413-4616-4d09-a9ab-9b9caf85c273.jpg"
   },
   {
-   "id": "bloomberg-business:TP4W7DO32FWG00",
-   "feed": "bloomberg-business",
-   "title": "Thanksgiving Storm Hits East Coast, US Tariffs Pushback, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-27/thanksgiving-storm-hits-east-coast-us-tariffs-pushback-more",
-   "date": "2026-11-27T00:04:25.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
-  },
-  {
    "id": "cascadepbs:6b08e4ebf452450001a33be0",
    "feed": "cascadepbs",
    "title": "November 26, 2026 - PBS News Hour full episode",
@@ -479,15 +785,6 @@
    "date": "2026-11-27T00:00:33.000Z",
    "summary": "",
    "image": "https://www.cascadepbs.org/content/images/2026/11/5efc0031-ac4e-4376-baa0-9bf5c663506b.jpg"
-  },
-  {
-   "id": "bloomberg-business:TP4T9ZUT4Z5S00",
-   "feed": "bloomberg-business",
-   "title": "SAP Restructure Plan, US Partners Respond to Tariffs, More",
-   "link": "https://www.bloomberg.com/news/audio/2026-11-26/sap-restructure-plan-us-partners-respond-to-tariffs-more",
-   "date": "2026-11-26T23:01:11.000Z",
-   "summary": "Source: Bloomberg, 0:00",
-   "image": ""
   },
   {
    "id": "semafor:https://www.semafor.com/article/11/26/2026/ai-reshapes-black-friday-shopping",
@@ -533,15 +830,6 @@
    "date": "2026-11-26T22:15:23.000Z",
    "summary": "Nvidia has halted chip shipments to Southeast Asia, as Washington curbs China’s access to American compute. Orders have been frozen for buyers in Malaysia, Singapore, Thailand, and Indonesia, countries that have boomed by giving Chinese hyperscalers legal access to export-controlled Nvidia chips. The holdup threatens…",
    "image": "https://img.semafor.com/f32deb27b276f34d13fe91c9ded034369172cf60-4500x3001.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/26/business/dennys-jensen-huang-nvidia-plaque.html",
-   "feed": "nytimes-business",
-   "title": "Jensen Huang Is Back, and So Is His Plaque at Denny’s",
-   "link": "https://www.nytimes.com/2026/11/26/business/dennys-jensen-huang-nvidia-plaque.html",
-   "date": "2026-11-26T21:25:16.000Z",
-   "summary": "The chain said it had restored a plaque honoring Mr. Huang above a booth in San Jose, Calif., after he was reinstated at Nvidia, the company he is said to have co-founded while eating there.",
-   "image": "https://static01.nyt.com/images/2026/11/26/multimedia/26xp-dennys-lmgz/26xp-dennys-lmgz-mediumSquareAt3X.jpg"
   },
   {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/26/business/dan-carney-dead.html",
@@ -724,42 +1012,6 @@
    "image": "https://www.cascadepbs.org/content/images/2026/11/FOOD_FRIENDS_x_YLM.png"
   },
   {
-   "id": "semafor:w.semafor.com/article/11/26/2026/south-koreas-central-bank-raises-interest-rates-to-highest-level-in-more-than-two-years",
-   "feed": "semafor",
-   "title": "Asian countries race to contain rising inflation",
-   "link": "https://www.semafor.com/article/11/26/2026/south-koreas-central-bank-raises-interest-rates-to-highest-level-in-more-than-two-years",
-   "date": "2026-11-26T12:55:04.000Z",
-   "summary": "South Korea’s central bank raised rates to the highest level in more than two years , joining other Asian countries in moving to contain persistent inflation driven by the Iran war. Compounding the challenge, a market sell-off and high borrowing costs have hit consumer sentiment in the country. Asian economies, which…",
-   "image": "https://img.semafor.com/a5509a81586de516e0870fdf3b9cce2e9431edb5-5500x3668.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/26/2026/us-led-consortium-to-buy-russian-energy-giant-lukoils-assets",
-   "feed": "semafor",
-   "title": "US-led consortium buys Russian energy giant Lukoil's assets",
-   "link": "https://www.semafor.com/article/11/26/2026/us-led-consortium-to-buy-russian-energy-giant-lukoils-assets",
-   "date": "2026-11-26T11:55:45.000Z",
-   "summary": "A US-led consortium agreed to buy Russian energy giant Lukoil’s international assets, a deal that quickly drew concern over empowering the Kremlin in its war on Ukraine. The $10 billion agreement would see the American group, which includes Washington’s development finance agency, take over Lukoil’s operations in 11…",
-   "image": "https://img.semafor.com/b312679a5e7937fc06dae2c9dcadf152b6c24dd1-3314x2207.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/26/2026/dutch-lawmakers-condemn-us-legislation-curbing-chip-exports",
-   "feed": "semafor",
-   "title": "Dutch lawmakers condemn US technology curbs",
-   "link": "https://www.semafor.com/article/11/26/2026/dutch-lawmakers-condemn-us-legislation-curbing-chip-exports",
-   "date": "2026-11-26T11:53:33.000Z",
-   "summary": "Dutch lawmakers pressed their government to push back on US legislation that would further restrict the export of chipmaking equipment to China as trade tensions rise between the superpowers. ASML — which generates 2.2% of the Netherlands’ GDP — is the world’s sole manufacturer of the machines used for making…",
-   "image": "https://img.semafor.com/d8341e705e9a27fde360cf70707495dd0cc01b98-5152x3440.jpg"
-  },
-  {
-   "id": "semafor:ps://www.semafor.com/article/11/26/2026/president-trumps-latest-tariffs-face-criticism-from-trading-partners-and-experts",
-   "feed": "semafor",
-   "title": "Washington's latest tariffs spark anger abroad",
-   "link": "https://www.semafor.com/article/11/26/2026/president-trumps-latest-tariffs-face-criticism-from-trading-partners-and-experts",
-   "date": "2026-11-26T11:52:24.000Z",
-   "summary": "US trading partners and experts criticized the Trump administration’s new round of tariffs, arguing respectively that they were unfair and likely to be counterproductive. Some analysts said the tangible impact of the new duties would probably be limited, given the increase over current levies is not as extreme as…",
-   "image": "https://img.semafor.com/b8c29217f6d506b7e466291434706ab4a6982635-5381x3582.jpg"
-  },
-  {
    "id": "stb:https://seattletransitblog.com/?p=151088",
    "feed": "stb",
    "title": "Elevated line to Ballard",
@@ -823,24 +1075,6 @@
    "image": "https://static01.nyt.com/images/2026/11/05/multimedia/Biz-Sheconomy-video-bpvg/Biz-Sheconomy-video-bpvg-mediumSquareAt3X.jpg"
   },
   {
-   "id": "wsj-business:WP-WSJ-0004096395",
-   "feed": "wsj-business",
-   "title": "Judge Says FCC Must Stop ABC License Review",
-   "link": "https://www.wsj.com/business/media/judge-says-fcc-must-stop-abc-license-review-3748d619?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-26T03:03:00.000Z",
-   "summary": "The Disney-owned network accused the agency of trying to quash free speech critical of Trump.",
-   "image": "https://images.wsj.net/im-45875827"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004095286",
-   "feed": "wsj-business",
-   "title": "The Other Nvidia Romance With an Executive at a Company Linked to China",
-   "link": "https://www.wsj.com/finance/stocks/nvidia-china-executive-affair-jay-puri-cenly-chen-a42d733b?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-26T02:00:00.000Z",
-   "summary": "Nvidia’s sales chief dated a Super Micro executive for years. Now they have married and her former company has been linked to chip smuggling.",
-   "image": "https://images.wsj.net/im-02809795"
-  },
-  {
    "id": "nytimes-business:https://www.nytimes.com/2026/11/25/us/politics/trump-nvidia-stock-market.html",
    "feed": "nytimes-business",
    "title": "Trump Rejoiced in the Market’s Nvidia Surge. It Didn’t Last Long.",
@@ -877,87 +1111,6 @@
    "image": "https://www.cascadepbs.org/content/images/2026/11/f088d0c2-aabd-45ed-8f22-543990e42477.jpg"
   },
   {
-   "id": "cascadepbs:6b0792bef452450001a2d382",
-   "feed": "cascadepbs",
-   "title": "How Trump's newest tariffs could impact American economy",
-   "link": "https://www.cascadepbs.org/show/newshour/extras/trump-s-tariffs-1795644066/",
-   "date": "2026-11-26T01:00:25.000Z",
-   "summary": "The Trump administration announced plans for a new round of tariffs on China, the European Union and 12 other major trading partners. China would face the highest rate with a new 20% tariff on most products. To discuss how this will impact Americans and the economy, Lisa Desjardins spoke with Gavin Bade of The Wall…",
-   "image": "https://www.cascadepbs.org/content/images/2026/11/a5163824-8870-426b-b876-1677b83ad657.jpg"
-  },
-  {
-   "id": "cascadepbs:6b0786eff452450001a2d093",
-   "feed": "cascadepbs",
-   "title": "Ex-Israeli generals defend Palestinians during olive harvest",
-   "link": "https://www.cascadepbs.org/show/newshour/extras/war-in-the-holy-land-1795644204/",
-   "date": "2026-11-26T01:00:25.000Z",
-   "summary": "This week, Palestinians in the occupied West Bank are concluding their annual olive harvest, one that the U.N. says has been the most violent on record. In the first of two stories from Nick Schifrin and his team in the West Bank, he looks at how some Israeli settlers have dramatically increased their attacks on…",
-   "image": "https://www.cascadepbs.org/content/images/2026/11/d87bdeaa-3175-407d-b069-91b18ea15800.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/25/business/corporate-america-democrats.html",
-   "feed": "nytimes-business",
-   "title": "Empowered Democrats Aim at Weakened Regulation and Corporate Corruption",
-   "link": "https://www.nytimes.com/2026/11/25/business/corporate-america-democrats.html",
-   "date": "2026-11-25T23:24:52.000Z",
-   "summary": "After two years of deregulation, congressional committees led by Democrats will shine the spotlight back on corporate America.",
-   "image": "https://static01.nyt.com/images/2026/11/24/multimedia/24dc-oversight--01-mhkf/24dc-oversight--01-mhkf-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/25/2026/netanyahu-gets-boost-in-long-running-corruption-trial",
-   "feed": "semafor",
-   "title": "Netanyahu gets boost in long-running corruption trial",
-   "link": "https://www.semafor.com/article/11/25/2026/netanyahu-gets-boost-in-long-running-corruption-trial",
-   "date": "2026-11-25T22:35:24.000Z",
-   "summary": "Judges overseeing the corruption case of Prime Minister Benjamin Netanyahu recommended that prosecutors drop the most serious charge, boosting the embattled Israeli leader and bringing the six-year trial closer to a resolution. “Today, the trial has fallen,” Netanyahu said Wednesday, describing the judges’ remarks as…",
-   "image": "https://img.semafor.com/1f7abd19d0bb582fb0b33a95c6be8a1833536401-2684x1789.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/25/2026/us-economy-expands-at-a-rapid-43-in-third-quarter",
-   "feed": "semafor",
-   "title": "US economy expands at a rapid 4.3% in third quarter",
-   "link": "https://www.semafor.com/article/11/25/2026/us-economy-expands-at-a-rapid-43-in-third-quarter",
-   "date": "2026-11-25T22:30:52.000Z",
-   "summary": "The US economy grew at a rapid 4.3% in the third quarter as inflation remained elevated, bolstering the case for the Federal Reserve to raise interest rates despite the downturn in tech markets. Though gas prices are falling, strong growth along with inflation that remains “ too high for comfort ” signals a rate hike…",
-   "image": "https://img.semafor.com/1616be2aad7f78cda22fd1167321d7ea1e12b369-5472x3648.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/25/2026/tech-selloff-extends-on-ai-neocloud-jitters",
-   "feed": "semafor",
-   "title": "Tech selloff extends on AI, neocloud jitters",
-   "link": "https://www.semafor.com/article/11/25/2026/tech-selloff-extends-on-ai-neocloud-jitters",
-   "date": "2026-11-25T22:27:13.000Z",
-   "summary": "The tech selloff extended Wednesday as the market rally following Jensen Huang’s return to Nvidia fizzled. “ You can bring back a CEO but not the vibe,” one analyst said, as credit default swaps for Nvidia, Alphabet, Oracle, and SpaceX hit record highs; swaps on CoreWeave’s debt priced in a more than 70% chance of…",
-   "image": "https://img.semafor.com/0250436a5fafdb7a070d76f8e9faaf43644b460a-4498x2999.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/25/2026/new-us-export-rules-threaten-asian-ai-buildout",
-   "feed": "semafor",
-   "title": "New US export rules threaten Asian AI buildout",
-   "link": "https://www.semafor.com/article/11/25/2026/new-us-export-rules-threaten-asian-ai-buildout",
-   "date": "2026-11-25T22:23:15.000Z",
-   "summary": "Lenders paused billions in funding linked to Chinese hyperscalers ByteDance, Alibaba, and Tencent , Bloomberg reported, as new US restrictions on AI chip exports threatened to stall Asia’s data center buildout. The Nvidia CEO’s affair with a Singapore-based executive intensified concerns that advanced chips were…",
-   "image": "https://img.semafor.com/295b07ddc7a2069315688ba27026ccb1c1c6115a-5500x3667.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/25/2026/us-intelligence-suggests-jensen-affair-was-actually-amorous",
-   "feed": "semafor",
-   "title": "US intelligence suggests Jensen affair was actually amorous",
-   "link": "https://www.semafor.com/article/11/25/2026/us-intelligence-suggests-jensen-affair-was-actually-amorous",
-   "date": "2026-11-25T22:21:34.000Z",
-   "summary": "Evidence collected by US intelligence suggests that Jensen Huang’s relationship with Alice Huang may have been genuinely romantic rather than a Beijing-orchestrated ploy to access Nvidia chips. In a briefing to congressional staffers Wednesday, officials confirmed that while the Megaspeed executive was in contact…",
-   "image": "https://img.semafor.com/df11a5184eec7b2238d1bd1d1daf3912e425b76f-2483x1655.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/25/us/politics/lukoil-deal.html",
-   "feed": "nytimes-business",
-   "title": "Lukoil to Sell Foreign Assets, but Not to Kushner and Witkoff Associates",
-   "link": "https://www.nytimes.com/2026/11/25/us/politics/lukoil-deal.html",
-   "date": "2026-11-25T22:16:50.000Z",
-   "summary": "Valuable properties belonging to the Russian energy giant will be sold to an American-led consortium. But Middle Eastern business contacts of the two Trump envoys pulled out because of political winds.",
-   "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25dc-lukoil-fjvh/25dc-lukoil-fjvh-mediumSquareAt3X.jpg"
-  },
-  {
    "id": "urbanist:6b05da6dce05ba000175b947",
    "feed": "urbanist",
    "title": "Two Weeks to Grab Tickets for Dec 4th Urbanist Winter Holiday Party",
@@ -974,33 +1127,6 @@
    "date": "2026-11-25T21:54:00.000Z",
    "summary": "Find insight on easyJet , Ferrari, Jin Air and more in the latest Market Talks covering Auto and Transport.",
    "image": "https://images.wsj.net/im-88335393"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/25/us/waymo-denver-egg-throwing.html",
-   "feed": "nytimes-business",
-   "title": "A Man in Denver Has Been Throwing Eggs at Waymo Vehicles",
-   "link": "https://www.nytimes.com/2026/11/25/us/waymo-denver-egg-throwing.html",
-   "date": "2026-11-25T21:36:35.000Z",
-   "summary": "The man, who drove a Toyota Corolla from a fleet leased to Lyft drivers, used orange cones to trap the self-driving vehicles before pelting them with eggs, the police said. No charges have been filed.",
-   "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25xp-waymos-pqcw/25xp-waymos-pqcw-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/25/business/nvidia-stock-insider-trading-rumor.html",
-   "feed": "nytimes-business",
-   "title": "A Rumored $300 Million Score on Nvidia’s Stock Surge Isn’t Backed by Trading Records",
-   "link": "https://www.nytimes.com/2026/11/25/business/nvidia-stock-insider-trading-rumor.html",
-   "date": "2026-11-25T21:36:25.000Z",
-   "summary": "Three data providers say they have no evidence to support the online claim that insider trading generated a 9,000 percent return.",
-   "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25biz-nvidia-trade-misinfo-cpqz/25biz-nvidia-trade-misinfo-cpqz-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/25/technology/anthropic-stock-tech-start-ups.html",
-   "feed": "nytimes-business",
-   "title": "Anthropic’s Stock Debut Could Hurt Tech Start-Ups",
-   "link": "https://www.nytimes.com/2026/11/25/technology/anthropic-stock-tech-start-ups.html",
-   "date": "2026-11-25T21:30:58.000Z",
-   "summary": "As the share price drops, it could act as a brake on Silicon Valley’s frenzied investing in younger companies.",
-   "image": "https://static01.nyt.com/images/2026/11/26/multimedia/25biz-anthropic-pop-2-qlhp/25biz-anthropic-pop-2-qlhp-mediumSquareAt3X.jpg"
   },
   {
    "id": "stb:https://seattletransitblog.com/?p=151044",
@@ -1021,33 +1147,6 @@
    "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/11/Screenshot-2026-11-24-4.26.23-PM-1.png"
   },
   {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/25/travel/bhutan-travel.html",
-   "feed": "nytimes-business",
-   "title": "Traveling to Bhutan in 2026: Wood-Fired Pizzas and Monks With Cellphones",
-   "link": "https://www.nytimes.com/2026/11/25/travel/bhutan-travel.html",
-   "date": "2026-11-25T19:34:40.000Z",
-   "summary": "The view of the Himalayan country as ancient and immutable is being challenged by young Bhutanese who are opening restaurants and shops, and getting beyond “gross national happiness.” A traveler explores.",
-   "image": "https://static01.nyt.com/images/2026/11/20/multimedia/25Trav-Bhutan-changed-mqtk/25Trav-Bhutan-changed-mqtk-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/25/2026/house-democrats-chart-path-on-trading-bans",
-   "feed": "semafor",
-   "title": "House Democrats chart path on trading bans",
-   "link": "https://www.semafor.com/article/11/25/2026/house-democrats-chart-path-on-trading-bans",
-   "date": "2026-11-25T19:27:44.000Z",
-   "summary": "Democrats may ban members from using prediction markets as part of a measure governing the House — then vote on standalone legislation that would prevent elected officials from trading individual stocks and most cryptocurrencies, Rep. Seth Magaziner, D-R.I., told Semafor. “That’s my sense of where things are headed,”…",
-   "image": "https://img.semafor.com/e2cb452a118bf8ffe7c6436f42c98304becf4478-5246x3498.jpg"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/25/business/economy/inflation-pce-interest-rates.html",
-   "feed": "nytimes-business",
-   "title": "Another Hot Inflation Reading Keeps Fed on Track to Raise Rates Again",
-   "link": "https://www.nytimes.com/2026/11/25/business/economy/inflation-pce-interest-rates.html",
-   "date": "2026-11-25T19:13:30.000Z",
-   "summary": "The Federal Reserve is widely expected to raise interest rates next month.",
-   "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25dc-inflation-gvjc/25dc-inflation-gvjc-mediumSquareAt3X.jpg"
-  },
-  {
    "id": "wsj-business:WP-WSJ-0004094891",
    "feed": "wsj-business",
    "title": "Dodgers Owner Todd Boehly Clinches Deal for Overseas Assets of Russia’s Lukoil",
@@ -1055,24 +1154,6 @@
    "date": "2026-11-25T18:41:00.000Z",
    "summary": "The sale was initially sparked after the Trump administration slapped sanctions on Lukoil assets to pressure Moscow in negotiations over the war in Ukraine.",
    "image": "https://images.wsj.net/im-31563309"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/25/2026/asml-makes-the-case-for-selling-chips-to-china",
-   "feed": "semafor",
-   "title": "ASML's CEO makes the case for selling chips to China",
-   "link": "https://www.semafor.com/article/11/25/2026/asml-makes-the-case-for-selling-chips-to-china",
-   "date": "2026-11-25T17:48:26.000Z",
-   "summary": "Export controls on chips and other technology shouldn’t aim to cut China off completely — a strategy that will only backfire, warns Christophe Fouquet, CEO of ASML, the sole maker of the lithography machines needed to produce the world’s most advanced AI chips. “You need [export controls] to protect very advanced…",
-   "image": "https://www.semafor.com/_next/static/media/semafor-og-lg.30379187.png"
-  },
-  {
-   "id": "semafor:https://www.semafor.com/article/11/25/2026/jensen-huang-to-face-questioning-on-capitol-hill",
-   "feed": "semafor",
-   "title": "Jensen Huang to face questioning on Capitol Hill",
-   "link": "https://www.semafor.com/article/11/25/2026/jensen-huang-to-face-questioning-on-capitol-hill",
-   "date": "2026-11-25T17:35:40.000Z",
-   "summary": "Washington will provide an Nvidia split-screen next week, as CEO Jensen Huang faces questioning on Capitol Hill while the company touts new products at its DC conference less than two miles away. Nvidia has reportedly assembled a team of top Washington lawyers and lobbyists ahead of Huang’s closed-door interview with…",
-   "image": "https://img.semafor.com/847124d0e4cb6152f8486a4ab1e1f0df2c1d4619-2567x1866.jpg"
   },
   {
    "id": "planetizen:138948 at https://www.planetizen.com",
@@ -1111,24 +1192,6 @@
    "image": "https://imgproxy.divecdn.com/odgeny3cZFmXFQs66hi6a0SwonPaHkIeBv0qtGcdQyc/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTkzNDY4OTk5LmpwZw==.webp"
   },
   {
-   "id": "planetizen:138947 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "NYC may allow residents to ‘adopt’ storm drains",
-   "link": "https://www.planetizen.com/news/2026/11/138947-nyc-may-allow-residents-adopt-storm-drains",
-   "date": "2026-11-25T16:00:00.000Z",
-   "summary": "Precipitation in New York City may increase by 11% by the 2050s. As New York City faces growing flood risks, the city is looking to enlist residents to help keep its streets above water. The city council is considering a bill that would allow residents to “adopt” a storm drain on their block, and clear litter, leaves…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/shutterstock_2326931797.jpg.webp?itok=063ecmmF"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/25/business/trump-tariffs-trade.html",
-   "feed": "nytimes-business",
-   "title": "Trump Administration Unveils New Tariffs for China, EU and More, Citing Unfair Practices",
-   "link": "https://www.nytimes.com/2026/11/25/business/trump-tariffs-trade.html",
-   "date": "2026-11-25T15:58:36.000Z",
-   "summary": "The latest escalation came as the administration confronts continued legal obstacles and new scrutiny from an incoming Democratic-led Congress.",
-   "image": "https://static01.nyt.com/images/2026/11/24/multimedia/00dc-hfo-trump-tariffs-zptw/00dc-hfo-trump-tariffs-zptw-mediumSquareAt3X.jpg"
-  },
-  {
    "id": "smartcities:https://www.smartcitiesdive.com/news/affordable-housing-development-nonprofit-cities-chicago-chattanooga/875760/",
    "feed": "smartcities",
    "title": "How 2 cities are using nonprofits to rethink affordable housing development",
@@ -1136,15 +1199,6 @@
    "date": "2026-11-25T15:51:57.000Z",
    "summary": "Chicago and Chattanooga, Tennessee, established nonprofit entities to provide greater control over development, affordability and stability.",
    "image": "https://imgproxy.divecdn.com/imIRmiHwbWjvaLSZM3DscliWu5wArCBJYnGh-kCxJ_c/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xNDQyMTI0MDgxLmpwZw==.webp"
-  },
-  {
-   "id": "planetizen:138945 at https://www.planetizen.com",
-   "feed": "planetizen",
-   "title": "‘A price cannot be put on democracy:’ Local leaders protest UMich data center",
-   "link": "https://www.planetizen.com/news/2026/11/138945-price-cannot-be-put-democracy-local-leaders-protest-umich-data-center",
-   "date": "2026-11-25T15:00:00.000Z",
-   "summary": "University of Michigan Regent Carl Myers said that researchers will conduct cancer, clean energy and extreme weather research at the facility. The University of Michigan regents have approved a $1.25 billion “high performance computing center” — which opponents say is a data center — on 144 acres in Ypsilanti…",
-   "image": "https://www.planetizen.com/files/styles/large/public/images/Slide-6-View-from-North-Drive-2048x1152.png.webp?itok=XqTAIBQz"
   },
   {
    "id": "wsj-business:WP-WSJ-0004092229",
@@ -1172,24 +1226,6 @@
    "date": "2026-11-25T13:18:00.000Z",
    "summary": "The French liquor group lifted its guidance for the fiscal year and set out a midterm plan to shrug off the market weakness that has plagued the sector since the end of the pandemic.",
    "image": "https://images.wsj.net/im-14586025"
-  },
-  {
-   "id": "nytimes-business:https://www.nytimes.com/2026/11/25/business/dealbook/nvidia-huang-ai-rally.html",
-   "feed": "nytimes-business",
-   "title": "Why the Nvidia Rally Fizzled",
-   "link": "https://www.nytimes.com/2026/11/25/business/dealbook/nvidia-huang-ai-rally.html",
-   "date": "2026-11-25T12:53:55.000Z",
-   "summary": "Jensen Huang may be running Nvidia again, but investors are losing faith in the artificial intelligence boom the chipmaker has underpinned.",
-   "image": "https://static01.nyt.com/images/2026/11/25/multimedia/25db-nvda-kfvq/25db-nvda-kfvq-mediumSquareAt3X.jpg"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004094117",
-   "feed": "wsj-business",
-   "title": "Deere Quarterly Profit Falls as Large Agricultural Equipment Sales Decline",
-   "link": "https://www.wsj.com/business/earnings/deere-quarterly-profit-falls-as-large-agricultural-equipment-sales-decline-b81221d8?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-25T12:30:00.000Z",
-   "summary": "Deere recorded lower profit in the latest quarter as sales in its large agricultural equipment business declined amid broader pressures on the U.S. farm economy.",
-   "image": "https://images.wsj.net/im-78482211"
   },
   {
    "id": "wsj-business:WP-WSJ-0004093905",
@@ -1316,15 +1352,6 @@
    "date": "2026-11-25T01:30:00.000Z",
    "summary": "Zingone Bros. plans to close its doors at the end of this month after nearly a century selling provisions and connecting neighbors.",
    "image": "https://images.wsj.net/im-69179874"
-  },
-  {
-   "id": "wsj-business:WP-WSJ-0004092426",
-   "feed": "wsj-business",
-   "title": "Jensen Huang Apologized to Nvidia Staff in Company Meeting",
-   "link": "https://www.wsj.com/business/jensen-huang-apologized-to-nvidia-staff-in-company-meeting-c798dfba?mod=pls_whats_news_us_business_f",
-   "date": "2026-11-24T22:32:00.000Z",
-   "summary": "Plus, the Pentagon is in talks with GM and Ford to mass produce military drones, and the U.S. is preparing to raise tariffs on China and dozens of other countries.",
-   "image": "https://images.wsj.net/im-14693717"
   },
   {
    "id": "wsj-business:WP-WSJ-0004092698",
@@ -1768,24 +1795,6 @@
    "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/11/2026-WA-House-pickups-campaign-photo-collage.jpg"
   },
   {
-   "id": "urbanist:6afc9d0271ea200001713a1b",
-   "feed": "urbanist",
-   "title": "Pinehurst Station Posts Anemic Ridership in First Full Month",
-   "link": "https://www.theurbanist.org/pinehurst-station-posts-anemic-ridership-in-first-full-month/",
-   "date": "2026-11-18T18:00:00.000Z",
-   "summary": "After Sound Transit inaugurated service on September 30, the Pinehurst infill light rail station in North Seattle averaged a measly 1,034 daily boardings in October, according to the agency's ridership dashboard . That makes it the least used station in the entire 1 Line corridor. The initial figure is below even the…",
-   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/11/Pinehurst-station-train-and-passengers---Trumm-PXL_20261001.jpg"
-  },
-  {
-   "id": "urbanist:6afd548971ea200001714223",
-   "feed": "urbanist",
-   "title": "Seattle Council and Mayor Spar Over Amended Budget",
-   "link": "https://www.theurbanist.org/seattle-council-and-mayor-spar-over-amended-budget/",
-   "date": "2026-11-18T14:00:00.000Z",
-   "summary": "The Seattle City Council finalized 2027-2028 budget legislation, weighing amendments Friday and Monday in a two-day marathon that felt at times like it might go off the rails. Throughout, the process highlighted clear tensions between councilmembers as they argued about transparency and fiscal responsibility under…",
-   "image": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/2026/11/data-src-image-71bc0fc1-4eab-4c62-a96e-f426d429205c-1-.png"
-  },
-  {
    "id": "stb:https://seattletransitblog.com/?p=150883",
    "feed": "stb",
    "title": "Midweek Roundup: Big Car",
@@ -1820,15 +1829,6 @@
    "date": "2026-11-15T11:00:00.000Z",
    "summary": "The Metro Liner YouTube channel has timeline animations of various cities’ subway network expansions. Today we’ll feature the Paris Metro and RER: Other cities include the New York City Subway, Vancouver Skytrain, Chicago L, Los Angeles Metro, DC Metro, Toronto Subway, London Underground and friends, London future,…",
    "image": ""
-  },
-  {
-   "id": "stb:https://seattletransitblog.com/?p=150651",
-   "feed": "stb",
-   "title": "Alternative Transit Modes",
-   "link": "https://seattletransitblog.com/2026/11/14/alternative-transit-modes/",
-   "date": "2026-11-14T18:34:16.000Z",
-   "summary": "As I explained in an earlier guideway post, Sound Transit chose light rail technology to make it easier to use the existing transit tunnel and to run and stop at grade but many new technologies have been developed since. As Sound Transit builds a lot more elevated and tunneled sections and opens new lines in urban…",
-   "image": "https://i0.wp.com/seattletransitblog.com/wp-content/uploads/2026/11/image-9.png?resize=525%2C256&#038;ssl=1"
   },
   {
    "id": "strongtowns:https://www.strongtowns.org/journal/2026-11-13-what-do-we-mean-when-we-say-housing-has-value",
