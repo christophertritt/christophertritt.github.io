@@ -1,0 +1,9 @@
+# Build-only files that should not be served as part of the site
+.wrangler
+wrangler.jsonc
+.assetsignore
+.git
+.github
+node_modules
+src
+scripts
